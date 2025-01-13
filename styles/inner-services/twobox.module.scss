@@ -1,0 +1,126 @@
+.twoBoxSection {
+    .towBoxContainer {
+        height: 400px;
+        align-content: center;
+        padding: 0px 40px;
+        border-radius: 30px;
+        --bgcolor: transparent;
+
+
+        &.colorBox {
+            background: linear-gradient(0deg, var(--bgcolor)-15.92%, #FFFFFF 111.07%);
+
+            p,
+            h2 {
+                color: #000;
+            }
+        }
+
+        &.imageBox {
+            position: relative;
+            border-radius: 30px;
+
+            img {
+                object-fit: cover;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            height: 360px;
+            padding: 0px 40px;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            height: 340px;
+            padding: 0px 40px;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            height: 300px;
+            padding: 0px 30px;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            height: 280px;
+            padding: 0px 30px;
+            border-radius: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            height: 240px;
+            padding: 20px 20px;
+            border-radius: 20px;
+
+            &.imageBox {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            height: 200px;
+            padding: 20px 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+
+            &.imageBox {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .twoBoxSection {
+        .towBoxContainer {
+            min-height: 200px;
+            height: auto;
+            padding: 20px 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+
+            &.imageBox {
+                border-radius: 20px;
+
+                img {
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
