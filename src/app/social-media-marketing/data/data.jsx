@@ -4,7 +4,7 @@ export const BannerData = {
     subtitle: "No. 1 Social Media Marketing Company in the U.S.",
     title: "An Agency You Can Trust",
     desc: "Struggling to cut through the noise on social media? You’re not alone. At Infinitidigital, we create strategies that don’t just get you noticed—they get you results.",
-    video: "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/720p/file.mp4?loc=external&log_user=0&signature=27eb31d173fb744c4981bffe218fca1bc13be18f86f4fea3e84d75885ed500a7",
+    video: "https://player.vimeo.com/progressive_redirect/playback/1048884947/rendition/1080p/file.mp4?loc=external&log_user=0&signature=6c947d88a8cbe4af33dff296c7678ea0fb700eae835690f1c2baf6406e286c23",
     BannerPoster: BannerPoster.src
 }
 //Services
@@ -120,11 +120,8 @@ export const PriceData = {
             packagename: "Launch Package",
             titletxt: "Kickstart Your Brand’s Digital Presence",
             price1: "1250",
-            price2: "1750",
-            price3: "2250",
-            discount1: "Monthly",
-            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
-            discount3: (<> Annually <span>(Saves 28%)</span></>),
+            price2: "1050",
+            price3: "900",
             txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
             bodyPoints: [
                 {
@@ -163,10 +160,7 @@ export const PriceData = {
             titletxt: "Take Your Brand to the Next Level",
             price1: "1750",
             price2: "1470",
-            price3: "1890",
-            discount1: "Monthly",
-            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
-            discount3: (<> Annually <span>(Saves 28%)</span></>),
+            price3: "1260",
             txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
             bodyPoints: [
                 {
@@ -221,11 +215,8 @@ export const PriceData = {
             packagename: "Dominate Package ",
             titletxt: "Achieve Social Media Leadership",
             price1: "2250",
-            price2: "1260",
+            price2: "1890",
             price3: "1620",
-            discount1: "Monthly",
-            discount2: (<>Quarterly <span>(Saves 16%)</span></>),
-            discount3: (<> Annually <span>(Saves 28%)</span></>),
             txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
             bodyPoints: [
                 {

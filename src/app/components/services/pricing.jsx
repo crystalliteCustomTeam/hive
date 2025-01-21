@@ -13,7 +13,7 @@ const Pricing = ({ data, bg, tab }) => {
     };
 
     return (
-        <section className={`pt-100 ${styles.pricingSection} ${bg === "yes" ? styles.blackBG : ""}`}>
+        <section className={`pt-100 ${styles.pricingSection} ${bg === "yes" ? styles.blackBG : ""}`} id="PricingId">
             <Container>
                 <Row>
                     <Col md={7}>
@@ -28,10 +28,10 @@ const Pricing = ({ data, bg, tab }) => {
                                     Monthly
                                 </li>
                                 <li onClick={() => handlePriceClick(2)} className={selectedPrice === 2 ? styles.active : ""}>
-                                    Quarterly
+                                    Quarterly <span>Saves 16%</span>
                                 </li>
                                 <li onClick={() => handlePriceClick(3)} className={selectedPrice === 3 ? styles.active : ""}>
-                                    Annually
+                                    Annually <span>Saves 28%</span>
                                 </li>
                             </ul>
                         ) : (
@@ -50,10 +50,12 @@ const Pricing = ({ data, bg, tab }) => {
                                     key={index}>
                                     <div className={styles.packageHeader}>
                                         <div className={styles.packageName}>{item.packagename}</div>
-                                        <div className={styles.packagePrice}>${item[`price${selectedPrice}`] || item.price}/<span>{item[`discount${selectedPrice}`] || "Monthly"}</span></div>
+                                        <div className={styles.packagePrice}>${item[`price${selectedPrice}`] || item.price}/<span>Month</span></div>
                                         {item.titletxt ? <div className={styles.packageSubTxt}>{item?.titletxt}</div> : ""}
                                         <div className={styles.packagepara}>{item.txt}</div>
-                                        <div className={styles.packagebutton}> <CommonBtn ArrowBtn={true} SimpleBtn={true} txt="Get Started" /></div>
+                                        <div className={styles.packagebutton}>
+                                            <CommonBtn ArrowBtn={true} SimpleBtn={true} txt="Get Started" />
+                                        </div>
                                     </div>
                                     <div className={styles.packageBody}>
                                         {item.bodyPoints.map((point, idx) => (
