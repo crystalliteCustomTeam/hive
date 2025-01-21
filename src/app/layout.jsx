@@ -15,8 +15,8 @@ export const metadata = {
   title: "Inifniti Digital",
   description: "",
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   }
 };
 
