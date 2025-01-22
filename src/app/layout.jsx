@@ -14,6 +14,13 @@ const poppins = Poppins({
 export const metadata = {
   title: "Inifniti Digital",
   description: "",
+  //===== Google Varification =====
+  verification: {
+    other: {
+      "google-site-verification": ['btqt1QyuPBr3EkUgOcgoKk46tz6ZrUfJ53kiCjQj7fA'],
+    },
+  },
+  //===== No-Index =====
   robots: {
     index: false,
     follow: false,
