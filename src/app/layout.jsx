@@ -10,6 +10,7 @@ const poppins = Poppins({
   display: 'swap',
 });
 
+
 export const metadata = {
   title: "Inifniti Digital",
   description: "",
