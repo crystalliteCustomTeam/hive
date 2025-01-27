@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Custom Android App Development Company - Android App Company",
+  description: "Hire a one-stop android app development company for custom android app development services to change your app idea into reality.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/book-writing',
+    title: "Custom Android App Development Company - Android App Company",
+    description: "Hire a one-stop android app development company for custom android app development services to change your app idea into reality.",
+    url: '/android-app-development-company',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/android-app-development-company' },
 }
 
 

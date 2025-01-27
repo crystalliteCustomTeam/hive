@@ -3,11 +3,11 @@
 export const metadata = {
   //===== Meta Tags =====
   title: "YouTube Optimization Services For 10x Channel Growth",
-  description: "Grow your YouTube career and increase video rankings with Infiniti Digital. We optimize your channel according to the target audience. ",
+  description: "Grow your YouTube career and increase video visibility with Infiniti Digital. We optimize your channel and rank your videos higher in youtube search.",
   //===== OG Tags =====
   openGraph: {
     title: "YouTube Optimization Services For 10x Channel Growth",
-    description: "Grow your YouTube career and increase video rankings with Infiniti Digital. We optimize your channel according to the target audience. ",
+    description: "Grow your YouTube career and increase video visibility with Infiniti Digital. We optimize your channel and rank your videos higher in youtube search.",
     url: '/youtube-optimization-service',
     siteName: "Inifniti Digital",
     locale: 'en_US',

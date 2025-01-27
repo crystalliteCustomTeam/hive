@@ -2,11 +2,11 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Small Business SEO Services - SEO For Small Businesses",
+  title: "Affordable SEO for Small Businesses That Drive Growth",
   description: "Our Small Business SEO Services Will Rank Your Website On The Top. View Plans & Pricing & Let's Discuss Your Needs.",
   //===== OG Tags =====
   openGraph: {
-    title: "Small Business SEO Services - SEO For Small Businesses",
+    title: "Affordable SEO for Small Businesses That Drive Growth",
     description: "Our Small Business SEO Services Will Rank Your Website On The Top. View Plans & Pricing & Let's Discuss Your Needs.",
     url: '/small-business-seo-services',
     siteName: "Inifniti Digital",

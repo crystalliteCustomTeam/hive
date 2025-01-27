@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Sales Driven Online Store With Our Shopify Development Services",
+  description: "Infiniti Digital offers a wide range of Shopify Ecommerce Development Services that focuses on generating more sales. Because in the end, sales matter!",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/book-writing',
+    title: "Sales Driven Online Store With Our Shopify Development Services",
+    description: "Infiniti Digital offers a wide range of Shopify Ecommerce Development Services that focuses on generating more sales. Because in the end, sales matter!",
+    url: '/shopify-website-development-services',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/shopify-website-development-services' },
 }
 
 

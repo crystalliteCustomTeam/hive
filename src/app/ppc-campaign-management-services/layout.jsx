@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Hire PPC Management Services To Get 35% Growth In Sales",
-  description: "Want your business to grow at an exponential rate? Hire our PPC Management Agency and give your business the results it deserves!",
+  title: "Maximize ROI with Expert PPC Management Services",
+  description: "Want your business to grow at an exponential rate? Hire our PPC Management Agency and advertise your business across Google search network.",
   //===== OG Tags =====
   openGraph: {
-    title: "Hire PPC Management Services To Get 35% Growth In Sales",
-    description: "Want your business to grow at an exponential rate? Hire our PPC Management Agency and give your business the results it deserves!",
+    title: "Maximize ROI with Expert PPC Management Services",
+    description: "Want your business to grow at an exponential rate? Hire our PPC Management Agency and advertise your business across Google search network.",
     url: '/ppc-campaign-management-services',
     siteName: "Inifniti Digital",
     locale: 'en_US',

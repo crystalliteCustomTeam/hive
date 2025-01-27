@@ -19,7 +19,7 @@ const MainServicesLinks = [
         url: "/mobile-app-development",
     },
     {
-        url: "/paid-marketing",
+        url: "/paid-marketing-services",
     },
     {
         url: "/seo",
@@ -225,7 +225,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/paid-marketing">Paid Marketing</Link>
+                        <Link href="/paid-marketing-services">Paid Marketing</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {PaidMarketing.map((item, index) => (
@@ -312,7 +312,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(PaidMarketing) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/paid-marketing">Paid Marketing<ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/paid-marketing-services">Paid Marketing<ArrowIcon /></Link></div>
                                             <ul>
                                                 {PaidMarketing.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

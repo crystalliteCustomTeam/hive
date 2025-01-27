@@ -2,11 +2,11 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Top Email Marketing Agency With ROI-Focused Email Marketing",
+  title: "Top Email Marketing Agency With ROI-Driven Campaigns",
   description: "Email marketing campaign services that drives revenue growth and boosts lead generation. Get Your Free Proposal Today!",
   //===== OG Tags =====
   openGraph: {
-    title: "Top Email Marketing Agency With ROI-Focused Email Marketing",
+    title: "Top Email Marketing Agency With ROI-Driven Campaigns",
     description: "Email marketing campaign services that drives revenue growth and boosts lead generation. Get Your Free Proposal Today!",
     url: '/email-marketing-agency',
     siteName: "Inifniti Digital",

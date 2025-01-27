@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Website Redesign Services - Infiniti Digital",
+  description: "Tired of seeing your old and rusty website design? Give your website a fresh new look with our affordable website redesign services.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/book-writing',
+    title: "Website Redesign Services - Infiniti Digital",
+    description: "Tired of seeing your old and rusty website design? Give your website a fresh new look with our affordable website redesign services.",
+    url: '/website-redesign-services',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/website-redesign-services' },
 }
 
 

@@ -2,20 +2,20 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "",
-  description: "",
+  title: "Premium Audiobook Production Services - Infiniti Digital",
+  description: "Infiniti Digital offers a complete audiobook recording & production service. We edit, and publish your audiobook across multiple platforms. Earn upto 75% royalties.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: '/book-writing',
+    title: "Premium Audiobook Production Services - Infiniti Digital",
+    description: "Infiniti Digital offers a complete audiobook recording & production service. We edit, and publish your audiobook across multiple platforms. Earn upto 75% royalties.",
+    url: '/audiobook-production',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/audiobook-production' },
 }
 
 
