@@ -13,7 +13,7 @@ export const subMenuItems = [
     { label: "YouTube Optimization", path: "/youtube-optimization-service" },
     { label: "YouTube Monetization", path: "/youtube-monetization-service" },
     { label: "Email Marketing", path: "/email-marketing-agency" },
-    { label: "Google Ads(PPC)", path: "/ppc-campaign-management-services" },
+    { label: "Google Ads (PPC)", path: "/ppc-campaign-management-services" },
     { label: "Amazon Ads", path: "/amazon-advertising" },
     { label: "Facebook Ads", path: "/facebook-ads-service" },
 
@@ -91,8 +91,12 @@ const Footer = () => {
                                             </a>
                                         </div>
                                         <div className={styles.contactInfo}>
-                                            <a href="mailto:support@Infinitidigital.com" target="_blank" aria-label={`Our Email Address`}>
-                                                Email: support@Infinitidigital.com
+                                            <a href="mailto:support@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
+                                                Email: support@infinitidigital.us
+                                            </a>
+                                            <br />
+                                            <a href="mailto:inquiries@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
+                                                Email: inquiries@infinitidigital.us
                                             </a>
                                         </div>
                                         <div className={styles.contactAddress}>
@@ -102,7 +106,6 @@ const Footer = () => {
                                                 </a>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
