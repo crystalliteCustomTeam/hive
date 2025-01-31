@@ -76,7 +76,7 @@ export const ContentData = {
     maintitle: true,
     title: "SEO Agency That Guarantees Growth",
     contentTxt: (<>
-        <p>Turn visitors into customers with campaigns made just for your business.Contact us to see real results.At InfinitiDigital, we believe SEO is more than just getting people to visit your site; it’s about getting them to become loyal customers.Our strategies will help your website rank higher and connect with the right audience.Let us help you, let’s talk!</p>
+        <p>Turn visitors into customers with campaigns made just for your business. Contact us to see real results. At InfinitiDigital, we believe SEO is more than just getting people to visit your site; it’s about getting them to become loyal customers. Our strategies will help your website rank higher and connect with the right audience. Let us help you, let’s talk!</p>
     </>),
     img: ContentImg.src
 }
