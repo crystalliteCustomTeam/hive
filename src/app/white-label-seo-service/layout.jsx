@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/white-label-seo-service' },
+  alternates: { canonical: 'https://www.infinitidigital.us/white-label-seo-service' },
 }
 
 

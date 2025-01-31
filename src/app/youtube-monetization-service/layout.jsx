@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/youtube-monetization-service' },
+  alternates: { canonical: 'https://www.infinitidigital.us/youtube-monetization-service' },
 }
 
 

@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-cover-design' },
+  alternates: { canonical: 'https://www.infinitidigital.us/book-cover-design' },
 }
 
 

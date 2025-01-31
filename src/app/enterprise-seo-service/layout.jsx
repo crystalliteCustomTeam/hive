@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/enterprise-seo-service' },
+  alternates: { canonical: 'https://www.infinitidigital.us/enterprise-seo-service' },
 }
 
 

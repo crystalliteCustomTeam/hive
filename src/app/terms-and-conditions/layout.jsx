@@ -15,7 +15,7 @@ export const metadata = {
         images: "",
     },
     //===== Canonical =====
-    alternates: { canonical: '/refund-policy' },
+    alternates: { canonical: 'https://www.infinitidigital.us/refund-policy' },
 }
 
 

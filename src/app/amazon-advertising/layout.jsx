@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/amazon-advertising' },
+  alternates: { canonical: 'https://www.infinitidigital.us/amazon-advertising' },
 }
 
 

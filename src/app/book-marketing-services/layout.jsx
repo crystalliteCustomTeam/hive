@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-marketing-services' },
+  alternates: { canonical: 'https://www.infinitidigital.us/book-marketing-services' },
 }
 
 

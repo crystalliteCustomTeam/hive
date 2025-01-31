@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/facebook-ads-service' },
+  alternates: { canonical: 'https://www.infinitidigital.us/facebook-ads-service' },
 }
 
 

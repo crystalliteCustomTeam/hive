@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/audiobook-production' },
+  alternates: { canonical: 'https://www.infinitidigital.us/audiobook-production' },
 }
 
 

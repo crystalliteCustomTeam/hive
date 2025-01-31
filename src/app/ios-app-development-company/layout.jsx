@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/ios-app-development-company' },
+  alternates: { canonical: 'https://www.infinitidigital.us/ios-app-development-company' },
 }
 
 

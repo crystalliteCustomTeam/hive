@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-video-trailer' },
+  alternates: { canonical: 'https://www.infinitidigital.us/book-video-trailer' },
 }
 
 

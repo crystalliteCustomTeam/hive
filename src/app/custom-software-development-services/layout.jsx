@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/custom-software-development-services' },
+  alternates: { canonical: 'https://www.infinitidigital.us/custom-software-development-services' },
 }
 
 

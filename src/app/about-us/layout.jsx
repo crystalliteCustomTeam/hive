@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/about-us' },
+  alternates: { canonical: 'https://www.infinitidigital.us/about-us' },
 }
 
 

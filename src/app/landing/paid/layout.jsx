@@ -17,7 +17,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/landing/paid-marketing' },
+  alternates: { canonical: 'https://www.infinitidigital.us/landing/paid-marketing' },
 }
 
 

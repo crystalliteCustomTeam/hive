@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/shopify-website-development-services' },
+  alternates: { canonical: 'https://www.infinitidigital.us/shopify-website-development-services' },
 }
 
 

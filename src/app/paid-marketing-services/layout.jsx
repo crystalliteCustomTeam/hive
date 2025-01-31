@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/ppc-campaign-management-services' },
+  alternates: { canonical: 'https://www.infinitidigital.us/ppc-campaign-management-services' },
 }
 
 

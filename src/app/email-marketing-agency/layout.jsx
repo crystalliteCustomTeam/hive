@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/email-marketing-agency' },
+  alternates: { canonical: 'https://www.infinitidigital.us/email-marketing-agency' },
 }
 
 

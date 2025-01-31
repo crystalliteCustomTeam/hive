@@ -15,7 +15,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/children-book-illustration' },
+  alternates: { canonical: 'https://www.infinitidigital.us/children-book-illustration' },
 }
 
 

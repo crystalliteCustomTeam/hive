@@ -25,13 +25,7 @@ export const metadata = {
     images: "",
   },
   //===== Canonical =====
-  alternates: { canonical: '/' },
-  //===== Google Varification =====
-  verification: {
-    other: {
-      "google-site-verification": ['btqt1QyuPBr3EkUgOcgoKk46tz6ZrUfJ53kiCjQj7fA'],
-    },
-  },
+  alternates: { canonical: 'https://www.infinitidigital.us' },
   //===== No-Index =====
   robots: {
     index: true,

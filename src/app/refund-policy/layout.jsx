@@ -15,7 +15,7 @@ export const metadata = {
         images: "",
     },
     //===== Canonical =====
-    alternates: { canonical: '/terms-and-conditions' },
+    alternates: { canonical: 'https://www.infinitidigital.us/terms-and-conditions' },
 }
 
 
