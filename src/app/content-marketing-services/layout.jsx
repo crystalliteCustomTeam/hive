@@ -8,14 +8,14 @@ export const metadata = {
   openGraph: {
     title: "We're Here To Help With Best Content Marketing Services ",
     description: "With our content marketing services, you get everything from SEO strategy & content creation to content management. You'll work with us for Infinity.",
-    url: '/content-marketing',
+    url: '/content-marketing-services',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/content-marketing' },
+  alternates: { canonical: '/content-marketing-services' },
 }
 
 

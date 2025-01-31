@@ -12,10 +12,10 @@ export const metadata = {
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/ios-app-development-company' },
+  alternates: { canonical: '/ios-app-development-company' },
 }
 
 

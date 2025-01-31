@@ -8,14 +8,14 @@ export const metadata = {
   openGraph: {
     title: "Web Development Company - Infiniti Digital",
     description: "Get more traffic and acquire more customers with #1 web development company in USA. contact now, and lets talk design!",
-    url: '/web-development',
+    url: '/web-development-company',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/web-development' },
+  alternates: { canonical: '/web-development-company' },
 }
 
 

@@ -17,7 +17,7 @@ import Opportunities from '@/src/app/components/services/opportunities'
 import Pricing from '@/src/app/components/services/pricing'
 import Solution from '@/src/app/components/services/solution'
 import TestimonialServices from '@/src/app/components/services/testimonialservice'
-import { BannerData, CallActionData, ContentData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, CreativesData, TestimonialData } from '@/src/app/social-media-marketing/data/data'
+import { BannerData, CallActionData, ContentData, CtaData, CtaPinkData, FAQsData, LastestWorkData, OpportunitiesData, PriceData, SolData, CreativesData, TestimonialData } from '@/src/app/social-media-marketing-services/data/data'
 import { AwardsData, IndustriesData, PlatformsData, FollowsData, BlgosData, IndustryItem, WorkData } from '@/src/app/home/data/data'
 
 

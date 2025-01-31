@@ -7,22 +7,22 @@ import { useState } from 'react';
 import { usePathname } from "next/navigation";
 const MainServicesLinks = [
     {
-        url: "/social-media-marketing",
+        url: "/social-media-marketing-services",
     },
     {
-        url: "/web-development",
+        url: "/web-development-company",
     },
     {
-        url: "/content-marketing",
+        url: "/content-marketing-services",
     },
     {
-        url: "/mobile-app-development",
+        url: "/mobile-app-development-company",
     },
     {
         url: "/paid-marketing-services",
     },
     {
-        url: "/seo",
+        url: "/seo-service",
     },
 
 ]
@@ -216,7 +216,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/social-media-marketing" onClick={handleClick}>SMM</Link>
+                        <Link href="/social-media-marketing-services" onClick={handleClick}>SMM</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {SmmMenu.map((item, index) => (
@@ -234,7 +234,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/content-marketing">Content Marketing</Link>
+                        <Link href="/content-marketing-services">Content Marketing</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {ContentMarketing.map((item, index) => (
@@ -243,7 +243,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/mobile-app-development">Mobile App Development</Link>
+                        <Link href="/mobile-app-development-company">Mobile App Development</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {MobileApp.map((item, index) => (
@@ -252,7 +252,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         </ul>
                     </li>
                     <li className={styles.subMobileMenu}>
-                        <Link href="/web-development">Website Design & Development</Link>
+                        <Link href="/web-development-company">Website Design & Development</Link>
                         <div className={styles.subMenuIcon}><SubMenuIcon /></div>
                         <ul className={styles.mobilesubMenu}>
                             {WebsiteDesign.map((item, index) => (
@@ -304,7 +304,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                             </ul>
                                         </div>
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(SmmMenu) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/social-media-marketing">SMM <ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/social-media-marketing-services">SMM <ArrowIcon /></Link></div>
                                             <ul>
                                                 {SmmMenu.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -321,7 +321,7 @@ const Navigation = ({ scrolled, isLight }) => {
                                         </div>
 
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(ContentMarketing) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/content-marketing">Content Marketing <ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/content-marketing-services">Content Marketing <ArrowIcon /></Link></div>
                                             <ul>
                                                 {ContentMarketing.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
@@ -330,14 +330,14 @@ const Navigation = ({ scrolled, isLight }) => {
                                         </div>
 
                                         <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(MobileApp) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/mobile-app-development">Mobile App Development<ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/mobile-app-development-company">Mobile App Development<ArrowIcon /></Link></div>
                                             <ul>
                                                 {MobileApp.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>
                                                 ))}
                                             </ul>
                                         </div> <div className={`${styles.serivesMenuItem} ${isActiveSubMenu(ContentMarketing) ? styles.active : ""}`} >
-                                            <div className={styles.title}><Link href="/web-development">Website Design & Development<ArrowIcon /></Link></div>
+                                            <div className={styles.title}><Link href="/web-development-company">Website Design & Development<ArrowIcon /></Link></div>
                                             <ul>
                                                 {WebsiteDesign.map((item, index) => (
                                                     <li key={index} className={isActiveLink(item.url) ? styles.active : ""}><Link href={item.url}><MenuIcon />{item.title}</Link></li>

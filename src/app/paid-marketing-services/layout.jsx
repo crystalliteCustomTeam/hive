@@ -8,14 +8,14 @@ export const metadata = {
   openGraph: {
     title: "Hire Paid Marketing Services Company To Grow Your Revenue",
     description: "Drive targeted traffic and qualified leads with Infiniti Digital paid marketing services. Broadcast your services across multiple mediums and channels.",
-    url: '/ppc-campaign-management-services',
+    url: '/paid-marketing-services',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/ppc-campaign-management-services' },
+  alternates: { canonical: '/paid-marketing-services' },
 }
 
 

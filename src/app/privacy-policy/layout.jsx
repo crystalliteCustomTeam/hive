@@ -15,7 +15,7 @@ export const metadata = {
         images: "",
     },
     //===== Canonical =====
-    alternates: { canonical: 'https://www.infinitidigital.us/privacy-policy' },
+    alternates: { canonical: '/privacy-policy' },
 }
 
 

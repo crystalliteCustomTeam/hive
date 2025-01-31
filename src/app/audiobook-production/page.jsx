@@ -15,7 +15,7 @@ import ContentSection from '@/src/app/components/innerservices/content'
 import BookTabs from '@/src/app/components/innerservices/booktabs'
 import { BannerData, ServicesData, NewsLetterData, ContentData, ProcessData, TestimonialData, BookTabsData, PriceData, CtaPinkData, IndustriesData, CallActionData, FAQsData } from '@/src/app/audiobook-production/data/data'
 import ServicesMain from '@/src/app/components/services/servicesmain'
-import { BookTabsItem } from '@/src/app/content-marketing/data/data'
+import { BookTabsItem } from '@/src/app/content-marketing-services/data/data'
 
 const Page = () => {
     return (

@@ -12,6 +12,7 @@ const poppins = Poppins({
 
 
 export const metadata = {
+  metadataBase: new URL("https://www.infinitidigital.us/"),
   title: "1# Full-Service Digital Marketing Agency - Infiniti Digital",
   description: "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more! ",
   //===== OG Tags =====
@@ -22,10 +23,18 @@ export const metadata = {
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us' },
+  alternates: { canonical: '/' },
+
+  //===== Google Varification =====
+  verification: {
+    other: {
+      "google-site-verification": ['IxKMq1ApRJHoKxrGMlzB8edlDEONyQpej3So1ejiHG4'],
+    },
+  },
+
   //===== No-Index =====
   robots: {
     index: true,

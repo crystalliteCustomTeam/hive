@@ -8,14 +8,14 @@ export const metadata = {
   openGraph: {
     title: "Mobile App Development Company - Award-Winning App Developers",
     description: "Mobile app development company specializing in the development of iPhone, Android and Web applications. Contact us and get free quote now!",
-    url: '/mobile-app-development',
+    url: '/mobile-app-development-company',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/mobile-app-development' },
+  alternates: { canonical: '/mobile-app-development-company' },
 }
 
 

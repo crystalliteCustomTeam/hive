@@ -12,10 +12,10 @@ export const metadata = {
     siteName: 'Video Animations',
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/thank-you' },
+  alternates: { canonical: '/thank-you' },
 }
 
 

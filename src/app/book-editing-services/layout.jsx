@@ -12,10 +12,10 @@ export const metadata = {
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
-    images: "",
+    images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://www.infinitidigital.us/book-editing-services' },
+  alternates: { canonical: '/book-editing-services' },
 }
 
 

@@ -14,7 +14,7 @@ import Blogs from '@/src/app/home/blogs';
 import Faqs from '@/src/app/home/faq';
 import Process from '@/src/app/components/services/process';
 import { AwardsData, FollowsData, PartnerData, WorkData, BlgosData, IndustryItem } from '@/src/app/home/data/data';
-import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData, ChooseUsData, BannerData, IndustriesData, TestimonialData, } from '@/src/app/content-marketing/data/data';
+import { FAQsData, PriceData, ProcessData, ServicesData, CtaData, CallActionData, ChooseUsData, BannerData, IndustriesData, TestimonialData, } from '@/src/app/content-marketing-services/data/data';
 
 
 const Page = () => {

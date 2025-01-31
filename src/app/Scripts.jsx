@@ -2,8 +2,6 @@
 import { useEffect } from 'react';
 
 const Scripts = () => {
-    {/* Google Site Verification */ }
-    <meta name="google-site-verification" content="btqt1QyuPBr3EkUgOcgoKk46tz6ZrUfJ53kiCjQj7fA" />
     useEffect(() => {
         const timer = setTimeout(() => {
             //======== LiveChat ========//
