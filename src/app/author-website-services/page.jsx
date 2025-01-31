@@ -13,7 +13,7 @@ import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
 import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, WebProjectData, PriceData } from '@/src/app/author-website-services/data/data'
 import { FollowsData, TestimonialData, PartnerData, CallActionData, BlgosData, FAQsData } from '@/src/app/home/data/data'
-import { WebProjectItem } from '@/src/app/web-development/data/data'
+import { WebProjectItem } from '@/src/app/web-development-company/data/data'
 const Page = () => {
     return (
         <>

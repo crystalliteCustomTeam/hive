@@ -12,7 +12,7 @@ import Pricing from '@/src/app/components/services/pricing'
 import ServicesMain from '@/src/app/components/services/servicesmain'
 import { PlatformsData, CallActionData, FollowsData, BlgosData } from '@/src/app/home/data/data'
 import { BannerData, ContentData, NewsLetterData, TwoBoxData, ServicesData, TestimonialData, FAQsData } from '@/src/app/social-media-management-service/data/data'
-import { PriceData } from '@/src/app/social-media-marketing/data/data'
+import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 
 const Page = () => {
     return (

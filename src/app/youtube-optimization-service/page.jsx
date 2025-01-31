@@ -11,7 +11,7 @@ import ServicesMain from '@/src/app/components/services/servicesmain'
 import Pricing from '@/src/app/components/services/pricing'
 import { PlatformsData, FollowsData, BlgosData } from '@/src/app/home/data/data'
 import { BannerData, ContentData, TestimonialData, NewsLetterData, CallActionData, ContentData1, ServicesData, FAQsData } from '@/src/app/youtube-optimization-service/data/data'
-import { PriceData } from '@/src/app/social-media-marketing/data/data'
+import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 const Page = () => {
     return (
         <>

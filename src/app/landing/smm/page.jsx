@@ -9,7 +9,7 @@ import PlateFromLp from "@/src/app/landing/components/platefromlp"
 import TalkLp from "@/src/app/landing/components/talk"
 import MarketTrend from "@/src/app/landing/components/markettrend"
 import Pricing from '@/src/app/components/services/pricing'
-import { PriceData } from '@/src/app/social-media-marketing/data/data'
+import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
 import { StateCounter, CtaData, FAQsData, ContactData, ServicesData } from "@/src/app/landing/smm/data/data"

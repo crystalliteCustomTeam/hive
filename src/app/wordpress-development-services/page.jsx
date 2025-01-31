@@ -12,7 +12,7 @@ import Blogs from '@/src/app/home/blogs'
 import Faqs from '@/src/app/home/faq'
 import { BannerData, StateCounter, ProcessData, ContentData, NewsLetterData, WebProjectData, PriceData, TestimonialData, FAQsData } from '@/src/app/wordpress-development-services/data/data'
 import { FollowsData, PartnerData, CallActionData, BlgosData } from '@/src/app/home/data/data'
-import { WebProjectItem } from '@/src/app/web-development/data/data'
+import { WebProjectItem } from '@/src/app/web-development-company/data/data'
 import SimpleContent from '@/src/app/components/innerservices/simplecontent'
 
 

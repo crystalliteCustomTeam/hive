@@ -13,7 +13,7 @@ import Faqs from "@/src/app/home/faq";
 import Pricing from '@/src/app/components/services/pricing'
 import { BannerData, ContentData, NewsLetterData, TableContetData, TwoBoxData, InnerServicesData, ContentData1, FAQsData, TestimonialData } from '@/src/app/influencer-marketing-service/data/data'
 import { PlatformsData, CallActionData, FollowsData, BlgosData } from '@/src/app/home/data/data'
-import { PriceData } from '@/src/app/social-media-marketing/data/data'
+import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 
 const Page = () => {
     return (
