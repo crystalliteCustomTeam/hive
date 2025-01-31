@@ -14,6 +14,18 @@ const poppins = Poppins({
 export const metadata = {
   title: "1# Full-Service Digital Marketing Agency - Infiniti Digital",
   description: "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more! ",
+  //===== OG Tags =====
+  openGraph: {
+    title: "1# Full-Service Digital Marketing Agency - Infiniti Digital",
+    description: "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more! ",
+    url: '/',
+    siteName: "Inifniti Digital",
+    locale: 'en_US',
+    type: 'website',
+    images: "",
+  },
+  //===== Canonical =====
+  alternates: { canonical: '/' },
   //===== Google Varification =====
   verification: {
     other: {
@@ -22,10 +34,11 @@ export const metadata = {
   },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   }
 };
+
 
 export default function RootLayout({ children }) {
 
