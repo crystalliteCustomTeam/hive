@@ -28,6 +28,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Top Email Marketing Agency With ROI-Driven Campaigns",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/email-marketing-agency",
+        "description": "Email marketing campaign services that drives revenue growth and boosts lead generation. Get your free proposal today!",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "ratingCount": "1067"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

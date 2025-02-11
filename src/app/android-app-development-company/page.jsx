@@ -34,6 +34,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Custom Android App Development Company - Android App Company",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/android-app-development-company",
+                "description": "Hire a one-stop android app development company for custom android app development services to change your app idea into reality.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.6",
+                  "ratingCount": "1001"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

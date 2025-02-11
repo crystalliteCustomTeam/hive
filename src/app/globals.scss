@@ -192,7 +192,7 @@ p {
 
 .ContentUl {
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 0px;
 
     li {
         font-style: normal;
@@ -221,17 +221,17 @@ p {
             }
         }
 
-        span {
-            svg {
-                margin-right: 10px;
-                width: 15px;
-                height: auto;
 
-                circle {
-                    stroke: #333;
-                }
+        svg {
+            margin-right: 10px;
+            width: 15px;
+            height: auto;
+
+            path {
+                fill: #333;
             }
         }
+
 
     }
 }

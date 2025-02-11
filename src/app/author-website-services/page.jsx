@@ -30,6 +30,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Author Website Development Services - Infiniti Digital",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/author-website-services",
+                "description": "Develop your digital book with our professional author website design & development services. Contact us and get a quote today!",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.5",
+                  "ratingCount": "1150"
+                }
+              }
+            `,
+                }}
+            />
 
         </>
     )

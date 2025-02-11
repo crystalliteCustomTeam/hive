@@ -13,10 +13,11 @@ const BannerLp = () => {
                 <Row className="h-100">
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.bannerContentSec}>
-                            <h1>Accelerate Your Growth with Data Driven Paid Marketing</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                            <h1>PPC Ads Management That Doesn’t Treat Your Budget Like Monopoly Money.
+                            </h1>
+                            <p>Your competitors love your bad Google Ads strategy, let’s ruin their fun! With our PPC management service you’ll see real profits, not just pretty graphs.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Free Consultation" LiveChat={true} />
+                                <CommonBtn txt="Talk to an Expert" LiveChat={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />
@@ -25,7 +26,7 @@ const BannerLp = () => {
                     </Col>
                     <Col md={6} lg={5} className="my-auto offset-lg-1">
                         <div className={styles.bannerForms}>
-                            <h3>Want to Get a PPC Management Proposal from Infiniti Digital.</h3>
+                            <h3>Take your business to infinity and beyond with Infiniti Digital.</h3>
                             <ContactFrom bgBlack="no" />
                         </div>
                     </Col>

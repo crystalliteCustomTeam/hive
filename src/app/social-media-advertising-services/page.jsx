@@ -31,6 +31,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Social Media Advertising Services [Revenue Boost by 25%]",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/social-media-advertising-services",
+        "description": "Drive revenue with our expert meta ads services, plus social media ads for Twitter and Linkedin. Contact us for customized quote today!",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "1091"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

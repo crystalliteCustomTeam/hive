@@ -35,7 +35,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Expert SEO Services with Affordable SEO Packages",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/seo-service",
+                "description": "Looking for expert SEO services? We offers affordable SEO services to boost your online presence. Contact us today! Click for proof.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.6",
+                  "ratingCount": "981"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

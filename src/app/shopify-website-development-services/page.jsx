@@ -30,7 +30,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
-
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Sales Driven Online Store With Our Shopify Development Services",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/shopify-website-development-services",
+                "description": "Infiniti Digital offers a wide range of Shopify Ecommerce Development Services that focuses on generating more sales. Because in the end, sales matter!",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.2",
+                  "ratingCount": "992"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

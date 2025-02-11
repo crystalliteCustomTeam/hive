@@ -27,6 +27,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "YouTube Optimization Services For 10x Channel Growth",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/youtube-optimization-service",
+        "description": "Grow your YouTube career and increase video visibility with Infiniti Digital. We optimize your channel and rank your videos higher in youtube search.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "820"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

@@ -16,24 +16,49 @@ import { PlatformsData, CallActionData, FollowsData, BlgosData } from '@/src/app
 import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 
 const Page = () => {
-    return (
-        <>
-            <Banner data={BannerData} />
-            <ContentSection data={ContentData} bggray="yes" />
-            <NewsLetter data={NewsLetterData} />
-            <TableContent data={TableContetData} />
-            <TwoBox data={TwoBoxData} />
-            <Pricing data={PriceData} tab={true} />
-            <InnerServices data={InnerServicesData} />
-            <ContentSection data={ContentData1} bggray="yes" />
-            <PlateFroms data={PlatformsData} />
-            <Testimonials data={TestimonialData} />
-            <CtaForm data={CallActionData} />
-            <FollowUs data={FollowsData} />
-            <Blogs data={BlgosData} />
-            <Faqs data={FAQsData} />
-        </>
-    )
+  return (
+    <>
+      <Banner data={BannerData} />
+      <ContentSection data={ContentData} bggray="yes" />
+      <NewsLetter data={NewsLetterData} />
+      <TableContent data={TableContetData} />
+      <TwoBox data={TwoBoxData} />
+      <Pricing data={PriceData} tab={true} />
+      <InnerServices data={InnerServicesData} />
+      <ContentSection data={ContentData1} bggray="yes" />
+      <PlateFroms data={PlatformsData} />
+      <Testimonials data={TestimonialData} />
+      <CtaForm data={CallActionData} />
+      <FollowUs data={FollowsData} />
+      <Blogs data={BlgosData} />
+      <Faqs data={FAQsData} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Infiniti Digital: The Best Influencer Marketing Agency",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/influencer-marketing-service",
+        "description": "We are a global influencer marketing agency for the world's most popular brands. Hire us to connect with top influencers in your niche.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "701"
+        }
+      }
+    `,
+        }}
+      />
+
+    </>
+  )
 }
 
 export default Page

@@ -6,11 +6,9 @@ import ProcessLp from "@/src/app/landing/components/processlp"
 import WebProjects from '@/src/app/components/innerservices/webprojects'
 import AwardsLp from "@/src/app/landing/components/awardslp"
 import TalkLp from "@/src/app/landing/components/talk"
-import Pricing from '@/src/app/components/services/pricing'
-import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
-import { StateCounter, FAQsData, ContactData, StateCounterPoints, WebProjectData, SimpleContent, ServicesData } from "@/src/app/landing/paid/data/data"
+import { StateCounter, FAQsData, ContactData, StateCounterPoints, AwardsPoints, SimpleContent, ServicesData, processlp, talkData } from "@/src/app/landing/paid/data/data"
 import { WebProjectItem } from '@/src/app/web-development-company/data/data'
 
 const Page = () => {
@@ -21,12 +19,9 @@ const Page = () => {
             <ServicesLp data={ServicesData} />
             <StateCount data={StateCounterPoints} />
             <StateCountLP data={SimpleContent} alternet={true} video={true} />
-            <ProcessLp />
-            <TalkLp />
-            <Pricing data={PriceData} bg="yes" />
-            <WebProjects data={WebProjectData} dataItem={WebProjectItem} />
-            <AwardsLp />
-            <Faqs data={FAQsData} />
+            <ProcessLp data={processlp} />
+            <TalkLp data={talkData} />
+            <AwardsLp data={AwardsPoints} />
             <ContactLp data={ContactData} />
         </>
     )

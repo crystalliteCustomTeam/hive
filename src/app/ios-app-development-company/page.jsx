@@ -34,6 +34,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "iOS App Development Company - IPhone App Development",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/ios-app-development-company",
+                "description": "Infiniti Digital is a top iOS app development company creating high-quality, innovative, and timely apps that meet the exceptional standards of Apple devices.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.6",
+                  "ratingCount": "1024"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

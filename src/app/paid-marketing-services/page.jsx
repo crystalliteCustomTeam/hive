@@ -35,6 +35,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Hire Paid Marketing Services Company To Grow Your Revenue",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/paid-marketing-services",
+        "description": "Drive targeted traffic and qualified leads with Infiniti Digital paid marketing services. Broadcast your services across multiple mediums and channels.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "ratingCount": "1044"
+        }
+      }
+    `,
+                }}
+            />
+
 
         </>
     )

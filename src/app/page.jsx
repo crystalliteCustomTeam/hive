@@ -36,6 +36,30 @@ export default function Home() {
       <FollowUs data={FollowsData} />
       <Blogs data={BlgosData} />
       <Faqs data={FAQsData} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Infiniti Digital",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/",
+                "description": "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more!",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.5",
+                  "ratingCount": "702"
+                }
+              }
+            `,
+        }}
+      />
     </>
   );
 }

@@ -34,6 +34,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Amazon Advertising Services - We Manage Your AMZ Ads",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/amazon-advertising",
+        "description": "Our top priority as Amazon Product Ads Management Company is generating awareness for your brand, driving new purchases and generating repeat customers.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "991"
+        }
+      }
+    `,
+                }}
+            />
+
 
         </>
     )

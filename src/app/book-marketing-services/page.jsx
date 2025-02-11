@@ -18,25 +18,51 @@ import ServicesMain from '@/src/app/components/services/servicesmain'
 import { BookTabsItem } from '@/src/app/content-marketing-services/data/data'
 
 const Page = () => {
-    return (
-        <>
-            <Banner data={BannerData} />
-            <ServicesMain data={ServicesData} />
-            <NewsLetter data={NewsLetterData} />
-            <Process data={ProcessData} />
-            <ContentSection data={ContentData} />
-            <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
-            {/* <Pricing bg="yes" data={PriceData} /> */}
-            <CTA data={CtaPinkData} />
-            <Partners data={PartnerData} />
-            <Industries data={IndustriesData} IndustryData={IndustryItem} />
-            <Testimonials data={TestimonialData} />
-            <CtaForm data={CallActionData} />
-            <FollowUs data={FollowsData} />
-            <Blogs data={BlgosData} />
-            <Faqs data={FAQsData} />
-        </>
-    )
+  return (
+    <>
+      <Banner data={BannerData} />
+      <ServicesMain data={ServicesData} />
+      <NewsLetter data={NewsLetterData} />
+      <Process data={ProcessData} />
+      <ContentSection data={ContentData} />
+      <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
+      {/* <Pricing bg="yes" data={PriceData} /> */}
+      <CTA data={CtaPinkData} />
+      <Partners data={PartnerData} />
+      <Industries data={IndustriesData} IndustryData={IndustryItem} />
+      <Testimonials data={TestimonialData} />
+      <CtaForm data={CallActionData} />
+      <FollowUs data={FollowsData} />
+      <Blogs data={BlgosData} />
+      <Faqs data={FAQsData} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Sell More Books with Expert Book Marketing Services",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/book-marketing-services",
+        "description": "Hire book marketing services to help interested readers find out about your book more easily. Start spreading the news about your book today!",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "772"
+        }
+      }
+    `,
+        }}
+      />
+
+
+    </>
+  )
 }
 
 export default Page

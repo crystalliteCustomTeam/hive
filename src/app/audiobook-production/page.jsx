@@ -35,6 +35,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Premium Audiobook Production Services - Infiniti Digital",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/audiobook-production",
+        "description": "Infiniti Digital offers a complete audiobook recording & production service. We edit, and publish your audiobook across multiple platforms. Earn upto 75% royalties.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.2",
+          "ratingCount": "746"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

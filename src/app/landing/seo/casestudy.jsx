@@ -67,8 +67,8 @@ const CaseStudyLp = () => {
                 <Row className="h-100">
                     <Col md={8} lg={8} className="m-auto text-center">
                         <div className='subtitle'>Case Studies</div>
-                        <h2>Featured Case Studies</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <h2>We Don’t Do ‘Maybe,’ We Do ‘Hell Yeah.’ </h2>
+                        <p>If you think we’re all talk, these case studies will leave you speechless.</p>
                     </Col>
                     <Col md={12}>
                         <div className={styles.casestudyLpBox}>

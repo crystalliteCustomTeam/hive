@@ -37,6 +37,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Make More Revenue with the Best Local SEO Services",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/local-seo-service",
+                "description": "Increase your local search rankings, attract more customers, and drive lasting growth with our affordable Local SEO Services. We outsmart the competition!",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.4",
+                  "ratingCount": "1057"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

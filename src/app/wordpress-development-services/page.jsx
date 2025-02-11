@@ -33,6 +33,31 @@ const Page = () => {
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
 
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Infiniti Digital: Best Wordpress Development Services",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/wordpress-development-services",
+                "description": "Short of ideas to develop a wordpress website? View our wide range of custom wordpress development services including wordpress CMS development.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.2",
+                  "ratingCount": "728"
+                }
+              }
+            `,
+                }}
+            />
+
         </>
     )
 }

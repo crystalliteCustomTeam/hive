@@ -4,22 +4,32 @@ import styles from "@/styles/landing/components/talk.module.scss"
 import BgImage from "media/landing/smm/talk.webp"
 import ContactFrom from "@/src/app/components/contactfrom";
 
-const TalkLp = () => {
+const TalkLp = ({ data }) => {
     return (
         <section className={`${styles.talkLpSec} pt-100`}>
             <Container>
                 <Row>
                     <Col md={5}>
                         <div className={styles.BgImage} style={{ backgroundImage: `url(${BgImage.src})` }}>
-                            <h2>Talk To <br />
-                                Our Experts</h2>
-                            <p>Contact us without obligation by email or phone and secure your free consultation.</p>
+                            <h2>
+                                {data?.title ? data.title : (
+                                    <>
+                                        Talk To <br />
+                                        Our Experts
+                                    </>
+                                )}
+                            </h2>
+                            <p>{data?.txt ? data.txt : (
+                                <>
+                                    Contact us without obligation by email or phone and secure your free consultation.
+                                </>
+                            )}</p>
                             <CommonBtn txt="Let’s Connect" />
                         </div>
                     </Col>
                     <Col md={7}>
                         <div className={styles.contactFromLp}>
-                            <h2>Let’s Bring Your Vision to Life!</h2>
+                            <h2>Book Your Free Consultation</h2>
                             <ContactFrom bgBlack={true} />
                         </div>
                     </Col>

@@ -35,6 +35,32 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Creative Book Cover Design Services - Infiniti Digital",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/book-cover-design",
+        "description": "Want to sell books that make an impact? Work with our book cover designers and get custom book covers for all genres that bring real joy.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.2",
+          "ratingCount": "800"
+        }
+      }
+    `,
+                }}
+            />
+
+
         </>
     )
 }

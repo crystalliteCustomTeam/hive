@@ -35,6 +35,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Create A Visual Masterpiece With Video Book Trailer Services",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/book-video-trailer",
+        "description": "Cinematic book trailer video production services. Reach more readers on social media with our engaging and professional book video trailer production.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.2",
+          "ratingCount": "1009"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

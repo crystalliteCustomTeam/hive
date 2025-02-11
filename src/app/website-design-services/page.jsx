@@ -31,6 +31,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Want The Best Website Design Services? - Hire Us",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/website-design-services",
+                "description": "Infiniti Digital is the best Website Design Services Agency. Build custom websites that drive sales, revenue and leads through human centric UX.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.2",
+                  "ratingCount": "832"
+                }
+              }
+            `,
+                }}
+            />
 
         </>
     )

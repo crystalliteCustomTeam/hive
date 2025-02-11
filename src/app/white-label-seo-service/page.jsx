@@ -36,6 +36,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "White Label SEO Services You Can Trust",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/white-label-seo-service",
+                "description": "Our white Label SEO company provides SEO products, deliverables, and monthly reporting at scale. We'll get your clients ranking, so you can retain your clientele.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.7",
+                  "ratingCount": "1257"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

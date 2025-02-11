@@ -35,6 +35,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Custom Software Development Services - Build Custom Softwares",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/custom-software-development-services",
+                "description": "Custom software development services from Infiniti Digital that helps you develop custom software solutions with a team of 200+ software developers.",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.7",
+                  "ratingCount": "1109"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

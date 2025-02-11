@@ -11,10 +11,10 @@ const BannerLp = () => {
         <section className={styles.bannerLpSection} id="BannerId">
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={11} lg={10} className="m-auto text-center">
+                    <Col md={11} lg={11} className="m-auto text-center">
                         <div className={styles.bannerContentSec}>
-                            <h1>Your Vision, Our Expertise Crafted in Code.</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <h1>Sick of SEO Agency That Sucks? Let’s Fix That.</h1>
+                            <p>Most SEO companies promise rankings. We deliver revenue. And, if your current SEO agency is ghosting you, it’s time to find someone better.</p>
                             <div className={styles.btnFlex}>
                                 <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} />
                             </div>
@@ -22,7 +22,7 @@ const BannerLp = () => {
                                 <Image src={LogoImg.src} alt="Banner Logos" width={1020} height={280} />
                             </div>
                             <div className={styles.banneerFrom}>
-                                <h3>Get A Free SEO Audit</h3>
+                                <h3>Get a Free SEO Audit</h3>
                                 <ContactFrom vertical={true} />
                             </div>
                         </div>

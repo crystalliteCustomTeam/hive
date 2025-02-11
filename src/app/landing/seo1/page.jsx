@@ -12,7 +12,7 @@ import ProcessLp from "@/src/app/landing/components/processlp"
 import Partners from "@/src/app/home/partners"
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
-import { ServicesData, WhyChooseData, FAQsData, ContactData } from "@/src/app/landing/seo1/data/data"
+import { ServicesData, WhyChooseData, FAQsData, ContactData, LPServices, processlp, AwardsPoints } from "@/src/app/landing/seo1/data/data"
 import { PriceData } from "@/src/app/seo-service/data/data"
 import { IndustriesData, IndustryItem, PartnerData } from "@/src/app/home/data/data";
 
@@ -26,11 +26,11 @@ const Page = () => {
             <ContentSection />
             <Pricing data={PriceData} bg="yes" />
             <PackageDetails />
-            <AwardsLp />
-            <ServicesLP />
+            <AwardsLp data={AwardsPoints} />
+            <ServicesLP data={LPServices} />
             <LocationLP />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
-            <ProcessLp black={true} />
+            <ProcessLp black={true} data={processlp} />
             <Partners data={PartnerData} />
             <WhyChooseLp data={WhyChooseData} />
             <Faqs data={FAQsData} />

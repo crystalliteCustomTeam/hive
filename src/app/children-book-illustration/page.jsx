@@ -35,6 +35,32 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Children Book Illustration Services - Infiniti Digital",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/children-book-illustration",
+        "description": "Give your children's book a fresh new look with engaging artwork that keeps the readers engaged. Hire the professional children's book illustration services",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "995"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

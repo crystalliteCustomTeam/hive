@@ -42,6 +42,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Social Media Marketing Services to Go Viral",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/social-media-marketing-services",
+        "description": "Hire social media marketing services for high-quality content, daily activity, engagement-monitoring and increased followers. Free consultation +1655-487-632",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "ratingCount": "657"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

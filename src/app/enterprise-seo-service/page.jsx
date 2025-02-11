@@ -36,6 +36,30 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+              {
+                "@context": "https://schema.org/", 
+                "@type": "Product", 
+                "name": "Enterprise SEO Services That Drive Corporate Growth and Success",
+                "image": "https://www.infinitidigital.us/infinitidigital.png",
+                "url": "https://www.infinitidigital.us/enterprise-seo-service",
+                "description": "Our Enterprise SEO Agency helps brands to increase search visibility, brand awareness, and attain high ticket clients. Contact us now to get a quote!",
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Infiniti Digital"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.2",
+                  "ratingCount": "1200"
+                }
+              }
+            `,
+                }}
+            />
         </>
     )
 }

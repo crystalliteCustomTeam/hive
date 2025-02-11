@@ -35,6 +35,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Publish Your Masterpiece with Our Book Publishing Service",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/book-publishing-service",
+        "description": "Turn your manuscripts from a file on your computer to your story, voice, and dream. Publish your book with our book publishing service and share it with the world",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "998"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

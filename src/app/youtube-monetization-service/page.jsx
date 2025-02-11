@@ -27,6 +27,31 @@ const Page = () => {
             <FollowUs data={FollowsData} />
             <Blogs data={BlgosData} />
             <Faqs data={FAQsData} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: `
+      {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "YouTube Monetization Services with 100% Real Audience",
+        "image": "https://www.infinitidigital.us/infinitidigital.png",
+        "url": "https://www.infinitidigital.us/youtube-monetization-service",
+        "description": "Let's get your YouTube Channel Monetized Today with our YouTube channel monetization services. Earn more watch time, likes, and channel subscriptions.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Infiniti Digital"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "657"
+        }
+      }
+    `,
+                }}
+            />
+
         </>
     )
 }

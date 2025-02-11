@@ -22,7 +22,7 @@ const ServicesLp = ({ data, heigthSmall }) => {
                                         <div className={styles.title}>{item.title}</div>
                                         <div className={styles.barLine}></div>
                                         <div className={styles.readMore}>
-                                            <CommonBtn txt="Contact Us" ArrowBtn={true} SimpleBtn={true} />
+                                            <CommonBtn txt="Let’s talk" ArrowBtn={true} SimpleBtn={true} />
                                         </div>
                                         <div className={styles.btnReaMore}>
                                             <CommonBtn txt="" ArrowBtn={true} />

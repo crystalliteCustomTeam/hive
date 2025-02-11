@@ -3,30 +3,9 @@ import { useEffect } from "react";
 import styles from "@/styles/landing/components/processlp.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
-const data = [
-    {
-        title: "Increased Brand Awareness",
-        txt: "Expand your reach and make your brand unforgettable. Our strategies ensure your business stands out and stays top-of-mind with your target audience."
-    },
-    {
-        title: "Increased Brand Awareness",
-        txt: "Expand your reach and make your brand unforgettable. Our strategies ensure your business stands out and stays top-of-mind with your target audience."
-    },
-    {
-        title: "Increased Brand Awareness",
-        txt: "Expand your reach and make your brand unforgettable. Our strategies ensure your business stands out and stays top-of-mind with your target audience."
-    },
-    {
-        title: "Increased Brand Awareness",
-        txt: "Expand your reach and make your brand unforgettable. Our strategies ensure your business stands out and stays top-of-mind with your target audience."
-    },
-    {
-        title: "Increased Brand Awareness",
-        txt: "Expand your reach and make your brand unforgettable. Our strategies ensure your business stands out and stays top-of-mind with your target audience."
-    }
-]
 
-const ProcessLp = ({ black }) => {
+
+const ProcessLp = ({ data, black }) => {
     useEffect(() => {
         const options = {
             root: null,
@@ -58,16 +37,14 @@ const ProcessLp = ({ black }) => {
             <Container>
                 <Row>
                     <Col md={8} lg={8} className="mx-auto text-center">
-                        <div className="subtitle">Our Process</div>
-                        <h2>How We Help Your Brand Grow.</h2>
-                        <p>
-                            Elevate your brand with targeted social media strategies that drive engagement, grow your audience, and deliver results!
-                        </p>
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        <p>{data.txt}</p>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={12}>
-                        {data.map((item, index) => (
+                        {data.processlpItem.map((item, index) => (
                             <div
                                 key={index}
                                 className={styles.itemBox}

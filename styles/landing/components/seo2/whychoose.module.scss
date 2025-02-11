@@ -1,0 +1,133 @@
+.whychooseSection {
+    background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+
+    .margintop {
+        margin-top: 50px;
+    }
+
+    h2 {
+        span {
+            color: #7635FF;
+        }
+    }
+
+    .imgBox {
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .whychooseSection {
+        border-radius: 80px;
+
+        .margintop {
+            margin-top: 0px;
+        }
+
+        h2 {
+            span {
+                color: #7635FF;
+            }
+        }
+
+        .imgBox {
+            margin-top: 30px;
+            padding: 0px;
+            text-align: center;
+            margin: auto;
+
+            img {
+                text-align: center;
+                height: 400px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .whychooseSection {
+        border-radius: 0px;
+
+        .margintop {
+            margin-top: 0px;
+        }
+
+        h2 {
+            span {
+                color: #7635FF;
+            }
+        }
+
+        .imgBox {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: center;
+            margin: auto;
+
+            img {
+                text-align: center;
+                height: 400px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .whychooseSection {
+        border-radius: 0px;
+
+        .margintop {
+            margin-top: 0px;
+        }
+
+        h2 {
+            span {
+                color: #7635FF;
+            }
+        }
+
+        .imgBox {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: center;
+            margin: auto;
+
+            img {
+                text-align: center;
+                height: 400px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .whychooseSection {
+        border-radius: 0px;
+
+        .margintop {
+            margin-top: 0px;
+        }
+
+        h2 {
+            span {
+                color: #7635FF;
+            }
+        }
+
+        .imgBox {
+            margin-top: 30px;
+            padding: 0px;
+        }
+    }
+}
