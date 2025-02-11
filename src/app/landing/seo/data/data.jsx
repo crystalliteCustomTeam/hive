@@ -10,7 +10,7 @@ export const StateCounter = {
             <li><CheckedIcon />Your brand</li>
             <li><CheckedIcon />Your business goals</li>
         </ul>
-        <p>Whether you're targeting local SEO to dominate your area, nationwide SEO to expand across the country, or global SEO to reach customers worldwide, we have the right approach for you.</p>
+        <p>Whether you’re targeting local SEO to dominate your area, nationwide SEO to expand across the country, or global SEO to reach customers worldwide, we have the right approach for you.</p>
         <p>No wasted money, no useless techniques! just smart SEO that helps your business grow. Better value, better results, and a team that actually cares.</p>
     </>),
     img: IMG.src,
@@ -45,7 +45,7 @@ export const WhyChooseData = {
     WhyChooseItem: [
         {
             title: "A Proven Track Record of Success",
-            txt: "We've helped businesses at every stage of growth, from local startups to global leaders, achieve their SEO goals. Our results speak for themselves, with countless brands seeing significant improvements in traffic, conversions, and revenue because Infiniti Digital knows the game and plays it better than anyone else."
+            txt: "We’ve helped businesses at every stage of growth, from local startups to global leaders, achieve their SEO goals. Our results speak for themselves, with countless brands seeing significant improvements in traffic, conversions, and revenue because Infiniti Digital knows the game and plays it better than anyone else."
         },
         {
             title: "Custom SEO Plans That Deliver Big Results",
@@ -58,7 +58,7 @@ export const WhyChooseData = {
         },
         {
             title: "A Team Fully Dedicated to Your Success",
-            txt: "When you hire us, you’re not just another account on our roster, you're our priority! We don’t just stop at ‘good enough’ but push further, going the extra mile to make sure you’re crushing it every step of the way. We’re obsessed with your success, and don’t settle for anything less than the best seo results. "
+            txt: "When you hire us, you’re not just another account on our roster, you’re our priority! We don’t just stop at ‘good enough’ but push further, going the extra mile to make sure you’re crushing it every step of the way. We’re obsessed with your success, and don’t settle for anything less than the best seo results. "
         }
     ]
 }
@@ -67,7 +67,7 @@ export const WhyChooseData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Services at Our SEO Agency That Are Actually Worth Your Time (And Money)",
-    desc: "Still think SEO is just optional? That's adorable, but it’s also why you’re getting left behind. We don’t just slap some keywords on your site and hope for the best. We come at you with the real deal. ",
+    desc: "Still think SEO is just optional? That’s adorable, but it’s also why you’re getting left behind. We don’t just slap some keywords on your site and hope for the best. We come at you with the real deal. ",
     ServicesItem: [
         {
             title: (<>Keyword Research <br />& Strategy</>),
@@ -96,7 +96,7 @@ export const ServicesData = {
         },
         {
             title: (<>Entity<br /> SEO</>),
-            txt: "We strengthen your site’s authority by making sure it's seen as an expert in your field, using structured data and topic relevance to help you rank for a wider range of searches.",
+            txt: "We strengthen your site’s authority by making sure it’s seen as an expert in your field, using structured data and topic relevance to help you rank for a wider range of searches.",
             url: "#",
         },
         {
@@ -321,7 +321,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } f
 export const AwardsPoints = {
     subtitle: "Awards & Recognitions",
     title: "Celebrating Excellence, Innovation, and Results",
-    desc: "Our awards and recognitions reflect our clients' trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
+    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
     Awardslides: [
         {
             txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",

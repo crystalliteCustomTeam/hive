@@ -4,7 +4,7 @@ export const StateCounter = {
     subtitle: "Infiniti Digital",
     title: "Gets You More Leads & Sales with Expert PPC Campaign Management",
     desc: (<>
-        <p>Our PPC agency ensures your campaigns are optimized for maximum conversions. With expert Google Ads management service, we refine targeting, improve ad copy, and optimize your budget to drive high-quality leads and sales. So, stop throwing money at Google, and let's make it work for you! Your money is too valuable for bad PPC advertising.</p>
+        <p>Our PPC agency ensures your campaigns are optimized for maximum conversions.With expert Google Ads management service, we refine targeting, improve ad copy, and optimize your budget to drive high-quality leads and sales.So, stop throwing money at Google, and let’s make it work for you! Your money is too valuable for bad PPC advertising.</p>
     </>),
     img: IMG.src,
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
@@ -91,7 +91,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const AwardsPoints = {
     subtitle: "Awards & Recognitions",
     title: "Celebrating Excellence, Innovation, and Results",
-    desc: "Our awards and recognitions reflect our clients' trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
+    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
     Awardslides: [
         {
             txt: "Running PPC ads for our healthcare practice used to feel like a shot in the dark, but Infiniti Digital turned it all around. Their team helped us target the right leads, and now we’re seeing a steady stream of qualified appointments every month. Their expertise in Google Ads services is unmatched.",
@@ -147,7 +147,7 @@ import Img01 from "@/public/landing/paid/Img01.webp"
 import { CheckedIcon } from "@/src/app/app-constants"
 export const SimpleContent = {
     subtitle: "PPC Management",
-    title: "What's Included in Our PPC Package",
+    title: "What’s Included in Our PPC Package",
     desc: (<>
         <ul className="ContentUl">
             <li><CheckedIcon />Bid management</li>

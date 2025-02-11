@@ -129,6 +129,60 @@ export const PorcessLpData = {
     ]
 }
 
+//Awards
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
+export const AwardsPoints = {
+    subtitle: "Awards & Recognitions",
+    title: "Celebrating Excellence, Innovation, and Results",
+    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
+    Awardslides: [
+        {
+            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            icon: < ClutchLogo />,
+            namee: "Jessica H.",
+            job: "Online Store Owner",
+            color: "#DFFFBF",
+
+        },
+        {
+            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
+            icon: <TrustpilotLogo />,
+            namee: "David R.",
+            job: "Small Business Owner",
+            color: "#E0F0FF",
+        },
+        {
+            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            icon: <GoogleLogo />,
+            namee: "Emma L.",
+            job: "Local Business Owner",
+            color: "#FFCDD7",
+        },
+        {
+            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            icon: < ClutchLogo />,
+            namee: "Jessica H.",
+            job: "Online Store Owner",
+            color: "#DFFFBF",
+
+        },
+        {
+            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
+            icon: <TrustpilotLogo />,
+            namee: "David R.",
+            job: "Small Business Owner",
+            color: "#E0F0FF",
+        },
+        {
+            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            icon: <GoogleLogo />,
+            namee: "Emma L.",
+            job: "Local Business Owner",
+            color: "#FFCDD7",
+        },
+
+    ]
+}
 
 // FAQs
 

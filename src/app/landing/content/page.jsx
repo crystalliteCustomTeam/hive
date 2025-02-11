@@ -12,7 +12,7 @@ import Faqs from "@/src/app/home/faq";
 import ContactLp from "@/src/app/landing/components/contactlp"
 import BookTabs from '@/src/app/components/innerservices/booktabs'
 import { PriceData } from "@/src/app/seo-service/data/data"
-import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, FAQsData, BookTabsData } from "@/src/app/landing/content/data/data"
+import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, FAQsData, BookTabsData, AwardsPoints } from "@/src/app/landing/content/data/data"
 import { BookTabsItem } from '@/src/app/content-marketing-services/data/data'
 
 const Page = () => {
@@ -27,7 +27,7 @@ const Page = () => {
             <TalkLp />
             <Pricing data={PriceData} tab={true} bg="yes" />
             <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
-            <AwardsLp />
+            <AwardsLp data={AwardsPoints} />
             <PlateFromLp />
             <Faqs data={FAQsData} />
             <ContactLp data={ContactData} />

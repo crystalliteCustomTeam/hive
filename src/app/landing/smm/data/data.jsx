@@ -85,6 +85,42 @@ export const CtaData = {
     txt: "Contact us without obligation by email or phone and secure your free consultation.",
     img: IMGCTA.src,
 }
+
+export const processlp = {
+    subtitle: "Our Process",
+    title: "Our 6 Step SEO Process ",
+    txt: "Ensures you rank like a boss, while others are still figuring out keywords.",
+    processlpItem: [
+        {
+            title: "Understanding your goals",
+            txt: "We start by learning about your business, audience, and objectives. Whether you want more leads, sales, or brand visibility, we tailor our SEO strategy to meet your goals."
+        },
+        {
+            title: "SEO Audit",
+            txt: "Next, we analyze your website’s strengths and weaknesses. From technical issues to content gaps, we identify everything that’s holding you back from ranking higher."
+        },
+        {
+            title: "Competitive Analysis",
+            txt: "Your competitors are ranking for a reason; we find out why. By studying their strategies, we uncover opportunities to outrank them and drive more traffic to your site."
+        },
+        {
+            title: "On-Page SEO",
+            txt: "We optimize everything on your site, from keywords and content to meta tags and internal links. This ensures search engines and users find your pages relevant and valuable."
+        },
+        {
+            title: "Off-Page SEO",
+            txt: "Authority matters. We build high-quality backlinks, optimize your online presence, and strengthen your brand’s credibility across the web to boost rankings."
+        },
+        {
+            title: "Reporting & Analysis",
+            txt: "SEO is a long game, and we track every move. With detailed reports and insights, we measure progress, refine strategies, and ensure you see continuous growth."
+        }
+    ]
+
+}
+
+
+
 // FAQs
 
 
@@ -124,4 +160,60 @@ import CotnactImg from "media/landing/smm/ContentImage.webp"
 export const ContactData = {
     bgImg: IMGBG.src,
     contactImg: CotnactImg.src,
+}
+
+
+//Awards
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
+export const AwardsPoints = {
+    subtitle: "Awards & Recognitions",
+    title: "Celebrating Excellence, Innovation, and Results",
+    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
+    Awardslides: [
+        {
+            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            icon: < ClutchLogo />,
+            namee: "Jessica H.",
+            job: "Online Store Owner",
+            color: "#DFFFBF",
+
+        },
+        {
+            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
+            icon: <TrustpilotLogo />,
+            namee: "David R.",
+            job: "Small Business Owner",
+            color: "#E0F0FF",
+        },
+        {
+            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            icon: <GoogleLogo />,
+            namee: "Emma L.",
+            job: "Local Business Owner",
+            color: "#FFCDD7",
+        },
+        {
+            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            icon: < ClutchLogo />,
+            namee: "Jessica H.",
+            job: "Online Store Owner",
+            color: "#DFFFBF",
+
+        },
+        {
+            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
+            icon: <TrustpilotLogo />,
+            namee: "David R.",
+            job: "Small Business Owner",
+            color: "#E0F0FF",
+        },
+        {
+            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            icon: <GoogleLogo />,
+            namee: "Emma L.",
+            job: "Local Business Owner",
+            color: "#FFCDD7",
+        },
+
+    ]
 }

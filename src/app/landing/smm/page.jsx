@@ -12,7 +12,7 @@ import Pricing from '@/src/app/components/services/pricing'
 import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Faqs from "@/src/app/home/faq";
-import { StateCounter, CtaData, FAQsData, ContactData, ServicesData } from "@/src/app/landing/smm/data/data"
+import { StateCounter, CtaData, FAQsData, ContactData, ServicesData, AwardsPoints, processlp } from "@/src/app/landing/smm/data/data"
 
 
 const Page = () => {
@@ -20,14 +20,14 @@ const Page = () => {
         <>
             <BannerLp />
             <StateCountLP data={StateCounter} />
-            <ProcessLp />
+            <ProcessLp data={processlp} />
             <CtaLp data={CtaData} />
             <ServicesLp data={ServicesData} />
             <CreativeLp />
             <TalkLp />
             <PlateFromLp />
             <Pricing data={PriceData} tab={true} />
-            <AwardsLp />
+            <AwardsLp data={AwardsPoints} />
             <MarketTrend />
             <Faqs data={FAQsData} />
             <ContactLp useImg={true} data={ContactData} />
