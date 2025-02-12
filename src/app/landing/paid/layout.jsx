@@ -10,14 +10,19 @@ export const metadata = {
   openGraph: {
     title: "",
     description: "",
-    url: '/landing/paid-marketing',
+    url: '/landing/paid',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/landing/paid-marketing' },
+  alternates: { canonical: '/landing/paid' },
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  }
 }
 
 

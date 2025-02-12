@@ -21,7 +21,7 @@ const WhyChooseLp = () => {
                         <p>With high-intent keyword research, extensive site audits, quick technical fixes, and a powerful content strategy, we don’t just help you rank, we help you dominate.</p>
                         <p>If you’re tired of watching competitors outrank you, it’s time to make a move. Hire Infiniti Digital for infinite growth.</p>
                         <div className={styles.btnFlex}>
-                            <CommonBtn txt="Our Affordable SEO Packages" LiveChat={true} BgBlack={true} />
+                            <CommonBtn txt="Get a Free SEO Audit" LiveChat={true} BgBlack={true} />
                         </div>
                     </Col>
                     <Col md={12} lg={6} className="my-auto">

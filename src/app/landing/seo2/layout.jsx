@@ -1,5 +1,5 @@
 import FooterLp from "../layout/footerlp"
-import HeaderLp from "../layout/headerlp"
+import HeaderSimpleLp from "../layout/headersimple"
 
 //===== Meta Data =====
 export const metadata = {
@@ -10,21 +10,27 @@ export const metadata = {
   openGraph: {
     title: "",
     description: "",
-    url: '/landing/smm',
+    url: '/landing/seo2',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/book-writing' },
+  alternates: { canonical: '/landing/seo2' },
+
+  //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  }
 }
 
 
 export default function RootLayout({ children }) {
   return (
     <>
-      <HeaderLp />
+      <HeaderSimpleLp />
       {children}
       <FooterLp />
     </>

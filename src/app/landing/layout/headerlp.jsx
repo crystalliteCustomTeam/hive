@@ -59,9 +59,9 @@ const HeaderLp = () => {
                         </ul>
                     </Col>
                     <Col xs={6} md={2} lg={2} xl={2} xxl={2} className="my-auto d-md-block d-none">
-                        <Link href="tel:123-123123" className={`commonBtn ${styles.lastBtn}`} aria-label="Visit our Contact">
+                        <a href="tel:123-123123" className={`commonBtn ${styles.lastBtn}`} aria-label="Visit our Contact">
                             +1 312 379 5987
-                        </Link>
+                        </a>
                     </Col>
                 </Row>
             </Container>

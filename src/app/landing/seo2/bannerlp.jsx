@@ -1,12 +1,22 @@
 
+
+'use client';
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/seo2/bannerlp.module.scss"
-import CommonBtn from "@/src/app/components/common/commonbtn"
 import bgBanner from "media/landing/seo1/bgBanner.webp"
 import ContactFrom from "@/src/app/components/contactfrom"
 import { ClientIcon, QualifiedIcon, RetentionIcon } from "@/src/app/app-constants"
+import Link from "next/link"
 
 const Bannerlp = () => {
+    // Chat Code
+    const openChat = () => {
+        if (window.LC_API) {
+            window.LC_API.open_chat_window();
+        } else {
+            console.error('LiveChat API is not loaded');
+        }
+    };
     return (
         <section className={styles.bannerLpSection} id="BannerId" style={{ backgroundImage: `url(${bgBanner.src})` }}>
             <Container className="h-100">
@@ -17,7 +27,8 @@ const Bannerlp = () => {
                             <h1>That Turn Google Searches into More Traffic, More Leads & More Sales</h1>
                             <p>When was the last time you searched for a product or service? Probably today. Your customers are doing the same; but if you’re not ranking, you’re losing sales. That’s where Infiniti Digital comes in. Our Professional Search Engine Optimization Services help you rank higher, attract buyers, and boost revenue. No fluff, just SEO that delivers real, measurable results.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Our Affordable SEO Packages" LiveChat={true} BgBlack={true} />
+                                <Link href="#PricingId" className={styles.btnStyle}>Our Affordable SEO Packages</Link>
+                                <div className={styles.chatStyle} onClick={openChat}>Live Chat</div>
                             </div>
                             <div className={styles.numberStyle}>
                                 <div className={styles.numberItem}>
