@@ -11,10 +11,8 @@ import WhyChooseLp from "@/src/app/landing/seo/whychooselp"
 import ProcessLp from "@/src/app/landing/components/processlp"
 import Partners from "@/src/app/home/partners"
 import ContactLp from "@/src/app/landing/components/contactlp"
-import Faqs from "@/src/app/home/faq";
-import { ServicesData, WhyChooseData, FAQsData, ContactData, LPServices, processlp, AwardsPoints } from "@/src/app/landing/seo1/data/data"
-import { PriceData } from "@/src/app/seo-service/data/data"
-import { IndustriesData, IndustryItem, PartnerData } from "@/src/app/home/data/data";
+import { ServicesData, WhyChooseData, FAQsData, ContactData, LPServices, processlp, AwardsPoints, ContentData, PriceData, IndustriesData } from "@/src/app/landing/seo1/data/data"
+import { IndustryItem, PartnerData } from "@/src/app/home/data/data";
 
 
 
@@ -23,17 +21,14 @@ const Page = () => {
         <>
             <BannerLp />
             <ServicesLp data={ServicesData} heigthSmall={true} />
-            <ContentSection />
+            <ContentSection data={ContentData} />
             <Pricing data={PriceData} bg="yes" />
-            <PackageDetails />
             <AwardsLp data={AwardsPoints} />
             <ServicesLP data={LPServices} />
             <LocationLP />
             <Industries data={IndustriesData} IndustryData={IndustryItem} />
             <ProcessLp black={true} data={processlp} />
-            <Partners data={PartnerData} />
             <WhyChooseLp data={WhyChooseData} />
-            <Faqs data={FAQsData} />
             <ContactLp data={ContactData} />
         </>
     )

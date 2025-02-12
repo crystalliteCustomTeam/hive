@@ -35,6 +35,10 @@
             position: relative;
             height: 550px;
 
+            &.heightImg {
+                height: 850px;
+            }
+
             img {
                 object-fit: cover;
                 border-radius: 50px;
@@ -114,6 +118,10 @@
                 position: relative;
                 height: 500px;
 
+                &.heightImg {
+                    height: 800px;
+                }
+
                 img {
                     object-fit: cover;
                     border-radius: 40px;
@@ -153,6 +161,10 @@
             .contuerImg {
                 position: relative;
                 height: 500px;
+
+                &.heightImg {
+                    height: 700px;
+                }
 
                 img {
                     object-fit: cover;
@@ -194,6 +206,10 @@
                 position: relative;
                 height: 480px;
 
+                &.heightImg {
+                    height: 650px;
+                }
+
                 img {
                     object-fit: cover;
                     border-radius: 40px;
@@ -233,6 +249,10 @@
             .contuerImg {
                 position: relative;
                 height: 420px;
+
+                &.heightImg {
+                    height: 600px;
+                }
 
                 img {
                     object-fit: cover;
@@ -274,6 +294,10 @@
                 position: relative;
                 height: 400px;
 
+                &.heightImg {
+                    height: 600px;
+                }
+
                 img {
                     object-fit: cover;
                     border-radius: 30px;
@@ -314,6 +338,10 @@
                 position: relative;
                 height: 250px;
                 margin-top: 20px;
+
+                &.heightImg {
+                    height: 250px;
+                }
 
                 img {
                     object-fit: cover;
@@ -357,6 +385,10 @@
                 position: relative;
                 height: 250px;
                 margin-top: 20px;
+
+                &.heightImg {
+                    height: 250px;
+                }
 
                 img {
                     object-fit: cover;

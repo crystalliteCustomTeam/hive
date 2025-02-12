@@ -1,35 +1,38 @@
 "use client";
 import styles from "@/styles/landing/components/markettrend.module.scss"
 import { Col, Container, Row } from "react-bootstrap";
-import SliderArrow from "../../components/sliderarrow";
+import SliderArrow from "@/src/app/components/sliderarrow";
 import useEmblaCarousel from 'embla-carousel-react'
 import IMG01 from "media/landing/smm/market01.webp"
+import IMG02 from "media/landing/smm/market02.webp"
+import IMG03 from "media/landing/smm/market03.webp"
+import IMG04 from "media/landing/smm/market04.webp"
 import Image from "next/image";
-import CommonBtn from "../../components/common/commonbtn";
+import CommonBtn from "@/src/app/components/common/commonbtn";
 import Autoplay from 'embla-carousel-autoplay'
 
 
 
 const data = [
     {
-        title: "Market Growth",
-        txt: "As of 2025, the global social media marketing industry stands as a powerhouse, valued at an impressive $16.6 billion. This dynamic sector is projected to nearly double in size, reaching an estimated $37.9 billion by 2030. The rapid growth underscores the increasing reliance of businesses worldwide on social media platforms to connect with audiences, build brand awareness, and drive measurable outcomes. With ever-evolving trends and advancements, the social media marketing landscape continues to expand, offering limitless opportunities for brands to thrive in the digital age.",
+        title: "Content Calendars",
+        txt: "At Infiniti Digital, we don’t just post for the sake of posting. We create high-quality, engaging, and platform-specific content that grabs attention and keeps your audience hooked. Our team studies your brand, industry, and target market to develop a content plan that works. From eye-catching graphics to compelling captions, every post is designed to drive engagement and build a loyal following.",
         img: IMG01.src,
     },
     {
-        title: "Market Growth",
-        txt: "As of 2025, the global social media marketing industry stands as a powerhouse, valued at an impressive $16.6 billion. This dynamic sector is projected to nearly double in size, reaching an estimated $37.9 billion by 2030. The rapid growth underscores the increasing reliance of businesses worldwide on social media platforms to connect with audiences, build brand awareness, and drive measurable outcomes. With ever-evolving trends and advancements, the social media marketing landscape continues to expand, offering limitless opportunities for brands to thrive in the digital age.",
-        img: IMG01.src,
+        title: "Audience Targeting",
+        txt: "Throwing ads at random people is a waste of money. That’s why we use smart audience targeting to make sure your content reaches the right people. We analyze data, behaviors, and interests to find your ideal customers and deliver messages that matter to them. Whether it’s organic reach or paid ads, we ensure your brand connects with those most likely to engage, follow, and buy.",
+        img: IMG02.src,
     },
     {
-        title: "Market Growth",
-        txt: "As of 2025, the global social media marketing industry stands as a powerhouse, valued at an impressive $16.6 billion. This dynamic sector is projected to nearly double in size, reaching an estimated $37.9 billion by 2030. The rapid growth underscores the increasing reliance of businesses worldwide on social media platforms to connect with audiences, build brand awareness, and drive measurable outcomes. With ever-evolving trends and advancements, the social media marketing landscape continues to expand, offering limitless opportunities for brands to thrive in the digital age.",
-        img: IMG01.src,
+        title: "Ad Campaigns & Optimization",
+        txt: "Running ads is easy—getting them to work is the real challenge. At Infiniti Digital, we create data-driven ad campaigns that focus on conversions, not just clicks. We test multiple ad formats, refine audience segments, and optimize in real time to get you the best results. Whether it’s Facebook, Instagram, LinkedIn, or TikTok, our ad strategies are built to turn views into value and budgets into big returns.",
+        img: IMG03.src,
     },
     {
-        title: "Market Growth",
-        txt: "As of 2025, the global social media marketing industry stands as a powerhouse, valued at an impressive $16.6 billion. This dynamic sector is projected to nearly double in size, reaching an estimated $37.9 billion by 2030. The rapid growth underscores the increasing reliance of businesses worldwide on social media platforms to connect with audiences, build brand awareness, and drive measurable outcomes. With ever-evolving trends and advancements, the social media marketing landscape continues to expand, offering limitless opportunities for brands to thrive in the digital age.",
-        img: IMG01.src,
+        title: "Analytics & Performance Tracking",
+        txt: "Numbers don’t lie, and we love them. Our team tracks every like, click, comment, and conversion to measure your success and find areas for improvement. We provide clear, actionable reports that show what’s working and what needs tweaking. With real-time analytics and strategic adjustments, we make sure your social media marketing keeps improving and delivering the results you need.",
+        img: IMG04.src,
     },
 ]
 const OPTIONS = { loop: true, align: 'center' }
@@ -46,17 +49,7 @@ const MarketTrend = () => {
         <section className={`pt-100 ${styles.markettrendSec}`}>
             <Container>
                 <Row>
-                    <Col md={7}>
-                        <div className="subtitle">Market Trends</div>
-                        <h2>Lorem Ipsum is simply dummy text</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book text of the printing and typesetting.</p>
-                    </Col>
-                    <Col md={5} className="mt-auto d-none d-md-block">
-                        <SliderArrow
-                            onPrev={prevButtonHandler}
-                            onNext={nextButtonHandler}
-                        />
-                    </Col>
+
                     <Col md={12}>
                         <div className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
@@ -79,10 +72,11 @@ const MarketTrend = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col md={12} className="mt-auto d-sm-block d-md-none">
+                    <Col md={12} className="m-auto text-center">
                         <SliderArrow
                             onPrev={prevButtonHandler}
                             onNext={nextButtonHandler}
+                            center="yes"
                         />
                     </Col>
                 </Row>

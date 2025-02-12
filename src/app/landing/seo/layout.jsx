@@ -1,5 +1,5 @@
 import FooterLp from "../layout/footerlp"
-import HeaderLp from "../layout/headerlp"
+import HeaderSimpleLp from "../layout/headersimple"
 
 //===== Meta Data =====
 export const metadata = {
@@ -29,7 +29,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
-      <HeaderLp />
+      <HeaderSimpleLp />
       {children}
       <FooterLp />
     </>

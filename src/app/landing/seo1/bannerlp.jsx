@@ -9,6 +9,8 @@ import ContactFrom from "@/src/app/components/contactfrom"
 import StateCount from '@/src/app/components/innerservices/statecount'
 import { StateCounterPoints } from "@/src/app/landing/seo1/data/data"
 
+
+
 const Bannerlp = () => {
     return (
         <section className={styles.bannerLpSection} id="BannerId" style={{ backgroundImage: `url(${bgBanner.src})` }}>
@@ -16,8 +18,8 @@ const Bannerlp = () => {
                 <Row>
                     <Col md={12} lg={9} className="m-auto text-center">
                         <div className={styles.bannerContentSec}>
-                            <h1>The Best <span>SEO</span><br />Marketing Agency.</h1>
-                            <p>Low-quality content can hold your business back. At Infiniti Digital, we craft engaging, high-impact content that captivates.</p>
+                            <h1>Google Won’t Rank You ? Our <span>SEO</span><br />Service Will Make It.</h1>
+                            <p>We don’t do best practices, we do what works. Our SEO services get you ranked, bring real traffic, and leave your competitors in the dust. Smart keywords, technical fixes, and strong backlinks, that’s how we win.</p>
                             <div className={styles.btnFlex}>
                                 <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} BgBlack={true} />
                             </div>

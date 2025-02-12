@@ -106,7 +106,7 @@
 
         div {
             height: 50px;
-            padding: 0px 25px;
+            padding: 0px 20px;
             font-size: 14px;
         }
     }
@@ -118,7 +118,7 @@
 
         div {
             height: 50px;
-            padding: 0px 25px;
+            padding: 0px 15px;
             font-size: 14px;
         }
     }
@@ -138,7 +138,7 @@
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .btnFlex {
-        gap: 5px;
+        gap: 10px;
 
         div {
             height: 40px;

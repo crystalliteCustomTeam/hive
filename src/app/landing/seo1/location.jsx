@@ -18,7 +18,8 @@ const LocationLP = () => {
             <Container className={`${styles.locationContainer}`} style={{ backgroundImage: `url(${BgImg.src})` }}>
                 <Row>
                     <Col md={12} lg={10} xl={9} className="text-center mx-auto">
-                        <h2>Providing SEO Services to multiple cities across USA & Canada</h2>
+                        <h2>Ranked #1 SEO Company, Just Like Our Clients in These Cities.</h2>
+                        <p> Your search for the best SEO Service provider ends here</p>
                         <div className={styles.LocaionBox}>
                             {data.map((item, index) => (
                                 <div className={styles.LocaionItem} key={index}>

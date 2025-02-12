@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const StateCountLP = ({ data, video, alternet }) => {
+const StateCountLP = ({ data, video, alternet, height }) => {
     return (
         <section className={`pt-100 ${styles.stateCountSection} ${video ? styles.videoSection : ""}`} id="AboutId">
             <Container>
@@ -16,7 +16,8 @@ const StateCountLP = ({ data, video, alternet }) => {
                         <CommonBtn txt="Schedule a Free Consultation" LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={6}>
-                        <div className={styles.contuerImg}>
+                        <div className={`${styles.contuerImg} ${styles.heightImg}`}>
+
                             {video ?
                                 <video
                                     autoPlay

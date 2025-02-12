@@ -9,10 +9,8 @@ import PlateFromLp from "@/src/app/landing/components/platefromlp"
 import TalkLp from "@/src/app/landing/components/talk"
 import MarketTrend from "@/src/app/landing/components/markettrend"
 import Pricing from '@/src/app/components/services/pricing'
-import { PriceData } from '@/src/app/social-media-marketing-services/data/data'
 import ContactLp from "@/src/app/landing/components/contactlp"
-import Faqs from "@/src/app/home/faq";
-import { StateCounter, CtaData, FAQsData, ContactData, ServicesData, AwardsPoints, processlp } from "@/src/app/landing/smm/data/data"
+import { StateCounter, CtaData, ContactData, ServicesData, AwardsPoints, processlp, LatestWork, talkData, PriceData } from "@/src/app/landing/smm/data/data"
 
 
 const Page = () => {
@@ -22,14 +20,13 @@ const Page = () => {
             <StateCountLP data={StateCounter} />
             <ProcessLp data={processlp} />
             <CtaLp data={CtaData} />
-            <ServicesLp data={ServicesData} />
-            <CreativeLp />
-            <TalkLp />
+            <ServicesLp data={ServicesData} heigthSmall={true} />
+            <CreativeLp data={LatestWork} />
+            <TalkLp data={talkData} />
             <PlateFromLp />
             <Pricing data={PriceData} tab={true} />
             <AwardsLp data={AwardsPoints} />
             <MarketTrend />
-            <Faqs data={FAQsData} />
             <ContactLp useImg={true} data={ContactData} />
         </>
     )

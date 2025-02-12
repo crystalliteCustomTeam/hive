@@ -11,8 +11,8 @@ const OPTIONS = { loop: true, axis: "y" };
 
 export const data = {
     subtitle: "Platforms We",
-    title: "Platforms That Power Your Success",
-    desc: "We collaborate with the platforms your audience knows and loves. Whether it’s growing your brand, building communities, or driving engagement, we make sure your message resonates where it matters most.",
+    title: "Social Media Platforms we Work With",
+    desc: "You could keep posting trash and throwing money at bad ads, or you could let us handle it.",
     SocailItems: [
         { name: "Instagram", link: "https://www.instagram.com/infinitidigitalus/", icon: <InstagramIcon /> },
         { name: "YouTube", link: "https://www.youtube.com/@InfinitiDigitalus", icon: <YoutubeIcon /> },
@@ -50,7 +50,7 @@ const PlateFromLp = () => {
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <CommonBtn txt="Get Free Consultation" LiveChat={true} BgBlack={true} />
+                        <CommonBtn txt="Get a Free Consultation" LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={6} className="text-center">
                         <section className={styles.embla}>

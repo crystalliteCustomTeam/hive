@@ -12,7 +12,7 @@ const ContactLp = ({ useImg, data }) => {
                 <Row className="h-100">
                     <Col md={6} lg={6} className={`my-auto ${useImg ? '' : "order-md-2 order-2"}`}>
                         <div className={styles.contactFooterLp}>
-                            {useImg ? <h2>Let’s Bring Your Vision to Life!</h2> : ""}
+                            {useImg ? <h2>Drowning in bad marketing? Grab this lifeline.</h2> : ""}
                             < ContactFrom bgBlack={true} />
                         </div>
                     </Col>
