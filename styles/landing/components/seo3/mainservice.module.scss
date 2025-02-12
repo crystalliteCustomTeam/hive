@@ -1,0 +1,44 @@
+.serviceSection {
+    overflow: hidden;
+
+    .MainServicesBox {
+        background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 70%);
+        border-radius: 100px 100px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .ServTxtBox {
+            padding: 0px 5%;
+            flex: 0 0 50%;
+        }
+
+        .ServImgBox {
+            flex: 0 0 50%;
+            position: relative;
+            height: 700px;
+            border-radius: 0px 100px 0px 0px;
+
+            img {
+                border-radius: 0px 100px 0px 0px;
+                object-fit: cover;
+            }
+        }
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            border-radius: 100px 0px 0px 0px;
+
+            .ServImgBox {
+                border-radius: 100px 0px 0px 0px;
+
+                img {
+                    border-radius: 100px 0px 0px 0px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { ArrowIcon } from "@/src/app/app-constants";
 import styles from "@/styles/components/commonbtn.module.scss"
 
-const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack, LiveChatOnly }) => {
+const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack }) => {
     // Chat Code
     const openChat = () => {
         if (window.LC_API) {

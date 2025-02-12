@@ -16,7 +16,7 @@ const StateCountLP = ({ data, video, alternet, height }) => {
                         <CommonBtn txt="Schedule a Free Consultation" LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={6}>
-                        <div className={`${styles.contuerImg} ${styles.heightImg}`}>
+                        <div className={`${styles.contuerImg} ${height ? styles.heightImg : ""}`}>
 
                             {video ?
                                 <video

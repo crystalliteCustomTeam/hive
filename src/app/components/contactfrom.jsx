@@ -113,7 +113,9 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
                             We take your privacy seriously. Read our <Link href="#">Privacy Policy</Link>
                         </div>
                     </>
-                ) : null}
+                ) :
+                    <input type="hidden" name="comment" />
+                }
                 <div className={styles.contactBtn}>
                     <button type="submit" className="commonBtn" disabled={isDisabled}>
                         {vertical ? "Get a Free SEO Audit" : formStatus}

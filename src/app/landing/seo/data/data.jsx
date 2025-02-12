@@ -1,4 +1,4 @@
-import IMG from "@/public/landing/smm/ctaBg.webp"
+import IMG from "@/public/landing/seo/ctaBg.webp"
 export const StateCounter = {
     subtitle: "About Us",
     title: "SEO That Works So Well,We Should Probably Keep It a Secret",

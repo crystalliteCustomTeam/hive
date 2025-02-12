@@ -1,0 +1,84 @@
+.processSection {
+    background: #EAEAEA;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(500px);
+    padding-bottom: 100px;
+
+    .processBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 30px;
+
+        .itemBox {
+            flex: 0 0 calc(50% - 10px);
+            border-radius: 30px;
+            height: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+            background: #FFFFFF;
+            transition: background 0.3s ease, transform 0.3s ease;
+
+            span {
+                position: absolute;
+                left: 50%;
+                top: 0px;
+                height: 52px;
+                width: 240px;
+                border: 6px solid #F6F6F6;
+                border-radius: 123px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translate(-50%, -50%);
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: -0.204286px;
+                color: #fff;
+                background: #000;
+                transition: background 0.3s ease, transform 0.3s ease;
+            }
+
+            h4 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.165px;
+                color: #000000;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 23px;
+                text-align: center;
+                letter-spacing: -0.165px;
+                color: #556974;
+                max-width: 80%;
+                margin-bottom: 0px;
+            }
+
+            &:hover {
+                background: linear-gradient(319.4deg, #9AFF35 13.78%, #FFFFFF 90.15%);
+                transition: background 0.3s ease, transform 0.3s ease;
+            }
+
+
+        }
+    }
+}

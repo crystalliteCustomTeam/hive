@@ -17,6 +17,7 @@ const Page = () => {
             <ServicesLP data={LPServices} bg={true} />
             <ProcessLp black={true} data={processlp} />
             <WhyChooseLp />
+
         </>
     )
 }

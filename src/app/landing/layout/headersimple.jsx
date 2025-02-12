@@ -27,7 +27,7 @@ const HeaderSimpleLp = () => {
                 <Row className="h-100">
                     <Col xs={6} md={6} className="my-auto">
                         <div className={`${styles.mainLogo} `}>
-                            <Link href="#BannerId">
+                            <Link href="">
                                 <MainLogo />
                             </Link>
                         </div>
