@@ -82,9 +82,6 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
         });
     };
 
-
-
-
     return (
         <Form onSubmit={handleSubmit}>
             <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
