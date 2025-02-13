@@ -6,7 +6,7 @@ import PaymentImg from "media/home/paymentImg.webp"
 import { FooterLogo } from "@/src/app/app-constants"
 
 export const subMenuItems = [
-    { label: "Social Media Marketing", path: "/social-media-marketing" },
+    { label: "Social Media Marketing", path: "/social-media-marketing-services" },
     { label: "Social Media Advertising", path: "/social-media-advertising-services" },
     { label: "Social Media Management", path: "/social-media-management-service" },
     { label: "Influencer Marketing", path: "/influencer-marketing-service" },

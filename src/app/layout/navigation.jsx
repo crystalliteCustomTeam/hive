@@ -203,7 +203,7 @@ const Navigation = ({ scrolled, isLight }) => {
             </div>
             <div className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ''}`} >
                 <ul className={styles.mobileNavigation}>
-                    <li>
+                    <li onClick={handleClick}>
                         <Link href="/" >Home</Link>
                     </li>
                     <li className={styles.subMobileMenu}>
