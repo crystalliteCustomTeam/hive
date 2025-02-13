@@ -9,7 +9,7 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
-    const [formStatus, setFormStatus] = useState('Submit');
+    const [formStatus, setFormStatus] = useState(vertical ? "Get a Free SEO Audit" : "Submit");
     const [error, setError] = useState('');
 
     // Load IP address from the API
@@ -114,9 +114,7 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
                     <input type="hidden" name="comment" />
                 }
                 <div className={styles.contactBtn}>
-                    <button type="submit" className="commonBtn" disabled={isDisabled}>
-                        {vertical ? "Get a Free SEO Audit" : formStatus}
-                    </button>
+                    <button type="submit" className="commonBtn" disabled={isDisabled}>{formStatus}</button>
                 </div>
             </div>
         </Form >

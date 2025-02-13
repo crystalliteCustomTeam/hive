@@ -7,7 +7,7 @@ const ServicesMain = ({ data, greenbg }) => {
         <section className={`pt-100 ${styles.servicesMainSection} ${greenbg ? styles.greenBG : ""}`} id="ServicesId">
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={8}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>

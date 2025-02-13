@@ -16,12 +16,12 @@ const Pricing = ({ data, bg, tab }) => {
         <section className={`pt-100 ${styles.pricingSection} ${bg === "yes" ? styles.blackBG : ""}`} id="PricingId">
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={8}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>
-                    <Col md={5} className="mt-auto">
+                    <Col md={4} className="mt-auto">
                         {tab ? (
                             <ul className={styles.tabBody}>
                                 <li onClick={() => handlePriceClick(1)} className={selectedPrice === 1 ? styles.active : ""}>

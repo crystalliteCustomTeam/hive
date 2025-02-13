@@ -1,6 +1,4 @@
 .whychooseSecLp {
-
-
     .whychooselpContainer {
         display: flex;
         flex-wrap: wrap;
@@ -19,6 +17,7 @@
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
                 background 0.4s ease-in-out,
                 box-shadow 0.3s ease;
+            overflow: hidden;
 
             &:nth-child(2) {
                 flex: 0 0 calc(60% - 10px);
@@ -98,7 +97,7 @@
             .whychooselpItem {
                 border-radius: 30px;
                 margin-bottom: 25px;
-                height: 280px;
+                height: 300px;
                 padding: 25px;
 
 
@@ -110,8 +109,8 @@
                 p {
                     font-size: 15px;
                     line-height: 23px;
-                    height: 120px;
-                    transform: translateY(70px);
+                    height: 110px;
+                    transform: translateY(60px);
                 }
 
                 .btnArrow {
@@ -138,7 +137,7 @@
             .whychooselpItem {
                 border-radius: 30px;
                 margin-bottom: 25px;
-                height: 280px;
+                height: 300px;
                 padding: 25px;
 
 
@@ -150,7 +149,7 @@
                 p {
                     font-size: 15px;
                     line-height: 23px;
-                    height: 120px;
+                    height: 110px;
                     transform: translateY(70px);
                 }
 
@@ -178,7 +177,7 @@
             .whychooselpItem {
                 border-radius: 25px;
                 margin-bottom: 20px;
-                height: 280px;
+                height: 300px;
                 padding: 20px;
 
 
@@ -190,8 +189,8 @@
                 p {
                     font-size: 15px;
                     line-height: 23px;
-                    height: 120px;
-                    transform: translateY(70px);
+                    height: 110px;
+                    transform: translateY(60px);
                 }
 
                 .btnArrow {
@@ -218,7 +217,7 @@
             .whychooselpItem {
                 border-radius: 20px;
                 margin-bottom: 20px;
-                height: 270px;
+                height: 330px;
                 padding: 20px;
 
 
@@ -231,7 +230,7 @@
                     font-size: 14px;
                     line-height: 22px;
                     height: 120px;
-                    transform: translateY(70px);
+                    transform: translateY(100px);
                 }
 
                 .btnArrow {
@@ -259,7 +258,7 @@
             .whychooselpItem {
                 border-radius: 20px;
                 margin-bottom: 20px;
-                height: 270px;
+                height: 300px;
                 padding: 20px;
                 flex: 0 0 calc(50% - 10px);
 
@@ -272,13 +271,15 @@
                 h5 {
                     margin-bottom: 10px;
                     padding-right: 30px;
+                    line-height: 22px;
+
                 }
 
                 p {
                     font-size: 13px;
                     line-height: 20px;
-                    height: 150px;
-                    transform: translateY(40px);
+                    height: 120px;
+                    transform: translateY(90px);
                 }
 
                 .btnArrow {
@@ -325,7 +326,7 @@
                     font-size: 13px;
                     line-height: 20px;
                     height: 100px;
-                    transform: translateY(40px);
+                    transform: translateY(50px);
                 }
 
                 .btnArrow {

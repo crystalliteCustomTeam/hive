@@ -8,7 +8,7 @@ export const StateCounterPoints = {
             numbers: "2M+",
             namee: "Qualified Leads Delivered"
         }, {
-            numbers: "93%",
+            numbers: "94%",
             namee: "Client Retention Rate"
         }
     ]

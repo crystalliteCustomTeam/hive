@@ -16,18 +16,15 @@ export const StateCounter = {
     img: IMG.src,
     stateItem: [
         {
-            numbers: "200+",
-            namee: "App Launched"
+            numbers: "1500+",
+            namee: "Client Working Globally"
         },
         {
-            numbers: "100+",
-            namee: "App Development Experts"
+            numbers: "2M+",
+            namee: "Qualified Leads Delivered"
         }, {
-            numbers: "3M",
-            namee: "Active App Users"
-        }, {
-            numbers: "4.9",
-            namee: "Rating On Clutch"
+            numbers: "94%",
+            namee: "Client Retention Rate"
         }
     ]
 }
@@ -116,7 +113,7 @@ export const ServicesData = {
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
-    title: "Other agencies charge you for ‘results.’ We deliver profit.",
+    title: (<>Other agencies charge you for ‘results.’<br /> We deliver profit.</>),
     desc: "",
     PriceItem: [
         {
@@ -415,7 +412,7 @@ export const processlp = {
 
 export const talkData = {
     title: (<>Talk to Our <br />SEO Experts</>),
-    txt: "Everyone’s got an SEO “strategy,” but ours actually works"
+    txt: (<>Everyone’s got an SEO “strategy,” <br />but ours actually works</>)
 }
 
 

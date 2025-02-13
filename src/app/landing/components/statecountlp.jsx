@@ -4,7 +4,7 @@ import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const StateCountLP = ({ data, video, alternet, height }) => {
+const StateCountLP = ({ data, video, alternet, height, coloum }) => {
     return (
         <section className={`pt-100 ${styles.stateCountSection} ${video ? styles.videoSection : ""}`} id="AboutId">
             <Container>
@@ -40,7 +40,7 @@ const StateCountLP = ({ data, video, alternet, height }) => {
                 {!video ?
                     <Row>
                         {data.stateItem.map((item, index) => (
-                            <Col sm={6} md={3} key={index}>
+                            <Col sm={6} md={coloum === "yes" ? 4 : 3} key={index}>
                                 <div className={styles.stateCountItem}>
                                     {item.numbers}
                                     <div className={styles.title}> {item.namee}</div>
