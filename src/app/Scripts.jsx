@@ -15,7 +15,6 @@ const Scripts = () => {
             livechat.src = "https://cdn.livechatinc.com/tracking.js";
             document.body.appendChild(livechat);
 
-
             // Google Tag Manager (for <head>)
             const gtmScript = document.createElement("script");
             gtmScript.async = true;
@@ -41,6 +40,17 @@ const Scripts = () => {
                 function gtag() { dataLayer.push(arguments); }
                 gtag('js', new Date());
                 gtag('config', 'G-KCPM5K053W');
+            };
+
+            // Google Ads Tag (AW-11475040852)
+            const adsScript = document.createElement("script");
+            adsScript.async = true;
+            adsScript.src = "https://www.googletagmanager.com/gtag/js?id=AW-11475040852";
+            document.head.appendChild(adsScript);
+
+            // Initialize gtag for Google Ads
+            adsScript.onload = () => {
+                gtag('config', 'AW-11475040852');
             };
 
         }, 100);
