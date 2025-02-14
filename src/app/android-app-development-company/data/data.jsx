@@ -2,7 +2,7 @@
 import BannerPoster from "media/innerservices/android-app-development/bannerImg.webp"
 export const BannerData = {
     title: "Think. Build. Dominate.",
-    desc: "Android powers more than 70% of global smartphones—imagine the possibilities! At Infinitidigital, we create cutting-edge Android apps that do more than just exist—they captivate, engage, and convert. Whether you're a startup or an established brand, our tailored app solutions will have your business trending faster than your favorite meme.",
+    desc: "Android powers more than 70% of global smartphones—imagine the possibilities! At Infiniti Digital, we create cutting-edge Android apps that do more than just exist—they captivate, engage, and convert. Whether you're a startup or an established brand, our tailored app solutions will have your business trending faster than your favorite meme.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -10,7 +10,7 @@ export const BannerData = {
 export const StateCounter = {
     subtitle: "Crafting Impactful Designs",
     title: "Why Android? Why Us?",
-    desc: "Because the digital world isn’t waiting. And neither should you! Here’s what makes Infinitidigital your go-to partner for Android app development",
+    desc: "Because the digital world isn’t waiting. And neither should you! Here’s what makes Infiniti Digital your go-to partner for Android app development",
     stateItem: [
         {
             numbers: "200+",
@@ -86,7 +86,7 @@ export const ContentData2 = {
     maintitle: true,
     contentTitle: "Uplift Your Brand with Custom Android Apps",
     contentTxt: (<>
-        <p>Make a lasting impression with expertly crafted Android apps that capture your brand’s essence and captivate your audience. At Infinitidigital, we deliver innovative, sleek, and user-focused Android apps that drive engagement and amplify your business growth. From cutting-edge features to bold designs, we ensure your app shines in a crowded marketplace. Let’s create an Android app that’s uniquely yours.</p>
+        <p>Make a lasting impression with expertly crafted Android apps that capture your brand’s essence and captivate your audience. At Infiniti Digital, we deliver innovative, sleek, and user-focused Android apps that drive engagement and amplify your business growth. From cutting-edge features to bold designs, we ensure your app shines in a crowded marketplace. Let’s create an Android app that’s uniquely yours.</p>
     </>),
     img: ContentImg2.src
 }
@@ -188,7 +188,7 @@ import ContentImg from "media/innerservices/android-app-development/Img01.webp"
 export const ContentData = {
     contentTitle: "Enhance Your Brand with Unique Websites",
     contentTxt: (<>
-        <p>Create a lasting impression with custom website designs that embody your brand’s values and vision. At Infinitidigital, we craft visually captivating, user-friendly websites that do more than attract visitors—they turn them into loyal customers. Our designs amplify your brand’s identity, engage your audience, and drive measurable business growth, ensuring your online presence leaves a powerful, lasting impact.</p>
+        <p>Create a lasting impression with custom website designs that embody your brand’s values and vision. At Infiniti Digital, we craft visually captivating, user-friendly websites that do more than attract visitors—they turn them into loyal customers. Our designs amplify your brand’s identity, engage your audience, and drive measurable business growth, ensuring your online presence leaves a powerful, lasting impact.</p>
     </>),
     img: ContentImg.src
 }
@@ -200,7 +200,7 @@ export const ContentData3 = {
     maintitle: true,
     contentTitle: "Why Partner with Our Android App Development Experts?",
     contentTxt: (<>
-        <p>Apps that Perform. Experts that Deliver. At Infinitidigital, we’re more than Android app developers—we’re innovators who turn your ideas into powerful, market-ready apps. Each app is uniquely crafted to align with your vision and connect with your audience. By leveraging cutting-edge technologies and providing end-to-end support, we ensure your app performs flawlessly and exceeds expectations every step of the way.</p>
+        <p>Apps that Perform. Experts that Deliver. At Infiniti Digital, we’re more than Android app developers—we’re innovators who turn your ideas into powerful, market-ready apps. Each app is uniquely crafted to align with your vision and connect with your audience. By leveraging cutting-edge technologies and providing end-to-end support, we ensure your app performs flawlessly and exceeds expectations every step of the way.</p>
     </>),
     img: ContentImg3.src
 }
@@ -211,7 +211,7 @@ import ContentImg1 from "media/innerservices/android-app-development/Img02.webp"
 export const ContentData1 = {
     contentTitle: "The Future of Your Business Starts Here",
     contentTxt: (<>
-        <p>Why wait to take your brand to the next level? With Infinitidigital, you’ll get tailored solutions, expert guidance, and unstoppable results. Let’s collaborate to create a digital presence that inspires and performs. Your business deserves to stand out. Whether it’s a sleek website, a high-performing app, or a winning marketing strategy, Infinitidigital is here to make it happen. Let’s turn your ideas into a reality that drives measurable results. </p>
+        <p>Why wait to take your brand to the next level? With Infiniti Digital, you’ll get tailored solutions, expert guidance, and unstoppable results. Let’s collaborate to create a digital presence that inspires and performs. Your business deserves to stand out. Whether it’s a sleek website, a high-performing app, or a winning marketing strategy, Infiniti Digital is here to make it happen. Let’s turn your ideas into a reality that drives measurable results. </p>
     </>),
     img: ContentImg1.src
 }
@@ -333,34 +333,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Happy Clients – Hear It from Our Clients",
-    desc: "At Infinitidigital, client success isn’t just our goal—it’s the driving force behind everything we do. But don’t just take our word for it. Hear from the people who matter most—our happy clients.",
+    desc: "At Infiniti Digital, client success isn’t just our goal—it’s the driving force behind everything we do. But don’t just take our word for it. Hear from the people who matter most—our happy clients.",
     Testslider: [
         {
-            txt: "Infinitidigital completely revamped our website, and the transformation was unbelievable! Not only does it look stunning, but it’s also faster, more user-friendly, and optimized for conversions. Their team worked closely with us to ensure the design reflected our brand identity and their SEO efforts boosted our organic traffic by over 150% in just three months. They were always available, transparent, and committed to results. It’s rare to find a partner who combines creativity with data-driven strategies so seamlessly. We’re already planning our next project with them! ",
+            txt: "Infiniti Digital completely revamped our website, and the transformation was unbelievable! Not only does it look stunning, but it’s also faster, more user-friendly, and optimized for conversions. Their team worked closely with us to ensure the design reflected our brand identity and their SEO efforts boosted our organic traffic by over 150% in just three months. They were always available, transparent, and committed to results. It’s rare to find a partner who combines creativity with data-driven strategies so seamlessly. We’re already planning our next project with them! ",
             icon: <ClutchLogo />,
             namee: "Emma L.",
             job: "E-commerce Brand Owner",
         },
         {
-            txt: "Infinitidigital exceeded every expectation when they developed our Android app. From day one, their team was laser-focused on understanding and turning our vision into a product that feels intuitive and professional. The app’s design is clean and performs flawlessly, even under heavy usage. They even provided detailed post-launch analytics, helping us understand user behavior and improve engagement. It’s not just an app—it’s a tool driving our business growth. If you’re looking for a team that genuinely cares about your success, these are the experts to hire.",
+            txt: "Infiniti Digital exceeded every expectation when they developed our Android app. From day one, their team was laser-focused on understanding and turning our vision into a product that feels intuitive and professional. The app’s design is clean and performs flawlessly, even under heavy usage. They even provided detailed post-launch analytics, helping us understand user behavior and improve engagement. It’s not just an app—it’s a tool driving our business growth. If you’re looking for a team that genuinely cares about your success, these are the experts to hire.",
             icon: <TrustpilotLogo />,
             namee: "Michael T.",
             job: "Startup Founder",
         },
         {
-            txt: "Working with Infinitidigital on our marketing campaigns was a game-changer. They designed and executed Google Ads and social media strategies, bringing in 300% more leads within the first two months! What impressed me most was their attention to detail—they tracked every campaign metric and kept us informed with weekly reports. Their team took the time to understand our niche market, creating ads that resonated perfectly with our target audience. Thanks to their efforts, our brand is now a recognized leader in our industry. I can’t recommend them enough! ",
+            txt: "Working with Infiniti Digital on our marketing campaigns was a game-changer. They designed and executed Google Ads and social media strategies, bringing in 300% more leads within the first two months! What impressed me most was their attention to detail—they tracked every campaign metric and kept us informed with weekly reports. Their team took the time to understand our niche market, creating ads that resonated perfectly with our target audience. Thanks to their efforts, our brand is now a recognized leader in our industry. I can’t recommend them enough! ",
             icon: <GoogleLogo />,
             namee: "Sophie R.",
             job: "Marketing Manager",
         },
         {
-            txt: "Infinitidigital built a mobile app for our business that has taken customer engagement to a whole new level. The app is sleek, responsive, and packed with useful features that our users love. What stood out to me was their ability to translate complex ideas into practical, user-friendly designs. Their ongoing support has been phenomenal—they’re always just an email away for updates or fixes. Within three months of launch, we saw a 40% increase in customer interactions and a significant boost in revenue. They’re the partner every business needs.",
+            txt: "Infiniti Digital built a mobile app for our business that has taken customer engagement to a whole new level. The app is sleek, responsive, and packed with useful features that our users love. What stood out to me was their ability to translate complex ideas into practical, user-friendly designs. Their ongoing support has been phenomenal—they’re always just an email away for updates or fixes. Within three months of launch, we saw a 40% increase in customer interactions and a significant boost in revenue. They’re the partner every business needs.",
             icon: <ClutchLogo />,
             namee: "James K.",
             job: "Retail Business Owner",
         },
         {
-            txt: "Infinitidigital’s expertise helped us achieve our digital goals faster than we imagined. They didn’t just build a website—they crafted a dynamic, responsive platform that perfectly represents our brand. Their team worked tirelessly to ensure every detail was on point, from visuals to functionality. Additionally, their SEO and content strategies have pushed us to the first page of Google, resulting in a 200% increase in qualified leads. They truly go above and beyond to deliver results, and their dedication to our success was evident throughout the project. It’s a partnership we value deeply.",
+            txt: "Infiniti Digital’s expertise helped us achieve our digital goals faster than we imagined. They didn’t just build a website—they crafted a dynamic, responsive platform that perfectly represents our brand. Their team worked tirelessly to ensure every detail was on point, from visuals to functionality. Additionally, their SEO and content strategies have pushed us to the first page of Google, resulting in a 200% increase in qualified leads. They truly go above and beyond to deliver results, and their dedication to our success was evident throughout the project. It’s a partnership we value deeply.",
             icon: <GoogleLogo />,
             namee: "Sophia M.",
             job: "Entrepreneur",
@@ -371,7 +371,7 @@ export const TestimonialData = {
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Bring Your Brand to Life with Infinitidigital",
+    title: "Bring Your Brand to Life with Infiniti Digital",
     desc: "From innovative design to strategic marketing, we craft digital experiences that captivate audiences and boost your bottom line. Your success is our success, and we’re ready to grow with you. Let’s start something amazing."
 }
 
@@ -384,15 +384,15 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "What industries does Infinitidigital serve?",
-            txt: "At Infinitidigital, we cater to various industries, including e-commerce, healthcare, real estate, technology, retail, and more. Our adaptable approach ensures tailored solutions for your specific business needs, no matter the market. Whether you're a startup or an established enterprise, we design strategies that align perfectly with your goals. Your success in your niche is our priority."
+            title: "What industries does Infiniti Digital serve?",
+            txt: "At Infiniti Digital, we cater to various industries, including e-commerce, healthcare, real estate, technology, retail, and more. Our adaptable approach ensures tailored solutions for your specific business needs, no matter the market. Whether you're a startup or an established enterprise, we design strategies that align perfectly with your goals. Your success in your niche is our priority."
         },
         {
             title: "How long does it take to develop an Android app?",
             txt: "The timeline depends on the complexity of the app and the features you need. Most projects take between 8 to 16 weeks, including design, development, testing, and deployment. Rest assured, we provide a clear roadmap and keep you updated at every stage to ensure transparency and timely delivery."
         },
         {
-            title: "Can Infinitidigital redesign my existing website?",
+            title: "Can Infiniti Digital redesign my existing website?",
             txt: "Absolutely! We specialize in transforming outdated websites into modern, high-performing platforms. Our team enhances your website's design, user experience, speed, and SEO to reflect your brand better and meet current market demands. A redesign can significantly improve engagement, conversions, and overall business performance."
         },
         {

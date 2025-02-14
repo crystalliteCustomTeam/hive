@@ -87,22 +87,22 @@ const Footer = () => {
                                         <h6>Contact Info</h6>
                                         <div className={styles.contactInfo} target="_blank">
                                             <a href="tel:+1655-487-632" aria-label={`Our Phone Number`}>
-                                                Phone: +1655-487-632
+                                                <span>Phone:</span> +1655-487-632
                                             </a>
                                         </div>
                                         <div className={styles.contactInfo}>
                                             <a href="mailto:support@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
-                                                Email: support@infinitidigital.us
+                                                <span>Email:</span> support@infinitidigital.us
                                             </a>
                                             <br />
                                             <a href="mailto:inquiries@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
-                                                Email: inquiries@infinitidigital.us
+                                                <span>Email:</span> inquiries@infinitidigital.us
                                             </a>
                                         </div>
                                         <div className={styles.contactAddress}>
                                             <div>
                                                 <a href="https://maps.app.goo.gl/ZZ3BLKPRJKwJeyZy6" target="_blank" aria-label={`Our Google Map`}>
-                                                    Address: 9402 Synott Rd Apt 114, Houston, TX 77083
+                                                    <span>Address:</span> 9402 Synott Rd Apt 114, Houston, TX 77083
                                                 </a>
                                             </div>
                                         </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
             <section className={styles.copyRightSection}>
                 <Container className="h-100">
                     <Row className={`${styles.borderStyle} h-100`} >

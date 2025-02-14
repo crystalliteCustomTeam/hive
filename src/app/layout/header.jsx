@@ -1,5 +1,5 @@
 "use client"
-import { MainLogo } from "@/src/app/app-constants"
+import { MainLogo, MainBlackLogo } from "@/src/app/app-constants"
 import Link from "next/link"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/layout/header.module.scss"

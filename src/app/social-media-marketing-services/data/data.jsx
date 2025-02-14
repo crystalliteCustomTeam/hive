@@ -3,7 +3,7 @@ import BannerPoster from "media/services/social-media-marketing/posterImg.webp"
 export const BannerData = {
     subtitle: "No. 1 Social Media Marketing Company in the U.S.",
     title: "An Agency You Can Trust",
-    desc: "Struggling to cut through the noise on social media? You’re not alone. At Infinitidigital, we create strategies that don’t just get you noticed—they get you results.",
+    desc: "Struggling to cut through the noise on social media? You’re not alone. At Infiniti Digital, we create strategies that don’t just get you noticed—they get you results.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/1080p/file.mp4?loc=external&log_user=0&signature=041f9a7cd7430db270d268320d8d51ac61148abd0c42d9e0a05b7f7821aac185",
     BannerPoster: BannerPoster.src
 }
@@ -67,7 +67,7 @@ export const SolData = {
 import ImgBg from "media/services/social-media-marketing/ctaBg.webp"
 export const CtaData = {
     title: "Tired Of One-Size-Fits-All Solutions? ",
-    desc: "We get it. At Infinitidigital, we believe every business deserves a strategy that is as unique as its goals. Our customized packages are built to fit your vision, audience, and budget—so you get the desired results without paying for what you don’t.",
+    desc: "We get it. At Infiniti Digital, we believe every business deserves a strategy that is as unique as its goals. Our customized packages are built to fit your vision, audience, and budget—so you get the desired results without paying for what you don’t.",
     img: ImgBg.src
 }
 
@@ -285,7 +285,7 @@ export const PriceData = {
 import ImgBgPink from "media/services/social-media-marketing/ctaBgPink.webp"
 export const CtaPinkData = {
     title: "Looking To Create Strategies That Deliver? ",
-    desc: "Want to deliver the best results? At Infinitidigital, we tailor every campaign to your audience and goals to ensure you see measurable results—no matter your field. Whether you want to build brand awareness, foster relationships, or increase sales, we ensure your business stands out effectively. ",
+    desc: "Want to deliver the best results? At Infiniti Digital, we tailor every campaign to your audience and goals to ensure you see measurable results—no matter your field. Whether you want to build brand awareness, foster relationships, or increase sales, we ensure your business stands out effectively. ",
     img: ImgBgPink.src
 }
 
@@ -295,7 +295,7 @@ export const ContentData = {
     subtitle: "Why Choose Us?",
     title: "Outshine Your Competitors with Creative, Results-Driven Strategies",
     desc: (<>
-        <p>Why settle for average when your brand can shine? At Infinitidigital, we combine creativity, strategy, and real-world results to help you dominate the competition.</p>
+        <p>Why settle for average when your brand can shine? At Infiniti Digital, we combine creativity, strategy, and real-world results to help you dominate the competition.</p>
         <p>Innovative solutions are essential to staying ahead of trends with effective strategies.If you’re wondering how to connect with your audience, we craft content that speaks to their needs and interests. We don’t guess when it comes to measuring success—we track everything meticulously. Our reports show exactly how your campaigns perform and where we’re driving growth.</p>
     </>
     ),
@@ -344,7 +344,7 @@ import Img36 from "media/services/social-media-marketing/latestwork/36.webp"
 export const LastestWorkData = {
     subtitle: "Our Latest Work",
     title: "Driving Results That Speak for Themselves",
-    desc: "How do you know we deliver? Just look at the success stories.From viral campaigns to measurable ROI, our work speaks louder than words.At Infinitidigital, we don’t just discuss results—we show them.",
+    desc: "How do you know we deliver? Just look at the success stories.From viral campaigns to measurable ROI, our work speaks louder than words.At Infiniti Digital, we don’t just discuss results—we show them.",
     LastestWorkItem1: [
         { img: Img01.src },
         { img: Img02.src },
@@ -397,31 +397,31 @@ export const TestimonialData = {
     desc: "Real results. Real stories. See how businesses like yours have transformed their social media presence with our innovative solutions.",
     Testslider: [
         {
-            txt: "Infinitidigital completely revamped our social media strategy, and the results have been incredible! Our follower count skyrocketed, and engagement levels are at an all-time high. Their creative campaigns not only capture our brand's voice but also connect deeply with our audience. We couldn't be happier with the impact they’ve made!",
+            txt: "Infiniti Digital completely revamped our social media strategy, and the results have been incredible! Our follower count skyrocketed, and engagement levels are at an all-time high. Their creative campaigns not only capture our brand's voice but also connect deeply with our audience. We couldn't be happier with the impact they’ve made!",
             icon: < ClutchLogo />,
             namee: "Sophia R.",
             job: "Founder of Bakery Owner",
         },
         {
-            txt: "Infinitidigital transformed our social media presence. Their posts are engaging, creative, and perfectly aligned with our brand. We’ve seen a massive uptick in followers, likes, and, most importantly, sales!",
+            txt: "Infiniti Digital transformed our social media presence. Their posts are engaging, creative, and perfectly aligned with our brand. We’ve seen a massive uptick in followers, likes, and, most importantly, sales!",
             icon: < TrustpilotLogo />,
             namee: "Michael T.",
             job: "Founder of Fitness Entrepreneur",
         },
         {
-            txt: "Social media was always overwhelming until Infinitidigital took the reins. Their strategy boosted our engagement rates and created a loyal community around our brand. They’ve been a lifesaver!",
+            txt: "Social media was always overwhelming until Infiniti Digital took the reins. Their strategy boosted our engagement rates and created a loyal community around our brand. They’ve been a lifesaver!",
             icon: <GoogleLogo />,
             namee: "Emma L.",
             job: "Owner at E-Commerce Business",
         },
         {
-            txt: "Infinitidigital’s social media campaigns are next-level. Their creativity and attention to detail brought our brand to life online, helping us connect with a wider audience. We’re thrilled with the results!",
+            txt: "Infiniti Digital’s social media campaigns are next-level. Their creativity and attention to detail brought our brand to life online, helping us connect with a wider audience. We’re thrilled with the results!",
             icon: < Forbes />,
             namee: "James K.",
             job: "CEO of Real Estate Agency",
         },
         {
-            txt: "From content creation to ad strategy, Infinitidigital does it all. Our social media channels now look professional and are driving traffic to our website like never before. Their expertise is unmatched!",
+            txt: "From content creation to ad strategy, Infiniti Digital does it all. Our social media channels now look professional and are driving traffic to our website like never before. Their expertise is unmatched!",
             icon: <Upcity />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
@@ -519,8 +519,8 @@ export const FAQsData = {
     title: "Your Questions, Answered",
     Fqaslist: [
         {
-            title: "What makes Infinitidigital’s SMM services unique?",
-            txt: "Infinitidigital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
+            title: "What makes Infiniti Digital’s SMM services unique?",
+            txt: "Infiniti Digital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
         },
         {
             title: "Which platforms do you specialize in for social media marketing?",
@@ -528,11 +528,11 @@ export const FAQsData = {
         },
         {
             title: "How do you measure the success of a social media campaign?",
-            txt: "We track success using key metrics like engagement rates, conversions, reach, and ROI. At Infinitidigital, our detailed reporting provides actionable insights into campaign performance. By analyzing results and making continuous improvements, we ensure your strategies not only meet but exceed your objectives, driving meaningful growth for your brand."
+            txt: "We track success using key metrics like engagement rates, conversions, reach, and ROI. At Infiniti Digital, our detailed reporting provides actionable insights into campaign performance. By analyzing results and making continuous improvements, we ensure your strategies not only meet but exceed your objectives, driving meaningful growth for your brand."
         },
         {
             title: "Do you offer customized social media marketing packages? ",
-            txt: "Yes, Infinitidigital provides customized social media packages tailored to your unique goals and budget. Whether you’re a startup aiming for brand awareness or an established business looking to scale, our tailored solutions include audience targeting, content creation, and ad campaigns—delivering maximum value and measurable success."
+            txt: "Yes, Infiniti Digital provides customized social media packages tailored to your unique goals and budget. Whether you’re a startup aiming for brand awareness or an established business looking to scale, our tailored solutions include audience targeting, content creation, and ad campaigns—delivering maximum value and measurable success."
         },
         {
             title: "How quickly can I see results from your SMM services?",

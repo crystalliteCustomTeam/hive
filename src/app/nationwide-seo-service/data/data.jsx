@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/nationwide-seo/bannerImg.webp"
 
 export const BannerData = {
     title: "Expand Your Reach with Nationwide SEO",
-    desc: "Ready to expand your reach nationwide? Get seen across the country! Infinitidigital’s Nationwide SEO will give your business the visibility it deserves, driving more traffic and conversions.",
+    desc: "Ready to expand your reach nationwide? Get seen across the country! Infiniti Digital’s Nationwide SEO will give your business the visibility it deserves, driving more traffic and conversions.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -13,7 +13,7 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Nationwide SEO that Powers Your Growth",
-    desc: "Looking to grow nationwide? Infinitidigital's Nationwide SEO services are designed to expand your reach, giving you targeted visibility across the country. We help you grow your business nationwide with strategies that connect you with a larger audience.",
+    desc: "Looking to grow nationwide? Infiniti Digital's Nationwide SEO services are designed to expand your reach, giving you targeted visibility across the country. We help you grow your business nationwide with strategies that connect you with a larger audience.",
     ServicesItem: [
         {
             title: (<>Wider Audience<br />Reach</>),
@@ -52,7 +52,7 @@ export const ServicesData = {
         },
         {
             title: (<>Full<br />Transparency</>),
-            txt: "With Infinitidigital, transparency is key — you’re always in the loop with our detailed reports.",
+            txt: "With Infiniti Digital, transparency is key — you’re always in the loop with our detailed reports.",
             url: "#",
         },
 
@@ -64,7 +64,7 @@ export const ServicesData = {
 import ImgBg from "media/innerservices/nationwide-seo/ctaImage.webp"
 export const NewsLetterData = {
     title: "National Visibility That Grows With You",
-    desc: "Infinitidigital’s Nationwide SEO service will grow with your business. Whether you’re just starting or ready to expand, we’ve got you covered!",
+    desc: "Infiniti Digital’s Nationwide SEO service will grow with your business. Whether you’re just starting or ready to expand, we’ve got you covered!",
     img: ImgBg.src
 }
 
@@ -76,7 +76,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Ready to Rank Nationally and Beyond?",
     contentTxt: (<>
-        <p>Infinitidigital’s Nationwide SEO services are designed to help you expand your reach across the country. By optimizing your website, targeting high-value keywords, and ensuring top-notch performance, we make sure your business gets noticed.</p>
+        <p>Infiniti Digital’s Nationwide SEO services are designed to help you expand your reach across the country. By optimizing your website, targeting high-value keywords, and ensuring top-notch performance, we make sure your business gets noticed.</p>
         <p> Get noticed, get found, and dominate the national search rankings to unlock endless opportunities for growth.</p>
     </>),
     img: ContentImg.src
@@ -88,7 +88,7 @@ import ContentImg1 from "media/innerservices/nationwide-seo/Img02.webp"
 export const ContentData1 = {
     contentTitle: "Grow Your Business Nationally With Us",
     contentTxt: (<>
-        <p>Infinitidigital’s Nationwide SEO services are designed to drive traffic from every corner of the country, giving your business the visibility it needs. Our expert team focuses on long-term strategies, ensuring your website ranks high in national searches. </p>
+        <p>Infiniti Digital’s Nationwide SEO services are designed to drive traffic from every corner of the country, giving your business the visibility it needs. Our expert team focuses on long-term strategies, ensuring your website ranks high in national searches. </p>
         <p>By boosting your online presence, we help you reach a wider audience and achieve sustainable growth.</p>
 
     </>),
@@ -98,7 +98,7 @@ export const ContentData1 = {
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Nationwide SEO for Maximum Reach",
-    desc: "Want to grow beyond your local market? Infinitidigital’s Nationwide SEO brings your business the visibility it deserves across the country. Achieve higher rankings, more traffic, and better conversions from all regions, not just your local market.",
+    desc: "Want to grow beyond your local market? Infiniti Digital’s Nationwide SEO brings your business the visibility it deserves across the country. Achieve higher rankings, more traffic, and better conversions from all regions, not just your local market.",
 
     ProcessItem1: [
         {
@@ -189,7 +189,7 @@ import WorkImg04 from "media/services/content-marketing/img04.webp"
 export const WorkData = {
     subtitle: "Our Recent Work",
     title: "Showcasing Our Nationwide SEO Success",
-    desc: "Explore our portfolio to see how Infinitidigital has helped businesses expand their reach and dominate national search rankings.",
+    desc: "Explore our portfolio to see how Infiniti Digital has helped businesses expand their reach and dominate national search rankings.",
     WorkItem: [
         {
             title: "Music App",
@@ -424,7 +424,7 @@ export const PriceData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -433,34 +433,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Our Clients Are Saying",
-    desc: "Don’t just take our word for it—hear from businesses who’ve experienced the Infinitidigital’s nationwide SEO services.",
+    desc: "Don’t just take our word for it—hear from businesses who’ve experienced the Infiniti Digital’s nationwide SEO services.",
     Testslider: [
         {
-            txt: "Infinitidigital’s Nationwide SEO completely turned our business around! Their expert strategies and consistent results have made us the go-to agency for national SEO. We’ve seen a massive uptick in traffic, leads, and client satisfaction. It’s been a game-changer, and the best part? They keep things simple and stress-free. Highly recommend their services!",
+            txt: "Infiniti Digital’s Nationwide SEO completely turned our business around! Their expert strategies and consistent results have made us the go-to agency for national SEO. We’ve seen a massive uptick in traffic, leads, and client satisfaction. It’s been a game-changer, and the best part? They keep things simple and stress-free. Highly recommend their services!",
             icon: <ClutchLogo />,
             namee: "James L. ",
             job: "Nationwide SEO Success Beyond Expectations",
         },
         {
-            txt: "Working with Infinitidigital was smooth. Their Nationwide SEO services helped our business expand far beyond our local region. The results were measurable, and the ROI was undeniable. Now, we’re dominating search results nationwide, and our clients are loving it! If you want growth without the headaches, Infinitidigital is your team.",
+            txt: "Working with Infiniti Digital was smooth. Their Nationwide SEO services helped our business expand far beyond our local region. The results were measurable, and the ROI was undeniable. Now, we’re dominating search results nationwide, and our clients are loving it! If you want growth without the headaches, Infiniti Digital is your team.",
             icon: <TrustpilotLogo />,
             namee: "Samantha T.",
             job: "Seamless Growth Nationwide ",
         },
         {
-            txt: "Working with Infinitidigital was smooth. Their Nationwide SEO services helped our business expand far beyond our local region. The results were measurable, and the ROI was undeniable. Now, we’re dominating search results nationwide, and our clients are loving it! If you want growth without the headaches, Infinitidigital is your team.",
+            txt: "Working with Infiniti Digital was smooth. Their Nationwide SEO services helped our business expand far beyond our local region. The results were measurable, and the ROI was undeniable. Now, we’re dominating search results nationwide, and our clients are loving it! If you want growth without the headaches, Infiniti Digital is your team.",
             icon: <GoogleLogo />,
             namee: "Tom K.",
             job: "Nationwide Visibility Made Easy ",
         },
         {
-            txt: "Infinitidigital has been our partner for expanding our brand across the U.S. Their data-driven approach and transparent reporting made it easy for us to track progress. Our website’s traffic surged, and we attracted a ton of new clients nationwide. Thanks, Infinitidigital, for helping us grow!",
+            txt: "Infiniti Digital has been our partner for expanding our brand across the U.S. Their data-driven approach and transparent reporting made it easy for us to track progress. Our website’s traffic surged, and we attracted a ton of new clients nationwide. Thanks, Infiniti Digital, for helping us grow!",
             icon: <Forbes />,
             namee: "Laura H. ",
-            job: "Nationwide SEO Success with Infinitidigital!",
+            job: "Nationwide SEO Success with Infiniti Digital!",
         },
         {
-            txt: "We were ready to take our business nationwide, and Infinitidigital delivered. Their Nationwide SEO service helped us rise in rankings across the country, bringing in more traffic. The results were immediate, and the team was always available to support us. They truly understand how to boost national visibility. Highly recommend them!",
+            txt: "We were ready to take our business nationwide, and Infiniti Digital delivered. Their Nationwide SEO service helped us rise in rankings across the country, bringing in more traffic. The results were immediate, and the team was always available to support us. They truly understand how to boost national visibility. Highly recommend them!",
             icon: <Upcity />,
             namee: "Gregory F. ",
             job: "Nationwide SEO That Delivers ",
@@ -476,28 +476,28 @@ export const FAQsData = {
     Fqaslist: [
         {
             title: "What is Nationwide SEO?",
-            txt: "Nationwide SEO focuses on improving your website's visibility across the entire country, not just locally. It targets a broad range of customers, helping your business grow on a national scale. By utilizing optimized strategies, Infinitidigital ensures your site ranks high in national search results."
+            txt: "Nationwide SEO focuses on improving your website's visibility across the entire country, not just locally. It targets a broad range of customers, helping your business grow on a national scale. By utilizing optimized strategies, Infiniti Digital ensures your site ranks high in national search results."
         },
         {
             title: "How long does it take to see results?",
-            txt: "Results can typically be seen within 3-6 months, depending on your industry and competition. Infinitidigital uses proven techniques to ensure your site’s ranking steadily improves. With continuous optimization, you’ll see consistent growth in traffic and visibility over time."
+            txt: "Results can typically be seen within 3-6 months, depending on your industry and competition. Infiniti Digital uses proven techniques to ensure your site’s ranking steadily improves. With continuous optimization, you’ll see consistent growth in traffic and visibility over time."
         },
 
         {
             title: "Is Nationwide SEO different from local SEO?",
-            txt: "Yes, local SEO targets a specific geographic area, while Nationwide SEO aims to expand your reach across the country. With Nationwide SEO, you’ll attract customers from all over the nation, not just nearby regions. Infinitidigital’s strategies focus on a broader, more diverse audience for greater impact."
+            txt: "Yes, local SEO targets a specific geographic area, while Nationwide SEO aims to expand your reach across the country. With Nationwide SEO, you’ll attract customers from all over the nation, not just nearby regions. Infiniti Digital’s strategies focus on a broader, more diverse audience for greater impact."
         },
         {
             title: "Can Nationwide SEO work for all businesses?",
-            txt: "Absolutely! Whether you’re a small local business or a large corporation, Nationwide SEO can benefit your brand. Infinitidigital tailors strategies to suit businesses of all sizes and industries. We ensure that our SEO solutions help you connect with a wider audience while meeting your specific goals."
+            txt: "Absolutely! Whether you’re a small local business or a large corporation, Nationwide SEO can benefit your brand. Infiniti Digital tailors strategies to suit businesses of all sizes and industries. We ensure that our SEO solutions help you connect with a wider audience while meeting your specific goals."
         },
         {
             title: "How do you measure Nationwide SEO success?",
-            txt: "We measure success through key performance indicators (KPIs) like search engine rankings, website traffic, and conversions. Infinitidigital provides transparent, real-time reports so you can see the progress. These metrics help us adjust strategies to ensure ongoing growth and success for your business."
+            txt: "We measure success through key performance indicators (KPIs) like search engine rankings, website traffic, and conversions. Infiniti Digital provides transparent, real-time reports so you can see the progress. These metrics help us adjust strategies to ensure ongoing growth and success for your business."
         },
         {
-            title: "What makes Infinitidigital’s Nationwide SEO unique?",
-            txt: "Infinitidigital stands out by offering personalized, data-driven solutions for your business’s nationwide growth. We don’t use a one-size-fits-all approach; each strategy is crafted to suit your specific needs. Our transparent reporting and expert team ensure that you stay in the loop and see real, measurable results."
+            title: "What makes Infiniti Digital’s Nationwide SEO unique?",
+            txt: "Infiniti Digital stands out by offering personalized, data-driven solutions for your business’s nationwide growth. We don’t use a one-size-fits-all approach; each strategy is crafted to suit your specific needs. Our transparent reporting and expert team ensure that you stay in the loop and see real, measurable results."
         },
     ]
 

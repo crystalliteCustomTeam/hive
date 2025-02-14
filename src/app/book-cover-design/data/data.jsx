@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/book-cover-design/bannerImg.webp"
 
 export const BannerData = {
     title: "Bring Your Story to Life",
-    desc: "Ever wonder how to captivate your readers at first glance? A beautifully designed book cover is the gateway to your story. Whether for a heartwarming romance or a gripping thriller, Infinitidigital ensures your book stands out on shelves and screens. Let’s make your cover an irresistible invitation to dive into your world.",
+    desc: "Ever wonder how to captivate your readers at first glance? A beautifully designed book cover is the gateway to your story. Whether for a heartwarming romance or a gripping thriller, Infiniti Digital ensures your book stands out on shelves and screens. Let’s make your cover an irresistible invitation to dive into your world.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -53,7 +53,7 @@ export const NewsLetterData = {
 import ContentImg from "media/innerservices/book-cover-design/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Why Choose Infinitidigital for Your Book Cover Design?",
+    contentTitle: "Why Choose Infiniti Digital for Your Book Cover Design?",
     contentTxt: (<>
         <p>Want your book to shine in a crowded market? A stunning cover sets your book apart and captures readers’ attention instantly. Not sure where to begin? From conceptualizing designs to perfecting the final touches, we handle every detail precisely. Need a professional edge? Our team combines creativity and market insight to craft covers that resonate with your genre and audience.</p>
     </>),
@@ -276,7 +276,7 @@ export const CtaPinkData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -285,33 +285,33 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Authors Like You",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
-            txt: "Infinitidigital’s book cover design was breathtaking. They took the time to understand my vision and transformed it into a piece of art that resonated deeply with my readers. Every element, from the colors to the typography, was crafted with precision and care. The impact on my book’s sales has been extraordinary, and I can’t thank them enough!",
+            txt: "Infiniti Digital’s book cover design was breathtaking. They took the time to understand my vision and transformed it into a piece of art that resonated deeply with my readers. Every element, from the colors to the typography, was crafted with precision and care. The impact on my book’s sales has been extraordinary, and I can’t thank them enough!",
             icon: <ClutchLogo />,
             namee: "Sophia L.",
             job: "Author of Dreams Unfolded",
         },
         {
-            txt: "The cover Infinitidigital designed for my book exceeded all my expectations. Their attention to detail and understanding of my genre brought my story to life visually. I’ve received countless compliments, and it’s clear that this cover has played a pivotal role in attracting new readers. The team’s creativity and professionalism truly set them apart.",
+            txt: "The cover Infiniti Digital designed for my book exceeded all my expectations. Their attention to detail and understanding of my genre brought my story to life visually. I’ve received countless compliments, and it’s clear that this cover has played a pivotal role in attracting new readers. The team’s creativity and professionalism truly set them apart.",
             icon: <TrustpilotLogo />,
             namee: "James T.",
             job: "Author of Echoes of the Past",
         },
         {
-            txt: "Since launching my book with the new cover from Infinitidigital, my sales have skyrocketed. Their ability to combine market trends with my unique story was remarkable. The design not only stands out but also connects with my target audience effortlessly. It’s everything I hoped for and more—a true game-changer for my publishing journey!",
+            txt: "Since launching my book with the new cover from Infiniti Digital, my sales have skyrocketed. Their ability to combine market trends with my unique story was remarkable. The design not only stands out but also connects with my target audience effortlessly. It’s everything I hoped for and more—a true game-changer for my publishing journey!",
             icon: <GoogleLogo />,
             namee: "Emily R.",
             job: "Author of Whispers in the Wind",
         },
         {
-            txt: "As an indie author, I needed a professional, eye-catching cover that could compete with traditionally published books. Infinitidigital delivered beyond my expectations. Their innovative approach, combined with their dedication to perfection, made my book stand out. The result? A steady rise in sales and reader engagement that I could only dream of before!",
+            txt: "As an indie author, I needed a professional, eye-catching cover that could compete with traditionally published books. Infiniti Digital delivered beyond my expectations. Their innovative approach, combined with their dedication to perfection, made my book stand out. The result? A steady rise in sales and reader engagement that I could only dream of before!",
             icon: <Forbes />,
             namee: "Liam J.",
             job: "Author of Threads of Time",
         }, {
-            txt: "Infinitidigital’s team transformed my rough ideas into a visually stunning cover that truly represents my story. Their collaborative approach and unmatched expertise made the entire process smooth and enjoyable. My book cover now receives glowing reviews from readers and industry professionals alike. It’s a testament to their skill and passion for what they do.",
+            txt: "Infiniti Digital’s team transformed my rough ideas into a visually stunning cover that truly represents my story. Their collaborative approach and unmatched expertise made the entire process smooth and enjoyable. My book cover now receives glowing reviews from readers and industry professionals alike. It’s a testament to their skill and passion for what they do.",
             icon: < Upcity />,
             namee: "Ava K.",
             job: "Author of Shadows of Eternity",
@@ -333,7 +333,7 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach book cover design?",
+            title: "How does Infiniti Digital approach book cover design?",
             txt: "We take a personalized approach, tailoring every cover to the author’s vision and the book’s unique themes. Our team collaborates closely with you, incorporating market insights and creative expertise to craft a cover that captivates readers. From initial concepts to final touches, we ensure every detail aligns with your goals and exceeds your expectations."
         },
         {

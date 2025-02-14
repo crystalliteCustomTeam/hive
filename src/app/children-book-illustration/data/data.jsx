@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/children-book-illustration/bannerI
 
 export const BannerData = {
     title: "Let’s Create Magical Illustrations!",
-    desc: "Every children’s story needs a little magic, don’t you think? Your words deserve vibrant, engaging illustrations that captivate little minds and spark imagination. Unsure how to make your vision leap off the page? Infinitidigital specializes in children’s book illustrations.",
+    desc: "Every children’s story needs a little magic, don’t you think? Your words deserve vibrant, engaging illustrations that captivate little minds and spark imagination. Unsure how to make your vision leap off the page? Infiniti Digital specializes in children’s book illustrations.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -156,7 +156,7 @@ export const CtaPinkData = {
 export const BookTabsData = {
     subtitle: "Book Gallery",
     title: "Unsure How Your Ideas Translate Into Visuals? ",
-    desc: "At Infinitidigital, we provide initial sketches to ensure the designs match your vision. Trust Infinitidigital to turn your Children’s Book into a complete success. ",
+    desc: "At Infiniti Digital, we provide initial sketches to ensure the designs match your vision. Trust Infiniti Digital to turn your Children’s Book into a complete success. ",
 
 }
 
@@ -276,7 +276,7 @@ export const PriceData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -289,31 +289,31 @@ export const TestimonialData = {
     desc: "Every client of ours has been like a family. Don’t believe us? Read below to find out. ",
     Testslider: [
         {
-            txt: "Infinitidigital’s illustrations transformed my simple story into a vibrant adventure. Parents and kids adore the visuals, and sales have skyrocketed! Their team was patient and insightful, making the entire process a breeze. I’m beyond grateful for their expertise, and my book has never looked better.",
+            txt: "Infiniti Digital’s illustrations transformed my simple story into a vibrant adventure. Parents and kids adore the visuals, and sales have skyrocketed! Their team was patient and insightful, making the entire process a breeze. I’m beyond grateful for their expertise, and my book has never looked better.",
             icon: < ClutchLogo />,
             namee: "Kelly R.",
             job: "Author of The Curious Caterpillar",
         },
         {
-            txt: "The characters felt so real—like they leapt off the page! Infinitidigital’s attention to detail and commitment to my vision made my book a masterpiece. Kids can’t stop flipping through it, and parents are equally impressed. Their dedication brought my dream to life.",
+            txt: "The characters felt so real—like they leapt off the page! Infiniti Digital’s attention to detail and commitment to my vision made my book a masterpiece. Kids can’t stop flipping through it, and parents are equally impressed. Their dedication brought my dream to life.",
             icon: <TrustpilotLogo />,
             namee: "Jordan L.",
             job: "Author of Milo and the Moonlight Mystery",
         },
         {
-            txt: "Infinitidigital’s team brought creativity and professionalism to every step of the process. Their illustrations exceeded my expectations and turned my book into a visual feast. Readers are raving about the stunning artwork, and I couldn’t be happier with the final result.",
+            txt: "Infiniti Digital’s team brought creativity and professionalism to every step of the process. Their illustrations exceeded my expectations and turned my book into a visual feast. Readers are raving about the stunning artwork, and I couldn’t be happier with the final result.",
             icon: <GoogleLogo />,
             namee: "Samantha T.",
             job: "Author of Luna’s Lost Star",
         },
         {
-            txt: "As a first-time author, I was nervous, but Infinitidigital guided me seamlessly. Their whimsical artwork added magic to my story, creating an unforgettable book that resonates with young readers everywhere. Their professionalism and talent made all the difference.",
+            txt: "As a first-time author, I was nervous, but Infiniti Digital guided me seamlessly. Their whimsical artwork added magic to my story, creating an unforgettable book that resonates with young readers everywhere. Their professionalism and talent made all the difference.",
             icon: <Forbes />,
             namee: "David P.",
             job: "Author of Tales of the Tiny Travelers",
         },
         {
-            txt: "The illustrations Infinitidigital delivered were breathtaking. Every page is packed with charm and personality. Kids and parents alike are in love with my book, and I’m beyond grateful! Their work truly brought my vision to life in the most enchanting way possible.",
+            txt: "The illustrations Infiniti Digital delivered were breathtaking. Every page is packed with charm and personality. Kids and parents alike are in love with my book, and I’m beyond grateful! Their work truly brought my vision to life in the most enchanting way possible.",
             icon: <Upcity />,
             namee: "Emily W.",
             job: "Author of Adventures of the Brave Bunny",
@@ -335,8 +335,8 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach children’s book illustrations?",
-            txt: "Infinitidigital starts by examining your story’s themes, characters, and target audience in depth. We collaborate closely to ensure that every illustration aligns with your vision, creating visuals that complement your narrative beautifully. Our goal is to bring your story to life with artwork that captivates and inspires."
+            title: "How does Infiniti Digital approach children’s book illustrations?",
+            txt: "Infiniti Digital starts by examining your story’s themes, characters, and target audience in depth. We collaborate closely to ensure that every illustration aligns with your vision, creating visuals that complement your narrative beautifully. Our goal is to bring your story to life with artwork that captivates and inspires."
         },
         {
             title: "Can you work with a specific art style?",

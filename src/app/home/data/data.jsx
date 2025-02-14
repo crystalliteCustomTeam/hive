@@ -469,7 +469,7 @@ import Logo20 from "media/home/partnerLogo/logo20.webp";
 export const PartnerData = {
     subtitle: "Our Partners",
     title: "Partnerships That Drive Success ",
-    desc: "At Infinitidigital, we’re proud to partner with some of the world’s most forward-thinking brands. From global corporations to innovative startups, our collaborations are built on trust, creativity, and results-driven strategies.",
+    desc: "At Infiniti Digital, we’re proud to partner with some of the world’s most forward-thinking brands. From global corporations to innovative startups, our collaborations are built on trust, creativity, and results-driven strategies.",
     PartnerLogos: [
         { logo: Logo1.src },
         { logo: Logo2.src },
@@ -509,7 +509,7 @@ import Img09 from "media/home/industires/industy09.webp"
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 export const IndustryItem = [
@@ -596,7 +596,7 @@ export const ChooseUsData = {
     Content3: [
         {
             title: "A Results-Driven Approach",
-            txt: "Success isn’t about guesswork. At Infinitidigital, we focus on delivering outcomes that matter—higher engagement, increased leads, and tangible ROI that aligns with your goals."
+            txt: "Success isn’t about guesswork. At Infiniti Digital, we focus on delivering outcomes that matter—higher engagement, increased leads, and tangible ROI that aligns with your goals."
         },
         {
             title: "Unparalleled Client Support",
@@ -615,11 +615,11 @@ export const PlatformsData = {
     desc: "We collaborate with the platforms your audience knows and loves. Whether it’s growing your brand, building communities, or driving engagement, we make sure your message resonates where it matters most.",
     img: ImgBg.src,
     SocailItems: [
-        { name: "Instagram", link: "https://www.instagram.com/infinitidigitalus/", icon: <InstagramIcon /> },
-        { name: "YouTube", link: "https://www.youtube.com/@InfinitiDigitalus", icon: <YoutubeIcon /> },
+        { name: "Instagram", link: "https://www.instagram.com/Infiniti Digitalus/", icon: <InstagramIcon /> },
+        { name: "YouTube", link: "https://www.youtube.com/@Infiniti Digitalus", icon: <YoutubeIcon /> },
         { name: "Twitter", link: "https://x.com/Infinitidigitl", icon: <TwitterIcon /> },
-        { name: "Facebook", link: "https://www.facebook.com/infinitidigitalus/", icon: <FacebookIcon /> },
-        { name: "Pinterest", link: "https://www.pinterest.com/infinitidigitalus/#", icon: <PinterestIcon /> },
+        { name: "Facebook", link: "https://www.facebook.com/Infiniti Digitalus/", icon: <FacebookIcon /> },
+        { name: "Pinterest", link: "https://www.pinterest.com/Infiniti Digitalus/#", icon: <PinterestIcon /> },
         { name: "Linkedin", link: "https://www.linkedin.com/company/infiniti-digitalus", icon: <LinkedInIcon /> },
     ]
 }
@@ -629,7 +629,7 @@ export const PlatformsData = {
 export const AwardsData = {
     subtitle: "Awards & Recognitions",
     title: "Celebrating Excellence, Innovation, and Results",
-    desc: "Our awards and recognitions reflect our clients' trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
+    desc: "Our awards and recognitions reflect our clients' trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
     slides: [
         {
             txt: "Recognized for excellence in delivering innovative digital solutions that drive measurable results for businesses worldwide.",
@@ -705,7 +705,7 @@ export const TestimonialData = {
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Our online sales skyrocketed after working with Infinitidigital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
+            txt: "Our online sales skyrocketed after working with Infiniti Digital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
@@ -765,23 +765,23 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "What services does Infinitidigital offer ",
-            txt: "Infinitidigital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
+            title: "What services does Infiniti Digital offer ",
+            txt: "Infiniti Digital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
         },
         {
-            title: "How does Infinitidigital ensure results for its clients?",
-            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infinitidigital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
+            title: "How does Infiniti Digital ensure results for its clients?",
+            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infiniti Digital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
         },
         {
-            title: "Can Infinitidigital handle projects for small and large businesses? ",
-            txt: "Yes, Infinitidigital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
+            title: "Can Infiniti Digital handle projects for small and large businesses? ",
+            txt: "Yes, Infiniti Digital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
         },
         {
-            title: "What industries does Infinitidigital specialize in? ",
-            txt: "Infinitidigital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
+            title: "What industries does Infiniti Digital specialize in? ",
+            txt: "Infiniti Digital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
         },
         {
-            title: "How can I get started with Infinitidigital?",
+            title: "How can I get started with Infiniti Digital?",
             txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success."
         }
     ]
@@ -793,11 +793,11 @@ export const FollowsData = {
     title: "Stay Connected Across Platforms",
     desc: "We connect with you where it matters most. Whether you’re on Instagram, Reddit, YouTube, or Facebook, our tailored strategies ensure consistent engagement, meaningful interactions, and measurable growth for your brand.",
     FollowsItem: [
-        { name: "Instagram", url: "https://www.instagram.com/infinitidigitalus/" },
+        { name: "Instagram", url: "https://www.instagram.com/Infiniti Digitalus/" },
         { name: "Twitter ", url: "https://x.com/Infinitidigitl" },
-        { name: "YouTube", url: "https://www.youtube.com/@InfinitiDigitalus" },
-        { name: "Facebook", url: "https://www.facebook.com/infinitidigitalus/" },
-        { name: "Pinterest", url: "https://www.pinterest.com/infinitidigitalus/" },
+        { name: "YouTube", url: "https://www.youtube.com/@Infiniti Digitalus" },
+        { name: "Facebook", url: "https://www.facebook.com/Infiniti Digitalus/" },
+        { name: "Pinterest", url: "https://www.pinterest.com/Infiniti Digitalus/" },
         { name: "Linkedin", url: "https://www.linkedin.com/company/infiniti-digitalus" },
     ]
 }

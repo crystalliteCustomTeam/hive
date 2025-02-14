@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/book-writing/bannerImg.webp"
 
 export const BannerData = {
     title: "Struggling to Get Your Story Written? ",
-    desc: "Your story deserves to be told, loved, and shared—but crafting it into a compelling book can feel overwhelming. Are you struggling to transform your ideas into a masterpiece? Let Infinitidigital turn your vision into a beautifully written book with tailored strategies that bring your story to life.",
+    desc: "Your story deserves to be told, loved, and shared—but crafting it into a compelling book can feel overwhelming. Are you struggling to transform your ideas into a masterpiece? Let Infiniti Digital turn your vision into a beautifully written book with tailored strategies that bring your story to life.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -13,7 +13,7 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Comprehensive Book Writing Services",
-    desc: "Stuck with a mountain of ideas but failing to deliver? Don't worry; let Infinitidigital help guide you on your journey to becoming a bestseller!",
+    desc: "Stuck with a mountain of ideas but failing to deliver? Don't worry; let Infiniti Digital help guide you on your journey to becoming a bestseller!",
     ServicesItem: [
         {
             title: (<>Ghost Book<br />Writing</>),
@@ -284,7 +284,7 @@ export const CtaPinkData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -294,34 +294,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Authors Like You",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
-            txt: "Infinitidigital helped turn my scattered ideas into a cohesive and compelling memoir. Their team guided me through every step, and the finished book exceeded all my expectations. Their attention to detail and professionalism made the process seamless, and I’m thrilled to share my story with the world!",
+            txt: "Infiniti Digital helped turn my scattered ideas into a cohesive and compelling memoir. Their team guided me through every step, and the finished book exceeded all my expectations. Their attention to detail and professionalism made the process seamless, and I’m thrilled to share my story with the world!",
             icon: <ClutchLogo />,
             namee: "Laura D.",
             job: "Author of Threads of My Journey",
         },
         {
-            txt: "Working with Infinitidigital was a game-changer. They understood my vision and brought it to life with stunning precision. Their creativity and collaboration turned my ideas into a story I’m proud of. From brainstorming to the final draft, their expertise made the process smooth and enjoyable. Highly recommend!",
+            txt: "Working with Infiniti Digital was a game-changer. They understood my vision and brought it to life with stunning precision. Their creativity and collaboration turned my ideas into a story I’m proud of. From brainstorming to the final draft, their expertise made the process smooth and enjoyable. Highly recommend!",
             icon: <TrustpilotLogo />,
             namee: "Michael T.",
             job: "Author of Beyond the Horizon",
         },
         {
-            txt: "I was overwhelmed with the idea of writing a book until I found Infinitidigital. Their team helped me structure my thoughts and created a manuscript that I’m incredibly proud of. They made my dream a reality and supported me through each stage with clarity and care.",
+            txt: "I was overwhelmed with the idea of writing a book until I found Infiniti Digital. Their team helped me structure my thoughts and created a manuscript that I’m incredibly proud of. They made my dream a reality and supported me through each stage with clarity and care.",
             icon: <GoogleLogo />,
             namee: "Emily T.",
             job: "Author of Adventures with Benny",
         },
         {
-            txt: "Infinitidigital’s team is exceptional! They clarified my ideas, refined my writing, and made the entire process seamless. Their ability to understand my objectives and deliver a polished manuscript gave me confidence. My business book is now something I can confidently present to my audience.",
+            txt: "Infiniti Digital’s team is exceptional! They clarified my ideas, refined my writing, and made the entire process seamless. Their ability to understand my objectives and deliver a polished manuscript gave me confidence. My business book is now something I can confidently present to my audience.",
             icon: <TrustpilotLogo />,
             namee: "James P.",
             job: "Author of The Entrepreneur’s Edge",
         },
         {
-            txt: "I had a story in my head for years but didn’t know where to start. Infinitidigital turned my thoughts into a novel that I’m truly proud of. Their creative process is unmatched, and their team’s professionalism ensured my book reached its fullest potential. I’m incredibly grateful for their support!",
+            txt: "I had a story in my head for years but didn’t know where to start. Infiniti Digital turned my thoughts into a novel that I’m truly proud of. Their creative process is unmatched, and their team’s professionalism ensured my book reached its fullest potential. I’m incredibly grateful for their support!",
             icon: <TrustpilotLogo />,
             namee: "Sophia K.",
             job: "Author of Shadows and Sunlight",
@@ -333,7 +333,7 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Captivate Readers with Your Story Today",
-    desc: "Are you ready to tell your story? Whether you’re beginning your writing journey or need help completing your manuscript, Infinitidigital is here to assist. Let’s collaborate to create a book that captivates readers and leaves a lasting legacy."
+    desc: "Are you ready to tell your story? Whether you’re beginning your writing journey or need help completing your manuscript, Infiniti Digital is here to assist. Let’s collaborate to create a book that captivates readers and leaves a lasting legacy."
 }
 
 // FAQs
@@ -343,8 +343,8 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach book writing?",
-            txt: "At Infinitidigital, we craft each book with a personalized touch. From understanding your unique voice and vision to creating structured outlines, we ensure every step aligns with your goals. Our team deepens your ideas, shaping them into a manuscript that resonates with readers. Whether it's a gripping novel or an inspiring memoir, we bring your story to life with precision and creativity."
+            title: "How does Infiniti Digital approach book writing?",
+            txt: "At Infiniti Digital, we craft each book with a personalized touch. From understanding your unique voice and vision to creating structured outlines, we ensure every step aligns with your goals. Our team deepens your ideas, shaping them into a manuscript that resonates with readers. Whether it's a gripping novel or an inspiring memoir, we bring your story to life with precision and creativity."
         },
         {
             title: "How long does the book writing process take?",

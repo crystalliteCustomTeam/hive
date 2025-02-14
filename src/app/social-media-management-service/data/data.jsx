@@ -14,9 +14,9 @@ export const BannerData = {
 import ContentImg from "media/innerservices/social-media-management/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Make Every Click Count with Infinitidigital ",
+    contentTitle: "Make Every Click Count with Infiniti Digital ",
     contentTxt: (<>
-        <p>Make Every Click Count with Infinitidigital you ever wondered why some ads captivate while others fade into the background? The secret lies in strategy. At Infinitidigital, we don’t just run campaigns; we craft journeys that turn curious clicks into loyal customers.</p>
+        <p>Make Every Click Count with Infiniti Digital you ever wondered why some ads captivate while others fade into the background? The secret lies in strategy. At Infiniti Digital, we don’t just run campaigns; we craft journeys that turn curious clicks into loyal customers.</p>
         <p>Why stick to one platform when your audience lives across many? Let’s meet your audience where they are. Ready to connect with the right people at the right time? Let’s make it happen.</p>
     </>),
     img: ContentImg.src
@@ -105,31 +105,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "We were struggling to make an impact online until Infinitidigital came on board. Their Instagram strategy transformed our engagement, resulting in an 80% boost. The results were almost immediate, leading to a noticeable increase in brand awareness. Infinitidigital really understood our needs and tailored their approach to fit them perfectly.",
+            txt: "We were struggling to make an impact online until Infiniti Digital came on board. Their Instagram strategy transformed our engagement, resulting in an 80% boost. The results were almost immediate, leading to a noticeable increase in brand awareness. Infiniti Digital really understood our needs and tailored their approach to fit them perfectly.",
             icon: <ClutchLogo />,
             namee: "Sophia T.",
             job: "Marketing Manager, BrightLeaf Naturals",
         },
         {
-            txt: "Our Facebook campaigns felt like throwing darts in the dark before Infinitidigital joined us. They implemented strategies that led to a remarkable 60% increase in leads within just weeks. The clarity and focus they provided transformed our outreach. It's clear that these guys truly understand the intricacies of digital marketing. We're thrilled with the results!",
+            txt: "Our Facebook campaigns felt like throwing darts in the dark before Infiniti Digital joined us. They implemented strategies that led to a remarkable 60% increase in leads within just weeks. The clarity and focus they provided transformed our outreach. It's clear that these guys truly understand the intricacies of digital marketing. We're thrilled with the results!",
             icon: <TrustpilotLogo />,
             namee: "Josh B.",
             job: "Founder, EcoKart Solutions",
         },
         {
-            txt: "To connect with Gen Z, we needed a fresh approach, and Infinitidigital delivered exactly that. Their TikTok campaign doubled our followers and ignited conversations we’d never experienced before. The creativity and innovation they brought to the table were remarkable. We’re excited about the new engagement and vibrant community they helped foster.",
+            txt: "To connect with Gen Z, we needed a fresh approach, and Infiniti Digital delivered exactly that. Their TikTok campaign doubled our followers and ignited conversations we’d never experienced before. The creativity and innovation they brought to the table were remarkable. We’re excited about the new engagement and vibrant community they helped foster.",
             icon: <GoogleLogo />,
             namee: "Elena C.",
             job: "Brand Manager, GlowVibe",
         },
         {
-            txt: "Working with Infinitidigital was one of the best decisions for our business. Their personalized LinkedIn strategy significantly elevated our brand's presence, bringing in high-quality leads and positioning us as industry leaders. The professional approach and insight they offered were invaluable. We're grateful for their partnership in driving our growth forward!",
+            txt: "Working with Infiniti Digital was one of the best decisions for our business. Their personalized LinkedIn strategy significantly elevated our brand's presence, bringing in high-quality leads and positioning us as industry leaders. The professional approach and insight they offered were invaluable. We're grateful for their partnership in driving our growth forward!",
             icon: <Forbes />,
             namee: "Adam P.",
             job: "CEO, FutureEdge Innovations",
         },
         {
-            txt: "Our collaboration with Infinitidigital was a game-changer. They connected us with the right influencers, and we gained over 500K impressions in just a month. This partnership resulted in a significant spike in direct sales, transforming our marketing strategy. Their expertise in influencer marketing truly made a difference, and we're delighted with the outcomes.",
+            txt: "Our collaboration with Infiniti Digital was a game-changer. They connected us with the right influencers, and we gained over 500K impressions in just a month. This partnership resulted in a significant spike in direct sales, transforming our marketing strategy. Their expertise in influencer marketing truly made a difference, and we're delighted with the outcomes.",
             icon: <Upcity />,
             namee: "Lila  W.",
             job: "Social Media Manager, StyleSphere",

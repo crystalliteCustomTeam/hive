@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/book-editing/bannerImg.webp"
 
 export const BannerData = {
     title: "Struggling to Perfect Your Manuscript? ",
-    desc: "Your manuscript deserves to shine—but turning it into a polished, captivating book can feel overwhelming. Are you struggling to refine your story, fix structural flaws, or perfect the language? Let Infinitidigital uplift your manuscript with tailored editing services designed to make your book stand out.",
+    desc: "Your manuscript deserves to shine—but turning it into a polished, captivating book can feel overwhelming. Are you struggling to refine your story, fix structural flaws, or perfect the language? Let Infiniti Digital uplift your manuscript with tailored editing services designed to make your book stand out.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -44,7 +44,7 @@ export const ServicesData = {
 import ImgBg from "media/innerservices/book-editing/ctaImage.webp"
 export const NewsLetterData = {
     title: "Does Your Manuscript Reflect Its Full Potential?",
-    desc: "Planning to self-publish or submit to traditional publishers? We offer guidance to ensure your manuscript meets all requirements and stands out in the market. Let Infinitidigital perfect every detail for you.",
+    desc: "Planning to self-publish or submit to traditional publishers? We offer guidance to ensure your manuscript meets all requirements and stands out in the market. Let Infiniti Digital perfect every detail for you.",
     img: ImgBg.src
 }
 
@@ -276,7 +276,7 @@ export const CtaPinkData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -289,31 +289,31 @@ export const TestimonialData = {
     desc: "Your book is unique, and so should your editing process. The perfection your book deserves is just a click away!",
     Testslider: [
         {
-            txt: "Infinitidigital transformed my rough draft into a polished gem. Their developmental edits strengthened my story’s pacing and characters, and their meticulous proofreading caught every detail. Thanks to their expertise, my book is ready for submission, and I feel confident presenting it to agents. I’m grateful for their support at every step.",
+            txt: "Infiniti Digital transformed my rough draft into a polished gem. Their developmental edits strengthened my story’s pacing and characters, and their meticulous proofreading caught every detail. Thanks to their expertise, my book is ready for submission, and I feel confident presenting it to agents. I’m grateful for their support at every step.",
             icon: <ClutchLogo />,
             namee: "Ella R.",
             job: "Author of Echoes of the Past",
         },
         {
-            txt: "I was overwhelmed revising my novel until I found Infinitidigital. Their editors provided invaluable insights that sharpened my plot and deepened my character. The collaborative process was seamless, and their thoughtful suggestions elevated my story. I’m thrilled with the results and excited to share my book with readers. Thank you for your incredible work!",
+            txt: "I was overwhelmed revising my novel until I found Infiniti Digital. Their editors provided invaluable insights that sharpened my plot and deepened my character. The collaborative process was seamless, and their thoughtful suggestions elevated my story. I’m thrilled with the results and excited to share my book with readers. Thank you for your incredible work!",
             icon: <TrustpilotLogo />,
             namee: "Mark L.",
             job: "Author of Winds of Change",
         },
         {
-            txt: "Infinitidigital’s editing services were exactly what I needed to elevate my self-published book. Their attention to detail and ability to refine my writing without losing my voice was exceptional. Thanks to them, my book looks and reads professionally, receiving praise from readers and industry professionals alike. I can’t recommend them enough!",
+            txt: "Infiniti Digital’s editing services were exactly what I needed to elevate my self-published book. Their attention to detail and ability to refine my writing without losing my voice was exceptional. Thanks to them, my book looks and reads professionally, receiving praise from readers and industry professionals alike. I can’t recommend them enough!",
             icon: <GoogleLogo />,
             namee: "Sophie N.",
             job: "Author of Adventures with Benny",
         },
         {
-            txt: "I thought my manuscript was complete until Infinitidigital worked its magic. Their edits improved every aspect—from dialogue flow to narrative tension. The feedback process was collaborative, helping me grow as a writer. Readers have been raving about the changes, and I couldn’t be happier with the transformation. Their team truly goes above and beyond.",
+            txt: "I thought my manuscript was complete until Infiniti Digital worked its magic. Their edits improved every aspect—from dialogue flow to narrative tension. The feedback process was collaborative, helping me grow as a writer. Readers have been raving about the changes, and I couldn’t be happier with the transformation. Their team truly goes above and beyond.",
             icon: <TrustpilotLogo />,
             namee: "James C.",
             job: "Author of The Final Act",
         },
         {
-            txt: "Infinitidigital didn’t just edit my book—they brought out its full potential. Their detailed editing refined my story’s pacing, language, and character development, making it shine. The team’s dedication and understanding of my vision were invaluable. Now, I’m confident about submitting to publishers, knowing my manuscript is at its best.",
+            txt: "Infiniti Digital didn’t just edit my book—they brought out its full potential. Their detailed editing refined my story’s pacing, language, and character development, making it shine. The team’s dedication and understanding of my vision were invaluable. Now, I’m confident about submitting to publishers, knowing my manuscript is at its best.",
             icon: <TrustpilotLogo />,
             namee: "Anna T.",
             job: "The Silver Lining",
@@ -325,7 +325,7 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Enthrall Readers with a Polished Manuscript Today",
-    desc: "Are you ready to perfect your story? Whether preparing to publish or refining your first draft, Infinitidigital is here to help. Let’s collaborate to renovate your manuscript into a book readers will love."
+    desc: "Are you ready to perfect your story? Whether preparing to publish or refining your first draft, Infiniti Digital is here to help. Let’s collaborate to renovate your manuscript into a book readers will love."
 }
 
 // FAQs
@@ -335,15 +335,15 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach book editing?",
-            txt: "Infinitidigital starts with a deep dive into your manuscript. We assess its structure, narrative flow, and language to understand its strengths and identify areas for improvement. Our editors then craft a tailored editing plan, ensuring that every word, scene, and chapter serves the story while maintaining your voice. This process ensures your book resonates with readers and stands out in the competitive publishing world."
+            title: "How does Infiniti Digital approach book editing?",
+            txt: "Infiniti Digital starts with a deep dive into your manuscript. We assess its structure, narrative flow, and language to understand its strengths and identify areas for improvement. Our editors then craft a tailored editing plan, ensuring that every word, scene, and chapter serves the story while maintaining your voice. This process ensures your book resonates with readers and stands out in the competitive publishing world."
         },
         {
             title: "How long does the book editing process take?",
             txt: "Timelines depend on the manuscript's length and the depth of editing required. Lighter edits, like proofreading, take 2-4 weeks, while comprehensive edits, including developmental and line editing, can take 6-8 weeks. Rest assured, our editors prioritize quality, keeping you informed at every stage with clear updates and actionable feedback."
         },
         {
-            title: "Can Infinitidigital handle books in multiple genres?",
+            title: "Can Infiniti Digital handle books in multiple genres?",
             txt: "Yes, our team has expertise in a broad range of genres. From gripping thrillers and heartfelt memoirs to informative non-fiction and imaginative children’s books, we adapt our editing approach to suit your genre. We ensure your book meets the expectations of its target audience while preserving its unique essence."
         },
         {

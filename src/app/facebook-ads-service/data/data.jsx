@@ -293,34 +293,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Authors Like You",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
-            txt: "Infinitidigital completely revolutionized our Facebook Ads strategy! Within weeks, we saw a 50% jump in leads and an incredible ROI. Their team’s creative approach and precision targeting made all the difference. I couldn’t recommend them more for businesses looking to grow fast and efficiently!",
+            txt: "Infiniti Digital completely revolutionized our Facebook Ads strategy! Within weeks, we saw a 50% jump in leads and an incredible ROI. Their team’s creative approach and precision targeting made all the difference. I couldn’t recommend them more for businesses looking to grow fast and efficiently!",
             icon: <ClutchLogo />,
             namee: "Laura J.",
             job: "Co-Founder of FreshRoots Marketing",
         },
         {
-            txt: "Our partnership with Infinitidigital has been phenomenal. Their Facebook Ads brought in quality leads we couldn’t achieve before. Their quick optimization and creative ads ensured we stayed ahead of our competitors. Thanks to their expertise, we’re seeing significant growth month over month.",
+            txt: "Our partnership with Infiniti Digital has been phenomenal. Their Facebook Ads brought in quality leads we couldn’t achieve before. Their quick optimization and creative ads ensured we stayed ahead of our competitors. Thanks to their expertise, we’re seeing significant growth month over month.",
             icon: <TrustpilotLogo />,
             namee: "Michael S.",
             job: "Owner of BuildSmart Interiors",
         },
         {
-            txt: "We’ve never seen such a high return on investment from our Facebook Ads before working with Infinitidigital. Their strategies were tailored to our needs, and their commitment to tracking and improving performance was impressive. They truly understand how to make ads work for businesses like ours.",
+            txt: "We’ve never seen such a high return on investment from our Facebook Ads before working with Infiniti Digital. Their strategies were tailored to our needs, and their commitment to tracking and improving performance was impressive. They truly understand how to make ads work for businesses like ours.",
             icon: <GoogleLogo />,
             namee: "Claire P",
             job: "Owner of UrbanStyle Clothing",
         },
         {
-            txt: "Infinitidigital turned our Facebook Ads into a revenue-generating machine! Their team’s knowledge, creativity, and dedication were evident throughout the process. They kept us informed with detailed reports and made adjustments to maximize results. It’s been a fantastic experience working with them!",
+            txt: "Infiniti Digital turned our Facebook Ads into a revenue-generating machine! Their team’s knowledge, creativity, and dedication were evident throughout the process. They kept us informed with detailed reports and made adjustments to maximize results. It’s been a fantastic experience working with them!",
             icon: <Forbes />,
             namee: "Daniel H.",
             job: "CEO of PrimeCraft Décor",
         },
         {
-            txt: "Partnering with Infinitidigital was the best decision we made for our marketing. Their Facebook Ads delivered impressive results, increasing our leads by 45% in a month. Their creative strategies and data-driven approach make them an invaluable ally.",
+            txt: "Partnering with Infiniti Digital was the best decision we made for our marketing. Their Facebook Ads delivered impressive results, increasing our leads by 45% in a month. Their creative strategies and data-driven approach make them an invaluable ally.",
             icon: <Upcity />,
             namee: "Ethan R.",
             job: "Owner of BrightPath Coaching",

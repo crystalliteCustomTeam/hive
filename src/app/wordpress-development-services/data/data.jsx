@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/wordpress-development-services/ban
 
 export const BannerData = {
     title: "WordPress Development Services",
-    desc: "Looking for a powerful WordPress site? Infinitidigital creates custom, mobile-friendly, SEO-optimized websites that engage visitors, drive conversions, and help grow your business effectively.",
+    desc: "Looking for a powerful WordPress site? Infiniti Digital creates custom, mobile-friendly, SEO-optimized websites that engage visitors, drive conversions, and help grow your business effectively.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -144,15 +144,15 @@ export const NewsLetterData = {
 // Web Projects
 export const WebProjectData = {
     subtitle: "Our Projects",
-    title: "Infinitidigital: Your Partner for WordPress Success",
-    desc: "Infinitidigital delivers exceptional WordPress development services, creating fast, secure, and responsive websites that elevate your brand and drive business growth.",
+    title: "Infiniti Digital: Your Partner for WordPress Success",
+    desc: "Infiniti Digital delivers exceptional WordPress development services, creating fast, secure, and responsive websites that elevate your brand and drive business growth.",
 }
 
 // Pricing
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Pricing for WordPress Development",
-    desc: "Infinitidigital offers affordable rates for custom WordPress development to suit your business needs. Explore pricing and plans for WordPress website development tailored to small to large businesses.",
+    desc: "Infiniti Digital offers affordable rates for custom WordPress development to suit your business needs. Explore pricing and plans for WordPress website development tailored to small to large businesses.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -267,34 +267,34 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Our WordPress site has never looked better, and we’ve seen a 30% increase in leads! The team at Infinitidigital understood our business needs and built a highly professional website that reflects our brand perfectly. We’ve seen measurable improvements in our online visibility and customer engagement.",
+            txt: "Our WordPress site has never looked better, and we’ve seen a 30% increase in leads! The team at Infiniti Digital understood our business needs and built a highly professional website that reflects our brand perfectly. We’ve seen measurable improvements in our online visibility and customer engagement.",
             icon: <ClutchLogo />,
             namee: "John D.",
-            job: "Measurable Results with Infinitidigital",
+            job: "Measurable Results with Infiniti Digital",
         },
         {
-            txt: "Working with Infinitidigital was very smooth. The team took the time to understand our goals and objectives thoroughly. They delivered exactly what we envisioned: a modern, responsive, and user-friendly WordPress site that’s helping us better engage with our customers. Their professionalism and commitment were outstanding throughout the entire process.",
+            txt: "Working with Infiniti Digital was very smooth. The team took the time to understand our goals and objectives thoroughly. They delivered exactly what we envisioned: a modern, responsive, and user-friendly WordPress site that’s helping us better engage with our customers. Their professionalism and commitment were outstanding throughout the entire process.",
             icon: <TrustpilotLogo />,
             namee: "Mary S.",
-            job: "Vision to Reality with Infinitidigital",
+            job: "Vision to Reality with Infiniti Digital",
         },
         {
-            txt: "Our custom theme designed by Infinitidigital has exceeded all expectations. It’s sleek, responsive, and perfectly aligned with our brand identity. The website not only looks fantastic, but it also provides an enhanced user experience. We've already noticed increased interaction from users and a noticeable boost in conversions.",
+            txt: "Our custom theme designed by Infiniti Digital has exceeded all expectations. It’s sleek, responsive, and perfectly aligned with our brand identity. The website not only looks fantastic, but it also provides an enhanced user experience. We've already noticed increased interaction from users and a noticeable boost in conversions.",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "Custom Theme, Exceptional Results",
         },
         {
-            txt: "Infinitidigital transformed our outdated website into a modern, fast-loading WordPress wonder. The team meticulously worked on every detail, ensuring that the site was user-friendly, visually appealing, and fully optimized for performance. We’re incredibly happy with the outcome and have received numerous compliments from visitors and clients alike.",
+            txt: "Infiniti Digital transformed our outdated website into a modern, fast-loading WordPress wonder. The team meticulously worked on every detail, ensuring that the site was user-friendly, visually appealing, and fully optimized for performance. We’re incredibly happy with the outcome and have received numerous compliments from visitors and clients alike.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "From Outdated to Outstanding ",
         },
         {
-            txt: "We’re now attracting more visitors and converting them into customers, thanks to Infinitidigital’s expert WordPress development services. Their team revamped our website’s design and functionality, resulting in a significant increase in traffic and better overall user engagement. Our online presence has been significantly strengthened, and we couldn’t be happier. ",
+            txt: "We’re now attracting more visitors and converting them into customers, thanks to Infiniti Digital’s expert WordPress development services. Their team revamped our website’s design and functionality, resulting in a significant increase in traffic and better overall user engagement. Our online presence has been significantly strengthened, and we couldn’t be happier. ",
             icon: <ClutchLogo />,
             namee: "Lisa M.",
-            job: "Online Growth with InfinitiDigital",
+            job: "Online Growth with Infiniti Digital",
         }
     ]
 }

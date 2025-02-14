@@ -298,34 +298,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Words from Our Clients",
-    desc: "At Infinitidigital, our mission is to help businesses thrive on Amazon. Our clients have seen significant benefits, from increased product awareness to unmatched sales growth, and they are eager to share their experiences.",
+    desc: "At Infiniti Digital, our mission is to help businesses thrive on Amazon. Our clients have seen significant benefits, from increased product awareness to unmatched sales growth, and they are eager to share their experiences.",
     Testslider: [
         {
-            txt: "The team at Infinitidigital understands Amazon Ads like no one else. They took our fitness gear brand to the top of the heap, increasing our ROI by 60% in the first quarter. Their detailed performance reports and regular optimization efforts set them apart from other agencies. We highly recommend them.",
+            txt: "The team at Infiniti Digital understands Amazon Ads like no one else. They took our fitness gear brand to the top of the heap, increasing our ROI by 60% in the first quarter. Their detailed performance reports and regular optimization efforts set them apart from other agencies. We highly recommend them.",
             icon: <ClutchLogo />,
             namee: "Nathan S.",
             job: "CEO, FitLife Gear",
         },
         {
-            txt: "Infinitidigital transformed our Amazon Ads campaigns completely. Our product visibility skyrocketed, and within three months, our revenue doubled. Their team’s attention to detail and data-driven approach ensured that every ad worked to deliver results. Partnering with them was one of the best decisions we’ve made for our business.",
+            txt: "Infiniti Digital transformed our Amazon Ads campaigns completely. Our product visibility skyrocketed, and within three months, our revenue doubled. Their team’s attention to detail and data-driven approach ensured that every ad worked to deliver results. Partnering with them was one of the best decisions we’ve made for our business.",
             icon: <TrustpilotLogo />,
             namee: "Amanda T.",
             job: "Founder, BrightTech Solutions",
         },
         {
-            txt: "Infinitidigital’s expertise in Amazon Ads is unmatched. They helped us optimize our product listings and target the right buyers, which significantly boosted sales. Their team is always available to provide updates and recommendations. If you’re looking for a results-driven agency, look no further.",
+            txt: "Infiniti Digital’s expertise in Amazon Ads is unmatched. They helped us optimize our product listings and target the right buyers, which significantly boosted sales. Their team is always available to provide updates and recommendations. If you’re looking for a results-driven agency, look no further.",
             icon: <GoogleLogo />,
             namee: "Michael H.",
             job: "Owner, AutoXperts",
         },
         {
-            txt: "Infinitidigital turned our educational product listings into top performers. Their spot-on keyword research and ad placement strategies led to a 35% increase in traffic and a 50% rise in sales. Their dedication to client success is impressive. They’re more than an agency—they’re a growth partner.",
+            txt: "Infiniti Digital turned our educational product listings into top performers. Their spot-on keyword research and ad placement strategies led to a 35% increase in traffic and a 50% rise in sales. Their dedication to client success is impressive. They’re more than an agency—they’re a growth partner.",
             icon: <TrustpilotLogo />,
             namee: "Laura P.",
             job: "Head of Marketing, EduGrow Solutions",
         },
         {
-            txt: "Infinitidigital made a massive difference for our Amazon store. Their expertise in ad management and audience targeting helped us reduce ad spend while significantly increasing sales. The team is easy to work with and always provides valuable insights. They’ve become an integral part of our growth strategy.",
+            txt: "Infiniti Digital made a massive difference for our Amazon store. Their expertise in ad management and audience targeting helped us reduce ad spend while significantly increasing sales. The team is easy to work with and always provides valuable insights. They’ve become an integral part of our growth strategy.",
             icon: <TrustpilotLogo />,
             namee: "Catherine M.",
             job: "Founder, LuxeHome Essentials",

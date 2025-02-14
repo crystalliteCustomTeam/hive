@@ -78,7 +78,7 @@ import ContentImg1 from "media/innerservices/local-seo/Img02.webp"
 export const ContentData1 = {
     contentTitle: "Ready to Dominate Local Search Rankings?",
     contentTxt: (<>
-        <p>Get noticed by local customers with Infinitidigital’s Local SEO strategies.We optimize your business to rank higher, driving foot traffic and enhancing online visibility.</p>
+        <p>Get noticed by local customers with Infiniti Digital’s Local SEO strategies.We optimize your business to rank higher, driving foot traffic and enhancing online visibility.</p>
         <p>From keyword research to local map listings, we ensure your business is easy to find.Our goal is to convert local searches into long-term, loyal customers.Let’s grow together!</p>
     </>),
     img: ContentImg1.src
@@ -87,8 +87,8 @@ export const ContentData1 = {
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Local SEO with Infinitidigital",
-    desc: "Want your business to be the first thing locals find online? Infinitidigital’s Local SEO strategies ensure you're seen by the right audience at the right time.",
+    title: "Local SEO with Infiniti Digital",
+    desc: "Want your business to be the first thing locals find online? Infiniti Digital’s Local SEO strategies ensure you're seen by the right audience at the right time.",
 
     ProcessItem1: [
         {
@@ -99,7 +99,7 @@ export const ProcessData = {
                 <strong>Add Media & Updates:</strong>
                 <p>Use engaging photos and videos to attract your community.</p>
                 <strong>Respond to Reviews:</strong>
-                <p>Engage with reviews professionally—Infinitidigital helps you respond, improving your reputation!</p>
+                <p>Engage with reviews professionally—Infiniti Digital helps you respond, improving your reputation!</p>
             </>),
 
         },
@@ -121,7 +121,7 @@ export const ProcessData = {
             title: "Local Citations for Visibility",
             txt: (<>
                 <strong>Ensure Consistent NAP:</strong>
-                <p>Infinitidigital keeps your Name, Address, and Phone number consistent across local directories.</p>
+                <p>Infiniti Digital keeps your Name, Address, and Phone number consistent across local directories.</p>
                 <strong>Claim Local Listings:</strong>
                 <p>We claim and optimize your business on high-quality local platforms like Yelp.</p>
                 <strong>Increase Trust:</strong>
@@ -132,7 +132,7 @@ export const ProcessData = {
             title: "Quality Local Backlinks",
             txt: (<>
                 <strong>Earn Local Blog Mentions:</strong>
-                <p>Infinitidigital builds local backlinks by featuring your business on trusted, community blogs.</p>
+                <p>Infiniti Digital builds local backlinks by featuring your business on trusted, community blogs.</p>
                 <strong>Leverage Partnerships:</strong>
                 <p>We create strategic partnerships with other local brands to boost visibility and backlinks.</p>
                 <strong>Sponsor Events:</strong>
@@ -146,7 +146,7 @@ export const ProcessData = {
             title: "Mobile-Friendly Websites",
             txt: (<>
                 <strong>Responsive Design Matters:</strong>
-                <p>Infinitidigital ensures your website is mobile-friendly, making it easy for local customers to browse.</p>
+                <p>Infiniti Digital ensures your website is mobile-friendly, making it easy for local customers to browse.</p>
                 <strong>Improve Page Load Speed:</strong>
                 <p>We optimize your site’s speed so that it loads faster, reducing bounce rates.</p>
                 <strong>Simplify Contact Access:</strong>
@@ -177,7 +177,7 @@ export const ProcessData = {
 import ImgBg from "media/innerservices/local-seo/ctaImage.webp"
 export const NewsLetterData = {
     title: "Stand Out Locally, Dominate Online!",
-    desc: "Ready to stand out locally? Infinitidigital’s local SEO services ensure your business gets noticed by nearby customers, increasing visibility and driving local traffic.",
+    desc: "Ready to stand out locally? Infiniti Digital’s local SEO services ensure your business gets noticed by nearby customers, increasing visibility and driving local traffic.",
     img: ImgBg.src
 }
 
@@ -186,7 +186,7 @@ export const NewsLetterData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -196,37 +196,37 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Our Clients Are Saying",
-    desc: "Our clients’ success stories speak volumes about our work. Here’s how Infinitidigital’s Local SEO services have helped businesses like yours thrive. Don’t just take our word for it—see how we've transformed local online presence and made our clients the talk of their town. Ready to join the success stories?",
+    desc: "Our clients’ success stories speak volumes about our work. Here’s how Infiniti Digital’s Local SEO services have helped businesses like yours thrive. Don’t just take our word for it—see how we've transformed local online presence and made our clients the talk of their town. Ready to join the success stories?",
     Testslider: [
         {
-            txt: "Before working with Infinitidigital, my local search results were practically invisible! Can you imagine? Now, my business pops up everywhere. They made SEO fun, easy, and effective! I can’t believe how quickly I started seeing more foot traffic and phone calls. Want to be found locally? Infinitidigital is the real deal!",
+            txt: "Before working with Infiniti Digital, my local search results were practically invisible! Can you imagine? Now, my business pops up everywhere. They made SEO fun, easy, and effective! I can’t believe how quickly I started seeing more foot traffic and phone calls. Want to be found locally? Infiniti Digital is the real deal!",
             icon: <ClutchLogo />,
             namee: "Sarah M.",
             job: "Local Visibility Like Never Before!",
         },
         {
-            txt: "I thought I was doing well, but Infinitidigital showed me how much I was missing. Have you ever felt invisible online? Well, not anymore! Now, I’m showing up on every map and local search. My neighbors know my name now—literally! Ready to dominate your local search? They’ve got you covered!",
+            txt: "I thought I was doing well, but Infiniti Digital showed me how much I was missing. Have you ever felt invisible online? Well, not anymore! Now, I’m showing up on every map and local search. My neighbors know my name now—literally! Ready to dominate your local search? They’ve got you covered!",
             icon: <TrustpilotLogo />,
             namee: "Jake T.",
             job: "We’re Everywhere Now!",
         },
         {
-            txt: " I was skeptical at first, but Infinitidigital worked some SEO magic. Who knew local SEO could work this fast? My website traffic went through the roof! They didn’t just get me listed; they put me at the top. Now, I’m getting more calls, more visits, and more loyal customers.",
+            txt: " I was skeptical at first, but Infiniti Digital worked some SEO magic. Who knew local SEO could work this fast? My website traffic went through the roof! They didn’t just get me listed; they put me at the top. Now, I’m getting more calls, more visits, and more loyal customers.",
             icon: <GoogleLogo />,
             namee: "Emily L.",
-            job: "Infinitidigital Works Magic!",
+            job: "Infiniti Digital Works Magic!",
         },
         {
-            txt: "Infinitidigital took my small business from being a local ghost to a community superstar. Can you believe it? They helped optimize everything from my Google My Business page to local backlinks. Now, I’m showing up everywhere! I couldn't have asked for better results. Highly Recommended!",
+            txt: "Infiniti Digital took my small business from being a local ghost to a community superstar. Can you believe it? They helped optimize everything from my Google My Business page to local backlinks. Now, I’m showing up everywhere! I couldn't have asked for better results. Highly Recommended!",
             icon: <Forbes />,
             namee: "Marcus H.",
             job: "We’ve Gone Local… Big Time!",
         },
         {
-            txt: " I’ve been running my business for years, but local SEO was always a mystery. Ever felt overwhelmed by SEO? Infinitidigital cracked the code for me! My store’s visibility has increased dramatically, and I’ve even had customers stop by just to say they found me online. Super satisfied!",
+            txt: " I’ve been running my business for years, but local SEO was always a mystery. Ever felt overwhelmed by SEO? Infiniti Digital cracked the code for me! My store’s visibility has increased dramatically, and I’ve even had customers stop by just to say they found me online. Super satisfied!",
             icon: <Upcity />,
             namee: "Lisa K.",
-            job: "Infinitidigital Changed My Business Game!",
+            job: "Infiniti Digital Changed My Business Game!",
         },
 
     ]
@@ -245,19 +245,19 @@ export const FAQsData = {
         },
         {
             title: "How long does it take to see results?",
-            txt: "Typically, it takes about 3-6 months to see significant results from local SEO efforts. The timeline can vary depending on the competition in your area and your industry. Infinitidigital ensures consistent monitoring and updates to keep improving your visibility and rankings as quickly as possible."
+            txt: "Typically, it takes about 3-6 months to see significant results from local SEO efforts. The timeline can vary depending on the competition in your area and your industry. Infiniti Digital ensures consistent monitoring and updates to keep improving your visibility and rankings as quickly as possible."
         },
         {
             title: "Can Local SEO help my small business?",
-            txt: "Yes, Local SEO is a game-changer for small businesses looking to stand out in their community. It helps target the right audience and ensures your business shows up when locals search for services you provide. Infinitidigital’s strategies are designed to make your business visible and easily discoverable by nearby customers."
+            txt: "Yes, Local SEO is a game-changer for small businesses looking to stand out in their community. It helps target the right audience and ensures your business shows up when locals search for services you provide. Infiniti Digital’s strategies are designed to make your business visible and easily discoverable by nearby customers."
         },
         {
             title: "Do I need to pay for Google My Business?",
-            txt: "No, Google My Business is a free tool offered by Google to help businesses appear in local searches. However, optimizing it with correct business details, images, reviews, and posts can greatly improve your visibility. Infinitidigital can help you set up and optimize your profile to ensure it works to your advantage."
+            txt: "No, Google My Business is a free tool offered by Google to help businesses appear in local searches. However, optimizing it with correct business details, images, reviews, and posts can greatly improve your visibility. Infiniti Digital can help you set up and optimize your profile to ensure it works to your advantage."
         },
         {
-            title: "What makes Infinitidigital’s Local SEO unique?",
-            txt: "Infinitidigital combines advanced SEO techniques with a deep understanding of local search behavior. We focus on driving measurable results while making sure your brand stands out in your community. With personalized strategies and expert implementation, we bring your business to the top of local search results!"
+            title: "What makes Infiniti Digital’s Local SEO unique?",
+            txt: "Infiniti Digital combines advanced SEO techniques with a deep understanding of local search behavior. We focus on driving measurable results while making sure your brand stands out in your community. With personalized strategies and expert implementation, we bring your business to the top of local search results!"
         },
     ]
 

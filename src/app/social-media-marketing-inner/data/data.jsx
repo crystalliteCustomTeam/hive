@@ -441,31 +441,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed our social media presence. Their targeted campaigns helped us connect with our ideal audience, and we saw a 40% increase in engagement within the first month. Highly recommend their team!",
+            txt: "Infiniti Digital completely transformed our social media presence. Their targeted campaigns helped us connect with our ideal audience, and we saw a 40% increase in engagement within the first month. Highly recommend their team!",
             icon: <ClutchLogo />,
             namee: "Sarah J.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "The team at Infinitidigital took the time to understand our goals and created a personalized strategy that worked wonders. Not only did they help us grow our followers, but their efforts also led to a 20% boost in sales. They truly deliver!",
+            txt: "The team at Infiniti Digital took the time to understand our goals and created a personalized strategy that worked wonders. Not only did they help us grow our followers, but their efforts also led to a 20% boost in sales. They truly deliver!",
             icon: <TrustpilotLogo />,
             namee: "James R.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "I’ve worked with several agencies before, but none compare to Infinitidigital. Their creative content and data-driven approach have taken our brand to the next level. Our ROI has never been better!",
+            txt: "I’ve worked with several agencies before, but none compare to Infiniti Digital. Their creative content and data-driven approach have taken our brand to the next level. Our ROI has never been better!",
             icon: <GoogleLogo />,
             namee: "Michael K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Infinitidigital’s expertise in social media marketing is unmatched. They crafted campaigns aligned perfectly with our brand, resulting in higher customer engagement and more qualified leads. They’ve been a game-changer for us.",
+            txt: "Infiniti Digital’s expertise in social media marketing is unmatched. They crafted campaigns aligned perfectly with our brand, resulting in higher customer engagement and more qualified leads. They’ve been a game-changer for us.",
             icon: <TrustpilotLogo />,
             namee: "Emily L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Working with Infinitidigital has been a fantastic experience. Their team’s dedication, creativity, and ability to track performance have helped us build a loyal online community. I couldn’t be happier with the results!",
+            txt: "Working with Infiniti Digital has been a fantastic experience. Their team’s dedication, creativity, and ability to track performance have helped us build a loyal online community. I couldn’t be happier with the results!",
             icon: <ClutchLogo />,
             namee: "Rachel R.",
             job: "Founder of StyleHive Boutique",
@@ -490,7 +490,7 @@ import Healthcare from "media/home/industires/healthcare.webp"
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Partnering with Businesses Across Industries",
-    desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infinitidigital, your success is our priority.",
+    desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infiniti Digital, your success is our priority.",
 
 }
 export const IndustryItem = [
@@ -578,8 +578,8 @@ export const FAQsData = {
     title: "Your Questions, Answered",
     Fqaslist: [
         {
-            title: "What makes Infinitidigital’s SMM services unique?",
-            txt: "Infinitidigital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
+            title: "What makes Infiniti Digital’s SMM services unique?",
+            txt: "Infiniti Digital’s Social Media Marketing services stand out because we craft strategies tailored to your brand’s goals and audience. By blending innovation with data-driven insights, we ensure every campaign is unique and impactful. Our approach emphasizes creative solutions and measurable results, delivering meaningful engagement and long-term growth for your business."
         },
         {
             title: "Which platforms do you specialize in for social media marketing?",
@@ -587,11 +587,11 @@ export const FAQsData = {
         },
         {
             title: "How do you measure the success of a social media campaign?",
-            txt: "We track success using key metrics like engagement rates, conversions, reach, and ROI. At Infinitidigital, our detailed reporting provides actionable insights into campaign performance. By analyzing results and making continuous improvements, we ensure your strategies not only meet but exceed your objectives, driving meaningful growth for your brand."
+            txt: "We track success using key metrics like engagement rates, conversions, reach, and ROI. At Infiniti Digital, our detailed reporting provides actionable insights into campaign performance. By analyzing results and making continuous improvements, we ensure your strategies not only meet but exceed your objectives, driving meaningful growth for your brand."
         },
         {
             title: "Do you offer customized social media marketing packages? ",
-            txt: "Yes, Infinitidigital provides customized social media packages tailored to your unique goals and budget. Whether you’re a startup aiming for brand awareness or an established business looking to scale, our tailored solutions include audience targeting, content creation, and ad campaigns—delivering maximum value and measurable success."
+            txt: "Yes, Infiniti Digital provides customized social media packages tailored to your unique goals and budget. Whether you’re a startup aiming for brand awareness or an established business looking to scale, our tailored solutions include audience targeting, content creation, and ad campaigns—delivering maximum value and measurable success."
         },
         {
             title: "How quickly can I see results from your SMM services?",

@@ -45,9 +45,9 @@ export const ServicesData = {
 import ContentImg from "media/innerservices/book-video-trailer/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Why Choose Infinitidigital for Your Book Trailer?",
+    contentTitle: "Why Choose Infiniti Digital for Your Book Trailer?",
     contentTxt: (<>
-        <p>With countless books vying for attention, your trailer must captivate and connect—and that’s where we shine. Infinitidigital transforms your story into a visual masterpiece, creating trailers that reflect your book’s essence and compel viewers to dive in. Need a marketing edge? We’ve got you covered with stunning, action-driven visuals that make your book unforgettable.</p>
+        <p>With countless books vying for attention, your trailer must captivate and connect—and that’s where we shine. Infiniti Digital transforms your story into a visual masterpiece, creating trailers that reflect your book’s essence and compel viewers to dive in. Need a marketing edge? We’ve got you covered with stunning, action-driven visuals that make your book unforgettable.</p>
     </>),
     img: ContentImg.src
 }
@@ -275,7 +275,7 @@ export const CtaPinkData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -285,34 +285,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Authors Like You",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
-            txt: "Infinitidigital’s book trailer captured my story’s magic perfectly. The visuals were stunning, the soundtrack was emotional, and the readers' response was phenomenal. Their team listened to my idea and turned it into something truly special. They truly understood my vision, bringing my characters and themes to life in an unforgettable way. It’s everything I dreamed of and more!",
+            txt: "Infiniti Digital’s book trailer captured my story’s magic perfectly. The visuals were stunning, the soundtrack was emotional, and the readers' response was phenomenal. Their team listened to my idea and turned it into something truly special. They truly understood my vision, bringing my characters and themes to life in an unforgettable way. It’s everything I dreamed of and more!",
             icon: <ClutchLogo />,
             namee: "Laura M.",
             job: "Author of Whispers of the Wild",
         },
         {
-            txt: "The trailer Infinitidigital created turned my book launch into a major event. It grabbed attention, boosted pre-orders, and elevated my marketing strategy. From the visuals to the sound, every element was flawless. Their insights into my target audience ensured the trailer resonated deeply, driving unmatched engagement. I couldn’t have asked for a better partner to make my vision a reality!",
+            txt: "The trailer Infiniti Digital created turned my book launch into a major event. It grabbed attention, boosted pre-orders, and elevated my marketing strategy. From the visuals to the sound, every element was flawless. Their insights into my target audience ensured the trailer resonated deeply, driving unmatched engagement. I couldn’t have asked for a better partner to make my vision a reality!",
             icon: <ClutchLogo />,
             namee: "Ethan J.",
             job: "Author of The Chronicles of Valor",
         },
         {
-            txt: "Infinitidigital turned my vision into a cinematic gem. The storytelling, visuals, and music came together beautifully. My readers were hooked before opening the first page, and the positive feedback kept pouring in. The trailer has become integral to my marketing efforts, boosting visibility and credibility. Their team’s dedication and expertise are unmatched.",
+            txt: "Infiniti Digital turned my vision into a cinematic gem. The storytelling, visuals, and music came together beautifully. My readers were hooked before opening the first page, and the positive feedback kept pouring in. The trailer has become integral to my marketing efforts, boosting visibility and credibility. Their team’s dedication and expertise are unmatched.",
             icon: <ClutchLogo />,
             namee: "Sophia K.",
             job: "Author of Echoes of Eternity",
         },
         {
-            txt: "As an indie author, I needed something professional yet affordable. Infinitidigital delivered a trailer that rivaled big-budget productions. The trailer’s impact on sales and visibility was immediate and significant. It helped me establish a stronger connection with my readers while drawing in new audiences. It elevated my book’s visibility and left readers intrigued.",
+            txt: "As an indie author, I needed something professional yet affordable. Infiniti Digital delivered a trailer that rivaled big-budget productions. The trailer’s impact on sales and visibility was immediate and significant. It helped me establish a stronger connection with my readers while drawing in new audiences. It elevated my book’s visibility and left readers intrigued.",
             icon: <ClutchLogo />,
             namee: "Ryan C.",
             job: "Author of Shadows of the Forgotten",
         },
         {
-            txt: "From concept to execution, Infinitidigital nailed it. My trailer has been shared widely on social media, and the feedback is incredible. Readers are excited, pre-orders are climbing, and I couldn’t be more pleased. It created a buzz that exceeded my expectations, establishing my book as a must-read. This is a must-have for any author!",
+            txt: "From concept to execution, Infiniti Digital nailed it. My trailer has been shared widely on social media, and the feedback is incredible. Readers are excited, pre-orders are climbing, and I couldn’t be more pleased. It created a buzz that exceeded my expectations, establishing my book as a must-read. This is a must-have for any author!",
             icon: <ClutchLogo />,
             namee: "Emily T.",
             job: "Author of Journey to the Starlands",
@@ -324,7 +324,7 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Greet Your Story's Potential with Infinitidgital  ",
-    desc: "Transform how readers discover your book with a striking trailer encapsulating your narrative’s essence. At Infinitidigital, we specialize in breathing life into your story, creating visual experiences that engage and entice your audience. Don’t let your book go unnoticed—let’s craft a compelling trailer that leaves a lasting impression! "
+    desc: "Transform how readers discover your book with a striking trailer encapsulating your narrative’s essence. At Infiniti Digital, we specialize in breathing life into your story, creating visual experiences that engage and entice your audience. Don’t let your book go unnoticed—let’s craft a compelling trailer that leaves a lasting impression! "
 }
 
 // FAQs
@@ -334,7 +334,7 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach book trailers?",
+            title: "How does Infiniti Digital approach book trailers?",
             txt: "We begin by understanding your story’s core themes and target audience. Our team collaborates with you to create a compelling narrative and visuals that encapsulate your book’s essence, ensuring it captivates viewers and drives engagement. Each step is tailored to bring out the best in your story, leaving a lasting impression."
         },
         {

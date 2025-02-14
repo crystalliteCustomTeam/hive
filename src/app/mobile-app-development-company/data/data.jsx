@@ -4,7 +4,7 @@ import BannerPoster from "media/services/mobile-app-development/posterImg.webp"
 export const BannerData = {
     subtitle: "Expert Mobile App Services",
     title: "Transform Ideas into Exceptional Mobile Apps",
-    desc: "Looking to turn your vision into a dynamic mobile app? At Infinitidigital, we specialize in creating user-friendly, high-performing apps designed to grow your business. ",
+    desc: "Looking to turn your vision into a dynamic mobile app? At Infiniti Digital, we specialize in creating user-friendly, high-performing apps designed to grow your business. ",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775886/rendition/720p/file.mp4?loc=external&log_user=0&signature=15d5fb02bd1b53fc1aff85d23520ffb134123c63ef0420ae0ede4a03c491bad2",
     BannerPoster: BannerPoster.src,
 }
@@ -63,7 +63,7 @@ export const ServicesData = {
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Empowering Your App to Shape the Future",
-    desc: "What’s stopping your app from becoming the next big thing? At Infinitidigital, we streamline the journey from concept to completion, ensuring every step drives user engagement and business growth.",
+    desc: "What’s stopping your app from becoming the next big thing? At Infiniti Digital, we streamline the journey from concept to completion, ensuring every step drives user engagement and business growth.",
 
     ProcessItem1: [
         {
@@ -183,7 +183,7 @@ export const ContentData3 = {
 export const ChooseUsData = {
     subtitle: "Comprehensive Mobile App Services",
     title: "Tailored Solutions for Every Business",
-    desc: "Struggling to find app services that align with your goals? Infinitidigital has specialized offerings designed to grow your brand. Isn’t it time to elevate your mobile strategy?",
+    desc: "Struggling to find app services that align with your goals? Infiniti Digital has specialized offerings designed to grow your brand. Isn’t it time to elevate your mobile strategy?",
     Content1: [
         {
             title: "Mobile App Development",
@@ -217,7 +217,7 @@ export const ChooseUsData = {
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
     title: "Mobile App Solutions That Convert ",
-    desc: "Struggling to find app services that align with your goals? Infinitidigital has specialized offerings designed to grow your brand. Isn’t it time to elevate your mobile strategy?",
+    desc: "Struggling to find app services that align with your goals? Infiniti Digital has specialized offerings designed to grow your brand. Isn’t it time to elevate your mobile strategy?",
     img: ImgBg.src
 }
 
@@ -225,7 +225,7 @@ export const CtaData = {
 export const PriceData = {
     subtitle: "Affordable Social Media Packages for Every Business",
     title: "Customized Plans Tailored to Drive Engagement and Results",
-    desc: "At Infinitidigital, we understand that one size doesn't fit all. Our transparent pricing ensures you get the most value for your budget. Ready to dominate the digital space?",
+    desc: "At Infiniti Digital, we understand that one size doesn't fit all. Our transparent pricing ensures you get the most value for your budget. Ready to dominate the digital space?",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -336,7 +336,7 @@ export const PriceData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry",
-    desc: "No matter your industry, Infinitidigital delivers expert mobile app solutions tailored to your unique goals. Let’s build something extraordinary for your business.",
+    desc: "No matter your industry, Infiniti Digital delivers expert mobile app solutions tailored to your unique goals. Let’s build something extraordinary for your business.",
 }
 
 //Testimonials
@@ -347,31 +347,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Infinitidigital delivered a mobile app that has transformed how we connect with our customers. The intuitive design and flawless functionality exceeded our expectations, allowing us to enhance customer engagement significantly. This app is exactly what we needed to elevate our service and strengthen our relationships with clients.",
+            txt: "Infiniti Digital delivered a mobile app that has transformed how we connect with our customers. The intuitive design and flawless functionality exceeded our expectations, allowing us to enhance customer engagement significantly. This app is exactly what we needed to elevate our service and strengthen our relationships with clients.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Our app launch was a resounding success, and we owe it all to Infinitidigital. Their team ensured a seamless integration with our existing systems, providing exceptional performance that contributed to our growth. The support we received made the process smooth, enabling us to focus on our core business while they handled the technical details.",
+            txt: "Our app launch was a resounding success, and we owe it all to Infiniti Digital. Their team ensured a seamless integration with our existing systems, providing exceptional performance that contributed to our growth. The support we received made the process smooth, enabling us to focus on our core business while they handled the technical details.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "Infinitidigital didn’t just build us an app; they developed a comprehensive solution tailored to our needs. Their meticulous attention to detail and user-focused design approach greatly enhanced our user retention rates, surpassing our initial goals. We are thrilled with the outcome and appreciate their dedication to our project every step of the way.",
+            txt: "Infiniti Digital didn’t just build us an app; they developed a comprehensive solution tailored to our needs. Their meticulous attention to detail and user-focused design approach greatly enhanced our user retention rates, surpassing our initial goals. We are thrilled with the outcome and appreciate their dedication to our project every step of the way.",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "The custom features Infinitidigital implemented in our app have helped us stand out in a highly competitive market. Their innovative approach and expertise in app development provided us with functionalities that resonate with our users. We are impressed with how these features have improved engagement, solidifying our brand’s presence and reputation.",
+            txt: "The custom features Infiniti Digital implemented in our app have helped us stand out in a highly competitive market. Their innovative approach and expertise in app development provided us with functionalities that resonate with our users. We are impressed with how these features have improved engagement, solidifying our brand’s presence and reputation.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Infinitidigital provided exceptional service throughout the app development process, demonstrating true professionalism and commitment. Their dedication to quality, coupled with ongoing support, has significantly impacted our business operations. We feel fully supported even after launch, ensuring our app runs smoothly and continuously evolves to meet our growing needs.",
+            txt: "Infiniti Digital provided exceptional service throughout the app development process, demonstrating true professionalism and commitment. Their dedication to quality, coupled with ongoing support, has significantly impacted our business operations. We feel fully supported even after launch, ensuring our app runs smoothly and continuously evolves to meet our growing needs.",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",

@@ -132,8 +132,8 @@ export const TwoBoxData = {
 //Services
 export const InnerServicesData = {
     subtitle: "Our Services",
-    title: "Maximize the Impact of Your Ads with Infinitidigital",
-    desc: "Imagine your ads doing more than just showing up—connecting, engaging, and converting effortlessly. At Infinitidigital, we craft smarter strategies that make every ad work harder for your success.",
+    title: "Maximize the Impact of Your Ads with Infiniti Digital",
+    desc: "Imagine your ads doing more than just showing up—connecting, engaging, and converting effortlessly. At Infiniti Digital, we craft smarter strategies that make every ad work harder for your success.",
     innerServItem: [
         {
             title: "Targeted Advertising That Connects",
@@ -159,7 +159,7 @@ export const ContentData1 = {
     maintitle: true,
     contentTitle: "Grow Your Brand, One Click at a Time!",
     contentTxt: (<>
-        <p>Social media is more than just posts—it’s a powerful platform to build your brand, connect with your audience, and drive real results. Let Infinitidigital help you turn followers into customers with campaigns that deliver measurable success. Each campaign is ROI-focused, ensuring that every initiative is optimized for maximum impact.</p>
+        <p>Social media is more than just posts—it’s a powerful platform to build your brand, connect with your audience, and drive real results. Let Infiniti Digital help you turn followers into customers with campaigns that deliver measurable success. Each campaign is ROI-focused, ensuring that every initiative is optimized for maximum impact.</p>
     </>),
     img: ContentImg1.src
 }
@@ -210,7 +210,7 @@ export const TestimonialData = {
 
 export const CallActionData = {
     subtitle: "Contact Us",
-    title: "Connect, Convert, and Grow with Infinitidigital",
+    title: "Connect, Convert, and Grow with Infiniti Digital",
     desc: "Imagine reaching the right audience at the perfect moment—our social media ads make it happen. From sparking conversations to driving conversions, we help your brand grow effortlessly. Want to see how? "
 }
 
@@ -229,7 +229,7 @@ export const FAQsData = {
             txt: "We advertise on a range of platforms, including Facebook, Instagram, YouTube, TikTok, Reddit, and LinkedIn, to maximize your brand’s reach. Each platform offers unique opportunities to connect with specific audience segments, and we craft strategies that leverage these strengths."
         },
         {
-            title: "How does Infinitidigital ensure my ads reach the right audience? ",
+            title: "How does Infiniti Digital ensure my ads reach the right audience? ",
             txt: "Our approach combines cutting-edge targeting tools with in-depth audience research to connect your brand with the right people. We analyze demographics, interests, online behaviors, and even competitor insights to refine our strategies. This precision helps ensure your ads are seen by those most likely to engage with your brand and convert into loyal customers. "
         },
         {

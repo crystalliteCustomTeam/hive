@@ -318,7 +318,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } f
 export const AwardsPoints = {
     subtitle: "Awards & Recognitions",
     title: "Celebrating Excellence, Innovation, and Results",
-    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infinitidigital, we don’t just aim for success—we earn it.",
+    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
     Awardslides: [
         {
             txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",

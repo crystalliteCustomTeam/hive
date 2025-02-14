@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/shopify-development-services/banne
 
 export const BannerData = {
     title: "Expert Shopify Development",
-    desc: "Struggling to launch your Shopify store? Infinitidigital provides expert solutions to design, build, and optimize your Shopify site for maximum online success.",
+    desc: "Struggling to launch your Shopify store? Infiniti Digital provides expert solutions to design, build, and optimize your Shopify site for maximum online success.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -15,7 +15,7 @@ export const BannerData = {
 export const StateCounter = {
     subtitle: "Complete Shopify Solutions",
     title: "Comprehensive Shopify Services",
-    desc: "Need comprehensive shopify services? Infinitidigital offers a full range of Shopify services to build, optimize, and maintain a high-performing online store for your business.",
+    desc: "Need comprehensive shopify services? Infiniti Digital offers a full range of Shopify services to build, optimize, and maintain a high-performing online store for your business.",
     stateItem: [
         {
             numbers: "200+",
@@ -125,9 +125,9 @@ export const ProcessData = {
 import ContentImg from "media/innerservices/shopify-development-services/Img01.webp"
 export const ContentData = {
     maintitle: true,
-    contentTitle: "Scale Your Shopify Store With InfinitiDigital",
+    contentTitle: "Scale Your Shopify Store With Infiniti Digital",
     contentTxt: (<>
-        <p>Ready to grow your Shopify store? Infinitidigital offers customized design, development, and optimization services to boost your eCommerce business.Our team creates seamless user experiences, increases conversions, and delivers lasting results.</p>
+        <p>Ready to grow your Shopify store? Infiniti Digital offers customized design, development, and optimization services to boost your eCommerce business.Our team creates seamless user experiences, increases conversions, and delivers lasting results.</p>
         <p>Whether launching a new store or scaling an existing one, we bring your vision to life with innovative solutions that guarantee measurable success. Start today!</p>
     </>),
     img: ContentImg.src
@@ -138,7 +138,7 @@ export const ContentData = {
 import ImgBg from "media/innerservices/shopify-development-services/ctaImage.webp"
 export const NewsLetterData = {
     title: "Shopify Development Experts",
-    desc: "Maximize your Shopify store’s potential with Infinitidigital’s expert team. We provide custom solutions designed for higher conversions and better customer experiences.",
+    desc: "Maximize your Shopify store’s potential with Infiniti Digital’s expert team. We provide custom solutions designed for higher conversions and better customer experiences.",
     img: ImgBg.src,
 
 }
@@ -154,7 +154,7 @@ export const WebProjectData = {
 export const PriceData = {
     subtitle: "Best Value",
     title: "Affordable Shopify Pricing Plans",
-    desc: "Infinitidigital offers competitive pricing for our top-notch Shopify services, ensuring you get the best value for your investment in eCommerce success.",
+    desc: "Infiniti Digital offers competitive pricing for our top-notch Shopify services, ensuring you get the best value for your investment in eCommerce success.",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -268,34 +268,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Real Stories, Real Results",
-    desc: "See how Infinitidigital's Shopify development services have transformed businesses, delivering customized solutions that drive growth and success.",
+    desc: "See how Infiniti Digital's Shopify development services have transformed businesses, delivering customized solutions that drive growth and success.",
     Testslider: [
         {
-            txt: "Infinitidigital turned our vision into reality. Their custom Shopify design perfectly reflects our brand. Within weeks, our site traffic grew by 30%, and customer engagement soared. The team's professionalism and innovative approach were unmatched. We’re thrilled with the outcome and highly recommend their expertise!",
+            txt: "Infiniti Digital turned our vision into reality. Their custom Shopify design perfectly reflects our brand. Within weeks, our site traffic grew by 30%, and customer engagement soared. The team's professionalism and innovative approach were unmatched. We’re thrilled with the outcome and highly recommend their expertise!",
             icon: <ClutchLogo />,
             namee: "Emily H.",
             job: "Vision to Reality: 30% Traffic Boost",
         },
         {
-            txt: "Our Shopify store needed a major overhaul, and Infinitidigital delivered beyond our expectations. The design is sleek, the navigation seamless, and the SEO improvements have made a tangible difference. Sales are up 40%, and we’re reaching a wider audience than ever before. Thank you for the transformation! ",
+            txt: "Our Shopify store needed a major overhaul, and Infiniti Digital delivered beyond our expectations. The design is sleek, the navigation seamless, and the SEO improvements have made a tangible difference. Sales are up 40%, and we’re reaching a wider audience than ever before. Thank you for the transformation! ",
             icon: <TrustpilotLogo />,
             namee: "Daniel C.",
             job: "Transforming Our Shopify Store, Tripling Sales",
         },
         {
-            txt: "We chose Infinitidigital for our Shopify development, and it was the best decision for our business. The team was responsive, creative, and detail-oriented. Our new site is fast, visually stunning, and optimized for conversions. It’s been a game-changer for our online presence and revenue streams.",
+            txt: "We chose Infiniti Digital for our Shopify development, and it was the best decision for our business. The team was responsive, creative, and detail-oriented. Our new site is fast, visually stunning, and optimized for conversions. It’s been a game-changer for our online presence and revenue streams.",
             icon: <GoogleLogo />,
             namee: "Olivia M.",
             job: "Game-Changing Shopify Development",
         },
         {
-            txt: "Infinitidigital’s expertise in Shopify development is evident in every detail of our revamped store. From initial planning to final execution, they guided us seamlessly. Our website now looks professional, loads quickly, and engages customers effectively. The results speak for themselves, with a significant jump in our monthly sales!",
+            txt: "Infiniti Digital’s expertise in Shopify development is evident in every detail of our revamped store. From initial planning to final execution, they guided us seamlessly. Our website now looks professional, loads quickly, and engages customers effectively. The results speak for themselves, with a significant jump in our monthly sales!",
             icon: <TrustpilotLogo />,
             namee: "Lucas P.",
             job: "Expert Shopify Revamp, Exceptional Results",
         },
         {
-            txt: "We’re delighted with the Shopify store Infinitidigital built for us. The team delivered a site that’s not only beautiful but also functional. The user experience is outstanding, and the ongoing support ensures we stay ahead in our industry. We’ve seen our business grow substantially since the launch! ",
+            txt: "We’re delighted with the Shopify store Infiniti Digital built for us. The team delivered a site that’s not only beautiful but also functional. The user experience is outstanding, and the ongoing support ensures we stay ahead in our industry. We’ve seen our business grow substantially since the launch! ",
             icon: <ClutchLogo />,
             namee: "Chloe T.",
             job: "Beautiful Design, Outstanding User Experience",
@@ -321,12 +321,12 @@ export const FAQsData = {
             txt: "The time required to build a Shopify store depends on its complexity and specific requirements. A basic store setup can be ready in just a few days, while custom stores usually require 2 to 4 weeks. Our process prioritizes efficient development without sacrificing the high quality our clients expect."
         },
         {
-            title: "Can Infinitidigital help with migrating to Shopify?",
-            txt: "Yes, Infinitidigital offers expert migration services from other platforms like WooCommerce and Magento to Shopify. We ensure that the transition maintains data integrity and minimizes operational disruption. Our team provides full support throughout the migration process for a seamless shift to Shopify."
+            title: "Can Infiniti Digital help with migrating to Shopify?",
+            txt: "Yes, Infiniti Digital offers expert migration services from other platforms like WooCommerce and Magento to Shopify. We ensure that the transition maintains data integrity and minimizes operational disruption. Our team provides full support throughout the migration process for a seamless shift to Shopify."
         },
         {
             title: "Do you offer ongoing support for Shopify stores? ",
-            txt: "Absolutely; Infinitidigital provides continuous support to maintain and enhance your Shopify store. This includes regular updates, performance optimizations, and troubleshooting to ensure your store remains competitive and efficient. Our dedicated support aims to resolve issues quickly and keep your business moving forward."
+            txt: "Absolutely; Infiniti Digital provides continuous support to maintain and enhance your Shopify store. This includes regular updates, performance optimizations, and troubleshooting to ensure your store remains competitive and efficient. Our dedicated support aims to resolve issues quickly and keep your business moving forward."
         },
         {
             title: "What’s the cost of Shopify development services?",

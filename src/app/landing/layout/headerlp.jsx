@@ -38,7 +38,7 @@ const HeaderLp = () => {
                 <Row className="h-100">
                     <Col xs={6} md={2} lg={2} xl={2} xxl={3} className="my-auto">
                         <div className={`${styles.mainLogo} `}>
-                            <Link href="#BannerId">
+                            <Link href="#">
                                 <MainLogo />
                             </Link>
                         </div>

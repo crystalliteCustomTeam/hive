@@ -2,7 +2,7 @@
 import BannerPoster from "media/innerservices/website-design-services/bannerImg.webp"
 export const BannerData = {
     title: "Build. Design. Innovate.",
-    desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infinitidigital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
+    desc: "Looking for a custom website that blends creativity and functionality? You’ve come to the right place! At Infiniti Digital, we create websites that ensure exceptional user experiences, enhanced brand visibility, and measurable business growth.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -32,7 +32,7 @@ export const StateCounter = {
 export const ProcessData = {
     subtitle: "Expert Design Services",
     title: "Your Partner for Digital Excellence",
-    desc: "Infinitidigital offers innovative website design services tailored to meet your unique needs, ensuring your brand stands out digitally.",
+    desc: "Infiniti Digital offers innovative website design services tailored to meet your unique needs, ensuring your brand stands out digitally.",
 
     ProcessItem1: [
         {
@@ -258,31 +258,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed our online presence. The website they designed is stunning, easy to navigate, and functional. They truly understood our needs, blending creativity and practicality. Our customers love the smooth user experience, and we’ve seen a significant increase in sales. I highly recommend their services!",
+            txt: "Infiniti Digital completely transformed our online presence. The website they designed is stunning, easy to navigate, and functional. They truly understood our needs, blending creativity and practicality. Our customers love the smooth user experience, and we’ve seen a significant increase in sales. I highly recommend their services!",
             icon: <ClutchLogo />,
             namee: "Sarah T.",
             job: "Founder of E-Commerce Entrepreneur",
         },
         {
-            txt: "The team at Infinitidigital exceeded all our expectations. Their attention to detail and commitment to delivering a top-notch design were evident from start to finish. They took the time to understand our brand, and the result perfectly captures our vision. We couldn’t be happier with the outcome.",
+            txt: "The team at Infiniti Digital exceeded all our expectations. Their attention to detail and commitment to delivering a top-notch design were evident from start to finish. They took the time to understand our brand, and the result perfectly captures our vision. We couldn’t be happier with the outcome.",
             icon: <TrustpilotLogo />,
             namee: "Mike  P.",
             job: "COO of Small Business Owner",
         },
         {
-            txt: "Infinitidigital brought our vision to life with a creative and user-friendly design. The website not only looks great but has also significantly improved our engagement rates. Their expertise and dedication were evident throughout the process. We’re thrilled with the final product and its positive impact on our brand.",
+            txt: "Infiniti Digital brought our vision to life with a creative and user-friendly design. The website not only looks great but has also significantly improved our engagement rates. Their expertise and dedication were evident throughout the process. We’re thrilled with the final product and its positive impact on our brand.",
             icon: <GoogleLogo />,
             namee: "James K.",
             job: "Co-Founder of SaaS",
         },
         {
-            txt: "Working with Infinitidigital was a fantastic experience. Their team delivered a sleek, professional website that has driven measurable growth for our business. They understood our needs and executed the project flawlessly. The site’s performance and user experience have exceeded our expectations, and we continue to see positive results.",
+            txt: "Working with Infiniti Digital was a fantastic experience. Their team delivered a sleek, professional website that has driven measurable growth for our business. They understood our needs and executed the project flawlessly. The site’s performance and user experience have exceeded our expectations, and we continue to see positive results.",
             icon: <TrustpilotLogo />,
             namee: "Linda M.",
             job: "CEO of Nonprofit Director",
         },
         {
-            txt: "From start to finish, the Infinitidigital team was professional, creative, and attentive to our needs. They crafted a website that reflects our mission and engages visitors effectively. The final product exceeded all our expectations, and we’ve already noticed increased support and interest in our cause. I highly recommend it!",
+            txt: "From start to finish, the Infiniti Digital team was professional, creative, and attentive to our needs. They crafted a website that reflects our mission and engages visitors effectively. The final product exceeded all our expectations, and we’ve already noticed increased support and interest in our cause. I highly recommend it!",
             icon: <ClutchLogo />,
             namee: "Emily M.",
             job: "Founder of StyleHive Boutique",

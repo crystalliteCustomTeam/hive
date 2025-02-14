@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/book-marketing/bannerImg.webp"
 
 export const BannerData = {
     title: "Make Your Story Stand Out",
-    desc: "Your book deserves to be seen, loved, and shared—but the path to reaching readers can feel overwhelming. Are you tired of trying to crack the code to promote books effectively? Let Infinitidigital transform your vision into a bestseller with tailored strategies that get results.",
+    desc: "Your book deserves to be seen, loved, and shared—but the path to reaching readers can feel overwhelming. Are you tired of trying to crack the code to promote books effectively? Let Infiniti Digital transform your vision into a bestseller with tailored strategies that get results.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -13,7 +13,7 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Inclusive Book Marketing Services",
-    desc: "At Infinitidigital, we specialize in doing just that! Partner with us to ensure your book receives the attention it deserves.",
+    desc: "At Infiniti Digital, we specialize in doing just that! Partner with us to ensure your book receives the attention it deserves.",
     ServicesItem: [
         {
             title: (<>Ghost Book<br />Writing</>),
@@ -276,7 +276,7 @@ export const CtaPinkData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -288,25 +288,25 @@ export const TestimonialData = {
     desc: "Want your book to make a strong impression and be a part of the success story? We ensure it is error-free and ready for submission or self-publishing.",
     Testslider: [
         {
-            txt: "Infinitidigital took my self-published novel and gave it the visibility it deserved. Their targeted campaigns boosted my Amazon sales by 60% in three months. Their team understood my struggles as an indie author and offered real solutions. Thanks to them, my book is now in readers’ hands—and they love it!",
+            txt: "Infiniti Digital took my self-published novel and gave it the visibility it deserved. Their targeted campaigns boosted my Amazon sales by 60% in three months. Their team understood my struggles as an indie author and offered real solutions. Thanks to them, my book is now in readers’ hands—and they love it!",
             icon: <ClutchLogo />,
             namee: "Jessica R.",
             job: "Author of Windswept Chronicles",
         },
         {
-            txt: "Juggling writing and promotion felt impossible until Infinitidigital stepped in. They revamped my entire book marketing strategy, and the results were astounding. My website traffic tripled, and my reader engagement skyrocketed. This team knows their stuff and genuinely cares about your success!",
+            txt: "Juggling writing and promotion felt impossible until Infiniti Digital stepped in. They revamped my entire book marketing strategy, and the results were astounding. My website traffic tripled, and my reader engagement skyrocketed. This team knows their stuff and genuinely cares about your success!",
             icon: <TrustpilotLogo />,
             namee: "Mark L.",
             job: "Author of Through the Fog",
         },
         {
-            txt: "Before Infinitidigital, I didn’t know where to start with promoting my children’s book. They crafted a campaign that connected me with families and schools. My book went from sitting in boxes to becoming a classroom favorite. I couldn’t have done this without them!",
+            txt: "Before Infiniti Digital, I didn’t know where to start with promoting my children’s book. They crafted a campaign that connected me with families and schools. My book went from sitting in boxes to becoming a classroom favorite. I couldn’t have done this without them!",
             icon: <GoogleLogo />,
             namee: "Emily T.",
             job: "Author of Adventures with Benny",
         },
         {
-            txt: "Creative Strategies That Deliver Results.When I first approached Infinitidigital, I was completely overwhelmed. Their team took the time to understand my goals and built a strategy that truly connected with my audience. Sales have soared, and the feedback from readers has been phenomenal. If you want results that exceed your expectations, this is the team to call!",
+            txt: "Creative Strategies That Deliver Results.When I first approached Infiniti Digital, I was completely overwhelmed. Their team took the time to understand my goals and built a strategy that truly connected with my audience. Sales have soared, and the feedback from readers has been phenomenal. If you want results that exceed your expectations, this is the team to call!",
             icon: <TrustpilotLogo />,
             namee: "Sarah P.",
             job: "Author of Journey Beyond the Stars",
@@ -328,8 +328,8 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach book marketing?",
-            txt: "At Infinitidigital, we craft bespoke strategies that bring your book to life. From in-depth audience analysis and genre-specific planning to creating engaging visuals and compelling campaigns, we ensure your book shines. Our focus on detailed performance metrics keeps us optimizing every step, so your book’s success never feels out of reach."
+            title: "How does Infiniti Digital approach book marketing?",
+            txt: "At Infiniti Digital, we craft bespoke strategies that bring your book to life. From in-depth audience analysis and genre-specific planning to creating engaging visuals and compelling campaigns, we ensure your book shines. Our focus on detailed performance metrics keeps us optimizing every step, so your book’s success never feels out of reach."
         },
         {
             title: "How quickly can I see results from book marketing?",

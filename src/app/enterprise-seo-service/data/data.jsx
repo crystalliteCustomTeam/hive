@@ -2,8 +2,8 @@
 import BannerPoster from "media/innerservices/enterprise-seo/bannerImg.webp"
 
 export const BannerData = {
-    title: "Enterprise SEO with Infinitidigital",
-    desc: "Is your enterprise struggling to maintain dominance in a competitive digital space? Enterprise businesses require sophisticated SEO strategies that align with complex organizational goals. At Infinitidigital, we drive large-scale SEO solutions that amplify visibility, grow organic traffic, and strengthen your market presence. Ready to take your enterprise to the next level?",
+    title: "Enterprise SEO with Infiniti Digital",
+    desc: "Is your enterprise struggling to maintain dominance in a competitive digital space? Enterprise businesses require sophisticated SEO strategies that align with complex organizational goals. At Infiniti Digital, we drive large-scale SEO solutions that amplify visibility, grow organic traffic, and strengthen your market presence. Ready to take your enterprise to the next level?",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -76,7 +76,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Why Enterprise SEO Matters",
     contentTxt: (<>
-        <p>Does your business fail to dominate in search results despite its size? Enterprise SEO ensures your company achieves and sustains visibility across all levels. With Infinitidigital, you can solidify your position as an industry leader with advanced SEO strategies and achieve measurable success with scalable SEO solutions designed for enterprises. Interested in seeing your enterprise thrive? </p>
+        <p>Does your business fail to dominate in search results despite its size? Enterprise SEO ensures your company achieves and sustains visibility across all levels. With Infiniti Digital, you can solidify your position as an industry leader with advanced SEO strategies and achieve measurable success with scalable SEO solutions designed for enterprises. Interested in seeing your enterprise thrive? </p>
     </>),
     img: ContentImg.src
 }
@@ -87,15 +87,15 @@ import ContentImg1 from "media/innerservices/enterprise-seo/Img02.webp"
 export const ContentData1 = {
     contentTitle: "Unlock Global Reach Today ",
     contentTxt: (<>
-        <p>Ready to expand your business’s visibility across markets?With Infinitidigital’s cutting-edge SEO strategies, your enterprise will thrive on a global scale.From tailored keyword optimization to advanced analytics, we ensure your brand stands out in every market it enters.Let’s collaborate to create a strategy that scales with your business goals.</p>
+        <p>Ready to expand your business’s visibility across markets?With Infiniti Digital’s cutting-edge SEO strategies, your enterprise will thrive on a global scale.From tailored keyword optimization to advanced analytics, we ensure your brand stands out in every market it enters.Let’s collaborate to create a strategy that scales with your business goals.</p>
     </>),
     img: ContentImg1.src
 }
 // Process
 export const ProcessData = {
     subtitle: "Our Strategies",
-    title: "Enterprise SEO with Infinitidigital",
-    desc: "Looking to dominate the competitive global market? Infinitidigital’s Enterprise SEO strategies ensure your business reaches the right audience, regardless of location or scale.",
+    title: "Enterprise SEO with Infiniti Digital",
+    desc: "Looking to dominate the competitive global market? Infiniti Digital’s Enterprise SEO strategies ensure your business reaches the right audience, regardless of location or scale.",
 
     ProcessItem1: [
         {
@@ -183,35 +183,35 @@ export const ProcessData = {
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
     subtitle: "Happy Clients",
-    title: "Become A Success with Infinitidigital ",
+    title: "Become A Success with Infiniti Digital ",
     desc: "If you’re still wondering how to get started with Enterprise SEO let the trusted success stories be your haven. Reach out now to become a part of the revolution. ",
     Testslider: [
         {
-            txt: "Infinitidigital’s enterprise SEO strategies redefined our online presence. Their detailed audits and advanced keyword research helped us dominate in highly competitive markets. They provided personalized recommendations, ensured flawless implementation, and tracked progress with precision. The results were phenomenal—our traffic doubled, and our brand authority skyrocketed. Their commitment to our success made them an invaluable partner in achieving our goals!",
+            txt: "Infiniti Digital’s enterprise SEO strategies redefined our online presence. Their detailed audits and advanced keyword research helped us dominate in highly competitive markets. They provided personalized recommendations, ensured flawless implementation, and tracked progress with precision. The results were phenomenal—our traffic doubled, and our brand authority skyrocketed. Their commitment to our success made them an invaluable partner in achieving our goals!",
             icon: <ClutchLogo />,
             namee: "Chris T.",
             job: "CEO of Global Dynamics",
         },
         {
-            txt: "We’ve worked with multiple agencies, but Infinitidigital’s expertise stood out. From crafting targeted campaigns to improving our site’s architecture, they left no stone unturned. Their attention to detail and proactive approach to SEO trends were unmatched. Our leads and conversions have never been higher, and the clarity of their updates kept us confident every step of the way!",
+            txt: "We’ve worked with multiple agencies, but Infiniti Digital’s expertise stood out. From crafting targeted campaigns to improving our site’s architecture, they left no stone unturned. Their attention to detail and proactive approach to SEO trends were unmatched. Our leads and conversions have never been higher, and the clarity of their updates kept us confident every step of the way!",
             icon: <ClutchLogo />,
             namee: "Maria P.",
             job: "Head of Marketing at EcoPower",
         },
         {
-            txt: "Infinitidigital exceeded our expectations with their strategic approach to enterprise SEO. They streamlined our multi-domain strategy and optimized every aspect of our site for global audiences. Their data-driven insights transformed how we manage our content, and the impact on our revenue was outstanding. The clarity of their reporting and the results achieved were nothing short of remarkable. Highly recommended!",
+            txt: "Infiniti Digital exceeded our expectations with their strategic approach to enterprise SEO. They streamlined our multi-domain strategy and optimized every aspect of our site for global audiences. Their data-driven insights transformed how we manage our content, and the impact on our revenue was outstanding. The clarity of their reporting and the results achieved were nothing short of remarkable. Highly recommended!",
             icon: <ClutchLogo />,
             namee: "Daniel C.",
             job: "CTO of FinTech Solutions",
         },
         {
-            txt: "Partnering with Infinitidigital was a game-changer for our enterprise. Their technical expertise and proactive updates ensured we stayed ahead of competitors. Their team continuously optimized our campaigns, fine-tuned our strategies, and provided detailed analytics that guided our decisions. The growth we’ve seen in organic traffic and customer engagement speaks volumes about their capabilities. We’re thrilled with the results!",
+            txt: "Partnering with Infiniti Digital was a game-changer for our enterprise. Their technical expertise and proactive updates ensured we stayed ahead of competitors. Their team continuously optimized our campaigns, fine-tuned our strategies, and provided detailed analytics that guided our decisions. The growth we’ve seen in organic traffic and customer engagement speaks volumes about their capabilities. We’re thrilled with the results!",
             icon: <ClutchLogo />,
             namee: "Sophia R.",
             job: "COO of Retail Nexus",
         },
         {
-            txt: "Infinitidigital’s team worked tirelessly to align our SEO strategy with our business objectives. Their insights into our industry were invaluable, and their support post-launch was exceptional. From improving our site’s usability to driving measurable growth, their efforts were impactful. Thanks to them, our enterprise is now a recognized leader in our niche. Their dedication and professionalism set them apart!",
+            txt: "Infiniti Digital’s team worked tirelessly to align our SEO strategy with our business objectives. Their insights into our industry were invaluable, and their support post-launch was exceptional. From improving our site’s usability to driving measurable growth, their efforts were impactful. Thanks to them, our enterprise is now a recognized leader in our niche. Their dedication and professionalism set them apart!",
             icon: <ClutchLogo />,
             namee: "Olivia M.",
             job: "VP at TechWave",
@@ -223,7 +223,7 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Take The Lead in Search Rankings ",
-    desc: "Your enterprise deserves a powerful digital presence. Let Infinitidigital drive your SEO strategy with precision and innovation. "
+    desc: "Your enterprise deserves a powerful digital presence. Let Infiniti Digital drive your SEO strategy with precision and innovation. "
 }
 
 // FAQs
@@ -234,15 +234,15 @@ export const FAQsData = {
     Fqaslist: [
         {
             title: "What is Enterprise SEO?",
-            txt: "Enterprise SEO is a strategic approach tailored to large organizations with complex digital needs. It focuses on improving visibility, managing multiple domains, and reaching diverse audiences globally. Infinitidigital ensures every campaign aligns with your overarching business goals, driving measurable success across all platforms."
+            txt: "Enterprise SEO is a strategic approach tailored to large organizations with complex digital needs. It focuses on improving visibility, managing multiple domains, and reaching diverse audiences globally. Infiniti Digital ensures every campaign aligns with your overarching business goals, driving measurable success across all platforms."
         },
         {
             title: "How is Enterprise SEO different from traditional SEO? ",
-            txt: "Enterprise SEO addresses unique challenges such as large-scale site management, global strategies, and high-competition keywords. It requires specialized tools, expert insights, and a strategic approach to drive impactful results for larger organizations. With Infinitidigital, you’ll benefit from a customized plan that meets your enterprise’s demands."
+            txt: "Enterprise SEO addresses unique challenges such as large-scale site management, global strategies, and high-competition keywords. It requires specialized tools, expert insights, and a strategic approach to drive impactful results for larger organizations. With Infiniti Digital, you’ll benefit from a customized plan that meets your enterprise’s demands."
         },
         {
             title: "Can you handle multilingual campaigns? ",
-            txt: "Absolutely! Infinitidigital excels at creating multilingual campaigns that resonate across cultures and languages. From crafting localized content to optimizing for international search engines, we tailor strategies to meet the nuances of each target market, ensuring your brand’s global relevance and success."
+            txt: "Absolutely! Infiniti Digital excels at creating multilingual campaigns that resonate across cultures and languages. From crafting localized content to optimizing for international search engines, we tailor strategies to meet the nuances of each target market, ensuring your brand’s global relevance and success."
         },
         {
             title: "How long does it take to see results? ",
@@ -250,7 +250,7 @@ export const FAQsData = {
         },
         {
             title: "What industries do you specialize in? ",
-            txt: "We’ve worked with enterprises in finance, healthcare, retail, technology, and more. Infinitidigital customizes its strategies to meet the unique demands of various industries, ensuring your business thrives in its specific market. No matter your niche, we have the expertise to help you succeed."
+            txt: "We’ve worked with enterprises in finance, healthcare, retail, technology, and more. Infiniti Digital customizes its strategies to meet the unique demands of various industries, ensuring your business thrives in its specific market. No matter your niche, we have the expertise to help you succeed."
         },
     ]
 

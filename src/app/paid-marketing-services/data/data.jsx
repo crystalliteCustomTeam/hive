@@ -4,7 +4,7 @@ import BannerPoster from "media/services/paid-marketing/posterImg.webp"
 export const BannerData = {
     subtitle: "From Clicks to Convert",
     title: "Paid Marketing that Delivers",
-    desc: "Struggling to make your ads work harder? Maximize reach, generate leads, and grow revenue with Infinitidigital’s creative, data-driven marketing campaigns that captivate, convert, and deliver measurable results.",
+    desc: "Struggling to make your ads work harder? Maximize reach, generate leads, and grow revenue with Infiniti Digital’s creative, data-driven marketing campaigns that captivate, convert, and deliver measurable results.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775923/rendition/720p/file.mp4?loc=external&log_user=0&signature=c251642141ee9afe63a88518519e387179687128d687483a6c115a79518c1c54",
     BannerPoster: BannerPoster.src,
 }
@@ -302,7 +302,7 @@ export const PriceData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Partnering with Businesses Across Industries",
-    desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infinitidigital, your success is our priority.",
+    desc: "Are you curious to know how we help businesses like yours? We work closely with businesses across various industries to develop and execute successful paid marketing campaigns. At Infiniti Digital, your success is our priority.",
 
 }
 
@@ -314,31 +314,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, we value our client's voices. Our paid marketing solutions have delivered exceptional results for businesses across various industries.",
     Testslider: [
         {
-            txt: "Infinitidigital’s paid marketing strategies gave us an edge in a competitive market. We experienced a 3x increase in leads and a significant drop in cost per acquisition. Their team’s expertise is unparalleled!",
+            txt: "Infiniti Digital’s paid marketing strategies gave us an edge in a competitive market. We experienced a 3x increase in leads and a significant drop in cost per acquisition. Their team’s expertise is unparalleled!",
             icon: <ClutchLogo />,
             namee: "Sophia W",
             job: "Head of Marketing at ProBuilders Inc.",
         },
         {
-            txt: "Our event promotion saw phenomenal results with Infinitidigital’s paid ads. Attendance doubled, and we reached 30% more of our target audience. Their dedication and creativity made it possible!",
+            txt: "Our event promotion saw phenomenal results with Infiniti Digital’s paid ads. Attendance doubled, and we reached 30% more of our target audience. Their dedication and creativity made it possible!",
             icon: <TrustpilotLogo />,
             namee: "Mark J.",
             job: "Event Manager at InspireNow",
         },
         {
-            txt: "Our paid ads were underperforming until we partnered with Infinitidigital. Their expert targeting and creative approach increased our click-through rate by 70%, driving more qualified traffic than ever before.",
+            txt: "Our paid ads were underperforming until we partnered with Infiniti Digital. Their expert targeting and creative approach increased our click-through rate by 70%, driving more qualified traffic than ever before.",
             icon: <GoogleLogo />,
             namee: "Robert D.",
             job: "Co-Founder of BoldTech Innovations",
         },
         {
-            txt: "From day one, Infinitidigital’s team understood our goals and created targeted campaigns that exceeded expectations. Their ability to optimize our ad spend while increasing engagement was incredible. We couldn’t be happier with the results!",
+            txt: "From day one, Infiniti Digital’s team understood our goals and created targeted campaigns that exceeded expectations. Their ability to optimize our ad spend while increasing engagement was incredible. We couldn’t be happier with the results!",
             icon: <TrustpilotLogo />,
             namee: "Emily K.",
             job: "CMO of UrbanBites",
         },
         {
-            txt: "The team at Infinitidigital transformed our paid marketing strategy. Their dynamic retargeting ads helped us recover 25% of lost customers, and our ROI skyrocketed. I highly recommend their services to any business looking to grow!",
+            txt: "The team at Infiniti Digital transformed our paid marketing strategy. Their dynamic retargeting ads helped us recover 25% of lost customers, and our ROI skyrocketed. I highly recommend their services to any business looking to grow!",
             icon: <ClutchLogo />,
             namee: "Amanda L.",
             job: "Founder of GreenVibe Organics",

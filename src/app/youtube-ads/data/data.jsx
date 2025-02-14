@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/youtube-ads/bannerImg.webp"
 
 export const BannerData = {
     title: "The Right Video, The Right Audience, Every Time",
-    desc: "Get your message in front of the right people with YouTube Ads that combine precision targeting with powerful narratives. With Infinitidigital, it is possible.",
+    desc: "Get your message in front of the right people with YouTube Ads that combine precision targeting with powerful narratives. With Infiniti Digital, it is possible.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -295,7 +295,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Words from Our Clients",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
             txt: "The YouTube campaigns delivered were beyond what we expected! From crafting visually stunning ads to targeting audiences that mattered, the team worked tirelessly to ensure our goals were met. The engagement rate soared, and we saw an incredible boost in leads and conversions. It was indeed a remarkable experience!",

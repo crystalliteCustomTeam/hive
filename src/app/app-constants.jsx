@@ -41,6 +41,7 @@ export function MainLogo() {
 
     )
 }
+
 export function FooterLogo() {
     return (
         <svg

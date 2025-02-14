@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/book-publishing/bannerImg.webp"
 
 export const BannerData = {
     title: "Ready to Publish Your Manuscript?",
-    desc: "Your manuscript deserves to be more than just a file on your computer—it’s your story, voice, and dream. Infinitidigital guides you through every step, transforming your manuscript into a professionally published book.",
+    desc: "Your manuscript deserves to be more than just a file on your computer—it’s your story, voice, and dream. Infiniti Digital guides you through every step, transforming your manuscript into a professionally published book.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -151,7 +151,7 @@ export const ProcessData = {
 export const BookTabsData = {
     subtitle: "Book Gallery",
     title: "We Excel in Diverse, Distinctive Genres",
-    desc: "Pitching your book can be intimidating. Let us help you make an impression. With Infinitidigital, you have the roadmap to success! ",
+    desc: "Pitching your book can be intimidating. Let us help you make an impression. With Infiniti Digital, you have the roadmap to success! ",
 }
 
 // Pricing
@@ -276,7 +276,7 @@ export const CtaPinkData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -289,31 +289,31 @@ export const TestimonialData = {
     desc: "Do you know where your book fits in the publishing world? We start with a one-on-one session to identify your goals and outline the best strategies.",
     Testslider: [
         {
-            txt: "Infinitidigital made publishing easy. They didn’t just polish my book—they amplified its potential. They turned my book into a global success, from optimizing metadata to launching strategic campaigns. Readers worldwide are connecting with my story, and I couldn’t have done it without their exceptional team! Their approach to understanding my goals and market trends gave my book the spotlight it deserved.",
+            txt: "Infiniti Digital made publishing easy. They didn’t just polish my book—they amplified its potential. They turned my book into a global success, from optimizing metadata to launching strategic campaigns. Readers worldwide are connecting with my story, and I couldn’t have done it without their exceptional team! Their approach to understanding my goals and market trends gave my book the spotlight it deserved.",
             icon: <ClutchLogo />,
             namee: "Jessica W.",
             job: "Author of The Heart’s Compass",
         },
         {
-            txt: "Self-publishing felt overwhelming until I partnered with Infinitidigital. Their professional formatting, tailored pitches, and insightful marketing strategies made all the difference. Now, my book is a bestseller on Amazon, with a steady stream of five-star reviews and a growing fan base. The team’s expertise and constant support ensured that every aspect of my book exceeded expectations.",
+            txt: "Self-publishing felt overwhelming until I partnered with Infiniti Digital. Their professional formatting, tailored pitches, and insightful marketing strategies made all the difference. Now, my book is a bestseller on Amazon, with a steady stream of five-star reviews and a growing fan base. The team’s expertise and constant support ensured that every aspect of my book exceeded expectations.",
             icon: <TrustpilotLogo />,
             namee: "David K.",
             job: "Author of Silent Echoes",
         },
         {
-            txt: "Infinitidigital was a game-changer for my publishing journey. Their submission materials caught the attention of top publishers, and their guidance on positioning my book was invaluable. Today, my book has reached shelves across the country, and I owe so much to their expertise and dedication! They took my vision and turned it into something extraordinary",
+            txt: "Infiniti Digital was a game-changer for my publishing journey. Their submission materials caught the attention of top publishers, and their guidance on positioning my book was invaluable. Today, my book has reached shelves across the country, and I owe so much to their expertise and dedication! They took my vision and turned it into something extraordinary",
             icon: < GoogleLogo />,
             namee: "Emma H.",
             job: "Author of Rising Tides",
         },
         {
-            txt: "As an indie author, I needed a team that understood my challenges, and Infinitidigital delivered in every way. Their detailed formatting, captivating blurbs, and strategic promotions helped my book stand out. Sales are thriving, and my audience continues to grow. Their dedication and personalized approach ensured my success in a competitive market.",
+            txt: "As an indie author, I needed a team that understood my challenges, and Infiniti Digital delivered in every way. Their detailed formatting, captivating blurbs, and strategic promotions helped my book stand out. Sales are thriving, and my audience continues to grow. Their dedication and personalized approach ensured my success in a competitive market.",
             icon: <TrustpilotLogo />,
             namee: "Liam J.",
             job: "Author of Threads of Time",
         },
         {
-            txt: "The thought of publishing my book felt overwhelming, but Infinitidigital turned it into a smooth, exciting process. Their attention to detail was outstanding, from perfecting the manuscript to crafting an incredible marketing plan. My book is now a category bestseller, and I couldn’t be happier! Their comprehensive approach gave me confidence every step of the way.",
+            txt: "The thought of publishing my book felt overwhelming, but Infiniti Digital turned it into a smooth, exciting process. Their attention to detail was outstanding, from perfecting the manuscript to crafting an incredible marketing plan. My book is now a category bestseller, and I couldn’t be happier! Their comprehensive approach gave me confidence every step of the way.",
             icon: <TrustpilotLogo />,
             namee: "Sophia R.",
             job: "Author of Echoes of the Soul",
@@ -335,8 +335,8 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach book publishing?",
-            txt: "Infinitidigital creates tailored publishing strategies for each author. We handle everything from detailed manuscript evaluations to platform-specific optimizations to ensure your book stands out. With expert guidance at every step, we make publishing straightforward and successful. Our team takes the stress out of the publishing process so you can focus on what you do best—writing."
+            title: "How does Infiniti Digital approach book publishing?",
+            txt: "Infiniti Digital creates tailored publishing strategies for each author. We handle everything from detailed manuscript evaluations to platform-specific optimizations to ensure your book stands out. With expert guidance at every step, we make publishing straightforward and successful. Our team takes the stress out of the publishing process so you can focus on what you do best—writing."
         },
         {
             title: "How long does the publishing process take?",

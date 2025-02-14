@@ -12,8 +12,8 @@ export const BannerData = {
 // Process
 export const ProcessData = {
     subtitle: "Our Process",
-    title: "Why Infinitidigital is Your SEO Partner",
-    desc: "Your business deserves SEO strategies that bring measurable growth. Curious about how we help brands like yours succeed? Here’s why partnering with Infinitidigital makes sense:",
+    title: "Why Infiniti Digital is Your SEO Partner",
+    desc: "Your business deserves SEO strategies that bring measurable growth. Curious about how we help brands like yours succeed? Here’s why partnering with Infiniti Digital makes sense:",
 
     ProcessItem1: [
         {
@@ -182,7 +182,7 @@ export const ServicesData = {
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
     title: "Transform Your Vision Into Results",
-    desc: "Your business deserves more than just aesthetics—it needs results-driven designs that captivate your audience and drive measurable growth. At Infinitidigital, we craft innovative, functional, and engaging SEO solutions tailored to your goals.",
+    desc: "Your business deserves more than just aesthetics—it needs results-driven designs that captivate your audience and drive measurable growth. At Infiniti Digital, we craft innovative, functional, and engaging SEO solutions tailored to your goals.",
     img: ImgBg.src
 }
 
@@ -190,7 +190,7 @@ export const CtaData = {
 export const PriceData = {
     subtitle: "Our Pricing",
     title: "Discover Our Transparent SEO Pricing Plans",
-    desc: "At Infinitidigital, we offer affordable, customizable pricing for our SEO services, tailored to meet your business’s unique needs. Explore our competitive and customized pricing to help your business thrive in search results!",
+    desc: "At Infiniti Digital, we offer affordable, customizable pricing for our SEO services, tailored to meet your business’s unique needs. Explore our competitive and customized pricing to help your business thrive in search results!",
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -398,16 +398,16 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients",
-    desc: "At Infinitidigital, client success is our top priority. We’ve worked with businesses across industries to transform their online presence, amplify visibility, and achieve measurable growth. Our results-driven approach consistently delivers exceptional outcomes that speak for themselves.",
+    desc: "At Infiniti Digital, client success is our top priority. We’ve worked with businesses across industries to transform their online presence, amplify visibility, and achieve measurable growth. Our results-driven approach consistently delivers exceptional outcomes that speak for themselves.",
     Testslider: [
         {
-            txt: "Infinitidigital transformed our SEO strategy, helping us rank #1 in local search results. Their expertise boosted our visibility and increased our sales by 50% in three months.",
+            txt: "Infiniti Digital transformed our SEO strategy, helping us rank #1 in local search results. Their expertise boosted our visibility and increased our sales by 50% in three months.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Thanks to Infinitidigital, our e-commerce store saw a 120% growth in organic traffic. Their insights and strategies made a significant impact on our bottom line.",
+            txt: "Thanks to Infiniti Digital, our e-commerce store saw a 120% growth in organic traffic. Their insights and strategies made a significant impact on our bottom line.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
@@ -419,13 +419,13 @@ export const TestimonialData = {
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Infinitidigital’s tailored SEO strategies helped us enter new markets with ease. Their team’s dedication ensured we saw a tangible return on investment.",
+            txt: "Infiniti Digital’s tailored SEO strategies helped us enter new markets with ease. Their team’s dedication ensured we saw a tangible return on investment.",
             icon: <Forbes />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "Partnering with Infinitidigital was the best decision for our online presence. Our rankings improved drastically, and we’ve gained long-term customers as a result.",
+            txt: "Partnering with Infiniti Digital was the best decision for our online presence. Our rankings improved drastically, and we’ve gained long-term customers as a result.",
             icon: <Upcity />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",
@@ -465,7 +465,7 @@ export const FAQsData = {
             txt: "On-page SEO focuses on optimizing elements within your website, such as content and meta tags. Off-page SEO involves external efforts like link building to improve your site’s authority. Both are essential for success—are you leveraging them effectively?"
         },
         {
-            title: "How does Infinitidigital approach SEO for clients?",
+            title: "How does Infiniti Digital approach SEO for clients?",
             txt: "We start with a comprehensive audit to understand your needs, followed by tailored strategies that include keyword research, content optimization, technical fixes, and link-building campaigns. Wouldn’t you love a partner that delivers measurable growth?"
         }
     ]

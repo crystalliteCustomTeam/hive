@@ -2,7 +2,7 @@
 import BannerPoster from "media/innerservices/ios-app-development/bannerImg.webp"
 export const BannerData = {
     title: "Build Your Dream iOS App",
-    desc: "Ready to bring your app idea to life? Infinitidigital offers expert iOS app development tailored to your vision and goals. From sleek design to seamless functionality, we’ve got you covered! Want to stand out in the app world? Let’s make it happen together!",
+    desc: "Ready to bring your app idea to life? Infiniti Digital offers expert iOS app development tailored to your vision and goals. From sleek design to seamless functionality, we’ve got you covered! Want to stand out in the app world? Let’s make it happen together!",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -10,7 +10,7 @@ export const BannerData = {
 export const StateCounter = {
     subtitle: "Designed for You",
     title: "Tailored iOS App Solutions",
-    desc: "Want an app that truly represents your brand? At Infinitidigital, we create custom iOS apps that reflect your brand’s unique identity and perfectly meet your goals.",
+    desc: "Want an app that truly represents your brand? At Infiniti Digital, we create custom iOS apps that reflect your brand’s unique identity and perfectly meet your goals.",
     stateItem: [
         {
             numbers: "200+",
@@ -95,7 +95,7 @@ export const ContentData2 = {
     maintitle: true,
     contentTitle: "Transform Your Idea Into iOS Reality",
     contentTxt: (<>
-        <p>Want to turn your idea into an app? At Infinitidigital, we turn your unique ideas into reality with expert iOS app development. From brainstorming to launch, our team focuses on creating seamless functionality, eye-catching designs, and smooth user experiences. Your app will be optimized for performance, usability, and scalability, ensuring long-term success.</p>
+        <p>Want to turn your idea into an app? At Infiniti Digital, we turn your unique ideas into reality with expert iOS app development. From brainstorming to launch, our team focuses on creating seamless functionality, eye-catching designs, and smooth user experiences. Your app will be optimized for performance, usability, and scalability, ensuring long-term success.</p>
     </>),
     img: ContentImg2.src
 }
@@ -191,7 +191,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Boost Your Business with Custom iOS Apps",
     contentTxt: (<>
-        <p>Ready to create something extraordinary? At Infinitidigital, we craft custom iOS apps tailored to your business needs. Our team focuses on delivering intuitive designs, high functionality, and seamless performance. From concept to launch, we ensure your app offers a flawless user experience and stands out in the crowded app marketplace. </p>
+        <p>Ready to create something extraordinary? At Infiniti Digital, we craft custom iOS apps tailored to your business needs. Our team focuses on delivering intuitive designs, high functionality, and seamless performance. From concept to launch, we ensure your app offers a flawless user experience and stands out in the crowded app marketplace. </p>
     </>),
     img: ContentImg.src
 }
@@ -202,7 +202,7 @@ export const ContentData1 = {
     maintitle: true,
     contentTitle: "Scalable iOS App Solutions",
     contentTxt: (<>
-        <p>Looking to scale your app? At Infinitidigital, we specialize in creating scalable iOS apps that grow with your business. Whether launching a startup or expanding an existing product, we ensure your app is designed to adapt and evolve with future needs. Let’s build something lasting!</p>
+        <p>Looking to scale your app? At Infiniti Digital, we specialize in creating scalable iOS apps that grow with your business. Whether launching a startup or expanding an existing product, we ensure your app is designed to adapt and evolve with future needs. Let’s build something lasting!</p>
     </>),
     img: ContentImg3.src
 }
@@ -213,7 +213,7 @@ import ContentImg1 from "media/innerservices/ios-app-development/Img02.webp"
 export const ContentData3 = {
     contentTitle: "Your Custom iOS App, Tailored Perfectly",
     contentTxt: (<>
-        <p>Ready to create the perfect app for your business?At Infinitidigital, we design and develop iOS apps that perfectly match your business needs.From user-friendly interfaces to powerful functionality, we ensure your app offers a seamless experience for users.Let us create an app that speaks to your audience while achieving your business goals—your app, your way!</p>
+        <p>Ready to create the perfect app for your business?At Infiniti Digital, we design and develop iOS apps that perfectly match your business needs.From user-friendly interfaces to powerful functionality, we ensure your app offers a seamless experience for users.Let us create an app that speaks to your audience while achieving your business goals—your app, your way!</p>
     </>),
     img: ContentImg1.src
 }
@@ -338,31 +338,31 @@ export const TestimonialData = {
     desc: "Curious about how we’re transforming businesses? Our clients share their experiences with our iOS app development services. Here’s what they have to say:",
     Testslider: [
         {
-            txt: "Infinitidigital's iOS app development exceeded all expectations. They transformed our ideas into a stunning app with smooth functionality. The team understood our needs and delivered beyond expectations. We're seeing increased user engagement and sales—thank you for making our vision a reality. I highly recommend them for any app development project!",
+            txt: "Infiniti Digital's iOS app development exceeded all expectations. They transformed our ideas into a stunning app with smooth functionality. The team understood our needs and delivered beyond expectations. We're seeing increased user engagement and sales—thank you for making our vision a reality. I highly recommend them for any app development project!",
             icon: <ClutchLogo />,
             namee: "Mark Johnson",
             job: "Founder of E-Commerce Entrepreneur",
         },
         {
-            txt: "Working with Infinitidigital was a game-changer for our business. They crafted a user-friendly iOS app that perfectly matches our brand. The design and performance were flawless, and their team informed us throughout the process. We've significantly increased app downloads, and customers love the seamless experience!",
+            txt: "Working with Infiniti Digital was a game-changer for our business. They crafted a user-friendly iOS app that perfectly matches our brand. The design and performance were flawless, and their team informed us throughout the process. We've significantly increased app downloads, and customers love the seamless experience!",
             icon: <TrustpilotLogo />,
             namee: "Sarah Mitchell",
             job: "COO of Small Business Owner",
         },
         {
-            txt: "Infinitidigital helped us launch our iOS app on time and within budget. They captured our vision and turned it into an intuitive, feature-rich product. The performance is top-notch, and we’ve seen a dramatic increase in our app's downloads and usage. Their team is dedicated, skilled, and a pleasure to work with.",
+            txt: "Infiniti Digital helped us launch our iOS app on time and within budget. They captured our vision and turned it into an intuitive, feature-rich product. The performance is top-notch, and we’ve seen a dramatic increase in our app's downloads and usage. Their team is dedicated, skilled, and a pleasure to work with.",
             icon: <GoogleLogo />,
             namee: "Tom Roberts",
             job: "Co-Founder of SaaS",
         },
         {
-            txt: "Infinitidigital has been an incredible partner in developing our iOS app. They offered strategic insights throughout the process, and the app performs exceptionally well. Our customers love the app’s design and functionality. They helped us create a valuable asset that aligns with our goals—we are genuinely impressed with the outcome.",
+            txt: "Infiniti Digital has been an incredible partner in developing our iOS app. They offered strategic insights throughout the process, and the app performs exceptionally well. Our customers love the app’s design and functionality. They helped us create a valuable asset that aligns with our goals—we are genuinely impressed with the outcome.",
             icon: <TrustpilotLogo />,
             namee: "Emma Wilson",
             job: "CEO of Nonprofit Director",
         },
         {
-            txt: "Infinitidigital transformed our ideas into a beautifully designed, high-functioning iOS app. Their team was professional and efficient, delivering a product that exceeded our expectations. The app’s user experience is exceptional, and we’ve noticed a sharp increase in user retention. We couldn’t be happier with the results—thanks for bringing our vision to life!",
+            txt: "Infiniti Digital transformed our ideas into a beautifully designed, high-functioning iOS app. Their team was professional and efficient, delivering a product that exceeded our expectations. The app’s user experience is exceptional, and we’ve noticed a sharp increase in user retention. We couldn’t be happier with the results—thanks for bringing our vision to life!",
             icon: <ClutchLogo />,
             namee: "Michael Carter",
             job: "Founder of StyleHive Boutique",
@@ -384,7 +384,7 @@ export const FAQsData = {
         },
         {
             title: "How long does it take to develop an iOS app?",
-            txt: "The time required for iOS app development depends on the app’s complexity and features. An essential app can typically take 3-6 months, while more complex projects may take longer. Our team at Infinitidigital works efficiently to deliver high-quality results within agreed timelines."
+            txt: "The time required for iOS app development depends on the app’s complexity and features. An essential app can typically take 3-6 months, while more complex projects may take longer. Our team at Infiniti Digital works efficiently to deliver high-quality results within agreed timelines."
         },
         {
             title: "Do you provide app maintenance after launch?",

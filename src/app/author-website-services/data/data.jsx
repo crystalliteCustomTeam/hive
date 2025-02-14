@@ -38,7 +38,7 @@ export const StateCounter = {
 export const ProcessData = {
     subtitle: "Boost Your Reach",
     title: "Improve Author Brand Visibility",
-    desc: "Boost your author platform with a website that speaks to your audience, builds your brand, and attracts more readers to your work. Trust Infinitidigital for your author website now!",
+    desc: "Boost your author platform with a website that speaks to your audience, builds your brand, and attracts more readers to your work. Trust Infiniti Digital for your author website now!",
 
     ProcessItem1: [
         {
@@ -127,7 +127,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Strategic Website Designs for Author Success",
     contentTxt: (<>
-        <p>At Infinitidigital, we blend creativity with functionality to create websites that are visually stunning and highly optimized. </p>
+        <p>At Infiniti Digital, we blend creativity with functionality to create websites that are visually stunning and highly optimized. </p>
         <p>Our team focuses on delivering seamless user experiences, ensuring fast loading times, easy navigation, and strong search engine rankings. </p>
         <p>We design digital showcases that captivate your audience, amplify your brand, and help your authorship thrive online.</p>
     </>),
@@ -148,7 +148,7 @@ export const NewsLetterData = {
 export const WebProjectData = {
     subtitle: "Build Stronger Connections",
     title: "Author Websites That Engage Readers",
-    desc: "At Infinitidigital, we create dynamic, engaging websites that showcase your work, from book releases to author bios, ensuring visitors are always informed and connected. This is the future of author websites!",
+    desc: "At Infiniti Digital, we create dynamic, engaging websites that showcase your work, from book releases to author bios, ensuring visitors are always informed and connected. This is the future of author websites!",
 }
 
 // Pricing
@@ -267,34 +267,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Success Stories from Authors",
-    desc: "Hear from satisfied clients who’ve transformed their online presence with Infinitidigital’s Author Website Design Services.",
+    desc: "Hear from satisfied clients who’ve transformed their online presence with Infiniti Digital’s Author Website Design Services.",
     Testslider: [
         {
-            txt: "Infinitidigital designed a website that perfectly reflects my author brand. Their attention to detail and rapid turnaround time were remarkable. Thanks to their expertise, I saw a significant increase in site traffic and reader engagement. The site’s SEO optimization also boosted my visibility, making it easier for new readers to discover my work.",
+            txt: "Infiniti Digital designed a website that perfectly reflects my author brand. Their attention to detail and rapid turnaround time were remarkable. Thanks to their expertise, I saw a significant increase in site traffic and reader engagement. The site’s SEO optimization also boosted my visibility, making it easier for new readers to discover my work.",
             icon: <ClutchLogo />,
             namee: "Sarah Mitchell",
             job: "Exceeded My Expectations!",
         },
         {
-            txt: "Working with Infinitidigital was an absolute pleasure. They understood my vision clearly and delivered a professional, user-friendly website. The design is beautiful, and I can now easily update my content and interact with readers through the site’s seamless features. I highly appreciate their prompt service and outstanding customer support throughout the process.",
+            txt: "Working with Infiniti Digital was an absolute pleasure. They understood my vision clearly and delivered a professional, user-friendly website. The design is beautiful, and I can now easily update my content and interact with readers through the site’s seamless features. I highly appreciate their prompt service and outstanding customer support throughout the process.",
             icon: <TrustpilotLogo />,
             namee: "James Turner",
             job: "Fantastic Service!",
         },
         {
-            txt: "My new author website looks stunning and works flawlessly across all devices. Infinitidigital’s design team ensured the site was both visually appealing and easy to navigate. Since launching, I’ve seen more readers connecting with me online, and their SEO strategies have made my books easier to find, driving more sales and visibility.",
+            txt: "My new author website looks stunning and works flawlessly across all devices. Infiniti Digital’s design team ensured the site was both visually appealing and easy to navigate. Since launching, I’ve seen more readers connecting with me online, and their SEO strategies have made my books easier to find, driving more sales and visibility.",
             icon: <GoogleLogo />,
             namee: "Emily Collins",
-            job: "Highly Recommend Infinitidigital!",
+            job: "Highly Recommend Infiniti Digital!",
         },
         {
-            txt: "From concept to launch, the team at Infinitidigital exceeded my expectations. They created a visually stunning and user-friendly website that perfectly captures my author persona. The entire process was smooth, and their communication was excellent. I’m excited about the future of my author platform and the opportunities it brings for connecting with readers.",
+            txt: "From concept to launch, the team at Infiniti Digital exceeded my expectations. They created a visually stunning and user-friendly website that perfectly captures my author persona. The entire process was smooth, and their communication was excellent. I’m excited about the future of my author platform and the opportunities it brings for connecting with readers.",
             icon: <TrustpilotLogo />,
             namee: "David Harris",
             job: "Great Experience!",
         },
         {
-            txt: "Infinitidigital helped me create an author platform that I’m incredibly proud of. The elegant design and impressive functionality have made a noticeable difference in my online presence. The website’s user-friendly layout has also improved reader engagement. Thanks to Infinitidigital, I feel more confident in connecting with my audience and growing my brand.",
+            txt: "Infiniti Digital helped me create an author platform that I’m incredibly proud of. The elegant design and impressive functionality have made a noticeable difference in my online presence. The website’s user-friendly layout has also improved reader engagement. Thanks to Infiniti Digital, I feel more confident in connecting with my audience and growing my brand.",
             icon: <ClutchLogo />,
             namee: "Lily Armstrong",
             job: "A Real Game-Changer!",

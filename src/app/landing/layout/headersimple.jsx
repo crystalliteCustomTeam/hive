@@ -11,7 +11,7 @@ const HeaderSimpleLp = () => {
     const pathname = usePathname();
 
     useEffect(() => {
-        setIsLight(pathname === '/landing/seo2');
+        setIsLight(pathname === '/landing/seo2' && pathname === '/landing/seo1');
     }, [pathname]);
     // Chat Code
     const openChat = () => {

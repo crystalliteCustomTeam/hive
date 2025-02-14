@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/influencer-marketing/bannerImg.web
 
 export const BannerData = {
     title: "Expert Influencer Marketing Services",
-    desc: "Ready to turn your brand into the talk of the town, or should we say the 'influencer' of the internet? At Infinitidigital, we pair your brand with the perfect influencers to build trust, boost engagement, and achieve real results. From strategy to execution, we handle it all, ensuring your campaigns drive visibility and conversions that matter.",
+    desc: "Ready to turn your brand into the talk of the town, or should we say the 'influencer' of the internet? At Infiniti Digital, we pair your brand with the perfect influencers to build trust, boost engagement, and achieve real results. From strategy to execution, we handle it all, ensuring your campaigns drive visibility and conversions that matter.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -14,7 +14,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Grow Your Business with Influencer Marketing That Delivers",
     contentTxt: (<>
-        <p>At Infinitidigital, we connect you with influencers who truly align with your brand and audience. Together, we create campaigns that spark conversations, build meaningful connections, and deliver real results.We go beyond managing influencer marketing—we create experiences that resonate. From finding the right influencers to building impactful strategies, every step is designed to amplify your reach and grow your business. Let us help share your story and turn influencer collaborations into lasting success.</p>
+        <p>At Infiniti Digital, we connect you with influencers who truly align with your brand and audience. Together, we create campaigns that spark conversations, build meaningful connections, and deliver real results.We go beyond managing influencer marketing—we create experiences that resonate. From finding the right influencers to building impactful strategies, every step is designed to amplify your reach and grow your business. Let us help share your story and turn influencer collaborations into lasting success.</p>
     </>),
     img: ContentImg.src
 }
@@ -24,7 +24,7 @@ export const ContentData = {
 import ImgBg from "media/innerservices/influencer-marketing/ctaImage.webp"
 export const NewsLetterData = {
     title: "Let’s Create Something Amazing Together!",
-    desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infinitidigital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
+    desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infiniti Digital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
     img: ImgBg.src
 }
 
@@ -131,7 +131,7 @@ export const TwoBoxData = {
 export const InnerServicesData = {
     subtitle: "Our Services",
     title: "Our Influencer Marketing Services Can Help You!",
-    desc: "Infinitidigital takes care of everything, from strategy to outcomes, to ensure your company succeeds!",
+    desc: "Infiniti Digital takes care of everything, from strategy to outcomes, to ensure your company succeeds!",
     innerServItem: [
         {
             title: (<>Identifying the<br />Perfect Influencers</>),
@@ -172,7 +172,7 @@ export const ContentData1 = {
     maintitle: true,
     contentTitle: "Boost Your Brand with Influencer Marketing",
     contentTxt: (<>
-        <p>Your story deserves to be told, and the right influencers can help make it unforgettable. At Infinitidigital, we connect you with the perfect influencers to expand your reach, engage your audience, and drive real results. From finding the right fit to managing campaigns, we make influencer marketing effortless and impactful.</p>
+        <p>Your story deserves to be told, and the right influencers can help make it unforgettable. At Infiniti Digital, we connect you with the perfect influencers to expand your reach, engage your audience, and drive real results. From finding the right fit to managing campaigns, we make influencer marketing effortless and impactful.</p>
     </>),
     img: ContentImg1.src
 }
@@ -185,31 +185,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Working with Infinitidigital was a game-changer for us. They connected us with influencers who truly understood our brand, and the campaigns brought in a 70% boost in engagement. We couldn’t be happier!",
+            txt: "Working with Infiniti Digital was a game-changer for us. They connected us with influencers who truly understood our brand, and the campaigns brought in a 70% boost in engagement. We couldn’t be happier!",
             icon: <ClutchLogo />,
             namee: "Sarah J.",
             job: "Founder of GreenLeaf Naturals",
         },
         {
-            txt: "Infinitidigital nailed it! They paired us with influencers whose audiences aligned perfectly with our goals. Within weeks, our follower count doubled, and our sales skyrocketed. The results speak for themselves.",
+            txt: "Infiniti Digital nailed it! They paired us with influencers whose audiences aligned perfectly with our goals. Within weeks, our follower count doubled, and our sales skyrocketed. The results speak for themselves.",
             icon: <TrustpilotLogo />,
             namee: "James P.",
             job: "COO of TechVista",
         },
         {
-            txt: "We wanted to create an authentic connection with Gen Z, and Infinitidigital delivered. The influencer campaigns were on point, and we saw a 60% increase in website traffic. Highly recommended!",
+            txt: "We wanted to create an authentic connection with Gen Z, and Infiniti Digital delivered. The influencer campaigns were on point, and we saw a 60% increase in website traffic. Highly recommended!",
             icon: <GoogleLogo />,
             namee: "Elena R.",
             job: "MD at CreativeYouth",
         },
         {
-            txt: "Infinitidigital took care of everything—from finding influencers to managing contracts and campaigns. It was seamless and stress-free, and our ROI has never been better. Fantastic team!",
+            txt: "Infiniti Digital took care of everything—from finding influencers to managing contracts and campaigns. It was seamless and stress-free, and our ROI has never been better. Fantastic team!",
             icon: <TrustpilotLogo />,
             namee: "Paul M.",
             job: "CEO of BrightPath Solutions",
         },
         {
-            txt: "The influencer partnerships Infinitidigital arranged helped us gain over 500K impressions in just one month. Our products are flying off the shelves, and the brand awareness we’ve achieved is incredible!",
+            txt: "The influencer partnerships Infiniti Digital arranged helped us gain over 500K impressions in just one month. Our products are flying off the shelves, and the brand awareness we’ve achieved is incredible!",
             icon: <ClutchLogo />,
             namee: "Laura C.",
             job: "Founder of UrbanStyle",

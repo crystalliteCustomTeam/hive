@@ -183,7 +183,7 @@ export const ProcessData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -193,34 +193,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Small Business Owners Are Saying",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
-            txt: "Infinitidigital turned my struggling website into a local hotspot. Within weeks, I was showing up on Google Maps, and foot traffic to my shop increased noticeably. Their team’s dedication to understanding my needs and tailoring solutions was phenomenal. I’ve seen real results, and I can’t recommend them enough. Their approach was both effective and highly professional!",
+            txt: "Infiniti Digital turned my struggling website into a local hotspot. Within weeks, I was showing up on Google Maps, and foot traffic to my shop increased noticeably. Their team’s dedication to understanding my needs and tailoring solutions was phenomenal. I’ve seen real results, and I can’t recommend them enough. Their approach was both effective and highly professional!",
             icon: <ClutchLogo />,
             namee: "Olivia R.",
             job: "Owner of Olivia’s Boutique",
         },
         {
-            txt: "Working with Infinitidigital has been the best decision for my small business. They helped me rank higher for local searches, and my sales have doubled within three months. Their reporting keeps me informed every step of the way, making it easy to see tangible progress. Truly a team that delivers on every promise!",
+            txt: "Working with Infiniti Digital has been the best decision for my small business. They helped me rank higher for local searches, and my sales have doubled within three months. Their reporting keeps me informed every step of the way, making it easy to see tangible progress. Truly a team that delivers on every promise!",
             icon: <TrustpilotLogo />,
             namee: "Michael T.",
             job: "Owner of Tasty Bites Cafe",
         },
         {
-            txt: "As a small business owner, I was hesitant about investing in SEO, but Infinitidigital made it worth every penny. Their local SEO strategies brought in more customers than I’d ever imagined. They’re professional, responsive, and know what they’re doing. The consistent growth I’ve experienced has been beyond my expectations. Highly recommend!",
+            txt: "As a small business owner, I was hesitant about investing in SEO, but Infiniti Digital made it worth every penny. Their local SEO strategies brought in more customers than I’d ever imagined. They’re professional, responsive, and know what they’re doing. The consistent growth I’ve experienced has been beyond my expectations. Highly recommend!",
             icon: <GoogleLogo />,
             namee: "Samantha W.",
             job: "Owner of Bloom Florals",
         },
         {
-            txt: "Before Infinitidigital, my website barely got any traffic. Now, I’m consistently getting inquiries from local customers, and my business is growing faster than ever. Their expertise in small business SEO is unmatched. I’m beyond impressed with their work, and I truly appreciate the ongoing support they provide!",
+            txt: "Before Infiniti Digital, my website barely got any traffic. Now, I’m consistently getting inquiries from local customers, and my business is growing faster than ever. Their expertise in small business SEO is unmatched. I’m beyond impressed with their work, and I truly appreciate the ongoing support they provide!",
             icon: <Forbes />,
             namee: "Daniel C.",
             job: "Owner of Crestwood Mechanics",
         },
         {
-            txt: "Infinitidigital’s team went above and beyond to ensure my success. They explained every step of the process, delivered fantastic results, and made me feel valued as a client. My online visibility has skyrocketed, and I’m seeing the benefits every day! Their attention to detail and customer-first attitude really set them apart.",
+            txt: "Infiniti Digital’s team went above and beyond to ensure my success. They explained every step of the process, delivered fantastic results, and made me feel valued as a client. My online visibility has skyrocketed, and I’m seeing the benefits every day! Their attention to detail and customer-first attitude really set them apart.",
             icon: <Upcity />,
             namee: "Emily K.",
             job: "Owner of Emily’s Art Studio",

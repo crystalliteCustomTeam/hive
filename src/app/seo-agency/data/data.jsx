@@ -13,7 +13,7 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Results-Driven SEO Company",
-    desc: "We don’t just manage your SEO, we take the lead. Businesses driven by growth choose us for one reason: results. With our strategies, SEO experts, and a proven track record, we’re the force behind the most successful and fast-growing brands. When you hire InfinitiDigital, your organic traffic becomes measurable ROI.",
+    desc: "We don’t just manage your SEO, we take the lead. Businesses driven by growth choose us for one reason: results. With our strategies, SEO experts, and a proven track record, we’re the force behind the most successful and fast-growing brands. When you hire Infiniti Digital, your organic traffic becomes measurable ROI.",
     ServicesItem: [
         {
             title: (<>Keyword Research<br />& Strategy</>),
@@ -76,7 +76,7 @@ export const ContentData = {
     maintitle: true,
     title: "SEO Agency That Guarantees Growth",
     contentTxt: (<>
-        <p>Turn visitors into customers with campaigns made just for your business. Contact us to see real results. At InfinitiDigital, we believe SEO is more than just getting people to visit your site; it’s about getting them to become loyal customers. Our strategies will help your website rank higher and connect with the right audience. Let us help you, let’s talk!</p>
+        <p>Turn visitors into customers with campaigns made just for your business. Contact us to see real results. At Infiniti Digital, we believe SEO is more than just getting people to visit your site; it’s about getting them to become loyal customers. Our strategies will help your website rank higher and connect with the right audience. Let us help you, let’s talk!</p>
     </>),
     img: ContentImg.src
 }
@@ -87,7 +87,7 @@ import ContentImg1 from "media/innerservices/seo-agency/Img02.webp"
 export const ContentData1 = {
     contentTitle: "Increase Website Traffic Organically",
     contentTxt: (<>
-        <p>Hiring InfinitiDigital as your SEO agency means more than just improving search rankings. The team will analyze your website, improve its performance, and use SEO strategies to increase organic traffic. Growth isn’t left to chance, it’s guaranteed.</p>
+        <p>Hiring Infiniti Digital as your SEO agency means more than just improving search rankings. The team will analyze your website, improve its performance, and use SEO strategies to increase organic traffic. Growth isn’t left to chance, it’s guaranteed.</p>
     </>),
     img: ContentImg1.src
 }
@@ -95,7 +95,7 @@ export const ContentData1 = {
 export const ProcessData = {
     subtitle: "Our Strategies",
     title: "Our Proven Content Marketing Process",
-    desc: "Crack your business’s full potential with Infinitidigital’s tailored SEO solutions. Whether you’re looking to control local markets or achieve global visibility, we have the expertise to uplift your online presence.",
+    desc: "Crack your business’s full potential with Infiniti Digital’s tailored SEO solutions. Whether you’re looking to control local markets or achieve global visibility, we have the expertise to uplift your online presence.",
 
     ProcessItem1: [
         {
@@ -186,31 +186,31 @@ export const TestimonialData = {
     desc: "Every business has a unique journey, and we’ve been privileged to be part of some truly inspiring transformations. Ready to write your own success story? Let’s get started today.",
     Testslider: [
         {
-            txt: "Infinitidigital’s SEO strategies brought in more traffic than we’ve ever seen. Their transparent reporting and innovative solutions were exactly what we needed to grow our online presence. Their team went above and beyond, offering consistent support and detailed insights that drove a significant boost in sales and overall growth. It’s been a game-changing experience for us!",
+            txt: "Infiniti Digital’s SEO strategies brought in more traffic than we’ve ever seen. Their transparent reporting and innovative solutions were exactly what we needed to grow our online presence. Their team went above and beyond, offering consistent support and detailed insights that drove a significant boost in sales and overall growth. It’s been a game-changing experience for us!",
             icon: <ClutchLogo />,
             namee: "Sarah T.",
             job: "E-commerce Retailer",
         },
         {
-            txt: "We couldn’t be happier with Infinitidigital’s work. Their in-depth keyword research and technical improvements helped us reach the first page of Google for key terms. Their tailored approach addressed our unique challenges, and their team’s dedication ensured we stayed ahead of the competition. Thanks to their expertise, our ROI has been phenomenal, and our business continues to thrive.",
+            txt: "We couldn’t be happier with Infiniti Digital’s work. Their in-depth keyword research and technical improvements helped us reach the first page of Google for key terms. Their tailored approach addressed our unique challenges, and their team’s dedication ensured we stayed ahead of the competition. Thanks to their expertise, our ROI has been phenomenal, and our business continues to thrive.",
             icon: <TrustpilotLogo />,
             namee: "James L.",
             job: "Financial Consultant",
         },
         {
-            txt: "Infinitidigital’s team went above and beyond to understand our unique challenges. Their content strategies and backlink building delivered incredible results. We’ve seen record-breaking engagement and an increase in qualified leads. The transformation in our online visibility has been astounding, and their ongoing support makes them an invaluable partner for us.",
+            txt: "Infiniti Digital’s team went above and beyond to understand our unique challenges. Their content strategies and backlink building delivered incredible results. We’ve seen record-breaking engagement and an increase in qualified leads. The transformation in our online visibility has been astounding, and their ongoing support makes them an invaluable partner for us.",
             icon: <GoogleLogo />,
             namee: "Emily R.",
             job: "SaaS Company",
         },
         {
-            txt: "Before partnering with Infinitidigital, we struggled to connect with local customers. Their local SEO strategies helped us rank higher and brought consistent traffic to our site. Their comprehensive reporting and actionable insights were invaluable. Thanks to their efforts, our customer base has grown significantly, and we’ve achieved consistent, measurable success.",
+            txt: "Before partnering with Infiniti Digital, we struggled to connect with local customers. Their local SEO strategies helped us rank higher and brought consistent traffic to our site. Their comprehensive reporting and actionable insights were invaluable. Thanks to their efforts, our customer base has grown significantly, and we’ve achieved consistent, measurable success.",
             icon: <Forbes />,
             namee: "Daniel C.",
             job: "Local Mechanic Shop",
         },
         {
-            txt: "Infinitidigital’s expertise has been a game-changer for our business. From crafting compelling content to optimizing our site’s performance, every step was meticulously handled. The increase in traffic and conversions has been incredible, and their ongoing support ensures our continued growth. Their ability to deliver results while keeping us informed is unmatched.",
+            txt: "Infiniti Digital’s expertise has been a game-changer for our business. From crafting compelling content to optimizing our site’s performance, every step was meticulously handled. The increase in traffic and conversions has been incredible, and their ongoing support ensures our continued growth. Their ability to deliver results while keeping us informed is unmatched.",
             icon: <Upcity />,
             namee: "Olivia M.",
             job: "Art Studio Owner",
@@ -222,7 +222,7 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Take the First Step Toward SEO Success",
-    desc: "Don’t let competitors take the lead. Contact Infinitidigital today to discover how our expert SEO strategies can transform your online presence."
+    desc: "Don’t let competitors take the lead. Contact Infiniti Digital today to discover how our expert SEO strategies can transform your online presence."
 }
 
 // FAQs
@@ -232,8 +232,8 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "1.	What makes Infinitidigital’s SEO services unique? ",
-            txt: "Infinitidigital offers personalized strategies, cutting-edge tools, and a proven track record across industries. We focus on sustainable growth and long-term results, ensuring your business stays competitive. With our transparent reporting and dedicated support, you’re always informed and in control of your campaign’s progress."
+            title: "1.	What makes Infiniti Digital’s SEO services unique? ",
+            txt: "Infiniti Digital offers personalized strategies, cutting-edge tools, and a proven track record across industries. We focus on sustainable growth and long-term results, ensuring your business stays competitive. With our transparent reporting and dedicated support, you’re always informed and in control of your campaign’s progress."
         },
         {
             title: "How soon will I see results? ",
@@ -241,7 +241,7 @@ export const FAQsData = {
         },
         {
             title: "Can SEO help my small business?",
-            txt: "Absolutely! Our scalable packages ensure businesses of all sizes can benefit from tailored SEO strategies that fit their budget. Small businesses often see significant improvements in local traffic and customer engagement. With Infinitidigital, you get the expertise needed to outshine competitors in your area."
+            txt: "Absolutely! Our scalable packages ensure businesses of all sizes can benefit from tailored SEO strategies that fit their budget. Small businesses often see significant improvements in local traffic and customer engagement. With Infiniti Digital, you get the expertise needed to outshine competitors in your area."
         },
         {
             title: "Do you offer regular updates on campaign progress?",

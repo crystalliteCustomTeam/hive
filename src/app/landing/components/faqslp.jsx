@@ -9,23 +9,23 @@ export const data = {
 
     Fqaslist: [
         {
-            title: "What services does Infinitidigital offer ",
-            txt: "Infinitidigital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
+            title: "What services does Infiniti Digital offer ",
+            txt: "Infiniti Digital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
         },
         {
-            title: "How does Infinitidigital ensure results for its clients?",
-            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infinitidigital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
+            title: "How does Infiniti Digital ensure results for its clients?",
+            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infiniti Digital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
         },
         {
-            title: "Can Infinitidigital handle projects for small and large businesses? ",
-            txt: "Yes, Infinitidigital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
+            title: "Can Infiniti Digital handle projects for small and large businesses? ",
+            txt: "Yes, Infiniti Digital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
         },
         {
-            title: "What industries does Infinitidigital specialize in? ",
-            txt: "Infinitidigital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
+            title: "What industries does Infiniti Digital specialize in? ",
+            txt: "Infiniti Digital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
         },
         {
-            title: "How can I get started with Infinitidigital?",
+            title: "How can I get started with Infiniti Digital?",
             txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success."
         }
     ]

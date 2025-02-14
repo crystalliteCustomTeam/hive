@@ -4,7 +4,7 @@ import BannerPoster from "media/services/content-marketing/posterImg.webp"
 export const BannerData = {
     subtitle: "Content That Captures, Engages, and Converts ",
     title: "Better Storytelling, Better Conversions",
-    desc: "From blogs to videos and beyond, Infinitidigital’s strategies ensure your brand gets noticed, remembered, and trusted.",
+    desc: "From blogs to videos and beyond, Infiniti Digital’s strategies ensure your brand gets noticed, remembered, and trusted.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775816/rendition/720p/file.mp4?loc=external&log_user=0&signature=25e3d3440616801aba2c530e7f4be7f636f4af2ba84d9262fa0d81beaff28bb6",
     BannerPoster: BannerPoster.src,
     bannerTitle: "Where Creativity Meets Strategy for Real Results.",
@@ -16,7 +16,7 @@ export const BannerData = {
 export const ChooseUsData = {
     subtitle: "Why Partner with Us?",
     title: "Excellence That Drives Results",
-    desc: "Discover how Infinitidigital’s cutting-edge strategies and client-focused solutions empower brands to lead, grow, and connect digitally.",
+    desc: "Discover how Infiniti Digital’s cutting-edge strategies and client-focused solutions empower brands to lead, grow, and connect digitally.",
     Content1: [
         {
             title: "Results That Speak Volumes",
@@ -24,7 +24,7 @@ export const ChooseUsData = {
         },
         {
             title: "Transparent Reporting, Tangible Success",
-            txt: "We believe in keeping you informed at every step. Infinitidigital’s detailed reports highlight your campaign's progress, offering full transparency and measurable success so you remain confident in our strategies."
+            txt: "We believe in keeping you informed at every step. Infiniti Digital’s detailed reports highlight your campaign's progress, offering full transparency and measurable success so you remain confident in our strategies."
         }
     ],
     Content2: [
@@ -51,7 +51,7 @@ export const ChooseUsData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Make Your Book a Journey Readers Can’t Forget",
-    desc: "At Infinitidigital, we don’t just help you write and publish books; we help you create stories that resonate. Curious how we do it? Let us guide you every step of the way—from crafting unforgettable narratives to ensuring your book reaches its ideal audience.",
+    desc: "At Infiniti Digital, we don’t just help you write and publish books; we help you create stories that resonate. Curious how we do it? Let us guide you every step of the way—from crafting unforgettable narratives to ensuring your book reaches its ideal audience.",
     ServicesItem: [
         {
             title: (<>Book <br />Writing</>),
@@ -65,7 +65,7 @@ export const ServicesData = {
         },
         {
             title: (<>Book <br />Publishing</>),
-            txt: "Publishing can feel overwhelming, can’t it? Don’t worry—Infinitidigital has you covered.",
+            txt: "Publishing can feel overwhelming, can’t it? Don’t worry—Infiniti Digital has you covered.",
             url: "#",
         },
         {
@@ -100,7 +100,7 @@ export const ServicesData = {
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
     title: "Let’s Make Your Dream a Reality",
-    desc: "Infinitidigital is here to take your book from idea to bestseller. With our expertise and your creativity, success is just around the corner. Why wait any longer? Let’s get started today!",
+    desc: "Infiniti Digital is here to take your book from idea to bestseller. With our expertise and your creativity, success is just around the corner. Why wait any longer? Let’s get started today!",
     img: ImgBg.src
 }
 
@@ -306,7 +306,7 @@ export const ProcessData = {
 export const IndustriesData = {
     subtitle: "Our Industries",
     title: "Driving Results Across Diverse Sectors",
-    desc: "At Infinitidigital, we create bespoke content marketing strategies tailored to the unique demands of every industry. Whether you're a startup, a small business, or an established brand, our expertise ensures measurable results, sustainable growth, and impactful audience engagement.",
+    desc: "At Infiniti Digital, we create bespoke content marketing strategies tailored to the unique demands of every industry. Whether you're a startup, a small business, or an established brand, our expertise ensures measurable results, sustainable growth, and impactful audience engagement.",
 
 }
 
@@ -318,31 +318,31 @@ export const TestimonialData = {
     desc: "Explore our successful partnerships and see how we’ve empowered brands to achieve growth, engagement, and lasting impact in the digital world.",
     Testslider: [
         {
-            txt: "Infinitidigital transformed our online strategy with incredible precision. Their content-driven campaigns didn’t just increase website traffic but also tripled our lead conversions within months. Their team combines creativity and professionalism, ensuring each strategy aligns perfectly with business goals. Highly recommended for businesses seeking growth.",
+            txt: "Infiniti Digital transformed our online strategy with incredible precision. Their content-driven campaigns didn’t just increase website traffic but also tripled our lead conversions within months. Their team combines creativity and professionalism, ensuring each strategy aligns perfectly with business goals. Highly recommended for businesses seeking growth.",
             icon: <ClutchLogo />,
             namee: "Samantha Lee",
             job: "CEO of Visionary Tech Solutions",
         },
         {
-            txt: "Collaborating with Infinitidigital was a game-changer for our e-commerce platform. Their expertise in creating compelling blogs and targeted email campaigns brought us a 40% boost in sales. Their focus on understanding our audience made every campaign highly impactful, helping us build lasting customer relationships.",
+            txt: "Collaborating with Infiniti Digital was a game-changer for our e-commerce platform. Their expertise in creating compelling blogs and targeted email campaigns brought us a 40% boost in sales. Their focus on understanding our audience made every campaign highly impactful, helping us build lasting customer relationships.",
             icon: <TrustpilotLogo />,
             namee: "Carlos Mendoza",
             job: "Founder of LuxeTrend",
         },
         {
-            txt: "Infinitidigital helped redefine our branding efforts through well-crafted social media posts, in-depth ebooks, and personalized content strategies. Their team’s ability to connect with our audience strengthened our online presence significantly. They’re the go-to agency for businesses looking to grow in a competitive market.",
+            txt: "Infiniti Digital helped redefine our branding efforts through well-crafted social media posts, in-depth ebooks, and personalized content strategies. Their team’s ability to connect with our audience strengthened our online presence significantly. They’re the go-to agency for businesses looking to grow in a competitive market.",
             icon: <GoogleLogo />,
             namee: "Diana Roberts",
             job: "Marketing Director at ThriveWell Clinics",
         },
         {
-            txt: "Infinitidigital’s content marketing expertise is unmatched. The whitepapers and case studies they delivered helped establish us as an authority in a highly competitive industry. Their attention to detail and innovative approach exceeded our expectations and drove impactful results for our business.",
+            txt: "Infiniti Digital’s content marketing expertise is unmatched. The whitepapers and case studies they delivered helped establish us as an authority in a highly competitive industry. Their attention to detail and innovative approach exceeded our expectations and drove impactful results for our business.",
             icon: <TrustpilotLogo />,
             namee: "Michael Harris",
             job: "COO of Apex Financial Partners",
         },
         {
-            txt: "Their research-backed articles and engaging blog posts helped us build thought leadership while driving significant traffic to our website. Infinitidigital’s team went above and beyond, providing seamless communication and delivering results that have helped our brand stand out.",
+            txt: "Their research-backed articles and engaging blog posts helped us build thought leadership while driving significant traffic to our website. Infiniti Digital’s team went above and beyond, providing seamless communication and delivering results that have helped our brand stand out.",
             icon: <ClutchLogo />,
             namee: "Olivia Parker",
             job: "Head of Content at EducateNow",
@@ -366,8 +366,8 @@ export const FAQsData = {
     title: "Frequently Asked Question?",
     Fqaslist: [
         {
-            title: "What types of content marketing services does Infinitidigital offer? ",
-            txt: "Infinitidigital specializes in creating high-quality content such as blogs, ebooks, whitepapers, case studies, email campaigns, and more. We focus on crafting strategies that align with your business goals and effectively engage your target audience. By leveraging SEO-friendly practices, we ensure your content not only resonates but also ranks well on search engines."
+            title: "What types of content marketing services does Infiniti Digital offer? ",
+            txt: "Infiniti Digital specializes in creating high-quality content such as blogs, ebooks, whitepapers, case studies, email campaigns, and more. We focus on crafting strategies that align with your business goals and effectively engage your target audience. By leveraging SEO-friendly practices, we ensure your content not only resonates but also ranks well on search engines."
         },
         {
             title: "How does content marketing benefit my business?",

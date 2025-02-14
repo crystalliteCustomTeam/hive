@@ -62,7 +62,7 @@ import Awards07 from "media/about/awards/7.webp";
 export const AbtAwardsData = {
     subtitle: "Awards",
     title: "Awards – Some Work We’re Proud Of",
-    desc: "We believe great work speaks for itself, and we’re humbled by the recognition we’ve received for helping businesses achieve their goals. Infinitidigital is proud to have been recognized by industry leaders:",
+    desc: "We believe great work speaks for itself, and we’re humbled by the recognition we’ve received for helping businesses achieve their goals. Infiniti Digital is proud to have been recognized by industry leaders:",
     images: [
         Awards01.src,
         Awards02.src,
@@ -88,12 +88,12 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "Why should I trust Infinitidigital with my digital marketing?",
-            txt: "We don’t believe in one-size-fits-all strategies. At Infinitidigital, we take the time to understand your business, your goals, and your audience. With a track record of success and a team that combines creativity with data-backed insights, we craft tailored strategies that deliver tangible results. Our clients value us for our transparency, innovation, and commitment to excellence."
+            title: "Why should I trust Infiniti Digital with my digital marketing?",
+            txt: "We don’t believe in one-size-fits-all strategies. At Infiniti Digital, we take the time to understand your business, your goals, and your audience. With a track record of success and a team that combines creativity with data-backed insights, we craft tailored strategies that deliver tangible results. Our clients value us for our transparency, innovation, and commitment to excellence."
         },
         {
-            title: "What makes Infinitidigital different from other marketing agencies?",
-            txt: "Infinitidigital stands out because of our personalized approach and dedication to results. Unlike agencies that rely heavily on automation, we focus on human-driven strategies that connect with your audience authentically. Our small, dedicated team offers attention to detail and a proactive partnership that ensures your goals remain our priority."
+            title: "What makes Infiniti Digital different from other marketing agencies?",
+            txt: "Infiniti Digital stands out because of our personalized approach and dedication to results. Unlike agencies that rely heavily on automation, we focus on human-driven strategies that connect with your audience authentically. Our small, dedicated team offers attention to detail and a proactive partnership that ensures your goals remain our priority."
         },
         {
             title: "Do you offer flexible services to match my budget?",

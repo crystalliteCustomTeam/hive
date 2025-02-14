@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/youtube-optimization/bannerImg.web
 
 export const BannerData = {
     title: "Advanced YouTube Optimization Services",
-    desc: "Your channel deserves more than just views—it deserves growth. At Infinitidigital, we combine proven strategies, creativity, and advanced tools to help your content shine. Whether you're just starting or looking to scale, our team ensures your channel reaches its full potential.",
+    desc: "Your channel deserves more than just views—it deserves growth. At Infiniti Digital, we combine proven strategies, creativity, and advanced tools to help your content shine. Whether you're just starting or looking to scale, our team ensures your channel reaches its full potential.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -16,7 +16,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Lets Make Your Channel Unstoppable",
     contentTxt: (<>
-        <p>Your channel is more than just videos—it’s your voice, your brand, and your story. At Infinitidigital, we help you optimize every aspect of your channel so you can connect, grow, and thrive on YouTube. Imagine your videos reaching the right audience, driving engagement, and building a loyal community. With our advanced YouTube optimization services, your channel will become a growth powerhouse.</p>
+        <p>Your channel is more than just videos—it’s your voice, your brand, and your story. At Infiniti Digital, we help you optimize every aspect of your channel so you can connect, grow, and thrive on YouTube. Imagine your videos reaching the right audience, driving engagement, and building a loyal community. With our advanced YouTube optimization services, your channel will become a growth powerhouse.</p>
     </>),
     img: ContentImg.src
 }
@@ -26,7 +26,7 @@ export const ContentData = {
 import ImgBg from "media/innerservices/youtube-optimization/ctaImage.webp"
 export const NewsLetterData = {
     title: "Let’s Create Something Amazing Together!",
-    desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infinitidigital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
+    desc: "Your next big breakthrough starts here. Share your email, and let’s explore how Infiniti Digital can turn your vision into reality. From strategy to execution, we’re here to make it happen.",
     img: ImgBg.src
 }
 
@@ -86,7 +86,7 @@ export const ContentData1 = {
     maintitle: true,
     contentTitle: "What You’ll Gain with YouTube Optimization?",
     contentTxt: (<>
-        <p>At Infinitidigital, we transform your okay YouTube channel into an exceptional one, turning casual viewers into loyal subscribers and highlighting your content like never before. We enhance engagement, ensuring viewers stick around and engage with your content, and improve retention to keep your audience returning for every new video. We’ll help your channel thrive—let’s connect and get those views rolling in!</p>
+        <p>At Infiniti Digital, we transform your okay YouTube channel into an exceptional one, turning casual viewers into loyal subscribers and highlighting your content like never before. We enhance engagement, ensuring viewers stick around and engage with your content, and improve retention to keep your audience returning for every new video. We’ll help your channel thrive—let’s connect and get those views rolling in!</p>
 
     </>),
     img: ContentImg1.src
@@ -101,31 +101,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed my YouTube channel. From optimizing my keywords to designing eye-catching thumbnails, their team took my content to the next level. Within two months, my views doubled, and I gained over 5,000 new subscribers. Highly recommend!",
+            txt: "Infiniti Digital completely transformed my YouTube channel. From optimizing my keywords to designing eye-catching thumbnails, their team took my content to the next level. Within two months, my views doubled, and I gained over 5,000 new subscribers. Highly recommend!",
             icon: <ClutchLogo />,
             namee: "Chris M.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "I was struggling to get my videos noticed until I partnered with Infinitidigital. Their attention to detail and creative strategies helped me rank higher in search results and grow my audience. Now, I’m finally seeing real engagement and steady subscriber growth.",
+            txt: "I was struggling to get my videos noticed until I partnered with Infiniti Digital. Their attention to detail and creative strategies helped me rank higher in search results and grow my audience. Now, I’m finally seeing real engagement and steady subscriber growth.",
             icon: <TrustpilotLogo />,
             namee: "Emily R.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "The team at Infinitidigital made the optimization process easy and stress-free. They explained every step, optimized my channel branding, and gave me insights into my analytics that I never knew I needed. My YouTube growth has been phenomenal.",
+            txt: "The team at Infiniti Digital made the optimization process easy and stress-free. They explained every step, optimized my channel branding, and gave me insights into my analytics that I never knew I needed. My YouTube growth has been phenomenal.",
             icon: <GoogleLogo />,
             namee: "Daniel K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Infinitidigital not only optimized my videos but helped me understand how to retain my audience with playlists and engagement strategies. The results? A 300% increase in watch time and a community that keeps coming back for more. They’re worth every penny!.",
+            txt: "Infiniti Digital not only optimized my videos but helped me understand how to retain my audience with playlists and engagement strategies. The results? A 300% increase in watch time and a community that keeps coming back for more. They’re worth every penny!.",
             icon: <TrustpilotLogo />,
             namee: "Sophia L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "After working with Infinitidigital, my YouTube channel has never been the same. They revamped my video SEO, gave me data-driven advice, and provided actionable steps to build better engagement. Now, I’m attracting the right audience and finally hitting my goals.",
+            txt: "After working with Infiniti Digital, my YouTube channel has never been the same. They revamped my video SEO, gave me data-driven advice, and provided actionable steps to build better engagement. Now, I’m attracting the right audience and finally hitting my goals.",
             icon: < ClutchLogo />,
             namee: "Mark T.",
             job: "Founder of StyleHive Boutique",

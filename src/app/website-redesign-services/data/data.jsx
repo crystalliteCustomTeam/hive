@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/webiste-redesign-services/bannerIm
 
 export const BannerData = {
     title: "Website Redesign Services",
-    desc: "Is your website outdated or underperforming? A fresh redesign can boost your online presence and drive more conversions. Let Infinitidigital transform your site today!",
+    desc: "Is your website outdated or underperforming? A fresh redesign can boost your online presence and drive more conversions. Let Infiniti Digital transform your site today!",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -15,7 +15,7 @@ export const BannerData = {
 export const StateCounter = {
     subtitle: "Redesign Your Website",
     title: "Why Choose Us for Website Redesign?",
-    desc: "Ready to boost your online presence? Infinitidigital specializes in customized website redesigns that help businesses increase traffic, generate leads, and maximize revenue.",
+    desc: "Ready to boost your online presence? Infiniti Digital specializes in customized website redesigns that help businesses increase traffic, generate leads, and maximize revenue.",
     stateItem: [
         {
             numbers: "200+",
@@ -36,7 +36,7 @@ export const StateCounter = {
 
 // Process
 export const ProcessData = {
-    subtitle: "Process & Services at Infinitidigital",
+    subtitle: "Process & Services at Infiniti Digital",
     title: "Our Approach to Redesigning Websites",
     desc: "We create results-driven websites with your goals in mind. Our expert team ensures your redesign is seamless, functional, and high-converting.",
 
@@ -265,34 +265,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It From Our Clients ",
-    desc: "Our clients' success stories speak volumes about the impact of our website redesign services. Discover how Infinitidigital has transformed businesses and helped them achieve remarkable results.",
+    desc: "Our clients' success stories speak volumes about the impact of our website redesign services. Discover how Infiniti Digital has transformed businesses and helped them achieve remarkable results.",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed our website. The design is sleek and professional, perfectly reflecting our brand. The entire redesign process was smooth and efficient, and the results are remarkable. We’ve seen a significant boost in traffic and sales since the launch. Highly impressed with the results and the team’s dedication!",
+            txt: "Infiniti Digital completely transformed our website. The design is sleek and professional, perfectly reflecting our brand. The entire redesign process was smooth and efficient, and the results are remarkable. We’ve seen a significant boost in traffic and sales since the launch. Highly impressed with the results and the team’s dedication!",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "E-commerce Entrepreneur",
         },
         {
-            txt: "Infinitidigital exceeded our expectations from start to finish. Their team took the time to understand our needs and delivered a website that not only looks stunning but also functions perfectly. We’ve noticed significant improvements in user engagement and conversion rates. We highly recommend them to anyone needing a website redesign!",
+            txt: "Infiniti Digital exceeded our expectations from start to finish. Their team took the time to understand our needs and delivered a website that not only looks stunning but also functions perfectly. We’ve noticed significant improvements in user engagement and conversion rates. We highly recommend them to anyone needing a website redesign!",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "Small Business Owner",
         },
         {
-            txt: "Infinitidigital’s redesign of our website was a game-changer. Our new site has a modern, clean look, and the user experience is better than ever. We’ve seen a significant increase in conversions and mobile-friendly traffic. The team’s professionalism and creativity made this a smooth and successful project. Highly recommend them!",
+            txt: "Infiniti Digital’s redesign of our website was a game-changer. Our new site has a modern, clean look, and the user experience is better than ever. We’ve seen a significant increase in conversions and mobile-friendly traffic. The team’s professionalism and creativity made this a smooth and successful project. Highly recommend them!",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "Marketing Manager",
         },
         {
-            txt: "Infinitidigital went above and beyond with our website redesign. The team took the time to understand our business needs and delivered a site that aligns perfectly with our goals. The process was smooth, and the results have been fantastic. Our traffic and engagement have improved significantly since the redesign!",
+            txt: "Infiniti Digital went above and beyond with our website redesign. The team took the time to understand our business needs and delivered a site that aligns perfectly with our goals. The process was smooth, and the results have been fantastic. Our traffic and engagement have improved significantly since the redesign!",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "SaaS Founder",
         },
         {
-            txt: "Working with Infinitidigital was a fantastic experience from start to finish. They listened to our needs, provided valuable input, and delivered a website redesign that exceeded our expectations. Since the redesign, our site’s traffic has increased, and we’ve seen a noticeable improvement in lead generation. They’re a true partner!",
+            txt: "Working with Infiniti Digital was a fantastic experience from start to finish. They listened to our needs, provided valuable input, and delivered a website redesign that exceeded our expectations. Since the redesign, our site’s traffic has increased, and we’ve seen a noticeable improvement in lead generation. They’re a true partner!",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Nonprofit Director",

@@ -4,7 +4,7 @@ import BannerPoster from "media/services/web-development/posterImg.webp"
 export const BannerData = {
     subtitle: "Curate Websites That Convert",
     title: "Ready To Wow Your Audience?",
-    desc: "Your website is more than a digital presence—it’s your brand’s first impression. At Infinitidigital, we merge creativity with cutting-edge technology to design websites that don’t just look good but perform exceptionally.",
+    desc: "Your website is more than a digital presence—it’s your brand’s first impression. At Infiniti Digital, we merge creativity with cutting-edge technology to design websites that don’t just look good but perform exceptionally.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1040875532/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1d4dbbd95f2a7543fdc99fe8e9d0d0fca84bcccf1a9f6217b54c85d0b9911068",
     BannerPoster: BannerPoster.src,
 }
@@ -12,7 +12,7 @@ export const BannerData = {
 // Why Choose Us
 export const ChooseUsData = {
     subtitle: "Why Choose Us",
-    title: "Why Infinitidigital is Your Web Design Partner",
+    title: "Why Infiniti Digital is Your Web Design Partner",
     desc: "Your website should be more than just functional—it should inspire trust, spark curiosity, and drive action. Curious about how we deliver excellence? Let us walk you through why partnering with us is the smart choice.",
     Content1: [
         {
@@ -97,7 +97,7 @@ export const ServicesData = {
 import ImgBg from "media/home/ctaBg.webp"
 export const CtaData = {
     title: "Strategic Web Design Solutions ",
-    desc: "Your website should do more than exist—it should fuel growth, engagement, and conversions. At Infinitidigital, we craft design solutions that don’t just look stunning but align seamlessly with your business goals. Ready to leave an impact that lasts? ",
+    desc: "Your website should do more than exist—it should fuel growth, engagement, and conversions. At Infiniti Digital, we craft design solutions that don’t just look stunning but align seamlessly with your business goals. Ready to leave an impact that lasts? ",
     img: ImgBg.src
 }
 
@@ -217,7 +217,7 @@ export const PriceData = {
 export const ProcessData = {
     subtitle: "Our Process",
     title: "From Direction to Delivery ",
-    desc: "Every great app begins with a spark of inspiration, and we’re here to bring that idea to life. At Infinitidigital, we combine thoughtful design, precise development, and thorough delivery to ensure your app exceeds expectations. ",
+    desc: "Every great app begins with a spark of inspiration, and we’re here to bring that idea to life. At Infiniti Digital, we combine thoughtful design, precise development, and thorough delivery to ensure your app exceeds expectations. ",
 
     ProcessItem1: [
         {
@@ -305,7 +305,7 @@ export const ProcessData = {
 export const IndustriesData = {
     subtitle: "Industries We Assist",
     title: "Solutions Tailored to Your Industry",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we deliver customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we deliver customized solutions that resonate with your vision.",
 
 }
 
@@ -317,31 +317,31 @@ export const TestimonialData = {
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Infinitidigital completely revolutionized our digital presence with their intuitive and user-centered designs. The seamless navigation and compelling visuals they created have doubled our user engagement and transformed the way customers interact with our site.",
+            txt: "Infiniti Digital completely revolutionized our digital presence with their intuitive and user-centered designs. The seamless navigation and compelling visuals they created have doubled our user engagement and transformed the way customers interact with our site.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Our platform’s usability was taken to the next level by Infinitidigital. Their focus on creating a smooth, responsive, and aesthetically appealing interface has significantly enhanced our customer experience and retention rates.",
+            txt: "Our platform’s usability was taken to the next level by Infiniti Digital. Their focus on creating a smooth, responsive, and aesthetically appealing interface has significantly enhanced our customer experience and retention rates.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "Working with Infinitidigital was a game-changer for our mobile app. Their expert UI/UX designs not only made the app visually stunning but also incredibly easy to use. Our customer feedback has been overwhelmingly positive!",
+            txt: "Working with Infiniti Digital was a game-changer for our mobile app. Their expert UI/UX designs not only made the app visually stunning but also incredibly easy to use. Our customer feedback has been overwhelmingly positive!",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Infinitidigital’s meticulous attention to detail in UI/UX design has been pivotal for our website’s success. They crafted a highly engaging interface that not only looks fantastic but keeps users coming back for more.",
+            txt: "Infiniti Digital’s meticulous attention to detail in UI/UX design has been pivotal for our website’s success. They crafted a highly engaging interface that not only looks fantastic but keeps users coming back for more.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",
         },
         {
-            txt: "The redesign of our e-commerce platform by Infinitidigital has been a tremendous success. Their focus on user-friendly steering and personalized design has dramatically improved our sales and customer satisfaction.",
+            txt: "The redesign of our e-commerce platform by Infiniti Digital has been a tremendous success. Their focus on user-friendly steering and personalized design has dramatically improved our sales and customer satisfaction.",
             icon: <ClutchLogo />,
             namee: "Emily R.",
             job: "Founder of StyleHive Boutique",

@@ -94,7 +94,7 @@ export const StateCounter = {
 export const ProcessData = {
     subtitle: "Our Process",
     title: "Our Proven PPC Campaign Management",
-    desc: "Do you think great ads are just about luck? Think again. At Infinitidigital, we combine data-driven strategies, creative ad design, and performance optimization to create campaigns that consistently generate results.",
+    desc: "Do you think great ads are just about luck? Think again. At Infiniti Digital, we combine data-driven strategies, creative ad design, and performance optimization to create campaigns that consistently generate results.",
 
     ProcessItem1: [
         {
@@ -297,34 +297,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Words from Our Clients",
-    desc: "At Infinitidigital, we prioritize driving client success through exceptional PPC campaigns. From boosting ad visibility to delivering measurable ROI, we’ve partnered with businesses across industries to create high-performing campaigns that achieve outstanding results.",
+    desc: "At Infiniti Digital, we prioritize driving client success through exceptional PPC campaigns. From boosting ad visibility to delivering measurable ROI, we’ve partnered with businesses across industries to create high-performing campaigns that achieve outstanding results.",
     Testslider: [
         {
-            txt: "Infinitidigital completely transformed our PPC approach, leading to a staggering 90% surge in inquiries and a significant boost in our ROI. Their team's expertise, commitment, and tailored support made a tangible difference in our outcomes. Their proactive management and strategic insights helped us surpass our performance targets, earning them our highest recommendation.",
+            txt: "Infiniti Digital completely transformed our PPC approach, leading to a staggering 90% surge in inquiries and a significant boost in our ROI. Their team's expertise, commitment, and tailored support made a tangible difference in our outcomes. Their proactive management and strategic insights helped us surpass our performance targets, earning them our highest recommendation.",
             icon: <ClutchLogo />,
             namee: "Emily H.",
             job: "Director of Sales, Premier Construction Group",
         },
         {
-            txt: "Thanks to Infinitidigital, our latest event reached more people than ever before and saw unprecedented engagement levels. Their meticulous attention to detail and innovative campaign strategies were crucial in achieving these results. With their help, our event attendance reached new heights, far exceeding our expectations and setting a new standard for future events.",
+            txt: "Thanks to Infiniti Digital, our latest event reached more people than ever before and saw unprecedented engagement levels. Their meticulous attention to detail and innovative campaign strategies were crucial in achieving these results. With their help, our event attendance reached new heights, far exceeding our expectations and setting a new standard for future events.",
             icon: <TrustpilotLogo />,
             namee: "Sophia R.",
             job: "Event Coordinator, Apex Event Organizers",
         },
         {
-            txt: "Our partnership with Infinitidigital over the past year has been incredibly fruitful. Their deep understanding of PPC has enabled us to expand our operations and boost our revenue by 75%. They consistently apply the latest digital trends to ensure we stay ahead of the competition, truly acting as partners committed to our long-term success.",
+            txt: "Our partnership with Infiniti Digital over the past year has been incredibly fruitful. Their deep understanding of PPC has enabled us to expand our operations and boost our revenue by 75%. They consistently apply the latest digital trends to ensure we stay ahead of the competition, truly acting as partners committed to our long-term success.",
             icon: <GoogleLogo />,
             namee: "John D.",
             job: "COO of Advanced Building Solutions",
         },
         {
-            txt: "Infinitidigital's intervention was a game-changer for our PPC campaigns. They revamped our strategy and fine-tuned our campaigns, leading to an 85% increase in click-through rates and a steady inflow of quality leads. Their exceptional service has been pivotal in our digital marketing success, significantly enhancing our online presence.",
+            txt: "Infiniti Digital's intervention was a game-changer for our PPC campaigns. They revamped our strategy and fine-tuned our campaigns, leading to an 85% increase in click-through rates and a steady inflow of quality leads. Their exceptional service has been pivotal in our digital marketing success, significantly enhancing our online presence.",
             icon: <TrustpilotLogo />,
             namee: "Lisa K.",
             job: "CEO of Pathway Educational Services",
         },
         {
-            txt: "Choosing to work with Infinitidigital was one of our best strategic decisions. They helped us lower our cost-per-click and doubled our conversion rates. Their continuous strategic insights and updates have been invaluable, making them indispensable partners in our ongoing growth. I strongly recommend their services to any business looking to optimize their PPC campaigns,",
+            txt: "Choosing to work with Infiniti Digital was one of our best strategic decisions. They helped us lower our cost-per-click and doubled our conversion rates. Their continuous strategic insights and updates have been invaluable, making them indispensable partners in our ongoing growth. I strongly recommend their services to any business looking to optimize their PPC campaigns,",
             icon: <Forbes />,
             namee: "James W.",
             job: "Owner, Metro Residential Enhancements.",

@@ -274,7 +274,7 @@ export const PriceData = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
-    desc: "Whatever your niche, we’ve got the expertise. At Infinitidigital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+    desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
 
 }
 
@@ -284,34 +284,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Happy Clients: What Authors Are Saying",
-    desc: "Discover the transformative experiences of authors who partnered with Infinitidigital. From stellar narration to impactful marketing, hear how we helped bring their stories to life in extraordinary ways.",
+    desc: "Discover the transformative experiences of authors who partnered with Infiniti Digital. From stellar narration to impactful marketing, hear how we helped bring their stories to life in extraordinary ways.",
     Testslider: [
         {
-            txt: "Infinitidigital’s audiobook production was flawless. The narrator captured my characters perfectly, and the final product exceeded all expectations. They even incorporated my feedback at every step, ensuring my vision came to life. My readers now rave about the immersive experience, and I’ve seen a notable boost in my audience. I couldn’t be happier!",
+            txt: "Infiniti Digital’s audiobook production was flawless. The narrator captured my characters perfectly, and the final product exceeded all expectations. They even incorporated my feedback at every step, ensuring my vision came to life. My readers now rave about the immersive experience, and I’ve seen a notable boost in my audience. I couldn’t be happier!",
             icon: <TrustpilotLogo />,
             namee: "Liam T.",
             job: "Author of Shadows of the Lost",
         },
         {
-            txt: "Working with Infinitidigital was the best decision I made for my book. The audio quality was exceptional, and the distribution support was invaluable. The team’s expertise ensured my audiobook reached a global audience seamlessly. Sales have doubled since the audiobook launch, and I’ve received glowing reviews from listeners worldwide!",
+            txt: "Working with Infiniti Digital was the best decision I made for my book. The audio quality was exceptional, and the distribution support was invaluable. The team’s expertise ensured my audiobook reached a global audience seamlessly. Sales have doubled since the audiobook launch, and I’ve received glowing reviews from listeners worldwide!",
             icon: <TrustpilotLogo />,
             namee: "Emma W.",
             job: "Author of Echoes of Time",
         },
         {
-            txt: "As a debut author, I was nervous about creating an audiobook. Infinitidigital made the process seamless and fun. They walked me through every step, from voice casting to distribution, with incredible patience and professionalism. The feedback has been incredible, and my audience continues to grow with each passing week!",
+            txt: "As a debut author, I was nervous about creating an audiobook. Infiniti Digital made the process seamless and fun. They walked me through every step, from voice casting to distribution, with incredible patience and professionalism. The feedback has been incredible, and my audience continues to grow with each passing week!",
             icon: <TrustpilotLogo />,
             namee: "Sophia R.",
             job: "Author of Threads of Fate",
         },
         {
-            txt: "From start to finish, the team at Infinitidigital went above and beyond. The soundscapes added depth to my story, and the narrator’s performance was captivating. The audiobook has become a centerpiece in my marketing efforts, receiving rave reviews from both new and loyal readers. My readers loved it, and so did I!",
+            txt: "From start to finish, the team at Infiniti Digital went above and beyond. The soundscapes added depth to my story, and the narrator’s performance was captivating. The audiobook has become a centerpiece in my marketing efforts, receiving rave reviews from both new and loyal readers. My readers loved it, and so did I!",
             icon: <TrustpilotLogo />,
             namee: "Noah J.",
             job: "Author of The Final Voyage",
         },
         {
-            txt: "Infinitidigital’s expertise transformed my manuscript into a stunning audiobook. Their attention to detail and creative input made all the difference. From helping me select the perfect narrator to fine-tuning the final edit, their team ensured everything was flawless. I’m thrilled with the results and the overwhelmingly positive listener feedback!",
+            txt: "Infiniti Digital’s expertise transformed my manuscript into a stunning audiobook. Their attention to detail and creative input made all the difference. From helping me select the perfect narrator to fine-tuning the final edit, their team ensured everything was flawless. I’m thrilled with the results and the overwhelmingly positive listener feedback!",
             icon: <TrustpilotLogo />,
             namee: "Ava K.",
             job: "Author of Whispers in the Dark",
@@ -324,7 +324,7 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Your Audiobook Dreams Made Real",
-    desc: "Do you have a story yearning to be heard? Whether it’s breathing life into your manuscript or reaching a global audience, Infinitidigital is here to make your audiobook vision a reality. Let’s transform your words into a powerful listening experience together."
+    desc: "Do you have a story yearning to be heard? Whether it’s breathing life into your manuscript or reaching a global audience, Infiniti Digital is here to make your audiobook vision a reality. Let’s transform your words into a powerful listening experience together."
 }
 
 // FAQs
@@ -334,7 +334,7 @@ export const FAQsData = {
 
     Fqaslist: [
         {
-            title: "How does Infinitidigital approach audiobook production?",
+            title: "How does Infiniti Digital approach audiobook production?",
             txt: "We tailor every audiobook to the author’s vision. From casting narrators to final edits, our team collaborates with you every step of the way. By combining creativity with technical expertise, we ensure the audiobook captures your story’s essence while meeting industry standards for quality and distribution."
         },
         {

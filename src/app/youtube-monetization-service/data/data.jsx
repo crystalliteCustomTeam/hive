@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/youtube-monetization/bannerImg.web
 
 export const BannerData = {
     title: "Let’s Turn Views into Revenue ",
-    desc: "Your passion deserves more than views—it deserves revenue. At Infinitidigital, we specialize in helping creators like you monetize their channels effectively. From ad revenue optimization to audience growth strategies, we provide the expertise you need to maximize your channel’s earning potential.",
+    desc: "Your passion deserves more than views—it deserves revenue. At Infiniti Digital, we specialize in helping creators like you monetize their channels effectively. From ad revenue optimization to audience growth strategies, we provide the expertise you need to maximize your channel’s earning potential.",
     video: "",
     BannerPoster: BannerPoster.src
 }
@@ -16,7 +16,7 @@ export const ContentData = {
     maintitle: true,
     contentTitle: "Turn Your YouTube Channel Into a Profit Powerhouse",
     contentTxt: (<>
-        <p>Are you tired of putting in the work on YouTube but seeing little return? At Infinitidigital, we specialize in helping creators like you take their channels to the next level. Whether you’re looking to optimize ad revenue, attract brand deals, or build a loyal subscriber base, our tailored strategies ensure measurable success.</p>
+        <p>Are you tired of putting in the work on YouTube but seeing little return? At Infiniti Digital, we specialize in helping creators like you take their channels to the next level. Whether you’re looking to optimize ad revenue, attract brand deals, or build a loyal subscriber base, our tailored strategies ensure measurable success.</p>
         <p> Our experts handle the complexities of monetization, so you can focus on what you do best: creating amazing content.</p>
     </>),
     img: ContentImg.src
@@ -26,8 +26,8 @@ export const ContentData = {
 
 import ImgBg from "media/innerservices/youtube-monetization/ctaImage.webp"
 export const NewsLetterData = {
-    title: "Monetize Your YouTube Channel Like a Pro With Infinitidigital!",
-    desc: "Turn your views into valuable income streams. Infinitidigital provides the expertise you need to make your channel a revenue powerhouse.",
+    title: "Monetize Your YouTube Channel Like a Pro With Infiniti Digital!",
+    desc: "Turn your views into valuable income streams. Infiniti Digital provides the expertise you need to make your channel a revenue powerhouse.",
     img: ImgBg.src
 }
 
@@ -98,34 +98,34 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It From Our Clients ",
-    desc: "What are you waiting for? Be a part of a success story with Infinitidigital",
+    desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {
-            txt: "Infinitidigital transformed my YouTube channel. Within months, I started seeing consistent revenue, and my subscriber count doubled. Their strategies are spot-on, and their team truly understands how to drive growth. I never thought monetization could be this seamless and effective. I’m beyond impressed with the results!",
+            txt: "Infiniti Digital transformed my YouTube channel. Within months, I started seeing consistent revenue, and my subscriber count doubled. Their strategies are spot-on, and their team truly understands how to drive growth. I never thought monetization could be this seamless and effective. I’m beyond impressed with the results!",
             icon: <ClutchLogo />,
             namee: "Sarah T.",
             job: "Revenue Doubled",
         },
         {
-            txt: "Thanks to Infinitidigital, I finally understand how to optimize my channel for monetization. Their guidance on ad placements, audience engagement, and content strategy was a complete game-changer. My channel now runs like a well-oiled machine, and the results speak for themselves. Highly recommend their services for any creator!",
+            txt: "Thanks to Infiniti Digital, I finally understand how to optimize my channel for monetization. Their guidance on ad placements, audience engagement, and content strategy was a complete game-changer. My channel now runs like a well-oiled machine, and the results speak for themselves. Highly recommend their services for any creator!",
             icon: <TrustpilotLogo />,
             namee: "James R.",
             job: "Game-Changing Guidance",
         },
         {
-            txt: "I was struggling to make any money on YouTube until Infinitidigital stepped in. Their team helped me unlock new revenue streams like ad optimization and sponsorships. The difference has been night and day. Their expertise is unmatched, and I now feel confident in my channel’s growth and profitability.",
+            txt: "I was struggling to make any money on YouTube until Infiniti Digital stepped in. Their team helped me unlock new revenue streams like ad optimization and sponsorships. The difference has been night and day. Their expertise is unmatched, and I now feel confident in my channel’s growth and profitability.",
             icon: <GoogleLogo />,
             namee: "Monica L.",
             job: "New Revenue Streams",
         },
         {
-            txt: "Infinitidigital made monetization incredibly easy. From securing sponsorship deals to setting up merchandise, they handled everything seamlessly. My channel is now more profitable than ever, and I’m free to focus on creating great content. Their team is professional, efficient, and results-driven. I couldn’t have done it without them!",
+            txt: "Infiniti Digital made monetization incredibly easy. From securing sponsorship deals to setting up merchandise, they handled everything seamlessly. My channel is now more profitable than ever, and I’m free to focus on creating great content. Their team is professional, efficient, and results-driven. I couldn’t have done it without them!",
             icon: <Forbes />,
             namee: "Raj P.",
             job: "Monetization Made Simple",
         },
         {
-            txt: "Their data-driven approach to YouTube monetization is truly incredible. Since working with Infinitidigital, my views, engagement, and revenue have all skyrocketed. They understand the platform inside and out and know exactly how to optimize for growth. It’s been a fantastic experience, and the results exceeded my expectations!",
+            txt: "Their data-driven approach to YouTube monetization is truly incredible. Since working with Infiniti Digital, my views, engagement, and revenue have all skyrocketed. They understand the platform inside and out and know exactly how to optimize for growth. It’s been a fantastic experience, and the results exceeded my expectations!",
             icon: <Upcity />,
             namee: "Emily K.",
             job: "Skyrocketing Success",
@@ -151,8 +151,8 @@ export const FAQsData = {
             txt: "YouTube monetization allows creators to earn revenue from their content through ads, channel memberships, Super Chats, and merchandise. To enable monetization, you must meet YouTube’s Partner Program requirements, such as 1,000 subscribers and 4,000 watch hours, and comply with all platform policies."
         },
         {
-            title: "How can Infinitidigital help with YouTube monetization?",
-            txt: "At Infinitidigital, we guide creators through the entire monetization process, from meeting eligibility criteria to setting up ad revenue streams. We also assist in developing strategies to grow your channel’s viewership, engagement, and income potential while staying compliant with YouTube’s policies."
+            title: "How can Infiniti Digital help with YouTube monetization?",
+            txt: "At Infiniti Digital, we guide creators through the entire monetization process, from meeting eligibility criteria to setting up ad revenue streams. We also assist in developing strategies to grow your channel’s viewership, engagement, and income potential while staying compliant with YouTube’s policies."
         },
         {
             title: "What are the eligibility requirements for YouTube monetization?",
