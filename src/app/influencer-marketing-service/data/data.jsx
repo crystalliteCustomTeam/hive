@@ -182,7 +182,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients ",
-    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
             txt: "Working with Infinitidigital was a game-changer for us. They connected us with influencers who truly understood our brand, and the campaigns brought in a 70% boost in engagement. We couldn’t be happier!",

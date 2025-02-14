@@ -171,7 +171,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Our Clients Say About Our Mobile App Solutions",
-    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
             txt: "Social Media Wizards completely revamped our online presence with their exceptional strategies. Their targeted advertising practices not only doubled our sales in just three months but also strengthened our brand identity. The team is innovative, attentive, and really knows how to engage the right audience. I couldn't be happier with the fantastic results we achieved!",

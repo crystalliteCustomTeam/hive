@@ -102,7 +102,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Our Clients Are Saying",
-    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
             txt: "We were struggling to make an impact online until Infinitidigital came on board. Their Instagram strategy transformed our engagement, resulting in an 80% boost. The results were almost immediate, leading to a noticeable increase in brand awareness. Infinitidigital really understood our needs and tailored their approach to fit them perfectly.",

@@ -333,28 +333,28 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/ap
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Hear It from Our Clients ",
-    desc: "At Inifnitidigital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Inifnitidigital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
+            txt: "Infiniti Digital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
             icon: <ClutchLogo />,
             namee: "Amanda T.",
             job: "Founder of BrightTech Solutions",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Inifnitidigital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
+            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Infiniti Digital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
             icon: <TrustpilotLogo />,
             namee: "James M.",
             job: "COO of NovaRetail Solutions",
         },
         {
-            txt: "Inifnitidigital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
+            txt: "Infiniti Digital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
             icon: <GoogleLogo />,
             namee: "Sarah K.",
             job: "MD at GreenWave Industries",
         },
         {
-            txt: "Partnering with Inifnitidigital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
+            txt: "Partnering with Infiniti Digital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
             icon: <TrustpilotLogo />,
             namee: "Tom L.",
             job: "CEO of BuildPro Solutions",

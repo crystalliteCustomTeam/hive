@@ -311,7 +311,7 @@ import { ClutchLogo, TrustpilotLogo, GoogleLogo } from "@/src/app/app-constants"
 export const TestimonialData = {
     subtitle: "Client Voices",
     title: "Words from Our Clients",
-    desc: "At Inifnitidigital, we value our client's voices. Our paid marketing solutions have delivered exceptional results for businesses across various industries.",
+    desc: "At Infiniti Digital, we value our client's voices. Our paid marketing solutions have delivered exceptional results for businesses across various industries.",
     Testslider: [
         {
             txt: "Infinitidigital’s paid marketing strategies gave us an edge in a competitive market. We experienced a 3x increase in leads and a significant drop in cost per acquisition. Their team’s expertise is unparalleled!",

@@ -27,7 +27,6 @@ const WhyChooseLp = ({ data }) => {
 
                                 </div>
                             ))}
-                            sdasds
                         </div>
                     </Col>
                 </Row>

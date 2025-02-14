@@ -95,7 +95,7 @@ export const LPServices = {
 }
 export const IndustriesData = {
     subtitle: "Industries We Serve",
-    title: "Your Industry Isn’t the Problem. Your SEO Is.Let’s Fix That.",
+    title: "Your Industry Isn’t the Problem. Your SEO Is. Let’s Fix That.",
     desc: "Selling sneakers, stocks, or sandwiches? Doesn’t matter, If it has a website, we can rank it. We’ve ranked funeral homes.So yeah, we can bring your dead website back too.",
 
 }
