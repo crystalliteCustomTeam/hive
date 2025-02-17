@@ -22,12 +22,12 @@ const AwardsLp = ({ data }) => {
         <section className={`pt-100 ${styles.awardsLpSec}`} id="TestimonialsId">
             <Container>
                 <Row>
-                    <Col md={7}>
+                    <Col md={8}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>
-                    <Col md={5} className="mt-auto d-none d-md-block">
+                    <Col md={4} className="mt-auto d-none d-md-block">
                         <SliderArrow
                             onPrev={prevButtonHandler}
                             onNext={nextButtonHandler}

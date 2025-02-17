@@ -2,7 +2,7 @@ import styles from "@/styles/landing/components/seo2/cta.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const CTA = ({ data }) => {
+const CTA = ({ data, altetnet }) => {
     return (
         <section className={`pt-100 ${styles.ctaSection}`}>
             <Container className={`h-100 ${styles.ImageGB} `} style={{ backgroundImage: `url(${data.img})` }}>

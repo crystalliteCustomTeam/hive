@@ -47,7 +47,7 @@ const Industries = ({ data, IndustryData }) => {
                                                 <h4>{item.title}</h4>
                                                 <p>{item.txt}</p>
                                                 <div className={styles.btnReaMore}>
-                                                    <CommonBtn txt="Get Free Consultation" ArrowBtn={true} />
+                                                    <CommonBtn txt="Get Free Consultation" ArrowBtn={true} FlexStart={true} />
                                                 </div>
 
                                             </div>

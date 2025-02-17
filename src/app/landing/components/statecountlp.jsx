@@ -10,7 +10,7 @@ const StateCountLP = ({ data, video, alternet, height, coloum }) => {
             <Container>
                 <Row className={styles.stateCountLp}>
                     <Col md={6} className="my-auto">
-                        <div className="subtitle">{data.subtitle}</div>
+                        {data.subtitle ? <div className="subtitle">{data.subtitle}</div> : ""}
                         <h2>{data.title}</h2>
                         <div>{data.desc}</div>
                         <CommonBtn txt="Schedule a Free Consultation" LiveChat={true} BgBlack={true} />

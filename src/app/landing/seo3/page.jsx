@@ -9,6 +9,7 @@ import MainServices from "@/src/app/landing/seo3/mainservices";
 import Testimonials from "@/src/app/home/testimonials";
 import ContactLp from "@/src/app/landing/components/contactlp"
 import { ServicesData, PriceData, processlp, CtaData, dataService, TestimonialData, ContactData } from "@/src/app/landing/seo3/data/data";
+import LogoSection from "@/src/app/landing/seo3/logo";
 
 
 const Page = () => {
@@ -22,6 +23,7 @@ const Page = () => {
             <CTA data={CtaData} />
             <MainServices data={dataService} />
             <Testimonials data={TestimonialData} />
+            <LogoSection />
             <ContactLp data={ContactData} />
         </>
     )

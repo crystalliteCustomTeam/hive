@@ -17,7 +17,7 @@ const Pricing = ({ data, bg, tab }) => {
             <Container>
                 <Row>
                     <Col md={8}>
-                        <div className="subtitle">{data.subtitle}</div>
+                        {data.subtitle ? <div className="subtitle">{data.subtitle}</div> : ""}
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>

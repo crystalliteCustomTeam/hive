@@ -17,8 +17,8 @@ const BetterSec = () => {
         <section className={`${styles.betterSection} pt-100`}>
             <Container>
                 <Row>
-                    <Col md={10} lg={8} xl={8} className="m-auto text-center">
-                        <h2><span>Optimize Your Website</span> Are Your Competitors Stealing Your Customers? <br />Here’s Why It’s Happening</h2>
+                    <Col md={12} lg={10} xl={10} className="m-auto text-center">
+                        <h2>Are Your <span>Competitors Stealing</span> Your Customers?<br /> Here’s Why It’s Happening</h2>
                         <p>If your competitors are taking your customers, they’re also taking your revenue. Every sale they close is one you could have had.</p>
                         <p>Your website can rank higher, attract more targeted traffic, and make more money by investing in</p>
                         <div className={styles.btnTxt}>Search Engine Optimization</div>

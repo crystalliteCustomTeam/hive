@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
 import { usePathname } from 'next/navigation'
 
-const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor }) => {
+const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title }) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
-    const [formStatus, setFormStatus] = useState(vertical ? "Get a Free SEO Audit" : "Submit");
+    const [formStatus, setFormStatus] = useState(vertical ? title : "Submit");
     const [error, setError] = useState('');
 
     // Load IP address from the API
@@ -84,7 +84,7 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
 
     return (
         <Form onSubmit={handleSubmit}>
-            <div className={`${styles.Contactbox} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
+            <div className={`${styles.Contactbox} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
                 {contactPage ?
                     <>
                         <div className="subtitle">Get In Touch</div>

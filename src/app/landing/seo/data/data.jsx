@@ -1,8 +1,9 @@
 import IMG from "@/public/landing/seo/ctaBg.webp"
 export const StateCounter = {
-    subtitle: "About Us",
-    title: "SEO That Works So Well,We Should Probably Keep It a Secret",
+    subtitle: "",
+    title: (<>SEO That Works So Well, We Should Probably Keep It a Secret</>),
     desc: (<>
+        <p><i>(But we won’t, because we like making our clients rich.)</i></p>
         <p>We believe you should actually see the value of every dollar you invest. That means smarter strategies, better results, and no overpriced fluff.</p>
         <p>Why pay more for the same old tactics? when you get premium SEO without the premium price tag at Infiniti Digital. Our strategies are built around:</p>
         <ul className="ContentUl">
@@ -38,7 +39,7 @@ export const CtaData = {
 export const WhyChooseData = {
     subtitle: "",
     title: "Why Choose Us ",
-    txt: "Search Engine Optimization that leaves your competitors in the dust, locally or globally.",
+    txt: (<><i>Search Engine Optimization that leaves your competitors in the dust, locally or globally.</i></>),
     WhyChooseItem: [
         {
             title: "A Proven Track Record of Success",
@@ -62,8 +63,8 @@ export const WhyChooseData = {
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Services at Our SEO Agency That Are Actually Worth Your Time (And Money)",
+    subtitle: "",
+    title: (<>Services at Our SEO Agency <br />That Are Actually Worth Your Time<br className="d-none d-md-block" /> (And Money)</>),
     desc: "Still think SEO is just optional? That’s adorable, but it’s also why you’re getting left behind. We don’t just slap some keywords on your site and hope for the best. We come at you with the real deal. ",
     ServicesItem: [
         {
@@ -112,8 +113,8 @@ export const ServicesData = {
 }
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
-    title: (<>Other agencies charge you for ‘results.’<br /> We deliver profit.</>),
+    subtitle: "",
+    title: (<>Other agencies charge you for ‘results.’<br /> We deliver <i>profit.</i></>),
     desc: "",
     PriceItem: [
         {
@@ -373,14 +374,14 @@ export const AwardsPoints = {
 import IMGBG from "media/landing/seo/contactBg.webp"
 export const ContactData = {
     subtitle: "Get In Touch",
-    title: "Still trusting that SEO Company from last year? ",
+    title: (<>Still trusting that SEO Company from last year?</>),
     desc: "Hope you’re not in too deep. Let’s fix this.",
     bgImg: IMGBG.src
 }
 export const processlp = {
     subtitle: "Our Process",
     title: "Our 6 Step SEO Process ",
-    txt: "Ensures you rank like a boss, while others are still figuring out keywords.",
+    txt: (<>Ensures you rank like a boss,<br /> while others are still figuring out keywords.</>),
     processlpItem: [
         {
             title: "Understanding your goals",
@@ -412,7 +413,8 @@ export const processlp = {
 
 export const talkData = {
     title: (<>Talk to Our <br />SEO Experts</>),
-    txt: (<>Everyone’s got an SEO “strategy,” <br />but ours actually works</>)
+    txt: (<><strong> Everyone’s got an SEO “strategy,” <br />but ours actually works</strong></>),
+    formtitle: "Your rankings are fine….. for now.",
 }
 
 

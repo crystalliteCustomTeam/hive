@@ -29,7 +29,7 @@ const TalkLp = ({ data }) => {
                     </Col>
                     <Col md={7}>
                         <div className={styles.contactFromLp}>
-                            <h2>Book Your Free Consultation</h2>
+                            <h3>{data?.formtitle ? data?.formtitle : "Book Your Free Consultation"}</h3>
                             <ContactFrom bgBlack={true} />
                         </div>
                     </Col>

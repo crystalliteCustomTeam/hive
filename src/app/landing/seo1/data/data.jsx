@@ -16,7 +16,7 @@ export const StateCounterPoints = {
 export const processlp = {
     subtitle: "Our Process",
     title: "Our 6 Step SEO Process Ensures ",
-    txt: "Your Customers Are Finding You First, Not Your Competitors",
+    txt: (<>Your Customers Are Finding <strong>You</strong> First, Not Your Competitors</>),
     processlpItem: [
         {
             title: "Understanding your goals",
@@ -52,7 +52,7 @@ export const LPServices = {
     LPServicesItem: [
         {
             title: "Keyword Research & Strategy",
-            txt: "We find the best keywords that will bring real customers to your site, not just random clicks.Our strategy helps you rank for the most important terms and drive the right traffic.",
+            txt: "We find the best keywords that will bring real customers to your site, not just random clicks. Our strategy helps you rank for the most important terms and drive the right traffic.",
         },
         {
             title: "Link Building",
@@ -84,7 +84,7 @@ export const LPServices = {
         },
         {
             title: "E-commerce SEO",
-            txt: "We optimize your product pages and categories to help boost online sales and drive conversions through organic search results",
+            txt: "We optimize your product pages and categories to help boost online sales and drive conversions through organic search results.",
 
         }, {
             title: "Organic Shopping ",
@@ -96,14 +96,14 @@ export const LPServices = {
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Your Industry Isn’t the Problem. Your SEO Is. Let’s Fix That.",
-    desc: "Selling sneakers, stocks, or sandwiches? Doesn’t matter, If it has a website, we can rank it. We’ve ranked funeral homes.So yeah, we can bring your dead website back too.",
+    desc: "Selling sneakers, stocks, or sandwiches? Doesn’t matter, If it has a website, we can rank it. We’ve ranked funeral homes. So yeah, we can bring your dead website back too.",
 
 }
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "You Can’t Rank with Weak SEO. Period",
+    subtitle: "",
+    title: "You Can’t Rank with Weak SEO. Period.",
     desc: "",
     ServicesItem: [
         {
@@ -136,7 +136,7 @@ export const ServicesData = {
         {
             title: (<>Ignoring <br />Local SEO</>),
             txt: (<>
-                <p>Many businesses fail to optimize for local searches, missing out on potential customers. For physical stores, good local SEO can help them succeed instead of struggling or closing down.</p>
+                <p>Many businesses fail to optimize for <strong>local searches</strong>, missing out on potential customers. For physical stores, good local SEO can help them succeed instead of struggling or closing down.</p>
             </>),
 
         },
@@ -179,7 +179,7 @@ export const WhyChooseData = {
 
 import ContentImg from "media/landing/seo1/contentImage.webp"
 export const ContentData = {
-    title: "We Don’t  Just Do SEO. We Engineer Online Takeovers.",
+    title: (<>We Don’t  Just Do SEO.<br className="d-none d-md-block" /> We Engineer Online Takeovers.</>),
     txt: (<>
         <p>If your website isn’t ranking high on Google, you’re losing customers to competitors. That’s a big problem, but the good news? We know how to fix it.</p>
         <ul className="ContentUl">
@@ -192,7 +192,7 @@ export const ContentData = {
 }
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
+    subtitle: "",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
     PriceItem: [
@@ -397,7 +397,7 @@ export const PriceData = {
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
-    subtitle: "Awards & Recognitions",
+    subtitle: "",
     title: "The Only Thing Between You & Page 1? Hiring Infiniti Digital",
     desc: "You’re One Call Away from Results Like These",
     Awardslides: [

@@ -1,0 +1,30 @@
+.contactLpSection {
+    margin-top: 180px;
+
+    .containerBG {
+        background: #000;
+        border-radius: 30px;
+        padding: 30px 50px;
+        height: 680px;
+        position: relative;
+
+
+        h2,
+        p {
+            color: #fff;
+        }
+    }
+
+    .profileImg {
+        position: relative;
+        height: 650px;
+        width: auto;
+
+        img {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            max-width: 600px;
+        }
+    }
+}

@@ -34,10 +34,13 @@ const Scripts = () => {
             analyticsScript.defer = true;
             document.head.appendChild(analyticsScript);
 
+            // Define gtag globally
+            window.gtag = window.gtag || function () {
+                (window.dataLayer = window.dataLayer || []).push(arguments);
+            };
+
             // Initialize gtag for Google Analytics
             analyticsScript.onload = () => {
-                window.dataLayer = window.dataLayer || [];
-                function gtag() { dataLayer.push(arguments); }
                 gtag('js', new Date());
                 gtag('config', 'G-KCPM5K053W');
             };
@@ -58,7 +61,7 @@ const Scripts = () => {
         return () => clearTimeout(timer);
     }, []);
 
-    return (null);
+    return null;
 };
 
 export default Scripts;

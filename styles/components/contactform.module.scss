@@ -14,7 +14,6 @@
     &.popopFrom {
         padding: 0px;
         max-width: 100%;
-
     }
 
     &.verticalFrom {
@@ -276,6 +275,11 @@
             border: 0px;
             width: 250px;
         }
+    }
+
+    &.transfBg {
+        background: transparent;
+        box-shadow: none;
     }
 }
 

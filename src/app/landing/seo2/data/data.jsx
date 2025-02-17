@@ -54,7 +54,7 @@ export const LPServices = {
 export const processlp = {
     subtitle: "Our Process",
     title: "Our 6 Step SEO Process Ensures",
-    txt: "Your Customers Are Finding You First, Not Your Competitors",
+    txt: (<>Your Customers Are Finding <strong>You</strong> First, Not Your Competitors</>),
     processlpItem: [
         {
             title: "Understanding your goals",
@@ -86,7 +86,7 @@ export const processlp = {
 
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
+    subtitle: "",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
     PriceItem: [

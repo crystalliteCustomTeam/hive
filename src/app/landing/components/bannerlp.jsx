@@ -16,8 +16,7 @@ const BannerLp = () => {
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={725} height={40} />
                             </div>
-                            <h1>Take Your Brand Viral With Expert<br />
-                                Social Media Marketing
+                            <h1>Take Your Brand Viral With Expert Social Media Marketing
                             </h1>
                             <p>Most brands get lost in the scroll. We position your business as an industry leader with impactful content, strategic growth tactics, and an engaged community with our smart social media marketing service. </p>
                             <div className={styles.btnFlex}>

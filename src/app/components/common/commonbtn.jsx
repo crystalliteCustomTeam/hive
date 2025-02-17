@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { ArrowIcon } from "@/src/app/app-constants";
 import styles from "@/styles/components/commonbtn.module.scss"
 
-const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack }) => {
+const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack, FlexStart }) => {
     // Chat Code
     const openChat = () => {
         if (window.LC_API) {
@@ -23,10 +23,10 @@ const CommonBtn = ({ txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlac
     return (
         <>
             {ArrowBtn ? (
-                <div onClick={() => handleClick()} className="commonBtnSimple">
+                <div onClick={() => handleClick()} className={FlexStart ? "commonBtnSimple flexstart" : "commonBtnSimple"}>
                     {SimpleBtn ? null : <ArrowIcon />}
                     {txt}
-                </div>
+                </div >
             ) : LiveChat ? (
                 <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""}`}>
                     <div onClick={() => handleClick()} className={styles.btnStyle}>{txt}</div>

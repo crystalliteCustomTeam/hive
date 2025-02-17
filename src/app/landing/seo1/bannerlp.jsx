@@ -18,7 +18,11 @@ const Bannerlp = () => {
                 <Row>
                     <Col md={12} lg={9} className="m-auto text-center">
                         <div className={styles.bannerContentSec}>
-                            <h1>Google Won’t Rank You ? Our <span>SEO</span><br />Service Will Make It.</h1>
+                            <h1>
+                                Google Won’t Rank You?
+                                <br className="d-none d-md-block" />
+                                Our <span className="highlight">SEO Service</span> Will Make It.
+                            </h1>
                             <p>We don’t do best practices, we do what works. Our SEO services get you ranked, bring real traffic, and leave your competitors in the dust. Smart keywords, technical fixes, and strong backlinks, that’s how we win.</p>
                             <div className={styles.btnFlex}>
                                 <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} BgBlack={true} />
@@ -34,7 +38,7 @@ const Bannerlp = () => {
                     <Col md={12} lg={10} className="m-auto text-center">
                         <div className={styles.banneerFrom}>
                             <h3>Get A Free SEO Audit</h3>
-                            <ContactFrom vertical={true} BlackVertical={true} />
+                            <ContactFrom vertical={true} BlackVertical={true} title="Get A Free SEO Audit" />
                         </div>
                     </Col>
                 </Row>

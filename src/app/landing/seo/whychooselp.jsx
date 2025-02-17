@@ -8,7 +8,7 @@ const WhyChooseLp = ({ data }) => {
         <section className={`${styles.whychooseSecLp} pt-100`}>
             <Container>
                 <Row>
-                    <Col md={6} className="m-auto text-center">
+                    <Col md={8} className="m-auto text-center">
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>

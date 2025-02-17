@@ -60,13 +60,13 @@ const data = [
 
 ]
 
-const CaseStudyLp = () => {
+const CaseStudyLp = ({ nosub }) => {
     return (
         <section className={`${styles.casestudyLpSection} pt-100`} id="PortfolioId">
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={8} lg={8} className="m-auto text-center">
-                        <div className='subtitle'>Case Studies</div>
+                        {nosub ? "" : <div className='subtitle'>Case Studies</div>}
                         <h2>We Don’t Do ‘Maybe,’ We Do ‘Hell Yeah.’ </h2>
                         <p>If you think we’re all talk, these case studies will leave you speechless.</p>
                     </Col>

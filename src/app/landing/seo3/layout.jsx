@@ -10,14 +10,14 @@ export const metadata = {
   openGraph: {
     title: "",
     description: "",
-    url: '/landing/seo2',
+    url: '/landing/gmb',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/landing/seo2' },
+  alternates: { canonical: '/landing/gmb' },
 
   //===== No-Index =====
   robots: {

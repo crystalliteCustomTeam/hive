@@ -4,19 +4,19 @@ export const StateCounter = {
     subtitle: "Infiniti Digital",
     title: "Gets You More Leads & Sales with Expert PPC Campaign Management",
     desc: (<>
-        <p>Our PPC agency ensures your campaigns are optimized for maximum conversions.With expert Google Ads management service, we refine targeting, improve ad copy, and optimize your budget to drive high-quality leads and sales.So, stop throwing money at Google, and let’s make it work for you! Your money is too valuable for bad PPC advertising.</p>
+        <p>Our PPC agency ensures your campaigns are optimized for maximum conversions. With expert Google Ads management service, we refine targeting, improve ad copy, and optimize your budget to drive high-quality leads and sales. So, stop throwing money at Google, and let’s make it work for you! Your money is too valuable for bad PPC advertising.</p>
     </>),
     img: IMG.src,
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
 }
 export const CtaData = {
-    title: "Talk To Our Experts",
+    title: "Talk To Our Experts",
     txt: "Contact us without obligation by email or phone and secure your free consultation.",
 }
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
+    subtitle: "",
     title: "Our Paid Marketing Services ",
     desc: "Oh Look, Another Useless Click! Said No Client of Ours Ever.",
     ServicesItem: [
@@ -36,7 +36,7 @@ export const ServicesData = {
         {
             title: (<>Display &  <br />Programmatic Advertising</>),
             txt: (<>
-                <p>With display and programmatic advertising, we help you show your ads on a wide range of websites where your target audience spends time.By using smart algorithms, we place your ads where they’ll get the most visibility and generate the highest chances of conversion, all while staying within your budget.</p>
+                <p>With display and programmatic advertising, we help you show your ads on a wide range of websites where your target audience spends time. By using smart algorithms, we place your ads where they’ll get the most visibility and generate the highest chances of conversion, all while staying within your budget.</p>
             </>),
 
         },
@@ -50,14 +50,14 @@ export const ServicesData = {
         {
             title: (<>Performance <br />Max Campaigns</>),
             txt: (<>
-                <p>We create compelling, high-converting ads for PMax campaigns using Google’s AI to reach the right audience at the right time.By continuously testing and optimizing creatives, we ensure your ads drive maximum engagement, lower costs, and higher ROAS.</p>
+                <p>We create compelling, high-converting ads for PMax campaigns using Google’s AI to reach the right audience at the right time. By continuously testing and optimizing creatives, we ensure your ads drive maximum engagement, lower costs, and higher ROAS.</p>
             </>),
 
         },
         {
             title: (<>Landing Page<br />Optimization</>),
             txt: (<>
-                <p>We help improve your landing pages to make them more user-friendly by optimizing elements like design, content, and CTAs, we ensure your landing page drives higher conversions.The better your landing page, the more visitors will turn into paying customers.</p>
+                <p>We help improve your landing pages to make them more user-friendly by optimizing elements like design, content, and CTAs, we ensure your landing page drives higher conversions. The better your landing page, the more visitors will turn into paying customers.</p>
             </>),
         },
 
@@ -89,7 +89,7 @@ export const StateCounterPoints = {
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const AwardsPoints = {
-    subtitle: "Awards & Recognitions",
+    subtitle: "",
     title: "Celebrating Excellence, Innovation, and Results",
     desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
     Awardslides: [
@@ -146,7 +146,7 @@ export const AwardsPoints = {
 import Img01 from "@/public/landing/paid/Img01.webp"
 import { CheckedIcon } from "@/src/app/app-constants"
 export const SimpleContent = {
-    subtitle: "PPC Management",
+    subtitle: "",
     title: "What’s Included in Our PPC Package",
     desc: (<>
         <ul className="ContentUl">
@@ -206,8 +206,8 @@ export const ContactData = {
 
 export const processlp = {
     subtitle: "Our Process",
-    title: "Stop Donating to Google Get a PPC Strategy That Works",
-    txt: "Our Google Ads services are designed to increase ROAS, because clicks are cute, but sales are better! And we deliver both.",
+    title: (<>Stop Donating to Google<br /> Get a PPC Strategy That Works</>),
+    txt: (<>Our Google Ads services are designed to increase ROAS,<br /> because clicks are cute, but sales are better! And we deliver both.</>),
     processlpItem: [
         {
             title: "PPC Setup & Strategy",

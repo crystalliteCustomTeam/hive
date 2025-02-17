@@ -1,0 +1,44 @@
+.contactSection {
+    background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 30%);
+    border-radius: 100px 0px 100px 0px;
+
+    .formContainer {
+        position: relative;
+        padding: 0px 50px;
+        z-index: 1;
+
+        &::after {
+            content: '';
+            background: rgba(0, 133, 255, 0.19);
+            filter: blur(207px);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            border-radius: 100%;
+            z-index: -1;
+        }
+
+        h4 {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 58px;
+            text-align: center;
+            letter-spacing: -0.241964px;
+            color: #7635FF;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.167059px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+    }
+}

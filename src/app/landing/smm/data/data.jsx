@@ -73,7 +73,7 @@ export const StateCounter = {
 }
 import IMGCTA from "media/landing/smm/cta.webp"
 export const CtaData = {
-    title: "TYour Competitors Are Hiring Us.Should We Save You a Spot?",
+    title: (<>Your Competitors Are Hiring Us.<br /> Should We Save You a Spot?</>),
     txt: "Infiniti Digital Measures Success in $$$, Not in Emoji Comments.",
     img: IMGCTA.src,
 }

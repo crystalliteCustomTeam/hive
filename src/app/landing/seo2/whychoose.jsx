@@ -10,13 +10,14 @@ const WhyChooseLp = () => {
                 <Row>
                     <Col md={12} lg={8} className="text-center m-auto">
                         <h2>Why Choose Us</h2>
-                        <p>Because “Near Me” Should Always Mean YOU!</p>
+                        <p>Because <i>“Near Me”</i> Should Always Mean YOU!</p>
                     </Col>
                 </Row>
                 <Row className={`h-100 ${styles.margintop}`}>
                     <Col md={12} lg={6} className="my-auto">
                         <h2>Clicks, Calls, and Customers; <span>Delivered Daily.</span></h2>
                         <p>Did you know a poorly optimized website can silently drain your leads, credibility, and revenue? That’s the harsh reality of weak SEO. But at Infiniti Digital, we don’t let that happen.</p>
+                        <p>Unlike other local SEO agencies that slap together cookie-cutter strategies, we develop custom-tailored solutions designed to put your brand ahead, every single time.</p>
                         <p>If your traffic isn’t converting, your bounce rates are climbing, or your rankings are slipping, it’s not bad luck, it’s bad SEO. And that’s where we come in. Our data-driven, white-hat strategies are built for real, long-term results.</p>
                         <p>With high-intent keyword research, extensive site audits, quick technical fixes, and a powerful content strategy, we don’t just help you rank, we help you dominate.</p>
                         <p>If you’re tired of watching competitors outrank you, it’s time to make a move. Hire Infiniti Digital for infinite growth.</p>
