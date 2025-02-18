@@ -24,7 +24,7 @@ const TalkLp = ({ data }) => {
                                     Contact us without obligation by email or phone and secure your free consultation.
                                 </>
                             )}</p>
-                            <CommonBtn txt={data.btn ? data.btn : "Let’s Connect"} />
+                            <CommonBtn txt={data?.btn ? data.btn : "Let’s Connect"} />
                         </div>
                     </Col>
                     <Col md={7}>

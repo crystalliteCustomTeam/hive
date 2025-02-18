@@ -56,15 +56,15 @@ export const StateCounter = {
     desc: "Success on Amazon requires precision. We help your business thrive in the cutthroat industry with tailored ad strategies and performance-driven campaigns.",
     stateItem: [
         {
-            numbers: "200+",
-            namee: "App Launched"
+            numbers: "150+",
+            namee: "Successful Ad Campaigns"
         },
         {
-            numbers: "100+",
-            namee: "App Development Experts"
+            numbers: "50+",
+            namee: "Ad Experts"
         }, {
-            numbers: "3M",
-            namee: "Active App Users"
+            numbers: "2.5M+",
+            namee: "Ad Conversions"
         }
     ]
 }

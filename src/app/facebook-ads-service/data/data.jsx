@@ -54,15 +54,15 @@ export const StateCounter = {
     desc: "Your brand’s story deserves to be told on Facebook, where your audience spends their time. We create ad campaigns that connect, engage, and drive accurate results, helping your business reach new milestones.",
     stateItem: [
         {
-            numbers: "200+",
-            namee: "App Launched"
+            numbers: "1,500+",
+            namee: "Campaigns Launched"
         },
         {
-            numbers: "100+",
-            namee: "App Development Experts"
+            numbers: "$100K+",
+            namee: "In Revenue"
         }, {
-            numbers: "3M",
-            namee: "Active App Users"
+            numbers: "5X",
+            namee: "Higher ROI"
         }
     ]
 }

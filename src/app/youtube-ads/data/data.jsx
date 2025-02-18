@@ -77,15 +77,15 @@ export const StateCounter = {
     desc: "Every ad tells a story—what’s yours? From creative development to seamless delivery, your YouTube Ads journey starts here. All set to make your mark?",
     stateItem: [
         {
-            numbers: "200+",
-            namee: "App Launched"
+            numbers: "2000+",
+            namee: "Video Ad Campaigns"
         },
         {
-            numbers: "100+",
-            namee: "App Development Experts"
+            numbers: "150+",
+            namee: "Brands Scaled To 7 Figures"
         }, {
-            numbers: "3M",
-            namee: "Active App Users"
+            numbers: "$350K+",
+            namee: "In Revenue"
         }
     ]
 }

@@ -77,15 +77,15 @@ export const StateCounter = {
     desc: "Struggling to get the most out of your ad spend? Every ad we create is built on strategy, executed precisely, and optimized for maximum performance.",
     stateItem: [
         {
-            numbers: "200+",
-            namee: "Successful PPC Campaigns"
+            numbers: "-28%",
+            namee: "Decrease in Cost-Per-Lead"
         },
         {
-            numbers: "100+",
-            namee: "PPC Experts"
+            numbers: "+40%",
+            namee: "Increase in Click Through Rate"
         }, {
-            numbers: "3M+",
-            namee: "PPC Ad Conversions"
+            numbers: "-30%",
+            namee: "Reduction in Cost Per Click"
         }
     ]
 }
