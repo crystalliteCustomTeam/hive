@@ -14,7 +14,7 @@ const BannerLp = () => {
                     <Col md={11} lg={11} className="m-auto text-center">
                         <div className={styles.bannerContentSec}>
                             <h1>Sick of SEO Agency That Sucks? Let’s Fix That.</h1>
-                            <p>Most SEO companies promise rankings. We deliver revenue. And, if your current SEO agency is ghosting you, it’s time to find someone better. (Hint: It’s us.)</p>
+                            <p>Most SEO companies promise rankings. We deliver revenue. And, if your current SEO agency is ghosting you, it’s time to find someone better. <i>(Hint: It’s us.)</i></p>
                             <div className={styles.btnFlex}>
                                 <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} />
                             </div>

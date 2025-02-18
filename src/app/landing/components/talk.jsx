@@ -8,7 +8,7 @@ const TalkLp = ({ data }) => {
     return (
         <section className={`${styles.talkLpSec} pt-100`}>
             <Container>
-                <Row>
+                <Row className="d-flex align-items-stretch">
                     <Col md={5}>
                         <div className={styles.BgImage} style={{ backgroundImage: `url(${BgImage.src})` }}>
                             <h2>
@@ -24,13 +24,13 @@ const TalkLp = ({ data }) => {
                                     Contact us without obligation by email or phone and secure your free consultation.
                                 </>
                             )}</p>
-                            <CommonBtn txt="Let’s Connect" />
+                            <CommonBtn txt={data.btn ? data.btn : "Let’s Connect"} />
                         </div>
                     </Col>
                     <Col md={7}>
                         <div className={styles.contactFromLp}>
                             <h3>{data?.formtitle ? data?.formtitle : "Book Your Free Consultation"}</h3>
-                            <ContactFrom bgBlack={true} />
+                            <ContactFrom bgBlack={true} title="Let’s Talk" />
                         </div>
                     </Col>
                 </Row>

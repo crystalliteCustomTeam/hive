@@ -10,7 +10,7 @@ const WhyChooseLp = () => {
                 <Row>
                     <Col md={12} lg={8} className="text-center m-auto">
                         <h2>Why Choose Us</h2>
-                        <p>Because <i>“Near Me”</i> Should Always Mean YOU!</p>
+                        <p>Because <i>“Near Me”</i> Should Always Mean <i>YOU!</i></p>
                     </Col>
                 </Row>
                 <Row className={`h-100 ${styles.margintop}`}>

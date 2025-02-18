@@ -1,6 +1,6 @@
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
+    subtitle: "",
     title: "Our Social Media Marketing Services",
     desc: "Hiring us is the difference between going viral and going broke.",
     ServicesItem: [
@@ -26,7 +26,7 @@ export const ServicesData = {
         {
             title: (<>Content <br />Creation</>),
             txt: (<>
-                <p>We produce scroll-stopping visuals, videos, and copy that capture attention, strengthen brand identity, and keep your audience engaged</p>
+                <p>We produce scroll-stopping visuals, videos, and copy that capture attention, strengthen brand identity, and keep your audience engaged.</p>
             </>),
 
         },
@@ -48,8 +48,8 @@ export const ServicesData = {
 }
 import IMG from "@/public/landing/smm/ctaBg.webp"
 export const StateCounter = {
-    subtitle: "About Us",
-    title: "Why Chase Trends When You Can Set Them?",
+    subtitle: "",
+    title: (<>Why Chase Trends  <br className="d-none d-md-block" /> When You Can Set Them?</>),
     desc: (<>
         <p>Most agencies focus on vanity metrics; likes, shares, and follower counts. But what’s the point if it doesn’t translate to real business growth? We don’t just post content and hope for the best, our strategies are designed to turn passive scrollers into active buyers. Whether your goal is more leads, higher sales, or stronger brand authority, our full-funnel approach ensures every stage of your customer’s journey is covered.</p>
     </>),
@@ -151,9 +151,11 @@ import Img35 from "media/services/social-media-marketing/latestwork/35.webp"
 import Img36 from "media/services/social-media-marketing/latestwork/36.webp"
 
 export const LatestWork = {
-    subtitle: "Our Latest Work",
+    subtitle: "",
     title: "If Making Brands Go Viral is a Sin, Consider Us Doomed.",
-    desc: "We’ve murdered bad engagement rates, here’s the evidence; Every agency talks a big game.We don’t have to. The numbers, the growth, the results, they speak for themselves. Scroll down and let the work do the talking.",
+    desc: (<>
+        We’ve murdered bad engagement rates, here’s the evidence;  <br className="d-none d-md-block" />Every agency talks a big game.We don’t have to.<br className="d-none d-md-block" /> The numbers, the growth, the results, they speak for themselves.<br className="d-none d-md-block" /> Scroll down and let the work do the talking.
+    </>),
     LastestWorkItem1: [
         { img: Img01.src },
         { img: Img02.src },
@@ -211,7 +213,7 @@ export const ContactData = {
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
-    subtitle: "Awards & Recognitions",
+    subtitle: "",
     title: "Engagement? Sales? ROI? Yeah, We Do That",
     desc: "See how we help brands break the cycle of bad marketing.",
     Awardslides: [
@@ -238,7 +240,7 @@ export const AwardsPoints = {
             color: "#FFCDD7",
         },
         {
-            txt: "Infiniti Digital has completely transformed our social media presence! Their organic posting strategy keeps our audience engaged with high - quality content that truly reflects our brand.We’ve seen a significant boost in followers and interactions—all without spending a dime on ads.If you need a team that knows how to keep your brand relevant and engaging, Infiniti Digital is the way to go!",
+            txt: "Infiniti Digital has completely transformed our social media presence! Their organic posting strategy keeps our audience engaged with high-quality content that truly reflects our brand. We’ve seen a significant boost in followers and interactions—all without spending a dime on ads. If you need a team that knows how to keep your brand relevant and engaging, Infiniti Digital is the way to go!",
             icon: < ClutchLogo />,
             namee: "Sarah M.",
             job: "Marketing Director",
@@ -266,14 +268,18 @@ export const AwardsPoints = {
 
 
 export const talkData = {
-    title: (<>Social Media <br /> Marketing Agency</>),
-    txt: "That doesn’t just post, but plans, executes and scales your brand."
+    title: (<>SMM Agency</>),
+    txt: (<>That doesn’t just post,  <br className="d-none d-md-block" />
+        but plans, executes and scales your brand.
+    </>),
+    btn: "Connect with us",
+    formtitle: "Hiring Infiniti Digital results in infinite brand growth."
 }
 
 
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
+    subtitle: "",
     title: "Social Media Marketing Campaigns That Hit Harder Than Monday Mornings",
     desc: "We handle everything from content creation to ad management, so you can focus on running your business while we bring in the sales or leads.",
     PriceItem: [

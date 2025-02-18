@@ -64,7 +64,7 @@ export const ServicesData = {
     ]
 }
 export const StateCounterPoints = {
-    subtitle: "Your Business, Our Focus",
+    subtitle: "",
     title: "Google Ads Setup & Management Service",
     desc: "Get the most out of Google Ads with our expert setup and management services. We create high-converting campaigns, optimize ad spend, and drive quality leads to grow your business efficiently. Let us handle the strategy while you focus on scaling!",
     stateItem: [

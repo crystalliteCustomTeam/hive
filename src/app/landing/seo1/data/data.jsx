@@ -16,7 +16,7 @@ export const StateCounterPoints = {
 export const processlp = {
     subtitle: "Our Process",
     title: "Our 6 Step SEO Process Ensures ",
-    txt: (<>Your Customers Are Finding <strong>You</strong> First, Not Your Competitors</>),
+    txt: (<>Your Customers Are Finding <strong><i>You</i></strong> First, Not Your Competitors</>),
     processlpItem: [
         {
             title: "Understanding your goals",
