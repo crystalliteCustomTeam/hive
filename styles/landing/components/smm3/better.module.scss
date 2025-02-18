@@ -1,0 +1,900 @@
+.betterSection {
+    border-radius: 120px 120px 0px 0px;
+    margin-top: -100px;
+    padding-bottom: 50px;
+
+    h2 {
+        margin-bottom: 15px;
+        color: #fff;
+
+        span {
+            color: #9AFF35;
+        }
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .btnTxt {
+        background: #9AFF35;
+        border-radius: 37px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #000;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+        height: 60px;
+        margin: 0px 0px 15px;
+    }
+
+    .waitTxt {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #9AFF35;
+        margin-bottom: 15px;
+    }
+
+    h6 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.165px;
+        color: #fff;
+    }
+
+    .menImage {
+        position: relative;
+        margin: 50px 0px 100px;
+
+        &::after {
+            content: '';
+            background: linear-gradient(0deg, #7635FF 14.29%, rgba(118, 53, 255, 0) 100%);
+            height: 400px;
+            width: 100%;
+            display: block;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            z-index: 1;
+        }
+
+        .sectionPoints {
+
+            .point {
+                background: #FFFFFF;
+                border: 1px solid rgba(172, 181, 190, 0.15);
+                box-shadow: 0px 10px 10px rgba(147, 158, 166, 0.07);
+                border-radius: 100px;
+                width: 460px;
+                height: 80px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 26px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: flex-start;
+                letter-spacing: -0.165px;
+                color: #7635FF;
+                padding: 0px 20px;
+                text-align: left;
+
+                &:hover {
+                    transform: rotate(9.23deg) scale(1.05);
+                    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+                    opacity: 0.9;
+                }
+
+
+
+                &:first-child {
+                    transform: rotate(9.23deg);
+                    position: absolute;
+                    top: 80px;
+                    left: 20px;
+                }
+
+                &:nth-child(2) {
+                    transform: rotate(-20deg);
+                    position: absolute;
+                    top: 370px;
+                    left: 120px;
+                    z-index: 2;
+                }
+
+                &:nth-child(3) {
+                    transform: rotate(4.6deg);
+                    position: absolute;
+                    bottom: 20px;
+                    left: 120px;
+                    z-index: 2;
+                }
+
+                &:nth-child(4) {
+                    transform: rotate(-11.91deg);
+                    position: absolute;
+                    top: 80px;
+                    right: 50px;
+                    z-index: 2;
+                }
+
+                &:nth-child(5) {
+                    transform: rotate(6.82deg);
+                    position: absolute;
+                    top: 370px;
+                    right: 120px;
+                    z-index: 2;
+                }
+
+                &:nth-child(6) {
+                    transform: rotate(-4.06deg);
+                    position: absolute;
+                    bottom: 20px;
+                    right: 120px;
+                    z-index: 2;
+                }
+
+            }
+        }
+    }
+
+    .spanClass {
+        padding: 10px 30px;
+        background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+        border-radius: 10px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+
+    .origanTxt {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #9AFF35;
+        margin-bottom: 10px;
+    }
+
+    .uppercaseTxt {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .betterSection {
+        border-radius: 100px;
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 22px;
+            padding: 0px 30px;
+            height: 60px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 22px;
+            line-height: 30px;
+        }
+
+        .menImage {
+            position: relative;
+
+            &::after {
+                height: 380px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 420px;
+                    height: 75px;
+                    font-size: 20px;
+                    line-height: 26px;
+
+                    &:first-child {
+                        top: 150px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        top: 370px;
+                        left: 100px;
+                    }
+
+                    &:nth-child(3) {
+                        bottom: 170px;
+                        left: 100px;
+                    }
+
+                    &:nth-child(4) {
+                        top: 120px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(5) {
+                        top: 370px;
+                        right: 100px;
+                    }
+
+                    &:nth-child(6) {
+                        bottom: 170px;
+                        right: 100px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 10px 30px;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .origanTxt {
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        .uppercaseTxt {
+            font-size: 35px;
+            line-height: 50px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .betterSection {
+        border-radius: 100px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 18px;
+            padding: 0px 30px;
+            height: 55px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .menImage {
+            position: relative;
+
+            img {
+                height: 860px;
+                width: auto;
+            }
+
+            &::after {
+                height: 380px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 380px;
+                    height: 70px;
+                    font-size: 18px;
+                    line-height: 24px;
+
+                    &:first-child {
+                        top: 150px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        top: 370px;
+                        left: 100px;
+                    }
+
+                    &:nth-child(3) {
+                        bottom: 170px;
+                        left: 100px;
+                    }
+
+                    &:nth-child(4) {
+                        top: 120px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(5) {
+                        top: 370px;
+                        right: 100px;
+                    }
+
+                    &:nth-child(6) {
+                        bottom: 170px;
+                        right: 100px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 10px 30px;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .origanTxt {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+
+        .uppercaseTxt {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .betterSection {
+        border-radius: 70px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 16px;
+            padding: 0px 30px;
+            height: 50px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        .menImage {
+            position: relative;
+
+            &::after {
+                height: 380px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 360px;
+                    height: 65px;
+                    font-size: 15px;
+                    line-height: 24px;
+
+                    &:first-child {
+                        top: 150px;
+                        left: -50px;
+                    }
+
+                    &:nth-child(2) {
+                        top: 370px;
+                        left: 50px;
+                    }
+
+                    &:nth-child(3) {
+                        bottom: 170px;
+                        left: 50px;
+                    }
+
+                    &:nth-child(4) {
+                        top: 120px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(5) {
+                        top: 370px;
+                        right: 50px;
+                    }
+
+                    &:nth-child(6) {
+                        bottom: 170px;
+                        right: 50px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 10px 30px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .origanTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .uppercaseTxt {
+            font-size: 24px;
+            line-height: 34px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .betterSection {
+        border-radius: 70px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 16px;
+            padding: 0px 30px;
+            height: 50px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        .menImage {
+            position: relative;
+
+            &::after {
+                height: 380px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 300px;
+                    height: 70px;
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    &:first-child {
+                        top: 150px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        top: 370px;
+                        left: 50px;
+                    }
+
+                    &:nth-child(3) {
+                        bottom: 170px;
+                        left: 50px;
+                    }
+
+                    &:nth-child(4) {
+                        top: 120px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(5) {
+                        top: 370px;
+                        right: 50px;
+                    }
+
+                    &:nth-child(6) {
+                        bottom: 170px;
+                        right: 50px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 10px 30px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .origanTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .uppercaseTxt {
+            font-size: 24px;
+            line-height: 34px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .betterSection {
+        border-radius: 70px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 16px;
+            padding: 0px 30px;
+            height: 50px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .menImage {
+            position: relative;
+
+            img {
+                height: 600px;
+                width: auto;
+            }
+
+            &::after {
+                height: 380px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 280px;
+                    height: 60px;
+                    font-size: 14px;
+                    line-height: 20px;
+
+                    &:first-child {
+                        top: 120px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        top: 280px;
+                        left: 50px;
+                    }
+
+                    &:nth-child(3) {
+                        bottom: 100px;
+                        left: 50px;
+                    }
+
+                    &:nth-child(4) {
+                        top: 120px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(5) {
+                        top: 280px;
+                        right: 50px;
+                    }
+
+                    &:nth-child(6) {
+                        bottom: 100px;
+                        right: 50px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 10px 30px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .origanTxt {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        .uppercaseTxt {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .betterSection {
+        border-radius: 70px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 16px;
+            padding: 0px 30px;
+            height: 50px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .menImage {
+            position: relative;
+
+            img {
+                height: 600px;
+                width: auto;
+            }
+
+            &::after {
+                height: 380px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 200px;
+                    height: 70px;
+                    font-size: 13px;
+                    line-height: 18px;
+                    padding: 0px 10px;
+
+                    &:first-child {
+                        top: 120px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(2) {
+                        top: 280px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(3) {
+                        bottom: 100px;
+                        left: 0px;
+                    }
+
+                    &:nth-child(4) {
+                        top: 120px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(5) {
+                        top: 280px;
+                        right: 0px;
+                    }
+
+                    &:nth-child(6) {
+                        bottom: 100px;
+                        right: 0px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 10px 30px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .origanTxt {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        .uppercaseTxt {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .betterSection {
+        border-radius: 0px;
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .btnTxt {
+            border-radius: 35px;
+            font-size: 16px;
+            padding: 0px 30px;
+            height: 50px;
+            margin: 0px 0px 20px;
+        }
+
+        .waitTxt {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .menImage {
+            position: relative;
+
+            img {
+                height: 480px;
+                width: auto;
+            }
+
+            &::after {
+                height: 100px;
+            }
+
+            .sectionPoints {
+
+                .point {
+                    width: 100%;
+                    height: 50px;
+                    font-size: 13px;
+                    line-height: 18px;
+                    padding: 0px 10px;
+                    justify-content: center;
+                    text-align: center;
+
+
+                    &:first-child {
+                        transform: unset;
+                        left: 0px;
+                        top: 150px;
+                    }
+
+                    &:nth-child(2) {
+                        transform: unset;
+                        left: 0px;
+                        top: 205px;
+                    }
+
+                    &:nth-child(3) {
+                        transform: unset;
+                        left: 0px;
+                        top: 260px;
+                    }
+
+                    &:nth-child(4) {
+                        transform: unset;
+                        right: 0px;
+                        top: 315px;
+                    }
+
+                    &:nth-child(5) {
+                        transform: unset;
+                        right: 0px;
+                        top: 370px;
+                    }
+
+                    &:nth-child(6) {
+                        transform: unset;
+                        right: 0px;
+                        top: 425px;
+                    }
+
+                }
+            }
+        }
+
+        .spanClass {
+            padding: 5px 20px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .origanTxt {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        .uppercaseTxt {
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: 600;
+        }
+    }
+}

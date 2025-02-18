@@ -18,7 +18,7 @@ const Bannerlp = () => {
         }
     };
     return (
-        <section className={styles.bannerLpSection} id="BannerId" style={{ backgroundImage: `url(${bgBanner.src})` }}>
+        <section className={styles.bannerLpSection} style={{ backgroundImage: `url(${bgBanner.src})` }}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={12} lg={7} className="my-auto">

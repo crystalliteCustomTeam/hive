@@ -14,10 +14,13 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.bannerText}>
-                            <h1>SEO Agency Ranking Clients Around the World</h1>
-                            <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data-driven strategies and surprising bottom-line results to fuel your business growth.</p>
+                            <h1>Still No Traffic?<br className="d-md-block d-none" />
+                                It’s Time to Hire A<br className="d-md-block d-none" />
+                                Local SEO Agency
+                            </h1>
+                            <p>Our local SEO agency will optimize your website to rank higher on search engines, driving more local traffic. Get found by the right customers and watch your business grow with Infiniti Digital. </p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Click To Grow" LiveChat={true} />
+                                <CommonBtn txt="Let’s Connect" LiveChat={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />
@@ -26,8 +29,8 @@ const Banner = () => {
                     </Col>
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.banneerFrom}>
-                            <h3>Don’t Be Shy, Say Hi!</h3>
-                            <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data</p>
+                            <h3>Want to Grow? Let Us Know!</h3>
+                            <p>Your Business Deserves a Page One Ranking – Not Page None</p>
                             <ContactFrom LandingPage={true} bg="no" popop="yes" />
                         </div>
                     </Col>

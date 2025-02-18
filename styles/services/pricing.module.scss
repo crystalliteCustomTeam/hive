@@ -316,6 +316,262 @@
             }
         }
     }
+
+    &.smmLp {
+        background: #F5FAFF;
+        padding-bottom: 100px;
+
+
+        .pricingContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+
+
+            .pricingItem {
+                flex: 0 0 calc(33.33% - 20px);
+                background: #fff;
+                border-radius: 30px;
+                padding: 25px;
+                transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+                .packageHeader {
+                    .packageName {
+                        background: #F3F3F3;
+                        border-radius: 30px;
+                        height: 45px;
+                        min-width: 200px;
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 20px;
+                        text-transform: capitalize;
+                        color: #BDBDBD;
+                        margin-bottom: 30px;
+                        padding: 0px 20px;
+                        transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+                    }
+
+
+                    .packagePrice {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 50px;
+                        line-height: 50px;
+                        display: flex;
+                        align-items: center;
+                        text-transform: capitalize;
+                        color: #000;
+                        margin-bottom: 20px;
+
+                        span {
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 16px;
+                            letter-spacing: -0.165px;
+                            color: #000;
+                        }
+                    }
+
+                    .packageSubTxt {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 26px;
+                        letter-spacing: -0.165px;
+                        color: #000;
+                        margin-bottom: 10px;
+                    }
+
+                    .packagepara {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 25px;
+                        letter-spacing: -0.165px;
+                        color: #000;
+                        margin-bottom: 20px;
+                    }
+
+                    .packagebutton {
+                        background: #F3F3F3;
+                        height: 56px;
+                        min-width: 200px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 20px;
+                        text-transform: capitalize;
+                        color: #BDBDBD;
+                        border: 1px solid rgba(255, 255, 255, 0.3);
+                        border-radius: 33px;
+                        margin-bottom: 20px;
+                        cursor: pointer;
+                    }
+
+                }
+
+                .packageBody {
+                    height: 450px;
+                    overflow: auto;
+                    margin-bottom: 30px;
+
+
+                    &::-webkit-scrollbar {
+                        width: 5px;
+
+                    }
+
+                    &::-webkit-scrollbar-track {
+                        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+                        border-radius: 100px;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        background: #9AFF35;
+                        border-radius: 100px;
+                        outline: none;
+                    }
+
+                    .listingTitle {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 26px;
+                        letter-spacing: -0.165px;
+                        color: #7D7D7D;
+                        margin-bottom: 10px;
+                    }
+
+                    ul {
+                        margin-bottom: 10px;
+
+                        li {
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 15px;
+                            line-height: 24px;
+                            letter-spacing: -0.165px;
+                            color: #7D7D7D;
+                            margin-bottom: 8px;
+                            display: flex;
+
+                            svg {
+                                margin-right: 5px;
+                                height: 12px;
+                                margin-top: 5px;
+
+                                path {
+                                    fill: #7D7D7D;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .titleNote {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 26px;
+                    letter-spacing: -0.165px;
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+
+                .packageNote {
+                    p {
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: -0.165px;
+                        color: #fff;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                &:hover {
+                    background: linear-gradient(319.4deg, #BE9FFF 13.78%, #7635FF 90.15%);
+                    box-shadow: 0px 4px 34px #BCC5FF;
+                    transform: scale(1.03);
+                    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+                    .packageHeader {
+                        .packageName {
+                            color: #fff;
+                            background: #9868FF;
+                        }
+
+                        .packagePrice {
+                            color: #fff;
+
+                            span {
+                                color: #fff;
+                            }
+                        }
+
+                        .packagepara,
+                        .packageSubTxt {
+                            color: #fff;
+                        }
+
+                        .packagebutton {
+                            color: #000;
+                            border: 1px solid #9AFF35;
+                            background: #9AFF35;
+                        }
+
+
+
+                    }
+
+                    .packageBody {
+
+
+                        .listingTitle {
+                            color: #fff;
+                        }
+
+                        ul {
+                            margin-bottom: 10px;
+
+                            li {
+                                color: #fff;
+
+                                svg {
+                                    margin-right: 5px;
+                                    height: 12px;
+
+                                    path {
+                                        fill: #9AFF35;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .titleNote {
+                        color: #000;
+                    }
+
+                    .packageNote {
+                        p {
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {

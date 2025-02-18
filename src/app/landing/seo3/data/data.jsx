@@ -1,56 +1,87 @@
+
+
+//  About Awards
+
+import Awards01 from "media/about/awards/1.webp";
+import Awards02 from "media/about/awards/2.webp";
+import Awards03 from "media/about/awards/3.webp";
+import Awards04 from "media/about/awards/4.webp";
+import Awards05 from "media/about/awards/5.webp";
+import Awards06 from "media/about/awards/6.webp";
+import Awards07 from "media/about/awards/7.webp";
+
+export const AbtAwardsData = {
+    subtitle: "",
+    title: "Recognized on Top Review Platforms",
+    desc: "With our local SEO strategy your business stays on the first page and ahead of competition. Plus, we’ve been featured on top platforms and earned industry awards—check out our presence across the web!",
+    images: [
+        Awards01.src,
+        Awards02.src,
+        Awards03.src,
+        Awards04.src,
+        Awards05.src,
+        Awards06.src,
+        Awards07.src,
+        Awards01.src,
+        Awards02.src,
+        Awards03.src,
+        Awards04.src,
+    ],
+};
+
 import { Serv01, Serv02, Serv03, Serv04, Serv05, Serv06, Serv07, Serv08, Serv09 } from "@/src/app/app-constants";
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Our SEO SERVICES",
-    desc: "Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data",
+    subtitle: "",
+    title: "Our SEO Services",
+    desc: "Everything You Need to Rank & Convert",
     ServicesItem: [
         {
             icon: <Serv01 />,
             title: "Keyword Research & Strategy",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            txt: "We find the best keywords that will bring real customers to your site, not just random clicks. Our strategy helps you rank for the most important terms and drive the right traffic.",
         },
         {
             icon: <Serv02 />,
             title: "Link Building",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google.",
         },
         {
             icon: <Serv03 />,
             title: "Technical SEO ",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            txt: "Website speed, mobile friendliness, and proper indexing are essential for top performance. We fix any technical issues that slow down your site and ensure it runs smoothly.",
         },
         {
             icon: <Serv04 />,
-            title: "On-Page SEO",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Local SEO",
+            txt: "Be seen by customers in your area through local search results and Google Maps. Our local SEO helps you stand out so nearby customers can easily find and contact you.",
         },
         {
             icon: <Serv05 />,
-            title: "Off-Page SEO",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "On-Page SEO",
+            txt: "We optimize your website’s content, headings, and meta tags to make it easier for search engines to understand and rank your site. This improves both rankings and user experience.",
         },
         {
             icon: <Serv06 />,
-            title: "Content Writing ",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Entity SEO",
+            txt: "We strengthen your site’s authority by making sure it's seen as an expert in your field, using structured data and topic relevance to help you rank for a wider range of searches.",
         },
         {
             icon: <Serv07 />,
-            title: "Reputation Management",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Search Generative Experience",
+            txt: "Google’s AI search updates can affect your rankings. We keep up with the changes and adjust your site so it stays visible and competitive in search results.",
         },
         {
-            icon: <Serv08 />,
-            title: "GMB Management",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            icon: <Serv07 />,
+            title: "E-commerce SEO",
+            txt: "We optimize your product pages and categories to help boost online sales and drive conversions through organic search results.",
         },
         {
             icon: <Serv09 />,
-            title: "White Label SEO",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
-        }
+            title: "GMB Management",
+            txt: "We optimize and manage your GMB profile to ensure your business stands out in local searches. From updating key information to managing reviews, we help you attract more customers and improve your local visibility.",
+        },
 
 
 
@@ -60,28 +91,28 @@ export const ServicesData = {
 
 
 export const processlp = {
-    title: "Tracking & Reporting Procedure",
-    txt: "Our professional book writing services is a collaborative process between our client and our team that has the following steps:",
+    title: "Getting You Ranked in 5 Simple Steps",
+    txt: "Our local SEO experts don’t wait for results they create them.",
     processlpItem: [
         {
-            title: "Monthly Report",
-            txt: "Each month, your project manager will produce a report and discuss it with you. The report details analytics, completed work, and upcoming plans. The project manager may also make suggestions on strategy and program adjustments as needed."
+            title: "Onboarding ",
+            txt: "We start by getting to know your business, your competition, and your customers. This helps us create a custom SEO plan just for you."
         },
         {
-            title: "Call Tracking",
-            txt: "With call tracking and A/B testing, we’ll know where visitors came from, what search terms they used, and what’s converting visitors to customers. This is an essential tool for conversion optimization."
+            title: "Website Audit",
+            txt: "We check your website to see how it’s doing. We then make sure it’s fast, easy to use, and ready for Google to love it."
         },
         {
-            title: "Google Analytics",
-            txt: "We use Google Analytics to track SEO for every client. Google Analytics provides a wealth of information that lets us identify strengths and weaknesses in our strategy so that we may adjust accordingly."
+            title: "Content Optimization",
+            txt: "We update your website’s content, making sure it has the right words (keywords) that will help you rank higher on Google and attract the right visitors."
         },
         {
-            title: "Website Traffic Reports",
-            txt: "We can provide an on-demand, customized dashboard depending on your needs. Your monthly project manager conversation will ensure that we’re on the same page."
+            title: "Building Local Authority",
+            txt: "We set up and improve your Google Business Profile, add your business to important local listings, and get quality links to boost your online reputation."
         },
         {
-            title: "Keyword Ranking Reports",
-            txt: "Dallas SEO Dogs focuses on traffic and conversions more than rankings, but rankings are helpful in noticing trends and areas of weakness. We include them in our reports."
+            title: "Reporting & Ongoing Improvements",
+            txt: "Every month, we send you progress reports showing how well your website is doing; like how much traffic you’re getting, where you rank, and what we can improve next."
         },
     ]
 
@@ -89,7 +120,7 @@ export const processlp = {
 
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
+    subtitle: "Local SEO Packages",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
     PriceItem: [
@@ -294,8 +325,9 @@ export const PriceData = {
 // CTA  01
 import ImgBg1 from "media/landing/seo3/ctaBg1.webp"
 export const CtaData = {
-    title: (<>Get a <span>30 minutes</span> free strategy session with our digital marketing expert worth <span>$300</span></>),
-    img: ImgBg1.src
+    title: (<>Claim your <span>FREE SEO</span> strategy session worth <span>$300</span> SEO now and start ranking!</>),
+    img: ImgBg1.src,
+    btntxt: "Schedule a Meeting"
 }
 
 // Main Services
@@ -306,23 +338,23 @@ import Service03 from "media/landing/seo3/service03.webp"
 import Service04 from "media/landing/seo3/service04.webp"
 export const dataService = [
     {
-        title: "National SEO",
-        txt: "A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments. Despite offering a wide range of dental services, their online presence was underperforming, resulting in missed opportunities to attract regular patients. Their goals were straightforward: increase online visibility in North Raleigh, drive more appointment bookings through lead forms and calls, and establish authority in the local dental market.A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments.",
+        title: "Google My Business Optimization",
+        txt: "We start by claiming and verifying your Google My Business profile. This ensures your business shows up in local search results and on Google Maps. We complete your profile with your business name, address, phone number, and services, optimizing it for search engines. Regular posts, responding to questions, and managing reviews help keep your listing active and engaging.",
         img: Service01.src,
     },
     {
-        title: "Local SEO",
-        txt: "A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments. Despite offering a wide range of dental services, their online presence was underperforming, resulting in missed opportunities to attract regular patients. Their goals were straightforward: increase online visibility in North Raleigh, drive more appointment bookings through lead forms and calls, and establish authority in the local dental market.A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments.",
+        title: "Local Citations",
+        txt: "NAP consistency is key to local SEO. We ensure your business information is accurate and consistent across all online directories and local platforms. We check for discrepancies and fix them, submitting your details to trusted directories. This helps Google trust your business and rank it higher. ",
         img: Service02.src,
     },
     {
-        title: "ECOMMERCE SEO",
-        txt: "A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments. Despite offering a wide range of dental services, their online presence was underperforming, resulting in missed opportunities to attract regular patients. Their goals were straightforward: increase online visibility in North Raleigh, drive more appointment bookings through lead forms and calls, and establish authority in the local dental market.A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments.",
+        title: "On-Page SEO",
+        txt: "We optimize your website by using location-based keywords in key areas like title tags, meta descriptions, and URLs. Through local content creation, such as city-specific pages, we target the right customers in your area. We also add schema markup and optimize Google Maps integration to ensure search engines understand your location and services.",
         img: Service03.src,
     },
     {
-        title: "Enterprise SEO",
-        txt: "A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments. Despite offering a wide range of dental services, their online presence was underperforming, resulting in missed opportunities to attract regular patients. Their goals were straightforward: increase online visibility in North Raleigh, drive more appointment bookings through lead forms and calls, and establish authority in the local dental market.A dental practice in North Raleigh approached us with a clear challenge: to stand out in a highly competitive local market and generate more leads in patient appointments.",
+        title: "Online Reviews & Reputation Management",
+        txt: "We focus on building a strong online reputation by encouraging customers to leave reviews, especially on Google. We monitor and respond to reviews, handling both positive and negative feedback professionally. By showcasing customer testimonials and addressing concerns, we help increase your business’s credibility and visibility in local search results.",
         img: Service04.src,
     },
 
@@ -331,40 +363,28 @@ export const dataService = [
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    subtitle: "Testimonials",
+    title: "No Lies, Just Clients with Smiles!",
+    desc: "",
     Testslider: [
         {
-            txt: "Infiniti Digital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
+            txt: "We were struggling to get traffic from Google, and our website wasn’t showing up in local searches. After working with this team, we’ve noticed a steady improvement in our rankings. It’s not an overnight miracle, but we’re definitely getting more calls and inquiries from people nearby. Definitely worth the investment.",
             icon: <ClutchLogo />,
-            namee: "Amanda T.",
-            job: "Founder of BrightTech Solutions",
+            namee: "Jessica H.",
+            job: "Hair Salons",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Infiniti Digital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
+            txt: "We’ve been working with this team for a few months now, and it’s clear the effort they put in is paying off. Our site is showing up in more local searches, and we’re seeing a steady stream of new customers who found us through Google. They were easy to work with and explained everything along the way.",
             icon: <TrustpilotLogo />,
-            namee: "James M.",
-            job: "COO of NovaRetail Solutions",
+            namee: "Rachel S.",
+            job: "Local Bakery",
         },
         {
-            txt: "Infiniti Digital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
+            txt: "SEO takes time, and these guys are straightforward about that. They helped us clean up our website and optimize it for local searches. While the results didn’t happen overnight, we’ve definitely seen a gradual increase in local traffic and inquiries. It’s not magic, just hard work that pays off over time.",
             icon: <GoogleLogo />,
-            namee: "Sarah K.",
-            job: "MD at GreenWave Industries",
+            namee: "Mike R.",
+            job: "Auto Repair Shop",
         },
-        {
-            txt: "Partnering with Infiniti Digital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
-            icon: <TrustpilotLogo />,
-            namee: "Tom L.",
-            job: "CEO of BuildPro Solutions",
-        },
-        {
-            txt: "Our online sales skyrocketed after working with Infiniti Digital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
-            icon: <ClutchLogo />,
-            namee: "Emily R.",
-            job: "Founder of StyleHive Boutique",
-        }
     ]
 }
 
@@ -372,7 +392,7 @@ export const TestimonialData = {
 import IMGBG from "media/landing/seo3/contactBg.webp"
 export const ContactData = {
     subtitle: "Get In Touch",
-    title: "Let’s Bring Your Vision to Life!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    title: "Don’t Wait to Be Found, Make It Happen With Our Local SEO Services.",
+    desc: "Fill out the form and let’s make sure your website is the first thing customers see when they search locally.",
     bgImg: IMGBG.src
 }

@@ -78,14 +78,14 @@ export const StateCounter = {
     stateItem: [
         {
             numbers: "200+",
-            namee: "App Launched"
+            namee: "Successful PPC Campaigns"
         },
         {
             numbers: "100+",
-            namee: "App Development Experts"
+            namee: "PPC Experts"
         }, {
-            numbers: "3M",
-            namee: "Active App Users"
+            numbers: "3M+",
+            namee: "PPC Ad Conversions"
         }
     ]
 }

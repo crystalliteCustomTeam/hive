@@ -2,7 +2,6 @@ import BannerLp from "@/src/app/landing/smm1/bannerlp"
 import { ClientImages } from "@/src/app/home/data/data"
 import Clients from "@/src/app/home/clients"
 import Faqs from "@/src/app/home/faq"
-import ContentLp from "@/src/app/landing/smm1/contentlp"
 import ServicesLp from "@/src/app/landing/components/serviceslp"
 import AwardsLp from "@/src/app/landing/components/awardslp"
 import Pricing from '@/src/app/components/services/pricing'

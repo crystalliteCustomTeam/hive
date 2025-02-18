@@ -16,14 +16,14 @@ export const StateCounter = {
     stateItem: [
         {
             numbers: "200+",
-            namee: "App Launched"
+            namee: "Websites Launched"
         },
         {
             numbers: "100+",
-            namee: "App Development Experts"
+            namee: "Website Development Experts"
         }, {
             numbers: "3M",
-            namee: "Active App Users"
+            namee: "Active Website Users"
         }, {
             numbers: "4.9",
             namee: "Rating On Clutch"
