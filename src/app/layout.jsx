@@ -40,45 +40,19 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  //===== Additional Meta Tags =====
-  metaTags: [
-    {
-      name: "DC.title",
-      content: "full-service digital marketing agency",
-    },
-    {
-      name: "geo.region",
-      content: "US-TX",
-    },
-    {
-      name: "geo.placename",
-      content: "Houston",
-    },
-    {
-      name: "geo.position",
-      content: "29.677315;-95.615108",
-    },
-    {
-      name: "ICBM",
-      content: "29.677315, -95.615108",
-    },
-    {
-      name: "DC.title",
-      content: "full-service digital marketing agency",
-    },
-    {
-      name: "geo.region",
-      content: "US",
-    },
-    {
-      name: "geo.position",
-      content: "39.78373;-100.445882",
-    },
-    {
-      name: "ICBM",
-      content: "39.78373, -100.445882",
-    },
-  ],
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "full-service digital marketing agency",
+    "geo.region": "US-TX",
+    "geo.placename": "Houston",
+    "geo.position": "29.677315;-95.615108",
+    "ICBM": "29.677315, -95.6151082",
+    //==========
+    "DC.title": "full-service digital marketing agency",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882",
+  }
 };
 
 

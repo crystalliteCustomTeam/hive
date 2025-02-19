@@ -47,7 +47,7 @@ const PlateFromLp = () => {
             <Container className="h-100 gradientBgColor">
                 <Row className="h-100">
                     <Col md={6} className="my-auto">
-                        <div className="subtitle">{data.subtitle}</div>
+                        {/* <div className="subtitle">{data.subtitle}</div> */}
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                         <CommonBtn txt="Get a Free Consultation" LiveChat={true} BgBlack={true} />

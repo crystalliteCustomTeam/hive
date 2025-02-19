@@ -154,7 +154,7 @@ export const LatestWork = {
     subtitle: "",
     title: "If Making Brands Go Viral is a Sin, Consider Us Doomed.",
     desc: (<>
-        We’ve murdered bad engagement rates, here’s the evidence;  <br className="d-none d-md-block" />Every agency talks a big game.We don’t have to.<br className="d-none d-md-block" /> The numbers, the growth, the results, they speak for themselves.<br className="d-none d-md-block" /> Scroll down and let the work do the talking.
+        We’ve murdered bad engagement rates, here’s the evidence;  <br className="d-none d-md-block" />Every agency talks a big game. We don’t have to.<br className="d-none d-md-block" /> The numbers, the growth, the results, they speak for themselves.<br className="d-none d-md-block" /> Scroll down and let the work do the talking.
     </>),
     LastestWorkItem1: [
         { img: Img01.src },
