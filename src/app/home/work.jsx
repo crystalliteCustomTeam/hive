@@ -64,7 +64,7 @@ const Work = ({ data }) => {
                                                 <h5>{item.title}</h5>
                                                 <p>{item.txt}</p>
                                                 <div className={styles.btnReaMore}>
-                                                    <CommonBtn txt="Get Free Consultation" ArrowBtn={true} />
+                                                    <CommonBtn txt="Get Free Consultation" ArrowBtn={true} FlexStart={true} />
                                                 </div>
                                             </div>
                                             <Link href={item.url} className={styles.arrowBg}>
