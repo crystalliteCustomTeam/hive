@@ -62,7 +62,6 @@ export const metadata = {
       name: "ICBM",
       content: "29.677315, -95.615108",
     },
-    // Added Second Set of Geo and DC Meta Tags
     {
       name: "DC.title",
       content: "full-service digital marketing agency",
