@@ -16,6 +16,21 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/content-marketing-services' },
+  other: {
+    // Houston, TX - Content Marketing Services
+    "DC.title.houston": "Content Marketing Services",
+    "geo.region.houston": "US-TX",
+    "geo.placename.houston": "Houston",
+    "geo.position.houston": "29.677315;-95.615108",
+    "ICBM.houston": "29.677315, -95.615108",
+
+    // Generic US - Content Marketing Services
+    "DC.title.generic": "content marketing services",
+    "geo.region.generic": "US",
+    "geo.position.generic": "39.78373;-100.445882",
+    "ICBM.generic": "39.78373, -100.445882"
+  }
+
 }
 
 

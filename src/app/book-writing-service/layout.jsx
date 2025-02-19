@@ -16,6 +16,21 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/book-writing-service' },
+  other: {
+    // Generic US - Book Writing Service
+    "DC.title.generic": "book writing service",
+    "geo.region.generic": "US",
+    "geo.position.generic": "39.78373;-100.445882",
+    "ICBM.generic": "39.78373, -100.445882",
+
+    // Houston, TX - Premium Book Writing Services
+    "DC.title.houston": "Premium Book Writing Services, Ebook Writing Services, Children Book Writing Services",
+    "geo.region.houston": "US-TX",
+    "geo.placename.houston": "Houston",
+    "geo.position.houston": "29.677315;-95.615108",
+    "ICBM.houston": "29.677315, -95.615108"
+  }
+
 }
 
 

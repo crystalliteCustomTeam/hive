@@ -16,6 +16,22 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/enterprise-seo-service' },
+  //===== GEO Tags =====
+  other: {
+    // First Region (Houston, TX) - Enterprise SEO
+    "DC.title.houston.enterprise": "Enterprise SEO Agency, Enterprise SEO Solutions, Best Enterprise SEO Services",
+    "geo.region.houston.enterprise": "US-TX",
+    "geo.placename.houston.enterprise": "Houston",
+    "geo.position.houston.enterprise": "29.677315;-95.615108",
+    "ICBM.houston.enterprise": "29.677315, -95.615108",
+
+    // Second Region (Generic US Location) - Enterprise SEO
+    "DC.title.generic.enterprise": "enterprise seo service",
+    "geo.region.generic.enterprise": "US",
+    "geo.position.generic.enterprise": "39.78373;-100.445882",
+    "ICBM.generic.enterprise": "39.78373, -100.445882"
+  }
+
 }
 
 

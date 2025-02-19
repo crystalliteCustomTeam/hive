@@ -16,6 +16,23 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/email-marketing-agency' },
+
+  //===== GEO Tags =====
+  other: {
+    // First Region (Houston, TX) - Email Marketing
+    "DC.title.houston": "Email Marketing Services, Email Marketing Agency, Email Marketing Campaign Services",
+    "geo.region.houston": "US-TX",
+    "geo.placename.houston": "Houston",
+    "geo.position.houston": "29.677315;-95.615108",
+    "ICBM.houston": "29.677315, -95.615108",
+
+    // Second Region (Generic US Location) - Email Marketing
+    "DC.title.generic": "email marketing agency",
+    "geo.region.generic": "US",
+    "geo.position.generic": "39.78373;-100.445882",
+    "ICBM.generic": "39.78373, -100.445882"
+  }
+
 }
 
 

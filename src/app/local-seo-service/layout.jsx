@@ -16,6 +16,22 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/local-seo-service' },
+  //===== GEO Tags =====
+  other: {
+    // First Region (Houston, TX)
+    "DC.title.houston": "Affordable Local SEO Services, Best Local SEO Services, Local SEO Company",
+    "geo.region.houston": "US-TX",
+    "geo.placename.houston": "Houston",
+    "geo.position.houston": "29.677315;-95.615108",
+    "ICBM.houston": "29.677315, -95.615108",
+
+    // Second Region (Generic US Location)
+    "DC.title.generic": "white label seo service",
+    "geo.region.generic": "US",
+    "geo.position.generic": "39.78373;-100.445882",
+    "ICBM.generic": "39.78373, -100.445882"
+  }
+
 }
 
 

@@ -16,6 +16,21 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/contact-us' },
+  other: {
+    // Generic US - Contact Infiniti Digital
+    "DC.title.generic": "Contact Infiniti Digital",
+    "geo.region.generic": "US",
+    "geo.position.generic": "39.78373;-100.445882",
+    "ICBM.generic": "39.78373, -100.445882",
+
+    // Houston, TX - Contact Infiniti Digital
+    "DC.title.houston": "Contact Infiniti Digital",
+    "geo.region.houston": "US-TX",
+    "geo.placename.houston": "Houston",
+    "geo.position.houston": "29.677315;-95.615108",
+    "ICBM.houston": "29.677315, -95.615108"
+  }
+
 }
 
 

@@ -16,6 +16,21 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/book-cover-design' },
+  other: {
+    // Generic US - Book Cover Design
+    "DC.title.generic": "book cover design",
+    "geo.region.generic": "US",
+    "geo.position.generic": "39.78373;-100.445882",
+    "ICBM.generic": "39.78373, -100.445882",
+
+    // Houston, TX - Book Cover Design Services
+    "DC.title.houston": "Book Cover Design Services, Custom Book Cover Design Services, Affordable Book Cover Design Services",
+    "geo.region.houston": "US-TX",
+    "geo.placename.houston": "Houston",
+    "geo.position.houston": "29.677315;-95.615108",
+    "ICBM.houston": "29.677315, -95.615108"
+  }
+
 }
 
 

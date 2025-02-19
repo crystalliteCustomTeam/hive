@@ -16,6 +16,22 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/small-business-seo-services' },
+  //===== GEO Tags =====
+  other: {
+    // Small Business SEO Services (Generic US Location)
+    "DC.title.generic.small_business": "small business seo services",
+    "geo.region.generic.small_business": "US",
+    "geo.position.generic.small_business": "39.78373;-100.445882",
+    "ICBM.generic.small_business": "39.78373, -100.445882",
+
+    // Small Business SEO Services (Houston, TX)
+    "DC.title.houston.small_business": "Small Business SEO Company, Small Business SEO Services, SEO For Small Businesses",
+    "geo.region.houston.small_business": "US-TX",
+    "geo.placename.houston.small_business": "Houston",
+    "geo.position.houston.small_business": "29.677315;-95.615108",
+    "ICBM.houston.small_business": "29.677315, -95.615108"
+  }
+
 }
 
 
