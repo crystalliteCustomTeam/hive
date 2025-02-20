@@ -29,7 +29,7 @@ const ServicesLp = ({ data, SMMLP }) => {
                                     <div className={styles.btnReaMore}>
                                         <CommonBtn txt="" ArrowBtn={true} />
                                     </div>
-                                    <div>{item.txt}</div>
+                                    <div className={styles.txtPara}>{item.txt}</div>
                                 </div>
                             ))}
                         </div>

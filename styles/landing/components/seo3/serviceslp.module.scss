@@ -39,7 +39,7 @@
                     }
                 }
 
-                p {
+                .txtPara {
                     z-index: 2;
                     position: relative;
                     opacity: 1;
@@ -314,6 +314,923 @@
 
                         path {
                             stroke: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .landingServices {
+        border-radius: 100px 100px 0px 0px;
+        margin-top: 80px;
+        padding-bottom: 50px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(33.33% - 10px);
+                margin-bottom: 15px;
+                border-radius: 26px;
+                height: 420px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 30px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 20px;
+                    width: 60px;
+                    height: 60px;
+
+                    svg {
+                        width: auto;
+                        height: 30px;
+                    }
+                }
+
+                .title {
+                    font-size: 22px;
+                    line-height: 28px;
+                    margin-bottom: 10px;
+                }
+
+                .txtPara {
+                    opacity: 1;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 140px;
+                    height: 40px;
+                    font-size: 16px;
+                    line-height: 28px;
+                    left: 20px;
+                    bottom: 20px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 20px;
+                    right: 20px;
+
+                    svg {
+                        width: 16px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(25% - 10px);
+                    margin-bottom: 20px;
+                    height: 400px;
+                    width: 100%;
+                    padding: 20px;
+
+
+                    .icon {
+                        width: 55px;
+                        height: 55px;
+
+                        svg {
+                            height: 30px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 16px;
+                        line-height: 24px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 140px;
+                        height: 40px;
+                        font-size: 17px;
+                        line-height: 30px;
+                        left: 20px;
+                        bottom: 20px;
+                    }
+
+                    .btnReaMore {
+                        height: 38px;
+                        width: 38px;
+                        bottom: 20px;
+                        right: 20px;
+
+                        svg {
+                            width: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .landingServices {
+        border-radius: 80px 80px 0px 0px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(33.33% - 10px);
+                margin-bottom: 15px;
+                border-radius: 20px;
+                height: 400px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 28px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 15px;
+                    width: 55px;
+                    height: 55px;
+
+                    svg {
+                        width: auto;
+                        height: 28px;
+                    }
+                }
+
+                .title {
+                    font-size: 20px;
+                    line-height: 28px;
+                    margin-bottom: 10px;
+                }
+
+                .txtPara {
+                    font-size: 15px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 140px;
+                    height: 38px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    left: 20px;
+                    bottom: 20px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 20px;
+                    right: 20px;
+
+                    svg {
+                        width: 16px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(25% - 10px);
+                    margin-bottom: 20px;
+                    height: 370px;
+                    width: 100%;
+                    padding: 20px;
+
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+
+                        svg {
+                            height: 25px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 15px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 120px;
+                        height: 35px;
+                        font-size: 15px;
+                        line-height: 30px;
+                        left: 20px;
+                        bottom: 20px;
+                    }
+
+                    .btnReaMore {
+                        height: 35px;
+                        width: 35px;
+                        bottom: 20px;
+                        right: 20px;
+
+                        svg {
+                            width: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .landingServices {
+        border-radius: 70px 70px 0px 0px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(33.33% - 10px);
+                margin-bottom: 15px;
+                border-radius: 15px;
+                height: 380px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 25px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 15px;
+                    width: 55px;
+                    height: 55px;
+
+                    svg {
+                        width: auto;
+                        height: 25px;
+                    }
+                }
+
+                .title {
+                    font-size: 18px;
+                    line-height: 26px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    left: 20px;
+                    bottom: 20px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 20px;
+                    right: 20px;
+
+                    svg {
+                        width: 16px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(25% - 5px);
+                    margin-bottom: 20px;
+                    height: 370px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+
+                        svg {
+                            height: 22px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 30px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 100px;
+                        height: 30px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        left: 15px;
+                        bottom: 15px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .landingServices {
+        border-radius: 70px 70px 0px 0px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(33.33% - 10px);
+                margin-bottom: 15px;
+                border-radius: 15px;
+                height: 350px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 25px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 15px;
+                    width: 50px;
+                    height: 50px;
+
+                    svg {
+                        width: auto;
+                        height: 25px;
+                    }
+                }
+
+                .title {
+                    font-size: 17px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+
+                .txtPara {
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    left: 15px;
+                    bottom: 15px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 15px;
+                    right: 15px;
+
+                    svg {
+                        width: 15px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(25% - 5px);
+                    margin-bottom: 20px;
+                    height: 370px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+
+                        svg {
+                            height: 22px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 100px;
+                        height: 30px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        left: 15px;
+                        bottom: 15px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .landingServices {
+        border-radius: 50px 50px 0px 0px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(50% - 10px);
+                margin-bottom: 15px;
+                border-radius: 15px;
+                height: 320px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 25px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 15px;
+                    width: 50px;
+                    height: 50px;
+
+                    svg {
+                        width: auto;
+                        height: 25px;
+                    }
+                }
+
+                .title {
+                    font-size: 17px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+
+                .txtPara {
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    left: 15px;
+                    bottom: 15px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 15px;
+                    right: 15px;
+
+                    svg {
+                        width: 15px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(50% - 5px);
+                    margin-bottom: 20px;
+                    height: 300px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+
+                        svg {
+                            height: 22px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 100px;
+                        height: 30px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        left: 15px;
+                        bottom: 15px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .landingServices {
+        border-radius: 50px 50px 0px 0px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(50% - 10px);
+                margin-bottom: 15px;
+                border-radius: 15px;
+                height: 380px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 25px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 15px;
+                    width: 45px;
+                    height: 45px;
+
+                    svg {
+                        width: auto;
+                        height: 22px;
+                    }
+                }
+
+                .title {
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+
+                .txtPara {
+                    font-size: 14px;
+                    line-height: 21px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    left: 15px;
+                    bottom: 15px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 15px;
+                    right: 15px;
+
+                    svg {
+                        width: 15px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 20px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(50% - 5px);
+                    margin-bottom: 20px;
+                    height: 350px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+
+                        svg {
+                            height: 22px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 100px;
+                        height: 30px;
+                        font-size: 14px;
+                        line-height: 30px;
+                        left: 15px;
+                        bottom: 15px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .landingServices {
+        border-radius: 20px 20px 0px 0px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+
+        .landingServicesContainer {
+            margin-top: 20px;
+
+            .landingServicesItem {
+                flex: 0 0 calc(100% - 0px);
+                margin-bottom: 15px;
+                border-radius: 15px;
+                height: 300px;
+                padding: 20px;
+
+                &:hover {
+                    .icon {
+                        svg {
+                            height: 25px;
+                        }
+                    }
+                }
+
+                .icon {
+                    margin-bottom: 15px;
+                    width: 45px;
+                    height: 45px;
+
+                    svg {
+                        width: auto;
+                        height: 22px;
+                    }
+                }
+
+                .title {
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+
+                .txtPara {
+                    font-size: 14px;
+                    line-height: 21px;
+                    margin-bottom: 10px;
+                }
+
+                .readMore {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    left: 15px;
+                    bottom: 15px;
+                }
+
+                .btnReaMore {
+                    height: 35px;
+                    width: 35px;
+                    bottom: 15px;
+                    right: 15px;
+
+                    svg {
+                        width: 15px;
+                    }
+                }
+            }
+        }
+
+        &.smmLp {
+            .landingServicesContainer {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 10px;
+
+                .landingServicesItem {
+                    flex: 0 0 calc(100% - 0px);
+                    margin-bottom: 10px;
+                    height: 320px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 10px;
+
+
+                    .icon {
+                        width: 50px;
+                        height: 50px;
+
+                        svg {
+                            height: 22px;
+                        }
+                    }
+
+                    .title {
+                        font-size: 18px;
+                        line-height: 26px;
+                        margin-bottom: 5px;
+                    }
+
+                    .txtPara {
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin-bottom: 10px;
+                    }
+
+                    .readMore {
+                        width: 100px;
+                        height: 30px;
+                        font-size: 13px;
+                        line-height: 30px;
+                        left: 15px;
+                        bottom: 15px;
+                    }
+
+                    .btnReaMore {
+                        height: 30px;
+                        width: 30px;
+                        bottom: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 15px;
                         }
                     }
                 }

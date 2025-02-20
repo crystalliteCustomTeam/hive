@@ -7,7 +7,7 @@ const Contactfromlp = () => {
         <section className={styles.contactSection}>
             <Container>
                 <Row>
-                    <Col md={10} lg={10} className="m-auto">
+                    <Col md={12} lg={10} className="m-auto">
                         <div className={styles.formContainer}>
                             <h4>Don’t Be Shy, Say Hi!</h4>
                             <ContactFrom vertical={true} smmPage={true} />

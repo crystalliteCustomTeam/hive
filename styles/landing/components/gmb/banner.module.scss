@@ -18,3 +18,120 @@
         }
     }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .gmbSection {
+        padding: 150px 0px 30px;
+
+        .banenrLogo {
+            margin: 30px 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .gmbSection {
+        padding: 120px 0px 30px;
+
+        .banenrLogo {
+            margin: 25px 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .gmbSection {
+        padding: 100px 0px 30px;
+
+        .banenrLogo {
+            margin: 25px 0px;
+
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .gmbSection {
+        padding: 100px 0px 30px;
+
+        .banenrLogo {
+            margin: 20px 0px;
+
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .gmbSection {
+        padding: 100px 0px 30px;
+
+        .bannerText {
+            h1 {
+                font-size: 35px;
+                line-height: 45px;
+            }
+        }
+
+        .banenrLogo {
+            margin: 20px 0px;
+
+            img {
+                height: 18px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .gmbSection {
+        padding: 100px 0px 30px;
+
+        .bannerText {
+            h1 {
+                font-size: 35px;
+                line-height: 45px;
+            }
+        }
+
+        .banenrLogo {
+            margin: 20px 0px;
+
+            img {
+                height: 18px;
+                width: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .gmbSection {
+        padding: 80px 0px 30px;
+
+        .bannerText {
+            h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+
+
+        .banenrLogo {
+            margin: 20px 0px;
+
+            img {
+                height: 16px;
+                width: auto;
+            }
+        }
+    }
+}

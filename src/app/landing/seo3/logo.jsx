@@ -28,7 +28,7 @@ const LogoSection = () => {
         <section className={`${styles.logoSection} pt-100`}>
             <Container>
                 <Row>
-                    <Col md={10} lg={10} className="m-auto text-center">
+                    <Col md={12} lg={10} className="m-auto text-center">
                         <h2>Many Got Featured In Major Publication Just By Working With Us.</h2>
                         <div className={styles.logoBox}>
                             {data.map((item, index) => (

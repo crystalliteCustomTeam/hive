@@ -339,22 +339,30 @@ import Service04 from "media/landing/seo3/service04.webp"
 export const dataService = [
     {
         title: "Google My Business Optimization",
-        txt: "We start by claiming and verifying your Google My Business profile. This ensures your business shows up in local search results and on Google Maps. We complete your profile with your business name, address, phone number, and services, optimizing it for search engines. Regular posts, responding to questions, and managing reviews help keep your listing active and engaging.",
+        txt: (<>
+            <p>We start by claiming and verifying your Google My Business profile. This ensures your business shows up in local search results and on Google Maps. We complete your profile with your business name, address, phone number, and services, optimizing it for search engines. Regular posts, responding to questions, and managing reviews help keep your listing active and engaging.</p>
+        </>),
         img: Service01.src,
     },
     {
         title: "Local Citations",
-        txt: "NAP consistency is key to local SEO. We ensure your business information is accurate and consistent across all online directories and local platforms. We check for discrepancies and fix them, submitting your details to trusted directories. This helps Google trust your business and rank it higher. ",
+        txt: (<>
+            <p>NAP consistency is key to local SEO. We ensure your business information is accurate and consistent across all online directories and local platforms. We check for discrepancies and fix them, submitting your details to trusted directories. This helps Google trust your business and rank it higher.</p>
+        </>),
         img: Service02.src,
     },
     {
         title: "On-Page SEO",
-        txt: "We optimize your website by using location-based keywords in key areas like title tags, meta descriptions, and URLs. Through local content creation, such as city-specific pages, we target the right customers in your area. We also add schema markup and optimize Google Maps integration to ensure search engines understand your location and services.",
+        txt: (<>
+            <p>We optimize your website by using location-based keywords in key areas like title tags, meta descriptions, and URLs. Through local content creation, such as city-specific pages, we target the right customers in your area. We also add schema markup and optimize Google Maps integration to ensure search engines understand your location and services.</p>
+        </>),
         img: Service03.src,
     },
     {
         title: "Online Reviews & Reputation Management",
-        txt: "We focus on building a strong online reputation by encouraging customers to leave reviews, especially on Google. We monitor and respond to reviews, handling both positive and negative feedback professionally. By showcasing customer testimonials and addressing concerns, we help increase your business’s credibility and visibility in local search results.",
+        txt: (<>
+            <p>We focus on building a strong online reputation by encouraging customers to leave reviews, especially on Google. We monitor and respond to reviews, handling both positive and negative feedback professionally. By showcasing customer testimonials and addressing concerns, we help increase your business’s credibility and visibility in local search results.</p>
+        </>),
         img: Service04.src,
     },
 

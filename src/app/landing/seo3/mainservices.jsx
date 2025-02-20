@@ -9,7 +9,7 @@ const MainServices = ({ data, Container }) => {
                 <div className={styles.MainServicesBox} key={index}>
                     <div className={styles.ServTxtBox}>
                         <h2>{item.title}</h2>
-                        <p>{item.txt}</p>
+                        <div>{item.txt}</div>
                         <div className={styles.btnFlex}>
                             <CommonBtn txt="Click To Grow" LiveChat={true} BgBlack={true} />
                         </div>

@@ -7,7 +7,7 @@ const CTA = ({ data }) => {
         <section className={`${styles.ctaSection}`} style={{ backgroundImage: `url(${data.img})` }}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={6} lg={8} >
+                    <Col xs={12} md={9} lg={8} >
                         <div className={`${styles.ctaTitle}`}>
                             <h2>{data.title}</h2>
                             <p>{data.txt}</p>

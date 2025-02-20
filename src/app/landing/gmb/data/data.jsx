@@ -304,20 +304,20 @@ import Service01 from "media/landing/gmb/service01.webp"
 import Service02 from "media/landing/gmb/service02.webp"
 export const dataService = [
     {
-        title: "Let's Discover About Google My Business Optimization Services With Us!",
+        title: "Let's Discover About Google My Business Optimization Services With Us!",
         txt: <>
-            <p>A GMB listing is a difference between you being SEEN online or not. Yes, it is as simple as that. When everything is getting digital, it is essential than ever to claim your strong presence on Google maps to ensure visibility in the local search results.</p>
-            <p>Talking about Google My Business, it is a process that optimizes your GMB listing to help you gain more phone calls, more customers, and more sales. An optimized Google My Business listing enables Google to discover, crawl, index, and position your local business. By this, you can garner high-quality traffic and make an expansive customer base.</p>
-            <p>To cut a long story short, GMB optimization is all about adorning your business profile to look absolutely lovely to customers and Google. The key to optimizing your GMB lies in incorporating the keywords within your profile — to top the search results and earn the chance to win that 75% of the clicks that 3-pack gets!</p>
+            <p>A GMB listing is a difference between you being SEEN online or not. Yes, it is as simple as that. When everything is getting digital, it is essential than ever to claim your strong presence on Google maps to ensure visibility in the local search results.</p>
+            <p>Talking about Google My Business, it is a process that optimizes your GMB listing to help you gain more phone calls, more customers, and more sales. An optimized Google My Business listing enables Google to discover, crawl, index, and position your local business. By this, you can garner high-quality traffic and make an expansive customer base.</p>
+            <p>To cut a long story short, GMB optimization is all about adorning your business profile to look absolutely lovely to customers and Google. The key to optimizing your GMB lies in incorporating the keywords within your profile — to top the search results and earn the chance to win that 75% of the clicks that 3-pack gets!</p>
         </>,
         img: Service01.src,
     },
     {
-        title: "Let's Discover About Google My Business Optimization Services With Us!",
+        title: "Let's Discover About Google My Business Optimization Services With Us!",
         txt: <>
-            <p>A GMB listing is a difference between you being SEEN online or not. Yes, it is as simple as that. When everything is getting digital, it is essential than ever to claim your strong presence on Google maps to ensure visibility in the local search results.</p>
-            <p>Talking about Google My Business, it is a process that optimizes your GMB listing to help you gain more phone calls, more customers, and more sales. An optimized Google My Business listing enables Google to discover, crawl, index, and position your local business. By this, you can garner high-quality traffic and make an expansive customer base.</p>
-            <p>To cut a long story short, GMB optimization is all about adorning your business profile to look absolutely lovely to customers and Google. The key to optimizing your GMB lies in incorporating the keywords within your profile — to top the search results and earn the chance to win that 75% of the clicks that 3-pack gets!</p>
+            <p>A GMB listing is a difference between you being SEEN online or not. Yes, it is as simple as that. When everything is getting digital, it is essential than ever to claim your strong presence on Google maps to ensure visibility in the local search results.</p>
+            <p>Talking about Google My Business, it is a process that optimizes your GMB listing to help you gain more phone calls, more customers, and more sales. An optimized Google My Business listing enables Google to discover, crawl, index, and position your local business. By this, you can garner high-quality traffic and make an expansive customer base.</p>
+            <p>To cut a long story short, GMB optimization is all about adorning your business profile to look absolutely lovely to customers and Google. The key to optimizing your GMB lies in incorporating the keywords within your profile — to top the search results and earn the chance to win that 75% of the clicks that 3-pack gets!</p>
         </>,
         img: Service02.src,
     },

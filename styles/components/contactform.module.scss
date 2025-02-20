@@ -377,6 +377,41 @@
             }
         }
 
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 60px;
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding: 0px 20px
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 55px;
+                }
+            }
+
+            .para {
+                font-size: 14px;
+                line-height: 20px;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+
         .contactItem {
             margin-bottom: 15px;
 
@@ -419,6 +454,41 @@
         padding: 25px;
         max-width: 450px;
         margin: auto;
+
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 55px;
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding: 0px 20px
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 55px;
+                }
+            }
+
+            .para {
+                font-size: 14px;
+                line-height: 20px;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
 
         &.landingPage {
             gap: 10px;
@@ -489,6 +559,41 @@
         max-width: 420px;
         margin: auto;
 
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 50px;
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding: 0px 20px
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .para {
+                font-size: 14px;
+                line-height: 20px;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+
         &.landingPage {
             gap: 10px;
 
@@ -557,6 +662,41 @@
         max-width: 420px;
         margin: auto;
 
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 50px;
+                    font-size: 14px;
+                    line-height: 23px;
+                    padding: 0px 20px
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .para {
+                font-size: 13px;
+                line-height: 20px;
+
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+
         &.landingPage {
             gap: 10px;
 
@@ -624,6 +764,41 @@
         padding: 20px;
         max-width: 420px;
         margin: auto;
+
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 50px;
+                    font-size: 13px;
+                    line-height: 23px;
+                    padding: 0px 10px;
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .para {
+                font-size: 13px;
+                line-height: 20px;
+
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
 
         &.verticalFrom {
             gap: 5px;
@@ -703,6 +878,41 @@
         max-width: 420px;
         margin: auto;
 
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 50px;
+                    font-size: 13px;
+                    line-height: 23px;
+                    padding: 0px 10px;
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .para {
+                font-size: 13px;
+                line-height: 20px;
+
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+
         &.verticalFrom {
             gap: 5px;
 
@@ -781,6 +991,41 @@
         max-width: 420px;
         margin: auto;
 
+        &.smmPage {
+            margin-top: 20px;
+
+            .contactItem {
+                margin-bottom: 10px;
+
+                input {
+                    height: 50px;
+                    font-size: 13px;
+                    line-height: 23px;
+                    padding: 0px 15px;
+                }
+
+            }
+
+            .contactBtn {
+                text-align: center;
+
+                button {
+                    border: 0px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .para {
+                font-size: 12px;
+                line-height: 20px;
+
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+
         &.bgBlack {
             .contactItem {
 
@@ -858,7 +1103,9 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 150px;
+                min-width: 150px;
+                padding: 0px 20px;
+                width: auto;
             }
         }
     }

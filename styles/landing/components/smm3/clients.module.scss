@@ -47,25 +47,23 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .clientSection {
+        height: 180px;
+        border-radius: 60px 60px 0px 0px;
+
         .clientSlider {
-            height: 90px;
+            height: 100px;
 
             .embla {
-
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 6);
+                            flex: 0 0 calc(100% / 7);
 
                             .imgBox {
-                                height: 32px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 55px;
                             }
-
                         }
                     }
                 }
@@ -76,24 +74,23 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .clientSection {
+        height: 160px;
+        border-radius: 50px 50px 0px 0px;
+
         .clientSlider {
             height: 90px;
 
             .embla {
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 6);
+                            flex: 0 0 calc(100% / 7);
 
                             .imgBox {
-                                height: 30px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 50px;
                             }
-
                         }
                     }
                 }
@@ -104,24 +101,23 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .clientSection {
+        height: 150px;
+        border-radius: 50px 50px 0px 0px;
+
         .clientSlider {
             height: 80px;
 
             .embla {
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 5);
+                            flex: 0 0 calc(100% / 6);
 
                             .imgBox {
-                                height: 30px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 45px;
                             }
-
                         }
                     }
                 }
@@ -132,24 +128,23 @@
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .clientSection {
+        height: 145px;
+        border-radius: 50px 50px 0px 0px;
+
         .clientSlider {
             height: 80px;
 
             .embla {
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 5);
+                            flex: 0 0 calc(100% / 6);
 
                             .imgBox {
-                                height: 30px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 40px;
                             }
-
                         }
                     }
                 }
@@ -160,24 +155,23 @@
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .clientSection {
+        height: 140px;
+        border-radius: 40px 40px 0px 0px;
+
         .clientSlider {
-            height: 70px;
+            height: 80px;
 
             .embla {
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 4);
+                            flex: 0 0 calc(100% / 6);
 
                             .imgBox {
-                                height: 26px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 40px;
                             }
-
                         }
                     }
                 }
@@ -188,24 +182,23 @@
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .clientSection {
+        height: 140px;
+        border-radius: 40px 40px 0px 0px;
+
         .clientSlider {
-            height: 70px;
+            height: 80px;
 
             .embla {
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 3.5);
+                            flex: 0 0 calc(100% / 4);
 
                             .imgBox {
-                                height: 25px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 40px;
                             }
-
                         }
                     }
                 }
@@ -216,24 +209,23 @@
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .clientSection {
+        height: 140px;
+        border-radius: 20px 20px 0px 0px;
+
         .clientSlider {
             height: 70px;
 
             .embla {
                 .embla__viewport {
+
                     .embla__container {
 
                         .embla__slide {
-                            flex: 0 0 calc(100% / 2.5);
+                            flex: 0 0 calc(100% / 3);
 
                             .imgBox {
-                                height: 22px;
-
-                                img {
-                                    object-fit: contain;
-                                }
+                                height: 40px;
                             }
-
                         }
                     }
                 }

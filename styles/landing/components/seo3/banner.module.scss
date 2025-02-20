@@ -54,3 +54,307 @@
         border-radius: 0px 0px 120px 120px;
     }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerSection {
+        height: 700px;
+        border-radius: 0px 0px 80px 80px;
+        padding-top: 80px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 80px 80px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 55px;
+                line-height: 60px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 30px;
+            }
+        }
+
+        .banneerFrom {
+            max-width: 500px;
+            padding: 25px;
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerSection {
+        height: 700px;
+        border-radius: 0px 0px 80px 80px;
+        padding-top: 80px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 80px 80px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 50px;
+                line-height: 55px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 30px;
+            }
+        }
+
+        .banneerFrom {
+            max-width: 500px;
+            padding: 25px;
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerSection {
+        height: 700px;
+        border-radius: 0px 0px 60px 60px;
+        padding-top: 50px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 60px 60px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 45px;
+                line-height: 50px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 30px;
+            }
+        }
+
+        .banneerFrom {
+            max-width: 500px;
+            padding: 25px;
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerSection {
+        height: 700px;
+        border-radius: 0px 0px 50px 50px;
+        padding-top: 40px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 50px 50px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 42px;
+                line-height: 50px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 30px;
+            }
+        }
+
+        .banneerFrom {
+            max-width: 500px;
+            padding: 25px;
+
+            h3 {
+                font-size: 25px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .bannerSection {
+        height: 700px;
+        border-radius: 0px 0px 50px 50px;
+        padding-top: 20px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 50px 50px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 35px;
+                line-height: 40px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 20px;
+
+                img {
+                    height: 16px;
+                    width: auto;
+                }
+            }
+        }
+
+        .banneerFrom {
+            max-width: 500px;
+            padding: 25px;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .bannerSection {
+        height: auto;
+        border-radius: 0px 0px 30px 30px;
+        padding: 100px 0px 30px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 30px 30px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 35px;
+                line-height: 40px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 20px;
+
+                img {
+                    height: 16px;
+                    width: auto;
+                }
+            }
+        }
+
+        .banneerFrom {
+            max-width: 400px;
+            padding: 25px;
+            margin: 20px auto;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .bannerSection {
+        height: auto;
+        border-radius: 0px 0px 20px 20px;
+        padding: 100px 0px 30px;
+
+        &::after,
+        video {
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        .bannerText {
+            h1 {
+                font-size: 30px;
+                line-height: 35px;
+                margin-bottom: 10px;
+            }
+
+            .banenrLogo {
+                margin-top: 20px;
+
+                img {
+                    height: 16px;
+                    width: auto;
+                }
+            }
+        }
+
+        .banneerFrom {
+            max-width: 400px;
+            padding: 25px;
+            margin: 20px auto;
+
+            h3 {
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 20px;
+            }
+        }
+
+    }
+}

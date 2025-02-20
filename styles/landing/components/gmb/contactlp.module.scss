@@ -28,3 +28,140 @@
         }
     }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .contactLpSection {
+        margin-top: 150px;
+
+        .containerBG {
+            padding: 30px 50px;
+            height: 620px;
+        }
+
+        .profileImg {
+            height: 590px;
+
+            img {
+                max-width: 600px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .contactLpSection {
+        margin-top: 120px;
+
+        .containerBG {
+            padding: 30px 50px;
+            height: 570px;
+        }
+
+        .profileImg {
+            height: 540px;
+
+            img {
+                max-width: 520px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .contactLpSection {
+        margin-top: 120px;
+
+        .containerBG {
+            padding: 30px 50px;
+            height: 530px;
+        }
+
+        .profileImg {
+            height: 500px;
+
+            img {
+                max-width: 480px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .contactLpSection {
+        margin-top: 120px;
+
+        .containerBG {
+            padding: 30px 50px;
+            height: 530px;
+        }
+
+        .profileImg {
+            height: 500px;
+
+
+            img {
+                max-width: 480px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .contactLpSection {
+        margin-top: 50px;
+
+        .containerBG {
+            padding: 30px 50px;
+            height: auto;
+        }
+
+        .profileImg {
+            height: 400px;
+
+
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .contactLpSection {
+        margin-top: 50px;
+
+        .containerBG {
+            padding: 30px 50px;
+            height: auto;
+        }
+
+        .profileImg {
+            height: 400px;
+            display: none;
+
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .contactLpSection {
+        margin-top: 50px;
+
+        .containerBG {
+            padding: 30px 20px;
+            height: auto;
+        }
+
+        .profileImg {
+            height: 400px;
+            display: none;
+
+            img {
+                max-width: 300px;
+            }
+        }
+    }
+}

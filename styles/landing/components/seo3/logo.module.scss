@@ -16,3 +16,115 @@
         }
     }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .logoSection {
+        padding-bottom: 40px;
+
+        .logoBox {
+            margin-top: 40px;
+            gap: 10px;
+
+            .logoImg {
+                height: 120px;
+                flex: 0 0 calc(100% / 5 - 10px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .logoSection {
+        padding-bottom: 35px;
+
+        .logoBox {
+            margin-top: 35px;
+            gap: 10px;
+
+            .logoImg {
+                height: 110px;
+                flex: 0 0 calc(100% / 5 - 10px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .logoSection {
+        padding-bottom: 30px;
+
+        .logoBox {
+            margin-top: 30px;
+            gap: 10px;
+
+            .logoImg {
+                height: 110px;
+                flex: 0 0 calc(100% / 5 - 10px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .logoSection {
+        padding-bottom: 30px;
+
+        .logoBox {
+            margin-top: 30px;
+            gap: 10px;
+
+            .logoImg {
+                height: 110px;
+                flex: 0 0 calc(100% / 5 - 10px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .logoSection {
+        padding-bottom: 30px;
+
+        .logoBox {
+            margin-top: 30px;
+            gap: 15px;
+
+            .logoImg {
+                height: 80px;
+                flex: 0 0 calc(100% / 4 - 15px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .logoSection {
+        padding-bottom: 30px;
+
+        .logoBox {
+            margin-top: 30px;
+            gap: 15px;
+
+            .logoImg {
+                height: 60px;
+                flex: 0 0 calc(100% / 4 - 15px);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .logoSection {
+        padding-bottom: 30px;
+
+        .logoBox {
+            margin-top: 30px;
+            gap: 10px;
+
+            .logoImg {
+                height: 80px;
+                flex: 0 0 calc(100% / 2 - 20px);
+            }
+        }
+    }
+}

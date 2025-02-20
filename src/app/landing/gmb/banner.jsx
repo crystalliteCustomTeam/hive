@@ -10,7 +10,7 @@ const Banner = () => {
         <section className={` ${styles.gmbSection}`}>
             <Container>
                 <Row>
-                    <Col md={6} lg={10} className="m-auto text-center">
+                    <Col md={11} lg={10} className="m-auto text-center">
                         <div className={styles.bannerText}>
                             <h1>Showcase Your Business Perfectly with <span>GMB Optimization!</span></h1>
                             <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data-driven strategies and surprising bottom-line results to fuel your business growth.</p>

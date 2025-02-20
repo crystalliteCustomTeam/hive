@@ -2,6 +2,9 @@
     border-radius: 120px 120px 0px 0px;
     margin-top: -100px;
     padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
 
     h2 {
         margin-bottom: 15px;
@@ -190,7 +193,7 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
     .betterSection {
-        border-radius: 100px;
+        border-radius: 80px;
 
         h2 {
             margin-bottom: 30px;
@@ -218,6 +221,11 @@
         .menImage {
             position: relative;
 
+            img {
+                height: 670px;
+                width: auto;
+            }
+
             &::after {
                 height: 380px;
             }
@@ -241,7 +249,7 @@
                     }
 
                     &:nth-child(3) {
-                        bottom: 170px;
+                        bottom: 0px;
                         left: 100px;
                     }
 
@@ -256,7 +264,7 @@
                     }
 
                     &:nth-child(6) {
-                        bottom: 170px;
+                        bottom: 0px;
                         right: 100px;
                     }
 
@@ -285,7 +293,7 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .betterSection {
-        border-radius: 100px;
+        border-radius: 70px;
 
         h2 {
             margin-bottom: 20px;
@@ -314,7 +322,7 @@
             position: relative;
 
             img {
-                height: 860px;
+                height: 670px;
                 width: auto;
             }
 
@@ -341,7 +349,7 @@
                     }
 
                     &:nth-child(3) {
-                        bottom: 170px;
+                        bottom: 0px;
                         left: 100px;
                     }
 
@@ -356,7 +364,7 @@
                     }
 
                     &:nth-child(6) {
-                        bottom: 170px;
+                        bottom: 0px;
                         right: 100px;
                     }
 
@@ -385,7 +393,7 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
     .betterSection {
-        border-radius: 70px;
+        border-radius: 60px;
 
         h2 {
             margin-bottom: 20px;
@@ -412,6 +420,11 @@
 
         .menImage {
             position: relative;
+
+            img {
+                height: 670px;
+                width: auto;
+            }
 
             &::after {
                 height: 380px;
@@ -427,17 +440,17 @@
 
                     &:first-child {
                         top: 150px;
-                        left: -50px;
+                        left: 0px;
                     }
 
                     &:nth-child(2) {
                         top: 370px;
-                        left: 50px;
+                        left: 0px;
                     }
 
                     &:nth-child(3) {
-                        bottom: 170px;
-                        left: 50px;
+                        bottom: 0px;
+                        left: 0px;
                     }
 
                     &:nth-child(4) {
@@ -447,12 +460,12 @@
 
                     &:nth-child(5) {
                         top: 370px;
-                        right: 50px;
+                        right: 0px;
                     }
 
                     &:nth-child(6) {
-                        bottom: 170px;
-                        right: 50px;
+                        bottom: 0px;
+                        right: 0px;
                     }
 
                 }
@@ -463,24 +476,27 @@
             padding: 10px 30px;
             font-size: 16px;
             margin-bottom: 10px;
+            line-height: 22px;
         }
 
         .origanTxt {
             font-size: 16px;
-            line-height: 30px;
+            line-height: 26px;
             margin-bottom: 10px;
         }
 
         .uppercaseTxt {
             font-size: 24px;
-            line-height: 34px;
+            line-height: 30px;
         }
     }
 }
 
 @media only screen and (min-width: 900px) and (max-width:1099px) {
     .betterSection {
-        border-radius: 70px;
+        border-radius: 50px 50px 0px 0px;
+        margin-top: -70px;
+        padding-bottom: 40px;
 
         h2 {
             margin-bottom: 20px;
@@ -507,6 +523,11 @@
 
         .menImage {
             position: relative;
+
+            img {
+                height: 600px;
+                width: auto;
+            }
 
             &::after {
                 height: 380px;
@@ -531,7 +552,7 @@
                     }
 
                     &:nth-child(3) {
-                        bottom: 170px;
+                        bottom: 0px;
                         left: 50px;
                     }
 
@@ -546,7 +567,7 @@
                     }
 
                     &:nth-child(6) {
-                        bottom: 170px;
+                        bottom: 0px;
                         right: 50px;
                     }
 
@@ -575,7 +596,10 @@
 
 @media only screen and (min-width: 768px) and (max-width:899px) {
     .betterSection {
-        border-radius: 70px;
+        border-radius: 50px 50px 0px 0px;
+        margin-top: -70px;
+        padding-bottom: 40px;
+        background-size: cover;
 
         h2 {
             margin-bottom: 20px;
@@ -606,9 +630,10 @@
 
         .menImage {
             position: relative;
+            margin: 50px 0px 50px;
 
             img {
-                height: 600px;
+                height: 550px;
                 width: auto;
             }
 
@@ -635,8 +660,8 @@
                     }
 
                     &:nth-child(3) {
-                        bottom: 100px;
-                        left: 50px;
+                        bottom: 0px;
+                        left: 0px;
                     }
 
                     &:nth-child(4) {
@@ -646,12 +671,12 @@
 
                     &:nth-child(5) {
                         top: 280px;
-                        right: 50px;
+                        right: 0px;
                     }
 
                     &:nth-child(6) {
-                        bottom: 100px;
-                        right: 50px;
+                        bottom: 0px;
+                        right: 0px;
                     }
 
                 }
@@ -680,7 +705,10 @@
 
 @media only screen and (min-width: 576px) and (max-width:767px) {
     .betterSection {
-        border-radius: 70px;
+        border-radius: 40px 40px 0px 0px;
+        margin-top: -90px;
+        padding-bottom: 40px;
+        background-size: cover;
 
         h2 {
             margin-bottom: 20px;
@@ -711,9 +739,10 @@
 
         .menImage {
             position: relative;
+            margin: 50px 0px 50px;
 
             img {
-                height: 600px;
+                height: 500px;
                 width: auto;
             }
 
@@ -724,7 +753,7 @@
             .sectionPoints {
 
                 .point {
-                    width: 200px;
+                    width: 250px;
                     height: 70px;
                     font-size: 13px;
                     line-height: 18px;
@@ -741,7 +770,7 @@
                     }
 
                     &:nth-child(3) {
-                        bottom: 100px;
+                        bottom: 0px;
                         left: 0px;
                     }
 
@@ -756,7 +785,7 @@
                     }
 
                     &:nth-child(6) {
-                        bottom: 100px;
+                        bottom: 0px;
                         right: 0px;
                     }
 
@@ -786,7 +815,10 @@
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
     .betterSection {
-        border-radius: 0px;
+        border-radius: 0px 0px 0px 0px;
+        margin-top: -90px;
+        padding-bottom: 40px;
+        background-size: cover;
 
         h2 {
             margin-bottom: 20px;
@@ -817,10 +849,12 @@
 
         .menImage {
             position: relative;
+            margin: 20px 0px 20px;
 
             img {
-                height: 480px;
+                height: auto;
                 width: auto;
+                margin-bottom: 250px;
             }
 
             &::after {
@@ -837,6 +871,7 @@
                     padding: 0px 10px;
                     justify-content: center;
                     text-align: center;
+                    margin-top: 120px;
 
 
                     &:first-child {
