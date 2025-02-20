@@ -14,8 +14,8 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.bannerText}>
-                            <h1>Still No Traffic?<br className="d-md-block d-none" />
-                                It’s Time to Hire A<br className="d-md-block d-none" />
+                            <h1>Still No Traffic?<br />
+                                It’s Time to Hire A<br />
                                 Local SEO Agency
                             </h1>
                             <p>Our local SEO agency will optimize your website to rank higher on search engines, driving more local traffic. Get found by the right customers and watch your business grow with Infiniti Digital. </p>
