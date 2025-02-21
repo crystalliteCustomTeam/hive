@@ -2,13 +2,17 @@
 
 //  About Awards
 
-import Awards01 from "media/about/awards/1.webp";
-import Awards02 from "media/about/awards/2.webp";
-import Awards03 from "media/about/awards/3.webp";
-import Awards04 from "media/about/awards/4.webp";
-import Awards05 from "media/about/awards/5.webp";
-import Awards06 from "media/about/awards/6.webp";
-import Awards07 from "media/about/awards/7.webp";
+import Awards01 from "media/about/awards/1.svg";
+import Awards02 from "media/about/awards/2.svg";
+import Awards03 from "media/about/awards/3.svg";
+import Awards04 from "media/about/awards/4.svg";
+import Awards05 from "media/about/awards/5.svg";
+import Awards06 from "media/about/awards/6.svg";
+import Awards07 from "media/about/awards/7.svg";
+import Awards08 from "media/about/awards/8.svg";
+import Awards09 from "media/about/awards/9.svg";
+import Awards10 from "media/about/awards/10.svg";
+import Awards11 from "media/about/awards/11.svg";
 
 export const AbtAwardsData = {
     subtitle: "",
@@ -22,10 +26,10 @@ export const AbtAwardsData = {
         Awards05.src,
         Awards06.src,
         Awards07.src,
-        Awards01.src,
-        Awards02.src,
-        Awards03.src,
-        Awards04.src,
+        Awards08.src,
+        Awards09.src,
+        Awards10.src,
+        Awards11.src,
     ],
 };
 
