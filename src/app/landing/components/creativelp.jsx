@@ -13,7 +13,7 @@ const CreativeLp = ({ data }) => {
         <section className={`pt-100 ${styles.latestworkSection}`} id="PortfolioId">
             <Container>
                 <Row>
-                    <Col md={8} className="mx-auto text-center">
+                    <Col md={7} className="mx-auto text-center">
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
