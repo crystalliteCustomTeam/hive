@@ -379,7 +379,7 @@ export const TestimonialData = {
             txt: "We were struggling to get traffic from Google, and our website wasn’t showing up in local searches. After working with this team, we’ve noticed a steady improvement in our rankings. It’s not an overnight miracle, but we’re definitely getting more calls and inquiries from people nearby. Definitely worth the investment.",
             icon: <ClutchLogo />,
             namee: "Jessica H.",
-            job: "Hair Salons",
+            job: "Hair Salon",
         },
         {
             txt: "We’ve been working with this team for a few months now, and it’s clear the effort they put in is paying off. Our site is showing up in more local searches, and we’re seeing a steady stream of new customers who found us through Google. They were easy to work with and explained everything along the way.",
@@ -400,7 +400,7 @@ export const TestimonialData = {
 import IMGBG from "media/landing/seo3/contactBg.webp"
 export const ContactData = {
     subtitle: "Get In Touch",
-    title: "Don’t Wait to Be Found, Make It Happen With Our Local SEO Services.",
+    title: (<>Don’t Wait to Be Found, <br />Make It Happen With Our Local SEO Services.</>),
     desc: "Fill out the form and let’s make sure your website is the first thing customers see when they search locally.",
     bgImg: IMGBG.src
 }

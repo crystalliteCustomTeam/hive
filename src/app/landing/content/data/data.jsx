@@ -1,104 +1,120 @@
 export const StateCounterPoints = {
     stateItem: [
         {
-            numbers: "200+",
-            namee: "Custom Themes"
+            numbers: "$6.2M+",
+            namee: "in revenue generated from content pillars"
         },
         {
-            numbers: "100+",
-            namee: "Mobile Optimization"
+            numbers: "82%",
+            namee: "of landing pages saw higher conversions"
         }, {
-            numbers: "3M",
-            namee: "SEO Integration"
+            numbers: "14.8B+",
+            namee: "words of content written"
         }, {
-            numbers: "4.9",
-            namee: "Site Security"
+            numbers: "20+",
+            namee: "Industries served"
         }
     ]
 }
 
 export const WhyChooseData = {
-    subtitle: "Why Choose Us",
-    title: "Proven Results, Real Impact",
-    txt: "Explore our latest projects and see how we've helped brands grow, engage, and succeed in the digital world.",
+    subtitle: "",
+    title: "Your Sales Funnel is Clogged with Bad Content Strategy ",
+    txt: "SEO, Readability, Conversions; A Content Strategist Brings It All Together.",
     WhyChooseItem: [
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
+            title: "Poor Keyword Targeting",
+            txt: "Content that doesn’t target the right keywords simply won’t get found. If you’re guessing which keywords to use, or worse, stuffing random ones in you’re making it harder for search engines to understand your content."
         },
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
-
+            title: "Poor Readability",
+            txt: "If your content is hard to read, no one will stick around. Long, complex sentences, and jargon-filled explanations make readers lose interest. People scan online content, so if your content isn’t clear and concise, expect high bounce rates."
         },
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
+            title: "Overcomplicated or Confusing Language",
+            txt: "Trying too hard to sound smart? That might be costing you sales. If your content is filled with vague statements, or overly technical language, your audience won’t understand it because simple, direct messaging wins every time."
         },
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
+            title: "Poor Formatting & Visual Flow",
+            txt: "Even the best content will fail if it’s visually overwhelming. A page with no subheadings, no bullet points, and dense paragraphs is difficult to navigate. Well-formatted content keeps users engaged and makes key information stand out."
         }
     ]
 }
 
 import CtaImg from "media/landing/content/cta.webp"
 export const CtaData = {
-    title: "Talk To Our Experts",
-    txt: "Contact us without obligation by email or phone and secure your free consultation.",
+    title: "Talk To A Content Specialist",
+    txt: "You Don’t Need More Content, You Need Better Content.",
     img: CtaImg.src
 }
 
 //Services
 import { ServicesIcon } from "@/src/app/app-constants"
 export const ServiceslpData = {
-    subtitle: "Our Services",
-    title: "Your Search for Complete Marketing",
-    desc: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape. ",
+    subtitle: "",
+    title: (<>SEO? Engagement? Sales?<br />
+        Yeah, We Nail All Three.
+    </>),
+    desc: "The content is paramount! and we are the Throne's might.",
     ServicesItem: [
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "SEO Blogs Writing",
+            para: "Optimized blog posts designed to rank higher on search engines and attract organic traffic.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Website Copywriting",
+            para: "Persuasive and engaging content for websites that enhances user experience and conversions.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Social Media Content",
+            para: "Short, engaging posts crafted to boost engagement and brand awareness on social platforms.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Email Marketing Copy",
+            para: "Persuasive emails designed to nurture leads, retain customers, and increase conversions.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Landing Page Copywriting",
+            para: "High-converting content for landing pages aimed at driving sign-ups or sales.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Technical Writing",
+            para: "Detailed, well-structured content explaining complex topics in a clear and concise way.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Ghostwriting",
+            para: "Professionally written books published under another person’s name.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Video Script Writing",
+            para: "Engaging scripts for explainer videos, ads, YouTube content, or corporate presentations.",
             icon: <ServicesIcon />
         },
         {
-            title: "Blogs Writing",
-            para: "Engage your audience with informative and captivating blog posts that drive traffic and boost your online presence.",
+            title: "Ad Copywriting",
+            para: "Short, persuasive copy designed to maximize ad performance and ROI.",
+            icon: <ServicesIcon />
+        },
+        {
+            title: "Case Studies",
+            para: "Data-backed reports and success stories showcasing expertise and business impact.",
+            icon: <ServicesIcon />
+        },
+        {
+            title: "Newsletter Writing",
+            para: "Informative and promotional email content designed to keep subscribers engaged.",
+            icon: <ServicesIcon />
+        },
+        {
+            title: "Press Releases",
+            para: "Newsworthy content crafted to announce events, launches, or updates to the media.",
             icon: <ServicesIcon />
         },
     ]
@@ -110,49 +126,65 @@ import Tab02 from "media/landing/content/tab/tab2.webp"
 import Tab03 from "media/landing/content/tab/tab3.webp"
 import Tab04 from "media/landing/content/tab/tab4.webp"
 export const MarketPointsData = {
-    subtitle: "Content Marketing",
-    title: "How Are We Different From Other Content Marketing Agencies?",
-    desc: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape. ",
+    subtitle: "",
+    title: (<>Why Top Brands Trust Us for<br />
+        Creative Content Marketing</>),
+    desc: "",
     MarketPointsItem: [
         {
-            title: "Focused",
-            para: "Our team of experts  carefully design your content to give you the maximum ROI. We consider your competitive landscape, your audience’s needs, and your business goals, to curate the best possible and authentic content. Our team brings a wealth of knowledge, ensuring that your content is accurate, insightful, and tailored to your specific needs.",
+            title: "Creativity",
+            para: (<>
+                We craft compelling narratives that grab attention and leave a lasting impact.<br />
+                Every sentence is carefully written to engage, entertain, and inspire action.<br />
+                Our words don’t just fill space, they create memorable brand experiences.
+
+            </>),
             img: Tab01.src
         },
         {
             title: "Flexible",
-            para: "Our team of experts  carefully design your content to give you the maximum ROI. We consider your competitive landscape, your audience’s needs, and your business goals, to curate the best possible and authentic content. Our team brings a wealth of knowledge, ensuring that your content is accurate, insightful, and tailored to your specific needs.",
+            para: (<>
+                We shape our writing to fit your brand’s unique identity, from formal to conversational.<br />
+                Whether it’s a blog, ad copy, or website content, we adjust to meet every need.<br />
+                Our adaptability ensures your message stays fresh, relevant, and impactful.
+            </>),
             img: Tab02.src
         },
         {
-            title: "100% No AI Content",
-            para: "Our team of experts  carefully design your content to give you the maximum ROI. We consider your competitive landscape, your audience’s needs, and your business goals, to curate the best possible and authentic content. Our team brings a wealth of knowledge, ensuring that your content is accurate, insightful, and tailored to your specific needs.",
+            title: "Originality",
+            para: (<>
+                We write from scratch, no templates, just original content.<br />
+                Every piece is structured to resonate with your audience and stand apart from the noise.<br />
+                Your brand’s voice is unique, and we make sure it stays that way.
+            </>),
             img: Tab03.src
-        },
-        {
-            title: "Written by Experts",
-            para: "Our team of experts  carefully design your content to give you the maximum ROI. We consider your competitive landscape, your audience’s needs, and your business goals, to curate the best possible and authentic content. Our team brings a wealth of knowledge, ensuring that your content is accurate, insightful, and tailored to your specific needs.",
-            img: Tab04.src
         },
     ]
 }
 
 export const PorcessLpData = {
     subtitle: "Our Process",
-    title: "How We Help Your Brand Grow.",
-    desc: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape. ",
+    title: "Easy Start, Engaging Content, Lasting Results.",
+    desc: "",
     PorcessLpItem: [
         {
-            title: "Deeply Understand your Business and Audience.",
-            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+            title: "Onboarding",
+            para: (<>
+                We keep it quick; fill out a short form, hop on a call (if needed), and you’re in.<br />
+                By the time other agencies finish "discovery," we’re getting first drafts approved.
+            </>),
         },
         {
-            title: "Deeply Understand your Business and Audience.",
-            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+            title: "Writing ",
+            para: (<>
+                We don’t do boring. We write to captivate, and convert.<br />
+                Every piece is written with a clear thought process and so good, you won’t need revisions.</>),
         },
         {
-            title: "Deeply Understand your Business and Audience.",
-            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+            title: "Continued Growth",
+            para: (<>
+                Because one project is never enough with Infiniti Digital.<br />
+                You’ll love what we do, and guess what? Once you start with us, there’s only moving forward.</>),
         }
 
     ]
@@ -160,52 +192,54 @@ export const PorcessLpData = {
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
-    subtitle: "Awards & Recognitions",
-    title: "Celebrating Excellence, Innovation, and Results",
-    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
+    subtitle: (<><i>Btw, some of our clients are featured below—no pressure</i></>),
+    title: (<>We Write for a Living,<br />
+        Check out our reviews!
+    </>),
+    desc: "",
     Awardslides: [
         {
-            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            txt: "Infiniti Digital has been handling our legal briefs for over a year now, and I can confidently say they’ve made my life so much easier. Their legal expertise, and NDA mean I never have to worry about a thing. If you need a content team that understands the legal world and respects discretion, this is the one.",
             icon: < ClutchLogo />,
-            namee: "Jessica H.",
-            job: "Online Store Owner",
+            namee: "Jonathan Pierce",
+            job: "Corporate Attorney.",
             color: "#DFFFBF",
 
         },
         {
-            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
-            icon: <TrustpilotLogo />,
-            namee: "David R.",
-            job: "Small Business Owner",
+            txt: "These guys have done everything from the content inside our trading dashboard to the sales copy for our web app. Since working with them, our engagement has gone up, and users actually understand the value of our platform right away. If you need content that sells and educates, this is the team you want.",
+            icon: < TrustpilotLogo />,
+            namee: "Mark Caldwell",
+            job: "Founder & CEO of TradeSync.",
             color: "#E0F0FF",
         },
         {
-            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            txt: "Infiniti Digital handles all our white-label custom content, and they’re absolutely killing it. The blogs are SEO-friendly, client-ready, and always delivered on point. Our clients love the results, and we love not having to worry about content.",
             icon: <GoogleLogo />,
-            namee: "Emma L.",
-            job: "Local Business Owner",
+            namee: "Jason Reynolds",
+            job: "SEO Manager at Elevate Digital.",
             color: "#FFCDD7",
         },
         {
-            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            txt: "Infiniti Digital has been handling our legal briefs for over a year now, and I can confidently say they’ve made my life so much easier. Their legal expertise, and NDA mean I never have to worry about a thing. If you need a content team that understands the legal world and respects discretion, this is the one.",
             icon: < ClutchLogo />,
-            namee: "Jessica H.",
-            job: "Online Store Owner",
+            namee: "Jonathan Pierce",
+            job: "Corporate Attorney.",
             color: "#DFFFBF",
 
         },
         {
-            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
-            icon: <TrustpilotLogo />,
-            namee: "David R.",
-            job: "Small Business Owner",
+            txt: "These guys have done everything from the content inside our trading dashboard to the sales copy for our web app. Since working with them, our engagement has gone up, and users actually understand the value of our platform right away. If you need content that sells and educates, this is the team you want.",
+            icon: < TrustpilotLogo />,
+            namee: "Mark Caldwell",
+            job: "Founder & CEO of TradeSync.",
             color: "#E0F0FF",
         },
         {
-            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            txt: "Infiniti Digital handles all our white-label custom content, and they’re absolutely killing it. The blogs are SEO-friendly, client-ready, and always delivered on point. Our clients love the results, and we love not having to worry about content.",
             icon: <GoogleLogo />,
-            namee: "Emma L.",
-            job: "Local Business Owner",
+            namee: "Jason Reynolds",
+            job: "SEO Manager at Elevate Digital.",
             color: "#FFCDD7",
         },
 
@@ -215,46 +249,26 @@ export const AwardsPoints = {
 //Book Tabs
 
 export const BookTabsData = {
-    subtitle: "Book Gallery",
-    title: "Bringing Your Story to Life Across Genres",
-    desc: "Wondering how to share your personal experiences in a meaningful way? Explore ways to turn your stories into narratives that connect and inspire others. ",
-
+    subtitle: "",
+    title: "We Write. You Read. Deal Closed.",
+    desc: (<>If we kept you reading this long, imagine what we can do for your content.<br />
+        At this point you don’t need a sample, you need a contract.
+    </>),
 }
-// FAQs
-export const FAQsData = {
-    subtitle: "FAQs",
-    title: "Frequently Asked Question?",
 
-    Fqaslist: [
-        {
-            title: "What services does Infiniti Digital offer ",
-            txt: "Infiniti Digital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
-        },
-        {
-            title: "How does Infiniti Digital ensure results for its clients?",
-            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infiniti Digital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
-        },
-        {
-            title: "Can Infiniti Digital handle projects for small and large businesses? ",
-            txt: "Yes, Infiniti Digital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
-        },
-        {
-            title: "What industries does Infiniti Digital specialize in? ",
-            txt: "Infiniti Digital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
-        },
-        {
-            title: "How can I get started with Infiniti Digital?",
-            txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success."
-        }
-    ]
-
-}
 
 // Contact 
 import IMGBG from "media/landing/content/contactBg.webp"
 export const ContactData = {
-    subtitle: "Get In Touch",
-    title: "Let’s Bring Your Vision to Life!",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+    subtitle: "Get in Touch",
+    title: (<>
+        Stop Googling how<br />
+        to write good content
+    </>),
+    desc: (<>
+        Hire us to do it because they couldn’t.<br />
+        Good content makes you money.<br />
+        We write the good kind. Let’s chat!
+    </>),
     bgImg: IMGBG.src
 }

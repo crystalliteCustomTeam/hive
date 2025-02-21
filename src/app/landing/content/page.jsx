@@ -24,12 +24,9 @@ const Page = () => {
             <ServicesLp data={ServiceslpData} />
             <MarketPoints data={MarketPointsData} />
             <PorcessLp data={PorcessLpData} />
-            <TalkLp />
             <Pricing data={PriceData} tab={true} bg="yes" />
             <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
             <AwardsLp data={AwardsPoints} />
-            <PlateFromLp />
-            <Faqs data={FAQsData} />
             <ContactLp data={ContactData} />
         </>
     )

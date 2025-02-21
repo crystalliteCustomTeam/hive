@@ -20,15 +20,23 @@ const BannerLp = () => {
                         <div className={styles.bannerContainer}>
                             <div className={styles.bannerContentSec}>
                                 <div className={styles.bannerTxt}>
-                                    <h1>Don’t Let Poor Content Hold Back Your Business</h1>
-                                    <p>Low-quality content can hold your business back. At Infiniti Digital, we craft engaging, high-impact content that captivates.</p>
+                                    <div className={`${styles.subtitle} subtitle`}>Trash Content = Trash Leads.</div>
+                                    <h1>
+                                        You Deserve Better Content Marketing Services
+                                    </h1>
+                                    <p>Your content is boring and your sales are flat, see the connection?<br />
+                                        Customers lose interest, get confused, or simply don’t trust you enough to buy.<br />
+                                        Strong, engaging content grabs attention, builds trust, and turns visitors into buyers.<br />
+                                        Let’s fix it with our digital content strategy.
+
+                                    </p>
                                     <div className={styles.btnFlex}>
-                                        <CommonBtn txt="Free Consultation" LiveChat={true} />
+                                        <CommonBtn txt="Talk to an Expert" LiveChat={true} />
                                     </div>
                                 </div>
-                                <div className={styles.banenrImg}>
+                                {/* <div className={styles.banenrImg}>
                                     <Image src={BannerImg.src} alt="Banner Logos" width={374} height={498} />
-                                </div>
+                                </div> */}
                             </div>
                             <div className={styles.bannerForms}>
                                 <h5>Get In Touch!</h5>
