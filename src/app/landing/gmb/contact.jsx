@@ -9,8 +9,10 @@ const ContactSection = () => {
                 <Row>
                     <Col xs={12} md={10} lg={7} xl={7} className="m-auto">
                         <div className={styles.formContainer}>
-                            <h4>Don’t Be Shy, Say Hi!</h4>
-                            <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data</p>
+                            <h4>Own the Map Pack with<br />
+                                Our GMB Ranking Service!
+                            </h4>
+                            <p>From invisible to unmissable, Infiniti Digital makes it possible.</p>
                             <ContactFrom removebg={true} />
                         </div>
                     </Col>

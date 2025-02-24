@@ -10,12 +10,14 @@ const Banner = () => {
         <section className={` ${styles.gmbSection}`}>
             <Container>
                 <Row>
-                    <Col md={11} lg={10} className="m-auto text-center">
+                    <Col md={11} lg={12} className="m-auto text-center">
                         <div className={styles.bannerText}>
-                            <h1>Showcase Your Business Perfectly with <span>GMB Optimization!</span></h1>
-                            <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data-driven strategies and surprising bottom-line results to fuel your business growth.</p>
+                            <div className="subtitle">Google search is a war. Your business is losing.</div>
+                            <h1>Let’s Get You on the Map Pack with Our <br /><span>GBP Management Service</span></h1>
+                            <p>People trust Google to tell them where to go and a well-optimized profile gets you more visibility,<br /> calls, and foot traffic. If you’re not ranking for your keywords, you’re losing customers.<br />
+                                Let’s fix it with our GMB ranking service.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Click To Grow" LiveChat={true} BgBlack={true} center={true} />
+                                <CommonBtn txt="Let’s Connect" LiveChat={true} BgBlack={true} center={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />

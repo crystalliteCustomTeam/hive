@@ -11,7 +11,7 @@ const MainServices = ({ data, Container }) => {
                         <h2>{item.title}</h2>
                         <div>{item.txt}</div>
                         <div className={styles.btnFlex}>
-                            <CommonBtn txt="Click To Grow" LiveChat={true} BgBlack={true} />
+                            <CommonBtn txt={item?.btntxt ? item?.btntxt : "Book a Free Consultation"} LiveChat={true} BgBlack={true} />
                         </div>
                     </div>
                     <div className={styles.ServImgBox}>

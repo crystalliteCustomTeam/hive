@@ -1,87 +1,70 @@
-import { Serv01, Serv02, Serv03, Serv04, Serv05, Serv06, Serv07, Serv08, Serv09 } from "@/src/app/app-constants";
+import { CheckedIcon, Serv01, Serv02, Serv03, Serv04, Serv05, Serv06, Serv07, Serv08, Serv09 } from "@/src/app/app-constants";
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Our SEO SERVICES",
-    desc: "Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data",
+    subtitle: "GMB Services",
+    title: (<>Top Spots On Google Local Search Aren’t For Everyone But For The Ones Who Hire Us For Google Business Profile Management
+    </>),
+    desc: "",
     ServicesItem: [
         {
             icon: <Serv01 />,
-            title: "Keyword Research & Strategy",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "GMB Optimization",
+            txt: "We optimize your Google Business Profile by updating business details, adding images, using the right keywords, and making sure everything follows Google’s guidelines. This helps your business show up higher in local searches.",
         },
         {
             icon: <Serv02 />,
-            title: "Link Building",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "GMB Management",
+            txt: "We keep your GMB profile active by posting updates, responding to reviews, and ensuring all business details stay accurate. A well-managed profile builds trust and keeps you ahead of the competition.",
         },
         {
             icon: <Serv03 />,
-            title: "Technical SEO ",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "GMB Ranking",
+            txt: "We use local SEO strategies to push your business into the top 3 on Google Maps. This includes local keyword optimization, review generation, citation building, and engagement tactics to help you rank higher and attract more customers.",
         },
         {
             icon: <Serv04 />,
-            title: "On-Page SEO",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "GMB Suspension",
+            txt: "If your GMB profile gets suspended, we find out why, fix the issues, and submit the right documents to Google. Our goal is to get your profile back online as quickly as possible.",
         },
         {
             icon: <Serv05 />,
-            title: "Off-Page SEO",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "GMB Reinstatement",
+            txt: "We handle the full Google Business Profile reinstatement request and process by identifying the problem, correcting any violations, and communicating with Google to restore your listing without delays.",
         },
         {
             icon: <Serv06 />,
-            title: "Content Writing ",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Multi-Location Profile ManagementWe manage all your business locations, keeping information accurate, updating profiles regularly, and ensuring each location ranks well in its area. Whether you have 5 or 500 locations, we keep them optimized. ",
+            txt: "",
         },
-        {
-            icon: <Serv07 />,
-            title: "Reputation Management",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
-        },
-        {
-            icon: <Serv08 />,
-            title: "GMB Management",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
-        },
-        {
-            icon: <Serv09 />,
-            title: "White Label SEO",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
-        }
-
-
-
     ]
 }
 
 
 
 export const processlp = {
-    title: "Tracking & Reporting Procedure",
-    txt: "Our professional book writing services is a collaborative process between our client and our team that has the following steps:",
+    title: "Getting You Ranked in 5 Simple Steps",
+    txt: "Our GMB ranking experts don’t wait for results; they create them.",
     processlpItem: [
         {
-            title: "Monthly Report",
-            txt: "Each month, your project manager will produce a report and discuss it with you. The report details analytics, completed work, and upcoming plans. The project manager may also make suggestions on strategy and program adjustments as needed."
+            title: "Onboarding",
+            txt: "We start by understanding your business, competition, and target audience. This helps us craft a custom GMB ranking strategy that drives real results."
         },
         {
-            title: "Call Tracking",
-            txt: "With call tracking and A/B testing, we’ll know where visitors came from, what search terms they used, and what’s converting visitors to customers. This is an essential tool for conversion optimization."
+            title: "GMB Audit & Optimization",
+            txt: "We analyze your Google Business Profile to fix inconsistencies, improve category selection, add high-quality images, and ensure your profile is fully optimized for local search."
         },
         {
-            title: "Google Analytics",
-            txt: "We use Google Analytics to track SEO for every client. Google Analytics provides a wealth of information that lets us identify strengths and weaknesses in our strategy so that we may adjust accordingly."
+            title: "Local Content & Engagement",
+            txt: "We create and update GMB posts, respond to reviews, and engage with customer questions to increase activity on your profile—helping you rank higher."
         },
         {
-            title: "Website Traffic Reports",
-            txt: "We can provide an on-demand, customized dashboard depending on your needs. Your monthly project manager conversation will ensure that we’re on the same page."
+            title: "Building Local Authority",
+            txt: "We strengthen your online presence by adding your business to high-quality local directories, securing relevant backlinks, and optimizing citations to boost your ranking."
         },
         {
-            title: "Keyword Ranking Reports",
-            txt: "Dallas SEO Dogs focuses on traffic and conversions more than rankings, but rankings are helpful in noticing trends and areas of weakness. We include them in our reports."
+            title: "Tracking & Ongoing Improvements",
+            txt: "Every month, we track your ranking, traffic, and customer interactions, providing reports and continuous updates to keep your Google Business Profile at the top 3 spots on the map."
         },
     ]
 
@@ -89,48 +72,38 @@ export const processlp = {
 
 // Pricing
 export const PriceData = {
-    subtitle: "Our Pricing",
+    subtitle: "",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
     PriceItem: [
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
-            price: "399",
-            txt: "Designed for small businesses or startups looking to establish a foundation in SEO.",
+            price: "450",
+            txt: "This package is perfect for businesses looking to get started with Google My Business. We’ll make sure your profile is optimized and regularly updated to help you appear in local search results.",
             bodyPoints: [
                 {
-                    title: "Setup",
+                    title: "Basic GMB Profile Setup",
                     points: [
-                        "Website Sitemap",
-                        "Check for SEO Scope",
-                        "Custom 404 Page Setup / Nofollow Link Checkup",
+                        "Ensuring all your business information is accurate and complete (name, address, phone, website, hours).",
                     ]
                 },
                 {
-                    title: "Pages & Keywords",
+                    title: "Postings/Publishing",
                     points: [
-                        "Up to 5 pages optimized",
-                        "Focused Keywords: 5",
+                        "Monthly posting to engage with your audience and keep your profile active.",
                     ]
                 },
                 {
-                    title: "On-page SEO",
+                    title: "Basic GMB Optimization",
                     points: [
-                        "Web Content Optimization",
-                        "URL Structure Improvements",
-                        "Meta Tags (Title, Description, Header Tags)",
-                        "Image Alt Tags and Optimization: 5 images",
+                        "Keyword optimization of your profile for better visibility in local search.",
                     ]
                 },
                 {
-                    title: "Technical Optimization",
+                    title: "1 Monthly Review Request",
                     points: [
-                        "Fixing Crawl Errors",
-                        "Mobile-first Optimization",
-                        "Page Speed Optimization",
-                        "Core Web Vitals Improvements",
-                        "Schema Markup Implementation",
+                        "Assistance in generating customer reviews to boost your reputation.",
                     ]
                 },
                 {
@@ -143,72 +116,44 @@ export const PriceData = {
         },
         {
             bgColor: "#FF6987",
-            packagename: "Growth Package",
-            price: "999",
-            txt: "Ideal for businesses aiming to grow their organic reach and improve conversions.",
+            packagename: "Minimal Package",
+            price: "920",
+            txt: "For businesses looking for a more comprehensive setup and optimization, this package includes everything in the Basic tier plus advanced optimizations to ensure you show up in relevant local searches.",
             bodyPoints: [
                 {
-                    title: "Setup",
+                    title: "",
                     points: [
-                        "Website Sitemap",
-                        "Check for SEO Scope",
-                        "Custom 404 Page Setup / Nofollow Link Checkup",
+                        "Everything in the Basic package plus;",
                     ]
                 },
                 {
-                    title: "Pages",
+                    title: "Complete GMB Optimization",
                     points: [
-                        "Up to 10 pages optimized",
+                        "In-depth profile optimization with strategic keyword placement, categories, and business description.",
                     ]
                 },
                 {
-                    title: "Keyword Research",
+                    title: "GMB Setup",
                     points: [
-                        "Focused Keywords: 10",
-                        "Keyphrase Optimization: 5",
+                        "Full setup for new GMB accounts, or restructuring for better performance.",
                     ]
                 },
                 {
-                    title: "On-page SEO",
+                    title: "Optimized Business Description",
                     points: [
-                        "Meta Tags (Title, Description, Header Tags)",
-                        "Image Alt Tags and Optimization: 10 images",
-                        "URL Structure Improvements",
-                        "Web Content Optimization",
-                        "Anchor Text Optimization",
-                        "Landing Page Optimization",
+                        "Writing a detailed, keyword-rich business description to enhance SEO.",
                     ]
                 },
                 {
-                    title: "Technical Optimization",
+                    title: "Photo/Media Updates",
                     points: [
-                        "Fixing Crawl Errors",
-                        "Mobile-first Optimization",
-                        "Page Speed Optimization",
-                        "Core Web Vitals Improvements",
-                        "Schema Markup Implementation",
+                        "High-quality images and videos to keep your profile fresh.",
                     ]
                 },
                 {
-                    title: "Tracking & Analytics",
+                    title: "Customer Review Strategy",
                     points: [
-                        "Google Analytics Setup",
-                        "Basic Conversion Tracking",
-                        "Google Search Console Setup",
-                    ]
-                },
-                {
-                    title: "Progress Reporting",
-                    points: [
-                        "Google Analytics Reports",
-                        "Monthly Progress Reports with Recommendations",
-                    ]
-                },
-                {
-                    title: "Account Management",
-                    points: [
-                        "Dedicated Account Manager",
-                        "1-Hour Free Consultation (Per Month)",
+                        "Strategy development for collecting and responding to reviews to build social proof.",
                     ]
                 }
             ]
@@ -216,73 +161,55 @@ export const PriceData = {
         {
             bgColor: "#9AFF35",
             packagename: "Premium Package",
-            price: "1850",
-            txt: "Best suited for businesses seeking comprehensive SEO strategies and advanced tracking.",
+            price: "1250",
+            txt: "For businesses looking for a fully managed, high-performing GMB presence. This package includes ongoing maintenance, advanced strategies for rankings, and continuous optimization to ensure you're always ahead of the competition.",
             bodyPoints: [
                 {
-                    title: "Setup",
+                    title: "",
                     points: [
-                        "Website Sitemap",
-                        "Check for SEO Scope",
-                        "Custom 404 Page Setup / Nofollow Link Checkup",
+                        "Everything in the Minimal package plus; ",
                     ]
                 },
                 {
-                    title: "Pages",
+                    title: "Advanced GMB Maintenance",
                     points: [
-                        "Up to 15 pages optimized",
+                        "Ongoing updates and optimizations to keep your profile relevant.",
                     ]
                 },
                 {
-                    title: "Keyword Research",
+                    title: "Weekly Postings & Publishing",
                     points: [
-                        "Focused Keywords: 15",
-                        "Keyphrase Optimization: 10",
+                        "Regular posts (events, offers, news) to engage users and encourage action.",
                     ]
                 },
                 {
-                    title: "On-page SEO",
+                    title: "Google Ranking Monitoring",
                     points: [
-                        "Landing Page Setup",
-                        "SGE Visibility Optimization ",
-                        "Web Content Optimization",
-                        "Anchor Text Optimization",
-                        "Landing Page Optimization",
-                        "URL Structure Improvements",
-                        "Meta Tags(Title, Description, Header Tags)",
-                        "Image Alt Tags and Optimization: 15 images",
+                        "Tracking local rankings and strategy adjustment as required.",
                     ]
                 },
                 {
-                    title: "Technical Optimization",
+                    title: "Customer Interaction",
                     points: [
-                        "Fixing Crawl Errors",
-                        "Mobile - first Optimization",
-                        "Page Speed Optimization",
-                        "Core Web Vitals Improvements",
-                        "Schema Markup Implementation",
+                        "Managing and responding to customer inquiries and reviews promptly.",
                     ]
                 },
                 {
-                    title: "Tracking & Analytics",
+                    title: "Local SEO Integration",
                     points: [
-                        "Google Analytics Setup",
-                        "Google Search Console Setup",
-                        "Basic Conversion Tracking",
-                        "Full - Funnel Conversion Tracking",
+                        "Integration with your website’s SEO for better cross-platform visibility.",
                     ]
                 },
                 {
-                    title: "Progress Reporting",
+                    title: "Google Q&A Management",
                     points: [
-                        "Business Intelligence Dashboard",
+                        "Monitoring and responding to customer questions for better engagement.",
                     ]
                 },
                 {
-                    title: "Account Management",
+                    title: "Monthly Performance Reports",
                     points: [
-                        "Dedicated Account Manager",
-                        "2-Hour Free Consultation (Per Month)",
+                        "Insights into GMB performance, review status, and ranking progress.",
                     ]
                 }
             ]
@@ -294,7 +221,7 @@ export const PriceData = {
 // CTA  01
 import ImgBg1 from "media/landing/gmb/ctaBg1.webp"
 export const CtaData = {
-    title: (<>Get a <span>30 minutes</span> free strategy session with our digital marketing expert worth <span>$300</span></>),
+    title: (<>Map Pack on Google Has <span>Room for 3</span> Let’s Make Sure You’re <span>One of Them</span></>),
     img: ImgBg1.src
 }
 
@@ -304,22 +231,29 @@ import Service01 from "media/landing/gmb/service01.webp"
 import Service02 from "media/landing/gmb/service02.webp"
 export const dataService = [
     {
-        title: "Let's Discover About Google My Business Optimization Services With Us!",
+        title: (<>Need GMB Reinstatement?<br />
+            We’ve Got You.
+        </>),
         txt: <>
-            <p>A GMB listing is a difference between you being SEEN online or not. Yes, it is as simple as that. When everything is getting digital, it is essential than ever to claim your strong presence on Google maps to ensure visibility in the local search results.</p>
-            <p>Talking about Google My Business, it is a process that optimizes your GMB listing to help you gain more phone calls, more customers, and more sales. An optimized Google My Business listing enables Google to discover, crawl, index, and position your local business. By this, you can garner high-quality traffic and make an expansive customer base.</p>
-            <p>To cut a long story short, GMB optimization is all about adorning your business profile to look absolutely lovely to customers and Google. The key to optimizing your GMB lies in incorporating the keywords within your profile — to top the search results and earn the chance to win that 75% of the clicks that 3-pack gets!</p>
+            <p>We know a GMB suspension is a business disaster. That’s why our GMB experts identify exactly why Google shut you down; guideline violations, verification issues, or spam triggers. Then, we fix every problem, clean up your profile, and make sure it’s 100% compliant. We don’t just submit a Google business profile reinstatement request, we make a bulletproof case with the right documentation to get Google to say YES. If they drag their feet, we push harder with follow-ups and escalations. Once reinstated, we fortify your profile to keep it safe from future suspensions. Losing your GMB profile is not an option, let’s get you back in business!</p>
         </>,
         img: Service01.src,
+        btntxt: "Book a Free Consultation "
     },
     {
-        title: "Let's Discover About Google My Business Optimization Services With Us!",
+        title: (<>Stop Watching Competitors Win Take Over the Map.</>),
         txt: <>
-            <p>A GMB listing is a difference between you being SEEN online or not. Yes, it is as simple as that. When everything is getting digital, it is essential than ever to claim your strong presence on Google maps to ensure visibility in the local search results.</p>
-            <p>Talking about Google My Business, it is a process that optimizes your GMB listing to help you gain more phone calls, more customers, and more sales. An optimized Google My Business listing enables Google to discover, crawl, index, and position your local business. By this, you can garner high-quality traffic and make an expansive customer base.</p>
-            <p>To cut a long story short, GMB optimization is all about adorning your business profile to look absolutely lovely to customers and Google. The key to optimizing your GMB lies in incorporating the keywords within your profile — to top the search results and earn the chance to win that 75% of the clicks that 3-pack gets!</p>
+            <p>Every day, customers search for businesses like yours. If your Google Business Profile isn’t ranking, you’re handing them over to your competitors. That’s lost calls, lost sales, and lost revenue. Infiniti Digital makes sure that doesn’t happen.</p>
+            <ul className="ContentUl">
+                <li><CheckedIcon /> We fix broken, incomplete, or suspended listings</li>
+                <li><CheckedIcon />We get you ranking for the keywords that matter</li>
+                <li><CheckedIcon />We manage reviews & fight off spam competitors</li>
+                <li><CheckedIcon />We turn your GMB into a customer magnet</li>
+            </ul>
+            <p>Stop losing business to the guy down the street. Let’s get your GMB profile working for you, book a call now!</p>
         </>,
         img: Service02.src,
+        btntxt: "Schedule a Free Consultation"
     },
 
 ]
@@ -327,48 +261,48 @@ export const dataService = [
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    subtitle: "",
+    title: "Testimonials",
+    desc: "Infiniti Digital delivers, our clients confirm it!",
     Testslider: [
         {
-            txt: "Infiniti Digital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
+            txt: "Infiniti Digital took our struggling Google Business Profile and turned it into a lead-generating machine! Our rankings improved, and now we actually show up in searches for the right keywords. Highly recommend if you want real results.",
             icon: <ClutchLogo />,
-            namee: "Amanda T.",
-            job: "Founder of BrightTech Solutions",
+            namee: "Mark R.",
+            job: "",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Infiniti Digital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
+            txt: "Managing our GMB was a nightmare until we hired Infiniti Digital. They handle everything from posts, reviews, and rankings to keeping our profile fully optimized. Our call volume has doubled, and we don’t even have to lift a finger. ",
             icon: <TrustpilotLogo />,
-            namee: "James M.",
-            job: "COO of NovaRetail Solutions",
+            namee: "Jessica T.",
+            job: "",
         },
         {
-            txt: "Infiniti Digital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
+            txt: "We were stuck on page 3 of Google Maps, barely getting any calls. Infiniti Digital got us into the top 3 map pack in just a few months. Now, we get daily inquiries, and our business is booming. ",
             icon: <GoogleLogo />,
-            namee: "Sarah K.",
-            job: "MD at GreenWave Industries",
+            namee: "David L.",
+            job: "",
         },
         {
-            txt: "Partnering with Infiniti Digital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
+            txt: "Our GMB profile got suspended out of nowhere, and we were losing customers fast. Infiniti Digital handled everything, from filing the reinstatement request to getting us back online. They even optimized our profile so we rank better than before.",
             icon: <TrustpilotLogo />,
-            namee: "Tom L.",
-            job: "CEO of BuildPro Solutions",
+            namee: "Samantha P.",
+            job: "",
         },
         {
-            txt: "Our online sales skyrocketed after working with Infiniti Digital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
+            txt: "With multiple locations, keeping up with our GMB profiles was impossible. Infiniti Digital stepped in and made sure each location was optimized, ranking, and driving real traffic. Our franchise has never been stronger. ",
             icon: <ClutchLogo />,
-            namee: "Emily R.",
-            job: "Founder of StyleHive Boutique",
+            namee: "Emily J.",
+            job: "",
         }
     ]
 }
 
 // Contact 
-import IMGBG from "media/landing/seo3/contactBg.webp"
+import ProFile from "media/landing/gmb/profileImg.webp"
 export const ContactData = {
     subtitle: "",
     title: "Get In Touch",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-    bgImg: IMGBG.src
+    txt: "You handle the business, we’ll handle Google. Deal?",
+    bgImg: ProFile.src
 }
