@@ -55,7 +55,7 @@ export const ServiceslpData = {
     title: (<>SEO? Engagement? Sales?<br />
         Yeah, We Nail All Three.
     </>),
-    desc: "The content is paramount! and we are the Throne's might.",
+    desc: "The content is paramount! and we are the Throne’s might.",
     ServicesItem: [
         {
             title: "SEO Blogs Writing",
