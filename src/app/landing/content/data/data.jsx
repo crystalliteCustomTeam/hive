@@ -51,7 +51,7 @@ export const CtaData = {
 //Services
 import { ServicesIcon } from "@/src/app/app-constants"
 export const ServiceslpData = {
-    subtitle: "",
+    subtitle: '',
     title: (<>SEO? Engagement? Sales?<br />
         Yeah, We Nail All Three.
     </>),
@@ -171,7 +171,7 @@ export const PorcessLpData = {
             title: "Onboarding",
             para: (<>
                 We keep it quick; fill out a short form, hop on a call (if needed), and you’re in.<br />
-                By the time other agencies finish "discovery," we’re getting first drafts approved.
+                By the time other agencies finish &quot; discovery,&quot; we’re getting first drafts approved.
             </>),
         },
         {
