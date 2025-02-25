@@ -7,7 +7,6 @@ import CaseStudyLp from "@/src/app/landing/seo/casestudy"
 import ServicesMain from '@/src/app/components/services/servicesmain'
 import Pricing from '@/src/app/components/services/pricing'
 import AwardsLp from "@/src/app/landing/components/awardslp"
-import PlateFromLp from "@/src/app/landing/components/platefromlp"
 import ContactLp from "@/src/app/landing/components/contactlp"
 import { StateCounter, CtaData, WhyChooseData, ServicesData, ContactData, processlp, AwardsPoints, PriceData, talkData } from "@/src/app/landing/seo/data/data"
 import TalkLp from "@/src/app/landing/components/talk"

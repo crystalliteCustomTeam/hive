@@ -49,7 +49,7 @@ export const ServicesData = {
 import IMG from "@/public/landing/smm/ctaBg.webp"
 export const StateCounter = {
     subtitle: "",
-    title: (<>Why Chase Trends  <br className="d-none d-md-block" /> When You Can Set Them?</>),
+    title: (<>Why Chase Trends<br /> When You Can Set Them?</>),
     desc: (<>
         <p>Most agencies focus on vanity metrics; likes, shares, and follower counts. But what’s the point if it doesn’t translate to real business growth? We don’t just post content and hope for the best, our strategies are designed to turn passive scrollers into active buyers. Whether your goal is more leads, higher sales, or stronger brand authority, our full-funnel approach ensures every stage of your customer’s journey is covered.</p>
     </>),
@@ -207,6 +207,7 @@ import CotnactImg from "media/landing/smm/ContentImage.webp"
 export const ContactData = {
     bgImg: IMGBG.src,
     contactImg: CotnactImg.src,
+    btntxt: "Talk to SMM Expert"
 }
 
 
@@ -214,7 +215,7 @@ export const ContactData = {
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
     subtitle: "",
-    title: "Engagement? Sales? ROI? Yeah, We Do That",
+    title: "Engagement? Sales? ROI? Yeah, We Do That.",
     desc: "See how we help brands break the cycle of bad marketing.",
     Awardslides: [
         {
@@ -240,25 +241,25 @@ export const AwardsPoints = {
             color: "#FFCDD7",
         },
         {
-            txt: "Infiniti Digital has completely transformed our social media presence! Their organic posting strategy keeps our audience engaged with high-quality content that truly reflects our brand. We’ve seen a significant boost in followers and interactions—all without spending a dime on ads. If you need a team that knows how to keep your brand relevant and engaging, Infiniti Digital is the way to go!",
-            icon: < ClutchLogo />,
-            namee: "Sarah M.",
-            job: "Marketing Director",
+            txt: "Our sales were stuck, but after working with Infiniti Digital, we’re getting real results. Our ads and social content are bringing in new customers every day.",
+            icon: <Upcity />,
+            namee: "Matt",
+            job: "UrbanTech Gadgets",
             color: "#DFFFBF",
 
         },
         {
-            txt: "We wasted so much money on poorly targeted ads before working with Infiniti Digital. Their ad setup and management services changed everything! They optimized our audience targeting, crafted compelling ad creatives, and kept our campaigns running efficiently. Now, our cost per lead has dropped, and our ROI has never looked better!",
-            icon: <TrustpilotLogo />,
-            namee: "James T.",
-            job: "E-commerce Business Owner",
+            txt: "Our social media was just there, but Infiniti Digital made it work. We’re fully booked for months, and people are finding us online.",
+            icon: <Forbes />,
+            namee: "Ariana",
+            job: "Luxe Celebrations",
             color: "#E0F0FF",
         },
         {
-            txt: "Infiniti Digital turned our social media ads into a revenue-generating machine! Their conversion campaigns brought us more sales, and a lower ad spend. We went from struggling to get results to hitting our best month ever. If you want ads that actually convert, look no further!",
-            icon: <GoogleLogo />,
-            namee: "Melissa R.",
-            job: "CEO, Fashion Brand",
+            txt: "We had no idea how to use social media, but Infiniti Digital helped us grow fast. We’re now the top choice for pet care in our area.",
+            icon: <CheckedIcon />,
+            namee: "Tom",
+            job: "Paws & Relax Grooming",
             color: "#FFCDD7",
         },
 
@@ -273,7 +274,7 @@ export const talkData = {
         but plans, executes and scales your brand.
     </>),
     btn: "Connect with us",
-    formtitle: "Hiring Infiniti Digital results in infinite brand growth."
+    formtitle: (<><strong>Warning:</strong> <span>Hiring Infiniti Digital results in infinite brand growth.</span></>)
 }
 
 

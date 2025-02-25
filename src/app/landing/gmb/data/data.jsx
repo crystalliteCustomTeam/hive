@@ -290,8 +290,14 @@ export const TestimonialData = {
         },
         {
             txt: "With multiple locations, keeping up with our GMB profiles was impossible. Infiniti Digital stepped in and made sure each location was optimized, ranking, and driving real traffic. Our franchise has never been stronger. ",
-            icon: <ClutchLogo />,
+            icon: <Upcity />,
             namee: "Emily J.",
+            job: "",
+        },
+        {
+            txt: "Managing our Google Business Profiles across multiple locations felt impossible—until we partnered with Infiniti Digital. Their team optimized every listing, improved rankings, and ensured our locations were driving consistent traffic and customer engagement. The results have been outstanding! We've seen a noticeable increase in calls, direction requests, and website visits. Infiniti Digital truly understands local SEO and multi-location management.",
+            icon: <Forbes />,
+            namee: "Nathan W.",
             job: "",
         }
     ]

@@ -1,9 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/seo3/process.module.scss"
 
-const ProcessLP = ({ data }) => {
+const ProcessLP = ({ data, roundwhite }) => {
     return (
-        <section className={`${styles.processSection} pt-100`}>
+        <section className={`${styles.processSection} ${roundwhite ? styles.roundWhite : ""} pt-100`}>
             <Container>
                 <Row>
                     <Col md={10} lg={8} className="text-center m-auto">

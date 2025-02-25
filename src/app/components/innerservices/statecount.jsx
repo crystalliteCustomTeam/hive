@@ -26,9 +26,13 @@ const StateCount = ({ data, coloum, landingBanner, RoundedStyle }) => {
                             </div>
                         </Col>
                     ))}
-                    <Col md={12} className="mt-5 text-center">
-                        <h5>{data?.extraline ? data?.extraline : ""}</h5>
-                    </Col>
+                    {data?.extraline ?
+                        <Col md={12} className="mt-5 text-center">
+                            <h5>{data?.extraline ? data?.extraline : ""}</h5>
+                        </Col>
+                        :
+                        ""
+                    }
                 </Row>
             </Container>
         </section>

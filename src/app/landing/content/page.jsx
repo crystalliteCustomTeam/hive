@@ -5,15 +5,12 @@ import ServicesLp from "@/src/app/landing/content/serviceslp"
 import MarketPoints from "@/src/app/landing/content/marketpoints"
 import PorcessLp from "@/src/app/landing/content/porcesslp"
 import Pricing from '@/src/app/components/services/pricing'
-import TalkLp from "@/src/app/landing/components/talk"
 import AwardsLp from "@/src/app/landing/components/awardslp"
-import PlateFromLp from "@/src/app/landing/components/platefromlp"
-import Faqs from "@/src/app/home/faq";
 import ContactLp from "@/src/app/landing/components/contactlp"
-import BookTabs from '@/src/app/components/innerservices/booktabs'
+import Work from '@/src/app/components/services/work';
 import { PriceData } from "@/src/app/seo-service/data/data"
 import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, FAQsData, BookTabsData, AwardsPoints } from "@/src/app/landing/content/data/data"
-import { BookTabsItem } from '@/src/app/content-marketing-services/data/data'
+import { WorkData } from '@/src/app/home/data/data';
 
 const Page = () => {
     return (
@@ -25,7 +22,7 @@ const Page = () => {
             <MarketPoints data={MarketPointsData} />
             <PorcessLp data={PorcessLpData} />
             <Pricing data={PriceData} tab={true} bg="yes" />
-            <BookTabs data={BookTabsData} dataItem={BookTabsItem} />
+            <Work data={WorkData} category="Content Marketing" />
             <AwardsLp data={AwardsPoints} />
             <ContactLp data={ContactData} />
         </>

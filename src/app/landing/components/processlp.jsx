@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 
 
-const ProcessLp = ({ data, black }) => {
+const ProcessLp = ({ data, black, round, marginlp, roundwhite }) => {
     useEffect(() => {
         const options = {
             root: null,
@@ -33,10 +33,10 @@ const ProcessLp = ({ data, black }) => {
     }, []);
 
     return (
-        <section className={`pt-100 ${styles.processLpSec} ${black ? styles.blackBg : ""}`} id="ProcessId">
+        <section className={`pt-100 ${styles.processLpSec} ${roundwhite ? styles.roundWhite : ""}  ${round ? styles.roundeStyle : ""} ${black ? styles.blackBg : ""}`} style={marginlp ? { margin: "0px" } : {}}>
             <Container>
                 <Row>
-                    <Col md={8} lg={8} className="mx-auto text-center">
+                    <Col md={8} lg={8} className={`${styles.titleBox} mx-auto text-center`}>
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>

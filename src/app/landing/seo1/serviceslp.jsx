@@ -3,11 +3,14 @@ import styles from "@/styles/landing/components/seo1/serviceslp.module.scss"
 import CommonBtn from "@/src/app/components/common/commonbtn"
 import ServicesImg from "media/landing/seo1/servicesbg.webp"
 
-const ServicesLP = ({ data, bg }) => {
+const ServicesLP = ({ data, bg, marginlp }) => {
     return (
         <section
             className={`pt-100 ${styles.servicesLPSec} ${bg ? styles.noBg : ""}`}
-            style={!bg ? { backgroundImage: `url(${ServicesImg.src})` } : {}}
+            style={{
+                ...(bg ? {} : { backgroundImage: `url(${ServicesImg.src})` }),
+                ...(marginlp ? { margin: "0px" } : {}),
+            }}
         >
             <Container>
                 <Row>
@@ -23,7 +26,7 @@ const ServicesLP = ({ data, bg }) => {
                                     <h5>{item.title}</h5>
                                     <p>{item.txt}</p>
                                     <div className={styles.readMore}>
-                                        <CommonBtn txt="Contact Us" ArrowBtn={true} SimpleBtn={true} />
+                                        <CommonBtn txt={item?.btntxt ? item?.btntxt : "Contact Us"} ArrowBtn={true} SimpleBtn={true} />
                                     </div>
                                 </div>
                             ))}

@@ -273,7 +273,8 @@
     .contactBtn {
         button {
             border: 0px;
-            width: 250px;
+            min-width: 250px;
+            font-size: 18px;
         }
     }
 
@@ -443,7 +444,8 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 200px;
+                min-width: 200px;
+                font-size: 16px;
             }
         }
     }
@@ -547,7 +549,8 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 180px;
+                min-width: 180px;
+                font-size: 16px;
             }
         }
     }
@@ -650,7 +653,8 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 170px;
+                min-width: 170px;
+                font-size: 14px;
             }
         }
     }
@@ -753,7 +757,8 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 170px;
+                min-width: 170px;
+                font-size: 13px;
             }
         }
     }
@@ -866,7 +871,8 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 150px;
+                min-width: 150px;
+                font-size: 13px;
             }
         }
     }
@@ -979,7 +985,8 @@
         .contactBtn {
             button {
                 border: 0px;
-                width: 150px;
+                min-width: 150px;
+                font-size: 12px;
             }
         }
     }
@@ -1106,6 +1113,7 @@
                 min-width: 150px;
                 padding: 0px 20px;
                 width: auto;
+                font-size: 12px;
             }
         }
     }

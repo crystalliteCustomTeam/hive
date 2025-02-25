@@ -119,18 +119,25 @@ export const AwardsPoints = {
         },
 
         {
-            txt: "Running PPC ads for our healthcare practice used to feel like a shot in the dark, but Infiniti Digital turned it all around. Their team helped us target the right leads, and now we’re seeing a steady stream of qualified appointments every month. Their expertise in Google Ads services is unmatched.",
+            txt: "We’ve worked with several PPC agencies before, but Infiniti Digital stands out by a mile. They took the time to understand our business, optimized our ad spend, and delivered high-converting campaigns that boosted our sales significantly. Our cost-per-click dropped, conversions skyrocketed, and we finally saw the ROI we were looking for. Highly recommend their expertise!",
             icon: <ClutchLogo />,
-            namee: "Dr.Emily P.",
-            job: "Owner of ClearPath Wellness Center",
+            namee: "Mark R.",
+            job: "E-commerce Director",
             color: "#DFFFBF",
 
         },
         {
-            txt: "As a small auto repair shop, getting the right customers was a challenge. Infiniti Digital with PPC campaigns targeted the right local audience and led to more calls and bookings. We’ve definitely seen growth.",
+            txt: "Our business needed a scalable, results-driven PPC strategy, and Infiniti Digital delivered beyond expectations. They refined our ad targeting, optimized our landing pages, and continuously improved our campaigns to lower costs while increasing conversions. The level of transparency and strategic insight they bring is unmatched. If you want PPC campaigns that work, look no further!",
             icon: <TrustpilotLogo />,
-            namee: "David.",
-            job: "Owner of Speedy Auto Repairs",
+            namee: "Jessica M.",
+            job: "SaaS Marketing Lead",
+            color: "#E0F0FF",
+        },
+        {
+            txt: "We were struggling to generate quality leads at a reasonable cost, but Infiniti Digital changed everything. Their audience targeting, keyword strategy, and ongoing optimizations have made a huge impact on our business. Our lead volume has doubled, and our cost-per-lead has dropped significantly. We finally feel like we’re in control of our ad spend!",
+            icon: <TrustpilotLogo />,
+            namee: "Rachel T.",
+            job: "Real Estate Marketing Manager",
             color: "#E0F0FF",
         }
 

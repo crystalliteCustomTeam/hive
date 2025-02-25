@@ -22,11 +22,13 @@ const BannerLp = () => {
                                 <div className={styles.bannerTxt}>
                                     <div className={`${styles.subtitle} subtitle`}>Trash Content = Trash Leads.</div>
                                     <h1>
-                                        You Deserve Better Content Marketing Services
+                                        You Deserve Better<br />
+                                        Content Marketing Services
+
                                     </h1>
                                     <p>Your content is boring and your sales are flat, see the connection?<br />
                                         Customers lose interest, get confused, or simply don’t trust you enough to buy.<br />
-                                        Strong, engaging content grabs attention, builds trust, and turns visitors into buyers.<br />
+                                        Strong, engaging content grabs attention, builds trust, and turns visitors into buyers.
                                         Let’s fix it with our digital content strategy.
 
                                     </p>

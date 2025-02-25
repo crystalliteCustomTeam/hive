@@ -96,7 +96,7 @@ export const ServicesData = {
 
 export const processlp = {
     title: "Getting You Ranked in 5 Simple Steps",
-    txt: "Our local SEO experts don’t wait for results they create them.",
+    txt: "Our local SEO experts don’t wait for results; they create them.",
     processlpItem: [
         {
             title: "Onboarding ",
@@ -396,6 +396,24 @@ export const TestimonialData = {
             icon: <GoogleLogo />,
             namee: "Mike R.",
             job: "Auto Repair Shop",
+        },
+        {
+            txt: "Before working with Infiniti Digital, we struggled to rank in local searches. Now, our Google Business Profile is at the top for key searches, and our website consistently ranks on page one. The increase in traffic and leads has been amazing!",
+            icon: <Upcity />,
+            namee: "Michael R.",
+            job: "Roofing Company Owner",
+        },
+        {
+            txt: "We weren’t even showing up for local searches, but Infiniti Digital optimized our GMB profile, built strong local citations, and improved our rankings. Now, we’re ranking in the top three for our target keywords, and business has never been better!",
+            icon: <Forbes />,
+            namee: "Sarah T.",
+            job: "Dental Practice Manager",
+        },
+        {
+            txt: "Infiniti Digital’s local SEO strategy helped us outrank competitors and dominate our market. Within months, we moved from page three to the top of Google’s local results—driving more calls, website visits, and walk-ins than ever before!",
+            icon: < GoogleLogo />,
+            namee: "Jason P.",
+            job: "HVAC Business Owner",
         },
     ]
 }

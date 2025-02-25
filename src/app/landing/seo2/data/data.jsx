@@ -7,54 +7,58 @@ export const CtaData01 = {
 export const LPServices = {
     title: "Our SEO Services",
     txt: "Everything You Need to Rank & Convert",
+
     LPServicesItem: [
         {
             title: "Keyword Research & Strategy",
             txt: "We find the best keywords that will bring real customers to your site, not just random clicks. Our strategy helps you rank for the most important terms and drive the right traffic.",
+            btntxt: "Let’s Connect",
         },
         {
             title: "Link Building",
             txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google.",
+            btntxt: "Let’s Connect",
         },
         {
             title: "Technical SEO",
             txt: "Website speed, mobile friendliness, and proper indexing are essential for top performance. We fix any technical issues that slow down your site and ensure it runs smoothly.",
+            btntxt: "Let’s Connect",
         },
         {
             title: "Local SEO",
             txt: "Be seen by customers in your area through local search results and Google Maps. Our local SEO helps you stand out so nearby customers can easily find and contact you.",
-
+            btntxt: "Let’s Connect",
         },
         {
             title: "On-Page SEO",
             txt: "We optimize your website’s content, headings, and meta tags to make it easier for search engines to understand and rank your site. This improves both rankings and user experience.",
-
+            btntxt: "Let’s Connect",
         },
         {
             title: "Entity SEO",
             txt: "We strengthen your site’s authority by making sure it's seen as an expert in your field, using structured data and topic relevance to help you rank for a wider range of searches.",
-
+            btntxt: "Let’s Connect",
         }, {
             title: "Search Generative Experience",
             txt: "Google’s AI search updates can affect your rankings. We keep up with the changes and adjust your site so it stays visible and competitive in search results.",
-
+            btntxt: "Let’s Connect",
         },
         {
             title: "E-commerce SEO",
             txt: "We optimize your product pages and categories to help boost online sales and drive conversions through organic search results.",
-
+            btntxt: "Let’s Connect",
         },
         {
             title: "Organic Shopping",
             txt: "We improve your visibility in Google Shopping without relying on expensive ads. Our strategies help you get more organic traffic and sales.",
-
+            btntxt: "Let’s Connect",
         }
     ]
 }
 export const processlp = {
     subtitle: "Our Process",
-    title: "Our 6 Step SEO Process Ensures",
-    txt: (<>Your Customers Are Finding <strong>You</strong> First, Not Your Competitors</>),
+    title: (<>Our 6 Step SEO Process Ensures<br /> Your Customers Are Finding<strong><i>You</i></strong> First, Not Your Competitors</>),
+    txt: "",
     processlpItem: [
         {
             title: "Understanding your goals",

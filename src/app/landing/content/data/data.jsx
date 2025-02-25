@@ -2,11 +2,13 @@ export const StateCounterPoints = {
     stateItem: [
         {
             numbers: "$6.2M+",
-            namee: "in revenue generated from content pillars"
+            namee: (<>in revenue generated<br /> from content pillars</>)
         },
         {
             numbers: "82%",
-            namee: "of landing pages saw higher conversions"
+            namee: (<>of landing pages<br />
+                saw higher conversions
+            </>)
         }, {
             numbers: "14.8B+",
             namee: "words of content written"
@@ -171,7 +173,7 @@ export const PorcessLpData = {
             title: "Onboarding",
             para: (<>
                 We keep it quick; fill out a short form, hop on a call (if needed), and you’re in.<br />
-                By the time other agencies finish &quot; discovery,&quot; we’re getting first drafts approved.
+                By the time other agencies finish &quot;discovery,&quot; we’re getting first drafts approved.
             </>),
         },
         {
@@ -202,7 +204,7 @@ export const AwardsPoints = {
             txt: "Infiniti Digital has been handling our legal briefs for over a year now, and I can confidently say they’ve made my life so much easier. Their legal expertise, and NDA mean I never have to worry about a thing. If you need a content team that understands the legal world and respects discretion, this is the one.",
             icon: < ClutchLogo />,
             namee: "Jonathan Pierce",
-            job: "Corporate Attorney.",
+            job: "Corporate Attorney",
             color: "#DFFFBF",
 
         },
@@ -210,36 +212,36 @@ export const AwardsPoints = {
             txt: "These guys have done everything from the content inside our trading dashboard to the sales copy for our web app. Since working with them, our engagement has gone up, and users actually understand the value of our platform right away. If you need content that sells and educates, this is the team you want.",
             icon: < TrustpilotLogo />,
             namee: "Mark Caldwell",
-            job: "Founder & CEO of TradeSync.",
+            job: "Founder & CEO of TradeSync",
             color: "#E0F0FF",
         },
         {
             txt: "Infiniti Digital handles all our white-label custom content, and they’re absolutely killing it. The blogs are SEO-friendly, client-ready, and always delivered on point. Our clients love the results, and we love not having to worry about content.",
             icon: <GoogleLogo />,
             namee: "Jason Reynolds",
-            job: "SEO Manager at Elevate Digital.",
+            job: "SEO Manager at Elevate Digital",
             color: "#FFCDD7",
         },
         {
-            txt: "Infiniti Digital has been handling our legal briefs for over a year now, and I can confidently say they’ve made my life so much easier. Their legal expertise, and NDA mean I never have to worry about a thing. If you need a content team that understands the legal world and respects discretion, this is the one.",
+            txt: "We’ve worked with several content agencies in the past, but none compare to the expertise and dedication of this team. Their content marketing strategy helped us increase website traffic and boost engagement with our audience. The well-researched blogs, social media content, and SEO-driven approach have significantly improved our brand's online presence. Highly recommended for businesses looking to scale their content marketing efforts.",
             icon: < ClutchLogo />,
-            namee: "Jonathan Pierce",
-            job: "Corporate Attorney.",
+            namee: "Michael T.",
+            job: "E-commerce Business Owner",
             color: "#DFFFBF",
 
         },
         {
-            txt: "These guys have done everything from the content inside our trading dashboard to the sales copy for our web app. Since working with them, our engagement has gone up, and users actually understand the value of our platform right away. If you need content that sells and educates, this is the team you want.",
+            txt: "Every piece of content was well-structured, engaging, and aligned with our brand voice. From blog posts to website copy, their team delivered polished content that not only attracted readers but also turned them into customers. If you're looking for professional content writers who understand SEO and storytelling, look no further!",
             icon: < TrustpilotLogo />,
-            namee: "Mark Caldwell",
-            job: "Founder & CEO of TradeSync.",
+            namee: "Sarah L.",
+            job: "Marketing Director at a SaaS Company",
             color: "#E0F0FF",
         },
         {
-            txt: "Infiniti Digital handles all our white-label custom content, and they’re absolutely killing it. The blogs are SEO-friendly, client-ready, and always delivered on point. Our clients love the results, and we love not having to worry about content.",
-            icon: <GoogleLogo />,
-            namee: "Jason Reynolds",
-            job: "SEO Manager at Elevate Digital.",
+            txt: "We needed a full content development strategy, from website copy to pillar blog posts and email campaigns. This team handled everything seamlessly! They took the time to understand our niche, audience, and goals, delivering compelling content that truly resonated. Their ability to craft a consistent content plan that aligns with our marketing strategy has been a game-changer for our business.",
+            icon: < GoogleLogo />,
+            namee: "David R.",
+            job: "CEO of a Tech Startup",
             color: "#FFCDD7",
         },
 

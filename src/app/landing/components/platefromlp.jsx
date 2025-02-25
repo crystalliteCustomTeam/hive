@@ -12,7 +12,7 @@ const OPTIONS = { loop: true, axis: "y" };
 export const data = {
     subtitle: "Platforms We",
     title: "Social Media Platforms we Work With",
-    desc: "You could keep posting trash and throwing money at bad ads, or you could let us handle it.",
+    desc: (<>You could keep posting trash and throwing money at bad ads,<br /> or you could let us handle it.</>),
     SocailItems: [
         { name: "Instagram", link: "https://www.instagram.com/infinitidigitalus/", icon: <InstagramIcon /> },
         { name: "YouTube", link: "https://www.youtube.com/@InfinitiDigitalus", icon: <YoutubeIcon /> },

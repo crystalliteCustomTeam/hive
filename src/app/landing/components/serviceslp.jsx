@@ -4,9 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
 
-const ServicesLp = ({ data, heigthSmall }) => {
+const ServicesLp = ({ data, heigthSmall, round, mainbtn }) => {
     return (
-        <section className={`pt-100 ${styles.servicesLpSection} ${heigthSmall ? styles.heigthSmall : ""}`} id="ServicesId">
+        <section className={`pt-100 ${styles.servicesLpSection} ${heigthSmall ? styles.heigthSmall : ""} ${round ? styles.roundBorder : ""}`} id="ServicesId">
             <Container>
                 <Row>
                     <Col md={10} lg={8} className="m-auto text-center">
@@ -32,6 +32,12 @@ const ServicesLp = ({ data, heigthSmall }) => {
                                 </div>
                             ))}
                         </div>
+                        {mainbtn ?
+                            <div className="text-center mt-4">
+                                <CommonBtn txt={mainbtn} center={true} />
+                            </div>
+                            : ""
+                        }
                     </Col>
                 </Row>
 

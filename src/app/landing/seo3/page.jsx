@@ -17,8 +17,8 @@ const Page = () => {
             <Banner />
             <AbtAwards data={AbtAwardsData} />
             <ServicesLP data={ServicesData} />
-            <Pricing data={PriceData} bg="yes" />
-            <ProcessLP data={processlp} />
+            <Pricing data={PriceData} bg="yes" bluebg={true} />
+            <ProcessLP data={processlp} roundwhite={true} />
             <CTA data={CtaData} />
             <MainServices data={dataService} />
             <Testimonials data={TestimonialData} />

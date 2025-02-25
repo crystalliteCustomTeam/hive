@@ -2,6 +2,11 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #E0F0FF 59%);
     padding-bottom: 50px;
 
+    .titleBox {
+        position: relative;
+        z-index: 1;
+    }
+
     .itemBox {
         border: 1px solid rgba(0, 0, 0, .5);
         border-radius: 40px;
@@ -136,6 +141,30 @@
 
 
     }
+
+    &.roundeStyle {
+        background: linear-gradient(0deg, #FFFFFF 0%, #E0F0FF 59%);
+        margin-top: 50px;
+        border-radius: 100px 100px 0px 0px;
+    }
+
+    &.roundWhite {
+        background: #E0F0FF;
+        position: relative;
+
+
+        &::before {
+            content: '';
+            background: #fff;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 0;
+            border-radius: 100px 100px 0px 0px;
+        }
+    }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -190,6 +219,16 @@
 
 
 
+        }
+
+        &.roundeStyle {
+            border-radius: 80px 80px 0px 0px;
+        }
+
+        &.roundWhite {
+            &::before {
+                border-radius: 80px 80px 0px 0px;
+            }
         }
     }
 }
@@ -247,6 +286,10 @@
 
 
         }
+
+        &.roundeStyle {
+            border-radius: 70px 70px 0px 0px;
+        }
     }
 }
 
@@ -302,6 +345,16 @@
 
 
 
+        }
+
+        &.roundeStyle {
+            border-radius: 60px 60px 0px 0px;
+        }
+
+        &.roundWhite {
+            &::before {
+                border-radius: 60px 60px 0px 0px;
+            }
         }
     }
 }
@@ -359,6 +412,16 @@
 
 
         }
+
+        &.roundeStyle {
+            border-radius: 50px 50px 0px 0px;
+        }
+
+        &.roundWhite {
+            &::before {
+                border-radius: 50px 50px 0px 0px;
+            }
+        }
     }
 }
 
@@ -415,6 +478,16 @@
 
 
         }
+
+        &.roundeStyle {
+            border-radius: 40px 40px 0px 0px;
+        }
+
+        &.roundWhite {
+            &::before {
+                border-radius: 40px 40px 0px 0px;
+            }
+        }
     }
 }
 
@@ -470,6 +543,16 @@
 
 
 
+        }
+
+        &.roundeStyle {
+            border-radius: 30px 30px 0px 0px;
+        }
+
+        &.roundWhite {
+            &::before {
+                border-radius: 30px 30px 0px 0px;
+            }
         }
     }
 }
@@ -530,6 +613,16 @@
 
 
 
+        }
+
+        &.roundeStyle {
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        &.roundWhite {
+            &::before {
+                border-radius: 20px 20px 0px 0px;
+            }
         }
     }
 }

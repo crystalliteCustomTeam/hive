@@ -11,6 +11,27 @@
         }
     }
 
+    &.grayBG {
+        background: linear-gradient(0deg, #FFFFFF 0%, #EAEAEA 59%);
+        border-radius: 100px 100px 0px 0px;
+        margin-top: 50px;
+    }
+
+    &.blueBG {
+        position: relative;
+
+        &::before {
+            content: '';
+            background: #F5FAFF;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: -100px;
+            z-index: -2;
+        }
+    }
+
     .tabBody {
         display: flex;
         justify-content: center;
@@ -580,6 +601,13 @@
     .pricingSection {
         &.blackBG {
             border-radius: 80px 80px 0px 0px;
+        }
+
+        &.blueBG {
+
+            &::before {
+                top: -100px;
+            }
         }
 
         .tabBody {

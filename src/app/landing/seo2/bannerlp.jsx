@@ -41,7 +41,7 @@ const Bannerlp = () => {
                                         </div>
                                     </div>
                                     <div className={styles.numberTitle}>
-                                        Client Working With Us Globally
+                                        Clients working with us globally
                                     </div>
                                 </div>
                                 <div className={styles.numberItem}>
@@ -54,7 +54,7 @@ const Bannerlp = () => {
                                         </div>
                                     </div>
                                     <div className={styles.numberTitle}>
-                                        Qualified Leads Delivered
+                                        Qualified leads generated
                                     </div>
                                 </div>
                                 <div className={styles.numberItem}>

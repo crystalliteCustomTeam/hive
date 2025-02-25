@@ -13,7 +13,7 @@ import { StateCounterPoints } from "@/src/app/landing/seo1/data/data"
 
 const Bannerlp = () => {
     return (
-        <section className={styles.bannerLpSection} id="BannerId" style={{ backgroundImage: `url(${bgBanner.src})` }}>
+        <section className={styles.bannerLpSection} style={{ backgroundImage: `url(${bgBanner.src})` }}>
             <Container >
                 <Row>
                     <Col md={12} lg={9} className="m-auto text-center">

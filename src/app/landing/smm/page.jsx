@@ -20,7 +20,7 @@ const Page = () => {
             <StateCountLP data={StateCounter} />
             <ProcessLp data={processlp} />
             <CtaLp data={CtaData} />
-            <ServicesLp data={ServicesData} heigthSmall={true} />
+            <ServicesLp data={ServicesData} heigthSmall={true} mainbtn="Schedule a Free Consultation" />
             <CreativeLp data={LatestWork} />
             <TalkLp data={talkData} />
             <PlateFromLp />

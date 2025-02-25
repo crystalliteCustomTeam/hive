@@ -6,14 +6,14 @@ import { CheckedIcon } from "@/src/app/app-constants"
 import CommonBtn from "@/src/app/components/common/commonbtn";
 
 
-const Pricing = ({ data, bg, tab, SMMLP }) => {
+const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg }) => {
     const [selectedPrice, setSelectedPrice] = useState(1);
     const handlePriceClick = (priceIndex) => {
         setSelectedPrice(priceIndex);
     };
 
     return (
-        <section className={`pt-100 ${styles.pricingSection} ${SMMLP ? styles.smmLp : ""} ${bg === "yes" ? styles.blackBG : ""}`} id="PricingId">
+        <section className={`pt-100 ${styles.pricingSection} ${SMMLP ? styles.smmLp : ""} ${bg === "yes" ? styles.blackBG : ""} ${bluebg ? styles.blueBG : ""} ${graybg ? styles.grayBG : ""}`}>
             <Container>
                 <Row>
                     <Col md={8}>

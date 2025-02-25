@@ -2,11 +2,11 @@ export const StateCounterPoints = {
     stateItem: [
         {
             numbers: "1500+",
-            namee: "Client Working Globally"
+            namee: "Clients Working Globally"
         },
         {
             numbers: "2M+",
-            namee: "Qualified Leads Delivered"
+            namee: "Qualified Leads Generated"
         }, {
             numbers: "94%",
             namee: "Client Retention Rate"
@@ -95,8 +95,8 @@ export const LPServices = {
 }
 export const IndustriesData = {
     subtitle: "Industries We Serve",
-    title: "Your Industry Isn’t the Problem. Your SEO Is. Let’s Fix That.",
-    desc: "Selling sneakers, stocks, or sandwiches? Doesn’t matter, If it has a website, we can rank it. We’ve ranked funeral homes. So yeah, we can bring your dead website back too.",
+    title: (<>Your Industry Isn’t the Problem.<br /> Your SEO Is. Let’s Fix That.</>),
+    desc: (<>Selling sneakers, stocks, or sandwiches?<br /> Doesn’t matter, If it has a website, we can rank it.<br /> We’ve ranked funeral homes. So yeah, we can bring your dead website back too.</>),
 
 }
 
@@ -179,7 +179,7 @@ export const WhyChooseData = {
 
 import ContentImg from "media/landing/seo1/contentImage.webp"
 export const ContentData = {
-    title: (<>We Don’t  Just Do SEO.<br className="d-none d-md-block" /> We Engineer Online Takeovers.</>),
+    title: (<>We Don’t Just Do SEO.<br /> We Engineer Online Takeovers.</>),
     txt: (<>
         <p>If your website isn’t ranking high on Google, you’re losing customers to competitors. That’s a big problem, but the good news? We know how to fix it.</p>
         <ul className="ContentUl">
@@ -188,7 +188,8 @@ export const ContentData = {
             <li><CheckedIcon />Higher rankings mean more clicks, and more clicks mean more revenue for your business.</li>
         </ul>
     </>),
-    img: ContentImg.src
+    img: ContentImg.src,
+    btntxt: "Get a Free SEO Audit"
 }
 // Pricing
 export const PriceData = {
@@ -398,7 +399,7 @@ export const PriceData = {
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
     subtitle: "",
-    title: "The Only Thing Between You & Page 1? Hiring Infiniti Digital",
+    title: "The Only Thing Between You & Page 1? Hiring Infiniti Digital.",
     desc: "You’re One Call Away from Results Like These",
     Awardslides: [
         {
@@ -455,12 +456,13 @@ export const AwardsPoints = {
 // Contact 
 import IMGBG from "media/landing/seo1/contactBg.webp"
 export const ContactData = {
-    subtitle: "",
-    title: "Get In Touch",
+    subtitle: "Get In Touch",
+    title: "",
     desc: (<>
-        <strong style={{ color: "#9AFF35" }}>Step one:</strong> Message us. <br />
-        <strong style={{ color: "#9AFF35" }}>Step two:</strong> Watch your rankings take off.<br />
-        <strong style={{ color: "#9AFF35" }}>Step three:</strong > Laugh as your competitors wonder what just happened. < br />
+        <strong>Step one:</strong> Message us. <br />
+        <strong>Step two:</strong> Watch your rankings take off.<br />
+        <strong>Step three:</strong > Laugh as your competitors wonder what just happened. < br />
     </>),
-    bgImg: IMGBG.src
+    bgImg: IMGBG.src,
+    btntxt: "Claim a Free Strategy Session"
 }

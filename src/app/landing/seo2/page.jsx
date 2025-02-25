@@ -13,9 +13,9 @@ const Page = () => {
             <BannerLp />
             <BetterSec />
             <CTA data={CtaData01} />
-            <Pricing data={PriceData} bg="yes" />
+            <Pricing data={PriceData} graybg={true} />
             <ServicesLP data={LPServices} bg={true} />
-            <ProcessLp black={true} data={processlp} />
+            <ProcessLp black={true} data={processlp} roundwhite={true} />
             <WhyChooseLp data={WhyData} />
 
         </>
