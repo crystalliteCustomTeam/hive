@@ -26,19 +26,19 @@ const BannerLp = () => {
                                 <div className={styles.numberItem}>
                                     <div className={styles.points}>
                                         1500+
-                                        <span>Client Working With Us Globally</span>
+                                        <span>Campaigns Launched</span>
                                     </div>
                                 </div>
                                 <div className={styles.numberItem}>
                                     <div className={styles.points}>
-                                        1.2MIL+
-                                        <span>Qualified Leads Delivered</span>
+                                        100+
+                                        <span>Brands Scaled to 7 Figures</span>
                                     </div>
                                 </div>
                                 <div className={styles.numberItem}>
                                     <div className={styles.points}>
-                                        94%
-                                        <span>Client retention rate</span>
+                                        5x
+                                        <span>Higher ROI</span>
                                     </div>
                                 </div>
                             </div>
@@ -49,8 +49,10 @@ const BannerLp = () => {
                     </Col>
                     <Col md={6} lg={5} className="my-auto offset-lg-1">
                         <div className={styles.bannerForms}>
-                            <h3>Want to Get a PPC Management Proposal from Infiniti Digital.</h3>
-                            <ContactFrom bgBlack="no" blkColor={true} />
+                            <h3>Your Socials Are Screaming “Help.”<br />
+                                And, We’re Here!
+                            </h3>
+                            <ContactFrom bgBlack="no" blkColor={true} title="Schedule a Free Consultation" />
                         </div>
                     </Col>
 

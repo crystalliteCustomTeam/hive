@@ -28,7 +28,7 @@ const Clients = ({ data, landingBanner, landingPage }) => {
                         {landingPage ?
                             <Col md={7} className="m-auto text-center">
                                 <h2>We Make Brands Famous For the Right Reasons.</h2>
-                                <p>We don’t play nice. We play to win, and we’ll make your brand the social media sensation.</p>
+                                <p>We don’t play nice. We play to win, and we’ll make your brand the<br /> social media sensation.</p>
                             </Col>
                             : ""}
                         <Col md={12} >

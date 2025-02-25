@@ -1,0 +1,115 @@
+.simpleCtaSection {
+
+    .containerbg {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        // background-image: url("../../../../public/landing/content//cta.webp");
+        border-radius: 50px;
+        padding: 50px;
+
+        h2 {
+            color: #ffff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .simpleBox {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 45px;
+            padding: 45px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 40px;
+            padding: 40px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 40px;
+            padding: 40px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 35px;
+            padding: 35px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 30px;
+            padding: 30px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 25px;
+            padding: 25px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .simpleCtaSection {
+        .containerbg {
+            border-radius: 20px;
+            padding: 25px;
+            max-width: 96%;
+            margin: auto;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

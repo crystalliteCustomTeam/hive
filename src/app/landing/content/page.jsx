@@ -9,8 +9,9 @@ import AwardsLp from "@/src/app/landing/components/awardslp"
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Work from '@/src/app/components/services/work';
 import { PriceData } from "@/src/app/seo-service/data/data"
-import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, FAQsData, BookTabsData, AwardsPoints } from "@/src/app/landing/content/data/data"
+import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, AwardsPoints } from "@/src/app/landing/content/data/data"
 import { WorkData } from '@/src/app/home/data/data';
+import CtaSimple from "@/src/app/landing/content/ctaSimple"
 
 const Page = () => {
     return (
@@ -21,6 +22,7 @@ const Page = () => {
             <ServicesLp data={ServiceslpData} />
             <MarketPoints data={MarketPointsData} />
             <PorcessLp data={PorcessLpData} />
+            <CtaSimple />
             <Pricing data={PriceData} tab={true} bg="yes" />
             <Work data={WorkData} category="Content Marketing" />
             <AwardsLp data={AwardsPoints} />

@@ -208,7 +208,7 @@ export const PorcessLpData = {
 //Awards
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
-    subtitle: "Awards & Recognitions",
+    subtitle: "",
     title: "Warning: Hiring Us As Your Social Media Marketing Agency Causes Explosive Growth.",
     desc: "Their engagement was non-existent. Now, it’s all they talk about.",
     Awardslides: [
