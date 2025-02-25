@@ -17,7 +17,7 @@ const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg }) => {
             <Container>
                 <Row>
                     <Col md={8}>
-                        {data.subtitle ? <div className="subtitle">{data.subtitle}</div> : ""}
+                        {data.subtitle ? <div className="subtitle">{data?.subtitle}</div> : ""}
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
                     </Col>

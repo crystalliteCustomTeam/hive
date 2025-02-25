@@ -1,0 +1,278 @@
+.contentBoxSection {
+    height: 630px;
+    overflow: hidden;
+
+    .boxContainer {
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) -8.36%, #E0F0FF 70.66%);
+        border-radius: 30px;
+        position: relative;
+
+        .contentMain {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 430px;
+
+            .contentBox {
+                flex: 0 0 calc(100% - 600px);
+                padding-left: 50px;
+            }
+
+            .contentBoxImg {
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+
+                img {
+                    height: 600px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .contentBoxSection {
+        height: 580px;
+
+        .boxContainer {
+            border-radius: 25px;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 350px;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 450px);
+                    padding-left: 40px;
+                }
+
+                .contentBoxImg {
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+
+                    img {
+                        height: 530px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .contentBoxSection {
+        height: 500px;
+        margin-top: 50px;
+
+        .boxContainer {
+            border-radius: 25px;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 350px;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 450px);
+                    padding-left: 40px;
+                }
+
+                .contentBoxImg {
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+
+                    img {
+                        height: 500px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .contentBoxSection {
+        height: 400px;
+        margin-top: 50px;
+
+        .boxContainer {
+            border-radius: 25px;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 300px;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 400px);
+                    padding-left: 40px;
+                }
+
+                .contentBoxImg {
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+
+                    img {
+                        height: 420px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .contentBoxSection {
+        height: 400px;
+        margin-top: 50px;
+
+        .boxContainer {
+            border-radius: 25px;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 300px;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 400px);
+                    padding-left: 40px;
+                }
+
+                .contentBoxImg {
+                    position: absolute;
+                    right: 30px;
+                    bottom: 0px;
+
+                    img {
+                        height: 400px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .contentBoxSection {
+        height: auto;
+        margin-top: 0px;
+
+        .boxContainer {
+            border-radius: 25px;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 300px;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 210px);
+                    padding-left: 20px;
+                }
+
+                .contentBoxImg {
+                    position: unset;
+                    right: 0px;
+                    bottom: 0px;
+
+                    img {
+                        height: auto;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .contentBoxSection {
+        height: auto;
+        margin-top: 0px;
+
+        .boxContainer {
+            border-radius: 25px;
+            padding: 20px 0px;
+            max-width: 96%;
+            margin: auto;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 300px;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 210px);
+                    padding-left: 20px;
+                }
+
+                .contentBoxImg {
+                    position: unset;
+                    right: 0px;
+                    bottom: 0px;
+
+                    img {
+                        height: auto;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .contentBoxSection {
+        height: auto;
+        margin-top: 0px;
+
+        .boxContainer {
+            border-radius: 25px;
+            padding: 20px 0px;
+            max-width: 96%;
+            margin: auto;
+
+            .contentMain {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: auto;
+                flex-wrap: wrap;
+
+                .contentBox {
+                    flex: 0 0 calc(100% - 0px);
+                    padding-left: 20px;
+                }
+
+                .contentBoxImg {
+                    position: unset;
+                    text-align: center;
+                    margin: auto;
+
+                    img {
+                        height: auto;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -14,10 +14,33 @@ const BannerLp = () => {
                 <Row className="h-100">
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.bannerContentSec}>
-                            <h1>Business Owned By You,But Driven By Our Social Media Marketing Services.</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                            <h1>Your Brand Called.<br />
+                                It Wants a Smarter<br />
+                                Social Media Marketing Agency.
+                            </h1>
+                            <p>Your social media isn’t working. Don’t ignore it, fix it! We create social media marketing strategies that don’t just generate engagement but also drive real, sustainable growth for your brand. </p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Free Consultation" LiveChat={true} BgBlack={true} />
+                                <CommonBtn txt="Connect with an SMM Expert" LiveChat={true} BgBlack={true} />
+                            </div>
+                            <div className={styles.numberStyle}>
+                                <div className={styles.numberItem}>
+                                    <div className={styles.points}>
+                                        1500+
+                                        <span>Client Working With Us Globally</span>
+                                    </div>
+                                </div>
+                                <div className={styles.numberItem}>
+                                    <div className={styles.points}>
+                                        1.2MIL+
+                                        <span>Qualified Leads Delivered</span>
+                                    </div>
+                                </div>
+                                <div className={styles.numberItem}>
+                                    <div className={styles.points}>
+                                        94%
+                                        <span>Client retention rate</span>
+                                    </div>
+                                </div>
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />

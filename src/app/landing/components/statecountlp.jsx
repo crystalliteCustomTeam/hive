@@ -4,9 +4,9 @@ import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const StateCountLP = ({ data, video, alternet, height, coloum, round }) => {
+const StateCountLP = ({ data, video, alternet, height, coloum, round, nostate }) => {
     return (
-        <section className={`pt-100 ${styles.stateCountSection}  ${video ? styles.videoSection : ""} ${round ? styles.borderRound : ""}`} id="AboutId">
+        <section className={`pt-100 ${styles.stateCountSection} ${nostate ? styles.noState : ""} ${video ? styles.videoSection : ""} ${round ? styles.borderRound : ""}`} id="AboutId">
             <Container>
                 <Row className={styles.stateCountLp}>
                     <Col md={6} className="my-auto">
@@ -15,9 +15,8 @@ const StateCountLP = ({ data, video, alternet, height, coloum, round }) => {
                         <div>{data.desc}</div>
                         <CommonBtn txt={data?.btntxt ? data?.btntxt : "Book a Free Consultation"} LiveChat={true} BgBlack={true} />
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className={nostate ? "p-0" : ""}>
                         <div className={`${styles.contuerImg} ${height ? styles.heightImg : ""}`}>
-
                             {video ?
                                 <video
                                     autoPlay
@@ -37,19 +36,18 @@ const StateCountLP = ({ data, video, alternet, height, coloum, round }) => {
                         </div>
                     </Col>
                 </Row>
-                {!video ?
+                {(!video || !nostate) && Array.isArray(data.stateItem) && data.stateItem.length > 0 ? (
                     <Row>
                         {data.stateItem.map((item, index) => (
                             <Col sm={6} md={coloum === "yes" ? 4 : 3} key={index}>
                                 <div className={styles.stateCountItem}>
                                     {item.numbers}
-                                    <div className={styles.title}> {item.namee}</div>
+                                    <div className={styles.title}>{item.namee}</div>
                                 </div>
                             </Col>
                         ))}
                     </Row>
-                    : ""
-                }
+                ) : null}
             </Container>
         </section>
     )

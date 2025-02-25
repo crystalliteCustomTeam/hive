@@ -1,47 +1,47 @@
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Is Your Business Facing These Problems?",
-    desc: "Lacking a strong social media presence? Our SMM services transform leads into loyal customers with proven strategies and expert management.",
+    subtitle: "",
+    title: "Social Media Fails That Are Killing Your Brand",
+    desc: "Let us handle it, You’ll stop saying “Why isn’t this working?” and start saying “Holy s#*t, it’s working!”",
     ServicesItem: [
         {
-            title: "Your Business Is Not Showing On Top Search Results?",
+            title: "Low Engagement ",
             txt: (<>
-                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Struggling to get likes, shares, comments, or any meaningful interaction on posts.</p>
             </>),
         },
         {
-            title: "You Are Only Investing But Not Making Any Profits?",
+            title: "Inconsistent Branding",
             txt: (<>
-                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
-            </>),
-
-        },
-        {
-            title: "You Are Not Getting Qualified Leads?",
-            txt: (<>
-                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Inconsistent messaging and visuals across platforms, confusing customers and diluting the brand identity.</p>
             </>),
 
         },
         {
-            title: "Your SEO Strategy Showing On Top Google Search Results?",
+            title: "Lack of Strategy ",
             txt: (<>
-                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Posting without a clear plan or objective, leading to wasted efforts and missed opportunities.</p>
             </>),
 
         },
         {
-            title: "You Are Not Getting Organic Traffic On Your Website?",
+            title: "Targeting the Wrong Audience ",
             txt: (<>
-                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Not properly defining or reaching the ideal target audience, leading to ineffective campaigns.</p>
             </>),
 
         },
         {
-            title: "Your Current SEO Company Is Not Providing Results?",
+            title: "Ineffective Ads",
             txt: (<>
-                <p>Collaborating closely, we uncover the essence of your goals and audience. This ensures your website’s foundation is aligned with your brand’s vision.</p>
+                <p>Struggling with poorly-performing paid ads due to lack of optimization or targeting.</p>
+            </>),
+
+        },
+        {
+            title: "Difficulty in Making Sales",
+            txt: (<>
+                <p>Having a strong online presence but struggling to turn followers into actual paying customers.</p>
             </>),
         },
 
@@ -50,29 +50,13 @@ export const ServicesData = {
 //Content States
 import IMG from "@/public/landing/smm1/contentImg.webp"
 export const StateCounter = {
-    subtitle: "Empowering Brands",
-    title: "Empowering Brands, Driving Digital Excellence.",
+    subtitle: "",
+    title: "Stop Boosting Posts. Start Boosting Profits.",
     desc: (<>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown.</p>
+        <p>Stop wasting money on boosting posts that barely make a dent. Our Meta Ads Management gets your ads in front of the right people, driving traffic, increasing sales, and giving you the profit boost you’ve been waiting for. Let’s turn that ad spend into revenue.</p>
     </>),
     img: IMG.src,
-    stateItem: [
-        {
-            numbers: "200+",
-            namee: "App Launched"
-        },
-        {
-            numbers: "100+",
-            namee: "App Development Experts"
-        }, {
-            numbers: "3M",
-            namee: "Active App Users"
-        }, {
-            numbers: "4.9",
-            namee: "Rating On Clutch"
-        }
-    ]
+    btntxt: "Talk To An Expert",
 }
 
 // Latest Work
@@ -163,55 +147,61 @@ export const LatestWork = {
 }
 
 export const WhyChooseData = {
-    subtitle: "Why Choose Us",
-    title: "Proven Results, Real Impact",
-    txt: "Explore our latest projects and see how we’ve helped brands grow, engage, and succeed in the digital world.",
+    subtitle: "",
+    title: "Why Choose Infiniti Digital",
+    desc: (<>
+        Stop wasting ad spend on random posts.<br />
+        We’ll turn your social media into a strategic growth tool.
+    </>),
     WhyChooseItem: [
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
+            title: "Results That Matter",
+            txt: "We’re all about driving real, measurable results. From increasing sales to boosting engagement, we focus on strategies that put your money where it counts",
         },
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
-
+            title: "Customized Strategies",
+            txt: "No cookie-cutter approaches here. We create tailored campaigns that fit your brand’s unique voice and objectives, ensuring maximum impact.",
         },
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
+            title: "Expertise & Innovation",
+            txt: "We stay ahead of trends and constantly refine our tactics to keep your brand on top of its game, using cutting-edge tools and insights.",
         },
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape."
+            title: "Transparent & Collaborative",
+            txt: "We believe in full transparency. You’ll always know what’s happening with your campaigns, with clear, consistent updates and open communication every step of the way.",
         }
     ]
 }
 
 import CtaImg from "media/landing/smm1/CTA.webp"
 export const CtaData = {
-    title: "Our proactive team expertly manages your social media, delivering measurable results through strategic marketing solutions.",
+    title: (<>Stop hoping for engagement.<br />
+        We create campaigns that guarantee results and grow your brand.</>),
     txt: "",
-    img: CtaImg.src
+    img: CtaImg.src,
+    btntxt: "Let’s Talk"
 }
 
 export const PorcessLpData = {
-    subtitle: "Our Process",
-    title: "How We Help Your Brand Grow.",
-    desc: "We don’t just promise growth; we deliver it. Our data-driven strategies are designed to maximize ROI and help your business thrive in a competitive digital landscape. ",
+    subtitle: "",
+    title: "Why Choose Infiniti Digital",
+    desc: (<>
+        Stop wasting ad spend on random posts.<br />
+        We’ll turn your social media into a strategic growth tool.
+    </>),
     PorcessLpItem: [
         {
-            title: "Deeply Understand your Business and Audience.",
-            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+            title: "Results That Matter",
+            para: "We’re all about driving real, measurable results. From increasing sales to boosting engagement, we focus on strategies that put your money where it counts",
         },
         {
-            title: "Deeply Understand your Business and Audience.",
-            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
+            title: "Customized Strategies",
+            para: "No cookie-cutter approaches here. We create tailored campaigns that fit your brand’s unique voice and objectives, ensuring maximum impact.",
         },
         {
-            title: "Deeply Understand your Business and Audience.",
-            para: "Provide valuable resources to your audience with informative e-books that educate, inspire, and position you as a thought leader in your industry.",
-        }
-
+            title: "Expertise & Innovation",
+            para: "We stay ahead of trends and constantly refine our tactics to keep your brand on top of its game, using cutting-edge tools and insights.",
+        },
     ]
 }
 
@@ -219,85 +209,236 @@ export const PorcessLpData = {
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const AwardsPoints = {
     subtitle: "Awards & Recognitions",
-    title: "Celebrating Excellence, Innovation, and Results",
-    desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
+    title: "Warning: Hiring Us As Your Social Media Marketing Agency Causes Explosive Growth.",
+    desc: "Their engagement was non-existent. Now, it’s all they talk about.",
     Awardslides: [
         {
-            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
+            txt: "Infiniti Digital completely changed our social media. We went from zero engagement to getting real sales. Our followers are loyal, and we’re seeing growth every month!",
             icon: < ClutchLogo />,
-            namee: "Jessica H.",
-            job: "Online Store Owner",
+            namee: "Emily",
+            job: "Luxe Apparel",
+            color: "#DFFFBF",
+        },
+        {
+            txt: "I was struggling to get noticed online, but Infiniti Digital made my social media work for me. More bookings, more clients, and my brand is now getting noticed.",
+            icon: <TrustpilotLogo />,
+            namee: "Jason",
+            job: "Personal Trainer",
+            color: "#E0F0FF",
+        },
+        {
+            txt: "We had no social media strategy before, but Infiniti Digital helped us advertise our food and connect with customers. Our tables are always full now, thanks to them.",
+            icon: <GoogleLogo />,
+            namee: "Sarah",
+            job: "The Burger Joint",
+            color: "#FFCDD7",
+        },
+        {
+            txt: "I needed help getting more leads, and Infiniti Digital delivered. Now I get inquiries daily and I’m closing deals faster than ever.",
+            icon: < ClutchLogo />,
+            namee: "Toby",
+            job: "Real Estate Agent",
             color: "#DFFFBF",
 
         },
         {
-            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
+            txt: "These guys helped us grow our following and connect with real customers. We’re getting more sales and our community keeps growing. ",
             icon: <TrustpilotLogo />,
-            namee: "David R.",
-            job: "Small Business Owner",
+            namee: "Kendra",
+            job: "Radiant Glow Skincare",
             color: "#E0F0FF",
         },
         {
-            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            txt: "Our sales were stuck, but after working with Infiniti Digital, we’re getting real results. Our ads and social content are bringing in new customers every day.",
             icon: <GoogleLogo />,
-            namee: "Emma L.",
-            job: "Local Business Owner",
+            namee: "Matt",
+            job: "UrbanTech Gadgets",
             color: "#FFCDD7",
         },
         {
-            txt: "Infiniti Digital changed our website completely. Traffic and sales went up fast, and they kept us updated the whole time. They really know SEO!",
-            icon: < ClutchLogo />,
-            namee: "Jessica H.",
-            job: "Online Store Owner",
-            color: "#DFFFBF",
-
-        },
-        {
-            txt: "We’ve tried other SEO companies, but Infiniti Digital actually got results. Our rankings are up and we’re finally seeing more sales. They do what they say!",
-            icon: <TrustpilotLogo />,
-            namee: "David R.",
-            job: "Small Business Owner",
-            color: "#E0F0FF",
-        },
-        {
-            txt: "Our search rankings have improved and so have our leads. Totally worth it!",
+            txt: "Our social media was just there, but Infiniti Digital made it work. We’re fully booked for months, and people are finding us online.",
             icon: <GoogleLogo />,
-            namee: "Emma L.",
-            job: "Local Business Owner",
+            namee: "Ariana",
+            job: "Luxe Celebrations",
             color: "#FFCDD7",
         },
-
+        {
+            txt: "We had no idea how to use social media, but Infiniti Digital helped us grow fast. We’re now the top choice for pet care in our area.",
+            icon: <GoogleLogo />,
+            namee: "Tom",
+            job: "Paws & Relax Grooming",
+            color: "#FFCDD7",
+        },
     ]
 }
-
-// FAQs
-
-
-export const FAQsData = {
-    subtitle: "FAQs",
-    title: "Frequently Asked Question?",
-
-    Fqaslist: [
+// Pricing
+export const PriceData = {
+    subtitle: "",
+    title: "Social Media Marketing Packages",
+    desc: "Posting is easy. Getting results? That’s where we come in, heroically.",
+    PriceItem: [
         {
-            title: "What services does Infiniti Digital offer ",
-            txt: "Infiniti Digital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
+            bgColor: "#7635FF",
+            packagename: "Launch Package",
+            titletxt: "Kickstart Your Brand’s Digital Presence",
+            price1: "1250",
+            price2: "1050",
+            price3: "900",
+            txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
+            bodyPoints: [
+                {
+                    title: "Included Services",
+                    points: [
+                        "08 High-Impact Static Posts",
+                        "Immersive Stories",
+                        "02 GIF/Carousel Post",
+                        "05 Reels or TikTok-style Short Video",
+                        "Branding & Design Consultation",
+                        "Basic Hashtag Strategy",
+                        "Social Platform Setup & Optimization",
+                    ]
+                },
+                {
+                    title: "Platform Management",
+                    points: [
+                        "Monthly Content Scheduling",
+                        "Community Engagement",
+                        "Page Optimization"
+                    ]
+                },
+                {
+                    title: "Platforms Included",
+                    points: [
+                        "Facebook",
+                        "Instagram",
+                    ]
+                }
+            ],
+            para: "",
         },
         {
-            title: "How does Infiniti Digital ensure results for its clients?",
-            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infiniti Digital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
+            bgColor: "#FF6987",
+            packagename: "Elevate Package ",
+            titletxt: "Take Your Brand to the Next Level",
+            price1: "1750",
+            price2: "1470",
+            price3: "1260",
+            txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
+            bodyPoints: [
+                {
+                    title: "Included Services",
+                    points: [
+                        "10 High-Impact Static Posts",
+                        "Immersive Stories",
+                        "05 GIF/Carousel Posts",
+                        "Branding & Design Consultation",
+                        "Advanced Hashtag & SEO Strategy*",
+                        "UGC (User-Generated Content) Strategy**",
+                        "Social Platform Setup & Optimization",
+                        "Social Media Contest or Giveaway",
+                    ]
+                },
+                {
+                    title: "Platform Management",
+                    points: [
+                        "Monthly Content Scheduling & Publishing",
+                        "Advanced Community Engagement",
+                        "Page Optimization & A/B Testing",
+                    ]
+                },
+                {
+                    title: "Advanced Analytics & Reporting",
+                    points: [
+                        "Monthly Performance Insights",
+                        "Competitor Benchmarking",
+                    ]
+                },
+                {
+                    title: "Platforms Included",
+                    points: [
+                        "Facebook",
+                        "Instagram",
+                        "LinkedIn or X (Optional)",
+                    ]
+                }
+            ],
+            bodyNote: [
+                {
+                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
+                },
+                {
+                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
+                }
+            ],
+
         },
         {
-            title: "Can Infiniti Digital handle projects for small and large businesses? ",
-            txt: "Yes, Infiniti Digital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
+            bgColor: "#9AFF35",
+            packagename: "Dominate Package ",
+            titletxt: "Achieve Social Media Leadership",
+            price1: "2250",
+            price2: "1890",
+            price3: "1620",
+            txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
+            bodyPoints: [
+                {
+                    title: "Included Services",
+                    points: [
+                        "15 High-Impact Static Posts",
+                        "Engaging Stories",
+                        "05 GIF/Carousel Posts",
+                        "15 Reels or TikTok-style Short Videos",
+                        "Branding & Design Consultation",
+                        "Advanced Hashtag & SEO Strategy*",
+                        "UGC (User-Generated Content) Strategy**",
+                        "Social Platform Setup & Optimization",
+                        "Social Media Contest or Giveaway",
+                        "Influencer/Brand Ambassador Outreach Strategy***",
+                        "Seasonal Campaigns ",
+                    ]
+                },
+                {
+                    title: "Platform Management",
+                    points: [
+                        "Bi-Weekly Content Scheduling & Publishing",
+                        "24/7 Community Engagement",
+                        "Full Social Page Optimization",
+                    ]
+                },
+                {
+                    title: "Advanced Analytics & Reporting",
+                    points: [
+                        "Bi-Weekly Performance Insights",
+                        "Competitor and Industry Analysis",
+                        "Lead Generation & Conversion Tracking",
+                    ]
+                },
+                {
+                    title: "Platforms Included",
+                    points: [
+                        "Facebook",
+                        "Instagram",
+                        "LinkedIn",
+                        "Twitter",
+                        "TikTok,",
+                        "Pinterest or Snapchat (Optional Add-On)"
+                    ]
+                }
+            ],
+            bodyNote: [
+                {
+                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
+                },
+                {
+                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
+                },
+                {
+
+                    para: "*** Please note that this includes only the outreach strategy; execution and management of influencer/brand ambassador partnerships are offered as separate services."
+                }
+            ],
+
         },
-        {
-            title: "What industries does Infiniti Digital specialize in? ",
-            txt: "Infiniti Digital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
-        },
-        {
-            title: "How can I get started with Infiniti Digital?",
-            txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success."
-        }
+
     ]
-
-}
+};
