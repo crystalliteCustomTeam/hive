@@ -534,24 +534,19 @@
                 min-width: auto;
                 justify-content: center;
                 align-items: center;
-                background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
+                background: transparent;
+                border: 2px solid #9AFF35;
 
                 &:hover {
-                    background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
-
                     svg {
                         path {
-                            fill: #fff;
+                            fill: #9AFF35;
                         }
                     }
                 }
 
                 &.chatStyle {
-                    background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
-
-                    &:hover {
-                        background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
-                    }
+                    background: transparent;
                 }
 
                 svg {
@@ -560,7 +555,7 @@
                     height: auto;
 
                     path {
-                        fill: #000;
+                        fill: #9AFF35;
                     }
                 }
             }
