@@ -7,7 +7,6 @@ import Image from "next/image"
 
 
 const ImgSlider = (props) => {
-    const { slides, options } = props
     const [emblaRef] = useEmblaCarousel(options, [Autoplay({ delay: 1500 })])
 
     return (
@@ -15,7 +14,7 @@ const ImgSlider = (props) => {
             <section className={styles.embla} dir={options.direction === 'rtl' ? 'rtl' : ''}>
                 <div className={styles.embla__viewport} ref={emblaRef}>
                     <div className={styles.embla__container}>
-                        {slides.map((item, index) => (
+                        {data.map((item, index) => (
                             <div className={styles.embla__slide} key={index}>
                                 <div className={styles.imgBox}>
                                     <Image src={item.img} fill alt={`Image-${index}`} />

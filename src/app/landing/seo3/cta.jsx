@@ -2,9 +2,9 @@ import styles from "@/styles/landing/components/seo2/cta.module.scss"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const CTA = ({ data, altetnet }) => {
+const CTA = ({ data, altetnet, bg }) => {
     return (
-        <section className={`pt-100 ${styles.ctaSection}`}>
+        <section className={`pt-100 ${styles.ctaSection} ${bg ? styles.bgSec : ""}`}>
             <Container className={`h-100 ${styles.ImageGB} `} style={{ backgroundImage: `url(${data.img})` }}>
                 <Row className="h-100">
                     <Col md={8} lg={6} className="my-auto">

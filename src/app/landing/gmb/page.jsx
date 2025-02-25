@@ -19,7 +19,7 @@ const Page = () => {
             <ServicesLP data={ServicesData} />
             <Pricing data={PriceData} bg="yes" />
             <ProcessLP data={processlp} />
-            <CTA data={CtaData} altetnet={true} />
+            <CTA data={CtaData} altetnet={true} bg={true} />
             <MainServices data={dataService} Container={true} />
             <Testimonials data={TestimonialData} />
             <FooterContact data={ContactData} />

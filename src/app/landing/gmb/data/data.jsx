@@ -2,10 +2,9 @@ import { CheckedIcon, Serv01, Serv02, Serv03, Serv04, Serv05, Serv06, Serv07, Se
 
 //Services
 export const ServicesData = {
-    subtitle: "GMB Services",
-    title: (<>Top Spots On Google Local Search Aren’t For Everyone But For The Ones Who Hire Us For Google Business Profile Management
-    </>),
-    desc: "",
+    subtitle: "",
+    title: (<>GMB Services</>),
+    desc: "Top Spots On Google Local Search Aren’t For Everyone But For The Ones Who Hire Us For Google Business Profile Management",
     ServicesItem: [
         {
             icon: <Serv01 />,
@@ -34,8 +33,8 @@ export const ServicesData = {
         },
         {
             icon: <Serv06 />,
-            title: "Multi-Location Profile ManagementWe manage all your business locations, keeping information accurate, updating profiles regularly, and ensuring each location ranks well in its area. Whether you have 5 or 500 locations, we keep them optimized. ",
-            txt: "",
+            title: "Multi-Location Profile Management",
+            txt: "Multi-Location Profile ManagementWe manage all your business locations, keeping information accurate, updating profiles regularly, and ensuring each location ranks well in its area. Whether you have 5 or 500 locations, we keep them optimized.",
         },
     ]
 }
@@ -221,7 +220,7 @@ export const PriceData = {
 // CTA  01
 import ImgBg1 from "media/landing/gmb/ctaBg1.webp"
 export const CtaData = {
-    title: (<>Map Pack on Google Has <span>Room for 3</span> Let’s Make Sure You’re <span>One of Them</span></>),
+    title: (<>Map Pack on Google Has <span>Room for 3</span><br /> Let’s Make Sure You’re <span>One of Them</span></>),
     img: ImgBg1.src
 }
 
@@ -235,7 +234,7 @@ export const dataService = [
             We’ve Got You.
         </>),
         txt: <>
-            <p>We know a GMB suspension is a business disaster. That’s why our GMB experts identify exactly why Google shut you down; guideline violations, verification issues, or spam triggers. Then, we fix every problem, clean up your profile, and make sure it’s 100% compliant. We don’t just submit a Google business profile reinstatement request, we make a bulletproof case with the right documentation to get Google to say YES. If they drag their feet, we push harder with follow-ups and escalations. Once reinstated, we fortify your profile to keep it safe from future suspensions. Losing your GMB profile is not an option, let’s get you back in business!</p>
+            <p>We know a GMB suspension is a business disaster. That’s why our GMB experts identify exactly why Google shut you down; guideline violations, verification issues, or spam triggers. Then, we fix every problem, clean up your profile, and make sure it’s 100% compliant. We don’t just submit a Google business profile reinstatement request, we make a bulletproof case with the right documentation to get Google to say <i>YES</i>. If they drag their feet, we push harder with follow-ups and escalations. Once reinstated, we fortify your profile to keep it safe from future suspensions. Losing your GMB profile is not an option, let’s get you back in business!</p>
         </>,
         img: Service01.src,
         btntxt: "Book a Free Consultation "

@@ -1,6 +1,22 @@
 .ctaSection {
     height: 590px;
 
+    &.bgSec {
+        background: #EAEAEA;
+        position: relative;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 30%);
+            border-radius: 100px 100px 0px 0px;
+        }
+    }
+
     .ImageGB {
         background-repeat: no-repeat;
         background-position: top right;
