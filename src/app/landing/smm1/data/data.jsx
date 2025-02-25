@@ -149,14 +149,14 @@ export const LatestWork = {
 export const WhyChooseData = {
     subtitle: "",
     title: "Why Choose Infiniti Digital",
-    desc: (<>
+    txt: (<>
         Stop wasting ad spend on random posts.<br />
         We’ll turn your social media into a strategic growth tool.
     </>),
     WhyChooseItem: [
         {
             title: "Results That Matter",
-            txt: "We’re all about driving real, measurable results. From increasing sales to boosting engagement, we focus on strategies that put your money where it counts",
+            txt: "We’re all about driving real, measurable results. From increasing sales to boosting engagement, we focus on strategies that put your money where it counts.",
         },
         {
             title: "Customized Strategies",
