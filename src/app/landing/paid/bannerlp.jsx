@@ -27,7 +27,7 @@ const BannerLp = () => {
                     <Col md={6} lg={5} className="my-auto offset-lg-1">
                         <div className={styles.bannerForms}>
                             <h3>Take your business to infinity and beyond with Infiniti Digital.</h3>
-                            <ContactFrom bgBlack="no" />
+                            <ContactFrom bgBlack="no" title="Request PPC Audit" />
                         </div>
                     </Col>
 

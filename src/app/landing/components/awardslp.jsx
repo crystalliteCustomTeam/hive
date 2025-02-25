@@ -9,7 +9,7 @@ import Autoplay from 'embla-carousel-autoplay'
 
 
 const OPTIONS = { loop: true, align: 'center' }
-const AwardsLp = ({ data }) => {
+const AwardsLp = ({ data, minreview }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
@@ -34,7 +34,7 @@ const AwardsLp = ({ data }) => {
                         />
                     </Col>
                     <Col md={12}>
-                        <div className={styles.embla}>
+                        <div className={`${styles.embla} ${minreview ? styles.minReview : ""}`}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
                                     {data.Awardslides.map((item, index) => (

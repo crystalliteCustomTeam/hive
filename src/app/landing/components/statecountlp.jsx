@@ -4,16 +4,16 @@ import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
-const StateCountLP = ({ data, video, alternet, height, coloum }) => {
+const StateCountLP = ({ data, video, alternet, height, coloum, round }) => {
     return (
-        <section className={`pt-100 ${styles.stateCountSection} ${video ? styles.videoSection : ""}`} id="AboutId">
+        <section className={`pt-100 ${styles.stateCountSection}  ${video ? styles.videoSection : ""} ${round ? styles.borderRound : ""}`} id="AboutId">
             <Container>
                 <Row className={styles.stateCountLp}>
                     <Col md={6} className="my-auto">
                         {data.subtitle ? <div className="subtitle">{data.subtitle}</div> : ""}
                         <h2>{data.title}</h2>
                         <div>{data.desc}</div>
-                        <CommonBtn txt="Book a Free Consultation" LiveChat={true} BgBlack={true} />
+                        <CommonBtn txt={data?.btntxt ? data?.btntxt : "Book a Free Consultation"} LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={6}>
                         <div className={`${styles.contuerImg} ${height ? styles.heightImg : ""}`}>

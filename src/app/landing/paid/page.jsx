@@ -15,13 +15,13 @@ const Page = () => {
     return (
         <>
             <BannerLp />
-            <StateCountLP data={StateCounter} video={true} />
+            <StateCountLP data={StateCounter} video={true} round={true} />
             <ServicesLp data={ServicesData} />
             <StateCount data={StateCounterPoints} />
             <StateCountLP data={SimpleContent} alternet={true} video={true} />
             <ProcessLp data={processlp} />
             <TalkLp data={talkData} />
-            <AwardsLp data={AwardsPoints} />
+            <AwardsLp data={AwardsPoints} minreview={true} />
             <ContactLp data={ContactData} />
         </>
     )

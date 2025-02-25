@@ -2,12 +2,13 @@ import IMG from "@/public/landing/smm/ctaBg.webp"
 
 export const StateCounter = {
     subtitle: "Infiniti Digital",
-    title: "Gets You More Leads & Sales with Expert PPC Campaign Management",
+    title: (<>Gets You More Leads & Sales with Expert PPC Campaign Management</>),
     desc: (<>
         <p>Our PPC agency ensures your campaigns are optimized for maximum conversions. With expert Google Ads management service, we refine targeting, improve ad copy, and optimize your budget to drive high-quality leads and sales. So, stop throwing money at Google, and let’s make it work for you! Your money is too valuable for bad PPC advertising.</p>
     </>),
     img: IMG.src,
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
+    btntxt: "Talk to an Expert"
 }
 export const CtaData = {
     title: "Talk To Our Experts",
@@ -69,7 +70,7 @@ export const StateCounterPoints = {
     desc: "Get the most out of Google Ads with our expert setup and management services. We create high-converting campaigns, optimize ad spend, and drive quality leads to grow your business efficiently. Let us handle the strategy while you focus on scaling!",
     stateItem: [
         {
-            numbers: "-20%",
+            numbers: "-28%",
             namee: "Decrease in Cost-Per-Lead"
         },
         {
@@ -82,7 +83,8 @@ export const StateCounterPoints = {
             numbers: "-35%",
             namee: "Reduction in Cost Per Click"
         }
-    ]
+    ],
+    extraline: "Keep Letting Google Rob You, or Hire Us Instead. Your Call!",
 }
 
 
@@ -130,15 +132,7 @@ export const AwardsPoints = {
             namee: "David.",
             job: "Owner of Speedy Auto Repairs",
             color: "#E0F0FF",
-        },
-        {
-            txt: "Infiniti Digital helped us grow our online coaching business by optimizing our PPC. We’ve seen an increase in quality leads and new sign-ups for our courses. They truly understand how to run google ads.",
-            icon: <GoogleLogo />,
-            namee: "Chris W.",
-            job: "Founder of Elevate Coaching Academy",
-            color: "#FFCDD7",
-
-        },
+        }
 
     ]
 }
@@ -160,49 +154,13 @@ export const SimpleContent = {
             <li><CheckedIcon />Ad placement and targeting adjustments</li>
             <li><CheckedIcon />Negative keywords management</li>
         </ul>
+        <p><i>Your next big win starts with a proposal from Infiniti Digital.</i></p>
     </>),
     img: Img01.src,
-}
-// FAQs
-
-export const FAQsData = {
-    subtitle: "FAQs",
-    title: "Frequently Asked Question",
-    Fqaslist: [
-        {
-            title: "What services does Infiniti Digital offer?",
-            txt: "Infiniti Digital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out."
-        },
-        {
-            title: "How does Infiniti Digital ensure results for its clients?",
-            txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infiniti Digital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results."
-        },
-        {
-            title: "Can Infiniti Digital handle projects for small and large businesses?",
-            txt: "Yes, Infiniti Digital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth."
-        },
-        {
-            title: "What industries does Infiniti Digital specialize in? ",
-            txt: "Infiniti Digital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche."
-        },
-        {
-            title: "How can I get started with Infiniti Digital?",
-            txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success."
-        }
-    ]
-
+    btntxt: "Schedule a Free Consultation"
 }
 
 
-// Contact 
-import IMGBG from "media/landing/paid/contactBg.webp"
-
-export const ContactData = {
-    subtitle: "Get In Touch",
-    title: "If Your PPC Strategy Involves “Hoping for the Best,” We Need to Talk.",
-    desc: "Ready to launch your Google Ads campaign? Contact Infiniti Digital now, and let's drive real results for your business.",
-    bgImg: IMGBG.src
-}
 
 export const processlp = {
     subtitle: "Our Process",
@@ -242,3 +200,12 @@ export const talkData = {
 }
 
 
+// Contact 
+import IMGBG from "media/landing/paid/contactBg.webp"
+
+export const ContactData = {
+    subtitle: "Get In Touch",
+    title: (<>If Your PPC Strategy Involves “Hoping for the Best,” <br />We Need to Talk.</>),
+    desc: "Ready to launch your Google Ads campaign? Contact Infiniti Digital now, and let's drive real results for your business.",
+    bgImg: IMGBG.src
+}

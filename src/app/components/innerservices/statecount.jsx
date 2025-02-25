@@ -22,10 +22,13 @@ const StateCount = ({ data, coloum, landingBanner, RoundedStyle }) => {
                         <Col sm={6} md={coloum === "yes" ? 4 : 3} key={index}>
                             <div className={styles.stateCountItem}>
                                 {item.numbers}
-                                <div className={styles.title}> {item.namee}</div>
+                                <div className={styles.title}>{item.namee}</div>
                             </div>
                         </Col>
                     ))}
+                    <Col md={12} className="mt-5 text-center">
+                        <h5>{data?.extraline ? data?.extraline : ""}</h5>
+                    </Col>
                 </Row>
             </Container>
         </section>
