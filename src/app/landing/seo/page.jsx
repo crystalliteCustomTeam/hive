@@ -22,7 +22,7 @@ const Page = () => {
             <WhyChooseLp data={WhyChooseData} />
             <CtaLp data={CtaData} />
             <ProcessLp black={true} data={processlp} />
-            <ServicesMain data={ServicesData} greenbg={true} />
+            <ServicesMain data={ServicesData} greenbg={true} center={true} />
             <CaseStudyLp nosub={true} />
             <Pricing data={PriceData} />
             <TalkLp data={talkData} />

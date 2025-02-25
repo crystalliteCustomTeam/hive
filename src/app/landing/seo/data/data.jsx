@@ -1,7 +1,7 @@
 import IMG from "@/public/landing/seo/ctaBg.webp"
 export const StateCounter = {
     subtitle: "",
-    title: (<>SEO That Works So Well, We Should Probably Keep It a Secret</>),
+    title: (<>SEO That Works So Well,<br /> We Should Probably Keep It a Secret</>),
     desc: (<>
         <p><i>(But we won’t, because we like making our clients rich.)</i></p>
         <p>We believe you should actually see the value of every dollar you invest. That means smarter strategies, better results, and no overpriced fluff.</p>
@@ -13,8 +13,10 @@ export const StateCounter = {
         </ul>
         <p>Whether you’re targeting local SEO to dominate your area, nationwide SEO to expand across the country, or global SEO to reach customers worldwide, we have the right approach for you.</p>
         <p>No wasted money, no useless techniques! just smart SEO that helps your business grow. Better value, better results, and a team that actually cares.</p>
+
     </>),
     img: IMG.src,
+    btntxt: "Our Affordable SEO Packages",
     stateItem: [
         {
             numbers: "1500+",
@@ -31,7 +33,7 @@ export const StateCounter = {
 }
 import CtaImg from "media/landing/smm/cta.webp"
 export const CtaData = {
-    title: "Your competitors are still praying for better rankings",
+    title: "Your competitors are still praying for better rankings.",
     txt: "We’re over here making it happen. Come join the winners.",
     img: CtaImg.src
 }
@@ -64,7 +66,7 @@ export const WhyChooseData = {
 //Services
 export const ServicesData = {
     subtitle: "",
-    title: (<>Services at Our SEO Agency <br />That Are Actually Worth Your Time<br className="d-none d-md-block" /> (And Money)</>),
+    title: (<>Services at Our SEO Agency <br />That Are Actually Worth Your Time (And Money)</>),
     desc: "Still think SEO is just optional? That’s adorable, but it’s also why you’re getting left behind. We don’t just slap some keywords on your site and hope for the best. We come at you with the real deal. ",
     ServicesItem: [
         {
@@ -370,14 +372,7 @@ export const AwardsPoints = {
 }
 
 
-// Contact 
-import IMGBG from "media/landing/seo/contactBg.webp"
-export const ContactData = {
-    subtitle: "Get In Touch",
-    title: (<>Still trusting that SEO Company from last year?</>),
-    desc: "Hope you’re not in too deep. Let’s fix this.",
-    bgImg: IMGBG.src
-}
+
 export const processlp = {
     subtitle: "Our Process",
     title: "Our 6 Step SEO Process ",
@@ -412,9 +407,19 @@ export const processlp = {
 }
 
 export const talkData = {
-    title: (<>Talk to Our <br />SEO Experts</>),
-    txt: (<><strong> Everyone’s got an SEO “strategy,” <br />but ours actually works</strong></>),
+    title: (<>Everyone’s got an SEO “strategy,” <br />but ours actually works</>),
+    txt: (<></>),
     formtitle: "Your rankings are fine….. for now.",
 }
 
 
+
+// Contact 
+import IMGBG from "media/landing/seo/contactBg.webp"
+export const ContactData = {
+    subtitle: "Get In Touch",
+    title: (<>Still trusting that SEO Company from last year?</>),
+    desc: "Hope you’re not in too deep. Let’s fix this.",
+    bgImg: IMGBG.src,
+    btntxt: "Submit"
+}

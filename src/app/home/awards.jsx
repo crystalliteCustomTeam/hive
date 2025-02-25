@@ -44,7 +44,7 @@ const Awards = ({ data }) => {
                                                 </div>
                                                 <div className={styles.awardsContent}>
                                                     <h4>{item.title}</h4>
-                                                    <p>{item.txt}</p>
+                                                    <p>“{item.txt}”</p>
                                                 </div>
                                             </div>
                                         </div>

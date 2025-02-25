@@ -16,7 +16,7 @@ const BannerLp = () => {
                             <h1>Sick of SEO Agency That Sucks? Let’s Fix That.</h1>
                             <p>Most SEO companies promise rankings. We deliver revenue. And, if your current SEO agency is ghosting you, it’s time to find someone better. <i>(Hint: It’s us.)</i></p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Get Your Free SEO Audit Now" LiveChat={true} center={true} />
+                                <CommonBtn txt="Get a Free SEO Audit" LiveChat={true} center={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={1020} height={280} />
