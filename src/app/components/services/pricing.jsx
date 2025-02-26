@@ -13,7 +13,7 @@ const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg }) => {
     };
 
     return (
-        <section className={`pt-100 ${styles.pricingSection} ${SMMLP ? styles.smmLp : ""} ${bg === "yes" ? styles.blackBG : ""} ${bluebg ? styles.blueBG : ""} ${graybg ? styles.grayBG : ""}`}>
+        <section id="PricingId" className={`pt-100 ${styles.pricingSection} ${SMMLP ? styles.smmLp : ""} ${bg === "yes" ? styles.blackBG : ""} ${bluebg ? styles.blueBG : ""} ${graybg ? styles.grayBG : ""}`}>
             <Container>
                 <Row>
                     <Col md={8}>

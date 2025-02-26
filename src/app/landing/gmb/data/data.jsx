@@ -240,7 +240,7 @@ export const dataService = [
         btntxt: "Book a Free Consultation "
     },
     {
-        title: (<>Stop Watching Competitors Win Take Over the Map.</>),
+        title: (<>Stop Watching Competitors Win<br /> Take Over the Map.</>),
         txt: <>
             <p>Every day, customers search for businesses like yours. If your Google Business Profile isn’t ranking, you’re handing them over to your competitors. That’s lost calls, lost sales, and lost revenue. Infiniti Digital makes sure that doesn’t happen.</p>
             <ul className="ContentUl">

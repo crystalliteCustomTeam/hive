@@ -1,10 +1,20 @@
 
+'use client';
 import styles from "@/styles/inner-services/statecount.module.scss"
 import Image from "next/image"
 import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
+import Link from "next/link"
 
-const StateCountLP = ({ data, video, alternet, height, coloum, round, nostate }) => {
+const StateCountLP = ({ data, video, alternet, height, coloum, round, nostate, price }) => {
+    // Chat Code
+    const openChat = () => {
+        if (window.LC_API) {
+            window.LC_API.open_chat_window();
+        } else {
+            console.error('LiveChat API is not loaded');
+        }
+    };
     return (
         <section className={`pt-100 ${styles.stateCountSection} ${nostate ? styles.noState : ""} ${video ? styles.videoSection : ""} ${round ? styles.borderRound : ""}`} id="AboutId">
             <Container>
@@ -13,7 +23,14 @@ const StateCountLP = ({ data, video, alternet, height, coloum, round, nostate })
                         {data.subtitle ? <div className="subtitle">{data.subtitle}</div> : ""}
                         <h2>{data.title}</h2>
                         <div>{data.desc}</div>
-                        <CommonBtn txt={data?.btntxt ? data?.btntxt : "Book a Free Consultation"} LiveChat={true} BgBlack={true} />
+                        {price ?
+                            <div className={styles.btnFlex}>
+                                <Link href="#PricingId" className={styles.btnStyle}>Our Affordable SEO Packages</Link>
+                                <div className={styles.chatStyle} onClick={openChat}>Live Chat</div>
+                            </div>
+                            :
+                            <CommonBtn txt={data?.btntxt ? data?.btntxt : "Book a Free Consultation"} LiveChat={true} BgBlack={true} />
+                        }
                     </Col>
                     <Col md={6} className={nostate ? "p-0" : ""}>
                         <div className={`${styles.contuerImg} ${height ? styles.heightImg : ""}`}>

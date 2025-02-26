@@ -77,6 +77,54 @@
             }
         }
 
+        .btnFlex {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+
+
+            div,
+            a {
+                height: 65px;
+                border-radius: 100px;
+                padding: 0px 30px;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: -0.165px;
+                cursor: pointer;
+                transition: background 0.3s ease, transform 0.3s ease;
+
+
+                &.btnStyle {
+                    background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+                    color: #000000;
+
+                    &:hover {
+                        background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
+                        transform: scale(1.01);
+                        transition: background 0.3s ease, transform 0.3s ease;
+                    }
+                }
+
+                &.chatStyle {
+                    background: #000;
+                    color: #fff;
+
+                    &:hover {
+                        background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
+                        transform: scale(1.01);
+                        transition: background 0.3s ease, transform 0.3s ease;
+                        color: #fff;
+                    }
+                }
+            }
+        }
     }
 
     .stateCountItem {
@@ -138,6 +186,16 @@
                     border-radius: 40px;
                 }
             }
+
+            .btnFlex {
+                gap: 10px;
+
+                div,
+                a {
+                    height: 65px;
+                    padding: 0px 30px;
+                }
+            }
         }
 
         &.borderRound {
@@ -184,6 +242,16 @@
                 img {
                     object-fit: cover;
                     border-radius: 40px;
+                }
+            }
+
+            .btnFlex {
+                gap: 10px;
+
+                div,
+                a {
+                    height: 62px;
+                    padding: 0px 30px;
                 }
             }
         }
@@ -234,6 +302,17 @@
                     border-radius: 40px;
                 }
             }
+
+            .btnFlex {
+                gap: 10px;
+
+                div,
+                a {
+                    height: 57px;
+                    padding: 0px 25px;
+                    font-size: 15px;
+                }
+            }
         }
 
         &.borderRound {
@@ -282,6 +361,17 @@
                     border-radius: 40px;
                 }
             }
+
+            .btnFlex {
+                gap: 10px;
+
+                div,
+                a {
+                    height: 50px;
+                    padding: 0px 25px;
+                    font-size: 14px;
+                }
+            }
         }
 
         &.borderRound {
@@ -328,6 +418,17 @@
                 img {
                     object-fit: cover;
                     border-radius: 30px;
+                }
+            }
+
+            .btnFlex {
+                gap: 10px;
+
+                div,
+                a {
+                    height: 50px;
+                    padding: 0px 25px;
+                    font-size: 14px;
                 }
             }
         }
@@ -379,6 +480,17 @@
                     border-radius: 15px;
                 }
             }
+
+            .btnFlex {
+                gap: 5px;
+
+                div,
+                a {
+                    height: 45px;
+                    padding: 0px 25px;
+                    font-size: 13px;
+                }
+            }
         }
 
         &.borderRound {
@@ -428,6 +540,17 @@
                 img {
                     object-fit: cover;
                     border-radius: 15px;
+                }
+            }
+
+            .btnFlex {
+                gap: 5px;
+
+                div,
+                a {
+                    height: 40px;
+                    padding: 0px 15px;
+                    font-size: 13px;
                 }
             }
         }

@@ -17,7 +17,7 @@ const Page = () => {
     return (
         <>
             <BannerLp />
-            <StateCountLP data={StateCounter} height={true} coloum="yes" />
+            <StateCountLP data={StateCounter} height={true} coloum="yes" price={true} />
             <WhyChooseLp data={WhyChooseData} />
             <CtaLp data={CtaData} />
             <ProcessLp black={true} data={processlp} />

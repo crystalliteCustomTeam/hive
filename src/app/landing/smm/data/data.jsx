@@ -60,7 +60,7 @@ export const StateCounter = {
             namee: "Campaigns launched"
         },
         {
-            numbers: "$100+",
+            numbers: "$100K+",
             namee: "in Revenue"
         }, {
             numbers: "100+",
