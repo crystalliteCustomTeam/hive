@@ -346,6 +346,29 @@
             }
         }
     }
+
+    &.customPrice {
+        background: transparent;
+        border-radius: 0px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-shadow: none;
+        margin: 20px 0px 0px;
+
+        .contactItem {
+            flex: 0 0 calc(50% - 10px);
+
+            &:nth-last-child(4) {
+                flex: 0 0 100%;
+            }
+
+            &:nth-last-child(3) {
+                flex: 0 0 100%;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -1114,6 +1137,22 @@
                 padding: 0px 20px;
                 width: auto;
                 font-size: 12px;
+            }
+        }
+
+        &.customPrice {
+            margin: 20px 0px 0px;
+
+            .contactItem {
+                flex: 0 0 calc(100% - 0px);
+
+                &:nth-last-child(4) {
+                    flex: 0 0 100%;
+                }
+
+                &:nth-last-child(3) {
+                    flex: 0 0 100%;
+                }
             }
         }
     }

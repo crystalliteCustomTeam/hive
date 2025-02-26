@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
 import { usePathname } from 'next/navigation'
 
-const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title, smmPage, extra }) => {
+const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title, smmPage, extra, customprice }) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
@@ -43,6 +43,8 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
         const name = e.target.name.value.trim();
         const email = e.target.email.value.trim();
         const phone = e.target.phone.value.trim();
+        const website = e.target.website.value.trim();
+        const voice = e.target.voice.value.trim();
         const message = e.target.comment.value.trim();
 
 
@@ -61,6 +63,8 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
                 name: e.target.name.value,
                 email: e.target.email.value,
                 phone: e.target.phone.value,
+                website: e.target.website.value,
+                voice: e.target.voice.value,
                 message: e.target.comment.value,
             }
         };
@@ -84,7 +88,7 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
 
     return (
         <Form onSubmit={handleSubmit}>
-            <div className={`${styles.Contactbox} ${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
+            <div className={`${styles.Contactbox} ${customprice ? styles.customPrice : ""} ${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
                 {contactPage ?
                     <>
                         <div className="subtitle">Get In Touch</div>
@@ -101,6 +105,17 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
                 <div className={styles.contactItem}>
                     <input type="Phone" placeholder="Phone" name="phone" required />
                 </div>
+                {customprice ? (
+                    <>
+                        <div className={styles.contactItem}>
+                            <input type="text" placeholder="Type Your Website" name="website" />
+                        </div>
+                        <div className={styles.contactItem}>
+                            <input type="text" placeholder="Tone of Voice" name="voice" />
+                        </div>
+                    </>
+                ) :
+                    null}
                 {!vertical ? (
                     <>
                         <div className={styles.contactItem}>
