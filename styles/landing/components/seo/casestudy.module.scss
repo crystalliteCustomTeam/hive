@@ -7,43 +7,81 @@
         margin-top: 30px;
 
         .casestudyItem {
-            background: var(--bgcolor);
             flex: 0 0 25%;
             height: 340px;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-between;
+            align-items: flex-start;
             flex-direction: column;
             padding: 20px;
             transition: all 0.3s ease;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+
+            &::after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+                z-index: 0;
+            }
 
 
             &:first-child {
                 border-radius: 40px 0px 0px 0px;
+
+                &::after {
+                    border-radius: 40px 0px 0px 0px;
+                }
             }
 
             &:nth-child(4) {
                 border-radius: 0px 40px 0px 0px;
+
+                &::after {
+                    border-radius: 0px 40px 0px 0px;
+                }
             }
 
             &:nth-child(5) {
                 border-radius: 0px 0px 0px 40px;
+
+                &::after {
+                    border-radius: 0px 0px 0px 40px;
+                }
             }
 
             &:last-child {
                 border-radius: 0px 0px 40px 0px;
+
+                &::after {
+                    border-radius: 0px 0px 40px 0px;
+                }
             }
 
-            img {
-                height: 120px;
-                width: auto;
-                transition: height 0.3s ease;
+            h4 {
+                position: relative;
+                z-index: 1;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 25px;
+                letter-spacing: -0.165px;
+                text-transform: uppercase;
+                color: #FFFFFF;
             }
 
             .casestudyTxt {
                 display: none;
                 opacity: 0;
                 transition: opacity 0.3s ease;
+                z-index: 1;
+                position: relative;
 
                 p {
                     color: #fff;
@@ -53,23 +91,26 @@
                     font-weight: 400;
                 }
 
-                a {
-                    color: #fff;
+                .btnCase {
+                    margin-top: 10px;
+                    color: #000;
                     font-size: 13px;
                     line-height: 20px;
-                    font-weight: 300;
-                    text-decoration: underline;
+                    font-weight: 500;
+                    background: linear-gradient(130deg, #9AFF35 13.78%, #FFFFFF 90.15%);
+                    max-width: 120px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                    border-radius: 100px;
+                    cursor: pointer;
                 }
             }
 
             &:hover {
-                justify-content: space-between;
+                justify-content: flex-end;
                 align-items: flex-start;
-
-                img {
-                    height: 100px;
-                    width: auto;
-                }
 
                 .casestudyTxt {
                     display: block;
@@ -93,41 +134,52 @@
 
                 &:first-child {
                     border-radius: 35px 0px 0px 0px;
+
+                    &::after {
+                        border-radius: 35px 0px 0px 0px;
+                    }
                 }
 
                 &:nth-child(4) {
                     border-radius: 0px 35px 0px 0px;
+
+                    &::after {
+                        border-radius: 0px 35px 0px 0px;
+                    }
                 }
 
                 &:nth-child(5) {
                     border-radius: 0px 0px 0px 35px;
+
+                    &::after {
+                        border-radius: 0px 0px 0px 35px;
+                    }
                 }
 
                 &:last-child {
                     border-radius: 0px 0px 35px 0px;
+
+                    &::after {
+                        border-radius: 0px 0px 35px 0px;
+                    }
                 }
 
-                img {
-                    height: 110px;
+                h4 {
+                    font-size: 22px;
+                    line-height: 22px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 16px;
+                        font-size: 15px;
                         line-height: 20px;
                     }
 
-                    a {
-                        font-size: 13px;
-                        line-height: 20px;
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 120px;
+                        height: 38px;
                     }
-                }
-
-                &:hover {
-                    img {
-                        height: 90px;
-                    }
-
                 }
             }
         }
@@ -147,42 +199,56 @@
 
                 &:first-child {
                     border-radius: 30px 0px 0px 0px;
+
+                    &::after {
+                        border-radius: 30px 0px 0px 0px;
+                    }
                 }
 
                 &:nth-child(4) {
                     border-radius: 0px 30px 0px 0px;
+
+                    &::after {
+                        border-radius: 0px 30px 0px 0px;
+                    }
                 }
 
                 &:nth-child(5) {
                     border-radius: 0px 0px 0px 30px;
+
+                    &::after {
+                        border-radius: 0px 0px 0px 30px;
+                    }
                 }
 
                 &:last-child {
                     border-radius: 0px 0px 30px 0px;
+
+                    &::after {
+                        border-radius: 0px 0px 30px 0px;
+                    }
                 }
 
-                img {
-                    height: 100px;
+
+                h4 {
+                    font-size: 20px;
+                    line-height: 20px;
+                    margin-bottom: 5px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 15px;
+                        font-size: 14px;
                         line-height: 20px;
                     }
 
-                    a {
-                        font-size: 13px;
-                        line-height: 20px;
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 120px;
+                        height: 35px;
                     }
                 }
 
-                &:hover {
-                    img {
-                        height: 85px;
-                    }
-
-                }
             }
         }
     }
@@ -201,42 +267,56 @@
 
                 &:first-child {
                     border-radius: 25px 0px 0px 0px;
+
+                    &::after {
+                        border-radius: 25px 0px 0px 0px;
+                    }
                 }
 
                 &:nth-child(4) {
                     border-radius: 0px 25px 0px 0px;
+
+                    &::after {
+                        border-radius: 0px 25px 0px 0px;
+                    }
                 }
 
                 &:nth-child(5) {
                     border-radius: 0px 0px 0px 25px;
+
+                    &::after {
+                        border-radius: 0px 0px 0px 25px;
+                    }
                 }
 
                 &:last-child {
                     border-radius: 0px 0px 25px 0px;
+
+                    &::after {
+                        border-radius: 0px 0px 25px 0px;
+                    }
                 }
 
-                img {
-                    height: 80px;
+                h4 {
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-bottom: 5px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 15px;
-                        line-height: 20px;
-                    }
-
-                    a {
                         font-size: 13px;
                         line-height: 20px;
                     }
-                }
 
-                &:hover {
-                    img {
-                        height: 80px;
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 120px;
+                        height: 35px;
                     }
-
                 }
+
+
             }
         }
     }
@@ -255,41 +335,53 @@
 
                 &:first-child {
                     border-radius: 25px 0px 0px 0px;
+
+                    &::after {
+                        border-radius: 25px 0px 0px 0px;
+                    }
                 }
 
                 &:nth-child(4) {
                     border-radius: 0px 25px 0px 0px;
+
+                    &::after {
+                        border-radius: 0px 25px 0px 0px;
+                    }
                 }
 
                 &:nth-child(5) {
                     border-radius: 0px 0px 0px 25px;
+
+                    &::after {
+                        border-radius: 0px 0px 0px 25px;
+                    }
                 }
 
                 &:last-child {
                     border-radius: 0px 0px 25px 0px;
+
+                    &::after {
+                        border-radius: 0px 0px 25px 0px;
+                    }
                 }
 
-                img {
-                    height: 70px;
+                h4 {
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-bottom: 5px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 14px;
+                        font-size: 13px;
                         line-height: 20px;
                     }
 
-                    a {
-                        font-size: 12px;
-                        line-height: 12px;
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 120px;
+                        height: 35px;
                     }
-                }
-
-                &:hover {
-                    img {
-                        height: 60px;
-                    }
-
                 }
             }
         }
@@ -309,41 +401,54 @@
 
                 &:first-child {
                     border-radius: 15px 0px 0px 0px;
+
+                    &::after {
+                        border-radius: 15px 0px 0px 0px;
+                    }
                 }
 
                 &:nth-child(4) {
                     border-radius: 0px 15px 0px 0px;
+
+                    &::after {
+                        border-radius: 0px 15px 0px 0px;
+                    }
                 }
 
                 &:nth-child(5) {
                     border-radius: 0px 0px 0px 15px;
+
+                    &::after {
+                        border-radius: 0px 0px 0px 15px;
+                    }
                 }
 
                 &:last-child {
                     border-radius: 0px 0px 15px 0px;
+
+                    &::after {
+                        border-radius: 0px 0px 15px 0px;
+                    }
                 }
 
-                img {
-                    height: 60px;
+                h4 {
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 14px;
-                        line-height: 20px;
-                    }
-
-                    a {
                         font-size: 12px;
-                        line-height: 12px;
-                    }
-                }
-
-                &:hover {
-                    img {
-                        height: 50px;
+                        line-height: 16px;
                     }
 
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 100px;
+                        height: 30px;
+                        font-size: 11px;
+                    }
                 }
             }
         }
@@ -362,28 +467,35 @@
                 border-radius: 0px !important;
                 margin-bottom: 1px;
 
+                &:first-child,
+                &:nth-child(4),
+                &:nth-child(5),
+                &:last-child {
+                    border-radius: 0px !important;
 
-                img {
-                    height: 60px;
+                    &::after {
+                        border-radius: 0px !important;
+                    }
+                }
+
+                h4 {
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin-bottom: 5px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 14px;
-                        line-height: 20px;
-                    }
-
-                    a {
                         font-size: 12px;
-                        line-height: 12px;
-                    }
-                }
-
-                &:hover {
-                    img {
-                        height: 50px;
+                        line-height: 16px;
                     }
 
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 100px;
+                        height: 30px;
+                        font-size: 11px;
+                    }
                 }
             }
         }
@@ -402,28 +514,35 @@
                 border-radius: 0px !important;
                 margin-bottom: 1px;
 
+                &:first-child,
+                &:nth-child(4),
+                &:nth-child(5),
+                &:last-child {
+                    border-radius: 0px !important;
 
-                img {
-                    height: 80px;
+                    &::after {
+                        border-radius: 0px !important;
+                    }
+                }
+
+                h4 {
+                    font-size: 18px;
+                    line-height: 20px;
+                    margin-bottom: 5px;
                 }
 
                 .casestudyTxt {
                     p {
-                        font-size: 15px;
-                        line-height: 20px;
+                        font-size: 14px;
+                        line-height: 18px;
                     }
 
-                    a {
-                        font-size: 13px;
-                        line-height: 12px;
+                    .btnCase {
+                        margin-top: 10px;
+                        max-width: 100px;
+                        height: 30px;
+                        font-size: 11px;
                     }
-                }
-
-                &:hover {
-                    img {
-                        height: 80px;
-                    }
-
                 }
             }
         }

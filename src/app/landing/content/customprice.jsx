@@ -1,8 +1,8 @@
 
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/content/customprice.module.scss"
-import { CustomPrice01 } from "../../app-constants"
-import ContactFrom from "../../components/contactfrom"
+import { CustomPrice01, CustomPrice02, CustomPrice03 } from "@/src/app/app-constants"
+import ContactFrom from "@/src/app/components/contactfrom"
 
 const CustomPrice = () => {
     return (
@@ -50,7 +50,7 @@ const CustomPrice = () => {
                                     <div className={styles.listItem}>
                                         <div className={styles.listIcon}>
                                             <div className={styles.listIconSvg}>
-                                                <CustomPrice01 />
+                                                <CustomPrice02 />
                                             </div>
                                         </div>
                                         <div className={styles.listTxt}>
@@ -61,7 +61,7 @@ const CustomPrice = () => {
                                     <div className={styles.listItem}>
                                         <div className={styles.listIcon}>
                                             <div className={styles.listIconSvg}>
-                                                <CustomPrice01 />
+                                                <CustomPrice03 />
                                             </div>
                                         </div>
                                         <div className={styles.listTxt}>
