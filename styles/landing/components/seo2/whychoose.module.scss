@@ -3,6 +3,10 @@
     border: 1px solid #FFFFFF;
     border-radius: 100px;
 
+    &.noRound {
+        border-radius: 0px;
+    }
+
     .margintop {
         margin-top: 50px;
     }

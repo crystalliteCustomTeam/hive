@@ -23,32 +23,40 @@ const Bannerlp = () => {
                 <Row className="h-100">
                     <Col md={12} lg={6} className="my-auto">
                         <div className={styles.bannerContentSec}>
-                            <div className={`${styles.colorBlack} subtitle`}>Business Owned By You, But Driven By Our</div>
-                            <h1>Social Media Marketing!</h1>
-                            <p>Jumpto1 Social Media Marketing means more traffic, more calls and more sales!</p>
+                            <div className={`${styles.colorBlack} subtitle`}>Low ROAS? Bad Ads? Let’s Fix That With Our</div>
+                            <h1>Social Media Advertising Agency
+                            </h1>
+                            <p>Bad Meta ads burn cash; we fix poor targeting, bad creatives, and weak funnels</p>
                             <div className={styles.btnFlex}>
-                                <Link href="#PricingId" className={styles.btnStyle}>Our Affordable SEO Packages</Link>
+                                <Link href="#PricingId" className={styles.btnStyle}>Let’s Connect</Link>
                                 <div className={styles.chatStyle} onClick={openChat}>Live Chat</div>
                             </div>
                             <div className={styles.numberStyle}>
                                 <div className={styles.numberItem}>
                                     <div className={styles.points}>
                                         1500+
-                                        <span>Client Working With Us Globally</span>
+                                        <span>Campaigns launched</span>
                                     </div>
                                 </div>
                                 <div className={styles.numberItem}>
                                     <div className={styles.points}>
-                                        1.2MIL+
-                                        <span>Qualified Leads Delivered</span>
+                                        $10M+
+                                        <span>in Revenue</span>
                                     </div>
                                 </div>
                                 <div className={styles.numberItem}>
                                     <div className={styles.points}>
-                                        94%
-                                        <span>Client retention rate</span>
+                                        100+
+                                        <span>Brands Scaled to 7 Figures</span>
                                     </div>
                                 </div>
+                                <div className={styles.numberItem}>
+                                    <div className={styles.points}>
+                                        5X
+                                        <span>Higher ROI</span>
+                                    </div>
+                                </div>
+
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />

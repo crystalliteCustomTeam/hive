@@ -21,7 +21,7 @@ const Testimonials = ({ data }) => {
         <section className={`pt-100 ${styles.testimonialsSection} sliderTestimonial`}>
             <Container>
                 <Row>
-                    <Col md={8} className="m-auto text-center">
+                    <Col md={9} className="m-auto text-center">
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>

@@ -5,12 +5,12 @@ import Image from "next/image"
 import BgPurpal from "media/landing/smm3/bgPurpal.webp"
 
 const data = [
-    "Your Business Is Not Showing On Top Search Results?",
-    "You Are Only Investing But Not Making Any Profits?",
-    "You Are Not Getting Qualified Leads?",
-    "Your SEO Strategy Is Failing?",
-    "You Are Not Getting Organic Traffic On Your Website?",
-    "Your Current SEO Company Is Not Providing Results?",
+    "Targeting the wrong audience",
+    "Boring visuals and generic copy",
+    "Poor offer positioning",
+    "Garbage landing pages",
+    "Wrong campaign objectives",
+    "Burning budget with no strategy"
 ];
 
 const BetterSec = () => {
@@ -19,12 +19,11 @@ const BetterSec = () => {
             <Container>
                 <Row>
                     <Col md={12} lg={10} xl={10} className="m-auto text-center">
-                        <h2><span>Optimize Your Website </span> Today,<br className="d-md-block d-none" /> As There Comes No Better Tomorrow!</h2>
-                        <p>Whether you have launched a business recently or been running a company for <br className="d-md-block d-none" />many years,the only thing you wanna have is</p>
-                        <div className={styles.btnTxt}>REVENUE, PROFIT & SALES</div>
-                        <p>And to bring this things?</p>
-                        <div className={styles.waitTxt}>But Wait…</div>
-                        <h6>Customers & Only Customers!</h6>
+                        <h2><span>Losing Sales?</span> Blame Your Ads.</h2>
+                        <p>Your competitors aren’t just lucky, they have a</p>
+                        <div className={styles.btnTxt}>paid social media advertising agency</div>
+                        <p>that knows what they’re doing.</p>
+                        <p>Meanwhile, your ads are getting ignored because of;</p>
                     </Col>
                     <Col md={12} lg={12} className="m-auto text-center">
                         <div className={styles.menImage}>
@@ -40,10 +39,14 @@ const BetterSec = () => {
                     </Col>
                     <Col md={12} lg={12} className="m-auto text-center">
                         <div className={styles.spanClass}>IF YES</div>
-                        <p>You are in the right place! Our SEO agency in USA is the top-rated digital marketing firm that offers only</p>
-                        <div className={styles.origanTxt}>QUALITY LEADS, INCOMPARABLE ROI, & OUTSTANDING BRAND VISIBILITY</div>
-                        <p>So what are you waiting for? with local SEO agency jumpto1</p>
-                        <div className={styles.uppercaseTxt}>BE THE NUMBER 1, AND BE ON NUMBER 1</div>
+                        <p>Then it’s time to stop wasting money and start scaling smart.<br />
+                            Your ads should
+                        </p>
+                        <div className={styles.origanTxt}>Attract, Convert, and Dominate</div>
+                        <p>That’s where Infiniti Digital comes in.</p>
+                        <p>We don’t just run ads; we engineer</p>
+                        <div className={styles.uppercaseTxt}>High-ROAS Revenue Scaling Social Media Campaigns</div>
+                        <p>that crush the competition.</p>
                     </Col>
                 </Row>
             </Container>

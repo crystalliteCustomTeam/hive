@@ -11,7 +11,7 @@ const CTA = ({ data }) => {
                         <div className={`${styles.ctaTitle}`}>
                             <h2>{data.title}</h2>
                             <p>{data.txt}</p>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Schedule a Free Consultation" />
                         </div>
                     </Col>
                 </Row>

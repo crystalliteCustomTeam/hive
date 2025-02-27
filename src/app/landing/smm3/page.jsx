@@ -20,7 +20,7 @@ const Page = () => {
             <ServicesLP data={ServicesData} SMMLP={true} />
             <Pricing data={PriceData} SMMLP={true} />
             <CTA data={CtaData01} />
-            <WhyChooseLp data={WhyData} />
+            <WhyChooseLp data={WhyData} noround={true} />
         </>
     )
 }

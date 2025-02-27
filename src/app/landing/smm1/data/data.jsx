@@ -443,3 +443,52 @@ export const PriceData = {
     ]
 };
 
+
+
+
+//Clients
+import Client01 from "media/landing/smm1/logo/1.svg";
+import Client02 from "media/landing/smm1/logo/2.svg";
+import Client03 from "media/landing/smm1/logo/3.svg";
+import Client04 from "media/landing/smm1/logo/4.svg";
+import Client05 from "media/landing/smm1/logo/5.svg";
+import Client06 from "media/landing/smm1/logo/6.svg";
+
+export const ClientImages = [
+    {
+        Img: Client01.src,
+    },
+    {
+        Img: Client02.src,
+    },
+    {
+        Img: Client03.src,
+    },
+    {
+        Img: Client04.src,
+    },
+    {
+        Img: Client05.src,
+    },
+    {
+        Img: Client06.src,
+    },
+    {
+        Img: Client01.src,
+    },
+    {
+        Img: Client02.src,
+    },
+    {
+        Img: Client03.src,
+    },
+    {
+        Img: Client04.src,
+    },
+    {
+        Img: Client05.src,
+    },
+    {
+        Img: Client06.src,
+    },
+]

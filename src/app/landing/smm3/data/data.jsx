@@ -51,42 +51,30 @@ export const ClientImages = [
 
 
 //Testimonials
-import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity, CheckedIcon } from "@/src/app/app-constants";
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "Hear It from Our Clients ",
-    desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
+    subtitle: "",
+    title: "Engagement? Sales? ROI? Yeah, We Do That.",
+    desc: "See how we help brands break the cycle of bad marketing.",
     Testslider: [
         {
-            txt: "Infiniti Digital transformed our online presence. From zero visibility to ranking on the first page of search results, they exceeded our expectations. Their team’s keen insights, data-driven approach, and commitment helped us tap into audiences we didn’t know we could reach. Working with them has been a breath of fresh air, and we now feel more confident about our brand’s growth.",
+            txt: "Infiniti Digital has completely transformed our social media presence! Their organic posting strategy keeps our audience engaged with high-quality content that truly reflects our brand. We’ve seen a significant boost in followers and interactions—all without spending a dime on ads. If you need a team that knows how to keep your brand relevant and engaging, Infiniti Digital is the way to go!",
             icon: <ClutchLogo />,
-            namee: "Amanda T.",
-            job: "Founder of BrightTech Solutions",
+            namee: "Sarah M.",
+            job: "Marketing Director",
         },
         {
-            txt: "Their team’s dedication and expertise are unmatched. Since partnering with Infiniti Digital, our sales have doubled, and our customer base continues to expand. They understood our business challenges and implemented solutions that aligned perfectly with our goals. Their strategies for paid campaigns and content optimization brought impressive results, and we’re proud to call them a long-term partner in our success.",
+            txt: "We wasted so much money on poorly targeted ads before working with Infiniti Digital. Their ad setup and management services changed everything! They optimized our audience targeting, crafted compelling ad creatives, and kept our campaigns running efficiently. Now, our cost per lead has dropped, and our ROI has never looked better!",
             icon: <TrustpilotLogo />,
-            namee: "James M.",
-            job: "COO of NovaRetail Solutions",
+            namee: "James T.",
+            job: "E-commerce Business Owner",
         },
         {
-            txt: "Infiniti Digital helped us exceed our targets with a well-rounded digital strategy tailored to our needs. From increasing website traffic to improving conversion rates, every milestone was backed by their expertise and dedication. Their team is responsive, professional, and results-oriented. We couldn’t be happier with the partnership.",
+            txt: "Infiniti Digital turned our social media ads into a revenue-generating machine! Their conversion campaigns brought us more sales, and a lower ad spend. We went from struggling to get results to hitting our best month ever. If you want ads that actually convert, look no further!",
             icon: <GoogleLogo />,
-            namee: "Sarah K.",
-            job: "MD at GreenWave Industries",
+            namee: "Melissa R.",
+            job: "CEO, Fashion Brand",
         },
-        {
-            txt: "Partnering with Infiniti Digital was our best decision for our brand’s growth. Our campaigns have seen significant improvement, and their guidance has been pivotal in streamlining our marketing efforts. The results speak for themselves—better engagement, higher visibility, and real ROI.",
-            icon: <TrustpilotLogo />,
-            namee: "Tom L.",
-            job: "CEO of BuildPro Solutions",
-        },
-        {
-            txt: "Our online sales skyrocketed after working with Infiniti Digital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
-            icon: <ClutchLogo />,
-            namee: "Emily R.",
-            job: "Founder of StyleHive Boutique",
-        }
     ]
 }
 
@@ -95,29 +83,29 @@ import { Serv01, Serv02, Serv03, Serv04, Serv05, Serv06, Serv07, Serv08, Serv09 
 
 //Services
 export const ServicesData = {
-    subtitle: "Our Services",
-    title: "Our SEO SERVICES",
-    desc: "Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data",
+    subtitle: "",
+    title: "Our Social Media Marketing Services ",
+    desc: "Hiring us is the Difference Between Going Viral and Going Broke.",
     ServicesItem: [
         {
             icon: <Serv01 />,
-            title: "Facebook Advertising",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Meta Advertising Management",
+            txt: "We create and optimize high-ROI ad campaigns on Facebook and Instagram, targeting the right audience to maximize reach, conversions, and brand visibility.",
         },
         {
             icon: <Serv02 />,
-            title: "Facebook Advertising",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Content Creation",
+            txt: "We produce scroll-stopping visuals, videos, and copy that capture attention, strengthen brand identity, and keep your audience engaged.",
         },
         {
             icon: <Serv03 />,
-            title: "Facebook Advertising",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "Social Media Management",
+            txt: "We handle everything from content creation to posting, engagement, and analytics, ensuring your brand stays active, relevant, and consistently growing on social media.",
         },
         {
             icon: <Serv04 />,
-            title: "Facebook Advertising",
-            txt: "Our social media marketing solutions help brands create an ever-lasting impression on their target audience Our social media marketing solutions help brands create an ever-lasting impression.",
+            title: "TikTok Growth Marketing",
+            txt: "We help brands grow fast on TikTok with trending content, viral strategies, and targeted ads that boost visibility and engagement. ",
         }
     ]
 }
@@ -125,9 +113,9 @@ export const ServicesData = {
 // CTA  01
 import ImgBg1 from "media/landing/smm3/ctaBg1.webp"
 export const CtaData01 = {
-    title: (<>Now Is The Time To Get Declared As Cream Of The Crop!</>),
-    txt: "If You Are Perfect At Your Business, We Are Perfect In Marketing!",
-    img: ImgBg1.src
+    title: (<>Meta’s Getting Rich Off You, Time to Flip the Script!</>),
+    txt: "Connect with our social media advertising consultant, And scale like a pro.",
+    img: ImgBg1.src,
 }
 export const LPServices = {
     title: "Our SEO Services",
@@ -212,8 +200,8 @@ export const processlp = {
 // Pricing
 export const PriceData = {
     subtitle: "",
-    title: "Pick a Plan That Puts Your Business on the Map",
-    desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
+    title: "Social Media Marketing Packages",
+    desc: "Posting is easy. Getting results? That’s where we come in, heroically.",
     PriceItem: [
         {
             packagename: "Basic Package",
@@ -411,15 +399,23 @@ export const PriceData = {
 
 
 export const WhyData = {
-    title: "Why Choose Us",
-    txt: (<>Because <i>“Near Me”</i> Should Always Mean <i>YOU!</i></>),
-    nexttitle: (<>Clicks, Calls, and Customers; <span>Delivered Daily.</span></>),
+    title: "",
+    txt: "",
+    nexttitle: (<>Stop Running Ads Like It’s 2015<br />
+        We Play to <span>Win in 2025.</span></>),
     nexttxt: (<>
-        <p>Did you know a poorly optimized website can silently drain your leads, credibility, and revenue? That’s the harsh reality of weak SEO. But at Infiniti Digital, we don’t let that happen.</p>
-        <p>Unlike other local SEO agencies that slap together cookie-cutter strategies, we develop custom-tailored solutions designed to put your brand ahead, every single time.</p>
-        <p>If your traffic isn’t converting, your bounce rates are climbing, or your rankings are slipping, it’s not bad luck, it’s bad SEO. And that’s where we come in. Our data-driven, white-hat strategies are built for real, long-term results.</p>
-        <p>With high-intent keyword research, extensive site audits, quick technical fixes, and a powerful content strategy, we don’t just help you rank, we help you dominate.</p>
-        <p>If you’re tired of watching competitors outrank you, it’s time to make a move. Hire Infiniti Digital for infinite growth.</p>
+        <p>If you’re running ads without seeing real growth, your strategy is broken. The truth? Meta doesn’t care about your ROAS, but we do.</p>
+        <p>At Infiniti Digital, we care about one thing: making you more money.</p>
+        <h5>What Makes Us Different?</h5>
+        <ul className="ContentUl">
+            <li><CheckedIcon />Smart Targeting That Converts</li>
+            <li><CheckedIcon />Creatives That Stop the Scroll</li>
+            <li><CheckedIcon />Data-Driven Optimization</li>
+            <li><CheckedIcon />Retargeting That Closes Deals</li>
+        </ul>
+        <h5>Start Scaling with Infiniti Digital. </h5>
+        <p>Your competitors are running better ads, making more sales, and growing while you’re stuck watching. It’s time to change that.</p>
+        <p>Higher ROAS. More Customers. Infinite Growth. Let’s Connect!</p>
     </>),
-    btntxt: "Get a Free SEO Audit",
+    btntxt: "Schedule a Free Consultation",
 }
