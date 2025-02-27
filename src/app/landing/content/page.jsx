@@ -10,7 +10,7 @@ import ContactLp from "@/src/app/landing/components/contactlp"
 import Work from '@/src/app/components/services/work';
 import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, AwardsPoints } from "@/src/app/landing/content/data/data"
 import { WorkData } from '@/src/app/home/data/data';
-import CtaSimple from "@/src/app/landing/content/ctaSimple"
+import CtaSimple from "@/src/app/landing/content/ctasimple"
 import CustomPrice from "@/src/app/landing/content/customprice"
 
 const Page = () => {
