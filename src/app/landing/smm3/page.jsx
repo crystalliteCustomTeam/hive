@@ -18,7 +18,7 @@ const Page = () => {
             <BetterSec />
             <Testimonials data={TestimonialData} />
             <ServicesLP data={ServicesData} SMMLP={true} />
-            <Pricing data={PriceData} SMMLP={true} />
+            <Pricing data={PriceData} SMMLP={true} tab={true} />
             <CTA data={CtaData01} />
             <WhyChooseLp data={WhyData} noround={true} />
         </>

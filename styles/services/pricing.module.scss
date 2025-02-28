@@ -506,7 +506,7 @@
                     font-size: 18px;
                     line-height: 26px;
                     letter-spacing: -0.165px;
-                    color: #fff;
+                    color: #7D7D7D;
                     margin-bottom: 10px;
                 }
 
@@ -517,7 +517,7 @@
                         font-size: 15px;
                         line-height: 24px;
                         letter-spacing: -0.165px;
-                        color: #fff;
+                        color: #7D7D7D;
                         margin-bottom: 5px;
                     }
                 }
@@ -541,21 +541,21 @@
                                 color: #fff;
                             }
                         }
-
-                        .packagepara,
-                        .packageSubTxt {
-                            color: #fff;
-                        }
-
-                        .packagebutton {
-                            color: #000;
-                            border: 1px solid #9AFF35;
-                            background: #9AFF35;
-                        }
-
-
-
                     }
+
+                    .packagepara,
+                    .packageSubTxt {
+                        color: #fff;
+                    }
+
+                    .packagebutton {
+                        color: #000;
+                        border: 1px solid #9AFF35;
+                        background: #9AFF35;
+                    }
+
+
+
 
                     .packageBody {
 
@@ -583,12 +583,12 @@
                     }
 
                     .titleNote {
-                        color: #000;
+                        color: #fff;
                     }
 
                     .packageNote {
                         p {
-                            color: #000;
+                            color: #fff;
                         }
                     }
                 }
@@ -812,18 +812,21 @@
                                 }
                             }
                         }
-                    }
 
-                    .titleNote {
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-bottom: 10px;
-                    }
 
-                    .packageNote {
-                        p {
-                            font-size: 13px;
-                            line-height: 18px;
+                        .titleNote {
+                            font-size: 16px;
+                            line-height: 26px;
+                            margin-bottom: 10px;
+                            color: #333;
+                        }
+
+                        .packageNote {
+                            p {
+                                font-size: 13px;
+                                line-height: 18px;
+                                color: #333;
+                            }
                         }
                     }
                 }

@@ -204,196 +204,168 @@ export const PriceData = {
     desc: "Posting is easy. Getting results? That’s where we come in, heroically.",
     PriceItem: [
         {
-            packagename: "Basic Package",
-            price: "399",
-            txt: "Designed for small businesses or startups looking to establish a foundation in SEO.",
+            bgColor: "#7635FF",
+            packagename: "Launch Package",
+            titletxt: "Kickstart Your Brand’s Digital Presence",
+            price1: "1250",
+            price2: "1050",
+            price3: "900",
+            txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
             bodyPoints: [
                 {
-                    title: "Setup",
+                    title: "Included Services",
                     points: [
-                        "Website Sitemap",
-                        "Check for SEO Scope",
-                        "Custom 404 Page Setup / Nofollow Link Checkup",
+                        "08 High-Impact Static Posts",
+                        "Immersive Stories",
+                        "02 GIF/Carousel Post",
+                        "05 Reels or TikTok-style Short Video",
+                        "Branding & Design Consultation",
+                        "Basic Hashtag Strategy",
+                        "Social Platform Setup & Optimization",
                     ]
                 },
                 {
-                    title: "Pages & Keywords",
+                    title: "Platform Management",
                     points: [
-                        "Up to 5 pages optimized",
-                        "Focused Keywords: 5",
+                        "Monthly Content Scheduling",
+                        "Community Engagement",
+                        "Page Optimization"
                     ]
                 },
                 {
-                    title: "On-page SEO",
+                    title: "Platforms Included",
                     points: [
-                        "Web Content Optimization",
-                        "URL Structure Improvements",
-                        "Meta Tags (Title, Description, Header Tags)",
-                        "Image Alt Tags and Optimization: 5 images",
-                    ]
-                },
-                {
-                    title: "Technical Optimization",
-                    points: [
-                        "Fixing Crawl Errors",
-                        "Mobile-first Optimization",
-                        "Page Speed Optimization",
-                        "Core Web Vitals Improvements",
-                        "Schema Markup Implementation",
-                    ]
-                },
-                {
-                    title: "Progress Reporting",
-                    points: [
-                        "Basic Monthly Progress Reports",
+                        "Facebook",
+                        "Instagram",
                     ]
                 }
-            ]
+            ],
+            para: "",
         },
         {
-            packagename: "Growth Package",
-            price: "999",
-            txt: "Ideal for businesses aiming to grow their organic reach and improve conversions.",
+            bgColor: "#FF6987",
+            packagename: "Elevate Package ",
+            titletxt: "Take Your Brand to the Next Level",
+            price1: "1750",
+            price2: "1470",
+            price3: "1260",
+            txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
             bodyPoints: [
                 {
-                    title: "Setup",
+                    title: "Included Services",
                     points: [
-                        "Website Sitemap",
-                        "Check for SEO Scope",
-                        "Custom 404 Page Setup / Nofollow Link Checkup",
+                        "10 High-Impact Static Posts",
+                        "Immersive Stories",
+                        "05 GIF/Carousel Posts",
+                        "Branding & Design Consultation",
+                        "Advanced Hashtag & SEO Strategy*",
+                        "UGC (User-Generated Content) Strategy**",
+                        "Social Platform Setup & Optimization",
+                        "Social Media Contest or Giveaway",
                     ]
                 },
                 {
-                    title: "Pages",
+                    title: "Platform Management",
                     points: [
-                        "Up to 10 pages optimized",
+                        "Monthly Content Scheduling & Publishing",
+                        "Advanced Community Engagement",
+                        "Page Optimization & A/B Testing",
                     ]
                 },
                 {
-                    title: "Keyword Research",
+                    title: "Advanced Analytics & Reporting",
                     points: [
-                        "Focused Keywords: 10",
-                        "Keyphrase Optimization: 5",
+                        "Monthly Performance Insights",
+                        "Competitor Benchmarking",
                     ]
                 },
                 {
-                    title: "On-page SEO",
+                    title: "Platforms Included",
                     points: [
-                        "Meta Tags (Title, Description, Header Tags)",
-                        "Image Alt Tags and Optimization: 10 images",
-                        "URL Structure Improvements",
-                        "Web Content Optimization",
-                        "Anchor Text Optimization",
-                        "Landing Page Optimization",
-                    ]
-                },
-                {
-                    title: "Technical Optimization",
-                    points: [
-                        "Fixing Crawl Errors",
-                        "Mobile-first Optimization",
-                        "Page Speed Optimization",
-                        "Core Web Vitals Improvements",
-                        "Schema Markup Implementation",
-                    ]
-                },
-                {
-                    title: "Tracking & Analytics",
-                    points: [
-                        "Google Analytics Setup",
-                        "Basic Conversion Tracking",
-                        "Google Search Console Setup",
-                    ]
-                },
-                {
-                    title: "Progress Reporting",
-                    points: [
-                        "Google Analytics Reports",
-                        "Monthly Progress Reports with Recommendations",
-                    ]
-                },
-                {
-                    title: "Account Management",
-                    points: [
-                        "Dedicated Account Manager",
-                        "1-Hour Free Consultation (Per Month)",
+                        "Facebook",
+                        "Instagram",
+                        "LinkedIn or X (Optional)",
                     ]
                 }
-            ]
+            ],
+            bodyNote: [
+                {
+                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
+                },
+                {
+                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
+                }
+            ],
+
         },
         {
-            packagename: "Premium Package",
-            price: "1850",
-            txt: "Best suited for businesses seeking comprehensive SEO strategies and advanced tracking.",
+            bgColor: "#9AFF35",
+            packagename: "Dominate Package ",
+            titletxt: "Achieve Social Media Leadership",
+            price1: "2250",
+            price2: "1890",
+            price3: "1620",
+            txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
             bodyPoints: [
                 {
-                    title: "Setup",
+                    title: "Included Services",
                     points: [
-                        "Website Sitemap",
-                        "Check for SEO Scope",
-                        "Custom 404 Page Setup / Nofollow Link Checkup",
+                        "15 High-Impact Static Posts",
+                        "Engaging Stories",
+                        "05 GIF/Carousel Posts",
+                        "15 Reels or TikTok-style Short Videos",
+                        "Branding & Design Consultation",
+                        "Advanced Hashtag & SEO Strategy*",
+                        "UGC (User-Generated Content) Strategy**",
+                        "Social Platform Setup & Optimization",
+                        "Social Media Contest or Giveaway",
+                        "Influencer/Brand Ambassador Outreach Strategy***",
+                        "Seasonal Campaigns ",
                     ]
                 },
                 {
-                    title: "Pages",
+                    title: "Platform Management",
                     points: [
-                        "Up to 15 pages optimized",
+                        "Bi-Weekly Content Scheduling & Publishing",
+                        "24/7 Community Engagement",
+                        "Full Social Page Optimization",
                     ]
                 },
                 {
-                    title: "Keyword Research",
+                    title: "Advanced Analytics & Reporting",
                     points: [
-                        "Focused Keywords: 15",
-                        "Keyphrase Optimization: 10",
+                        "Bi-Weekly Performance Insights",
+                        "Competitor and Industry Analysis",
+                        "Lead Generation & Conversion Tracking",
                     ]
                 },
                 {
-                    title: "On-page SEO",
+                    title: "Platforms Included",
                     points: [
-                        "Landing Page Setup",
-                        "SGE Visibility Optimization ",
-                        "Web Content Optimization",
-                        "Anchor Text Optimization",
-                        "Landing Page Optimization",
-                        "URL Structure Improvements",
-                        "Meta Tags(Title, Description, Header Tags)",
-                        "Image Alt Tags and Optimization: 15 images",
-                    ]
-                },
-                {
-                    title: "Technical Optimization",
-                    points: [
-                        "Fixing Crawl Errors",
-                        "Mobile - first Optimization",
-                        "Page Speed Optimization",
-                        "Core Web Vitals Improvements",
-                        "Schema Markup Implementation",
-                    ]
-                },
-                {
-                    title: "Tracking & Analytics",
-                    points: [
-                        "Google Analytics Setup",
-                        "Google Search Console Setup",
-                        "Basic Conversion Tracking",
-                        "Full - Funnel Conversion Tracking",
-                    ]
-                },
-                {
-                    title: "Progress Reporting",
-                    points: [
-                        "Business Intelligence Dashboard",
-                    ]
-                },
-                {
-                    title: "Account Management",
-                    points: [
-                        "Dedicated Account Manager",
-                        "2-Hour Free Consultation (Per Month)",
+                        "Facebook",
+                        "Instagram",
+                        "LinkedIn",
+                        "Twitter",
+                        "TikTok,",
+                        "Pinterest or Snapchat (Optional Add-On)"
                     ]
                 }
-            ]
-        }
+            ],
+            bodyNote: [
+                {
+                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
+                },
+                {
+                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
+                },
+                {
+
+                    para: "*** Please note that this includes only the outreach strategy; execution and management of influencer/brand ambassador partnerships are offered as separate services."
+                }
+            ],
+
+        },
+
     ]
 };
 
@@ -405,7 +377,7 @@ export const WhyData = {
         We Play to <span>Win in 2025.</span></>),
     nexttxt: (<>
         <p>If you’re running ads without seeing real growth, your strategy is broken. The truth? Meta doesn’t care about your ROAS, but we do.</p>
-        <p>At Infiniti Digital, we care about one thing: making you more money.</p>
+        <p>At Infiniti Digital, we care about one thing: <i>making you more money.</i></p>
         <h5>What Makes Us Different?</h5>
         <ul className="ContentUl">
             <li><CheckedIcon />Smart Targeting That Converts</li>
@@ -418,4 +390,5 @@ export const WhyData = {
         <p>Higher ROAS. More Customers. Infinite Growth. Let’s Connect!</p>
     </>),
     btntxt: "Schedule a Free Consultation",
+    chattitle: "Live Chat"
 }
