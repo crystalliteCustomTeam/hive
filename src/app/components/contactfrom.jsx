@@ -43,8 +43,8 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
         const name = e.target.name.value.trim();
         const email = e.target.email.value.trim();
         const phone = e.target.phone.value.trim();
-        const website = e.target.website.value.trim();
-        const voice = e.target.voice.value.trim();
+        const website = e.target.website ? e.target.website.value.trim() : '';  
+        const voice = e.target.voice ? e.target.voice.value.trim() : '';   
         const message = e.target.comment.value.trim();
 
 
@@ -56,17 +56,24 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
         }
 
         const currentdate = new Date().toLocaleString();
+        const leadData = {
+            name,
+            email,
+            phone,
+            message,
+        };
+
+        if (website) {
+            leadData.website = website;
+        }
+
+        if (voice) {
+            leadData.voice = voice;
+        }
         const data = {
             page_url: pagenewurl,
             user_ip: `${ip.ip}`,
-            lead_data: {
-                name: e.target.name.value,
-                email: e.target.email.value,
-                phone: e.target.phone.value,
-                website: e.target.website.value,
-                voice: e.target.voice.value,
-                message: e.target.comment.value,
-            }
+            lead_data: leadData,
         };
         const JSONdata = JSON.stringify(data);
         // First API call to your server
