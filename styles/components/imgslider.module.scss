@@ -29,23 +29,6 @@
     }
 }
 
-    .embla {
-        .embla__viewport {
-            .embla__container {
-                .embla__slide {
-                    flex: 0 0 calc(100% / 4 - 10px);
-                    margin-right: 10px;
-
-                    .imgBox {
-                        height: 350px;
-                        max-height: 350px;
-                    }
-
-                }
-            }
-        }
-    }
-}
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
     .embla {
