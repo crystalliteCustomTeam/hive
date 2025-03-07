@@ -86,8 +86,8 @@ const Footer = () => {
                                     <div className={`${styles.footerContent} ${styles.mainlinks}`}>
                                         <h6>Contact Info</h6>
                                         <div className={styles.contactInfo} target="_blank">
-                                            <a href="tel:+1655-487-632" aria-label={`Our Phone Number`}>
-                                                <span>Phone:</span> +1655-487-632
+                                            <a href="tel:7174020007" aria-label={`Our Phone Number`}>
+                                                <span>Phone:</span> 7174020007
                                             </a>
                                         </div>
                                         <div className={styles.contactInfo}>

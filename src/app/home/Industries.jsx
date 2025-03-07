@@ -8,7 +8,7 @@ import SliderArrow from "@/src/app/components/sliderarrow";
 import Autoplay from 'embla-carousel-autoplay'
 const OPTIONS = { loop: true, align: 'start' }
 
-const Industries = ({ data, IndustryData }) => {
+const Industries = ({ data, IndustryData,location }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
@@ -18,8 +18,8 @@ const Industries = ({ data, IndustryData }) => {
         if (emblaApi) emblaApi.scrollNext();
     };
     return (
-        <section className={`pt-100 ${styles.industriesSection}`}>
-            <Container>
+        <section className={`pt-100 ${styles.industriesSection} ${location ? styles.locationSec : ""}`}>
+            <Container className={styles.ContainerBox}>
                 <Row>
                     <Col md={7}>
                         <div className="subtitle">{data.subtitle}</div>

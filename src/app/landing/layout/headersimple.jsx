@@ -35,8 +35,8 @@ const HeaderSimpleLp = () => {
 
                     <Col xs={6} md={6} className="my-auto">
                         <div className={styles.btnFlex}>
-                            <a href="tel:123-123123" className={`commonBtn`} aria-label="Visit our Contact">
-                                <PhoneIcon /> +1 312 379 5987
+                            <a href="tel:+17174020007" className={`commonBtn`} aria-label="Visit our Contact">
+                                <PhoneIcon /> +1 717 402 0007
                             </a>
                             <div className={styles.chatStyle} onClick={openChat}>
                                 <ChatIcon />

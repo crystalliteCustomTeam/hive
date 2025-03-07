@@ -11,8 +11,8 @@ export const metadata = {
         url: '/terms-and-conditions',
         siteName: "Inifniti Digital",
         locale: 'en_US',
-        type: 'website',
-        images: "",
+     type: 'website',
+    images: "https://www.infinitidigital.us/infinitidigital.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/terms-and-conditions' },

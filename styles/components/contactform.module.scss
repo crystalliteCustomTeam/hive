@@ -1,1159 +1,1355 @@
 .Contactbox {
-    background: #FFFFFF;
-    box-shadow: 10px 20px 40px rgba(125, 137, 152, 0.2);
-    border-radius: 20px;
-    padding: 30px 30px;
-    max-width: 570px;
-    margin: auto;
+  background: #ffffff;
+  box-shadow: 10px 20px 40px rgba(125, 137, 152, 0.2);
+  border-radius: 20px;
+  padding: 30px 30px;
+  max-width: 570px;
+  margin: auto;
 
-    &.removeBG {
-        background: transparent;
-        box-shadow: none;
-    }
+  &.removeBG {
+    background: transparent;
+    box-shadow: none;
+    padding: 0px;
+    max-width: 100%;
+  }
 
-    &.popopFrom {
-        padding: 0px;
-        max-width: 100%;
-    }
+  &.popopFrom {
+    padding: 0px;
+    max-width: 100%;
+  }
 
-    &.verticalFrom {
-        background: transparent;
-        box-shadow: none;
-        max-width: 100%;
-        padding: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
+  &.verticalFrom {
+    background: transparent;
+    box-shadow: none;
+    max-width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 
-        &.BlackVertical {
-            .contactItem {
-                input {
-                    border: 1px solid rgba(115, 133, 143, 0.25);
-                    color: #797979;
+    &.BlackVertical {
+      .contactItem {
+        input {
+          border: 1px solid rgba(115, 133, 143, 0.25);
+          color: #797979;
 
-                    &::placeholder {
-                        color: #797979;
-                        opacity: 1;
-                    }
-                }
-            }
+          &::placeholder {
+            color: #797979;
+            opacity: 1;
+          }
         }
-
-        .contactItem {
-            margin-bottom: 0px;
-            flex: 0 0 calc(33.33% - 15px);
-            color: #fff;
-
-            input {
-                background: transparent;
-                border: 1px solid #fff;
-                color: #fff;
-                border-radius: 10px;
-                margin-bottom: 0px;
-
-                &::placeholder {
-                    color: #fff;
-                    opacity: 1;
-                }
-
-                &::-ms-input-placeholder {
-                    color: #fff;
-                }
-            }
-
-
-
-        }
-
-        .contactBtn {
-            flex: 0 0 100%;
-            margin-top: 10px;
-
-            button {
-                border: 0px;
-                width: auto;
-                padding: 0px 30px;
-            }
-        }
-    }
-
-    &.bgBlack {
-        background: transparent;
-        box-shadow: none;
-        max-width: 100%;
-        padding: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-
-        .contactItem {
-            margin-bottom: 0px;
-            flex: 0 0 100%;
-
-            input {
-                background: rgba(255, 255, 255, 0.03);
-                backdrop-filter: blur(10px);
-                border: 1px solid #fff;
-                color: #fff;
-                border-radius: 10px;
-                margin-bottom: 0px;
-
-
-                &::placeholder {
-                    color: #fff;
-                    opacity: 1;
-                }
-
-                &::-ms-input-placeholder {
-                    color: #fff;
-                }
-            }
-
-            textarea {
-                background: rgba(255, 255, 255, 0.03);
-                backdrop-filter: blur(10px);
-                border: 1px solid #fff;
-                color: #fff;
-                border-radius: 10px;
-                margin-bottom: 0px;
-
-                &::placeholder {
-                    color: #fff;
-                    opacity: 1;
-                }
-
-                &::-ms-input-placeholder {
-                    color: #fff;
-                }
-            }
-
-            &:nth-child(2),
-            &:nth-child(3) {
-                flex: 0 0 calc(50% - 10px);
-            }
-
-        }
-
-        .para {
-            flex: 0 0 100%;
-            color: #fff;
-            margin-bottom: 0px;
-
-            a {
-                color: #fff;
-
-                &:hover {
-                    color: #9AFF35;
-                }
-            }
-        }
-
-    }
-
-    &.landingPage {
-        .contactItem {
-            input {
-                height: 45px;
-                font-size: 14px;
-                font-weight: 300;
-            }
-
-            textarea {
-                height: 120px;
-                font-size: 14px;
-                font-weight: 300;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                width: 200px;
-                height: 50px;
-                font-size: 15px;
-                font-weight: 600;
-            }
-        }
-    }
-
-    &.blkColor {
-        .contactItem {
-            input {
-                background: #fff;
-                color: #9F9F9F;
-
-                &::placeholder {
-                    color: #9F9F9F;
-                    opacity: 1;
-                }
-            }
-
-            textarea {
-                background: #fff;
-                color: #9F9F9F;
-
-                &::placeholder {
-                    color: #9F9F9F;
-                    opacity: 1;
-                }
-            }
-        }
-
-        .para {
-            color: #000000;
-            margin-bottom: 0px;
-
-            a {
-                color: #000000;
-
-                &:hover {
-                    color: #9AFF35;
-                }
-            }
-        }
+      }
     }
 
     .contactItem {
-        margin-bottom: 25px;
+      margin-bottom: 0px;
+      flex: 0 0 calc(33.33% - 15px);
+      color: #fff;
 
-        input {
-            height: 60px;
-            background: rgba(173, 207, 227, 0.2);
-            backdrop-filter: blur(7.5px);
-            border-radius: 20px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: #73858F;
-            width: 100%;
-            border: 0px;
-            outline: none;
-            padding: 0px 20px;
+      input {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        border-radius: 10px;
+        margin-bottom: 0px;
+
+        &::placeholder {
+          color: #fff;
+          opacity: 1;
         }
 
-        textarea {
-            height: 150px;
-            background: rgba(173, 207, 227, 0.2);
-            border-radius: 20px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
-            color: #73858F;
-            width: 100%;
-            border: 0px;
-            outline: none;
-            padding: 10px 20px;
+        &::-ms-input-placeholder {
+          color: #fff;
         }
-    }
-
-    .para {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: -0.165px;
-        color: #000000;
-        margin-bottom: 25px;
-
-        a {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            text-decoration-line: underline;
-            color: #000000;
-
-            &:hover {
-                color: #9AFF35;
-            }
-        }
+      }
     }
 
     .contactBtn {
-        button {
-            border: 0px;
-            min-width: 250px;
-            font-size: 18px;
+      flex: 0 0 100%;
+      margin-top: 10px;
+
+      button {
+        border: 0px;
+        width: auto;
+        padding: 0px 30px;
+      }
+    }
+  }
+
+  &.bgBlack {
+    background: transparent;
+    box-shadow: none;
+    max-width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .contactItem {
+      margin-bottom: 0px;
+      flex: 0 0 100%;
+
+      input {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        border: 1px solid #fff;
+        color: #fff;
+        border-radius: 10px;
+        margin-bottom: 0px;
+
+        &::placeholder {
+          color: #fff;
+          opacity: 1;
         }
+
+        &::-ms-input-placeholder {
+          color: #fff;
+        }
+      }
+
+      textarea {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(10px);
+        border: 1px solid #fff;
+        color: #fff;
+        border-radius: 10px;
+        margin-bottom: 0px;
+
+        &::placeholder {
+          color: #fff;
+          opacity: 1;
+        }
+
+        &::-ms-input-placeholder {
+          color: #fff;
+        }
+      }
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        flex: 0 0 calc(50% - 10px);
+      }
     }
 
-    &.transfBg {
-        background: transparent;
-        box-shadow: none;
+    .para {
+      flex: 0 0 100%;
+      color: #fff;
+      margin-bottom: 0px;
+
+      a {
+        color: #fff;
+
+        &:hover {
+          color: #9aff35;
+        }
+      }
+    }
+  }
+
+  &.landingPage {
+    .contactItem {
+      input {
+        height: 45px;
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      textarea {
+        height: 120px;
+        font-size: 14px;
+        font-weight: 300;
+      }
     }
 
-    &.smmPage {
-        margin-top: 40px;
+    .contactBtn {
+      button {
+        border: 0px;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+    }
+  }
 
-        .contactItem {
-            margin-bottom: 10px;
+  &.blkColor {
+    .contactItem {
+      input {
+        background: #fff;
+        color: #9f9f9f;
 
-            input {
-                height: 60px;
-                background: #F5F5F5;
-                backdrop-filter: blur(7.5px);
-                border-radius: 15px;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-                color: #000;
-                width: 100%;
-                border: 0px;
-                outline: none;
-                padding: 0px 20px;
-
-
-                &::placeholder {
-                    color: #9F9F9F;
-                    opacity: 1;
-                }
-            }
-
+        &::placeholder {
+          color: #9f9f9f;
+          opacity: 1;
         }
+      }
 
-        .contactBtn {
-            text-align: center;
+      textarea {
+        background: #fff;
+        color: #9f9f9f;
 
-            button {
-                border: 0px;
-                width: 250px;
-            }
+        &::placeholder {
+          color: #9f9f9f;
+          opacity: 1;
         }
-
-        .para {
-            text-align: center;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            letter-spacing: -0.165px;
-            color: #7635FF;
-            margin-bottom: 0px;
-            width: 100%;
-
-            a {
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                text-decoration-line: underline;
-                color: #000000;
-
-                &:hover {
-                    color: #9AFF35;
-                }
-            }
-        }
+      }
     }
 
-    &.customPrice {
-        background: transparent;
-        border-radius: 0px;
-        padding: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        box-shadow: none;
-        margin: 20px 0px 0px;
+    .para {
+      color: #000000;
+      margin-bottom: 0px;
 
-        .contactItem {
-            flex: 0 0 calc(50% - 10px);
+      a {
+        color: #000000;
 
-            &:nth-last-child(4) {
-                flex: 0 0 100%;
-            }
-
-            &:nth-last-child(3) {
-                flex: 0 0 100%;
-            }
+        &:hover {
+          color: #9aff35;
         }
+      }
     }
+  }
+
+  .contactItem {
+    margin-bottom: 25px;
+
+    input {
+      height: 60px;
+      background: rgba(173, 207, 227, 0.2);
+      backdrop-filter: blur(7.5px);
+      border-radius: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #73858f;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 0px 20px;
+    }
+
+    textarea {
+      height: 150px;
+      background: rgba(173, 207, 227, 0.2);
+      border-radius: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #73858f;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 10px 20px;
+    }
+  }
+
+  .para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    margin-bottom: 25px;
+
+    a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration-line: underline;
+      color: #000000;
+
+      &:hover {
+        color: #9aff35;
+      }
+    }
+  }
+
+  .contactBtn {
+    button {
+      border: 0px;
+      min-width: 250px;
+      font-size: 18px;
+    }
+  }
+
+  &.transfBg {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  &.smmPage {
+    margin-top: 40px;
+
+    .contactItem {
+      margin-bottom: 10px;
+
+      input {
+        height: 60px;
+        background: #f5f5f5;
+        backdrop-filter: blur(7.5px);
+        border-radius: 15px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        width: 100%;
+        border: 0px;
+        outline: none;
+        padding: 0px 20px;
+
+        &::placeholder {
+          color: #9f9f9f;
+          opacity: 1;
+        }
+      }
+    }
+
+    .contactBtn {
+      text-align: center;
+
+      button {
+        border: 0px;
+        width: 250px;
+      }
+    }
+
+    .para {
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.165px;
+      color: #7635ff;
+      margin-bottom: 0px;
+      width: 100%;
+
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration-line: underline;
+        color: #000000;
+
+        &:hover {
+          color: #9aff35;
+        }
+      }
+    }
+  }
+&.contactPage{
+  padding: 30px 30px;
+}
+  &.customPrice {
+    background: transparent;
+    border-radius: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: none;
+    margin: 20px 0px 0px;
+
+    .contactItem {
+      flex: 0 0 calc(50% - 10px);
+
+      &:nth-last-child(4) {
+        flex: 0 0 100%;
+      }
+
+      &:nth-last-child(3) {
+        flex: 0 0 100%;
+      }
+    }
+  }
+  &.locationSec {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: none;
+    padding: 0px;
+    margin-top: 30px;
+
+    .contactItem {
+      flex: 0 0 calc(50% - 5px);
+      input {
+        background: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+      }
+    }
+    .para {
+      flex: 0 0 100%;
+    }
+    .contactBtn {
+      flex: 0 0 100%;
+      button {
+        height: 50px;
+        min-width: auto;
+        font-size: 15px;
+      }
+    }
+  }
+
+  &.locationPage {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: none;
+    padding: 0px;
+    margin-top: 30px;
+    h2 {
+      color: #fff;
+    }
+
+    .contactItem {
+      flex: 0 0 calc(25% - 5px);
+      input {
+        background: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+        height: 50px;
+      }
+    }
+    .para {
+      flex: 0 0 100%;
+      text-align: center;
+      color: #fff;
+      a {
+        color: #9aff35;
+      }
+    }
+    .contactBtn {
+      flex: 0 0 100%;
+      margin: auto;
+      text-align: center;
+      button {
+        height: 50px;
+        min-width: auto;
+        font-size: 15px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .Contactbox {
-        padding: 25px;
-        max-width: 480px;
-        margin: auto;
+  .Contactbox {
+    padding: 25px;
+    max-width: 480px;
+    margin: auto;
 
-        &.landingPage {
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 100px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                    font-size: 15px;
-                    font-weight: 600;
-                }
-            }
+    &.landingPage {
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
         }
 
-        &.smmPage {
-            margin-top: 20px;
-
-            .contactItem {
-                margin-bottom: 10px;
-
-                input {
-                    height: 60px;
-                    font-size: 14px;
-                    line-height: 23px;
-                    padding: 0px 20px
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 55px;
-                }
-            }
-
-            .para {
-                font-size: 14px;
-                line-height: 20px;
-
-                a {
-                    font-size: 14px;
-                }
-            }
+        textarea {
+          height: 100px;
+          font-size: 14px;
         }
+      }
 
-        .contactItem {
-            margin-bottom: 15px;
-
-            input {
-                height: 50px;
-                font-size: 14px;
-                line-height: normal;
-                padding: 0px 20px;
-            }
-
-            textarea {
-                height: 120px;
-                font-size: 14px;
-                line-height: normal;
-                padding: 10px 20px;
-            }
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
+          font-size: 15px;
+          font-weight: 600;
         }
-
-        .para {
-            font-size: 14px;
-            line-height: 14px;
-            margin-bottom: 20px;
-
-            a {
-                font-size: 14px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 200px;
-                font-size: 16px;
-            }
-        }
+      }
     }
+
+    &.smmPage {
+      margin-top: 20px;
+
+      .contactItem {
+        margin-bottom: 10px;
+
+        input {
+          height: 60px;
+          font-size: 14px;
+          line-height: 23px;
+          padding: 0px 20px;
+        }
+      }
+
+      .contactBtn {
+        text-align: center;
+
+        button {
+          border: 0px;
+          width: 200px;
+          height: 55px;
+        }
+      }
+
+      .para {
+        font-size: 14px;
+        line-height: 20px;
+
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+    &.locationSec {
+      margin-top: 20px;
+
+     .contactItem {
+  
+        input {
+          font-size: 13px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+    .contactItem {
+      margin-bottom: 15px;
+
+      input {
+        height: 50px;
+        font-size: 14px;
+        line-height: normal;
+        padding: 0px 20px;
+      }
+
+      textarea {
+        height: 120px;
+        font-size: 14px;
+        line-height: normal;
+        padding: 10px 20px;
+      }
+    }
+
+    .para {
+      font-size: 14px;
+      line-height: 14px;
+      margin-bottom: 20px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 200px;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    .Contactbox {
-        padding: 25px;
-        max-width: 450px;
-        margin: auto;
+  .Contactbox {
+    padding: 25px;
+    max-width: 450px;
+    margin: auto;
 
-        &.smmPage {
-            margin-top: 20px;
+    &.smmPage {
+      margin-top: 20px;
 
-            .contactItem {
-                margin-bottom: 10px;
+      .contactItem {
+        margin-bottom: 10px;
 
-                input {
-                    height: 55px;
-                    font-size: 14px;
-                    line-height: 23px;
-                    padding: 0px 20px
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 55px;
-                }
-            }
-
-            .para {
-                font-size: 14px;
-                line-height: 20px;
-
-                a {
-                    font-size: 14px;
-                }
-            }
+        input {
+          height: 55px;
+          font-size: 14px;
+          line-height: 23px;
+          padding: 0px 20px;
         }
+      }
 
-        &.landingPage {
-            gap: 10px;
+      .contactBtn {
+        text-align: center;
 
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 80px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                    font-size: 15px;
-                    font-weight: 600;
-                }
-            }
+        button {
+          border: 0px;
+          width: 200px;
+          height: 55px;
         }
+      }
 
-        .contactItem {
-            margin-bottom: 15px;
+      .para {
+        font-size: 14px;
+        line-height: 20px;
 
-            input {
-                height: 48px;
-                font-size: 13px;
-                line-height: normal;
-                padding: 0px 20px;
-            }
-
-            textarea {
-                height: 110px;
-                font-size: 13px;
-                line-height: normal;
-                padding: 10px 20px;
-            }
+        a {
+          font-size: 14px;
         }
-
-        .para {
-            font-size: 13px;
-            line-height: 13px;
-            margin-bottom: 20px;
-
-            a {
-                font-size: 13px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 180px;
-                font-size: 16px;
-            }
-        }
+      }
     }
+
+    &.landingPage {
+      gap: 10px;
+
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 80px;
+          font-size: 14px;
+        }
+      }
+
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
+          font-size: 15px;
+          font-weight: 600;
+        }
+      }
+    }
+    &.locationSec {
+      margin-top: 20px;
+
+     .contactItem {
+  
+        input {
+          font-size: 13px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+    .contactItem {
+      margin-bottom: 15px;
+
+      input {
+        height: 48px;
+        font-size: 13px;
+        line-height: normal;
+        padding: 0px 20px;
+      }
+
+      textarea {
+        height: 110px;
+        font-size: 13px;
+        line-height: normal;
+        padding: 10px 20px;
+      }
+    }
+
+    .para {
+      font-size: 13px;
+      line-height: 13px;
+      margin-bottom: 20px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 180px;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .Contactbox {
-        padding: 25px;
-        max-width: 420px;
-        margin: auto;
+  .Contactbox {
+    padding: 25px;
+    max-width: 420px;
+    margin: auto;
 
-        &.smmPage {
-            margin-top: 20px;
+    &.smmPage {
+      margin-top: 20px;
 
-            .contactItem {
-                margin-bottom: 10px;
+      .contactItem {
+        margin-bottom: 10px;
 
-                input {
-                    height: 50px;
-                    font-size: 14px;
-                    line-height: 23px;
-                    padding: 0px 20px
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                }
-            }
-
-            .para {
-                font-size: 14px;
-                line-height: 20px;
-
-                a {
-                    font-size: 14px;
-                }
-            }
+        input {
+          height: 50px;
+          font-size: 14px;
+          line-height: 23px;
+          padding: 0px 20px;
         }
+      }
 
-        &.landingPage {
-            gap: 10px;
+      .contactBtn {
+        text-align: center;
 
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 80px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 45px;
-                    font-size: 15px;
-                }
-            }
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
         }
+      }
 
-        .contactItem {
-            margin-bottom: 15px;
+      .para {
+        font-size: 14px;
+        line-height: 20px;
 
-            input {
-                height: 45px;
-                font-size: 13px;
-                line-height: normal;
-                padding: 0px 20px;
-            }
-
-            textarea {
-                height: 100px;
-                font-size: 13px;
-                line-height: normal;
-                padding: 10px 20px;
-            }
+        a {
+          font-size: 14px;
         }
-
-        .para {
-            font-size: 13px;
-            line-height: 13px;
-            margin-bottom: 20px;
-
-            a {
-                font-size: 12px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 170px;
-                font-size: 14px;
-            }
-        }
+      }
     }
+
+    &.landingPage {
+      gap: 10px;
+
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 80px;
+          font-size: 14px;
+        }
+      }
+
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 45px;
+          font-size: 15px;
+        }
+      }
+    }
+    &.locationSec {
+      margin-top: 20px;
+
+     .contactItem {
+  
+        input {
+          font-size: 12px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+    .contactItem {
+      margin-bottom: 15px;
+
+      input {
+        height: 45px;
+        font-size: 13px;
+        line-height: normal;
+        padding: 0px 20px;
+      }
+
+      textarea {
+        height: 100px;
+        font-size: 13px;
+        line-height: normal;
+        padding: 10px 20px;
+      }
+    }
+
+    .para {
+      font-size: 13px;
+      line-height: 13px;
+      margin-bottom: 20px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 170px;
+        font-size: 14px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 900px) and (max-width:1099px) {
-    .Contactbox {
-        padding: 25px;
-        max-width: 420px;
-        margin: auto;
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .Contactbox {
+    padding: 25px;
+    max-width: 420px;
+    margin: auto;
 
-        &.smmPage {
-            margin-top: 20px;
+    &.smmPage {
+      margin-top: 20px;
 
-            .contactItem {
-                margin-bottom: 10px;
+      .contactItem {
+        margin-bottom: 10px;
 
-                input {
-                    height: 50px;
-                    font-size: 14px;
-                    line-height: 23px;
-                    padding: 0px 20px
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                }
-            }
-
-            .para {
-                font-size: 13px;
-                line-height: 20px;
-
-                a {
-                    font-size: 13px;
-                }
-            }
+        input {
+          height: 50px;
+          font-size: 14px;
+          line-height: 23px;
+          padding: 0px 20px;
         }
+      }
 
-        &.landingPage {
-            gap: 10px;
+      .contactBtn {
+        text-align: center;
 
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 80px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 45px;
-                    font-size: 15px;
-                }
-            }
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
         }
+      }
 
-        .contactItem {
-            margin-bottom: 15px;
+      .para {
+        font-size: 13px;
+        line-height: 20px;
 
-            input {
-                height: 45px;
-                font-size: 13px;
-                line-height: normal;
-                padding: 0px 20px;
-            }
-
-            textarea {
-                height: 100px;
-                font-size: 13px;
-                line-height: normal;
-                padding: 10px 20px;
-            }
+        a {
+          font-size: 13px;
         }
-
-        .para {
-            font-size: 13px;
-            line-height: 13px;
-            margin-bottom: 20px;
-
-            a {
-                font-size: 12px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 170px;
-                font-size: 13px;
-            }
-        }
+      }
     }
+
+    &.landingPage {
+      gap: 10px;
+
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 80px;
+          font-size: 14px;
+        }
+      }
+
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 45px;
+          font-size: 15px;
+        }
+      }
+    } 
+    
+    &.locationSec {
+      margin-top: 20px;
+
+     .contactItem {
+  
+        input {
+          font-size: 12px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .contactItem {
+      margin-bottom: 15px;
+
+      input {
+        height: 45px;
+        font-size: 13px;
+        line-height: normal;
+        padding: 0px 20px;
+      }
+
+      textarea {
+        height: 100px;
+        font-size: 13px;
+        line-height: normal;
+        padding: 10px 20px;
+      }
+    }
+
+    .para {
+      font-size: 13px;
+      line-height: 13px;
+      margin-bottom: 20px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 170px;
+        font-size: 13px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width:899px) {
-    .Contactbox {
-        padding: 20px;
-        max-width: 420px;
-        margin: auto;
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .Contactbox {
+    padding: 20px;
+    max-width: 420px;
+    margin: auto;
 
-        &.smmPage {
-            margin-top: 20px;
+    &.smmPage {
+      margin-top: 20px;
 
-            .contactItem {
-                margin-bottom: 10px;
+      .contactItem {
+        margin-bottom: 10px;
 
-                input {
-                    height: 50px;
-                    font-size: 13px;
-                    line-height: 23px;
-                    padding: 0px 10px;
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                }
-            }
-
-            .para {
-                font-size: 13px;
-                line-height: 20px;
-
-                a {
-                    font-size: 13px;
-                }
-            }
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 23px;
+          padding: 0px 10px;
         }
+      }
 
-        &.verticalFrom {
-            gap: 5px;
+      .contactBtn {
+        text-align: center;
 
-            .contactItem {
-                flex: 0 0 calc(33.33% - 5px);
-            }
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
         }
+      }
 
-        &.landingPage {
-            gap: 10px;
+      .para {
+        font-size: 13px;
+        line-height: 20px;
 
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 80px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 45px;
-                    font-size: 15px;
-                }
-            }
+        a {
+          font-size: 13px;
         }
-
-        .contactItem {
-            margin-bottom: 12px;
-
-            input {
-                height: 40px;
-                font-size: 12px;
-                line-height: normal;
-                padding: 0px 20px;
-                border-radius: 10px;
-            }
-
-            textarea {
-                height: 80px;
-                font-size: 12px;
-                line-height: normal;
-                padding: 10px 20px;
-                border-radius: 10px;
-            }
-        }
-
-        .para {
-            font-size: 11px;
-            line-height: 16px;
-            margin-bottom: 10px;
-
-            a {
-                font-size: 11px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 150px;
-                font-size: 13px;
-            }
-        }
+      }
     }
+
+    &.verticalFrom {
+      gap: 5px;
+
+      .contactItem {
+        flex: 0 0 calc(33.33% - 5px);
+      }
+    }
+
+    &.landingPage {
+      gap: 10px;
+
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 80px;
+          font-size: 14px;
+        }
+      }
+
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 45px;
+          font-size: 15px;
+        }
+      }
+    }
+    &.locationSec {
+      margin-top: 20px;
+
+     .contactItem {
+  
+        input {
+          font-size: 12px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+    .contactItem {
+      margin-bottom: 12px;
+
+      input {
+        height: 40px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      textarea {
+        height: 80px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+    }
+
+    .para {
+      font-size: 11px;
+      line-height: 16px;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 11px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 150px;
+        font-size: 13px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 576px) and (max-width:767px) {
-    .Contactbox {
-        padding: 20px;
-        max-width: 420px;
-        margin: auto;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .Contactbox {
+    padding: 20px;
+    max-width: 420px;
+    margin: auto;
 
-        &.smmPage {
-            margin-top: 20px;
+    &.smmPage {
+      margin-top: 20px;
 
-            .contactItem {
-                margin-bottom: 10px;
+      .contactItem {
+        margin-bottom: 10px;
 
-                input {
-                    height: 50px;
-                    font-size: 13px;
-                    line-height: 23px;
-                    padding: 0px 10px;
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                }
-            }
-
-            .para {
-                font-size: 13px;
-                line-height: 20px;
-
-                a {
-                    font-size: 13px;
-                }
-            }
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 23px;
+          padding: 0px 10px;
         }
+      }
 
-        &.verticalFrom {
-            gap: 5px;
+      .contactBtn {
+        text-align: center;
 
-            .contactItem {
-                flex: 0 0 calc(33.33% - 5px);
-            }
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
         }
+      }
 
-        &.landingPage {
-            gap: 10px;
+      .para {
+        font-size: 13px;
+        line-height: 20px;
 
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 80px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 45px;
-                    font-size: 15px;
-                }
-            }
+        a {
+          font-size: 13px;
         }
-
-        .contactItem {
-            margin-bottom: 12px;
-
-            input {
-                height: 40px;
-                font-size: 12px;
-                line-height: normal;
-                padding: 0px 20px;
-                border-radius: 10px;
-            }
-
-            textarea {
-                height: 80px;
-                font-size: 12px;
-                line-height: normal;
-                padding: 10px 20px;
-                border-radius: 10px;
-            }
-        }
-
-        .para {
-            font-size: 12px;
-            line-height: 18px;
-            margin-bottom: 10px;
-
-            a {
-                font-size: 12px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 150px;
-                font-size: 12px;
-            }
-        }
+      }
     }
+
+    &.verticalFrom {
+      gap: 5px;
+
+      .contactItem {
+        flex: 0 0 calc(33.33% - 5px);
+      }
+    }
+
+    &.landingPage {
+      gap: 10px;
+
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 80px;
+          font-size: 14px;
+        }
+      }
+
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 45px;
+          font-size: 15px;
+        }
+      }
+    }
+    &.locationSec {
+      margin-top: 20px;
+
+     .contactItem {
+  
+        input {
+          font-size: 12px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+    .contactItem {
+      margin-bottom: 12px;
+
+      input {
+        height: 40px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      textarea {
+        height: 80px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 150px;
+        font-size: 12px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
-    .Contactbox {
-        padding: 20px;
-        max-width: 420px;
-        margin: auto;
+  .Contactbox {
+    padding: 20px;
+    max-width: 420px;
+    margin: auto;
 
-        &.smmPage {
-            margin-top: 20px;
+    &.smmPage {
+      margin-top: 20px;
 
-            .contactItem {
-                margin-bottom: 10px;
+      .contactItem {
+        margin-bottom: 10px;
 
-                input {
-                    height: 50px;
-                    font-size: 13px;
-                    line-height: 23px;
-                    padding: 0px 15px;
-                }
-
-            }
-
-            .contactBtn {
-                text-align: center;
-
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 50px;
-                }
-            }
-
-            .para {
-                font-size: 12px;
-                line-height: 20px;
-
-                a {
-                    font-size: 12px;
-                }
-            }
+        input {
+          height: 50px;
+          font-size: 13px;
+          line-height: 23px;
+          padding: 0px 15px;
         }
+      }
 
-        &.bgBlack {
-            .contactItem {
+      .contactBtn {
+        text-align: center;
 
-                &:nth-child(2),
-                &:nth-child(3) {
-                    flex: 0 0 calc(100% - 0px);
-                }
-            }
+        button {
+          border: 0px;
+          width: 200px;
+          height: 50px;
         }
+      }
 
-        &.verticalFrom {
-            gap: 5px;
+      .para {
+        font-size: 12px;
+        line-height: 20px;
 
-            .contactItem {
-                margin-bottom: 0px;
-                flex: 0 0 calc(100% - 0px);
-            }
+        a {
+          font-size: 12px;
         }
-
-        &.landingPage {
-            gap: 10px;
-
-            .contactItem {
-                input {
-                    height: 45px;
-                    font-size: 14px;
-                }
-
-                textarea {
-                    height: 80px;
-                    font-size: 14px;
-                }
-            }
-
-            .contactBtn {
-                button {
-                    border: 0px;
-                    width: 200px;
-                    height: 45px;
-                    font-size: 15px;
-                }
-            }
-        }
-
-        .contactItem {
-            margin-bottom: 12px;
-
-            input {
-                height: 40px;
-                font-size: 12px;
-                line-height: normal;
-                padding: 0px 20px;
-                border-radius: 10px;
-            }
-
-            textarea {
-                height: 80px;
-                font-size: 12px;
-                line-height: normal;
-                padding: 10px 20px;
-                border-radius: 10px;
-            }
-        }
-
-        .para {
-            font-size: 12px;
-            line-height: 18px;
-            margin-bottom: 10px;
-
-            a {
-                font-size: 12px;
-            }
-        }
-
-        .contactBtn {
-            button {
-                border: 0px;
-                min-width: 150px;
-                padding: 0px 20px;
-                width: auto;
-                font-size: 12px;
-            }
-        }
-
-        &.customPrice {
-            margin: 20px 0px 0px;
-
-            .contactItem {
-                flex: 0 0 calc(100% - 0px);
-
-                &:nth-last-child(4) {
-                    flex: 0 0 100%;
-                }
-
-                &:nth-last-child(3) {
-                    flex: 0 0 100%;
-                }
-            }
-        }
+      }
     }
+
+    &.bgBlack {
+      .contactItem {
+        &:nth-child(2),
+        &:nth-child(3) {
+          flex: 0 0 calc(100% - 0px);
+        }
+      }
+    }
+
+    &.verticalFrom {
+      gap: 5px;
+
+      .contactItem {
+        margin-bottom: 0px;
+        flex: 0 0 calc(100% - 0px);
+      }
+    }
+
+    &.landingPage {
+      gap: 10px;
+
+      .contactItem {
+        input {
+          height: 45px;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 80px;
+          font-size: 14px;
+        }
+      }
+
+      .contactBtn {
+        button {
+          border: 0px;
+          width: 200px;
+          height: 45px;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .contactItem {
+      margin-bottom: 12px;
+
+      input {
+        height: 40px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      textarea {
+        height: 80px;
+        font-size: 12px;
+        line-height: normal;
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        border: 0px;
+        min-width: 150px;
+        padding: 0px 20px;
+        width: auto;
+        font-size: 12px;
+      }
+    }
+
+    &.customPrice {
+      margin: 20px 0px 0px;
+
+      .contactItem {
+        flex: 0 0 calc(100% - 0px);
+
+        &:nth-last-child(4) {
+          flex: 0 0 100%;
+        }
+
+        &:nth-last-child(3) {
+          flex: 0 0 100%;
+        }
+      }
+    }
+    &.locationSec {
+      margin-top: 30px;
+
+     .contactItem {
+        flex: 0 0 calc(100% - 5px);
+        input {
+          font-size: 12px;
+        }
+      }
+      .para {
+        flex: 0 0 100%;
+      }
+      .contactBtn {
+        flex: 0 0 100%;
+        button {
+          height: 50px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
 }

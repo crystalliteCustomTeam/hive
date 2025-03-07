@@ -1,0 +1,100 @@
+.contactCtaSection {
+  background: #f0f0f0;
+  .contactBox {
+    background: #ffffff;
+    box-shadow: 0px 0px 90px rgba(220, 220, 220, 0.37);
+    border-radius: 50px;
+    padding: 40px;
+    height: 800px;
+    overflow: hidden;
+    .contactImg {
+      margin-left: auto;
+      text-align: right;
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    &.last {
+      padding-bottom: 0px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 40px;
+      height: 650px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 30px;
+      height: 590px;
+      border-radius: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 30px;
+      height: 590px;
+      border-radius: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 30px;
+      height: 560px;
+      border-radius: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 25px;
+      height: 500px;
+      border-radius: 30px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 25px;
+      height: auto;
+      border-radius: 30px;
+      margin-bottom: 20px;
+      .contactImg {
+      img{
+        height: 350px;
+        width: auto;
+      }
+    }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .contactCtaSection {
+    .contactBox {
+      padding: 25px;
+      height: auto;
+      border-radius: 30px;
+      margin-bottom: 20px;
+      .contactImg {
+      img{
+        height: auto;
+        width: auto;
+      }
+    }
+    }
+  }
+}

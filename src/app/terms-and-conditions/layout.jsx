@@ -11,8 +11,8 @@ export const metadata = {
         url: '/refund-policy',
         siteName: "Inifniti Digital",
         locale: 'en_US',
-        type: 'website',
-        images: "",
+     type: 'website',
+    images: "https://www.infinitidigital.us/infinitidigital.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/refund-policy' },

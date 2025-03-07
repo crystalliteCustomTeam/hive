@@ -11,8 +11,8 @@ export const metadata = {
         url: '/privacy-policy',
         siteName: "Inifniti Digital",
         locale: 'en_US',
-        type: 'website',
-        images: "",
+     type: 'website',
+    images: "https://www.infinitidigital.us/infinitidigital.png",
     },
     //===== Canonical =====
     alternates: { canonical: '/privacy-policy' },

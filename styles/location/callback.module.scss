@@ -1,0 +1,139 @@
+.callBackSection {
+  height: 500px;
+  background: #f7f7f7;
+  backdrop-filter: blur(500px);
+  position: relative;
+  &::before {
+    content: "";
+    background: #fff;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, 0%);
+  }
+  .callBackBox1 {
+    padding-right: 150px;
+  }
+  .callBackBox2 {
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .callBackSection {
+    height: 450px;
+    &::before {
+      width: 10px;
+    }
+    .callBackBox1 {
+      padding-right: 120px;
+    }
+    .callBackBox2 {
+      padding-left: 120px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .callBackSection {
+    height: 450px;
+    &::before {
+      width: 10px;
+    }
+    .callBackBox1 {
+      padding-right: 60px;
+    }
+    .callBackBox2 {
+      padding-left: 60px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .callBackSection {
+    height: 420px;
+    &::before {
+      width: 10px;
+    }
+    .callBackBox1 {
+      padding-right: 50px;
+    }
+    .callBackBox2 {
+      padding-left: 50px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .callBackSection {
+    height: 420px;
+    &::before {
+      width: 10px;
+    }
+    .callBackBox1 {
+      padding-right: 20px;
+    }
+    .callBackBox2 {
+      padding-left: 20px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .callBackSection {
+    height: auto;
+
+    &::before {
+      width: 100%;
+      height: 5px;
+      top:50%;
+      left: 0px;
+      transform: translate(0px, -50px);
+
+    }
+    .callBackBox1 {
+     padding: 50px 0px;
+    }
+    .callBackBox2 {
+        padding: 50px 0px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .callBackSection {
+    height: auto;
+
+    &::before {
+      width: 100%;
+      height: 5px;
+      top:50%;
+      left: 0px;
+      transform: translate(0px, -50px);
+
+    }
+    .callBackBox1 {
+     padding: 50px 0px;
+    }
+    .callBackBox2 {
+        padding: 50px 0px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .callBackSection {
+    height: auto;
+
+    &::before {
+      width: 100%;
+      height: 5px;
+      top:50%;
+      left: 0px;
+      transform: translate(0px, -90px);
+
+    }
+    .callBackBox1 {
+     padding: 50px 0px;
+    }
+    .callBackBox2 {
+        padding: 50px 0px;
+    }
+  }
+}

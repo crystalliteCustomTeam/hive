@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
 import { usePathname } from 'next/navigation'
 
-const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title, smmPage, extra, customprice }) => {
+const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title, smmPage, extra, customprice,location ,locationPage}) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
@@ -95,7 +95,7 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
 
     return (
         <Form onSubmit={handleSubmit}>
-            <div className={`${styles.Contactbox} ${customprice ? styles.customPrice : ""} ${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
+            <div className={`${styles.Contactbox} ${contactPage ? styles.contactPage : ""} ${locationPage ? styles.locationPage : ""} ${customprice ? styles.customPrice : ""} ${location ? styles.locationSec : ""}${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
                 {contactPage ?
                     <>
                         <div className="subtitle">Get In Touch</div>
@@ -112,6 +112,11 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
                 <div className={styles.contactItem}>
                     <input type="Phone" placeholder="Phone" name="phone" required />
                 </div>
+                {location?(
+                     <div className={styles.contactItem}>
+                     <input type="text" placeholder="Type Your Website" name="website" />
+                 </div>
+                ):null}
                 {customprice ? (
                     <>
                         <div className={styles.contactItem}>
@@ -123,24 +128,25 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
                     </>
                 ) :
                     null}
-                {!vertical ? (
-                    <>
-                        <div className={styles.contactItem}>
-                            <textarea placeholder="Description" name="comment"></textarea>
-                        </div>
-                        <div className={styles.para}>
-                            We take your privacy seriously. Read our <Link href="#">Privacy Policy</Link>
-                        </div>
-                    </>
-                ) :
-                    <input type="hidden" name="comment" />
-                }
-                {smmPage ?
-                    <div className={styles.para}>
-                        We take your privacy seriously. Read our <Link href="#">Privacy Policy</Link>
-                    </div>
-                    : ""
-                }
+       {!location && (
+  !vertical ? (
+    <>
+      <div className={styles.contactItem}>
+        <textarea placeholder="Description" name="comment"></textarea>
+      </div>
+      <div className={styles.para}>
+        We take your privacy seriously. Read our <Link href="/privacy-policy" target="_blank">Privacy Policy</Link>
+      </div>
+    </>
+  ) : (
+    <input type="hidden" name="comment" />
+  )
+)}
+             {smmPage || location  ? (
+    <div className={styles.para}>
+        We take your privacy seriously. Read our <Link href="/privacy-policy" target="_blank">Privacy Policy</Link>
+    </div>
+) : null}
 
                 <div className={styles.contactBtn}>
                     <button type="submit" className="commonBtn" disabled={isDisabled}>{formStatus}</button>
