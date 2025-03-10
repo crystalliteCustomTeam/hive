@@ -42,7 +42,7 @@ export const BannerData = {
       </p>
       <h2>SEO Score & What It Means</h2>
       <p>
-        Your website's SEO score reflects how well it is optimized for search
+        Your website’s SEO score reflects how well it is optimized for search
         engines. Here’s what different score ranges indicate:
       </p>
       <p className={styles.strongPoints}>90-100: Champion!</p>

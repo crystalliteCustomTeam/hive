@@ -1,4 +1,5 @@
 import styles from "@/styles/single-blog/question.module.scss";
+import { Col, Container, Row } from "react-bootstrap";
 
 const data =[
     {
