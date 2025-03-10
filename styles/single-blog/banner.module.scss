@@ -1,0 +1,79 @@
+.singleBlogs {
+  padding-top: 200px;
+  .singleBlogImg {
+    height: 570px;
+    position: relative;
+    margin-bottom: 50px;
+    img {
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  }
+  .singleBlogTxt {
+    h1 {
+      color: #000;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 56px;
+      letter-spacing: -0.165px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-style: normal;
+      font-size: 35px;
+      line-height: 45px;
+      letter-spacing: -0.165px;
+      color: #000000;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #73858f;
+    }
+    .strongPoints {
+      font-weight: 600;
+      color: #7635ff;
+      margin-bottom: 10px;
+    }
+    ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+      li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.165px;
+        color: #000000;
+        margin-bottom: 10px;
+        position: relative;
+        
+
+        &::before {
+            content: "";
+            display: flex;
+            width: 16px;
+            height: 16px;
+            background-color: #7635FF;
+            border-radius: 100%;    position: absolute;
+            left: -25px;
+            top: 5px;
+        }
+        &::after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 100%;
+            position: absolute;
+            left: -22px;
+            top: 8px;
+        }
+        
+      }
+    }
+    a{
+        color: #7635ff;
+    }
+  }
+}
