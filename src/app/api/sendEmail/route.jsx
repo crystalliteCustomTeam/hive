@@ -1,32 +1,28 @@
 import nodemailer from "nodemailer";
 
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ message: "Method Not Allowed" });
-  }
-
-  const { name, email, totalPoints } = req.body;
-
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user: "azizurrehmankhan321@gmail.com", // Replace with your G Suite email
-      pass: "zgzdbvpvoysrojhk", // Use an App Password
-    },
-  });
-
-  const mailOptions = {
-    from: email,
-    to: `${email}`, // Your G Suite email to receive responses
-    subject: "New Quiz Submission",
-    text: `Name: ${name}\nEmail: ${email}\nTotal Score: ${totalPoints}`,
-  };
-
+export async function POST(req) {
   try {
+    const { name, email, totalPoints } = await req.json();
+
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: "azizurrehmankhan321@gmail.com", // Replace with your G Suite email
+        pass: "zgzd bvpv oysr ojhk", // Use an App Password
+      },
+    });
+
+    const mailOptions = {
+      from: "your-email@gmail.com",
+      to: `${email}`, // Replace with your recipient email
+      subject: "New Score Submission",
+      text: `Name: ${name}\nEmail: ${email}\nTotal Score: ${totalPoints}`,
+    };
+
     await transporter.sendMail(mailOptions);
-    return res.status(200).json({ message: "Email sent successfully" });
+
+    return new Response(JSON.stringify({ message: "Email sent successfully" }), { status: 200 });
   } catch (error) {
-    console.error("Email send error:", error);
-    return res.status(500).json({ message: "Failed to send email" });
+    return new Response(JSON.stringify({ error: error.message }), { status: 500 });
   }
 }

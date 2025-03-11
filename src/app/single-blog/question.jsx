@@ -116,30 +116,24 @@ const Question = () => {
   };
 
   const handleSubmit = async () => {
-    setLoading(true);
-    setMessage("");
-
     try {
-      const response = await fetch("api/sendEmail", {
+      const response = await fetch("/api/sendEmail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, totalPoints }),
       });
-
-      if (response.ok) {
-        setMessage("Your response has been submitted successfully!");
-        setName("");
-        setEmail("");
-        setTotalPoints(0);
-      } else {
-        setMessage("Failed to submit. Please try again.");
+  
+      if (!response.ok) {
+        throw new Error("Failed to send email");
       }
+  
+      alert("Email sent successfully!");
     } catch (error) {
-      setMessage("Error submitting form. Try again later.");
-    } finally {
-      setLoading(false);
+      alert("Failed to submit. Please try again.");
+      console.error(error);
     }
   };
+  
 
   return (
     <section className={styles.questionSection}>
