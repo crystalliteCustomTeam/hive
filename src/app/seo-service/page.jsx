@@ -42,7 +42,7 @@ const Page = () => {
       <WhyChoose data={ChooseUsData} />
       <Process data={ProcessData} />
       <CTA data={CtaData} />
-      <Work data={WorkData} category="Seo" />
+      <Work data={WorkData} category="SEO" />
       <Pricing bg="yes" data={PriceData} />
       <Industries data={IndustriesData} IndustryData={IndustryItem} />
       <Partners data={PartnerData} />

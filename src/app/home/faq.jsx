@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/home/faqs.module.scss";
 import { PlusFaqIcon } from "@/src/app/app-constants";
 
-const Faqs = ({ data }) => {
+const Faqs = ({ data,bg }) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const toggleFaq = (index) => {
@@ -12,7 +12,7 @@ const Faqs = ({ data }) => {
     };
 
     return (
-        <section className={`${styles.faqsSection} pt-100`}>
+        <section className={`${styles.faqsSection} ${bg ? styles.faqBG : ""} pt-100`}>
             <Container>
                 <Row>
                     <Col md={7}>
