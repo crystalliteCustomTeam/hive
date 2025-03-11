@@ -6,7 +6,7 @@ const Page = () => {
     return (
         <>
             <Banner data={BannerData} />
-           
+        
 
         </>
     )

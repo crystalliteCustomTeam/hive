@@ -8,15 +8,16 @@ export const BannerData = {
   desc: (
     <>
       <p>
-        your budget is tight? We think it’s just right! At Infiniti Digital, we
-        turn every dollar into results with paid marketing strategies that pack
-        a punch. No fluff, no waste—just campaigns that drive clicks,
-        conversions, and smiles.
+        Your website might be your pride and joy, but if it’s buried on page 10
+        of Google, it’s as good as worthless. Let’s be real, no one’s clicking
+        that far and you did not spend all that time and money building a
+        website that’s just not ranking and attracting any users while your
+        competitors are making money.
       </p>
       <p>
         People are searching for what you offer right now, but instead of
         finding you, they’re clicking on the businesses that actually rank on
-        Page 1. That’s lost traffic, lost leads, and lost money every single
+        Page 1. That’s lost traffic, lost leads, and lost money—every single
         day. Harsh? Yeah. But the truth hurts.
       </p>
       <p>
@@ -40,10 +41,16 @@ export const BannerData = {
         Google either loves your site or ignores it. Answer these 10 questions
         to see which one!
       </p>
-      <h2>SEO Score & What It Means</h2>
+
+
+
+      
+    </>
+  ),
+  desc1:(<>
+  <h2>SEO Score & What It Means</h2>
       <p>
-        Your website’s SEO score reflects how well it is optimized for search
-        engines. Here’s what different score ranges indicate:
+      Your website’s SEO score reflects how well it is optimized for search engines. Here’s what different score ranges indicate:
       </p>
       <p className={styles.strongPoints}>90-100: Champion!</p>
       <p>
@@ -85,6 +92,5 @@ export const BannerData = {
         on your mind. We’re here to help you fix what’s broken—before it’s too
         late.
       </p>
-    </>
-  ),
+      </>)
 };
