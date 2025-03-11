@@ -53,8 +53,8 @@ export default function Home() {
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.5",
-                "ratingCount": "702"
+                "ratingValue": "4.9",
+                "ratingCount": "1826"
               }
             },
             {

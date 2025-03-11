@@ -51,8 +51,8 @@ const Page = () => {
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.6",
-                "ratingCount": "1001"
+                "ratingValue": "4.9",
+                "ratingCount": "1826"
               }
             },
             {
