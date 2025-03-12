@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import styles from "@/styles/single-blog/question.module.scss";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
@@ -82,7 +82,7 @@ const data = [
 
 const extractPoints = (answer) => {
   const match = answer.match(/\((\d+) points\)/);
-  return match ? parseInt(match[1]) : 0;
+  return match ? parseInt(match[1], 10) : 0;
 };
 
 const Question = () => {
@@ -90,10 +90,13 @@ const Question = () => {
   const [selectedAnswers, setSelectedAnswers] = useState([]);
   const [totalPoints, setTotalPoints] = useState(0);
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [recipient, setRecipient] = useState("");
+  const [phone, setPhone] = useState("");
+  const [website, setWebsite] = useState("");
   const [showSubmit, setShowSubmit] = useState(false);
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  const [errors, setErrors] = useState({});
 
   const handleAnswerChange = (event) => {
     const answer = event.target.value;
@@ -105,35 +108,56 @@ const Question = () => {
   const handleNext = () => {
     const selectedAnswer = selectedAnswers[currentQuestionIndex];
     if (selectedAnswer) {
-      setTotalPoints(totalPoints + extractPoints(selectedAnswer));
+      setTotalPoints((prevPoints) => prevPoints + extractPoints(selectedAnswer));
     }
-
     if (currentQuestionIndex < data.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
       setShowSubmit(true);
     }
   };
 
-  const handleSubmit = async () => {
+  const validateForm = () => {
+    let formErrors = {};
+    if (!name) formErrors.name = "Name is required";
+    if (!recipient) formErrors.recipient = "Email is required";
+    if (!phone) formErrors.phone = "Phone number is required";
+    if (!website) formErrors.website = "Website is required";
+
+    setErrors(formErrors);
+    return Object.keys(formErrors).length === 0;
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!validateForm()) return;
+
+    setLoading(true);
+    setMessage("");
+
     try {
-      const response = await fetch("/api/sendEmail", {
+      const response = await fetch("https://dev18.pulse-force.com/api/send-email/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, totalPoints }),
+        body: JSON.stringify({ recipient, name, score: totalPoints, website, phone }),
       });
-  
+
       if (!response.ok) {
         throw new Error("Failed to send email");
       }
-  
-      alert("Email sent successfully!");
+
+      setMessage("Email sent successfully!");
+      setName("");
+      setRecipient("");
+      setPhone("");
+      setWebsite("");
+      setTotalPoints(0);
     } catch (error) {
-      alert("Failed to submit. Please try again.");
-      console.error(error);
+      setMessage("Failed to submit. Please try again.");
+    } finally {
+      setLoading(false);
     }
   };
-  
 
   return (
     <section className={styles.questionSection}>
@@ -164,23 +188,32 @@ const Question = () => {
               </div>
             </Col>
           ) : (
-            <Col>
+            <Col md={6} lg={6} className="my-auto">
               <div className={styles.submitSection}>
                 <h3>Your answers are complete! Total Score: {totalPoints}</h3>
-                <Form>
-                  <Form.Group controlId="name">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your name" value={name} onChange={(e) => setName(e.target.value)} />
-                  </Form.Group>
-                  <Form.Group controlId="email">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                  </Form.Group>
-                  <Button variant="primary" onClick={handleSubmit} disabled={!name || !email || loading}>
-                    {loading ? "Submitting..." : "Submit"}
-                  </Button>
-                  {message && <p>{message}</p>}
-                </Form>
+                {message ? (
+                  <p className={styles.message}>{message}</p>
+                ) : (
+                  <Form onSubmit={handleSubmit}>
+                    <Form.Group controlId="name">
+                      <Form.Control type="text" placeholder="Full Name" value={name} onChange={(e) => setName(e.target.value)} isInvalid={!!errors.name} />
+                      <Form.Control.Feedback type="invalid">{errors.name}</Form.Control.Feedback>
+                    </Form.Group>
+                    <Form.Group controlId="email">
+                      <Form.Control type="email" placeholder="Email Address" value={recipient} onChange={(e) => setRecipient(e.target.value)} isInvalid={!!errors.recipient} />
+                      <Form.Control.Feedback type="invalid">{errors.recipient}</Form.Control.Feedback>
+                    </Form.Group>
+                    <Form.Group controlId="phone">
+                      <Form.Control type="tel" placeholder="Phone Number" value={phone} onChange={(e) => setPhone(e.target.value)} isInvalid={!!errors.phone} />
+                      <Form.Control.Feedback type="invalid">{errors.phone}</Form.Control.Feedback>
+                    </Form.Group>
+                    <Form.Group controlId="website">
+                      <Form.Control type="text" placeholder="Website" value={website} onChange={(e) => setWebsite(e.target.value)} isInvalid={!!errors.website} />
+                      <Form.Control.Feedback type="invalid">{errors.website}</Form.Control.Feedback>
+                    </Form.Group>
+                    <Button variant="primary" type="submit" disabled={loading}>{loading ? "Submitting..." : "Submit"}</Button>
+                  </Form>
+                )}
               </div>
             </Col>
           )}

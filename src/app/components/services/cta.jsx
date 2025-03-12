@@ -11,7 +11,7 @@ const CtaServices = ({ data, bg }) => {
                         <div className={`${styles.ctaServicesTitle} ${styles.BlackBG}`}>
                             <h2>{data.title}</h2>
                             <p>{data.desc}</p>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" />
                         </div>
                     </Col>
                 </Row>

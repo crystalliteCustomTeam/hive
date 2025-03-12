@@ -12,7 +12,7 @@ const CTA = ({ data }) => {
                     <Col md={6} className='my-auto'>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <CommonBtn txt="Get Free Consultation" />
+                        <CommonBtn txt="Get A Free Consultation" />
                     </Col>
                     <Col md={6} className='mt-auto text-right'>
                         <Image src={data.img} alt="Digital CTA" width={560} height={530} className={styles.imgCTA} />

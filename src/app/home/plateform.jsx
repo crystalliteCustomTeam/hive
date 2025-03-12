@@ -36,7 +36,7 @@ const PlateFroms = ({ data }) => {
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <CommonBtn txt="Get Free Consultation" />
+                        <CommonBtn txt="Get A Free Consultation" />
                     </Col>
                     <Col md={6} className="text-center">
                         <section className={styles.embla}>

@@ -22,7 +22,7 @@ const Banner = ({ data, bgtxt, web }) => {
                                 <div className={styles.contentBaner}>
                                     <h2>{data.bannerTitle}</h2>
                                     <p>{data.bannerContent}</p>
-                                    <CommonBtn txt="Get Free Consultation" />
+                                    <CommonBtn txt="Get A Free Consultation" />
                                 </div>
                                 : null
                             }

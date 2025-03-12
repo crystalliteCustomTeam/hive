@@ -11,7 +11,7 @@ const CtaServices = ({ data }) => {
                     <Col md={6} lg={6} className="my-auto">
                         <div className={styles.ctaServicesTitle}>
                             <h2>{data.title}</h2>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" />
                         </div>
                     </Col>
                     <Col md={6} lg={6} className='ms-auto text-lg-right'>

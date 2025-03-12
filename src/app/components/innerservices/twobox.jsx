@@ -16,7 +16,7 @@ const TwoBox = ({ data }) => {
                         >
                             <h3>{data.Box1.title}</h3>
                             <p>{data.Box1.desc}</p>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" />
                         </div>
                     </Col>
                     <Col md={6} className='my-auto'>

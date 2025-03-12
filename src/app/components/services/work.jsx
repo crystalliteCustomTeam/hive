@@ -54,7 +54,7 @@ const Work = ({ data, category }) => {
                                             <div className={styles.workContent}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.txt}</p>
-                                                <CommonBtn txt="Get Free Consultation" />
+                                                <CommonBtn txt="Get A Free Consultation" />
                                             </div>
                                             <Link href={item.url} className={styles.arrowBg}>
                                                 <ArrowIcon />

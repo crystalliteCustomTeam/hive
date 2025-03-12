@@ -13,7 +13,7 @@ const ContentSection = ({ data }) => {
                         <div className="subtitle">{data.subtitle}</div>
                         <h2>{data.title}</h2>
                         {data.desc}
-                        <CommonBtn txt="Get Free Consultation" />
+                        <CommonBtn txt="Get A Free Consultation" />
                     </Col>
                     <Col md={6} className='my-auto text-center'>
                         <Image src={data.img} alt="Digital CTA" width={693} height={625} className={styles.imgCTAFirst} />

@@ -10,7 +10,7 @@ const CTA = ({ data }) => {
                     <Col md={8} lg={6} className="my-auto">
                         <div className={`${styles.ctaTitle}`}>
                             <h2>{data.title}</h2>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" />
                         </div>
                     </Col>
                 </Row>

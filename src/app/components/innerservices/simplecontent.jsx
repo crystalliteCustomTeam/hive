@@ -12,7 +12,7 @@ const SimpleContent = ({ data, alternat, software }) => {
                         <div className={styles.contentBox}>
                             <h2>{data.contentTitle}</h2>
                             <div className={styles.paraBox}>{data.contentTxt}</div>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" />
                         </div>
                     </Col>
                     <Col md={6} className={`${styles.simpleImage} ${alternat ? "order-md-1" : ""} ${software ? styles.softwareImg : ""} my-auto text-center`}>

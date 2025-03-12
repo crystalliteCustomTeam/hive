@@ -13,7 +13,7 @@ const ContentAlternet = ({ data, bggray, simple, alternat, software }) => {
                         <div className={`${styles.contentBox} ${alternat === "yes" ? styles.alternatcontentBox : ''}`}>
                             <h2>{data.contentTitle}</h2>
                             <div className={styles.paraBox}>{data.contentTxt}</div>
-                            <CommonBtn txt="Get Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" />
                         </div>
                     </Col>
                     <Col md={6} className={`my-auto ${simple === "yes" ? styles.imgSimple : ''} ${software === "yes" ? styles.imgSoftware : ''} ${alternat === "yes" ? styles.alternatImage : ''}`} >
