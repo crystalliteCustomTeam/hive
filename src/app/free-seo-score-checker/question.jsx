@@ -150,27 +150,30 @@ const Question = () => {
     setLoading(true);
     setMessage("");
 
+    const userData = {
+      recipient,
+      name,
+      score: totalPoints,
+      website,
+      phone,
+    };
+
     try {
-      const response = await fetch(
-        "https://dev18.pulse-force.com/api/send-email/",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            recipient,
-            name,
-            score: totalPoints,
-            website,
-            phone,
-          }),
-        }
-      );
+      // Send data to email API
+      await fetch("https://dev18.pulse-force.com/api/send-email/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(userData),
+      });
 
-      if (!response.ok) {
-        throw new Error("Failed to send email");
-      }
+      // Send data to Google Sheets API
+      await fetch("https://sheetdb.io/api/v1/7eple7korb6ik", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ data: userData }),
+      });
 
-      setMessage("Email sent successfully!");
+      setMessage("Submission successful!");
       setName("");
       setRecipient("");
       setPhone("");

@@ -1,6 +1,6 @@
 import styles from "@/styles/single-blog/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import Question from "@/src/app/single-blog/question";
+import Question from "@/src/app/free-seo-score-checker/question";
 
 const Banner = ({ data }) => {
   return (

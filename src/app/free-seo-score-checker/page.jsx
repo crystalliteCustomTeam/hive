@@ -1,5 +1,5 @@
-import Banner from '@/src/app/single-blog/banner'
-import { BannerData,CallActionData } from '@/src/app/single-blog/data/data'
+import Banner from '@/src/app/free-seo-score-checker/banner'
+import { BannerData,CallActionData } from '@/src/app/free-seo-score-checker/data/data'
 import CtaForm from "@/src/app/home/ctaform";
 
 const Page = () => {
