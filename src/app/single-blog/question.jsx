@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "@/styles/single-blog/question.module.scss";
+import styles from "@/f";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
 import Image from "next/image";
 import questionImage from "media/blogs/question.webp";
@@ -140,6 +140,7 @@ const Question = () => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ recipient, name, score: totalPoints, website, phone }),
+        mode: "no-cors"
       });
 
       if (!response.ok) {
