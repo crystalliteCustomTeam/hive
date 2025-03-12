@@ -191,7 +191,7 @@ const Question = () => {
           ) : (
             <Col md={6} lg={6} className="my-auto">
               <div className={styles.submitSection}>
-                <h3>Your answers are complete! Total Score: {totalPoints}</h3>
+                <h3>Your answers are complete! <br/>Total Score: {totalPoints}</h3>
                 {message ? (
                   <p className={styles.message}>{message}</p>
                 ) : (
