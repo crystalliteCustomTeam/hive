@@ -76,7 +76,7 @@ const Page = () => {
               image: "https://www.infinitidigital.us/infinitidigital.png",
               "@id": "",
               url: "https://www.infinitidigital.us/wordpress-development-services",
-              telephone: "1655-487-632",
+              telephone: "855-666-6682",
               priceRange: "$350 to $750",
               address: {
                 "@type": "PostalAddress",
@@ -123,7 +123,7 @@ const Page = () => {
               logo: "https://www.infinitidigital.us/infinitidigital.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "1655-487-632",
+                telephone: "855-666-6682",
                 contactType: "sales",
                 contactOption: "TollFree",
                 areaServed: "US",

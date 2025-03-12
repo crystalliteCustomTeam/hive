@@ -10,7 +10,7 @@ const Contactfromlp = ({location}) => {
                 <Row>
                     <Col md={12} lg={10} className="m-auto">
                         <div className={styles.formContainer} style={{ backgroundImage: `url(${IMG.src})` }}>
-                            <h4>Don’t Be Shy, Say Hi!</h4>
+                            <h4>From search to sale, we never fail!</h4>
                             <ContactFrom  locationPage={true} title="Let’s Connect"  location={true} />
                         </div>
                     </Col>

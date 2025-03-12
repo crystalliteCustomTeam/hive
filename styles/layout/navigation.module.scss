@@ -218,7 +218,7 @@
     }
 }
 
-.mainMobileNavigation {
+.mainMobileNavigation,.mobileNavIcon {
     display: none;
 }
 
@@ -648,7 +648,25 @@
     .menuSection {
         display: none;
     }
-
+.mobileNavIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    .commonBtnMobile{
+        background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
+        height: 32px;
+        width: 32px;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        svg{
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
     .mainMobileNavigation {
         position: fixed;
         width: 300px;

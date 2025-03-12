@@ -10,20 +10,24 @@ const CallBack = () => {
         <Row className="h-100">
           <Col md={12} lg={6} className="my-auto">
             <div className={styles.callBackBox1}>
-              <div className="subtitle">REQUEST A CALL BACK</div>
-              <h2>Rank Your Website At the Top</h2>
+              <div className="subtitle">Request A Free Quote</div>
+              <h2>
+                Google Ain’t Santa
+                <br />
+                It Won’t Just Gift You Traffic.
+              </h2>
               <p>
-                Jumpto1 Social Media Marketing means more traffic, more calls
-                and more sales!
+                Your competitors love that you haven’t hired an SEO company in
+                Dallas…Yet.
               </p>
-              <CommonBtn txt="Get Your Qoute" LiveChat={true} BgBlack={true} />
+              <CommonBtn txt="Connect with us" LiveChat={true} BgBlack={true} />
             </div>
           </Col>
           <Col md={12} lg={6} className="my-auto">
             <div className={styles.callBackBox2}>
-              <div className="subtitle blackColor">Improve Search Rankings</div>
-              <h2>Enhance Your Sales</h2>
-              <ContactFrom location={true} title="Click To Grow" />
+              <div className="subtitle blackColor">What’s Your Business Goal? </div>
+              <h2>Let’s Rank for It.</h2>
+              <ContactFrom location={true} title="Get a Free Consultation" />
             </div>
           </Col>
         </Row>

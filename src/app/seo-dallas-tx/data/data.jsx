@@ -4,7 +4,9 @@ import { Serv01, Serv02, Serv03, Serv04, Serv05, Serv06, Serv07, Serv08, Serv09 
 
 export const ServicesData = {
     subtitle: "",
-    title: "Our SEO Services",
+    title: (<>Dallas SEO Services <br/>
+        That Drive Real Business Growth
+        </>),
     desc: "Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data",
     ServicesItem: [
         {
@@ -49,8 +51,8 @@ export const ServicesData = {
         },
         {
             icon: <Serv09 />,
-            title: "GMB Management",
-            txt: "We optimize and manage your GMB profile to ensure your business stands out in local searches. From updating key information to managing reviews, we help you attract more customers and improve your local visibility.",
+            title: "Organic Shopping",
+            txt: "We improve your visibility in Google Shopping without relying on expensive ads. Our strategies help you get more organic traffic and sales.",
         },
 
     ]
@@ -59,28 +61,28 @@ export const ServicesData = {
 
 
 export const processlp = {
-    title: "Getting You Ranked in 5 Simple Steps",
-    txt: "Our local SEO experts don’t wait for results; they create them.",
+    title: "Dallas SEO Agency's Ranking Process",
+    txt: "We follow a five steps SEO process to get your business to the top of search results in Dallas.",
     processlpItem: [
         {
-            title: "Onboarding ",
+            title: "Onboarding & Goal Setting",
             txt: "We start by getting to know your business, your competition, and your customers. This helps us create a custom SEO plan just for you."
         },
         {
-            title: "Website Audit",
-            txt: "We check your website to see how it’s doing. We then make sure it’s fast, easy to use, and ready for Google to love it."
+            title: "Website Audit & Keyword Research",
+            txt: "We analyze your website’s performance, identify technical issues, and research high-impact keywords that drive local traffic."
         },
         {
-            title: "Content Optimization",
-            txt: "We update your website’s content, making sure it has the right words (keywords) that will help you rank higher on Google and attract the right visitors."
+            title: "On-Page & Technical Optimization",
+            txt: "We optimize site structure, content, metadata, and speed while fixing technical issues to improve search engine visibility."
         },
         {
-            title: "Building Local Authority",
-            txt: "We set up and improve your Google Business Profile, add your business to important local listings, and get quality links to boost your online reputation."
+            title: "Content & Link Building Strategy",
+            txt: "We create high-quality, engaging content and build authoritative backlinks to boost rankings and establish your brand’s credibility."
         },
         {
-            title: "Reporting & Ongoing Improvements",
-            txt: "Every month, we send you progress reports showing how well your website is doing; like how much traffic you’re getting, where you rank, and what we can improve next."
+            title: "Tracking, Reporting & Continuous Growth",
+            txt: "We monitor your rankings, analyze performance data, and refine our strategy to keep your business ahead of the competition."
         },
     ]
 
@@ -91,171 +93,203 @@ export const processlp = {
 // Pricing
 export const PriceData = {
     subtitle: "",
-    title: "Social Media Marketing Packages",
-    desc: "Posting is easy. Getting results? That’s where we come in, heroically.",
+    title: "SEO Packages to Dominate Search Results in Dallas, TX",
+    desc: "We ensure you get the most out of every dollar; premium strategies, expert execution, and real business growth.",
     PriceItem: [
         {
             bgColor: "#7635FF",
-            packagename: "Launch Package",
-            titletxt: "Kickstart Your Brand’s Digital Presence",
-            price1: "1250",
-            price2: "1050",
-            price3: "900",
-            txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
+            packagename: "Basic Package",
+            price: "399",
+            txt: "Designed for small businesses or startups looking to establish a foundation in SEO.",
             bodyPoints: [
                 {
-                    title: "Included Services",
+                    title: "Setup",
                     points: [
-                        "08 High-Impact Static Posts",
-                        "Immersive Stories",
-                        "02 GIF/Carousel Post",
-                        "05 Reels or TikTok-style Short Video",
-                        "Branding & Design Consultation",
-                        "Basic Hashtag Strategy",
-                        "Social Platform Setup & Optimization",
+                        "Website Sitemap",
+                        "Check for SEO Scope",
+                        "Custom 404 Page Setup / Nofollow Link Checkup",
                     ]
                 },
                 {
-                    title: "Platform Management",
+                    title: "Pages & Keywords",
                     points: [
-                        "Monthly Content Scheduling",
-                        "Community Engagement",
-                        "Page Optimization"
+                        "Up to 5 pages optimized",
+                        "Focused Keywords: 5",
                     ]
                 },
                 {
-                    title: "Platforms Included",
+                    title: "On-page SEO",
                     points: [
-                        "Facebook",
-                        "Instagram",
+                        "Web Content Optimization",
+                        "URL Structure Improvements",
+                        "Meta Tags (Title, Description, Header Tags)",
+                        "Image Alt Tags and Optimization: 5 images",
+                    ]
+                },
+                {
+                    title: "Technical Optimization",
+                    points: [
+                        "Fixing Crawl Errors",
+                        "Mobile-first Optimization",
+                        "Page Speed Optimization",
+                        "Core Web Vitals Improvements",
+                        "Schema Markup Implementation",
+                    ]
+                },
+                {
+                    title: "Progress Reporting",
+                    points: [
+                        "Basic Monthly Progress Reports",
                     ]
                 }
-            ],
-            para: "",
+            ]
         },
         {
             bgColor: "#FF6987",
-            packagename: "Elevate Package ",
-            titletxt: "Take Your Brand to the Next Level",
-            price1: "1750",
-            price2: "1470",
-            price3: "1260",
-            txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
+            packagename: "Growth Package",
+            price: "999",
+            txt: "Ideal for businesses aiming to grow their organic reach and improve conversions.",
             bodyPoints: [
                 {
-                    title: "Included Services",
+                    title: "Setup",
                     points: [
-                        "10 High-Impact Static Posts",
-                        "Immersive Stories",
-                        "05 GIF/Carousel Posts",
-                        "Branding & Design Consultation",
-                        "Advanced Hashtag & SEO Strategy*",
-                        "UGC (User-Generated Content) Strategy**",
-                        "Social Platform Setup & Optimization",
-                        "Social Media Contest or Giveaway",
+                        "Website Sitemap",
+                        "Check for SEO Scope",
+                        "Custom 404 Page Setup / Nofollow Link Checkup",
                     ]
                 },
                 {
-                    title: "Platform Management",
+                    title: "Pages",
                     points: [
-                        "Monthly Content Scheduling & Publishing",
-                        "Advanced Community Engagement",
-                        "Page Optimization & A/B Testing",
+                        "Up to 10 pages optimized",
                     ]
                 },
                 {
-                    title: "Advanced Analytics & Reporting",
+                    title: "Keyword Research",
                     points: [
-                        "Monthly Performance Insights",
-                        "Competitor Benchmarking",
+                        "Focused Keywords: 10",
+                        "Keyphrase Optimization: 5",
                     ]
                 },
                 {
-                    title: "Platforms Included",
+                    title: "On-page SEO",
                     points: [
-                        "Facebook",
-                        "Instagram",
-                        "LinkedIn or X (Optional)",
+                        "Meta Tags (Title, Description, Header Tags)",
+                        "Image Alt Tags and Optimization: 10 images",
+                        "URL Structure Improvements",
+                        "Web Content Optimization",
+                        "Anchor Text Optimization",
+                        "Landing Page Optimization",
+                    ]
+                },
+                {
+                    title: "Technical Optimization",
+                    points: [
+                        "Fixing Crawl Errors",
+                        "Mobile-first Optimization",
+                        "Page Speed Optimization",
+                        "Core Web Vitals Improvements",
+                        "Schema Markup Implementation",
+                    ]
+                },
+                {
+                    title: "Tracking & Analytics",
+                    points: [
+                        "Google Analytics Setup",
+                        "Basic Conversion Tracking",
+                        "Google Search Console Setup",
+                    ]
+                },
+                {
+                    title: "Progress Reporting",
+                    points: [
+                        "Google Analytics Reports",
+                        "Monthly Progress Reports with Recommendations",
+                    ]
+                },
+                {
+                    title: "Account Management",
+                    points: [
+                        "Dedicated Account Manager",
+                        "1-Hour Free Consultation (Per Month)",
                     ]
                 }
-            ],
-            bodyNote: [
-                {
-                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
-                },
-                {
-                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
-                }
-            ],
-
+            ]
         },
         {
             bgColor: "#9AFF35",
-            packagename: "Dominate Package ",
-            titletxt: "Achieve Social Media Leadership",
-            price1: "2250",
-            price2: "1890",
-            price3: "1620",
-            txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
+            packagename: "Premium Package",
+            price: "1850",
+            txt: "Best suited for businesses seeking comprehensive SEO strategies and advanced tracking.",
             bodyPoints: [
                 {
-                    title: "Included Services",
+                    title: "Setup",
                     points: [
-                        "15 High-Impact Static Posts",
-                        "Engaging Stories",
-                        "05 GIF/Carousel Posts",
-                        "15 Reels or TikTok-style Short Videos",
-                        "Branding & Design Consultation",
-                        "Advanced Hashtag & SEO Strategy*",
-                        "UGC (User-Generated Content) Strategy**",
-                        "Social Platform Setup & Optimization",
-                        "Social Media Contest or Giveaway",
-                        "Influencer/Brand Ambassador Outreach Strategy***",
-                        "Seasonal Campaigns ",
+                        "Website Sitemap",
+                        "Check for SEO Scope",
+                        "Custom 404 Page Setup / Nofollow Link Checkup",
                     ]
                 },
                 {
-                    title: "Platform Management",
+                    title: "Pages",
                     points: [
-                        "Bi-Weekly Content Scheduling & Publishing",
-                        "24/7 Community Engagement",
-                        "Full Social Page Optimization",
+                        "Up to 15 pages optimized",
                     ]
                 },
                 {
-                    title: "Advanced Analytics & Reporting",
+                    title: "Keyword Research",
                     points: [
-                        "Bi-Weekly Performance Insights",
-                        "Competitor and Industry Analysis",
-                        "Lead Generation & Conversion Tracking",
+                        "Focused Keywords: 15",
+                        "Keyphrase Optimization: 10",
                     ]
                 },
                 {
-                    title: "Platforms Included",
+                    title: "On-page SEO",
                     points: [
-                        "Facebook",
-                        "Instagram",
-                        "LinkedIn",
-                        "Twitter",
-                        "TikTok,",
-                        "Pinterest or Snapchat (Optional Add-On)"
+                        "Landing Page Setup",
+                        "SGE Visibility Optimization ",
+                        "Web Content Optimization",
+                        "Anchor Text Optimization",
+                        "Landing Page Optimization",
+                        "URL Structure Improvements",
+                        "Meta Tags(Title, Description, Header Tags)",
+                        "Image Alt Tags and Optimization: 15 images",
+                    ]
+                },
+                {
+                    title: "Technical Optimization",
+                    points: [
+                        "Fixing Crawl Errors",
+                        "Mobile - first Optimization",
+                        "Page Speed Optimization",
+                        "Core Web Vitals Improvements",
+                        "Schema Markup Implementation",
+                    ]
+                },
+                {
+                    title: "Tracking & Analytics",
+                    points: [
+                        "Google Analytics Setup",
+                        "Google Search Console Setup",
+                        "Basic Conversion Tracking",
+                        "Full - Funnel Conversion Tracking",
+                    ]
+                },
+                {
+                    title: "Progress Reporting",
+                    points: [
+                        "Business Intelligence Dashboard",
+                    ]
+                },
+                {
+                    title: "Account Management",
+                    points: [
+                        "Dedicated Account Manager",
+                        "2-Hour Free Consultation (Per Month)",
                     ]
                 }
-            ],
-            bodyNote: [
-                {
-                    para: "* Please note that this includes only the SEO strategy, not the implementation of SEO services."
-                },
-                {
-                    para: "** Please note that this includes only the UGC strategy, not the creation or management of user-generated content."
-                },
-                {
-
-                    para: "*** Please note that this includes only the outreach strategy; execution and management of influencer/brand ambassador partnerships are offered as separate services."
-                }
-            ],
-
-        },
+            ]
+        }
 
     ]
 };
@@ -264,32 +298,32 @@ export const PriceData = {
 // Why Choose Us
 export const ChooseUsData = {
     subtitle: "",
-    title: "Your Dedicated Partner for Unmatched Results",
-    desc: "Explore how we empower brands to thrive, innovate, and lead in today’s digital-first world.",
+    title: "Why We're the Right Dallas SEO Company for You",
+    desc: "Businesses don’t gamble with SEO in Dallas, they hire us!",
     Content1: [
         {
-            title: "Proven Results, Real Impact",
-            txt: "We don’t just aim for growth; we deliver it. Our data-driven strategies are crafted to maximize ROI and help your business thrive in today’s competitive digital environment."
+            title: "More Customers",
+            txt: "Our SEO service in Dallas ensures your business appears in front of potential customers actively searching for your products or services, driving high quality traffic to your site."
         },
         {
-            title: "Tailored Solutions for Every Business",
-            txt: "Every business has its own story. That’s why we create personalized digital strategies that align with your goals, budget, and audience to drive measurable, long-term success."
+            title: "Better ROI",
+            txt: "We focus on cost-effective strategies that maximize your marketing budget, delivering higher conversions and more revenue without unnecessary ad spend."
         }
     ],
     Content2: [
         {
-            title: "Expertise Across Multiple Channels",
-            txt: "From SEO and PPC to social media and email marketing, our team brings expertise across all digital channels, delivering multi-faceted solutions that maximize your reach and results."
+            title: "Local Focus",
+            txt: "As an SEO company in Dallas, we understand the local market, competition, and search trends, helping your business stand out in the area. "
         }
     ],
     Content3: [
         {
-            title: "A Results-Driven Approach",
-            txt: "Success isn’t about guesswork. At Infiniti Digital, we focus on delivering outcomes that matter—higher engagement, increased leads, and tangible ROI that aligns with your goals."
+            title: "Transparent Reporting",
+            txt: "We provide easy-to-understand reports with key metrics, so you always know how your SEO is performing and where your investment is going."
         },
         {
-            title: "Unparalleled Client Support",
-            txt: "We’re not just your digital partner but part of your team. From strategy to execution, we provide dedicated support, ensuring your business gets the attention and expertise it deserves."
+            title: "Sustainable Growth",
+            txt: "Our strategies focus on sustainable rankings and continuous optimization, ensuring your business maintains its position and stays ahead in search results."
         }
     ]
 

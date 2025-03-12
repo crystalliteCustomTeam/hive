@@ -83,7 +83,7 @@ const Page = () => {
               image: "https://www.infinitidigital.us/infinitidigital.png",
               "@id": "",
               url: "https://www.infinitidigital.us/children-book-illustration",
-              telephone: "1655-487-632",
+              telephone: "855-666-6682",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "9402 Synott Rd Apt 114",
@@ -129,7 +129,7 @@ const Page = () => {
               logo: "https://www.infinitidigital.us/infinitidigital.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "1655-487-632",
+                telephone: "855-666-6682",
                 contactType: "sales",
                 contactOption: "TollFree",
                 areaServed: "US",

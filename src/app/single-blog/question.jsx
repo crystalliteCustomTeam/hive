@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "@/styles/single-blog/question.module.scss";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
 import Image from "next/image";
@@ -23,7 +23,8 @@ const data = [
     ],
   },
   {
-    question: "Do your website titles and descriptions make people want to click?",
+    question:
+      "Do your website titles and descriptions make people want to click?",
     answers: [
       "Yes, all pages have compelling titles and descriptions (10 points)",
       "Some pages are optimized, but not all (5 points)",
@@ -39,7 +40,8 @@ const data = [
     ],
   },
   {
-    question: "Does Google trust your website? (Backlinks from reputable sites)",
+    question:
+      "Does Google trust your website? (Backlinks from reputable sites)",
     answers: [
       "Yes, I have links from well-known websites (10 points)",
       "I have a few, but not enough (5 points)",
@@ -47,13 +49,14 @@ const data = [
     ],
   },
   {
-    question: "Are you using the right words to show up on Google? (Keyword strategy)",
+    question:
+      "Are you using the right words to show up on Google? (Keyword strategy)",
     answers: [
       "Yes, I have a plan and use the best keywords (10 points)",
       "Some of my content includes good keywords (5 points)",
       "No, I haven’t thought about it (0 points)",
     ],
-  }, 
+  },
   {
     question: "Does Google understand your website structure? (Schema Markup)",
     answers: [
@@ -98,6 +101,18 @@ const Question = () => {
   const [loading, setLoading] = useState(false);
   const [errors, setErrors] = useState({});
 
+  useEffect(() => {
+    if (message) {
+      setTimeout(() => {
+        setCurrentQuestionIndex(0);
+        setSelectedAnswers([]);
+        setTotalPoints(0);
+        setShowSubmit(false);
+        setMessage("");
+      }, 5000);
+    }
+  }, [message]);
+
   const handleAnswerChange = (event) => {
     const answer = event.target.value;
     const updatedAnswers = [...selectedAnswers];
@@ -136,11 +151,20 @@ const Question = () => {
     setMessage("");
 
     try {
-      const response = await fetch("https://dev18.pulse-force.com/api/send-email/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ recipient, name, score: totalPoints, website, phone }),
-      });
+      const response = await fetch(
+        "https://dev18.pulse-force.com/api/send-email/",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            recipient,
+            name,
+            score: totalPoints,
+            website,
+            phone,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to send email");
@@ -175,13 +199,19 @@ const Question = () => {
                         id={`answer-${index}`}
                         name={`question-${currentQuestionIndex}`}
                         value={answer}
-                        checked={selectedAnswers[currentQuestionIndex] === answer}
+                        checked={
+                          selectedAnswers[currentQuestionIndex] === answer
+                        }
                         onChange={handleAnswerChange}
                       />
                       <label htmlFor={`answer-${index}`}>{answer}</label>
                     </div>
                   ))}
-                  <Button className={styles.nextButton} disabled={!selectedAnswers[currentQuestionIndex]} onClick={handleNext}>
+                  <Button
+                    className={styles.nextButton}
+                    disabled={!selectedAnswers[currentQuestionIndex]}
+                    onClick={handleNext}
+                  >
                     Next Question
                   </Button>
                 </div>
@@ -190,29 +220,69 @@ const Question = () => {
           ) : (
             <Col md={6} lg={6} className="my-auto">
               <div className={styles.submitSection}>
-                <h3>Your answers are complete! <br/>Total Score: {totalPoints}</h3>
                 {message ? (
-                  <p className={styles.message}>{message}</p>
+                  <p className={styles.messageSuccessfully}>{message}</p>
                 ) : (
-                  <Form onSubmit={handleSubmit}>
-                    <Form.Group controlId="name">
-                      <Form.Control type="text" placeholder="Full Name" value={name} onChange={(e) => setName(e.target.value)} isInvalid={!!errors.name} />
-                      <Form.Control.Feedback type="invalid">{errors.name}</Form.Control.Feedback>
-                    </Form.Group>
-                    <Form.Group controlId="email">
-                      <Form.Control type="email" placeholder="Email Address" value={recipient} onChange={(e) => setRecipient(e.target.value)} isInvalid={!!errors.recipient} />
-                      <Form.Control.Feedback type="invalid">{errors.recipient}</Form.Control.Feedback>
-                    </Form.Group>
-                    <Form.Group controlId="phone">
-                      <Form.Control type="tel" placeholder="Phone Number" value={phone} onChange={(e) => setPhone(e.target.value)} isInvalid={!!errors.phone} />
-                      <Form.Control.Feedback type="invalid">{errors.phone}</Form.Control.Feedback>
-                    </Form.Group>
-                    <Form.Group controlId="website">
-                      <Form.Control type="text" placeholder="Website" value={website} onChange={(e) => setWebsite(e.target.value)} isInvalid={!!errors.website} />
-                      <Form.Control.Feedback type="invalid">{errors.website}</Form.Control.Feedback>
-                    </Form.Group>
-                    <Button variant="primary" type="submit" disabled={loading}>{loading ? "Submitting..." : "Submit"}</Button>
-                  </Form>
+                  <>
+                    <h3>Your answers are complete!</h3>
+                    <Form onSubmit={handleSubmit}>
+                      <Form.Group controlId="name">
+                        <Form.Control
+                          type="text"
+                          placeholder="Full Name"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          isInvalid={!!errors.name}
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          {errors.name}
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                      <Form.Group controlId="email">
+                        <Form.Control
+                          type="email"
+                          placeholder="Email Address"
+                          value={recipient}
+                          onChange={(e) => setRecipient(e.target.value)}
+                          isInvalid={!!errors.recipient}
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          {errors.recipient}
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                      <Form.Group controlId="phone">
+                        <Form.Control
+                          type="tel"
+                          placeholder="Phone Number"
+                          value={phone}
+                          onChange={(e) => setPhone(e.target.value)}
+                          isInvalid={!!errors.phone}
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          {errors.phone}
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                      <Form.Group controlId="website">
+                        <Form.Control
+                          type="text"
+                          placeholder="Website"
+                          value={website}
+                          onChange={(e) => setWebsite(e.target.value)}
+                          isInvalid={!!errors.website}
+                        />
+                        <Form.Control.Feedback type="invalid">
+                          {errors.website}
+                        </Form.Control.Feedback>
+                      </Form.Group>
+                      <Button
+                        variant="primary"
+                        type="submit"
+                        disabled={loading}
+                      >
+                        {loading ? "Submitting..." : "Submit"}
+                      </Button>
+                    </Form>
+                  </>
                 )}
               </div>
             </Col>

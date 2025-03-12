@@ -1043,11 +1043,10 @@ p {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     .navIcon {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         position: relative;
         z-index: 99;
         max-width: 30px;
-        margin-left: auto;
     }
 
     body {

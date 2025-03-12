@@ -58,6 +58,13 @@
       }
     }
   }
+  .contactImg{
+    margin-top: 50px;
+    img{
+      height: 300px;
+      width: auto;
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -197,6 +204,14 @@
           }
         }
       }
+    }  
+    
+    .contactImg{
+      margin-top: 30px;
+      img{
+        height: 270px;
+        width: auto;
+      }
     }
   }
 }
@@ -231,6 +246,13 @@
             line-height: 20px;
           }
         }
+      }
+    }
+    .contactImg{
+      margin-top: 30px;
+      img{
+        height: 220px;
+        width: auto;
       }
     }
   }

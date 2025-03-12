@@ -71,7 +71,7 @@ const Page = () => {
               logo: "https://www.infinitidigital.us/infinitidigital.png",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "1655-487-632",
+                telephone: "855-666-6682",
                 contactType: "sales",
                 contactOption: "TollFree",
                 areaServed: "US",
@@ -93,7 +93,7 @@ const Page = () => {
               image: "https://www.infinitidigital.us/infinitidigital.png",
               "@id": "",
               url: "https://www.infinitidigital.us/youtube-optimization-service",
-              telephone: "1655-487-632",
+              telephone: "855-666-6682",
               priceRange: "$1250 to $2250",
               address: {
                 "@type": "PostalAddress",

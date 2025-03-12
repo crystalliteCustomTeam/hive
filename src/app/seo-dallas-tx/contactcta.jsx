@@ -12,22 +12,19 @@ const ContactCta = () => {
         <Row className="h-100">
           <Col md={6} className="my-auto">
             <div className={styles.contactBox}>
-              <h2>Don’t Be Shy, Say Hi!</h2>
+              <h2>Don’t be Shy, Say Hi!</h2>
               <p>
-                Jumpto1 Social Media Marketing means more traffic, more calls
-                and more sales! We offer data
+                Get SEO service in Dallas and start dominating search results.
+                Reach out now!
               </p>
               <ContactFrom bg="no" />
             </div>
           </Col>
           <Col md={6} className="my-auto">
             <div className={`${styles.contactBox} ${styles.last}`}>
-              <div className="subtitle">REQUEST A CALL BACK</div>
-              <h3>Rank Your Website At the Top</h3>
-              <p>
-                Jumpto1 Social Media Marketing means more traffic, more calls
-                and more sales!
-              </p>
+              <div className="subtitle">Request A Free Quote</div>
+              <h3>Let’s Rank Your Website #1</h3>
+              <p>Dominate search results with seo in Dallas.</p>
               <CommonBtn txt="Get Your Qoute" LiveChat={true} BgBlack={true} />
               <div className={styles.contactImg}>
                 <Image

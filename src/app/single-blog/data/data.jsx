@@ -3,9 +3,24 @@ import styles from "@/styles/single-blog/banner.module.scss";
 import BannerIMG from "media/blogs/posterImg.webp";
 
 export const BannerData = {
-  title: "How Strong Is Your Website’s SEO? Take the Quiz!",
+  title: (
+    <>
+      Free SEO Score Checker
+      <br />
+      How Strong Is Your Website’s SEO? <br />
+      Take the Quiz!
+    </>
+  ),
   img: BannerIMG.src,
   desc: (
+    <>
+      <p>
+        Google either loves your site or ignores it. Answer these 10 questions
+        to see which one!
+      </p>
+    </>
+  ),
+  desc1: (
     <>
       <p>
         Your website might be your pride and joy, but if it’s buried on page 10
@@ -17,7 +32,7 @@ export const BannerData = {
       <p>
         People are searching for what you offer right now, but instead of
         finding you, they’re clicking on the businesses that actually rank on
-        Page 1. That’s lost traffic, lost leads, and lost money—every single
+        Page 1. That’s lost traffic, lost leads, and lost money, every single
         day. Harsh? Yeah. But the truth hurts.
       </p>
       <p>
@@ -36,21 +51,10 @@ export const BannerData = {
         millions of competitors. If you’re not ranking, you’re handing money to
         them on a silver platter.
       </p>
-      <h2>So, How Strong is Your Website’s SEO? Let’s Find Out.</h2>
+      <h2>SEO Score Meaning</h2>
       <p>
-        Google either loves your site or ignores it. Answer these 10 questions
-        to see which one!
-      </p>
-
-
-
-      
-    </>
-  ),
-  desc1:(<>
-  <h2>SEO Score & What It Means</h2>
-      <p>
-      Your website’s SEO score reflects how well it is optimized for search engines. Here’s what different score ranges indicate:
+        Your website's SEO score reflects how well it is optimized for search
+        engines. Here’s what different score ranges indicate:
       </p>
       <p className={styles.strongPoints}>90-100: Champion!</p>
       <p>
@@ -74,23 +78,29 @@ export const BannerData = {
       </p>
       <h2>Reality Check</h2>
       <p>
-        o, you’ve seen your SEO score… and now what? Are you going to take
-        action, or just pretend it’s not a problem? Let’s be real, every single
-        day you ignore this, your competition is taking what should be yours.
-        They’re ranking higher, getting your traffic, closing your leads, and
-        making the money you’re leaving on the table.
+        So, you’ve seen your SEO score… and now what? Are you still wondering
+        what is a good seo score? Or are you going to take action, or just
+        pretend it’s not a problem? Let’s be real, every single day you ignore
+        this, your competition is taking what should be yours. They’re ranking
+        higher, getting your traffic, closing your leads, and making the money
+        you’re leaving on the table.
       </p>
       <p>
-        Google doesn’t care how great your business is. If your site isn’t
-        optimized, you’re invisible. And if{" "}
-        <a href="#">you’re invisible, you’re losing.</a>
+      Google doesn’t care how great your business is. If your site isn’t optimized, you’re invisible. And if you’re invisible,<strong> you’re losing.</strong>
       </p>
       <p>
-        We just sent your SEO score to your email. But this isn’t just about
-        numbers, it’s about your business growth. What’s holding you back?
-        What’s your next move? Let’s talk. Reply to our email and tell us what’s
-        on your mind. We’re here to help you fix what’s broken—before it’s too
-        late.
+      We just sent your SEO score to your email. But this isn’t just about numbers, it’s about your business growth. What’s holding you back? What’s your next move? Let’s talk. 
       </p>
-      </>)
+      <p>Reply to our email and tell us what’s on your mind. We’re here to help you fix what’s broken, before it’s too late.</p>
+    </>
+  ),
 };
+
+
+// Call to Action
+
+export const CallActionData = {
+  subtitle: "Contact Us",
+  title: "Let’s Turn Your Vision into Reality ",
+  desc: "Ready to take the next step toward digital growth? Whether you have questions or a project idea, we’re here to help you succeed. Let’s collaborate to create something extraordinary for your business."
+}

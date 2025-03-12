@@ -33,7 +33,7 @@ const page = () => {
       <ServicesLp data={ServicesData} />
       <ProcessLP data={processlp} roundwhite={true} />
       <Work data={WorkData} category="SEO" />
-      <Pricing data={PriceData} SMMLP={true} tab={true} location={true} />
+      <Pricing data={PriceData} SMMLP={true}  location={true} />
       <WhyChoose data={ChooseUsData} />
       <ContactCta />
       <Industries
