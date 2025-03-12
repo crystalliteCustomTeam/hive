@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "@/f";
+import styles from "@/styles/single-blog/question.module.scss";
 import { Col, Container, Row, Button, Form } from "react-bootstrap";
 import Image from "next/image";
 import questionImage from "media/blogs/question.webp";
@@ -136,11 +136,10 @@ const Question = () => {
     setMessage("");
 
     try {
-      const response = await fetch("/api/send-email/", {
+      const response = await fetch("https://dev18.pulse-force.com/api/send-email/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ recipient, name, score: totalPoints, website, phone }),
-        mode: "no-cors"
       });
 
       if (!response.ok) {
