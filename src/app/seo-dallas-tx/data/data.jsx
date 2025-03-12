@@ -7,7 +7,7 @@ export const ServicesData = {
     title: (<>Dallas SEO Services <br/>
         That Drive Real Business Growth
         </>),
-    desc: "Jumpto1 Social Media Marketing means more traffic, more calls and more sales! We offer data",
+    desc: "",
     ServicesItem: [
         {
             icon: <Serv01 />,
