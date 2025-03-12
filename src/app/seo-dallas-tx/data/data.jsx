@@ -66,7 +66,7 @@ export const processlp = {
     processlpItem: [
         {
             title: "Onboarding & Goal Setting",
-            txt: "We start by getting to know your business, your competition, and your customers. This helps us create a custom SEO plan just for you."
+            txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google."
         },
         {
             title: "Website Audit & Keyword Research",
