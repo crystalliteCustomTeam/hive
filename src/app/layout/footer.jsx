@@ -33,7 +33,7 @@ const QuickLinks = [
     },
     {
         name: "Contact Us",
-        url: "/contact"
+        url: "/contact-us"
     }, {
         name: "Refund Policy",
         url: "/refund-policy"
