@@ -91,7 +91,7 @@ export const BannerData = {
       <p>
       We just sent your SEO score to your email. But this isn’t just about numbers, it’s about your business growth. What’s holding you back? What’s your next move? Let’s talk. 
       </p>
-      <p>Reply to our email and tell us what’s on your mind. We’re here to help you fix what’s broken, before it’s too late.</p>
+      <p><i>Reply to our email and tell us what’s on your mind. We’re here to help you fix what’s broken, before it’s too late.</i></p>
     </>
   ),
 };
