@@ -66,7 +66,7 @@ export default function Home() {
               "logo": "https://www.infinitidigital.us/infinitidigital.png",
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+1-655-487-632",
+                "telephone": "855-666-6682",
                 "contactType": "sales",
                 "contactOption": "TollFree",
                 "areaServed": "US",
@@ -88,7 +88,7 @@ export default function Home() {
               "image": "https://www.infinitidigital.us/infinitidigital.png",
               "@id": "",
               "url": "https://www.infinitidigital.us/",
-              "telephone": "+1-655-487-632",
+              "telephone": "855-666-6682",
               "priceRange": "399 to 699",
               "address": {
                 "@type": "PostalAddress",
