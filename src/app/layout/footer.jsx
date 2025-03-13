@@ -101,8 +101,8 @@ const Footer = () => {
                                         </div>
                                         <div className={styles.contactAddress}>
                                             <div>
-                                                <a href="https://maps.app.goo.gl/ZZ3BLKPRJKwJeyZy6" target="_blank" aria-label={`Our Google Map`}>
-                                                    <span>Address:</span> 9402 Synott Rd Apt 114, Houston, TX 77083
+                                                <a href="https://maps.app.goo.gl/5AjacC98s96BCjzd8" target="_blank" aria-label={`Our Google Map`}>
+                                                    <span>Address:</span> 9518 Mykawa Road Houston, TX 77048
                                                 </a>
                                             </div>
                                         </div>

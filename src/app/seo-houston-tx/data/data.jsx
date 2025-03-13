@@ -2,28 +2,26 @@ export const BannerData = {
   subtitle: "More Clicks, Calls, and Customers.",
   title: (
     <>
-      Dallas SEO Service
+      Houston SEO Service,
       <br />
-      That Helps You
-      <br />
-      Rank Higher and Make $$$
+      Works Like a Spell.
     </>
   ),
-  desc: "We help businesses rank on Page 1, on Google search results. Our SEO service in Dallas improves rankings, drives traffic, and increases conversions. Let’s grow your business together.",
+  desc: " Drive more leads and maximize your ROI with the best SEO service in Houston.",
   btntxt: "Connect with us",
 };
+
 export const CallbackData = {
   subtitle1: "Request A Free Quote",
   title1: (
     <>
-      Google Ain’t Santa
-      <br />
-      It Won’t Just Gift You Traffic.
+      Struggling to get leads? <br />
+      Let’s fix that
     </>
   ),
-  txt1: "Your competitors love that you haven’t hired an SEO company in Dallas…Yet.",
-  subtitle2: "What’s Your Business Goal?",
-  title2: "Let’s Rank for It.",
+  txt1: "Our Houston SEO company drives higher rankings, more leads, and real growth for your business.",
+  subtitle2: " We are the Top rated",
+  title2: "SEO Agency in Houston",
 };
 //Services
 import {
@@ -40,85 +38,80 @@ import {
 
 export const ServicesData = {
   subtitle: "",
-  title: (
-    <>
-      Dallas SEO Services <br />
-      That Drive Real Business Growth
-    </>
-  ),
-  desc: "",
+  title: <>Houston SEO Services</>,
+  desc: "Dominate search results with our seo experts in Houston.",
   ServicesItem: [
     {
       icon: <Serv01 />,
       title: "Keyword Research & Strategy",
-      txt: "We find the best keywords that will bring real customers to your site, not just random clicks. Our strategy helps you rank for the most important terms and drive the right traffic.",
+      txt: "Our Houston SEO experts conduct in-depth keyword research and create a strategy to help you rank for the most valuable search terms and attract real customers.",
     },
     {
       icon: <Serv02 />,
       title: "Link Building",
-      txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google.",
+      txt: "As a leading SEO company in Houston, we build high-quality backlinks. Through link building, our team increases your website’s authority and search rankings.",
     },
     {
       icon: <Serv03 />,
       title: "Technical SEO ",
-      txt: "Website speed, mobile friendliness, and proper indexing are essential for top performance. We fix any technical issues that slow down your site and ensure it runs smoothly.",
+      txt: "Our SEO service in Houston focuses on technical SEO, ensuring your website is fast, mobile-friendly, and properly indexed for maximum performance.",
     },
     {
       icon: <Serv04 />,
       title: "Local SEO",
-      txt: "Be seen by customers in your area through local search results and Google Maps. Our local SEO helps you stand out so nearby customers can easily find and contact you.",
+      txt: "With expert local SEO strategies, our Houston SEO company helps your business appear in local searches and Google Maps, making it easy for customers to find you.",
     },
     {
       icon: <Serv05 />,
       title: "On-Page SEO",
-      txt: "We optimize your website’s content, headings, and meta tags to make it easier for search engines to understand and rank your site. This improves both rankings and user experience.",
+      txt: "We specialize in on-page SEO, optimizing content, headings, and meta tags to improve rankings and user experience for businesses seeking SEO service in Houston.",
     },
     {
       icon: <Serv06 />,
       title: "Entity SEO",
-      txt: "We strengthen your site’s authority by making sure it's seen as an expert in your field, using structured data and topic relevance to help you rank for a wider range of searches.",
+      txt: "Our Houston SEO experts implement entity SEO to establish your website as an industry authority and improve topic relevance in search results.",
     },
     {
       icon: <Serv07 />,
       title: "Search Generative Experience",
-      txt: "Google’s AI search updates can affect your rankings. We keep up with the changes and adjust your site so it stays visible and competitive in search results.",
+      txt: "With Google’s AI-driven updates, our SEO service in Houston keeps your website optimized for search generative experience, ensuring continued visibility.",
     },
     {
       icon: <Serv07 />,
       title: "E-commerce SEO",
-      txt: "We optimize your product pages and categories to help boost online sales and drive conversions through organic search results.",
+      txt: "Our Houston SEO company enhances e-commerce SEO, optimizing product pages and categories to boost organic traffic and increase conversions.",
     },
     {
       icon: <Serv09 />,
       title: "Organic Shopping",
-      txt: "We improve your visibility in Google Shopping without relying on expensive ads. Our strategies help you get more organic traffic and sales.",
+      txt: "By focusing on organic shopping, our SEO Houston team improves your visibility in Google Shopping without relying on costly ads.",
     },
   ],
 };
 
 export const processlp = {
-  title: "Dallas SEO Agency's Ranking Process",
-  txt: "We follow a five steps SEO process to get your business to the top of search results in Dallas.",
+  title: "Houston SEO Company’s Ranking Process",
+  txt: "We follow a simple process to rank your website on the top of Google search results in Houston.",
   processlpItem: [
     {
       title: "Onboarding & Goal Setting",
-      txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google.",
+      txt: "We begin by understanding the dynamics of your business and industry in Houston. With our in-depth knowledge of the local market, we set KPIs and draft an SEO strategy that attracts the right customers.",
     },
     {
       title: "Website Audit & Keyword Research",
-      txt: "We analyze your website’s performance, identify technical issues, and research high-impact keywords that drive local traffic.",
+      txt: "Our SEO team performs a detailed SEO audit to identify technical issues and researches high-impact local keywords that attract customers searching for your services or products in Houston.",
     },
     {
       title: "On-Page & Technical Optimization",
-      txt: "We optimize site structure, content, metadata, and speed while fixing technical issues to improve search engine visibility.",
+      txt: "We optimize your website structure, content, meta tags, and loading speed while fixing technical issues, ensuring your business ranks higher in local Houston searches.",
     },
     {
       title: "Content & Link Building Strategy",
-      txt: "We create high-quality, engaging content and build authoritative backlinks to boost rankings and establish your brand’s credibility.",
+      txt: "Our content writers create engaging, locally relevant content and SEO experts secure authoritative backlinks to boost your rankings and position your business as a trusted name in Houston.",
     },
     {
       title: "Tracking, Reporting & Continuous Growth",
-      txt: "We monitor your rankings, analyze performance data, and refine our strategy to keep your business ahead of the competition.",
+      txt: "We monitor your SEO performance, track keyword rankings, and refine strategies to ensure your business stays ahead of local competitors in Houston.",
     },
   ],
 };
@@ -126,8 +119,8 @@ export const processlp = {
 // Pricing
 export const PriceData = {
   subtitle: "",
-  title: "SEO Packages to Dominate Search Results in Dallas, TX",
-  desc: "We ensure you get the most out of every dollar; premium strategies, expert execution, and real business growth.",
+  title: "Houston SEO Packages",
+  desc: "Boost Rankings, Beat Competitors, Bank More Sales!",
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -312,48 +305,47 @@ export const PriceData = {
 // Why Choose Us
 export const ChooseUsData = {
   subtitle: "",
-  title: "Why We're the Right Dallas SEO Company for You",
-  desc: "Businesses don’t gamble with SEO in Dallas, they hire us!",
+  title: "Why We’re Your Houston SEO Dream Team",
+  desc: "We’ve earned Houston’s trust, and Google’s top spots!",
   Content1: [
     {
-      title: "More Customers",
-      txt: "Our SEO service in Dallas ensures your business appears in front of potential customers actively searching for your products or services, driving high quality traffic to your site.",
+      title: "We Know Houston Inside Out",
+      txt: "We know the market and local search trends in Houston inside out. Our SEO strategies help your business reach the right customers, whether you’re focusing on a specific neighborhood or the entire city. We make sure your website stands out.",
     },
     {
-      title: "Better ROI",
-      txt: "We focus on cost-effective strategies that maximize your marketing budget, delivering higher conversions and more revenue without unnecessary ad spend.",
+      title: "Custom Strategies",
+      txt: "No two businesses are the same, and neither should their SEO strategies be. We take a tailored approach, analyzing your industry, goals, and competition to create a custom SEO plan designed for maximum impact and long-term success.",
     },
   ],
   Content2: [
     {
-      title: "Local Focus",
-      txt: "As an SEO company in Dallas, we understand the local market, competition, and search trends, helping your business stand out in the area. ",
+      title: "Proven Results",
+      txt: "We don’t just promise rankings; we deliver measurable business growth. Our strategies focus on increasing website traffic, generating high-quality leads, and boosting conversions to drive real revenue for your business based in Houston.",
     },
   ],
   Content3: [
     {
-      title: "Transparent Reporting",
-      txt: "We provide easy-to-understand reports with key metrics, so you always know how your SEO is performing and where your investment is going.",
+      title: "Full Transparency",
+      txt: "SEO shouldn’t be a mystery. We provide clear, detailed reports and open communication, so you always know what’s happening behind the scenes. No vague updates, just real insights into your SEO progress.",
     },
     {
-      title: "Sustainable Growth",
-      txt: "Our strategies focus on sustainable rankings and continuous optimization, ensuring your business maintains its position and stays ahead in search results.",
+      title: "Long-Term Success, Not Just Quick Wins",
+      txt: "We focus on sustainable strategies that keep your business ranking high, not just for today but for the future. By staying ahead of search engine updates and market changes, we ensure your business remains competitive in Houston.",
     },
   ],
 };
+
 export const ContactData = {
   title: "Don’t be Shy, Say Hi!",
-  txt: "Get SEO service in Dallas and start dominating search results. Reach out now!",
+  txt: "Get SEO service in Houston and start dominating search results. Reach out now!",
   subtitle: "Request A Free Quote",
   title1: "Let’s Rank Your Website #1",
-  txt1: "Dominate search results with seo in Dallas.",
+  txt1: "Dominate search results with seo in Houston.",
 };
-
-
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {
   title: "Transparent SEO Reporting for Clients",
-  txt: "Our SEO reporting method depends on your service package with us, so you get the right level of insights for your business. Basic plans include Monthly Progress Reports with key stats like rankings, traffic, and engagement. Higher-tier plans come with Monthly Reports plus Expert Recommendations to help you improve results. Premium packages include a Business Intelligence Dashboard, giving you access to real-time SEO data. No matter your plan, our SEO Dallas company keeps you updated with clear, easy-to-understand reports to track your growth.",
+  txt: "Our SEO reporting is tailored to your service package, ensuring you get the right insights for your business based in Houston. Basic plans include Monthly Progress Reports with key stats like rankings, traffic, and engagement. Higher-tier plans come with Monthly Reports plus Expert Recommendations to boost results. Premium packages include a Business Intelligence Dashboard, giving you real-time SEO data at your fingertips. No matter your plan, our Houston SEO company keeps you informed with clear, easy-to-understand reports to track your growth.",
   img: IMG.src,
   ReportItem: [
     {
@@ -376,10 +368,9 @@ export const ReportData = {
       title: "Conversion and ROI Report ",
       txt: "We connect SEO efforts to real results by tracking sales, leads, and sign-ups. Our reports focus on ROI, ensuring your SEO strategy drives measurable business growth.",
     },
-  ]
+  ],
 };
 
 export const CtaData={
   title:"From search to sale, we never fail!"
 }
-

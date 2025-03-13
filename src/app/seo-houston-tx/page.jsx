@@ -16,7 +16,7 @@ import {
   CallbackData,
   ReportData,
   CtaData
-} from "@/src/app/seo-dallas-tx/data/data";
+} from "@/src/app/seo-houston-tx/data/data";
 import Industries from "@/src/app/home/Industries";
 import ReportSec from "@/src/app/seo-dallas-tx/report";
 import Faqs from "@/src/app/home/faq";
@@ -33,8 +33,8 @@ import {
 const page = () => {
   return (
     <>
-       <Banner  data={BannerData}/>
-       <CallBack data={CallbackData}/>
+      <Banner  data={BannerData}/>
+      <CallBack data={CallbackData}/>
       <ServicesLp data={ServicesData} />
       <ProcessLP data={processlp} roundwhite={true} />
       <Work data={WorkData} category="SEO" />
@@ -49,7 +49,7 @@ const page = () => {
       <ReportSec data={ReportData}/>
       <Testimonials data={TestimonialData} />
       <Contactfromlp location={true} data={CtaData}/>
-    
+      
     </>
   );
 };

@@ -2,28 +2,22 @@ export const BannerData = {
   subtitle: "More Clicks, Calls, and Customers.",
   title: (
     <>
-      Dallas SEO Service
+      Not #1 In Search?
       <br />
-      That Helps You
-      <br />
-      Rank Higher and Make $$$
+      NYC SEO Service <br />
+      Gets You There.
     </>
   ),
-  desc: "We help businesses rank on Page 1, on Google search results. Our SEO service in Dallas improves rankings, drives traffic, and increases conversions. Let’s grow your business together.",
+  desc: "If you are lost in search results, our NYC SEO company will put your website front and center and get you more traffic, leads, and sales.",
   btntxt: "Connect with us",
 };
+
 export const CallbackData = {
   subtitle1: "Request A Free Quote",
-  title1: (
-    <>
-      Google Ain’t Santa
-      <br />
-      It Won’t Just Gift You Traffic.
-    </>
-  ),
-  txt1: "Your competitors love that you haven’t hired an SEO company in Dallas…Yet.",
-  subtitle2: "What’s Your Business Goal?",
-  title2: "Let’s Rank for It.",
+  title1: <>Want Better Rankings?</>,
+  txt1: "Get better rankings & more traffic with expert SEO in NYC!",
+  subtitle2: "Your growth starts with",
+  title2: "SEO in NYC, NY.",
 };
 //Services
 import {
@@ -40,85 +34,80 @@ import {
 
 export const ServicesData = {
   subtitle: "",
-  title: (
-    <>
-      Dallas SEO Services <br />
-      That Drive Real Business Growth
-    </>
-  ),
-  desc: "",
+  title: <>NYC Organic SEO Services</>,
+  desc: "Drive more organic traffic to your website with our seo services in NYC.",
   ServicesItem: [
     {
       icon: <Serv01 />,
       title: "Keyword Research & Strategy",
-      txt: "We find the best keywords that will bring real customers to your site, not just random clicks. Our strategy helps you rank for the most important terms and drive the right traffic.",
+      txt: "Our NYC SEO experts analyze search trends and target high-value keywords to drive qualified organic traffic and attract a maximum number of potential clients.",
     },
     {
       icon: <Serv02 />,
       title: "Link Building",
-      txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google.",
+      txt: "As a top SEO company in NYC, we build authoritative, high-quality backlinks that strengthen your website’s credibility and push your website higher in search rankings.",
     },
     {
       icon: <Serv03 />,
       title: "Technical SEO ",
-      txt: "Website speed, mobile friendliness, and proper indexing are essential for top performance. We fix any technical issues that slow down your site and ensure it runs smoothly.",
+      txt: "We ensure your website is fast, mobile-friendly, and properly optimized for search engines, so you rank higher and perform at peak efficiency.",
     },
     {
       icon: <Serv04 />,
       title: "Local SEO",
-      txt: "Be seen by customers in your area through local search results and Google Maps. Our local SEO helps you stand out so nearby customers can easily find and contact you.",
+      txt: "Our  local SEO strategies get your business ranking in Google Maps and local search, putting you in front of nearby customers.",
     },
     {
       icon: <Serv05 />,
       title: "On-Page SEO",
-      txt: "We optimize your website’s content, headings, and meta tags to make it easier for search engines to understand and rank your site. This improves both rankings and user experience.",
+      txt: "We optimize your content, headings, and meta tags to improve rankings, enhance user experience, and increase visibility for businesses looking for SEO in NYC.",
     },
     {
       icon: <Serv06 />,
       title: "Entity SEO",
-      txt: "We strengthen your site’s authority by making sure it's seen as an expert in your field, using structured data and topic relevance to help you rank for a wider range of searches.",
+      txt: "We implement entity-based optimization to position your business as a trusted industry authority in Google’s eyes.",
     },
     {
       icon: <Serv07 />,
       title: "Search Generative Experience",
-      txt: "Google’s AI search updates can affect your rankings. We keep up with the changes and adjust your site so it stays visible and competitive in search results.",
+      txt: "With Google’s AI-driven search evolution, we keep your website ahead of the curve, optimizing for the latest search generative experience updates.",
     },
     {
       icon: <Serv07 />,
       title: "E-commerce SEO",
-      txt: "We optimize your product pages and categories to help boost online sales and drive conversions through organic search results.",
+      txt: "Our NYC ecommerce SEO service helps online stores increase organic traffic, optimize product pages, and convert more website visitors into buyers.",
     },
     {
       icon: <Serv09 />,
-      title: "Organic Shopping",
-      txt: "We improve your visibility in Google Shopping without relying on expensive ads. Our strategies help you get more organic traffic and sales.",
+      title: "Organic Shopping Optimization",
+      txt: "Get found in Google Shopping without paid ads, we optimize your product listings for better rankings and more clicks.",
     },
   ],
 };
 
 export const processlp = {
-  title: "Dallas SEO Agency's Ranking Process",
-  txt: "We follow a five steps SEO process to get your business to the top of search results in Dallas.",
+  title: "NYC SEO Agency in Action",
+  txt: "he Process Behind Page-One Rankings.",
   processlpItem: [
     {
       title: "Onboarding & Goal Setting",
-      txt: "Getting good backlinks is key to improving your website’s authority and ranking. We get trusted links from respected websites, boosting your online visibility and credibility with Google.",
+      txt: "We kick off by diving deep into your business, industry, and competition. With a solid grasp of the local market, we define clear KPIs and build a results-driven SEO strategy to bring in high-value customers.",
     },
     {
-      title: "Website Audit & Keyword Research",
-      txt: "We analyze your website’s performance, identify technical issues, and research high-impact keywords that drive local traffic.",
+      title: "SEO Audit & Keyword Strategy",
+      txt: "Our experts run a comprehensive website audit, identifying technical roadblocks and uncovering powerful NYC-focused keywords that drive relevant traffic to your business.",
     },
     {
-      title: "On-Page & Technical Optimization",
-      txt: "We optimize site structure, content, metadata, and speed while fixing technical issues to improve search engine visibility.",
+      title: "Website Optimization",
+      txt: "We enhance your website structure, content, and meta tags, improve site speed, and fix technical issues to rank your website higher in search results and deliver an impeccable user experience.",
     },
     {
       title: "Content & Link Building Strategy",
-      txt: "We create high-quality, engaging content and build authoritative backlinks to boost rankings and establish your brand’s credibility.",
+      txt: "Our expert writers create locally relevant, high-quality content, while our SEO team secures authoritative backlinks to strengthen your online presence and position your business as a trusted name in New York City.",
     },
     {
       title: "Tracking, Reporting & Continuous Growth",
-      txt: "We monitor your rankings, analyze performance data, and refine our strategy to keep your business ahead of the competition.",
+      txt: "SEO isn’t a one-time fix. We continuously monitor rankings, traffic, and conversions, making data-driven adjustments to keep your business on top in NYC.",
     },
   ],
 };
@@ -126,8 +115,8 @@ export const processlp = {
 // Pricing
 export const PriceData = {
   subtitle: "",
-  title: "SEO Packages to Dominate Search Results in Dallas, TX",
-  desc: "We ensure you get the most out of every dollar; premium strategies, expert execution, and real business growth.",
+  title: "NYC SEO Packages",
+  desc: "Power up your ranking and dominate local search in New York City, New York. ",
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -312,48 +301,47 @@ export const PriceData = {
 // Why Choose Us
 export const ChooseUsData = {
   subtitle: "",
-  title: "Why We're the Right Dallas SEO Company for You",
-  desc: "Businesses don’t gamble with SEO in Dallas, they hire us!",
+  title: "Why We’re the Best SEO Agency in NYC for Your Business",
+  desc: "Proven results, satisfied clients, and a reputation built on success.",
   Content1: [
     {
-      title: "More Customers",
-      txt: "Our SEO service in Dallas ensures your business appears in front of potential customers actively searching for your products or services, driving high quality traffic to your site.",
+      title: "NYC Market Expertise",
+      txt: "The NYC business scene is fast-paced and highly competitive. We know what it takes to make businesses stand out in search results. From understanding search intent to optimizing for Google Maps and hyperlocal keywords, we ensure your brand reaches the right audience at the right time.",
     },
     {
-      title: "Better ROI",
-      txt: "We focus on cost-effective strategies that maximize your marketing budget, delivering higher conversions and more revenue without unnecessary ad spend.",
+      title: "Proven Track Record",
+      txt: "We’ve helped businesses across NYC achieve higher rankings, increased organic traffic, and more conversions. Whether you’re a startup or an established company, our data-driven strategies are designed to deliver measurable results, not just vanity metrics.",
     },
   ],
   Content2: [
     {
-      title: "Local Focus",
-      txt: "As an SEO company in Dallas, we understand the local market, competition, and search trends, helping your business stand out in the area. ",
+      title: "Customized SEO Strategies",
+      txt: "Every business is unique, and so is our approach to SEO. We dive deep into your industry, analyze competitors, and understand your target audience. Whether you need local SEO, eCommerce optimization, or enterprise-level solutions, we develop data-driven strategies that deliver measurable growth.",
     },
   ],
   Content3: [
     {
-      title: "Transparent Reporting",
-      txt: "We provide easy-to-understand reports with key metrics, so you always know how your SEO is performing and where your investment is going.",
+      title: "Full Transparency & Reporting",
+      txt: "We believe in 100% transparency; no hidden fees, no vague reports. You’ll receive regular updates and detailed analytics showing exactly how your SEO is performing. From keyword rankings to organic traffic growth, we keep you fully informed every step of the way.",
     },
     {
-      title: "Sustainable Growth",
-      txt: "Our strategies focus on sustainable rankings and continuous optimization, ensuring your business maintains its position and stays ahead in search results.",
+      title: "ROI-Focused SEO",
+      txt: "Getting traffic is great, but what really matters is the conversion rate. Our SEO strategies are designed to ensure you get the best return on investment. We focus on high-intent keywords, conversion optimization, and user experience to drive sustainable business growth.",
     },
   ],
 };
+
 export const ContactData = {
   title: "Don’t be Shy, Say Hi!",
-  txt: "Get SEO service in Dallas and start dominating search results. Reach out now!",
+  txt: "Get SEO service in New York City and start dominating search results. Reach out now!",
   subtitle: "Request A Free Quote",
-  title1: "Let’s Rank Your Website #1",
-  txt1: "Dominate search results with seo in Dallas.",
+  title1: "NYC SEO Experts",
+  txt1: "Brings you more customers, not just rankings.",
 };
-
-
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {
   title: "Transparent SEO Reporting for Clients",
-  txt: "Our SEO reporting method depends on your service package with us, so you get the right level of insights for your business. Basic plans include Monthly Progress Reports with key stats like rankings, traffic, and engagement. Higher-tier plans come with Monthly Reports plus Expert Recommendations to help you improve results. Premium packages include a Business Intelligence Dashboard, giving you access to real-time SEO data. No matter your plan, our SEO Dallas company keeps you updated with clear, easy-to-understand reports to track your growth.",
+  txt: "Stay on top of your SEO performance with clear, actionable insights. Our NYC SEO company provides monthly reports with key metrics like rankings, traffic, and engagement. Advanced plans include expert recommendations for continuous improvement, while premium packages give you real-time access to a Business Intelligence Dashboard. ",
   img: IMG.src,
   ReportItem: [
     {
@@ -376,10 +364,9 @@ export const ReportData = {
       title: "Conversion and ROI Report ",
       txt: "We connect SEO efforts to real results by tracking sales, leads, and sign-ups. Our reports focus on ROI, ensuring your SEO strategy drives measurable business growth.",
     },
-  ]
+  ],
 };
 
-export const CtaData={
-  title:"From search to sale, we never fail!"
-}
-
+export const CtaData = {
+  title: "From search to sale, we never fail!",
+};

@@ -63,16 +63,16 @@ const Page = () => {
               "priceRange": "$350 to $750",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "9402 Synott Rd Apt 114",
+                "streetAddress": "9518 Mykawa Road",
                 "addressLocality": "Houston",
                 "addressRegion": "TX",
-                "postalCode": "77083",
+                "postalCode": "77048",
                 "addressCountry": "US"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 29.677372631618237,
-                "longitude": -95.6151225190571
+                "latitude": 29.642761,
+                "longitude": -95.311412
               },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",
