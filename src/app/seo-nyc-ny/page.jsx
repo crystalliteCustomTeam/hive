@@ -100,11 +100,11 @@ const page = () => {
             {
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: "Make More $$ With Dallas SEO Service - SEO in Dallas",
+              name: "Hire NYC SEO Cuz Its Time To Make A Move To The Top!",
               image: "https://www.infinitidigital.us/infinitidigital.png",
-              url: "https://www.infinitidigital.us/seo-dallas-tx",
+              url: "https://www.infinitidigital.us/seo-nyc-ny",
               description:
-                "We are the ONLY SEO company in Dallas who knows how to crush and push down your competitors (NO CAP). Hire us to see your revenue chart going up finally.",
+                "Our New York City SEO company will outrank your competitors, giving you the edge to dominate. Hire us and put an end to your low-revenue struggles.",
               brand: {
                 "@type": "Brand",
                 name: "Infiniti Digital",
