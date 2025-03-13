@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "seo-houston-tx",
-    description: "",
+    title: "Secure Your Spot In The Top 3 Results With Houston SEO",
+    description: "Houston SEO company that ranks your brand in the top positions on google search in 3 simple steps; Click here, talk to us and get rich.  ",
     //===== OG Tags =====
     openGraph: {
-        title: "seo-houston-tx",
-        description: "",
+        title: "Secure Your Spot In The Top 3 Results With Houston SEO",
+        description: "Houston SEO company that ranks your brand in the top positions on google search in 3 simple steps; Click here, talk to us and get rich.  ",
         url: '/seo-houston-tx',
         siteName: "Inifniti Digital",
         locale: 'en_US',
@@ -16,12 +16,6 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/seo-houston-tx' },
-
-      //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
 }
 
 

@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "seo-dallas-tx",
-    description: "",
+    title: "Make More $$ With Dallas SEO Service - SEO in Dallas",
+    description: "We are the ONLY SEO company in Dallas who knows how to crush and push down your competitors (NO CAP). Hire us to see your revenue chart going up finally.",
     //===== OG Tags =====
     openGraph: {
-        title: "seo-dallas-tx",
-        description: "",
+        title: "Make More $$ With Dallas SEO Service - SEO in Dallas",
+        description: "We are the ONLY SEO company in Dallas who knows how to crush and push down your competitors (NO CAP). Hire us to see your revenue chart going up finally.",
         url: '/seo-dallas-tx',
         siteName: "Inifniti Digital",
         locale: 'en_US',
@@ -17,11 +17,6 @@ export const metadata = {
     //===== Canonical =====
     alternates: { canonical: '/seo-dallas-tx' },
 
-      //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
 }
 
 
