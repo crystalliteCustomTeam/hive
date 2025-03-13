@@ -15,7 +15,7 @@ import {
   BannerData,
   CallbackData,
   ReportData,
-  CtaData
+  CtaData,
 } from "@/src/app/seo-nyc-ny/data/data";
 import Industries from "@/src/app/home/Industries";
 import ReportSec from "@/src/app/seo-dallas-tx/report";
@@ -27,69 +27,95 @@ import {
   IndustriesData,
   WorkData,
   IndustryItem,
-  TestimonialData
+  TestimonialData,
 } from "@/src/app/home/data/data";
 
 const page = () => {
   return (
     <>
-      <Banner  data={BannerData}/>
-      <CallBack data={CallbackData}/>
+      <Banner data={BannerData} />
+      <CallBack data={CallbackData} />
       <ServicesLp data={ServicesData} />
       <ProcessLP data={processlp} roundwhite={true} />
       <Work data={WorkData} category="SEO" />
-      <Pricing data={PriceData} SMMLP={true}  location={true} />
+      <Pricing data={PriceData} SMMLP={true} location={true} />
       <WhyChoose data={ChooseUsData} />
-      <ContactCta  data={ContactData}/>
+      <ContactCta data={ContactData} />
       <Industries
         data={IndustriesData}
         IndustryData={IndustryItem}
         location={true}
       />
-      <ReportSec data={ReportData}/>
+      <ReportSec data={ReportData} />
       <Testimonials data={TestimonialData} />
-      <Contactfromlp location={true} data={CtaData}/>
+      <Contactfromlp location={true} data={CtaData} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "New York City SEO",
-            "image": "https://www.infinitidigital.us/infinitidigital.png",
-            "@id": "",
-            "url": "https://www.infinitidigital.us/seo-nyc-ny",
-            "telephone": "855-666-6682",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "New York City",
-              "addressLocality": "New York City",
-              "addressRegion": "NY",
-              "postalCode": "07008",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 40.712728,
-              "longitude": -74.006015
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": [
-                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              name: "New York City SEO",
+              image: "https://www.infinitidigital.us/infinitidigital.png",
+              "@id": "",
+              url: "https://www.infinitidigital.us/seo-nyc-ny",
+              telephone: "855-666-6682",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "New York City",
+                addressLocality: "New York City",
+                addressRegion: "NY",
+                postalCode: "07008",
+                addressCountry: "US",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 40.712728,
+                longitude: -74.006015,
+              },
+              openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "00:00",
+                closes: "23:59",
+              },
+              sameAs: [
+                "https://www.facebook.com/infinitidigitalus/",
+                "https://www.instagram.com/infinitidigitalus/",
+                "https://x.com/Infinitidigitl",
+                "https://www.pinterest.com/infinitidigitalus/",
+                "https://www.youtube.com/@InfinitiDigitalus",
+                "https://www.linkedin.com/company/infiniti-digitalus",
               ],
-              "opens": "00:00",
-              "closes": "23:59"
             },
-            "sameAs": [
-              "https://www.facebook.com/infinitidigitalus/",
-              "https://www.instagram.com/infinitidigitalus/",
-              "https://x.com/Infinitidigitl",
-              "https://www.pinterest.com/infinitidigitalus/",
-              "https://www.youtube.com/@InfinitiDigitalus",
-              "https://www.linkedin.com/company/infiniti-digitalus"
-            ]
-          })
+            {
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              name: "Make More $$ With Dallas SEO Service - SEO in Dallas",
+              image: "https://www.infinitidigital.us/infinitidigital.png",
+              url: "https://www.infinitidigital.us/seo-dallas-tx",
+              description:
+                "We are the ONLY SEO company in Dallas who knows how to crush and push down your competitors (NO CAP). Hire us to see your revenue chart going up finally.",
+              brand: {
+                "@type": "Brand",
+                name: "Infiniti Digital",
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.9",
+                ratingCount: "1826",
+              },
+            },
+          ]),
         }}
       />
     </>

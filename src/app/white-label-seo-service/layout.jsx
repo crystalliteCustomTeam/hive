@@ -16,6 +16,12 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/white-label-seo-service' },
+  other: {
+    "DC.title": "white label seo service",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882"
+}
 }
 
 

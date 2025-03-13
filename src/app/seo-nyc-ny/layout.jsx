@@ -17,6 +17,15 @@ export const metadata = {
     //===== Canonical =====
     alternates: { canonical: '/seo-nyc-ny' },
 
+    other: {
+        "DC.title": "NYC SEO - SEO NYC",
+        "geo.region": "US-NY",
+        "geo.placename": "New York",
+        "geo.position": "40.712728;-74.006015",
+        "ICBM": "40.712728, -74.006015"
+    }
+    
+
 }
 
 
