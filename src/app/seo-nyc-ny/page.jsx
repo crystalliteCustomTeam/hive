@@ -49,7 +49,49 @@ const page = () => {
       <ReportSec data={ReportData}/>
       <Testimonials data={TestimonialData} />
       <Contactfromlp location={true} data={CtaData}/>
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "name": "New York City SEO",
+            "image": "https://www.infinitidigital.us/infinitidigital.png",
+            "@id": "",
+            "url": "https://www.infinitidigital.us/seo-nyc-ny",
+            "telephone": "855-666-6682",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "New York City",
+              "addressLocality": "New York City",
+              "addressRegion": "NY",
+              "postalCode": "07008",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.712728,
+              "longitude": -74.006015
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/infinitidigitalus/",
+              "https://www.instagram.com/infinitidigitalus/",
+              "https://x.com/Infinitidigitl",
+              "https://www.pinterest.com/infinitidigitalus/",
+              "https://www.youtube.com/@InfinitiDigitalus",
+              "https://www.linkedin.com/company/infiniti-digitalus"
+            ]
+          })
+        }}
+      />
     </>
   );
 };

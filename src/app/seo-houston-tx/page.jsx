@@ -49,7 +49,49 @@ const page = () => {
       <ReportSec data={ReportData}/>
       <Testimonials data={TestimonialData} />
       <Contactfromlp location={true} data={CtaData}/>
-      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "name": "Houston SEO",
+            "image": "https://www.infinitidigital.us/infinitidigital.png",
+            "@id": "",
+            "url": "https://www.infinitidigital.us/seo-houston-tx",
+            "telephone": "855-666-6682",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "9518 Mykawa Road",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "postalCode": "77048",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 29.642761,
+              "longitude": -95.311412
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "sameAs": [
+              "https://www.facebook.com/infinitidigitalus/",
+              "https://www.instagram.com/infinitidigitalus/",
+              "https://x.com/Infinitidigitl",
+              "https://www.pinterest.com/infinitidigitalus/",
+              "https://www.youtube.com/@InfinitiDigitalus",
+              "https://www.linkedin.com/company/infiniti-digitalus"
+            ]
+          })
+        }}
+      />
     </>
   );
 };

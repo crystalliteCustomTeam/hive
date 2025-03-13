@@ -41,7 +41,7 @@ const Industries = ({ data, IndustryData,location }) => {
                                     {IndustryData.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.industriesImage}>
-                                                <Image src={item.Img} alt={`Image ${index}`} fill />
+                                                <Image src={item.Img} alt={`Image ${index}`} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                                             </div>
                                             <div className={styles.industriesContent}>
                                                 <h4>{item.title}</h4>
