@@ -21,7 +21,7 @@ const ContactCta = ({data}) => {
           </Col>
           <Col md={6} className="my-auto">
             <div className={`${styles.contactBox} ${styles.last}`}>
-              <div className="subtitle"> {data.subtite}</div>
+              <div className="subtitle">{data.subtitle}</div>
               <h3> {data.title1}</h3>
               <p>{data.txt1}</p>
               <CommonBtn txt="Get Your Quote" LiveChat={true} BgBlack={true} />

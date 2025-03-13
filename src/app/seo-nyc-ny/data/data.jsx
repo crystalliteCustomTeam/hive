@@ -87,7 +87,7 @@ export const ServicesData = {
 
 export const processlp = {
   title: "NYC SEO Agency in Action",
-  txt: "he Process Behind Page-One Rankings.",
+  txt: "The Process Behind Page-One Rankings.",
   processlpItem: [
     {
       title: "Onboarding & Goal Setting",

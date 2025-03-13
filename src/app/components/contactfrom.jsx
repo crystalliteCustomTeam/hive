@@ -45,7 +45,7 @@ const ContactFrom = ({ bg, bgBlack, popop, contactPage, vertical, LandingPage, B
         const phone = e.target.phone.value.trim();
         const website = e.target.website ? e.target.website.value.trim() : '';  
         const voice = e.target.voice ? e.target.voice.value.trim() : '';   
-        const message = e.target.comment.value.trim();
+        const message = e.target.comment ? e.target.value.trim() : "";
 
 
         if (!name || !email || !phone) {

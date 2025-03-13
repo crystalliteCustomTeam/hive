@@ -1,10 +1,10 @@
 export const BannerData = {
-  subtitle: "More Clicks, Calls, and Customers.",
+  subtitle: "Lost Online? Can’t Sell?",
   title: (
     <>
-      Houston SEO Service,
+      Houston SEO Service, Works
       <br />
-      Works Like a Spell.
+       Like a Spell.
     </>
   ),
   desc: " Drive more leads and maximize your ROI with the best SEO service in Houston.",
