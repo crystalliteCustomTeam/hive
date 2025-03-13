@@ -96,6 +96,13 @@ const page = () => {
                 "https://www.youtube.com/@InfinitiDigitalus",
                 "https://www.linkedin.com/company/infiniti-digitalus",
               ],
+              meta: {
+                "DC.title": "NYC SEO - SEO NYC",
+                "geo.region": "US-NY",
+                "geo.placename": "New York City",
+                "geo.position": "40.712728;-74.006015",
+                ICBM: "40.712728, -74.006015",
+              },
             },
             {
               "@context": "https://schema.org/",

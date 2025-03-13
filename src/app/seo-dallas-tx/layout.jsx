@@ -16,13 +16,7 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/seo-dallas-tx' },
-    other: {
-        "DC.title": "Dallas SEO - SEO Dallas",
-        "geo.region": "US-TX",
-        "geo.placename": "Dallas",
-        "geo.position": "32.776272;-96.796856",
-        "ICBM": "32.776272, -96.796856"
-    }
+
 }
 
 

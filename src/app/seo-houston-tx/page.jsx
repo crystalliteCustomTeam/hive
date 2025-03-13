@@ -96,6 +96,13 @@ const page = () => {
                 "https://www.youtube.com/@InfinitiDigitalus",
                 "https://www.linkedin.com/company/infiniti-digitalus",
               ],
+              meta: {
+                "DC.title": "Houston SEO - SEO Houston",
+                "geo.region": "US-TX",
+                "geo.placename": "Houston",
+                "geo.position": "29.642761;-95.311412",
+                ICBM: "29.642761, -95.311412",
+              },
             },
             {
               "@context": "https://schema.org/",
