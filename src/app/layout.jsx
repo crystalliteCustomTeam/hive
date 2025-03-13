@@ -40,21 +40,7 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  //===== GEO Tags =====
-  other: {
-    // First Region (Houston, TX)
-    "DC.title.houston": "full-service digital marketing agency",
-    "geo.region.houston": "US-TX",
-    "geo.placename.houston": "Houston",
-    "geo.position.houston": "29.677315;-95.615108",
-    "ICBM.houston": "29.677315, -95.6151082",
 
-    // Second Region (Generic US Location)
-    "DC.title.generic": "full-service digital marketing agency",
-    "geo.region.generic": "US",
-    "geo.position.generic": "39.78373;-100.445882",
-    "ICBM.generic": "39.78373, -100.445882",
-  }
 };
 
 
