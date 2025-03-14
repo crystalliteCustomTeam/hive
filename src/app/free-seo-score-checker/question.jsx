@@ -9,84 +9,79 @@ const data = [
   {
     question: "Is your website easy to use on a phone?",
     answers: [
-      "Yes, it looks perfect and works smoothly (10 points)",
-      "Some parts don’t look right or are hard to use (5 points)",
-      "No, it’s hard to navigate on a phone (0 points)",
+      "Yes, it looks perfect and works smoothly",
+      "Some parts don’t look right or are hard to use",
+      "No, it’s hard to navigate on a phone",
     ],
   },
   {
     question: "Does your website load quickly?",
     answers: [
-      "Yes, it loads in under 3 seconds (10 points)",
-      "It takes 4-6 seconds to load (5 points)",
-      "It takes forever to load (more than 6 seconds) (0 points)",
+      "Yes, it loads in under 3 seconds",
+      "It takes 4-6 seconds to load",
+      "It takes forever to load (more than 6 seconds)",
     ],
   },
   {
     question:
       "Do your website titles and descriptions make people want to click?",
     answers: [
-      "Yes, all pages have compelling titles and descriptions (10 points)",
-      "Some pages are optimized, but not all (5 points)",
-      "No, I haven’t set them up properly (0 points)",
+      "Yes, all pages have compelling titles and descriptions",
+      "Some pages are optimized, but not all",
+      "No, I haven’t set them up properly",
     ],
   },
   {
     question: "Are your images slowing down your website?",
     answers: [
-      "No, all images are properly sized and labeled for search engines (10 points)",
-      "Some images are optimized, but not all (5 points)",
-      "Yes, they are large and missing important details (0 points)",
+      "No, all images are properly sized and labeled for search engines",
+      "Some images are optimized, but not all",
+      "Yes, they are large and missing important details",
     ],
   },
   {
     question:
       "Does Google trust your website? (Backlinks from reputable sites)",
     answers: [
-      "Yes, I have links from well-known websites (10 points)",
-      "I have a few, but not enough (5 points)",
-      "I have no idea what backlinks are (0 points)",
+      "Yes, I have links from well-known websites",
+      "I have a few, but not enough",
+      "I have no idea what backlinks are",
     ],
   },
   {
     question:
       "Are you using the right words to show up on Google? (Keyword strategy)",
     answers: [
-      "Yes, I have a plan and use the best keywords (10 points)",
-      "Some of my content includes good keywords (5 points)",
-      "No, I haven’t thought about it (0 points)",
+      "Yes, I have a plan and use the best keywords",
+      "Some of my content includes good keywords",
+      "No, I haven’t thought about it",
     ],
   },
   {
     question: "Does Google understand your website structure? (Schema Markup)",
     answers: [
-      "Yes, my important pages are properly structured for Google (10 points)",
-      "I’ve added some structure, but it’s not fully set up (5 points)",
-      "No, I don’t even know what that is (0 points)",
+      "Yes, my important pages are properly structured for Google",
+      "I’ve added some structure, but it’s not fully set up",
+      "No, I don’t even know what that is",
     ],
   },
   {
     question: "Is your website easy to navigate? (Internal linking strategy)",
     answers: [
-      "Yes, all key pages are well connected (10 points)",
-      "Some pages are linked, but it’s a bit messy (5 points)",
-      "No, my website is all over the place (0 points)",
+      "Yes, all key pages are well connected",
+      "Some pages are linked, but it’s a bit messy",
+      "No, my website is all over the place",
     ],
   },
   {
     question: "How often do you add fresh, high-quality content?",
     answers: [
-      "Every week or more (10 points)",
-      "Once a month (5 points)",
-      "I rarely update my website (0 points)",
+      "Every week or more",
+      "Once a month",
+      "I rarely update my website",
     ],
   },
 ];
-
-const extractPoints = (answer) => {
-  const match = answer.match(/\((\d+) points\)/);
-  return match ? parseInt(match[1], 10) : 0;
-};
 
 const Question = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -113,17 +108,16 @@ const Question = () => {
     }
   }, [message]);
 
-  const handleAnswerChange = (event) => {
-    const answer = event.target.value;
+  const handleAnswerChange = (index) => {
     const updatedAnswers = [...selectedAnswers];
-    updatedAnswers[currentQuestionIndex] = answer;
+    updatedAnswers[currentQuestionIndex] = index;
     setSelectedAnswers(updatedAnswers);
   };
 
   const handleNext = () => {
-    const selectedAnswer = selectedAnswers[currentQuestionIndex];
-    if (selectedAnswer) {
-      setTotalPoints((prevPoints) => prevPoints + extractPoints(selectedAnswer));
+    const selectedAnswerIndex = selectedAnswers[currentQuestionIndex];
+    if (selectedAnswerIndex !== undefined) {
+      setTotalPoints((prevPoints) => prevPoints + [10, 5, 0][selectedAnswerIndex]);
     }
     if (currentQuestionIndex < data.length - 1) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
@@ -201,18 +195,15 @@ const Question = () => {
                         type="radio"
                         id={`answer-${index}`}
                         name={`question-${currentQuestionIndex}`}
-                        value={answer}
-                        checked={
-                          selectedAnswers[currentQuestionIndex] === answer
-                        }
-                        onChange={handleAnswerChange}
+                        checked={selectedAnswers[currentQuestionIndex] === index}
+                        onChange={() => handleAnswerChange(index)}
                       />
                       <label htmlFor={`answer-${index}`}>{answer}</label>
                     </div>
                   ))}
-                  <Button
+                   <Button
                     className={styles.nextButton}
-                    disabled={!selectedAnswers[currentQuestionIndex]}
+                    disabled={selectedAnswers[currentQuestionIndex] === undefined}
                     onClick={handleNext}
                   >
                     Next Question
