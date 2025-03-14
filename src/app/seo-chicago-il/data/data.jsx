@@ -60,12 +60,12 @@ export const ServicesData = {
     {
       icon: <Serv04 />,
       title: "Local SEO",
-      txt: "We optimize your website’s content, headings, and meta tags to ensure search engines can easily understand and rank your site. This improves both rankings and user experience, helping your business based in Chicago thrive.",
+      txt: "Stand out to nearby customers with our local SEO strategies. We optimize your presence on Google Maps and local search results, making it easy for Chicagoans to find and contact your business.",
     },
     {
       icon: <Serv05 />,
       title: "On-Page SEO",
-      txt: "We specialize in on-page SEO, optimizing content, headings, and meta tags to improve rankings and user experience for businesses seeking SEO service in Houston.",
+      txt: "We optimize your website’s content, headings, and meta tags to ensure search engines can easily understand and rank your site. This improves both rankings and user experience, helping your business based in Chicago thrive.",
     },
     {
       icon: <Serv06 />,
