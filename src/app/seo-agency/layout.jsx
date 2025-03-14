@@ -19,17 +19,10 @@ export const metadata = {
   //===== GEO Tags =====
   other: {
     // First Region (Houston, TX) - SEO Agency
-    "DC.title.houston": "Affordable SEO Agency, Expert SEO Agency, Premium SEO Agency",
-    "geo.region.houston": "US-TX",
-    "geo.placename.houston": "Houston",
-    "geo.position.houston": "29.677315;-95.615108",
-    "ICBM.houston": "29.677315, -95.615108",
-
-    // Second Region (Generic US Location) - SEO Agency
-    "DC.title.generic": "seo agency",
-    "geo.region.generic": "US",
-    "geo.position.generic": "39.78373;-100.445882",
-    "ICBM.generic": "39.78373, -100.445882"
+    "DC.title": "Affordable SEO Agency, Expert SEO Agency, Premium SEO Agency",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882"
   }
 
 }

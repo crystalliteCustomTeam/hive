@@ -40,7 +40,13 @@ export const metadata = {
     index: true,
     follow: true,
   },
-
+//===== GEO Tags =====
+other: {
+  "DC.title": "full-service digital marketing agency",
+  "geo.region": "US",
+  "geo.position": "39.78373;-100.445882",
+  "ICBM": "39.78373, -100.445882"
+}
 };
 
 

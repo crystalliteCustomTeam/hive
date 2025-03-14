@@ -94,13 +94,7 @@ const page = () => {
                 "https://www.youtube.com/@InfinitiDigitalus",
                 "https://www.linkedin.com/company/infiniti-digitalus",
               ],
-              meta: {
-                "DC.title": "Chicago SEO - SEO Chicago",
-                "geo.region": "US-IL",
-                "geo.placename": "Chicago",
-                "geo.position": "41.875562;-87.624421",
-                ICBM: "41.875562, -87.624421",
-              },
+             
             },
             {
               "@context": "https://schema.org/",

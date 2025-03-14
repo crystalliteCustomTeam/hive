@@ -18,18 +18,10 @@ export const metadata = {
   alternates: { canonical: '/facebook-ads-service' },
   //===== GEO Tags =====
   other: {
-    // First Region (Houston, TX) - Facebook Ads
-    "DC.title.houston": "Facebook Advertising Services, Facebook Advertising Agency, Facebook Ad Management Service",
-    "geo.region.houston": "US-TX",
-    "geo.placename.houston": "Houston",
-    "geo.position.houston": "29.677315;-95.615108",
-    "ICBM.houston": "29.677315, -95.615108",
-
-    // Second Region (Generic US Location) - Facebook Ads
-    "DC.title.generic": "facebook ads service",
-    "geo.region.generic": "US",
-    "geo.position.generic": "39.78373;-100.445882",
-    "ICBM.generic": "39.78373, -100.445882"
+    "DC.title": "Facebook Advertising Services, Facebook Advertising Agency, Facebook Ad Management Service",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882"
   }
 
 }

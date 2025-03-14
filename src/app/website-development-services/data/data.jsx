@@ -153,108 +153,89 @@ export const PriceData = {
     desc: "At Infiniti Digital, we offer pricing plans designed to suit businesses of all sizes. Whether you're just starting or scaling up, we ensure high-quality results within your budget.",
     PriceItem: [
         {
-            bgColor: "#7635FF",
-            packagename: "Basic Package",
-            price: "350",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
+          bgColor: "#7635FF",
+          packagename: "Starter Website Package",
+          price: "899",
+          txt: "",
+          bodyPoints: [
+            {
+              title: "",
+              points: [
+                "Upto 7 Unique Pages Website",
+                "CMS / Admin Panel Support",
+                "12 Stock images",
+                "5 Banner Designs",
+                "1 jQuery Slider Banner",
+                "SMTP Mail-Forms",
+                "Social Media Integration",
+                "Complete Deployment",
+                "FREE SEO-Friendly Sitemap",
+              ],
+            },
+          ],
         },
         {
-            bgColor: "#FF6987",
-            packagename: "Advanced Package",
-            price: "500",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
+          bgColor: "#FF6987",
+          packagename: "Professional Website Package",
+          price: "1899",
+          txt: "",
+          bodyPoints: [
+            {
+              title: "Social Media Posts",
+              points: [
+                "Upto 12 Unique Pages Website",
+                "Interactive, Dynamic & Responsive Design",
+                "2 jQuery Slider Banner",
+                "Up to 10 Custom Made Banner Designs",
+                "10 Stock Images",
+                "Special Hover Effects",
+                "Content Management System (CMS)",
+                "Online Appointment/Scheduling/Online Ordering Integration (Optional)",
+                "Dynamic Forms (Optional)",
+                "Lead Capture (For Newsletters, Offers, etc.)",
+                "Mobile Responsive",
+                "Free SEO-Friendly Sitemap",
+                "Complete W3C Certified HTML",
+                "Industry Specified Team of Expert Designers and Developers",
+                "Complete Deployment",
+                "Dedicated Project Manager",
+              ],
+            },
+          ],
         },
         {
-            bgColor: "#9AFF35",
-            packagename: "Enterprise Package",
-            price: "750",
-            txt: "We have something in store for everyone, and that something is affordable services",
-            bodyPoints: [
-                {
-                    title: "Social Media Posts",
-                    points: [
-                        "Total 15 Posts Per Month",
-                        "10 Graphic Social Posts",
-                        "05 Videos / Reels",
-                        "Stories"
-                    ]
-                },
-                {
-                    title: "Social Platforms Supported",
-                    points: [
-                        "Facebook",
-                        "Instagram",
-                        "TikTok / LinkedIn"
-                    ]
-                },
-                {
-                    title: "Social Ads Management",
-                    points: [
-                        "Unlimited Campaigns Per Month",
-                        "Facebook & Instagram Paid Ads",
-                        "Unlimited Ad sets Per Month",
-                        "Detailed Campaign Monitoring & Optimization",
-                    ]
-                }
-            ]
-        }
-    ]
+          bgColor: "#9AFF35",
+          packagename: "Elite Website Package",
+          price: "2699",
+          txt: "",
+          bodyPoints: [
+            {
+              title: "Social Media Posts",
+              points: [
+                "Upto 15 Unique Pages Website",
+                "Interactive, Dynamic & Responsive Design",
+                "4 jQuery Slider Banner",
+                "Up to 13 Custom Made Banner Designs",
+                "10 Stock Images",
+                "Special Hover Effects",
+                "Content Management System (CMS)",
+                "Online Appointment/Scheduling/Online Ordering Integration (Optional)",
+                "Online Payment Integration (Optional)",
+                "Multi-lingual (Optional)",
+                "Dynamic Forms (Optional)",
+                "Lead Capture (For Newsletters, Offers, etc.)",
+                "Social Media Pixel integration (Optional)",
+                "Free SEO-Friendly Sitemap",
+                "Complete W3C Certified HTML",
+                "Industry Specified Team of Expert Designers and Developers",
+                "Complete Deployment",
+                "Dedicated Project Manager",
+                
+              ],
+            },
+              ],
+        },
+      ],
 };
 
 

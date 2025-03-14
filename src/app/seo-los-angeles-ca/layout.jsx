@@ -16,7 +16,13 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/seo-los-angeles-ca' },
-    
+    other: {
+        "DC.title": "Los Angeles SEO - SEO Los Angeles",
+        "geo.region": "US-CA",
+        "geo.placename": "Los Angeles",
+        "geo.position": "34.053691;-118.242766",
+        "ICBM": "34.053691, -118.242766",
+      },
 }
 
 

@@ -15,9 +15,7 @@ export const CallbackData = {
   subtitle1: "Request A Free Quote",
   title1: (
     <>
-      Google Keeps Changing the Rules,
-      <br />
-      We Keep You on Top!
+      Google Keeps Changing the Rules, We Keep You on Top!
     </>
   ),
   txt1: "As a leading LA organic search agency, we adapt to constant Google updates, keeping your business ranked high and ahead of the competition.",
@@ -307,7 +305,7 @@ export const PriceData = {
 export const ChooseUsData = {
   subtitle: "",
   title: "Why Choose Our Los Angeles SEO Agency?",
-  desc: "With our Chicago SEO company, you get a dedicated team focused on optimizing your website and delivering sustainable growth.",
+  desc: "With our LA SEO company, you get a dedicated team focused on optimizing your website and delivering sustainable growth.",
   Content1: [
     {
       title: "We Focus on Revenue",

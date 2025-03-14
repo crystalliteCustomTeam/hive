@@ -94,13 +94,7 @@ const page = () => {
                 "https://www.youtube.com/@InfinitiDigitalus",
                 "https://www.linkedin.com/company/infiniti-digitalus",
               ],
-              meta: {
-                "DC.title": "Denver SEO - SEO Denver",
-                "geo.region": "US-CO",
-                "geo.placename": "Denver",
-                "geo.position": "39.739236;-104.984862",
-                ICBM: "39.739236, -104.984862",
-              },
+      
             },
             {
               "@context": "https://schema.org/",

@@ -90,14 +90,7 @@ const page = () => {
           "https://www.youtube.com/@InfinitiDigitalus",
           "https://www.linkedin.com/company/infiniti-digitalus"
         ],
-        "meta": {
-          "DC.title": "Dallas SEO - SEO Dallas",
-          "geo.region": "US-TX",
-          "geo.placename": "Dallas",
-          "geo.position": "32.776272;-96.796856",
-          "ICBM": "32.776272, -96.796856"
-        }
-      },
+       },
       {
         "@context": "https://schema.org/",
         "@type": "Product",

@@ -94,13 +94,7 @@ const page = () => {
                 "https://www.youtube.com/@InfinitiDigitalus",
                 "https://www.linkedin.com/company/infiniti-digitalus",
               ],
-              meta: {
-                "DC.title": "Los Angeles SEO - SEO Los Angeles",
-                "geo.region": "US-CA",
-                "geo.placename": "Los Angeles",
-                "geo.position": "34.053691;-118.242766",
-                ICBM: "34.053691, -118.242766",
-              },
+             
             },
             {
               "@context": "https://schema.org/",

@@ -30,9 +30,9 @@ import {
   TestimonialData,
   IndustriesData,
   FAQsData,
+  PriceData
 } from "@/src/app/local-seo-service/data/data";
 import ServicesMain from "@/src/app/components/services/servicesmain";
-import { PriceData } from "@/src/app/seo-service/data/data";
 
 const Page = () => {
   return (

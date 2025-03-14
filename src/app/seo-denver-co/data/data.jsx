@@ -53,21 +53,16 @@ export const ServicesData = {
     },
     {
       icon: <Serv04 />,
-      title: "Local SEO",
-      txt: "We optimize your website’s content, headings, and meta tags to ensure search engines can easily understand and rank your site. This improves both rankings and user experience, helping your business based in Chicago thrive.",
-    },
-    {
-      icon: <Serv05 />,
       title: "Local SEO to Attract Nearby Customers",
       txt: "Want more local customers? We optimize your Google Business Profile, maps, and local listings so people in Denver can easily find and contact you.",
     },
     {
-      icon: <Serv06 />,
+      icon: <Serv05 />,
       title: "On-Page SEO for Better Rankings",
       txt: "We fine-tune your website’s content, headings, and descriptions so search engines understand and rank your site higher, making it easier for customers in Denver to find you.",
     },
     {
-      icon: <Serv07 />,
+      icon: <Serv06 />,
       title: "Entity SEO to Build Authority",
       txt: "We help search engines recognize your business as an industry expert, increasing your visibility in Denver searches.",
     },
@@ -77,15 +72,15 @@ export const ServicesData = {
       txt: "Google search is evolving with AI updates. We ensure your website stays ahead, so your Denver business continues to rank and grow.",
     },
     {
-      icon: <Serv09 />,
+      icon: <Serv08 />,
       title: "E-Commerce SEO to Boost Online Sales",
       txt: "We optimize your product pages and online store so more customers in Denver find and buy from you, without relying on paid ads.",
     },
-    // {
-    //   icon: <Serv09 />,
-    //   title: "Google Shopping Without Ads",
-    //   txt: "Increase your product visibility in Google Shopping without spending on ads. Our strategies help your business get more traffic and sales organically.",
-    // },
+    {
+      icon: <Serv09 />,
+      title: "Google Shopping Without Ads",
+      txt: "Increase your product visibility in Google Shopping without spending on ads. Our strategies help your business get more traffic and sales organically.",
+    },
     // {
     //   icon: <Serv09 />,
     //   title: "SEO-Optimized Content That Sells",
@@ -319,7 +314,7 @@ export const ChooseUsData = {
     },
     {
       title: "Customized SEO Strategies",
-      txt: "We focus on cost-effective strategies that maximize your marketing budget, delivering higher conversions and more revenue without unnecessary ad spend.",
+      txt: "No basic solutions, our SEO approach is tailored to your business, industry, and goals, ensuring maximum impact and long-term success.",
     },
   ],
   Content2: [

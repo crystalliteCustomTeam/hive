@@ -18,17 +18,10 @@ export const metadata = {
   alternates: { canonical: '/shopify-website-development-services' },
   other: {
     // Generic US - Shopify Website Development Services
-    "DC.title.generic": "shopify website development services",
+    "DC.title.houston": "Shopify Website Development Services, Shopify Ecommerce Development Services, Shopify Website Design",
     "geo.region.generic": "US",
     "geo.position.generic": "39.78373;-100.445882",
     "ICBM.generic": "39.78373, -100.445882",
-
-    // Houston, TX - Shopify Website Development Services
-    "DC.title.houston": "Shopify Website Development Services, Shopify Ecommerce Development Services, Shopify Website Design",
-    "geo.region.houston": "US-TX",
-    "geo.placename.houston": "Houston",
-    "geo.position.houston": "29.677315;-95.615108",
-    "ICBM.houston": "29.677315, -95.615108"
   }
 
 }

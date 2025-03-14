@@ -18,18 +18,10 @@ export const metadata = {
   alternates: { canonical: '/amazon-advertising' },
   //===== GEO Tags =====
   other: {
-    // First Region (Houston, TX) - Amazon Ads Management
-    "DC.title.houston": "Amazon Product Ads Management, Amazon Ads Management Services, Amazon Pay Per Click Services",
-    "geo.region.houston": "US-TX",
-    "geo.placename.houston": "Houston",
-    "geo.position.houston": "29.677315;-95.615108",
-    "ICBM.houston": "29.677315, -95.615108",
-
-    // Second Region (Generic US Location) - Amazon Advertising
-    "DC.title.generic": "amazon advertising",
-    "geo.region.generic": "US",
-    "geo.position.generic": "39.78373;-100.445882",
-    "ICBM.generic": "39.78373, -100.445882"
+    "DC.title": "Amazon Product Ads Management, Amazon Ads Management Services, Amazon Pay Per Click Services",
+    "geo.region": "US",
+    "geo.position": "39.78373;-100.445882",
+    "ICBM": "39.78373, -100.445882"
   }
 
 }
