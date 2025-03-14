@@ -9,7 +9,7 @@ const Banner = ({data}) => {
     <section className={styles.bannerSection}>
       <Container className="h-100">
         <Row className="h-100">
-          <Col md={6} className="my-auto">
+          <Col md={6} lg={7} className="my-auto">
             <div className="subtitle">{data.subtitle}</div>
             <h1>
             {data.title}
@@ -19,7 +19,7 @@ const Banner = ({data}) => {
             </p>
             <CommonBtn txt={data.btntxt} LiveChat={true} BgBlack={true} />
           </Col>
-          <Col md={6} className="my-auto text-center">
+          <Col md={6} lg={5} className="my-auto text-center">
             <Image
               src={IMG.src}
               width={1878}

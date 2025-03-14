@@ -1,13 +1,13 @@
 export const BannerData = {
-  subtitle: "Proven Strategies, Measurable Results.",
+  subtitle: "Your Shortcut to Bigger Profits",
   title: (
     <>
-      Houston SEO Service, Works
+      Los Angeles SEO Service,
       <br />
-       Like a Spell.
+      Your Sales Will Resurface.
     </>
   ),
-  desc: " Drive more leads and maximize your ROI with the best SEO service in Houston.",
+  desc: "Our SEO service in Los Angeles helps businesses improve search rankings and increase revenue. Whether you're a startup or an established brand, our customized strategies will help you dominate the competitive LA market.",
   btntxt: "Connect with us",
 };
 
@@ -15,13 +15,14 @@ export const CallbackData = {
   subtitle1: "Request A Free Quote",
   title1: (
     <>
-      Struggling to get leads? <br />
-      Let’s fix that
+      Google Keeps Changing the Rules,
+      <br />
+      We Keep You on Top!
     </>
   ),
-  txt1: "Our Houston SEO company drives higher rankings, more leads, and real growth for your business.",
-  subtitle2: " We are the Top rated",
-  title2: "SEO Agency in Houston",
+  txt1: "As a leading LA organic search agency, we adapt to constant Google updates, keeping your business ranked high and ahead of the competition.",
+  subtitle2: "Adapt, Rank, and Win with",
+  title2: "LA Organic Search Agency",
 };
 //Services
 import {
@@ -38,80 +39,80 @@ import {
 
 export const ServicesData = {
   subtitle: "",
-  title: <>Houston SEO Services</>,
-  desc: "Dominate search results with our seo experts in Houston.",
+  title: <>Los Angeles SEO Services</>,
+  desc: "Our SEO services in LA are designed to help businesses increase visibility, attract more customers, and drive long-term revenue.",
   ServicesItem: [
     {
       icon: <Serv01 />,
-      title: "Keyword Research & Strategy",
-      txt: "Our Houston SEO experts conduct in-depth keyword research and create a strategy to help you rank for the most valuable search terms and attract real customers.",
+      title: "Smart Keyword Strategy",
+      txt: "We find the best keywords to bring real customers to your business. Our strategy helps you rank for the right search terms in Los Angeles, bringing in more visitors who are ready to buy.",
     },
     {
       icon: <Serv02 />,
-      title: "Link Building",
-      txt: "As a leading SEO company in Houston, we build high-quality backlinks. Through link building, our team increases your website’s authority and search rankings.",
+      title: "Powerful Link Building",
+      txt: "Strong websites linking to yours help boost your ranking. We get quality links from trusted LA and industry websites to increase your visibility and credibility.",
     },
     {
       icon: <Serv03 />,
-      title: "Technical SEO ",
-      txt: "Our SEO service in Houston focuses on technical SEO, ensuring your website is fast, mobile-friendly, and properly indexed for maximum performance.",
+      title: "Technical SEO Fixes",
+      txt: "Slow websites and technical issues hurt your ranking. We improve your site speed, mobile experience, and structure so it runs smoothly and ranks higher in LA search results.",
     },
     {
       icon: <Serv04 />,
-      title: "Local SEO",
-      txt: "With expert local SEO strategies, our Houston SEO company helps your business appear in local searches and Google Maps, making it easy for customers to find you.",
+      title: "Local SEO to Attract Nearby Customers",
+      txt: "Want more local customers? We optimize your Google Business Profile, maps, and local listings so people in Los Angeles can easily find and contact you.",
     },
     {
       icon: <Serv05 />,
-      title: "On-Page SEO",
-      txt: "We specialize in on-page SEO, optimizing content, headings, and meta tags to improve rankings and user experience for businesses seeking SEO service in Houston.",
+      title: "On-Page SEO for Better Rankings",
+      txt: "We fine-tune your website’s content, headings, and descriptions so search engines understand and rank your site higher, making it easier for customers to find you.",
     },
     {
       icon: <Serv06 />,
-      title: "Entity SEO",
-      txt: "Our Houston SEO experts implement entity SEO to establish your website as an industry authority and improve topic relevance in search results.",
+      title: "Entity SEO to Build Authority",
+      txt: "We help search engines recognize your business as an expert in your industry, making your website show up more often in Los Angeles searches.",
     },
     {
       icon: <Serv07 />,
-      title: "Search Generative Experience",
-      txt: "With Google’s AI-driven updates, our SEO service in Houston keeps your website optimized for search generative experience, ensuring continued visibility.",
+      title: "AI-Ready SEO for Future Growth",
+      txt: "Google search is changing with AI updates. We make sure your website stays ahead so your business keeps showing up in search results.",
     },
     {
-      icon: <Serv07 />,
-      title: "E-commerce SEO",
-      txt: "Our Houston SEO company enhances e-commerce SEO, optimizing product pages and categories to boost organic traffic and increase conversions.",
+      icon: <Serv08 />,
+      title: "E-Commerce SEO to Boost Online Sales",
+      txt: "We optimize your product pages and online store so more people in Los Angeles find and buy from you without relying on paid ads.",
     },
     {
       icon: <Serv09 />,
-      title: "Organic Shopping",
-      txt: "By focusing on organic shopping, our SEO Houston team improves your visibility in Google Shopping without relying on costly ads.",
+      title: "Google Shopping Without Ads",
+      txt: "Increase your product visibility in Google Shopping without spending on ads. Our strategies help your business get more traffic and sales organically.",
     },
   ],
 };
 
 export const processlp = {
-  title: "Houston SEO Company’s Ranking Process",
-  txt: "We follow a simple process to rank your website on the top of Google search results in Houston.",
+  title: "How Los Angeles SEO Company Gets You to #1",
+  txt: "Our SEO company in LA cracks Google’s code with smart SEO moves, so your business ranks while competitors tank.",
   processlpItem: [
     {
-      title: "Onboarding & Goal Setting",
-      txt: "We begin by understanding the dynamics of your business and industry in Houston. With our in-depth knowledge of the local market, we set KPIs and draft an SEO strategy that attracts the right customers.",
+      title: "Get Found by More Customers",
+      txt: "Our Los Angeles SEO service ensures your business appears where it matters; at the top of search results. By targeting customers who are actively searching for your products or services, we drive high-quality, ready-to-convert traffic straight to your website.",
     },
     {
-      title: "Website Audit & Keyword Research",
-      txt: "Our SEO team performs a detailed SEO audit to identify technical issues and researches high-impact local keywords that attract customers searching for your services or products in Houston.",
+      title: "Maximize Your Marketing Budget",
+      txt: "We focus on SEO strategies that bring long-term value, helping you gain visibility without constantly spending on paid ads. Our cost-effective approach increases conversions, improves ROI, and ensures every dollar spent works toward sustainable growth.",
     },
     {
-      title: "On-Page & Technical Optimization",
-      txt: "We optimize your website structure, content, meta tags, and loading speed while fixing technical issues, ensuring your business ranks higher in local Houston searches.",
+      title: "Dominate the Local Market",
+      txt: "As a leading SEO agency in LA, we understand the local market and evolving search trends. Our tailored strategies position your business ahead of local competitors, making it the first choice for customers searching in your industry.",
     },
     {
-      title: "Content & Link Building Strategy",
-      txt: "Our content writers create engaging, locally relevant content and SEO experts secure authoritative backlinks to boost your rankings and position your business as a trusted name in Houston.",
+      title: "Know Exactly What’s Working",
+      txt: "We provide detailed, easy-to-understand reports with key SEO insights. You’ll always know how your rankings are improving, where traffic is coming from, and how your SEO investment is directly contributing to your business growth.",
     },
     {
-      title: "Tracking, Reporting & Continuous Growth",
-      txt: "We monitor your SEO performance, track keyword rankings, and refine strategies to ensure your business stays ahead of local competitors in Houston.",
+      title: "Stay on Top for the Long Run",
+      txt: "SEO isn’t just about quick wins, it’s about building lasting visibility. Our ongoing optimization and adaptive strategies help your business maintain top search rankings, ensuring consistent traffic, leads, and revenue growth over time.",
     },
   ],
 };
@@ -119,8 +120,8 @@ export const processlp = {
 // Pricing
 export const PriceData = {
   subtitle: "",
-  title: "Houston SEO Packages",
-  desc: "Boost Rankings, Beat Competitors, Bank More Sales!",
+  title: "LA SEO Packages",
+  desc: "Our SEO plans for businesses in LA are built to boost rankings, drive local traffic, and turn searches into sales.",
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -305,47 +306,47 @@ export const PriceData = {
 // Why Choose Us
 export const ChooseUsData = {
   subtitle: "",
-  title: "Why We’re Your Houston SEO Dream Team",
-  desc: "We’ve earned Houston’s trust, and Google’s top spots!",
+  title: "Why Choose Our Los Angeles SEO Agency?",
+  desc: "With our Chicago SEO company, you get a dedicated team focused on optimizing your website and delivering sustainable growth.",
   Content1: [
     {
-      title: "We Know Houston Inside Out",
-      txt: "We know the market and local search trends in Houston inside out. Our SEO strategies help your business reach the right customers, whether you’re focusing on a specific neighborhood or the entire city. We make sure your website stands out.",
+      title: "We Focus on Revenue",
+      txt: "Getting to the top of Google is great, but it means nothing if it doesn’t translate into sales. Our SEO strategies are designed to drive high-intent traffic that converts into real customers, maximizing your ROI.",
     },
     {
-      title: "Custom Strategies",
-      txt: "No two businesses are the same, and neither should their SEO strategies be. We take a tailored approach, analyzing your industry, goals, and competition to create a custom SEO plan designed for maximum impact and long-term success.",
+      title: "We Understand the LA Market",
+      txt: " Los Angeles is a highly competitive business landscape, and a generic SEO strategy won’t cut it. We tailor our approach based on local search trends, industry competition, and the unique needs of LA-based businesses.",
     },
   ],
   Content2: [
     {
-      title: "Proven Results",
-      txt: "We don’t just promise rankings; we deliver measurable business growth. Our strategies focus on increasing website traffic, generating high-quality leads, and boosting conversions to drive real revenue for your business based in Houston.",
+      title: "Transparent Reporting",
+      txt: "Many SEO agencies leave you in the dark about what they’re doing. We provide clear, easy-to-understand reports so you always know how your rankings, traffic, and conversions are improving.",
     },
   ],
   Content3: [
     {
-      title: "Full Transparency",
-      txt: "SEO shouldn’t be a mystery. We provide clear, detailed reports and open communication, so you always know what’s happening behind the scenes. No vague updates, just real insights into your SEO progress.",
+      title: "We Use Sustainable",
+      txt: "Search engines constantly update their algorithms, and shady SEO tactics can get your site penalized. We use proven, white-hat strategies to ensure long-term rankings and steady business growth.",
     },
     {
-      title: "Long-Term Success, Not Just Quick Wins",
-      txt: "We focus on sustainable strategies that keep your business ranking high, not just for today but for the future. By staying ahead of search engine updates and market changes, we ensure your business remains competitive in Houston.",
+      title: "Full-Service SEO",
+      txt: "SEO is more than just keywords. We handle everything from technical audits and on-page optimization to high-quality content and link building, ensuring your business dominates search results from every angle.",
     },
   ],
 };
 
 export const ContactData = {
   title: "Don’t be Shy, Say Hi!",
-  txt: "Get SEO service in Houston and start dominating search results. Reach out now!",
+  txt: "Get SEO service in LA and start dominating search results. Reach out now!",
   subtitle: "Request A Free Quote",
-  title1: "Let’s Rank Your Website #1",
-  txt1: "Dominate search results with seo in Houston.",
+  title1: "Dominate Google Search in LA",
+  txt1: "Smart SEO that helps Los Angeles businesses scale faster.",
 };
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {
   title: "Transparent SEO Reporting for Clients",
-  txt: "Our SEO reporting is tailored to your service package, ensuring you get the right insights for your business based in Houston. Basic plans include Monthly Progress Reports with key stats like rankings, traffic, and engagement. Higher-tier plans come with Monthly Reports plus Expert Recommendations to boost results. Premium packages include a Business Intelligence Dashboard, giving you real-time SEO data at your fingertips. No matter your plan, our Houston SEO company keeps you informed with clear, easy-to-understand reports to track your growth.",
+  txt: "We believe in complete transparency, which is why our SEO reporting includes detailed monthly updates tailored to your business goals. From keyword rankings and website traffic to user engagement and conversion insights, we provide clear, actionable data that helps you measure success and refine your strategy to attract more customers in Los Angeles.",
   img: IMG.src,
   ReportItem: [
     {
@@ -371,6 +372,6 @@ export const ReportData = {
   ],
 };
 
-export const CtaData={
-  title:"From search to sale, we never fail!"
-}
+export const CtaData = {
+  title: "From search to sale, we never fail!",
+};
