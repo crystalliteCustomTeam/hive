@@ -1,0 +1,17 @@
+.seoGlossarySection {
+  padding-top: 180px;
+  .glossaryBox {
+    background: linear-gradient(9.84deg, #ffffff -12.54%, #9aff35 103.72%);
+    padding: 50px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+    .glossaryTxt {
+      max-width: 60%;
+      margin: auto;
+    }
+  }
+  h1 {
+    color: #000;
+  }
+}
