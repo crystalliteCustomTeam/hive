@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Secure Your Spot In The Top 3 Results With Houston SEO",
-    description: "Houston SEO company that ranks your brand in the top positions on google search in 3 simple steps; Click here, talk to us and get rich.  ",
+    title: "SEO Glossary: 400+  Terms & Definitions You Need to Know",
+    description: "Check out this HUGE list of the most important SEO terms, jargon, abbreviations to help you better understand digital marketing.",
     //===== OG Tags =====
     openGraph: {
-        title: "Secure Your Spot In The Top 3 Results With Houston SEO",
-        description: "Houston SEO company that ranks your brand in the top positions on google search in 3 simple steps; Click here, talk to us and get rich.  ",
+        title: "SEO Glossary: 400+  Terms & Definitions You Need to Know",
+        description: "Check out this HUGE list of the most important SEO terms, jargon, abbreviations to help you better understand digital marketing.",
         url: '/seo-glossary',
         siteName: "Inifniti Digital",
         locale: 'en_US',
@@ -16,11 +16,7 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/seo-glossary' },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
+  
     
 }
 

@@ -438,7 +438,7 @@
     }
   }
   &.glossaryPage {
-    gap:5px;
+    gap: 5px;
     .contactItem {
       flex: 0 0 calc(25% - 5px);
       input {
@@ -451,7 +451,7 @@
         }
       }
     }
-    .contactBtn{
+    .contactBtn {
       text-align: center;
     }
   }
@@ -1071,6 +1071,11 @@
         font-size: 13px;
       }
     }
+    &.glossaryPage {
+      .contactItem {
+        flex: 0 0 calc(50% - 5px);
+      }
+    }
   }
 }
 
@@ -1200,6 +1205,11 @@
         border: 0px;
         min-width: 150px;
         font-size: 12px;
+      }
+    }    
+    &.glossaryPage {
+      .contactItem {
+        flex: 0 0 calc(50% - 5px);
       }
     }
   }
