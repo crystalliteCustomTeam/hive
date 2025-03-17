@@ -1,12 +1,11 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "@/styles/seo-glossary/seo-glossary.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import CTAFrom from "./ctaform";
 import Link from "next/link";
 import Banner from "media/seo/BannerImg.webp";
 import Image from "next/image";
-
 const data = [
   {
     letter: "A",
@@ -15,19 +14,19 @@ const data = [
       {
         title: "Above the Fold",
         txt: "The top portion of a webpage is visible without scrolling, crucial for user engagement and SEO.",
-        btntxt: "Read More: Above the fold",
+        btntxt: "Above the fold",
         btnlink: "https://www.infinitidigital.us/what-does-above-the-fold-mean",
       },
       {
         title: "Acquisition",
         txt: "In analytics, this refers to how users arrive at a website, categorized by channels like organic search, paid search, social media, and referrals.",
-        btntxt: "Read More: Acquisition in SEO",
+        btntxt: "Acquisition in SEO",
         btnlink: "https://www.infinitidigital.us/acquisition-in-seo",
       },
       {
         title: "AI Content Detection",
         txt: "Tools that analyze content to determine if it’s AI-generated or human-written.",
-        btntxt: "Read More: AI content detection",
+        btntxt: "AI content detection",
         btnlink: "https://www.infinitidigital.us/ai-content-detection",
       },
       {
@@ -39,7 +38,7 @@ const data = [
       {
         title: "Ajax",
         txt: "A technology that allows web pages to update content dynamically without reloading the entire page.",
-        btntxt: "Read More: Ajax",
+        btntxt: "Ajax",
         btnlink: "https://www.infinitidigital.us/ajax",
       },
       {
@@ -63,7 +62,7 @@ const data = [
       {
         title: "Analytics",
         txt: "Tools that track and analyze website traffic, helping optimize performance and marketing efforts.",
-        btntxt: "Read More: Analytics",
+        btntxt: "Analytics",
         btnlink: "https://www.infinitidigital.us/analytics",
       },
       {
@@ -98,7 +97,7 @@ const data = [
       },
       {
         title: "Authority",
-        txt: "A metric indicating a site's credibility based on backlinks and content quality.",
+        txt: "A metric indicating a site’s credibility based on backlinks and content quality.",
         btntxt: "",
         btnlink: "",
       },
@@ -134,7 +133,7 @@ const data = [
       },
       {
         title: "Baidu",
-        txt: "China’s leading search engine, often referred to as the 'Google of China.'",
+        txt: "China’s leading search engine, often referred to as the ’Google of China.’",
         btntxt: "",
         btnlink: "",
       },
@@ -236,7 +235,7 @@ const data = [
       },
       {
         title: "ccTLD",
-        txt: "Country-code top-level domain (e.g., .us, .uk, .ca) that signals a site's geographic targeting.",
+        txt: "Country-code top-level domain (e.g., .us, .uk, .ca) that signals a site’s geographic targeting.",
         btntxt: "",
         btnlink: "",
       },
@@ -464,7 +463,7 @@ const data = [
       },
       {
         title: "Domain Rating",
-        txt: "A metric by Ahrefs estimating a domain's backlink strength.",
+        txt: "A metric by Ahrefs estimating a domain’s backlink strength.",
         btntxt: "",
         btnlink: "",
       },
@@ -584,7 +583,7 @@ const data = [
       },
       {
         title: "Findability",
-        txt: "How easily users (and Google) can track down your content. If they can't, you're basically invisible.",
+        txt: "How easily users (and Google) can track down your content. If they can’t, you’re basically invisible.",
         btntxt: "",
         btnlink: "",
       },
@@ -620,7 +619,7 @@ const data = [
     letterItem: [
       {
         title: "Google",
-        txt: "The world's most popular search engine, used to find information online.",
+        txt: "The world’s most popular search engine, used to find information online.",
         btntxt: "",
         btnlink: "",
       },
@@ -824,7 +823,7 @@ const data = [
       },
       {
         title: "HTML Sitemap",
-        txt: "A web page listing a site's key pages to enhance navigation.",
+        txt: "A web page listing a site’s key pages to enhance navigation.",
         btntxt: "",
         btnlink: "",
       },
@@ -1082,7 +1081,7 @@ const data = [
       },
       {
         title: "Knowledge Graph",
-        txt: "Google's information panel displaying structured search data.",
+        txt: "Google’s information panel displaying structured search data.",
         btntxt: "",
         btnlink: "",
       },
@@ -1124,7 +1123,7 @@ const data = [
       },
       {
         title: "Lead Generation",
-        txt: "The process of attracting and capturing potential customers' interest in a product or service.",
+        txt: "The process of attracting and capturing potential customers’ interest in a product or service.",
         btntxt: "",
         btnlink: "",
       },
@@ -1232,7 +1231,7 @@ const data = [
       },
       {
         title: "Local SEO Service",
-        txt: "A service that optimizes a business's online presence to rank better in local search results.",
+        txt: "A service that optimizes a business’s online presence to rank better in local search results.",
         btntxt: "",
         btnlink: "",
       },
@@ -1514,7 +1513,7 @@ const data = [
       },
       {
         title: "Page Rank",
-        txt: "Google's algorithm for ranking webpages based on link authority.",
+        txt: "Google’s algorithm for ranking webpages based on link authority.",
         btntxt: "",
         btnlink: "",
       },
@@ -1664,7 +1663,7 @@ const data = [
       },
       {
         title: "Question Keywords",
-        txt: "Search queries phrased as questions, typically including words like 'what,' 'how,' 'why,' or 'where.'",
+        txt: "Search queries phrased as questions, typically including words like ’what,’ ’how,’ ’why,’ or ’where.’",
         btntxt: "",
         btnlink: "",
       },
@@ -1952,7 +1951,7 @@ const data = [
       },
       {
         title: "Trust Factor",
-        txt: "Various signals (such as backlinks and content quality) that contribute to a website's trustworthiness.",
+        txt: "Various signals (such as backlinks and content quality) that contribute to a website’s trustworthiness.",
         btntxt: "",
         btnlink: "",
       },
@@ -2260,7 +2259,8 @@ const data = [
   },
 ];
 
-const page = () => {
+
+const Page = () => {
   const [activeLetter, setActiveLetter] = useState("");
 
   useEffect(() => {
@@ -2302,12 +2302,12 @@ const page = () => {
               <p>
                 SEO experts love to toss around fancy terms like they’re the
                 cool kids in class, and you’re just sitting there with no clue
-                what "canonical tags" even mean. It’s a constant game of "who
-                can sound more like a robot," and the last thing you need is to
-                be left behind while they geek out over their keyword research.
-                Don’t worry though, we’ve broken it all down so you can sound
-                just as smart without the confusion. Time to stop nodding like
-                you get it when you actually don’t.F
+                what &quot;canonical tags&quot; even mean. It’s a constant game
+                of &quot;who can sound more like a robot,&quot; and the last
+                thing you need is to be left behind while they geek out over
+                their keyword research. Don’t worry though, we’ve broken it all
+                down so you can sound just as smart without the confusion. Time
+                to stop nodding like you get it when you actually don’t.
               </p>
             </Col>
             <Col lg={12}>
@@ -2363,4 +2363,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
