@@ -340,9 +340,9 @@
       }
     }
   }
-&.contactPage{
-  padding: 30px 30px;
-}
+  &.contactPage {
+    padding: 30px 30px;
+  }
   &.customPrice {
     background: transparent;
     border-radius: 0px;
@@ -437,6 +437,24 @@
       }
     }
   }
+  &.glossaryPage {
+    gap:5px;
+    .contactItem {
+      flex: 0 0 calc(25% - 5px);
+      input {
+        background: #fff;
+        color: #000;
+        border: 1px solid #797979;
+        &::placeholder {
+          color: #797979;
+          opacity: 1;
+        }
+      }
+    }
+    .contactBtn{
+      text-align: center;
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -505,8 +523,7 @@
     &.locationSec {
       margin-top: 20px;
 
-     .contactItem {
-  
+      .contactItem {
         input {
           font-size: 13px;
         }
@@ -628,8 +645,7 @@
     &.locationSec {
       margin-top: 20px;
 
-     .contactItem {
-  
+      .contactItem {
         input {
           font-size: 13px;
         }
@@ -750,8 +766,7 @@
     &.locationSec {
       margin-top: 20px;
 
-     .contactItem {
-  
+      .contactItem {
         input {
           font-size: 12px;
         }
@@ -868,13 +883,12 @@
           font-size: 15px;
         }
       }
-    } 
-    
+    }
+
     &.locationSec {
       margin-top: 20px;
 
-     .contactItem {
-  
+      .contactItem {
         input {
           font-size: 12px;
         }
@@ -1004,8 +1018,7 @@
     &.locationSec {
       margin-top: 20px;
 
-     .contactItem {
-  
+      .contactItem {
         input {
           font-size: 12px;
         }
@@ -1136,8 +1149,7 @@
     &.locationSec {
       margin-top: 20px;
 
-     .contactItem {
-  
+      .contactItem {
         input {
           font-size: 12px;
         }
@@ -1334,7 +1346,7 @@
     &.locationSec {
       margin-top: 30px;
 
-     .contactItem {
+      .contactItem {
         flex: 0 0 calc(100% - 5px);
         input {
           font-size: 12px;

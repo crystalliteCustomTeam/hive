@@ -7,10 +7,10 @@ const CTAFrom = () => {
         <section className={styles.contactSection}>
             <Container>
                 <Row>
-                    <Col md={12} lg={10} className="m-auto">
+                    <Col md={12} lg={11} className="m-auto">
                         <div className={styles.formContainer}>
-                            <h4>Sales are low? Watch them grow!</h4>
-                            <ContactFrom vertical={true} smmPage={true} title="Let’s Connect" />
+                            <h2>SEO is the Cheat Code, Sign Up to Unlock It!</h2>
+                            <ContactFrom vertical={true} glossary={true} title="Let’s Connect" />
                         </div>
                     </Col>
                 </Row>
