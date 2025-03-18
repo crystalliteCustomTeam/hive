@@ -36,8 +36,8 @@ const stateCounterPost1 = [
 ];
 export const BlogData = [
   {
-    tit:"What Does Above The Fold Mean",
-    description:"",
+    tit:"What Does Above The Fold Mean - Infiniti Digital",
+    description:"Learn what does above the fold means and make your concepts right through our blog. Get a quote today!",
     slug: "what-does-above-the-fold-mean",
     title: "What Does Above The Fold Mean",
     img: Post1.src,
@@ -152,8 +152,8 @@ export const BlogData = [
     ),
   },
   {
-    tit:"What is Acquisition in SEO",
-    description:"",
+    tit:"What is Acquisition in SEO? - Infiniti Digital",
+    description:"Drive traffic to your website by getting to know about what acquisition in SEO is and how it benefits your business. Contact us now!",
     slug: "what-is-acquisition-in-seo",
     title: "What is Acquisition in SEO",
     img: Post1.src,
@@ -342,8 +342,8 @@ export const BlogData = [
     ),
   },
   {
-    tit:"How Does AI Content Detection Work",
-    description:"",
+    tit:"How Does AI Content Detection Work? - Infiniti Digital",
+    description:"Find out what AI content detection is and how these models use technology to identify AI content. Get a quote today!",
     slug: "how-does-ai-content-detection-work",
     title: "How Does AI Content Detection Work",
     img: Post1.src,
@@ -433,8 +433,8 @@ export const BlogData = [
     ),
   },
   {
-    tit:"What is AJAX?",
-    description:"",
+    tit:"What is Ajax - Infiniti Digital",
+    description:"Curious to know about ajax in SEO? Well, then you are in the right place as this blog covers all the details you need to know about ajax.",
     slug: "what-is-ajax",
     title: "What is AJAX?",
     img: Post1.src,
@@ -497,8 +497,8 @@ export const BlogData = [
     ),
   },
   {
-    tit:"What is Analytics and How Does it Work",
-    description:"",
+    tit:"What is Analytics And How Does it Work? - Infiniti Digital",
+    description:"If you want to know about google analytics + how does it work then read this blog. Contact us today and get your quote!",
     slug: "what-is-analytics-and-how-does-it-work",
     title: "What is Analytics and How Does it Work",
     img: Post1.src,

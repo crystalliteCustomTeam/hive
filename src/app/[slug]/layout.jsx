@@ -15,11 +15,7 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/' },
-    //===== No-Index =====
-    robots: {
-      index: false,
-      follow: false,
-    },
+   
 }
 
 
