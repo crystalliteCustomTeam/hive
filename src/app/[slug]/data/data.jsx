@@ -61,7 +61,7 @@ export const BlogData = [
           Today, the digital version of this concept plays an important role in
           user experience, conversions, and even SEO rankings. Get it right, and
           visitors stay, engage, and take action. Get it wrong, and they bounce,
-          sometimes faster than you can say "page load speed."
+          sometimes faster than you can say &quot;page load speed.&quot;
         </p>
         <h2>Why is Above the Fold Important?</h2>
         <p>
@@ -114,7 +114,7 @@ export const BlogData = [
             A compelling headline that grabs attention immediately. A clear CTA
           </li>
           <li>
-            like "Sign Up," "Shop Now," or "Get Started." Eye catching visuals;
+            like &quot;Sign Up,&quot; &quot;Shop Now,&quot; or &quot;Get Started.&quot; Eye catching visuals;
           </li>
           <li>Product images, explainer videos, or a sleek hero section.</li>
         </ul>
