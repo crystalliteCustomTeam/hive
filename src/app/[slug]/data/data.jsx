@@ -78,7 +78,7 @@ export const BlogData = [
         </ul>
         <p>
           If a visitor has to scroll just to figure out what your website is
-          about, you've already lost them.
+          about, you’ve already lost them.
         </p>
         <h2>Does Above the Fold Content Affect Ranking?</h2>
         <p>
@@ -410,7 +410,7 @@ export const BlogData = [
           helpful, people first content that provides real value. If AI
           generated content is low quality, overly generic, or spammy, it may
           lead to lower rankings or even manual penalties. AI detection tools
-          help marketers ensure their content meets Google's E-E-A-T guidelines.
+          help marketers ensure their content meets Google’s E-E-A-T guidelines.
         </p>
         <p>
           Boost your rankings with SEO optimized, original content. Connect with
@@ -498,7 +498,7 @@ export const BlogData = [
           If you’re still making business decisions based on gut feelings,
           you’re doing it wrong. Real success comes from data; hard, cold
           numbers that tell you what’s working and what’s not. That’s where
-          analytics tools come in. Whether you're tracking website visitors,
+          analytics tools come in. Whether you’re tracking website visitors,
           marketing performance, or SEO rankings, an analytics tool is your
           secret weapon. But what exactly is it, and how does it work? Let’s
           break it down.
