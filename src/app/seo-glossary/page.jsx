@@ -1637,12 +1637,7 @@ const data = [
         btntxt: "",
         btnlink: "",
       },
-      {
-        title: "Page Speed",
-        txt: "How fast a webpage loads; a key ranking factor.",
-        btntxt: "",
-        btnlink: "",
-      },
+
       {
         title: "Page View",
         txt: "A single visit to a webpage, counted each time it loads.",
