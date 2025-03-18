@@ -1989,7 +1989,7 @@ const data = [
       },
       {
         title: "SEO Content Writing",
-        txt: "Writing long-form content that is both user-friendly and search engine optimized.",
+        txt: "Writing long form content that is both user-friendly and search engine optimized.",
         btntxt: "",
         btnlink: "",
       },
@@ -2044,8 +2044,8 @@ const data = [
       {
         title: "SEO Score",
         txt: "A numerical representation of how well a website follows SEO best practices.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "SEO score checker",
+        btnlink: "/free-seo-score-checker",
       },
       {
         title: "SEO Service",
@@ -2062,12 +2062,12 @@ const data = [
       {
         title: "SEO Web Design",
         txt: "Web design that incorporates SEO best practices for better rankings.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "Website Design",
+        btnlink: "/website-design-services",
       },
       {
         title: "Semantic Web Search",
-        txt: "A search method that understands context and intent rather than just matching keywords.",
+        txt: " A search method that understands context and intent rather than just matching keywords",
         btntxt: "",
         btnlink: "",
       },
@@ -2079,13 +2079,13 @@ const data = [
       },
       {
         title: "Semantic SEO",
-        txt: "The process of optimizing content to improve search engines' understanding of context and meaning rather than just keywords.",
+        txt: "The process of optimizing content to improve search engines’ understanding of context and meaning rather than just keywords.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Semantic SEO Service",
-        txt: "A specialized SEO service focused on improving a website's visibility by optimizing for meaning, intent, and topic clusters rather than just keywords.",
+        txt: "A specialized SEO service focused on improving a website’s visibility by optimizing for meaning, intent, and topic clusters rather than just keywords.",
         btntxt: "",
         btnlink: "",
       },
@@ -2116,14 +2116,14 @@ const data = [
       {
         title: "Shopify Development",
         txt: "The creation, customization, and enhancement of Shopify stores, including themes, apps, and functionality.",
-        btntxt: "Read More",
-        btnlink: "Shopify Development",
+        btntxt: "Shopify Development",
+        btnlink: "/shopify-website-development-services",
       },
       {
         title: "Shopify Developer",
         txt: "A professional who builds, customizes, and optimizes Shopify stores for businesses.",
-        btntxt: "Read More",
-        btnlink: "Shopify Development",
+        btntxt: "Shopify Development",
+        btnlink: "/shopify-website-development-services",
       },
       {
         title: "Shopify SEO",
@@ -2139,7 +2139,7 @@ const data = [
       },
       {
         title: "Sister Website",
-        txt: "A website that is owned by the same company or entity as another website, often sharing a similar brand, audience, or purpose but operating independently.",
+        txt: "A website that is owned by the same company or entity as another website, often sharing a similar brand, audience, or purpose but operating independently (e.g., different regional versions of a brand or complementary services)",
         btntxt: "",
         btnlink: "",
       },
@@ -2217,13 +2217,13 @@ const data = [
       },
       {
         title: "Stop Word",
-        txt: "Common articles, pronouns, and conjunctions that search engines may ignore.",
+        txt: 'Common articles, pronouns and conjunctions (e.g., "the," "and," "is") that search engines may ignore.',
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Sub Domain",
-        txt: "A section of a website that operates as a separate entity.",
+        txt: "A section of a website that operates as a separate entity (e.g., blog.example.com).",
         btntxt: "",
         btnlink: "",
       },
