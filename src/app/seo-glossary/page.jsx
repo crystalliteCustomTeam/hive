@@ -15,19 +15,19 @@ const data = [
         title: "Above the Fold",
         txt: "The top portion of a webpage is visible without scrolling, crucial for user engagement and SEO.",
         btntxt: "Above the fold",
-        btnlink: "https://www.infinitidigital.us/what-does-above-the-fold-mean",
+        btnlink: "/what-does-above-the-fold-mean",
       },
       {
         title: "Acquisition",
         txt: "In analytics, this refers to how users arrive at a website, categorized by channels like organic search, paid search, social media, and referrals.",
         btntxt: "Acquisition in SEO",
-        btnlink: "https://www.infinitidigital.us/acquisition-in-seo",
+        btnlink: "/what-is-acquisition-in-seo",
       },
       {
         title: "AI Content Detection",
         txt: "Tools that analyze content to determine if it’s AI-generated or human-written.",
         btntxt: "AI content detection",
-        btnlink: "https://www.infinitidigital.us/ai-content-detection",
+        btnlink: "/how-does-ai-content-detection-work",
       },
       {
         title: "AI SEO Tools",
@@ -39,7 +39,7 @@ const data = [
         title: "Ajax",
         txt: "A technology that allows web pages to update content dynamically without reloading the entire page.",
         btntxt: "Ajax",
-        btnlink: "https://www.infinitidigital.us/ajax",
+        btnlink: "/what-is-ajax",
       },
       {
         title: "Algorithm",
@@ -63,7 +63,7 @@ const data = [
         title: "Analytics",
         txt: "Tools that track and analyze website traffic, helping optimize performance and marketing efforts.",
         btntxt: "Analytics",
-        btnlink: "https://www.infinitidigital.us/analytics",
+        btnlink: "/what-is-analytics-and-how-does-it-work",
       },
       {
         title: "A Records",
@@ -247,7 +247,7 @@ const data = [
       },
       {
         title: "Child Domain",
-        txt: "A subdomain that exists under a primary domain, functioning as a separate entity while still being associated with the main domain.",
+        txt: "A subdomain that exists under a primary domain, functioning as a separate entity while still being associated with the main domain (e.g., blog.example.com is a child domain of example.com).",
         btntxt: "",
         btnlink: "",
       },
@@ -259,13 +259,13 @@ const data = [
       },
       {
         title: "Click Bait",
-        txt: "Sensationalized or misleading content designed to attract clicks.",
+        txt: "Sensationalized or misleading content such as an article, image or a video designed to attract clicks.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Click Per Search",
-        txt: "A metric that measures the average number of clicks a search query generates.",
+        txt: "A metric that measures the average number of clicks a search query generates, helping evaluate search intent and ad effectiveness.",
         btntxt: "",
         btnlink: "",
       },
@@ -288,14 +288,26 @@ const data = [
         btnlink: "",
       },
       {
+        title: "Comment Spam",
+        txt: "Useless, self-promotional comments with links, usually dumped by bots (or desperate marketers).",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
         title: "Competition",
-        txt: "SEO competition is when websites are fighting for the same keywords, rankings, and traffic.",
+        txt: "SEO competition is when websites are fighting for the same keywords, rankings, and traffic as you.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Content",
-        txt: "The material on a website, including articles, images, videos, and interactive elements.",
+        txt: "The material on a website, including articles, images, videos, interactive elements, or other media published on a website.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Content is King",
+        txt: "The classic SEO mantra emphasizing that high-quality content is the key to rankings and engagement.",
         btntxt: "",
         btnlink: "",
       },
@@ -307,7 +319,7 @@ const data = [
       },
       {
         title: "Content Syndication",
-        txt: "The process of republishing content on third-party websites to reach a broader audience.",
+        txt: "The process of republishing content on third-party websites to reach a broader audience and drive traffic back to the original source.",
         btntxt: "",
         btnlink: "",
       },
@@ -325,25 +337,31 @@ const data = [
       },
       {
         title: "Conversion Events",
-        txt: "Specific user actions tracked on a website, such as form submissions, purchases, or sign-ups.",
+        txt: "Specific user actions tracked on a website or app that indicate progress toward a goal, such as form submissions, purchases, or sign-ups.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Conversion Rate",
-        txt: "The percentage of users who complete a desired action compared to total visitors.",
+        txt: "The percentage of users who complete a desired action compared to total visitors, higher is better.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Conversion Tracking",
-        txt: "Monitoring user actions after interacting with an ad or website.",
+        txt: "The process of monitoring and analyzing user actions after they interact with an ad or website, helping measure campaign effectiveness.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "Core Web Vitals",
         txt: "A set of Google page experience metrics: Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Cost Per Sale",
+        txt: "Cost Per Click, a digital advertising metric that represents the amount paid for each click on an ad, commonly used in PPC campaigns.",
         btntxt: "",
         btnlink: "",
       },
@@ -356,6 +374,12 @@ const data = [
       {
         title: "Crawl Budget",
         txt: "The number of pages Googlebot crawls on a site within a specific timeframe.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Crawl Error",
+        txt: "When a search engine bot fails to access a webpage, potentially hurting your rankings.",
         btntxt: "",
         btnlink: "",
       },
@@ -474,7 +498,7 @@ const data = [
         btnlink: "",
       },
       {
-        title: "DuckDuckGo",
+        title: "DuckDuck Go",
         txt: "A privacy-focused search engine that doesn’t track users.",
         btntxt: "",
         btnlink: "",
@@ -546,6 +570,48 @@ const data = [
         btnlink: "",
       },
       {
+        title: "Entity Recognition in SEO",
+        txt: "Identification of key entities in search queries, could be AI driven.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Entity SEO",
+        txt: "Optimizing for Google’s understanding of topics, relationships, and sentiments not just keywords.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Events",
+        txt: "User interactions tracked on a website, such as clicks, form submissions, or video plays.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Event Tags",
+        txt: "Snippets of code that categorize and label specific user interactions for tracking in analytics tools.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Event Tracking",
+        txt: "A method in analytics that monitors user interactions with specific website elements, such as button clicks, downloads, video plays, and form submissions.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Event Triggers",
+        txt: "Conditions that activate event tracking when a user performs a specific action, like clicking a button.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Event Variables",
+        txt: "Dynamic values associated with events, providing context such as click text, URL, or time spent before interaction.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
         title: "Exact Match Keywords",
         txt: "Keywords that match a search query exactly, sometimes to the point of sounding robotic.",
         btntxt: "",
@@ -582,6 +648,12 @@ const data = [
         btnlink: "",
       },
       {
+        title: "Fetch as Google",
+        txt: "A Google Search Console tool for indexing new pages.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
         title: "Findability",
         txt: "How easily users (and Google) can track down your content. If they can’t, you’re basically invisible.",
         btntxt: "",
@@ -602,6 +674,12 @@ const data = [
       {
         title: "Footer Link",
         txt: "A link buried at the bottom of a page which is sometimes useful, sometimes just SEO padding.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Footprint",
+        txt: "A pattern in SEO strategies that search engines can detect.",
         btntxt: "",
         btnlink: "",
       },
@@ -728,6 +806,42 @@ const data = [
       {
         title: "Google Search Console",
         txt: "A free tool for monitoring website performance in search results and indexing insights.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Google SEO",
+        txt: "The process of optimizing a website to rank higher in Google’s search results using organic strategies.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Google SEO Agency",
+        txt: "A company specializing in improving website rankings on Google through SEO services.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Google SEO Consultant",
+        txt: "An SEO professional who provides expert advice and strategies for improving a website’s visibility on Google.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Google SEO Expert",
+        txt: "An individual with extensive knowledge and experience in optimizing websites for Google’s search algorithm.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "Google SEO Service",
+        txt: "A range of SEO solutions designed to improve a website’s ranking and visibility specifically on Google.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
+        title: "GTM",
+        txt: "Google Tag Manager, a tool that simplifies adding and managing marketing tags (like tracking codes and pixels) on a website without modifying the site’s code directly.",
         btntxt: "",
         btnlink: "",
       },
@@ -1202,14 +1316,14 @@ const data = [
       {
         title: "Local SEO",
         txt: "Optimizing for location based searches, including Google Business Profile optimization.",
-        btntxt: "Read More",
-        btnlink: "Local SEO",
+        btntxt: "Local SEO",
+        btnlink: "/what-is-local-seo",
       },
       {
         title: "Local SEO Agency",
         txt: "A company specializing in improving local search rankings for businesses.",
-        btntxt: "Read More",
-        btnlink: "Local SEO Agency",
+        btntxt: "Local SEO Agency",
+        btnlink: "/local-seo-service",
       },
       {
         title: "Local SEO Consultant",
@@ -2259,7 +2373,6 @@ const data = [
   },
 ];
 
-
 const Page = () => {
   const [activeLetter, setActiveLetter] = useState("");
 
@@ -2311,7 +2424,7 @@ const Page = () => {
               </p>
             </Col>
             <Col lg={12}>
-              <CTAFrom />
+              <CTAFrom tit="SEO is the Cheat Code, Sign Up to Unlock It!" />
             </Col>
           </Row>
         </Container>
@@ -2346,7 +2459,7 @@ const Page = () => {
                           <p>{list.txt}</p>
                           {list.btnlink !== "" ? (
                             <div className={styles.glossaryLink}>
-                              Read More
+                              Read More :
                               <Link href={list.btnlink}>{list.btntxt}</Link>
                             </div>
                           ) : null}
