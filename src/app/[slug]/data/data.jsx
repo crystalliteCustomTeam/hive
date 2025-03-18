@@ -36,6 +36,8 @@ const stateCounterPost1 = [
 ];
 export const BlogData = [
   {
+    tit:"What Does Above The Fold Mean",
+    description:"",
     slug: "what-does-above-the-fold-mean",
     title: "What Does Above The Fold Mean",
     img: Post1.src,
@@ -150,6 +152,8 @@ export const BlogData = [
     ),
   },
   {
+    tit:"What is Acquisition in SEO",
+    description:"",
     slug: "what-is-acquisition-in-seo",
     title: "What is Acquisition in SEO",
     img: Post1.src,
@@ -338,6 +342,8 @@ export const BlogData = [
     ),
   },
   {
+    tit:"How Does AI Content Detection Work",
+    description:"",
     slug: "how-does-ai-content-detection-work",
     title: "How Does AI Content Detection Work",
     img: Post1.src,
@@ -427,6 +433,8 @@ export const BlogData = [
     ),
   },
   {
+    tit:"What is AJAX?",
+    description:"",
     slug: "what-is-ajax",
     title: "What is AJAX?",
     img: Post1.src,
@@ -489,6 +497,8 @@ export const BlogData = [
     ),
   },
   {
+    tit:"What is Analytics and How Does it Work",
+    description:"",
     slug: "what-is-analytics-and-how-does-it-work",
     title: "What is Analytics and How Does it Work",
     img: Post1.src,

@@ -1,21 +1,25 @@
-
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "About Us - Infiniti Digital",
-  description: "Infiniti Digital has a history of serving clients with top digital marketing services. Our misson is to scale and grow businesses ",
+  title: "Infiniti Digital",
+  description: "",
   //===== OG Tags =====
   openGraph: {
-    title: "About Us - Infiniti Digital",
-    description: "Infiniti Digital has a history of serving clients with top digital marketing services. Our misson is to scale and grow businesses ",
-    url: '/about-us',
+    title: " Infiniti Digital",
+    description: "",
+    url: '/',
     siteName: "Inifniti Digital",
     locale: 'en_US',
     type: 'website',
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: '/about-us' },
+  alternates: { canonical: '/' },
+    //===== No-Index =====
+    robots: {
+      index: false,
+      follow: false,
+    },
 }
 
 
