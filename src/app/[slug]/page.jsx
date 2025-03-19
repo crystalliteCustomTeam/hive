@@ -1,13 +1,11 @@
-
 import { BlogData } from "@/src/app/[slug]/data/data";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 
-export async function generateMetadata({ params  }) {
+export async function generateMetadata({ params }) {
   const { slug } = await params; // ✅ Await params properly
   const blog = BlogData.find((post) => post.slug === slug);
-
 
   if (!blog) {
     return {
@@ -32,16 +30,23 @@ export async function generateMetadata({ params  }) {
   };
 }
 
-
-const Page = async  ({ params }) => {
+const Page = async ({ params }) => {
   const { slug } = await params;
   const blog = BlogData.find((post) => post.slug === slug);
 
   if (!blog) {
-    return <h1>Blog Not Found</h1>;
+    return;
+    <section className={styles.singlePost}>
+      <Container>
+        <Row>
+          <Col md={12}>
+            <h1>Blog Not Found</h1>
+          </Col>
+        </Row>
+      </Container>
+    </section>;
   }
 
-  
   return (
     <>
       <section className={styles.singlePost}>
