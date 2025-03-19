@@ -36,18 +36,17 @@ const stateCounterPost1 = [
 ];
 export const BlogData = [
   {
-    tit:"What Does Above The Fold Mean - Infiniti Digital",
-    description:"Learn what does above the fold means and make your concepts right through our blog. Get a quote today!",
+    tit: "What Does Above The Fold Mean - Infiniti Digital",
+    description:
+      "Learn what does above the fold means and make your concepts right through our blog. Get a quote today!",
     slug: "what-does-above-the-fold-mean",
     title: "What Does Above The Fold Mean",
     img: Post1.src,
     picpara: (
       <>
-        <i>
-          Picture this: You click on a website, and before you even scroll, what
-          you see either grabs your attention, or makes you want to leave. That
-          first screenful of content? That’s what we call above the fold.
-        </i>
+        <i>Picture this: </i>You click on a website, and before you even scroll,
+        what you see either grabs your attention, or makes you want to leave.
+        That first screenful of content? That’s what we call above the fold.
       </>
     ),
     maintxt: (
@@ -116,9 +115,13 @@ export const BlogData = [
             A compelling headline that grabs attention immediately. A clear CTA
           </li>
           <li>
-            like &quot;Sign Up,&quot; &quot;Shop Now,&quot; or &quot;Get Started.&quot; Eye catching visuals;
+            like &quot;Sign Up,&quot; &quot;Shop Now,&quot; or &quot;Get
+            Started.&quot;
           </li>
-          <li>Product images, explainer videos, or a sleek hero section.</li>
+          <li>
+            Eye catching visuals; Product images, explainer videos, or a sleek
+            hero section.
+          </li>
         </ul>
         <p>
           The goal is to hook visitors instantly and make it effortless for them
@@ -128,7 +131,7 @@ export const BlogData = [
         <p>
           Absolutely! While scrolling is second nature now, above the fold
           content still sets the tone. It determines whether users stick around,
-          or bounce
+          or bounce.
         </p>
         <h2>Final Thoughts</h2>
         <p>
@@ -152,8 +155,9 @@ export const BlogData = [
     ),
   },
   {
-    tit:"What is Acquisition in SEO? - Infiniti Digital",
-    description:"Drive traffic to your website by getting to know about what acquisition in SEO is and how it benefits your business. Contact us now!",
+    tit: "What is Acquisition in SEO? - Infiniti Digital",
+    description:
+      "Drive traffic to your website by getting to know about what acquisition in SEO is and how it benefits your business. Contact us now!",
     slug: "what-is-acquisition-in-seo",
     title: "What is Acquisition in SEO",
     img: Post1.src,
@@ -213,7 +217,7 @@ export const BlogData = [
             lead to higher sales and engagement.
           </li>
           <li>
-            mproves search engine rankings; more traffic and engagement signal
+            Improves search engine rankings; more traffic and engagement signal
             to search engines that your website is valuable, improving rankings.
           </li>
         </ul>
@@ -283,7 +287,7 @@ export const BlogData = [
         <div className="table-responsive">
           <table className="table table-bordered table-striped">
             <thead>
-              <tr>
+              <tr align="center">
                 <th>Metric</th>
                 <th>Description</th>
               </tr>
@@ -342,8 +346,9 @@ export const BlogData = [
     ),
   },
   {
-    tit:"How Does AI Content Detection Work? - Infiniti Digital",
-    description:"Find out what AI content detection is and how these models use technology to identify AI content. Get a quote today!",
+    tit: "How Does AI Content Detection Work? - Infiniti Digital",
+    description:
+      "Find out what AI content detection is and how these models use technology to identify AI content. Get a quote today!",
     slug: "how-does-ai-content-detection-work",
     title: "How Does AI Content Detection Work",
     img: Post1.src,
@@ -433,8 +438,9 @@ export const BlogData = [
     ),
   },
   {
-    tit:"What is Ajax - Infiniti Digital",
-    description:"Curious to know about ajax in SEO? Well, then you are in the right place as this blog covers all the details you need to know about ajax.",
+    tit: "What is Ajax - Infiniti Digital",
+    description:
+      "Curious to know about ajax in SEO? Well, then you are in the right place as this blog covers all the details you need to know about ajax.",
     slug: "what-is-ajax",
     title: "What is AJAX?",
     img: Post1.src,
@@ -497,8 +503,9 @@ export const BlogData = [
     ),
   },
   {
-    tit:"What is Analytics And How Does it Work? - Infiniti Digital",
-    description:"If you want to know about google analytics + how does it work then read this blog. Contact us today and get your quote!",
+    tit: "What is Analytics And How Does it Work? - Infiniti Digital",
+    description:
+      "If you want to know about google analytics + how does it work then read this blog. Contact us today and get your quote!",
     slug: "what-is-analytics-and-how-does-it-work",
     title: "What is Analytics and How Does it Work",
     img: Post1.src,
@@ -538,21 +545,21 @@ export const BlogData = [
         </p>
         <ol>
           <li>
-            <strong>Data Collection</strong>– The tool gathers raw data from
+            <strong>Data Collection</strong> – The tool gathers raw data from
             various sources like websites, apps, social media, and digital ads.
           </li>
           <li>
-            <strong>Processing & Organization</strong>– The data is sorted and
+            <strong>Processing & Organization</strong> – The data is sorted and
             categorized based on predefined metrics, such as page views, bounce
             rates, or conversion rates.
           </li>
           <li>
-            <strong>Data Analysis</strong>– The tool applies statistical models
+            <strong>Data Analysis</strong> – The tool applies statistical models
             and algorithms to identify trends, correlations, and performance
             gaps.
           </li>
           <li>
-            <strong>Visualization & Reporting</strong>– The processed data is
+            <strong>Visualization & Reporting</strong> – The processed data is
             presented in dashboards and reports, making it easier to interpret
             and use for decision-making.
           </li>
@@ -566,32 +573,41 @@ export const BlogData = [
         </p>
         <ul>
           <li>
-            Traffic Analysis – Understand where your visitors are coming from
-            (organic search, social media, direct traffic).
+            <strong>Traffic Analysis</strong> – Understand where your visitors
+            are coming from (organic search, social media, direct traffic).
           </li>
 
           <li>
-            Keyword Performance – Identify which search queries are driving
-            traffic to your site.
+            <strong>Keyword Performance</strong> – Identify which search queries
+            are driving traffic to your site.
           </li>
           <li>
-            User Behavior Tracking – Analyze bounce rate, session duration, and
-            engagement metrics to refine SEO strategies.
+            <strong> User Behavior Tracking</strong> – Analyze bounce rate,
+            session duration, and engagement metrics to refine SEO strategies.
           </li>
           <li>
-            Conversion Tracking – Measure how well organic traffic converts into
-            leads or sales.
+            <strong>Conversion Tracking</strong> – Measure how well organic
+            traffic converts into leads or sales.
           </li>
           <li>
-            Site Speed & Performance – Identify technical issues that could be
-            affecting SEO rankings.
+            <strong>Site Speed & Performance</strong> – Identify technical
+            issues that could be affecting SEO rankings.
           </li>
         </ul>
-        <p>By leveraging GA4, businesses can make data driven decisions to optimize their SEO efforts and improve search rankings.</p>
+        <p>
+          By leveraging GA4, businesses can make data driven decisions to
+          optimize their SEO efforts and improve search rankings.
+        </p>
         <div className="centerBtn">
           <CommonBtn txt="Get Your Custom Analytics Report Starting at $199/Mo" />
         </div>
-        <p><i>Reach out to us at Infiniti Digital for <Link href="/seo-service">seo services</Link> or strategy consultation.</i></p>
+        <p>
+          <i>
+            Reach out to us at Infiniti Digital for{" "}
+            <Link href="/seo-service">seo services</Link> or strategy
+            consultation.
+          </i>
+        </p>
       </>
     ),
   },

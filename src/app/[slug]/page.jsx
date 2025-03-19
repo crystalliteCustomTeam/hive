@@ -17,10 +17,10 @@ export async function generateMetadata({ params  }) {
 
   return {
     title: blog.tit,
-    description: blog.desc,
+    description: blog.description,
     openGraph: {
       title: blog.tit,
-      description: blog.desc,
+      description: blog.description,
       url: blog.slug,
       siteName: "Inifniti Digital",
       locale: "en_US",
