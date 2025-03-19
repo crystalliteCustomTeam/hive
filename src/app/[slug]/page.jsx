@@ -1,11 +1,12 @@
-import { use } from "react"; // Import `use()` from React
+
 import { BlogData } from "@/src/app/[slug]/data/data";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 
 export async function generateMetadata({ params  }) {
-  const blog = BlogData.find((post) => post.slug === params.slug);
+  const { slug } = await params; // ✅ Await params properly
+  const blog = BlogData.find((post) => post.slug === slug);
 
 
   if (!blog) {
@@ -32,8 +33,8 @@ export async function generateMetadata({ params  }) {
 }
 
 
-const Page = ({ params }) => {
-  const { slug } = params; 
+const Page = async  ({ params }) => {
+  const { slug } = await params;
   const blog = BlogData.find((post) => post.slug === slug);
 
   if (!blog) {

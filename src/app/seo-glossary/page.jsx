@@ -348,6 +348,12 @@ const data = [
         btnlink: "",
       },
       {
+        title: "Conversion Rate Optimization",
+        txt: "Enhancing website elements to increase the percentage of visitors who take desired actions.",
+        btntxt: "",
+        btnlink: "",
+      },
+      {
         title: "Conversion Tracking",
         txt: "The process of monitoring and analyzing user actions after they interact with an ad or website, helping measure campaign effectiveness.",
         btntxt: "",
@@ -361,13 +367,13 @@ const data = [
       },
       {
         title: "Cost Per Sale",
-        txt: "Cost Per Click, a digital advertising metric that represents the amount paid for each click on an ad, commonly used in PPC campaigns.",
+        txt: "A pricing model where advertisers pay a commission only when a sale is made through their ad or affiliate link.",
         btntxt: "",
         btnlink: "",
       },
       {
         title: "CPC",
-        txt: "Cost Per Click, a digital advertising metric that represents the amount paid for each click on an ad.",
+        txt: "Cost Per Click, a digital advertising metric that represents the amount paid for each click on an ad, commonly used in PPC campaigns.",
         btntxt: "",
         btnlink: "",
       },
@@ -1778,7 +1784,7 @@ const data = [
       },
       {
         title: "Question Keywords",
-        txt: "Search queries phrased as questions, typically including words like &quot;what,&quot; &quot;how,&quot; &quot;why,&quot; or &quot;where.&quot;",
+        txt: 'Search queries phrased as questions, typically including words like “what,” “how,” “why,” or “where.”',
         btntxt: "",
         btnlink: "",
       },
@@ -1954,8 +1960,8 @@ const data = [
       {
         title: "SEO Agency",
         txt: "A company that specializes in providing SEO services.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "SEO Agency",
+        btnlink: "/seo-agency",
       },
       {
         title: "SEO Business",
@@ -2044,7 +2050,7 @@ const data = [
       {
         title: "SEO Score",
         txt: "A numerical representation of how well a website follows SEO best practices.",
-        btntxt: "SEO score checker",
+        btntxt: "Free SEO Score Checker",
         btnlink: "/free-seo-score-checker",
       },
       {
@@ -2139,7 +2145,7 @@ const data = [
       },
       {
         title: "Sister Website",
-        txt: "A website that is owned by the same company or entity as another website, often sharing a similar brand, audience, or purpose but operating independently (e.g., different regional versions of a brand or complementary services)",
+        txt: "A website that is owned by the same company or entity as another website, often sharing a similar brand, audience, or purpose but operating independently (e.g., different regional versions of a brand or complementary services).",
         btntxt: "",
         btnlink: "",
       },
