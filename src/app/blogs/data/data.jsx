@@ -27,6 +27,7 @@ export const BlgosData = {
             txt: "Paper spreadsheets, endless emails, and manual processes slowing you down? Let’s bring your business into the future.",
             category: "Digital Transformation",
             img: IMG01.src,
+            link:"/post-1"
         },
         {
             title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
@@ -35,6 +36,8 @@ export const BlgosData = {
             txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
             category: "Content Marketing",
             img: IMG02.src,
+            link:"/post-2"
+
         }, {
             title: "Stop Wasting Money on Ads That Don’t Work",
             date: "03 Jan, 2025",
@@ -42,6 +45,7 @@ export const BlgosData = {
             txt: "Struggling to see results from your ad spend? Let’s talk about the strategies that actually get clicks and conversions.",
             category: "Paid Marketing",
             img: IMG03.src,
+            link:"post-3"
         }
         , {
             title: "Why Does Your App Look Like It’s Stuck in 2010?",
@@ -50,6 +54,7 @@ export const BlgosData = {
             txt: "Users are ditching outdated apps faster than you can say “uninstall.” We’re here to help you design apps that look sharp, work like magic, and keep people hooked.",
             category: "Mobile App Design",
             img: IMG04.src,
+            link:"post-4"
         }
         , {
             title: "Your Website Isn’t Invisible—It’s Just Lost",
@@ -58,6 +63,7 @@ export const BlgosData = {
             txt: "You spent time building a beautiful website, but where’s the traffic? Learn how to fix what’s holding you back (hello, bad keywords, and slow speeds) and get found by those who matter.",
             category: "SEO",
             img: IMG05.src,
+            link:"post-5"
         }
         , {
             title: "Why Does Your Website Take Forever to Load?",
@@ -66,6 +72,7 @@ export const BlgosData = {
             txt: "Slow websites, outdated designs, and confusing layouts are costing you customers. We’ll show you how to build a site that’s fast, easy to use, and impossible to forget. ",
             category: "Web Development",
             img: IMG06.src,
+            link:"post-6"
         }
     ]
 

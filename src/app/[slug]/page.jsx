@@ -4,7 +4,7 @@ import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 
 export async function generateMetadata({ params }) {
-  const { slug } = await params; // ✅ Await params properly
+  const { slug } = await params; 
   const blog = BlogData.find((post) => post.slug === slug);
 
   if (!blog) {

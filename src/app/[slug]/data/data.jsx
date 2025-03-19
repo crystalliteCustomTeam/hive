@@ -111,12 +111,10 @@ export const BlogData = [
           elements to encourage user action, such as:
         </p>
         <ul>
+          <li>A compelling headline that grabs attention immediately.</li>
           <li>
-            A compelling headline that grabs attention immediately. A clear CTA
-          </li>
-          <li>
-            like &quot;Sign Up,&quot; &quot;Shop Now,&quot; or &quot;Get
-            Started.&quot;
+            A clear CTA like &quot;Sign Up,&quot; &quot;Shop Now,&quot; or
+            &quot;Get Started.&quot;
           </li>
           <li>
             Eye catching visuals; Product images, explainer videos, or a sleek

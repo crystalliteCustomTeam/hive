@@ -35,7 +35,7 @@ const Banner = ({ data, bgtxt, web }) => {
                                 loading="eager"
                                 poster={data.BannerPoster}
                             >
-                                <source src={data.video} type="video/mp4" />
+                                <source src={data?.video} type="video/mp4" />
                             </video>
                         </div>
                     </Col>

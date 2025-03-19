@@ -338,19 +338,19 @@ export const TestimonialData = {
     desc: "Curious about how we’re transforming businesses? Our clients share their experiences with our iOS app development services. Here’s what they have to say:",
     Testslider: [
         {
-            txt: "Infiniti Digital's iOS app development exceeded all expectations. They transformed our ideas into a stunning app with smooth functionality. The team understood our needs and delivered beyond expectations. We're seeing increased user engagement and sales—thank you for making our vision a reality. I highly recommend them for any app development project!",
+            txt: "Infiniti Digital’s iOS app development exceeded all expectations. They transformed our ideas into a stunning app with smooth functionality. The team understood our needs and delivered beyond expectations. We’re seeing increased user engagement and sales—thank you for making our vision a reality. I highly recommend them for any app development project!",
             icon: <ClutchLogo />,
             namee: "Mark Johnson",
             job: "Founder of E-Commerce Entrepreneur",
         },
         {
-            txt: "Working with Infiniti Digital was a game-changer for our business. They crafted a user-friendly iOS app that perfectly matches our brand. The design and performance were flawless, and their team informed us throughout the process. We've significantly increased app downloads, and customers love the seamless experience!",
+            txt: "Working with Infiniti Digital was a game-changer for our business. They crafted a user-friendly iOS app that perfectly matches our brand. The design and performance were flawless, and their team informed us throughout the process. We’ve significantly increased app downloads, and customers love the seamless experience!",
             icon: <TrustpilotLogo />,
             namee: "Sarah Mitchell",
             job: "COO of Small Business Owner",
         },
         {
-            txt: "Infiniti Digital helped us launch our iOS app on time and within budget. They captured our vision and turned it into an intuitive, feature-rich product. The performance is top-notch, and we’ve seen a dramatic increase in our app's downloads and usage. Their team is dedicated, skilled, and a pleasure to work with.",
+            txt: "Infiniti Digital helped us launch our iOS app on time and within budget. They captured our vision and turned it into an intuitive, feature-rich product. The performance is top-notch, and we’ve seen a dramatic increase in our app’s downloads and usage. Their team is dedicated, skilled, and a pleasure to work with.",
             icon: <GoogleLogo />,
             namee: "Tom Roberts",
             job: "Co-Founder of SaaS",
@@ -380,7 +380,7 @@ export const FAQsData = {
     Fqaslist: [
         {
             title: "What is iOS app development?",
-            txt: "iOS app development is creating mobile applications specifically for Apple's iOS platform. It involves designing, coding, and testing apps to ensure they function smoothly on iPhones and iPads. The goal is to create an engaging user experience that aligns with your business objectives and enhances your brand."
+            txt: "iOS app development is creating mobile applications specifically for Apple’s iOS platform. It involves designing, coding, and testing apps to ensure they function smoothly on iPhones and iPads. The goal is to create an engaging user experience that aligns with your business objectives and enhances your brand."
         },
         {
             title: "How long does it take to develop an iOS app?",

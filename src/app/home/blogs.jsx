@@ -25,7 +25,7 @@ const Blogs = ({ data, blogPage }) => {
                                 </div>
                                 <div className={styles.blogTxt}>
                                     <div className={styles.categoryItem}>{item.category}</div>
-                                    <h5>{item.title}</h5>
+                                    <h5><Link href={item.link}>{item.title}</Link></h5>
                                     <div className={styles.datatime}>{item.date} . {item.time}</div>
                                     <p>{item.txt}</p>
                                 </div>
