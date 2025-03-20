@@ -399,9 +399,15 @@ p {
   text-align: center;
   margin: 40px 0px;
 }
-.centerImg{
-    border: 1px solid rgb(0, 0, 0, 0.05);
-    margin-bottom: 20px;
+.blogCenterImg{
+  position: relative;
+  min-height: 500px;
+  height: auto; margin-bottom: 20px;
+  .centerImg{
+    object-fit: contain;
+    object-position: left;
+    
+  }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   body {

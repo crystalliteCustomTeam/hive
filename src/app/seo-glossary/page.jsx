@@ -2643,7 +2643,7 @@ const Page = () => {
               className={`${styles.glossaryBox} text-center`}
             >
               <div className={styles.glossaryTxt}>
-                <h1>SEO Glossary: 400 SEO Terms Explained</h1>
+                <h1>SEO Glossary: 400+ SEO Terms Explained</h1>
               </div>
             </Col>
             <Col md={12}>
