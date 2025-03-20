@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 import TableOfContents from "./components/tablecontent";
-import ContactFrom from "../components/contactfrom";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -60,21 +59,18 @@ const Page = async ({ params }) => {
           <Container>
             <Row>
               <Col md={12}>
-              <div className={styles.flexCategory}>
-                <div>{blog.category}</div>
-                <div>{blog.date}</div>
-              </div>
+                <div className={styles.flexCategory}>
+                  <div>{blog.category}</div>
+                  <div>{blog.date}</div>
+                </div>
                 <h1>{blog.title}</h1>
               </Col>
               <Col md={7} lg={7} xl={8} className="order-2 order-md-1">
                 <div className={styles.mainSection}>{blog.maintxt}</div>
               </Col>
-              <Col md={5} lg={5} xl={4} className="order-1 order-md-2"> 
-                <div className={styles.blogsideBar} >
+              <Col md={5} lg={5} xl={4} className="order-1 order-md-2">
+                <div className={styles.blogsideBar}>
                   <TableOfContents tableContent={blog.tableContent} />
-                    <br/>
-                   
-                  <ContactFrom sidebar={true}/>
                 </div>
               </Col>
             </Row>

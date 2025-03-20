@@ -115,8 +115,20 @@ body {
       transform: scale(1.01);
       transition: background 0.3s ease, transform 0.3s ease;
     }
+    
   }
+  &.purpleBg {
+    background: linear-gradient(9.84deg, #ffffff -12.54%, #7635ff 103.72%);
+    color: #000;
 
+    &:hover {
+      background: #7635ff;
+      color: #fff;
+      transform: scale(1.01);
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    
+  }
   &:hover {
     background: linear-gradient(9.84deg, #9aff35 -12.54%, #ffffff 103.72%);
     transform: scale(1.01);

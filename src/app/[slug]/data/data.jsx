@@ -739,7 +739,7 @@ export const PostData = [
             nearby.
           </p>
           <div className="centerBtn">
-            <CommonBtn txt="Get Started with Local SEO" />
+            <CommonBtn txt="Get Started with Local SEO"  purple={true}/>
           </div>
         </div>
         <div id="Section-2">
@@ -771,8 +771,8 @@ export const PostData = [
             results:
           </p>
           <p>
-            1. Google Local Pack (Map Results) – The top three businesses with
-            reviews, hours, and locations.
+          <strong>1. Google Local Pack (Map Results) – The top three businesses with
+            reviews, hours, and locations.</strong>
           </p>
           <div className="blogCenterImg">
             <Image
@@ -783,8 +783,8 @@ export const PostData = [
             />
           </div>
           <p>
-            2. Organic Search Results – Business websites optimized for local
-            SEO.
+          <strong>2. Organic Search Results – Business websites optimized for local
+            SEO.</strong>
           </p>
           <div className="blogCenterImg">
             <Image
@@ -794,7 +794,7 @@ export const PostData = [
               fill
             />
           </div>
-          <p>3. Paid Ads – Google Ads targeting local keywords.</p>
+          <p><strong>3. Paid Ads – Google Ads targeting local keywords.</strong></p>
           <div className="blogCenterImg">
             <Image
               src={localseo3.src}
@@ -828,7 +828,7 @@ export const PostData = [
             </li>
           </ul>
           <div className="centerBtn">
-            <CommonBtn txt="Get Started with Google Local Ads" />
+            <CommonBtn txt="Get Started with Google Local Ads" purple={true}/>
           </div>
         </div>
         <div id="Section-5">
@@ -1014,7 +1014,7 @@ export const PostData = [
             are searching on the go, often with immediate intent.
           </p>
           <div className="centerBtn">
-            <CommonBtn txt="Get Started with Local SEO" />
+            <CommonBtn txt="Get Started with Local SEO" purple={true}/>
           </div>
         </div>
         <div id="Section-6">

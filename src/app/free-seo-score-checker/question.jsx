@@ -167,7 +167,7 @@ const Question = () => {
         body: JSON.stringify({ data: userData }),
       });
 
-      setMessage("Submission successful!");
+      setMessage("Got it! Your SEO score is on its way to your inbox.");
       setName("");
       setRecipient("");
       setPhone("");
@@ -218,7 +218,7 @@ const Question = () => {
                   <p className={styles.messageSuccessfully}>{message}</p>
                 ) : (
                   <>
-                    <h3>Your answers are complete!</h3>
+                    <h3>Get Results by Email!</h3>
                     <Form onSubmit={handleSubmit}>
                       <Form.Group controlId="name">
                         <Form.Control

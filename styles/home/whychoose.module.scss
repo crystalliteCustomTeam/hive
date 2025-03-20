@@ -58,6 +58,10 @@
                 letter-spacing: -0.165px;
                 color: #FFFFFF;
                 margin-bottom: 50px;
+                a{
+                    color: #fff;
+                    font-weight: 500;
+                                   }
             }
         }
 
@@ -107,6 +111,13 @@
 
                 .txt {
                     color: #000;
+                    a{
+                    color: #000;
+                    &:hover{
+                        font-weight: 600;
+                    }
+
+                    }
                 }
             }
         }
