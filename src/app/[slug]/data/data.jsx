@@ -1,4 +1,4 @@
-import Post1 from "media/seo/BannerImg.webp";
+import Post1 from "media/seo-glossary/BannerImg.webp";
 import Link from "next/link";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 import CustomPrice from "@/src/app/[slug]/components/postprice";
@@ -633,6 +633,8 @@ export const PostData = [
       { title: "What is a Local SEO Service?" },
       { title: "Is Doing Local SEO Worth It?" },
     ],
+    category: "SEO",
+    date: "20 Mar, 2025",
     tit: "What is Local SEO & Its Importance in 2025",
     description:
       "Ever heard the term “Local SEO” but don’t know about what it is or its importance? Then we will help clear all your concepts in this blog about local SEO.",
@@ -675,7 +677,7 @@ export const PostData = [
             searches for “best pizza near me,” they won’t just see a list of
             popular pizza places across the city. Instead, Google’s algorithm
             will check for three main ranking factors; proximity, relevance and
-            prominence.{" "}
+            prominence.
           </p>
           <p>
             Google’s mission is simple: connect users with the most relevant and
@@ -705,7 +707,7 @@ export const PostData = [
             websites, citations across online directories, and overall online
             engagement. A business with a strong online presence, positive
             customer feedback, and high engagement levels is more likely to rank
-            higher in search results
+            higher in search results.
           </p>
           <p>
             These local ranking factors collectively determine whether a
@@ -1042,7 +1044,7 @@ export const PostData = [
             search results and be discovered by people who are likely to become
             customers in your area.
           </p>
-          <p>Key performance indicators for local SEO generally include:</p>
+          <p><i>Key performance indicators for local SEO generally include:</i></p>
           <ul>
             <li>
               <strong>Search visibility:</strong> How often the business appears
@@ -1081,7 +1083,7 @@ export const PostData = [
             engine results pages when people search for location-specific
             queries, such as “best coffee shop near me” or “plumbing services in
             NYC.” As a result, your online visibility increases, making it
-            easier for potential customers in your area to find you
+            easier for potential customers in your area to find you.
           </p>
           <h3>More Foot Traffic</h3>
           <p>
@@ -1130,9 +1132,9 @@ export const PostData = [
           </p>
           <p>
             Ready to stand out in your industry? It’s time to get started with
-            local SEO! But first,
+            local SEO! But first, {" "}
             <Link href="/free-seo-score-checker">
-              check your website’s seo score for free.
+               check your website’s seo score for free.
             </Link>
           </p>
         </div>

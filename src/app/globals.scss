@@ -399,14 +399,14 @@ p {
   text-align: center;
   margin: 40px 0px;
 }
-.blogCenterImg{
+.blogCenterImg {
   position: relative;
   min-height: 500px;
-  height: auto; margin-bottom: 20px;
-  .centerImg{
+  height: auto;
+  margin-bottom: 20px;
+  .centerImg {
     object-fit: contain;
     object-position: left;
-    
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -535,6 +535,17 @@ p {
       }
     }
   }
+  // Blog Page Css
+  .PostImg {
+    height: 380px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 35px 0px;
+  }
+  .blogCenterImg {
+    min-height: 450px;
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -662,6 +673,17 @@ p {
         width: 20px;
       }
     }
+  }
+  // Blog Page Css
+  .PostImg {
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 30px 0px;
+  }
+  .blogCenterImg {
+    min-height: 400px;
   }
 }
 
@@ -792,6 +814,17 @@ p {
       }
     }
   }
+  // Blog Page Css
+  .PostImg {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 25px 0px;
+  }
+  .blogCenterImg {
+    min-height: 350px;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
@@ -920,6 +953,18 @@ p {
       }
     }
   }
+  
+  // Blog Page Css
+  .PostImg {
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 25px 0px;
+  }
+  .blogCenterImg {
+    min-height: 320px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
@@ -1047,6 +1092,17 @@ p {
         width: 16px;
       }
     }
+  }
+  // Blog Page Css
+  .PostImg {
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 25px 0px;
+  }
+  .blogCenterImg {
+    min-height: 250px;
   }
 }
 
@@ -1192,6 +1248,17 @@ p {
       }
     }
   }
+  // Blog Page Css
+  .PostImg {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 25px 0px;
+  }
+  .blogCenterImg {
+    min-height: 200px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1305,5 +1372,16 @@ p {
         width: 16px;
       }
     }
+  }
+  // Blog Page Css
+  .PostImg {
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .centerBtn {
+    margin: 25px 0px;
+  }
+  .blogCenterImg {
+    min-height: 250px;
   }
 }

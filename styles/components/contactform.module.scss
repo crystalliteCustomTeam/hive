@@ -5,7 +5,45 @@
   padding: 30px 30px;
   max-width: 570px;
   margin: auto;
+  &.sidebarBlog {
+    background-image: url("../../public/blogs/sidebarBg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .contactItem {
+      margin-bottom: 25px;
+      input {
+        color: #fff;
+        background: transparent;
+        backdrop-filter: none;
+        border-bottom: 1px solid #fff;
+        border-radius: 0px;
+        padding: 0px;
 
+        &::placeholder {
+          color: #f9f9f9;
+          opacity: 1;
+        }
+      }
+      textarea {
+        background: transparent;
+        border-bottom: 1px solid #fff;
+        border-radius: 0px;
+        padding: 0px;
+        color: #fff;
+        &::placeholder {
+          color: #f9f9f9;
+          opacity: 1;
+        }
+      }
+    }
+    .para {
+      color: #fff;
+      a {
+        color: #7635ff;
+      }
+    }
+  }
   &.removeBG {
     background: transparent;
     box-shadow: none;
@@ -940,6 +978,11 @@
         font-size: 13px;
       }
     }
+    &.glossaryPage {
+      .contactItem {
+        flex: 0 0 calc(50% - 5px);
+      }
+    }
   }
 }
 
@@ -1206,7 +1249,7 @@
         min-width: 150px;
         font-size: 12px;
       }
-    }    
+    }
     &.glossaryPage {
       .contactItem {
         flex: 0 0 calc(50% - 5px);

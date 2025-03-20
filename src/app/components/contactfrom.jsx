@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Form } from "react-bootstrap"
 import { usePathname } from 'next/navigation'
 
-const ContactFrom = ({ glossary,bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title, smmPage, extra, customprice,location ,locationPage}) => {
+const ContactFrom = ({sidebar, glossary,bg, bgBlack, popop, contactPage, vertical, LandingPage, BlackVertical, blkColor, removebg, title, smmPage, extra, customprice,location ,locationPage}) => {
     const [ip, setIP] = useState('');
     const [pagenewurl, setPagenewurl] = useState('');
     const [isDisabled, setIsDisabled] = useState(false);
@@ -95,7 +95,7 @@ const ContactFrom = ({ glossary,bg, bgBlack, popop, contactPage, vertical, Landi
 
     return (
         <Form onSubmit={handleSubmit}>
-            <div className={`${styles.Contactbox} ${glossary ? styles.glossaryPage : ""} ${contactPage ? styles.contactPage : ""} ${locationPage ? styles.locationPage : ""} ${customprice ? styles.customPrice : ""} ${location ? styles.locationSec : ""}${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
+            <div className={`${styles.Contactbox} ${sidebar ? styles.sidebarBlog : ""} ${glossary ? styles.glossaryPage : ""} ${contactPage ? styles.contactPage : ""} ${locationPage ? styles.locationPage : ""} ${customprice ? styles.customPrice : ""} ${location ? styles.locationSec : ""}${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""} ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""} ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""} ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""}`}>
                 {contactPage ?
                     <>
                         <div className="subtitle">Get In Touch</div>
@@ -103,6 +103,9 @@ const ContactFrom = ({ glossary,bg, bgBlack, popop, contactPage, vertical, Landi
                     </>
                     : ""
                 }
+                {sidebar ? 
+                 <div className="subtitle">Let’s level up your Brand, together</div>
+                :""}
                 <div className={styles.contactItem}>
                     <input type="text" placeholder="Full Name" name="name" required />
                 </div>

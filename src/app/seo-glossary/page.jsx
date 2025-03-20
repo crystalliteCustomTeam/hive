@@ -4,12 +4,37 @@ import styles from "@/styles/seo-glossary/seo-glossary.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import CTAFrom from "./ctaform";
 import Link from "next/link";
-import Banner from "media/seo/BannerImg.webp";
+import Banner1 from "media/seo-glossary/letterImg/glossary-1.webp";
+import Banner2 from "media/seo-glossary/letterImg/glossary-2.webp";
+import Banner3 from "media/seo-glossary/letterImg/glossary-3.webp";
+import Banner4 from "media/seo-glossary/letterImg/glossary-4.webp";
+import Banner5 from "media/seo-glossary/letterImg/glossary-5.webp";
+import Banner6 from "media/seo-glossary/letterImg/glossary-6.webp";
+import Banner7 from "media/seo-glossary/letterImg/glossary-7.webp";
+import Banner8 from "media/seo-glossary/letterImg/glossary-8.webp";
+import Banner9 from "media/seo-glossary/letterImg/glossary-9.webp";
+import Banner10 from "media/seo-glossary/letterImg/glossary-10.webp";
+import Banner11 from "media/seo-glossary/letterImg/glossary-11.webp";
+import Banner12 from "media/seo-glossary/letterImg/glossary-12.webp";
+import Banner13 from "media/seo-glossary/letterImg/glossary-13.webp";
+import Banner14 from "media/seo-glossary/letterImg/glossary-14.webp";
+import Banner15 from "media/seo-glossary/letterImg/glossary-15.webp";
+import Banner16 from "media/seo-glossary/letterImg/glossary-16.webp";
+import Banner17 from "media/seo-glossary/letterImg/glossary-17.webp";
+import Banner18 from "media/seo-glossary/letterImg/glossary-18.webp";
+import Banner19 from "media/seo-glossary/letterImg/glossary-19.webp";
+import Banner20 from "media/seo-glossary/letterImg/glossary-20.webp";
+import Banner21 from "media/seo-glossary/letterImg/glossary-21.webp";
+import Banner22 from "media/seo-glossary/letterImg/glossary-22.webp";
+import Banner23 from "media/seo-glossary/letterImg/glossary-23.webp";
+import Banner24 from "media/seo-glossary/letterImg/glossary-24.webp";
+import Banner25 from "media/seo-glossary/letterImg/glossary-25.webp";
+import Banner26 from "media/seo-glossary/letterImg/glossary-26.webp";
 import Image from "next/image";
 const data = [
   {
     letter: "A",
-    letterbanner: Banner.src,
+    letterbanner: Banner1.src,
     letterItem: [
       {
         title: "Above the Fold",
@@ -111,7 +136,7 @@ const data = [
   },
   {
     letter: "B",
-    letterbanner: Banner.src,
+    letterbanner: Banner2.src,
     letterItem: [
       {
         title: "B2B",
@@ -219,7 +244,7 @@ const data = [
   },
   {
     letter: "C",
-    letterbanner: Banner.src,
+    letterbanner: Banner3.src,
     letterItem: [
       {
         title: "Cache",
@@ -417,7 +442,7 @@ const data = [
   },
   {
     letter: "D",
-    letterbanner: Banner.src,
+    letterbanner: Banner4.src,
     letterItem: [
       {
         title: "Deep Learning in SEO",
@@ -531,7 +556,7 @@ const data = [
   },
   {
     letter: "E",
-    letterbanner: Banner.src,
+    letterbanner: Banner5.src,
     letterItem: [
       {
         title: "E-commerce",
@@ -633,7 +658,7 @@ const data = [
   },
   {
     letter: "F",
-    letterbanner: Banner.src,
+    letterbanner: Banner6.src,
     letterItem: [
       {
         title: "Favicon",
@@ -699,7 +724,7 @@ const data = [
   },
   {
     letter: "G",
-    letterbanner: Banner.src,
+    letterbanner: Banner7.src,
     letterItem: [
       {
         title: "Google",
@@ -879,7 +904,7 @@ const data = [
   },
   {
     letter: "H",
-    letterbanner: Banner.src,
+    letterbanner: Banner8.src,
     letterItem: [
       {
         title: "HARO",
@@ -993,7 +1018,7 @@ const data = [
   },
   {
     letter: "I",
-    letterbanner: Banner.src,
+    letterbanner: Banner9.src,
     letterItem: [
       {
         title: "Image SEO",
@@ -1071,7 +1096,7 @@ const data = [
   },
   {
     letter: "J",
-    letterbanner: Banner.src,
+    letterbanner: Banner10.src,
     letterItem: [
       {
         title: "JavaScript",
@@ -1095,7 +1120,7 @@ const data = [
   },
   {
     letter: "K",
-    letterbanner: Banner.src,
+    letterbanner: Banner11.src,
     letterItem: [
       {
         title: "Keyword",
@@ -1221,7 +1246,7 @@ const data = [
   },
   {
     letter: "L",
-    letterbanner: Banner.src,
+    letterbanner: Banner12.src,
     letterItem: [
       {
         title: "Landing Page",
@@ -1383,7 +1408,7 @@ const data = [
   },
   {
     letter: "M",
-    letterbanner: Banner.src,
+    letterbanner: Banner13.src,
     letterItem: [
       {
         title: "Machine Learning",
@@ -1443,7 +1468,7 @@ const data = [
   },
   {
     letter: "N",
-    letterbanner: Banner.src,
+    letterbanner: Banner14.src,
     letterItem: [
       {
         title: "NAP",
@@ -1521,7 +1546,7 @@ const data = [
   },
   {
     letter: "O",
-    letterbanner: Banner.src,
+    letterbanner: Banner15.src,
     letterItem: [
       {
         title: "Off-Page SEO",
@@ -1599,7 +1624,7 @@ const data = [
   },
   {
     letter: "P",
-    letterbanner: Banner.src,
+    letterbanner: Banner16.src,
     letterItem: [
       {
         title: "PBN",
@@ -1744,7 +1769,7 @@ const data = [
   },
   {
     letter: "Q",
-    letterbanner: Banner.src,
+    letterbanner: Banner17.src,
     letterItem: [
       {
         title: "Quality Deserves Freshness",
@@ -1792,7 +1817,7 @@ const data = [
   },
   {
     letter: "R",
-    letterbanner: Banner.src,
+    letterbanner: Banner18.src,
     letterItem: [
       {
         title: "Rank",
@@ -1900,7 +1925,7 @@ const data = [
   },
   {
     letter: "S",
-    letterbanner: Banner.src,
+    letterbanner: Banner19.src,
     letterItem: [
       {
         title: "Schema Markup",
@@ -2243,7 +2268,7 @@ const data = [
   },
   {
     letter: "T",
-    letterbanner: Banner.src,
+    letterbanner: Banner20.src,
     letterItem: [
       {
         title: "TAT",
@@ -2315,7 +2340,7 @@ const data = [
   },
   {
     letter: "U",
-    letterbanner: Banner.src,
+    letterbanner: Banner21.src,
     letterItem: [
       {
         title: "UGC",
@@ -2381,7 +2406,7 @@ const data = [
   },
   {
     letter: "V",
-    letterbanner: Banner.src,
+    letterbanner: Banner22.src,
     letterItem: [
       {
         title: "Vanity URL",
@@ -2417,7 +2442,7 @@ const data = [
   },
   {
     letter: "W",
-    letterbanner: Banner.src,
+    letterbanner: Banner23.src,
     letterItem: [
       {
         title: "Web App SEO",
@@ -2513,7 +2538,7 @@ const data = [
   },
   {
     letter: "X",
-    letterbanner: Banner.src,
+    letterbanner: Banner24.src,
     letterItem: [
       {
         title: "X-Default Tag",
@@ -2543,7 +2568,7 @@ const data = [
   },
   {
     letter: "Y",
-    letterbanner: Banner.src,
+    letterbanner: Banner25.src,
     letterItem: [
       {
         title: "Yahoo",
@@ -2579,7 +2604,7 @@ const data = [
   },
   {
     letter: "Z",
-    letterbanner: Banner.src,
+    letterbanner: Banner26.src,
     letterItem: [
       {
         title: "Zero-Click Search",
@@ -2686,7 +2711,7 @@ const Page = () => {
                 {data.map((item, index) => (
                   <div key={index} id={item.letter}>
                     <div className={styles.bannerImg}>
-                      <Image src={item.letterbanner} alt={item.letter} fill />
+                      <Image src={item.letterbanner} alt={item.letter} width={1176} height={550} />
                     </div>
                     {item.letterItem &&
                       item.letterItem.map((list, idx) => (
