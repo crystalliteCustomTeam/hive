@@ -2,8 +2,8 @@ export const BannerData = {
   subtitle: "More traffic, more leads, more money.",
   title: (
     <>
-      Texas SEO Service <br />
-      That Ropes in Customers <br />
+      Texas SEO Service That<br />
+      Ropes in Customers<br />
       Like a Pro Rodeo.
     </>
   ),
