@@ -1067,7 +1067,7 @@ export const PostData = [
           <p>
             Absolutely! Lately local SEO has become more important than ever.
             People rely heavily on their phones and computers to find businesses
-            nearby. In fact, a study by Google found that "near me" searches
+            nearby. In fact, a study by Google found that “near me” searches
             have grown by over 500% in recent years. If you want your business
             to stand out in your local area, local SEO is a must.
           </p>
@@ -1079,8 +1079,8 @@ export const PostData = [
             search engines prioritize businesses that are optimized for local
             results. This means your business is more likely to appear in search
             engine results pages when people search for location-specific
-            queries, such as "best coffee shop near me" or "plumbing services in
-            NYC." As a result, your online visibility increases, making it
+            queries, such as “best coffee shop near me” or “plumbing services in
+            NYC.” As a result, your online visibility increases, making it
             easier for potential customers in your area to find you
           </p>
           <h3>More Foot Traffic</h3>
