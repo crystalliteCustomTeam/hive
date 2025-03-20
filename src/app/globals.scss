@@ -1,1308 +1,1303 @@
 body {
-    img {
-        max-width: 100%;
-        height: auto;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+
+  &.active {
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      background: rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(7.5px);
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 60px;
+      left: 0px;
+      z-index: 2;
     }
+  }
 
-    .container {
-        max-width: 1440px;
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .p-100 {
+    padding: 100px 0px;
+  }
+
+  .pt-100 {
+    padding-top: 100px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #9aff35;
+    outline: 1px solid #9aff35;
+  }
+
+  .roundStyle {
+    border-radius: 100px 100px 0px 0px;
+    position: relative;
+
+    &::before {
+      content: "";
+      background: #eaeaea;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
     }
-
-    &.active {
-        overflow: hidden;
-
-        &::after {
-            content: '';
-            background: rgba(0, 0, 0, 0.35);
-            backdrop-filter: blur(7.5px);
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            top: 60px;
-            left: 0px;
-            z-index: 2;
-        }
-    }
-
-    ul {
-        list-style: none;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    .p-100 {
-        padding: 100px 0px;
-    }
-
-    .pt-100 {
-        padding-top: 100px;
-    }
-
-    &::-webkit-scrollbar {
-        width: 4px;
-    }
-
-    &::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: #9AFF35;
-        outline: 1px solid #9AFF35;
-    }
-
-    .roundStyle {
-        border-radius: 100px 100px 0px 0px;
-        position: relative;
-
-        &::before {
-            content: '';
-            background: #EAEAEA;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            z-index: -1;
-        }
-    }
+  }
 }
-.centerBtn{
-    text-align: center;
-    margin: 40px 0px;
-}
+
 .commonBtnSimple {
-    width: 100%;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 
-    &.flexstart {
-        justify-content: flex-start;
-    }
+  &.flexstart {
+    justify-content: flex-start;
+  }
 }
 
 .commonBtn {
-    min-width: 150px;
-    height: 70px;
-    background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
-    border-radius: 100px;
-    padding: 0px 30px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 57px;
-    letter-spacing: -0.165px;
-    color: #000000;
-    cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
+  min-width: 150px;
+  height: 70px;
+  background: linear-gradient(9.84deg, #ffffff -12.54%, #9aff35 103.72%);
+  border-radius: 100px;
+  padding: 0px 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 57px;
+  letter-spacing: -0.165px;
+  color: #000000;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
 
-    &.blackBg {
-        background: #000;
-        color: #fff;
-
-        &:hover {
-            background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
-            transform: scale(1.01);
-            transition: background 0.3s ease, transform 0.3s ease;
-        }
-    }
-
+  &.blackBg {
+    background: #000;
+    color: #fff;
 
     &:hover {
-        background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
-        transform: scale(1.01);
-        transition: background 0.3s ease, transform 0.3s ease;
+      background: linear-gradient(
+        9.84deg,
+        rgb(0, 0, 0, 0.8) -12.54%,
+        rgb(0, 0, 0, 0.9) 103.72%
+      );
+      transform: scale(1.01);
+      transition: background 0.3s ease, transform 0.3s ease;
     }
+  }
+
+  &:hover {
+    background: linear-gradient(9.84deg, #9aff35 -12.54%, #ffffff 103.72%);
+    transform: scale(1.01);
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
 }
 
 .modal {
-    .modal-lg {
-        --bs-modal-width: 1300px;
+  .modal-lg {
+    --bs-modal-width: 1300px;
 
-        .modal-content {
-            border-radius: 30px;
-        }
+    .modal-content {
+      border-radius: 30px;
     }
+  }
 }
 
 .gradientBgColor {
-    background: linear-gradient(-180deg, #E0F0FF 0%, #F9FCFF 100%);
-    border-radius: 28px;
-    padding: 65px 50px 30px;
+  background: linear-gradient(-180deg, #e0f0ff 0%, #f9fcff 100%);
+  border-radius: 28px;
+  padding: 65px 50px 30px;
 }
 
-
 .subtitle {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: -0.164664px;
-    color: #7635FF;
-    margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.164664px;
+  color: #7635ff;
+  margin-bottom: 15px;
 
-    &.greenColor {
-        color: #9AFF35;
-    }
+  &.greenColor {
+    color: #9aff35;
+  }
 }
 
 h1 {
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 70px;
-    line-height: 80px;
-    letter-spacing: -0.238982px;
-    color: #FFFFFF;
-    margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -0.238982px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 h2 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 55px;
-    letter-spacing: -0.165px;
-    margin-bottom: 10px;
-    color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: -0.165px;
+  margin-bottom: 10px;
+  color: #000000;
 }
 
 h3 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 45px;
-    letter-spacing: -0.165px;
-    color: #000000;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: -0.165px;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 h4 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 30px;
-    letter-spacing: -0.165px;
-    color: #FFFFFF;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: -0.165px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
 h5 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 36px;
-    letter-spacing: -0.165px;
-    color: #000000;
-    margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: -0.165px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.165px;
+  color: #657985;
+  margin-bottom: 20px;
+}
+
+.boldFont {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+}
+
+.ContentUl {
+  margin-bottom: 30px;
+  margin-left: 0px;
+
+  li {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: -0.165px;
     color: #657985;
-    margin-bottom: 20px;
-}
+    margin-bottom: 5px;
+    position: relative;
 
-.boldFont {
-    font-weight: 600;
-    font-size: 22px;
-    color: #000000;
-}
+    strong {
+      margin-right: 5px;
+      color: #4b5a63;
+      font-weight: 500;
 
-.ContentUl {
-    margin-bottom: 30px;
-    margin-left: 0px;
+      svg {
+        margin-right: 10px;
+        width: 15px;
+        height: auto;
 
-    li {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        letter-spacing: -0.165px;
-        color: #657985;
-        margin-bottom: 5px;
-        position: relative;
-
-
-        strong {
-            margin-right: 5px;
-            color: #4b5a63;
-            font-weight: 500;
-
-            svg {
-                margin-right: 10px;
-                width: 15px;
-                height: auto;
-
-                circle {
-                    stroke: #333;
-                }
-            }
+        circle {
+          stroke: #333;
         }
-
-
-        svg {
-            margin-right: 10px;
-            width: 15px;
-            height: auto;
-
-            path {
-                fill: #333;
-            }
-        }
-
-
+      }
     }
+
+    svg {
+      margin-right: 10px;
+      width: 15px;
+      height: auto;
+
+      path {
+        fill: #333;
+      }
+    }
+  }
 }
-
-
 
 .bannerVideo {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .sliderTestimonial {
-    .is-in-view {
-        &:not(.is-snapped) {
-            .testBoxBG {
-                transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
-                opacity: 0.5;
-                filter: blur(2px);
-                transform: scale(0.95);
-            }
-        }
-
+  .is-in-view {
+    &:not(.is-snapped) {
+      .testBoxBG {
+        transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+        opacity: 0.5;
+        filter: blur(2px);
+        transform: scale(0.95);
+      }
     }
+  }
 }
 
 .Instagram {
-    background: radial-gradient(91.12% 694.01% at 6.77% 102.03%, #FFDD55 0%, #FF543E 50%, #C837AB 100%);
+  background: radial-gradient(
+    91.12% 694.01% at 6.77% 102.03%,
+    #ffdd55 0%,
+    #ff543e 50%,
+    #c837ab 100%
+  );
 }
 
 .YouTube {
-    background: #FF0206;
+  background: #ff0206;
 }
 
 .Linkedin {
-    background: #0A66C2;
+  background: #0a66c2;
 }
 
 .Facebook {
-    background: #0862F7;
+  background: #0862f7;
 }
 
 .Pinterest {
-    background: #E60023;
+  background: #e60023;
 }
 
 .Twitter {
-    background: #000;
+  background: #000;
 }
 
 .navIcon {
-    display: none;
+  display: none;
 
-    &.isLight {
-        svg {
-            path {
-                fill: #000000
-            }
-        }
-
-        &.activeScroll {
-            svg {
-                path {
-                    fill: #fff
-                }
-            }
-        }
+  &.isLight {
+    svg {
+      path {
+        fill: #000000;
+      }
     }
+
+    &.activeScroll {
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
 }
 
 .embla_container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin: 0px 0px 25px;
-    gap: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0px 0px 25px;
+  gap: 25px;
 
-    &.centerMode {
-        justify-content: center;
-        margin: 30px 0px 0px;
+  &.centerMode {
+    justify-content: center;
+    margin: 30px 0px 0px;
+  }
+
+  div {
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(319.4deg, #9aff35 13.78%, #ffffff 90.15%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    svg {
+      width: 28px;
+      height: auto;
+
+      path {
+        stroke: #000;
+        opacity: 1;
+      }
     }
 
-    div {
-        height: 60px;
-        width: 60px;
-        background: linear-gradient(319.4deg, #9AFF35 13.78%, #FFFFFF 90.15%);
-        border-radius: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
+    &:hover {
+      transition: 0.3s linear;
+      background: #000;
+
+      svg {
+        path {
+          stroke: #9aff35;
+        }
+      }
+    }
+
+    &.embla_prev {
+      svg {
+        transform: rotate(-180deg);
+      }
+    }
+  }
+}
+// Blog Page Css
+.PostImg {
+  position: relative;
+  height: 400px;
+  margin-bottom: 20px;
+
+  img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+.centerBtn {
+  text-align: center;
+  margin: 40px 0px;
+}
+.centerImg{
+    border: 1px solid rgb(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  body {
+    .container {
+      max-width: 1280px;
+    }
+
+    .p-100 {
+      padding: 80px 0px;
+    }
+
+    .pt-100 {
+      padding-top: 80px;
+    }
+
+    .roundStyle {
+      border-radius: 80px 80px 0px 0px;
+    }
+  }
+
+  .modal {
+    .modal-lg {
+      --bs-modal-width: 1100px;
+
+      .modal-content {
+        border-radius: 25px;
+      }
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 60px;
+    padding: 0px 25px;
+    font-size: 17px;
+    line-height: 50px;
+  }
+
+  .gradientBgColor {
+    padding: 50px 50px 30px;
+  }
+
+  .subtitle {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 62px;
+    line-height: 72px;
+    margin-bottom: 18px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 18px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 18px;
+  }
+
+  h4 {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 18px;
+  }
+
+  .boldFont {
+    font-size: 19px;
+  }
+
+  .ContentUl {
+    margin-bottom: 30px;
+
+    li {
+      font-size: 17px;
+      line-height: 27px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
 
         svg {
-            width: 28px;
-            height: auto;
-
-            path {
-                stroke: #000;
-                opacity: 1;
-            }
+          margin-right: 10px;
+          width: 14px;
         }
+      }
 
-        &:hover {
-            transition: .3s linear;
-            background: #000;
-
-            svg {
-                path {
-                    stroke: #9AFF35;
-                }
-            }
+      span {
+        svg {
+          margin-right: 10px;
+          width: 14px;
         }
-
-        &.embla_prev {
-            svg {
-                transform: rotate(-180deg);
-            }
-        }
-
+      }
     }
-}
+  }
 
-@media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    body {
-        .container {
-            max-width: 1280px;
-        }
+  .embla_container {
+    margin: 0px 0px 25px;
+    gap: 20px;
 
-        .p-100 {
-            padding: 80px 0px;
-        }
+    div {
+      height: 50px;
+      width: 50px;
 
-        .pt-100 {
-            padding-top: 80px;
-        }
-
-        .roundStyle {
-            border-radius: 80px 80px 0px 0px;
-        }
+      svg {
+        width: 22px;
+      }
     }
-
-    .modal {
-        .modal-lg {
-            --bs-modal-width: 1100px;
-
-            .modal-content {
-                border-radius: 25px;
-            }
-        }
-    }
-
-    .commonBtn {
-        min-width: 150px;
-        height: 60px;
-        padding: 0px 25px;
-        font-size: 17px;
-        line-height: 50px;
-    }
-
-    .gradientBgColor {
-        padding: 50px 50px 30px;
-    }
-
-    .subtitle {
-        font-size: 22px;
-        line-height: 22px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 62px;
-        line-height: 72px;
-        margin-bottom: 18px;
-    }
-
-    h2 {
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: 18px;
-    }
-
-    h3 {
-        font-size: 30px;
-        line-height: 40px;
-        margin-bottom: 18px;
-    }
-
-    h4 {
-        font-size: 26px;
-        line-height: 30px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: 18px;
-    }
-
-    p {
-        font-size: 17px;
-        line-height: 27px;
-        margin-bottom: 18px;
-    }
-
-    .boldFont {
-        font-size: 19px;
-    }
-
-    .ContentUl {
-        margin-bottom: 30px;
-
-        li {
-            font-size: 17px;
-            line-height: 27px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 10px;
-                    width: 14px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 10px;
-                    width: 14px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 0px 0px 25px;
-        gap: 20px;
-
-        div {
-            height: 50px;
-            width: 50px;
-
-            svg {
-                width: 22px;
-            }
-        }
-    }
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    body {
-        .container {
-            max-width: 1200px;
+  body {
+    .container {
+      max-width: 1200px;
+    }
+
+    .p-100 {
+      padding: 70px 0px;
+    }
+
+    .pt-100 {
+      padding-top: 70px;
+    }
+
+    .roundStyle {
+      border-radius: 70px 70px 0px 0px;
+    }
+  }
+
+  .modal {
+    .modal-lg {
+      --bs-modal-width: 1000px;
+
+      .modal-content {
+        border-radius: 25px;
+      }
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 55px;
+    padding: 0px 22px;
+    font-size: 16px;
+    line-height: 45px;
+  }
+
+  .gradientBgColor {
+    padding: 50px 45px 30px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 55px;
+    line-height: 65px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+
+  .boldFont {
+    font-size: 18px;
+  }
+
+  .ContentUl {
+    margin-bottom: 20px;
+
+    li {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
+
+        svg {
+          margin-right: 8px;
+          width: 13px;
         }
+      }
 
-        .p-100 {
-            padding: 70px 0px;
+      span {
+        svg {
+          margin-right: 8px;
+          width: 13px;
         }
-
-        .pt-100 {
-            padding-top: 70px;
-        }
-
-        .roundStyle {
-            border-radius: 70px 70px 0px 0px;
-        }
+      }
     }
+  }
 
-    .modal {
-        .modal-lg {
-            --bs-modal-width: 1000px;
+  .embla_container {
+    margin: 0px 0px 25px;
+    gap: 15px;
 
-            .modal-content {
-                border-radius: 25px;
-            }
-        }
+    div {
+      height: 45px;
+      width: 45px;
+
+      svg {
+        width: 20px;
+      }
     }
-
-    .commonBtn {
-        min-width: 150px;
-        height: 55px;
-        padding: 0px 22px;
-        font-size: 16px;
-        line-height: 45px;
-    }
-
-    .gradientBgColor {
-        padding: 50px 45px 30px;
-    }
-
-    .subtitle {
-        font-size: 20px;
-        line-height: 20px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 55px;
-        line-height: 65px;
-        margin-bottom: 15px;
-    }
-
-    h2 {
-        font-size: 35px;
-        line-height: 42px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 28px;
-        line-height: 38px;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        font-size: 24px;
-        line-height: 30px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 18px;
-    }
-
-    p {
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 15px;
-    }
-
-    .boldFont {
-        font-size: 18px;
-    }
-
-    .ContentUl {
-        margin-bottom: 20px;
-
-        li {
-            font-size: 16px;
-            line-height: 26px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 8px;
-                    width: 13px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 8px;
-                    width: 13px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 0px 0px 25px;
-        gap: 15px;
-
-        div {
-            height: 45px;
-            width: 45px;
-
-            svg {
-                width: 20px;
-            }
-        }
-    }
+  }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    body {
-        .container {
-            max-width: 1080px;
+  body {
+    .container {
+      max-width: 1080px;
+    }
+
+    .p-100 {
+      padding: 60px 0px;
+    }
+
+    .pt-100 {
+      padding-top: 60px;
+    }
+
+    .roundStyle {
+      border-radius: 60px 60px 0px 0px;
+    }
+  }
+
+  .modal {
+    .modal-lg {
+      --bs-modal-width: 950px;
+
+      .modal-content {
+        border-radius: 25px;
+      }
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 45px;
+    padding: 0px 20px;
+    font-size: 14px;
+    line-height: 45px;
+    font-weight: 500;
+  }
+
+  .gradientBgColor {
+    padding: 50px 40px 30px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+
+  .boldFont {
+    font-size: 17px;
+  }
+
+  .ContentUl {
+    margin-bottom: 20px;
+
+    li {
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
+
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
+      }
 
-        .p-100 {
-            padding: 60px 0px;
+      span {
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
-
-        .pt-100 {
-            padding-top: 60px;
-        }
-
-        .roundStyle {
-            border-radius: 60px 60px 0px 0px;
-        }
+      }
     }
+  }
 
-    .modal {
-        .modal-lg {
-            --bs-modal-width: 950px;
+  .embla_container {
+    margin: 0px 0px 20px;
+    gap: 15px;
 
-            .modal-content {
-                border-radius: 25px;
-            }
-        }
+    div {
+      height: 42px;
+      width: 42px;
+
+      svg {
+        width: 18px;
+      }
     }
-
-    .commonBtn {
-        min-width: 150px;
-        height: 45px;
-        padding: 0px 20px;
-        font-size: 14px;
-        line-height: 45px;
-        font-weight: 500;
-    }
-
-    .gradientBgColor {
-        padding: 50px 40px 30px;
-    }
-
-    .subtitle {
-        font-size: 18px;
-        line-height: 18px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 50px;
-        line-height: 60px;
-        margin-bottom: 15px;
-    }
-
-    h2 {
-        font-size: 30px;
-        line-height: 38px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 26px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        font-size: 22px;
-        line-height: 28px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 20px;
-        line-height: 32px;
-        margin-bottom: 18px;
-    }
-
-    p {
-        font-size: 15px;
-        line-height: 25px;
-        margin-bottom: 15px;
-    }
-
-    .boldFont {
-        font-size: 17px;
-    }
-
-    .ContentUl {
-        margin-bottom: 20px;
-
-        li {
-            font-size: 15px;
-            line-height: 25px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 0px 0px 20px;
-        gap: 15px;
-
-        div {
-            height: 42px;
-            width: 42px;
-
-            svg {
-                width: 18px;
-            }
-        }
-    }
+  }
 }
 
-@media only screen and (min-width: 900px) and (max-width:1099px) {
-    body {
-        .container {
-            max-width: 960px;
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  body {
+    .container {
+      max-width: 960px;
+    }
+
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    .pt-100 {
+      padding-top: 50px;
+    }
+
+    .roundStyle {
+      border-radius: 50px 50px 0px 0px;
+    }
+  }
+
+  .modal {
+    .modal-lg {
+      --bs-modal-width: 800px;
+
+      .modal-content {
+        border-radius: 25px;
+      }
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 42px;
+    padding: 0px 20px;
+    font-size: 14px;
+    line-height: 42px;
+  }
+
+  .gradientBgColor {
+    padding: 40px 35px 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+
+  .boldFont {
+    font-size: 16px;
+  }
+
+  .ContentUl {
+    margin-bottom: 20px;
+
+    li {
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
+
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
+      }
 
-        .p-100 {
-            padding: 50px 0px;
+      span {
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
-
-        .pt-100 {
-            padding-top: 50px;
-        }
-
-        .roundStyle {
-            border-radius: 50px 50px 0px 0px;
-        }
+      }
     }
+  }
 
-    .modal {
-        .modal-lg {
-            --bs-modal-width: 800px;
+  .embla_container {
+    margin: 0px 0px 20px;
+    gap: 12px;
 
-            .modal-content {
-                border-radius: 25px;
-            }
-        }
+    div {
+      height: 40px;
+      width: 40px;
+
+      svg {
+        width: 17px;
+      }
     }
-
-    .commonBtn {
-        min-width: 150px;
-        height: 42px;
-        padding: 0px 20px;
-        font-size: 14px;
-        line-height: 42px;
-    }
-
-    .gradientBgColor {
-        padding: 40px 35px 20px;
-    }
-
-    .subtitle {
-        font-size: 16px;
-        line-height: 16px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 45px;
-        line-height: 55px;
-        margin-bottom: 15px;
-    }
-
-    h2 {
-        font-size: 26px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        font-size: 20px;
-        line-height: 28px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 18px;
-        line-height: 30px;
-        margin-bottom: 18px;
-    }
-
-
-    p {
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 15px;
-    }
-
-    .boldFont {
-        font-size: 16px;
-    }
-
-    .ContentUl {
-        margin-bottom: 20px;
-
-        li {
-            font-size: 14px;
-            line-height: 23px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 0px 0px 20px;
-        gap: 12px;
-
-        div {
-            height: 40px;
-            width: 40px;
-
-            svg {
-                width: 17px;
-            }
-        }
-    }
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width:899px) {
-    body {
-        .container {
-            max-width: 750px;
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  body {
+    .container {
+      max-width: 750px;
+    }
 
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    .pt-100 {
+      padding-top: 50px;
+    }
+
+    .roundStyle {
+      border-radius: 40px 40px 0px 0px;
+    }
+  }
+
+  .modal {
+    .modal-lg {
+      --bs-modal-width: 680px;
+
+      .modal-content {
+        border-radius: 25px;
+      }
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 42px;
+    padding: 0px 20px;
+    font-size: 14px;
+    line-height: 42px;
+  }
+
+  .gradientBgColor {
+    padding: 30px 30px 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+  .boldFont {
+    font-size: 15px;
+  }
+
+  .ContentUl {
+    margin-bottom: 20px;
+
+    li {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
+
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
+      }
 
-        .p-100 {
-            padding: 50px 0px;
+      span {
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
-
-        .pt-100 {
-            padding-top: 50px;
-        }
-
-        .roundStyle {
-            border-radius: 40px 40px 0px 0px;
-        }
+      }
     }
+  }
 
-    .modal {
-        .modal-lg {
-            --bs-modal-width: 680px;
+  .embla_container {
+    margin: 0px 0px 20px;
+    gap: 12px;
 
-            .modal-content {
-                border-radius: 25px;
-            }
-        }
+    div {
+      height: 35px;
+      width: 35px;
+
+      svg {
+        width: 16px;
+      }
     }
-
-    .commonBtn {
-        min-width: 150px;
-        height: 42px;
-        padding: 0px 20px;
-        font-size: 14px;
-        line-height: 42px;
-    }
-
-    .gradientBgColor {
-        padding: 30px 30px 20px;
-    }
-
-    .subtitle {
-        font-size: 16px;
-        line-height: 16px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 42px;
-        line-height: 52px;
-        margin-bottom: 15px;
-    }
-
-    h2 {
-        font-size: 24px;
-        line-height: 34px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 20px;
-        line-height: 30px;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        font-size: 18px;
-        line-height: 26px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 16px;
-        line-height: 28px;
-        margin-bottom: 18px;
-    }
-
-    p {
-        font-size: 13px;
-        line-height: 22px;
-        margin-bottom: 15px;
-    }
-
-    .boldFont {
-        font-size: 15px;
-    }
-
-    .ContentUl {
-        margin-bottom: 20px;
-
-        li {
-            font-size: 13px;
-            line-height: 22px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 0px 0px 20px;
-        gap: 12px;
-
-        div {
-            height: 35px;
-            width: 35px;
-
-            svg {
-                width: 16px;
-            }
-        }
-    }
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .navIcon {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        z-index: 99;
-        max-width: 30px;
+  .navIcon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 99;
+    max-width: 30px;
+  }
+
+  body {
+    .container {
+      max-width: 100%;
     }
 
-    body {
-        .container {
-            max-width: 100%;
+    .p-100 {
+      padding: 50px 0px;
+    }
 
+    .pt-100 {
+      padding-top: 50px;
+    }
+
+    .roundStyle {
+      border-radius: 20px 20px 0px 0px;
+    }
+  }
+
+  .modal {
+    .modal-lg {
+      --bs-modal-width: 80%;
+
+      .modal-content {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 13px;
+    line-height: 40px;
+  }
+
+  .gradientBgColor {
+    padding: 20px 20px 20px;
+    width: 93%;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+
+  .boldFont {
+    font-size: 15px;
+  }
+
+  .ContentUl {
+    margin-bottom: 10px;
+
+    li {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
+
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
+      }
 
-        .p-100 {
-            padding: 50px 0px;
+      span {
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
+      }
+    }
+  }
 
-        .pt-100 {
-            padding-top: 50px;
-        }
+  .embla_container {
+    margin: 20px 0px 0px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
 
-        .roundStyle {
-            border-radius: 20px 20px 0px 0px;
-        }
+    &.centerMode {
+      justify-content: center;
+      margin: 20px 0px 0px;
     }
 
-    .modal {
-        .modal-lg {
-            --bs-modal-width: 80%;
+    div {
+      height: 35px;
+      width: 35px;
 
-            .modal-content {
-                border-radius: 10px;
-            }
-        }
+      svg {
+        width: 16px;
+      }
     }
-
-    .commonBtn {
-        min-width: 150px;
-        height: 40px;
-        padding: 0px 20px;
-        font-size: 13px;
-        line-height: 40px;
-    }
-
-    .gradientBgColor {
-        padding: 20px 20px 20px;
-        width: 93%;
-    }
-
-    .subtitle {
-        font-size: 16px;
-        line-height: 16px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 40px;
-        line-height: 50px;
-        margin-bottom: 10px;
-    }
-
-    h2 {
-        font-size: 24px;
-        line-height: 30px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 22px;
-        line-height: 32px;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        font-size: 20px;
-        line-height: 26px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 18px;
-        line-height: 28px;
-        margin-bottom: 15px;
-    }
-
-    p {
-        font-size: 14px;
-        line-height: 23px;
-        margin-bottom: 15px;
-    }
-
-    .boldFont {
-        font-size: 15px;
-    }
-
-    .ContentUl {
-        margin-bottom: 10px;
-
-        li {
-            font-size: 13px;
-            line-height: 22px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 20px 0px 0px;
-        gap: 12px;
-        justify-content: center;
-        align-items: center;
-
-        &.centerMode {
-            justify-content: center;
-            margin: 20px 0px 0px;
-        }
-
-        div {
-            height: 35px;
-            width: 35px;
-
-            svg {
-                width: 16px;
-            }
-        }
-    }
+  }
 }
 
-@media only screen and (min-width: 576px) and (max-width:767px) {
-    body {
-        .container {
-            max-width: 750px;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    .container {
+      max-width: 750px;
+    }
+
+    .p-100 {
+      padding: 50px 0px;
+    }
+
+    .pt-100 {
+      padding-top: 50px;
+    }
+  }
+
+  .commonBtn {
+    min-width: 150px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 13px;
+    line-height: 40px;
+  }
+
+  .gradientBgColor {
+    padding: 20px 20px 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+  .boldFont {
+    font-size: 15px;
+  }
+
+  .ContentUl {
+    margin-bottom: 10px;
+
+    li {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 5px;
+
+      strong {
+        margin-right: 5px;
+
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
+      }
 
-        .p-100 {
-            padding: 50px 0px;
+      span {
+        svg {
+          margin-right: 8px;
+          width: 12px;
         }
-
-        .pt-100 {
-            padding-top: 50px;
-        }
+      }
     }
+  }
 
-    .commonBtn {
-        min-width: 150px;
-        height: 40px;
-        padding: 0px 20px;
-        font-size: 13px;
-        line-height: 40px;
+  .embla_container {
+    margin: 20px 0px 0px;
+    gap: 12px;
+
+    div {
+      height: 35px;
+      width: 35px;
+
+      svg {
+        width: 16px;
+      }
     }
-
-    .gradientBgColor {
-        padding: 20px 20px 20px;
-    }
-
-    .subtitle {
-        font-size: 16px;
-        line-height: 16px;
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 45px;
-        line-height: 55px;
-        margin-bottom: 15px;
-    }
-
-    h2 {
-        font-size: 26px;
-        line-height: 32px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        font-size: 18px;
-        line-height: 30px;
-        margin-bottom: 15px;
-    }
-
-    h4 {
-        font-size: 18px;
-        line-height: 25px;
-        margin-bottom: 10px;
-    }
-
-
-    h5 {
-        font-size: 16px;
-        line-height: 28px;
-        margin-bottom: 15px;
-    }
-
-    p {
-        font-size: 13px;
-        line-height: 22px;
-        margin-bottom: 15px;
-    }
-
-    .boldFont {
-        font-size: 15px;
-    }
-
-    .ContentUl {
-        margin-bottom: 10px;
-
-        li {
-            font-size: 13px;
-            line-height: 22px;
-            margin-bottom: 5px;
-
-            strong {
-                margin-right: 5px;
-
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-            span {
-                svg {
-                    margin-right: 8px;
-                    width: 12px;
-                }
-            }
-
-        }
-    }
-
-    .embla_container {
-        margin: 20px 0px 0px;
-        gap: 12px;
-
-
-        div {
-            height: 35px;
-            width: 35px;
-
-            svg {
-                width: 16px;
-            }
-        }
-    }
+  }
 }

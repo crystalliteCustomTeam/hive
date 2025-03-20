@@ -114,13 +114,13 @@ const ContactFrom = ({ glossary,bg, bgBlack, popop, contactPage, vertical, Landi
                 </div>
                 {location || glossary ?(
                      <div className={styles.contactItem}>
-                     <input type="text" placeholder="Type Your Website" name="website" />
+                     <input type="text" placeholder="Website" name="website" />
                  </div>
                 ):null}
                 {customprice ? (
                     <>
                         <div className={styles.contactItem}>
-                            <input type="text" placeholder="Type Your Website" name="website" />
+                            <input type="text" placeholder="Website" name="website" />
                         </div>
                         <div className={styles.contactItem}>
                             <input type="text" placeholder="Tone of Voice" name="voice" />

@@ -1,11 +1,14 @@
-import { BlogData } from "@/src/app/[slug]/data/data";
+import { BlogData, PostData } from "@/src/app/[slug]/data/data";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
+import TableOfContents from "./components/tablecontent";
 
 export async function generateMetadata({ params }) {
-  const { slug } = await params; 
-  const blog = BlogData.find((post) => post.slug === slug);
+  const { slug } = await params;
+  const blog =
+    BlogData.find((post) => post.slug === slug) ||
+    PostData.find((post) => post.slug === slug);
 
   if (!blog) {
     return {
@@ -32,7 +35,9 @@ export async function generateMetadata({ params }) {
 
 const Page = async ({ params }) => {
   const { slug } = await params;
-  const blog = BlogData.find((post) => post.slug === slug);
+  const blog =
+    BlogData.find((post) => post.slug === slug) ||
+    PostData.find((post) => post.slug === slug);
 
   if (!blog) {
     return;
@@ -49,20 +54,40 @@ const Page = async ({ params }) => {
 
   return (
     <>
-      <section className={styles.singlePost}>
-        <Container>
-          <Row>
-            <Col md={12}>
-              <h1>{blog.title}</h1>
-              <div className={styles.bannerImg}>
-                <Image src={blog.img} alt={blog.title} fill />
-              </div>
-              <div className={styles.picPara}>{blog.picpara}</div>
-              <div className={styles.mainSection}>{blog.maintxt}</div>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+      {blog.type === "blogs" ? (
+        <section className={styles.singleBlog}>
+          <Container>
+            <Row>
+              <Col md={12}>
+                <h1>{blog.title}</h1>
+              </Col>
+              <Col md={8}>
+                <div className={styles.mainSection}>{blog.maintxt}</div>
+              </Col>
+              <Col md={4}>
+                <div className={styles.blogsideBar}>
+                  <TableOfContents tableContent={blog.tableContent} />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      ) : (
+        <section className={styles.singlePost}>
+          <Container>
+            <Row>
+              <Col md={12}>
+                <h1>{blog.title}</h1>
+                <div className={styles.bannerImg}>
+                  <Image src={blog.img} alt={blog.title} fill />
+                </div>
+                <div className={styles.picPara}>{blog.picpara}</div>
+                <div className={styles.mainSection}>{blog.maintxt}</div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      )}
     </>
   );
 };
