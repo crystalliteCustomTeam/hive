@@ -28,71 +28,72 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      
-      label{
+
+      label {
         cursor: pointer;
         flex: 0 0 calc(100% - 30px);
       }
-      input{
+      input {
         background: unset;
         width: 18px;
         height: 18px;
         margin-top: 4px;
-        flex:  0 0  30px;
-    
-    }
-   
+        flex: 0 0 30px;
+      }
     }
     Button {
-        margin-top: 20px;
-        min-width: 180px;
-        height: 50px;
-        background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
-        border-radius: 100px;
-        padding: 0px 30px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 15px;
-        line-height: 57px;
-        letter-spacing: -0.165px;
-        color: #000000;
-        cursor: pointer;
-        transition: background 0.3s ease, transform 0.3s ease;
-        border: 0px;
-    
-        &.blackBg {
-            background: #000;
-            color: #fff;
-    
-            &:hover {
-                background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
-                transform: scale(1.01);
-                transition: background 0.3s ease, transform 0.3s ease;
-            }
-        }
-    
-    
-        &:hover {
-            background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
-            transform: scale(1.01);
-            transition: background 0.3s ease, transform 0.3s ease;
-        }
-    }
-  .submitSection{
-    max-width: 80%;
-    label{
+      margin-top: 20px;
+      min-width: 180px;
+      height: 50px;
+      background: linear-gradient(9.84deg, #ffffff -12.54%, #9aff35 103.72%);
+      border-radius: 100px;
+      padding: 0px 30px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
       font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 22px;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 57px;
       letter-spacing: -0.165px;
-      color: #ffffff;
-      margin-bottom: 10px;
+      color: #000000;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+      border: 0px;
+
+      &.blackBg {
+        background: #000;
+        color: #fff;
+
+        &:hover {
+          background: linear-gradient(
+            9.84deg,
+            rgb(0, 0, 0, 0.8) -12.54%,
+            rgb(0, 0, 0, 0.9) 103.72%
+          );
+          transform: scale(1.01);
+          transition: background 0.3s ease, transform 0.3s ease;
+        }
+      }
+
+      &:hover {
+        background: linear-gradient(9.84deg, #9aff35 -12.54%, #ffffff 103.72%);
+        transform: scale(1.01);
+        transition: background 0.3s ease, transform 0.3s ease;
+      }
     }
-    input{
+    .submitSection {
+      max-width: 80%;
+      label {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.165px;
+        color: #ffffff;
+        margin-bottom: 10px;
+      }
+      input {
         background: transparent;
         height: 55px;
         color: #fff;
@@ -101,21 +102,21 @@
         outline: 0;
         box-shadow: none;
         border: 1px solid #fff;
-         &::placeholder {
-            color: #fff;
-            opacity: 1;
-            font-weight: 300;
-            font-size: 14px;
-          }    
-    }
-    button{
+        &::placeholder {
+          color: #fff;
+          opacity: 1;
+          font-weight: 300;
+          font-size: 14px;
+        }
+      }
+      button {
         margin-top: 0px;
+      }
+      .messageSuccessfully {
+        font-size: 20px;
+        color: #fff;
+      }
     }
-    .messageSuccessfully{
-      font-size: 20px;
-      color: #fff;
-    }
-  }  
   }
   .questionImage {
     height: 450px;
@@ -123,6 +124,386 @@
     img {
       object-fit: cover;
       border-radius: 23px;
+    }
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .questionSection {
+    padding: 80px 0px;
+    border-radius: 80px 80px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 525px;
+      padding: 50px;
+      h3 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .questions {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 15px;
+
+        input {
+          background: unset;
+          width: 18px;
+          height: 18px;
+          margin-top: 4px;
+          flex: 0 0 30px;
+        }
+      }
+      Button {
+        margin-top: 20px;
+        min-width: 180px;
+        height: 50px;
+        padding: 0px 30px;
+        font-size: 15px;
+        line-height: 57px;
+      }
+      .submitSection {
+        max-width: 80%;
+        label {
+          font-size: 15px;
+          line-height: 20px;
+        }
+        input {
+          height: 52px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      height: 420px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .questionSection {
+    padding: 70px 0px;
+    border-radius: 70px 70px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 520px;
+      padding: 40px;
+      h3 {
+        font-size: 28px;
+        line-height: 38px;
+      }
+      .questions {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 15px;
+
+        input {
+          background: unset;
+          width: 17px;
+          height: 17px;
+          margin-top: 4px;
+          flex: 0 0 30px;
+        }
+      }
+      Button {
+        margin-top: 20px;
+        min-width: 180px;
+        height: 50px;
+        padding: 0px 30px;
+        font-size: 15px;
+        line-height: 57px;
+      }
+      .submitSection {
+        max-width: 80%;
+        label {
+          font-size: 15px;
+          line-height: 20px;
+        }
+        input {
+          height: 52px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      height: 420px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .questionSection {
+    padding: 60px 0px;
+    border-radius: 60px 60px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 480px;
+      padding: 40px;
+      border-radius: 30px;
+      h3 {
+        font-size: 28px;
+        line-height: 38px;
+      }
+      .questions {
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 15px;
+
+        input {
+          background: unset;
+          width: 17px;
+          height: 17px;
+          margin-top: 4px;
+          flex: 0 0 30px;
+        }
+      }
+      Button {
+        margin-top: 20px;
+        min-width: 160px;
+        height: 50px;
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 57px;
+      }
+      .submitSection {
+        max-width: 80%;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        input {
+          height: 52px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      height: 350px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .questionSection {
+    padding: 60px 0px;
+    border-radius: 60px 60px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 480px;
+      padding: 40px;
+      border-radius: 30px;
+      h3 {
+        font-size: 26px;
+        line-height: 32px;
+      }
+      .questions {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 15px;
+
+        input {
+          background: unset;
+          width: 16px;
+          height: 16px;
+          margin-top: 4px;
+          flex: 0 0 30px;
+        }
+      }
+      Button {
+        margin-top: 20px;
+        min-width: 160px;
+        height: 50px;
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 57px;
+      }
+      .submitSection {
+        max-width: 90%;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        input {
+          height: 50px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      height: 320px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .questionSection {
+    padding: 40px 0px;
+    border-radius: 40px 40px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 460px;
+      padding: 20px;
+      border-radius: 15px;
+      h3 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .questions {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+
+        input {
+          background: unset;
+          width: 15px;
+          height: 15px;
+          margin-top: 4px;
+          flex: 0 0 25px;
+        }
+      }
+      Button {
+        margin-top: 10px;
+        min-width: 160px;
+        height: 45px;
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 45px;
+      }
+      .submitSection {
+        max-width: 100%;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        input {
+          height: 50px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      height: 280px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .questionSection {
+    padding: 30px 0px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 460px;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 95%;
+      h3 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .questions {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+
+        input {
+          background: unset;
+          width: 15px;
+          height: 15px;
+          margin-top: 4px;
+          flex: 0 0 25px;
+        }
+      }
+      Button {
+        margin-top: 10px;
+        min-width: 160px;
+        height: 45px;
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 45px;
+      }
+      .submitSection {
+        max-width: 100%;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        input {
+          height: 50px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      margin-top: 30px;
+      height: 300px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .questionSection {
+    padding: 30px 0px;
+    border-radius: 0px 0px 0px 0px;
+    margin: 50px 0px;
+    .questionContainer {
+      border-radius: 40px;
+      height: 460px;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 95%;
+      h3 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .questions {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+
+        input {
+          background: unset;
+          width: 15px;
+          height: 15px;
+          margin-top: 4px;
+          flex: 0 0 25px;
+        }
+      }
+      Button {
+        margin-top: 10px;
+        min-width: 160px;
+        height: 45px;
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 45px;
+      }
+      .submitSection {
+        max-width: 100%;
+        label {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        input {
+          height: 50px;
+        }
+        .messageSuccessfully {
+          font-size: 20px;
+        }
+      }
+    }
+    .questionImage {
+      margin-top: 30px;
+      height: 300px;
     }
   }
 }

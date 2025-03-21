@@ -69,7 +69,7 @@ export const ServicesData = {
     {
       icon: <Serv05 />,
       title: "On-Page SEO",
-      txt: "We optimize your content, meta tags, and website structure so search engines and users understand your business instantly. Our SEO services in Texas ensure better rankings and a seamless user experience.",
+      txt: "Want more local customers? Our local SEO experts in Texas optimize your Google Business Profile, Google Maps, and local search rankings; making sure nearby customers find and contact you easily.",
     },
     {
       icon: <Serv06 />,
@@ -295,7 +295,7 @@ import IMG from "media/location/seoImg.webp";
 import Link from "next/link";
 export const ReportData = {
   title: "Transparent SEO Reporting for Clients",
-  txt: "We believe in complete transparency, which is why our SEO reporting includes detailed monthly updates tailored to your business goals. From keyword rankings and website traffic to user engagement and conversion insights, we provide clear, actionable data that helps you measure success and refine your strategy to attract more customers in Denver.",
+  txt: "At our Texas SEO agency, we prioritize clarity and accountability. That’s why our tracking and reporting system is designed to keep you in the loop every step of the way. Depending on your service level, you’ll receive monthly performance reports that highlight key metrics like keyword rankings, website traffic, and user behavior. You’ll always know how your website's SEO is performing with consistent updates that drive more revenue.",
   img: IMG.src,
   ReportItem: [
     {

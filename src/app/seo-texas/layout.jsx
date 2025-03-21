@@ -17,6 +17,12 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/seo-texas" },
+  other: {
+    "DC.title": "SEO Texas - Texas SEO",
+    "geo.region": "US-TX",
+    "geo.position": "31.263891;-98.545612",
+    "ICBM": "31.263891, -98.545612"
+  }
  };
 
 export default function RootLayout({ children }) {

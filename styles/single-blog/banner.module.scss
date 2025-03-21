@@ -1,6 +1,6 @@
 .singleBlogs {
   padding-top: 200px;
-  &.singleBlogs1{
+  &.singleBlogs1 {
     padding: 0px;
   }
   .singleBlogImg {
@@ -40,11 +40,10 @@
       margin-bottom: 10px;
       font-size: 22px;
       line-height: 32px;
-      
     }
     ul {
-        margin-bottom: 20px;
-        padding-left: 25px;
+      margin-bottom: 20px;
+      padding-left: 25px;
       li {
         font-style: normal;
         font-weight: 400;
@@ -54,33 +53,362 @@
         color: #000000;
         margin-bottom: 10px;
         position: relative;
-        
 
         &::before {
-            content: "";
-            display: flex;
-            width: 16px;
-            height: 16px;
-            background-color: #7635FF;
-            border-radius: 100%;    position: absolute;
-            left: -25px;
-            top: 5px;
+          content: "";
+          display: flex;
+          width: 16px;
+          height: 16px;
+          background-color: #7635ff;
+          border-radius: 100%;
+          position: absolute;
+          left: -25px;
+          top: 5px;
         }
         &::after {
-            content: "";
-            width: 10px;
-            height: 10px;
-            background-color: #fff;
-            border-radius: 100%;
-            position: absolute;
-            left: -22px;
-            top: 8px;
+          content: "";
+          width: 10px;
+          height: 10px;
+          background-color: #fff;
+          border-radius: 100%;
+          position: absolute;
+          left: -22px;
+          top: 8px;
         }
-        
       }
     }
-    a{
-        color: #7635ff;
+    a {
+      color: #7635ff;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .singleBlogs {
+    padding-top: 180px;
+
+    .singleBlogImg {
+      height: 500px;
+      margin-bottom: 40px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 42px;
+        line-height: 55px;
+      }
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 18px;
+          line-height: 27px;
+
+          &::before {
+            content: "";
+            width: 16px;
+            height: 16px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 10px;
+            height: 10px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .singleBlogs {
+    padding-top: 150px;
+
+    .singleBlogImg {
+      height: 500px;
+      margin-bottom: 40px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 16px;
+          line-height: 25px;
+
+          &::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 9px;
+            height: 9px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .singleBlogs {
+    padding-top: 150px;
+
+    .singleBlogImg {
+      height: 500px;
+      margin-bottom: 40px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 16px;
+          line-height: 25px;
+
+          &::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 9px;
+            height: 9px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .singleBlogs {
+    padding-top: 150px;
+
+    .singleBlogImg {
+      height: 500px;
+      margin-bottom: 40px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 15px;
+          line-height: 24px;
+
+          &::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 9px;
+            height: 9px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .singleBlogs {
+    padding-top: 150px;
+
+    .singleBlogImg {
+      height: 450px;
+      margin-bottom: 30px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 35px;
+        line-height: 45px;
+      }
+      h2 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 13px;
+          line-height: 22px;
+
+          &::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 9px;
+            height: 9px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .singleBlogs {
+    padding-top: 150px;
+
+    .singleBlogImg {
+      height: 450px;
+      margin-bottom: 30px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 35px;
+        line-height: 45px;
+      }
+      h2 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 13px;
+          line-height: 22px;
+
+          &::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 9px;
+            height: 9px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .singleBlogs {
+    padding-top: 120px;
+
+    .singleBlogImg {
+      height: 300px;
+      margin-bottom: 30px;
+    }
+    .singleBlogTxt {
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      h2 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+      .strongPoints {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 25px;
+        li {
+          font-size: 14px;
+          line-height: 22px;
+
+          &::before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            left: -25px;
+            top: 5px;
+          }
+          &::after {
+            width: 9px;
+            height: 9px;
+            left: -22px;
+            top: 8px;
+          }
+        }
+      }
     }
   }
 }
