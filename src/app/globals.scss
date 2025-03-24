@@ -2,6 +2,9 @@ body {
   img {
     max-width: 100%;
     height: auto;
+    pointer-events: none;
+    user-drag: none;
+    -webkit-user-drag: none;
   }
 
   .container {
@@ -115,7 +118,6 @@ body {
       transform: scale(1.01);
       transition: background 0.3s ease, transform 0.3s ease;
     }
-    
   }
   &.purpleBg {
     background: linear-gradient(9.84deg, #ffffff -12.54%, #7635ff 103.72%);
@@ -127,7 +129,6 @@ body {
       transform: scale(1.01);
       transition: background 0.3s ease, transform 0.3s ease;
     }
-    
   }
   &:hover {
     background: linear-gradient(9.84deg, #9aff35 -12.54%, #ffffff 103.72%);
@@ -965,7 +966,7 @@ p {
       }
     }
   }
-  
+
   // Blog Page Css
   .PostImg {
     height: 280px;
