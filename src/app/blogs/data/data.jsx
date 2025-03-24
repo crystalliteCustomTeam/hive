@@ -19,7 +19,7 @@ export const BlgosData = {
   subtitle: "Our Blogs",
   title: "Insights and Inspiration ",
   desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
-  BlogsData: [   
+  BlogsData: [
     {
       title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
       date: "24 Mar, 2025",
@@ -68,7 +68,6 @@ export const BlgosData = {
       img: IMG05.src,
       link: "#",
     },
-  
   ],
 };
 
@@ -97,4 +96,3 @@ export const LeadData = {
     },
   ],
 };
-

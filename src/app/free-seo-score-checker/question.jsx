@@ -167,7 +167,7 @@ const Question = () => {
         body: JSON.stringify({ data: userData }),
       });
 
-      setMessage("Got it! Your SEO score is on its way to your inbox.");
+      setMessage("Got it! Your SEO score is on its way to your Inbox (Or Spam).");
       setName("");
       setRecipient("");
       setPhone("");
