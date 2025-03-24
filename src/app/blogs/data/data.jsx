@@ -29,6 +29,14 @@ export const BlgosData = {
       link: "/what-is-local-seo",
     },
     {
+      title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
+      date: "24 Mar, 2025",
+      txt: "Stuck between local or traditional SEO and unable to find which one can drive more revenue to your business? Read this blog and make an informed decision.",
+      category: "SEO",
+      img: IMG01.src,
+      link: "/seo-vs-local-seo",
+    },
+    {
       title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
       date: "02 Jan, 2025",
       txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
@@ -60,14 +68,7 @@ export const BlgosData = {
       img: IMG05.src,
       link: "#",
     },
-    {
-      title: "Why Does Your Website Take Forever to Load?",
-      date: "06 Jan, 2025",
-      txt: "Slow websites, outdated designs, and confusing layouts are costing you customers. We’ll show you how to build a site that’s fast, easy to use, and impossible to forget. ",
-      category: "Web Development",
-      img: IMG06.src,
-      link: "#",
-    },
+  
   ],
 };
 
