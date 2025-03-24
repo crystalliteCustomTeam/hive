@@ -19,15 +19,7 @@ export const BlgosData = {
   subtitle: "Our Blogs",
   title: "Insights and Inspiration ",
   desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
-  BlogsData: [
-    {
-      title: "What is Local SEO and Why is it Important in 2025?",
-      date: "20 Mar, 2025",
-      txt: "Get better rankings on Google with our Texas SEO Company. As SEO experts in Texas we improve search rankings, traffic, and drive in more revenue.",
-      category: "SEO",
-      img: IMG01.src,
-      link: "/what-is-local-seo",
-    },
+  BlogsData: [   
     {
       title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
       date: "24 Mar, 2025",
@@ -35,6 +27,14 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/seo-vs-local-seo",
+    },
+    {
+      title: "What is Local SEO and Why is it Important in 2025?",
+      date: "20 Mar, 2025",
+      txt: "Get better rankings on Google with our Texas SEO Company. As SEO experts in Texas we improve search rankings, traffic, and drive in more revenue.",
+      category: "SEO",
+      img: IMG01.src,
+      link: "/what-is-local-seo",
     },
     {
       title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
