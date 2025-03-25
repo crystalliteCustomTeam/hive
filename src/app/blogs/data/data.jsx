@@ -21,6 +21,14 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
+      title: "Why Small Businesses Need Local SEO",
+      date: "25 Mar, 2025",
+      txt: "Read this blog and find out about how local SEO can be the missing piece for small businesses to higher online visibility and growth.",
+      category: "SEO",
+      img: IMG01.src,
+      link: "/why-small-businesses-need-local-seo",
+    },
+    {
       title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
       date: "24 Mar, 2025",
       txt: "Stuck between local or traditional SEO and unable to find which one can drive more revenue to your business? Read this blog and make an informed decision.",
@@ -35,14 +43,6 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/what-is-local-seo",
-    },
-    {
-      title: "Your Blog Posts Are Boring—Here’s How to Fix Them",
-      date: "02 Jan, 2025",
-      txt: "If your content isn’t connecting, it’s time for a change. Learn how to write stories that make people stop, read, and share.",
-      category: "Content Marketing",
-      img: IMG02.src,
-      link: "#",
     },
     {
       title: "Stop Wasting Money on Ads That Don’t Work",
