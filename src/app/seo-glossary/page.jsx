@@ -2711,7 +2711,7 @@ const Page = () => {
                 {data.map((item, index) => (
                   <div key={index} id={item.letter}>
                     <div className={styles.bannerImg}>
-                      <Image src={item.letterbanner} alt={item.letter} width={1176} height={550} />
+                      <Image src={item.letterbanner} alt={item.letter} width={1420} height={1420} />
                     </div>
                     {item.letterItem &&
                       item.letterItem.map((list, idx) => (
