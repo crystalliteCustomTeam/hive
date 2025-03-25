@@ -154,7 +154,8 @@ const Question = () => {
 
     try {
       // Send data to email API
-      await fetch("https://dev18.pulse-force.com/api/send-email/", {
+      // await fetch("https://dev18.pulse-force.com/api/send-email/", {
+     await fetch("https://api.infinitidigital.us/api/send-email/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),
