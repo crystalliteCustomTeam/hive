@@ -153,10 +153,8 @@ const Question = () => {
     };
 
     try {
-        // Use API URL from environment variables
-      const emailApiUrl = process.env.NEXT_PUBLIC_EMAIL_API;
       // Send data to email API
-      await fetch(emailApiUrl, {
+      await fetch("https://dev18.pulse-force.com/api/send-email/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),
