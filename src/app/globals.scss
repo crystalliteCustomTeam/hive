@@ -411,6 +411,31 @@ p {
 .centerBtn {
   text-align: center;
   margin: 40px 0px;
+  a.purpleBtn {
+    min-width: 150px;
+    height: 70px;
+    background: linear-gradient(9.84deg, #ffffff -12.54%, #7635ff 103.72%);
+    border-radius: 100px;
+    padding: 0px 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 57px;
+    letter-spacing: -0.165px;
+    color: #000000 !important;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      background: #7635ff;
+      color: #fff !important;
+      transform: scale(1.01);
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+  }
 }
 .blogCenterImg {
   position: relative;
@@ -458,7 +483,15 @@ p {
     font-size: 17px;
     line-height: 50px;
   }
-
+  .centerBtn {
+    a.purpleBtn {
+      min-width: 150px;
+      height: 60px;
+      padding: 0px 25px;
+      font-size: 17px;
+      line-height: 50px;
+    }
+  }
   .gradientBgColor {
     padding: 50px 50px 30px;
   }
@@ -597,7 +630,15 @@ p {
     font-size: 16px;
     line-height: 45px;
   }
-
+  .centerBtn {
+    a.purpleBtn {
+      min-width: 150px;
+      height: 55px;
+      padding: 0px 22px;
+      font-size: 16px;
+      line-height: 45px;
+    }
+  }
   .gradientBgColor {
     padding: 50px 45px 30px;
   }
@@ -737,7 +778,16 @@ p {
     line-height: 45px;
     font-weight: 500;
   }
-
+  .centerBtn {
+    a.purpleBtn {
+      min-width: 150px;
+      height: 45px;
+      padding: 0px 20px;
+      font-size: 14px;
+      line-height: 45px;
+      font-weight: 500;
+    }
+  }
   .gradientBgColor {
     padding: 50px 40px 30px;
   }
@@ -876,7 +926,15 @@ p {
     font-size: 14px;
     line-height: 42px;
   }
-
+  .centerBtn {
+    a.purpleBtn {
+      min-width: 150px;
+      height: 42px;
+      padding: 0px 20px;
+      font-size: 14px;
+      line-height: 42px;
+    }
+  }
   .gradientBgColor {
     padding: 40px 35px 20px;
   }
@@ -1016,7 +1074,15 @@ p {
     font-size: 14px;
     line-height: 42px;
   }
-
+  .centerBtn {
+    a.purpleBtn {
+      min-width: 150px;
+      height: 42px;
+      padding: 0px 20px;
+      font-size: 14px;
+      line-height: 42px;
+    }
+  }
   .gradientBgColor {
     padding: 30px 30px 20px;
   }

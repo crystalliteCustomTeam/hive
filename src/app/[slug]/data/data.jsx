@@ -1744,7 +1744,7 @@ export const PostData = [
             marketing investments.
           </p>
           <div className="centerBtn">
-            <CommonBtn txt="View Local SEO Packages" purple={true} />
+            <Link href="/local-seo-service#PricingId" className="purpleBtn">View Local SEO Packages</Link>
           </div>
         </div>
         <div id="Section-2">
