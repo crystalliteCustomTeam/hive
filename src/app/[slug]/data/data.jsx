@@ -1814,8 +1814,8 @@ export const PostData = [
           <p>
             Read more about the{" "}
             <Link href="/seo-vs-local-seo">
-              differences between organic seo and local seo,
-            </Link>
+              differences between organic seo and local seo
+            </Link>,
             {" "}and which one is most suitable for your business.
           </p>
         </div>
