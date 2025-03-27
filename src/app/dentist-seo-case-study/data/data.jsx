@@ -18,8 +18,14 @@ import { ListPrupleIcon } from "@/src/app/app-constants";
 export const OverViewData = [
   {
     title: "Client Overview",
-    subheading:
-      "Due to a non-disclosure agreement, we are unable to display the client's website or disclose their name publicly.",
+    subheading: (
+      <>
+        <i>
+          Due to a non-disclosure agreement, we are unable to display the
+          client's website or disclose their name publicly.
+        </i>
+      </>
+    ),
     txt: (
       <>
         <p>
@@ -42,7 +48,7 @@ export const OverViewData = [
       <>
         <p>
           The project focused on the dental industry in North Raleigh, with lead
-          generation as the primary KPI. Over a 12-month timeline (ongoing), we
+          generation as the primary KPI. Over a 12-month timeline <i>(ongoing)</i>, we
           provided a suite of SEO services, including website SEO, Google My
           Business management, local SEO, content strategy, and technical
           optimization. Initially targeting 35 keywords, the campaign expanded
@@ -86,11 +92,11 @@ export const ChallengesData = {
       <ul>
         <li>
           <ListPrupleIcon />
-          “emergency dentist North Raleigh”
+          <i>“emergency dentist North Raleigh”</i>
         </li>
         <li>
-          <ListPrupleIcon />
-          “dental implants near me,”
+          <i><ListPrupleIcon />
+          <i></i>“dental implants near me,”</i>
         </li>
       </ul>
       <p>
@@ -99,15 +105,15 @@ export const ChallengesData = {
       <ul>
         <li>
           <ListPrupleIcon />
-          “best cosmetic dentist Raleigh”
+          <i>“best cosmetic dentist Raleigh”</i>
         </li>
         <li>
           <ListPrupleIcon />
-          “affordable teeth whitening,”
+          <i>“affordable teeth whitening,”</i>
         </li>
       </ul>
       <p>
-        informational keywords like “how to fix a chipped tooth” to capture
+        informational keywords like <i>“how to fix a chipped tooth”</i> to capture
         top-of-funnel traffic.
       </p>
       <p>

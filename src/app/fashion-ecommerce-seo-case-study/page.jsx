@@ -23,7 +23,7 @@ const Page = () => {
       <Banner data={BannerData} />
       <OverView data={OverViewData} />
       <Challenges data={ChallengesData} />
-      <Strategy data={StrategyData} />
+      <Strategy data={StrategyData} Overlay={true}/>
       <OverView data={ProcessData} />
       <Features data={FeaturesData} />
       <Challenges data={BuildingData} />

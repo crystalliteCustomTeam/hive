@@ -16,8 +16,14 @@ import OverviewImage from "media/casestudies/apparel/overview.webp";
 import { ListPrupleIcon } from "@/src/app/app-constants";
 export const OverViewData = {
   title: "Client Overview",
-  subheading:
-    "Due to a non-disclosure agreement, we are unable to display the client's website or disclose their name publicly.",
+  subheading: (
+    <>
+      <i>
+        Due to a non-disclosure agreement, we are unable to display the client's
+        website or disclose their name publicly.
+      </i>
+    </>
+  ),
   txt: (
     <>
       <p>
@@ -27,7 +33,7 @@ export const OverViewData = {
         for visibility. But we rewrote the rules. By developing a data-driven
         SEO strategy, we helped a cashmere apparel brand cut through the noise,
         outrank competitors, and achieve remarkable growth in just 12 months
-        (ongoing).
+        <i>(ongoing)</i>.
       </p>
       <p>
         Starting with only 35 keyword rankings, we expanded their visibility to
@@ -141,13 +147,13 @@ export const ProcessData = {
         capturing traffic from initial research to final purchase.
       </p>
       <p>
-        We secured rankings for 826 transactional keywords, such as “best men’s
-        cashmere sweater” and “luxury women’s cashmere coat”, directly targeting
+        We secured rankings for 826 transactional keywords, such as <i>“best men’s
+        cashmere sweater”</i> and <i>“luxury women’s cashmere coat”</i>, directly targeting
         customers ready to buy
       </p>
       <p>
-        Additionally, we ranked for 915 commercial keywords, including “best
-        sustainable cashmere brands” and “cashmere vs wool”, which catered to
+        Additionally, we ranked for 915 commercial keywords, including <i>“best
+        sustainable cashmere brands”</i> and <i>“cashmere vs wool”</i>, which catered to
         shoppers in the consideration phase.
       </p>
       <p>
@@ -157,8 +163,8 @@ export const ProcessData = {
       <p>
         To further expand visibility, we created high-ranking blog content
         targeting 147 informational keywords, answering key consumer questions
-        like “how to care for cashmere” and “difference between cashmere
-        grades.”
+        like <i>“how to care for cashmere”</i> and <i>“difference between cashmere
+        grades.”</i>
       </p>
       <p>
         This multi-layered approach ensured the brand attracted, educated, and
@@ -290,7 +296,13 @@ import ConclusionImg from "media/casestudies/apparel/challengesBg.webp";
 export const ConclusionData = {
   txt: (
     <>
-      <p>If you’re also aiming to achieve similar and better results for your brand, reach out to us at  <a href="mailto:inquiries@infinitidigital.us">inquiries@infinitidigital.us</a></p>
+      <p>
+        If you’re also aiming to achieve similar and better results for your
+        brand, reach out to us at{" "}
+        <a href="mailto:inquiries@infinitidigital.us">
+          inquiries@infinitidigital.us
+        </a>
+      </p>
     </>
   ),
   Image: ConclusionImg.src,

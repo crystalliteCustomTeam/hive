@@ -18,8 +18,14 @@ import { ListPrupleIcon } from "@/src/app/app-constants";
 export const OverViewData = [
   {
     title: "Client Overview",
-    subheading:
-      "Due to a non-disclosure agreement, we are unable to display the client's website or disclose their name publicly.",
+    subheading: (
+      <>
+        <i>
+          Due to a non-disclosure agreement, we are unable to display the
+          client's website or disclose their name publicly.
+        </i>
+      </>
+    ),
     txt: (
       <>
         <p>
@@ -32,7 +38,7 @@ export const OverViewData = [
         </p>
         <p>
           With an ongoing SEO campaign, we helped them achieve significant
-          growth within 11 months.
+          growth within <i>11 months</i>.
         </p>
       </>
     ),
@@ -50,7 +56,7 @@ export const OverViewData = [
           <li>
             <ListPrupleIcon />
             <div>
-              <strong>Low visibility on search engines</strong>
+              <strong>Low visibility on search engines </strong>
               for competitive insurance-related keywords.
             </div>
           </li>
@@ -166,9 +172,32 @@ export const TechnicalData = {
   txt: (
     <>
       <p>
+        A thorough website audit revealed several performance issues that were
+        negatively impacting both rankings and user engagement. To address these
+        challenges, we optimized the site's page speed, ensuring faster load
+        times to reduce bounce rates and improve the overall user experience.
+        Additionally, we enhanced mobile responsiveness, making navigation
+        seamless for users searching for insurance services on their
+        smartphones. To further boost search visibility, we implemented
+        structured data (schema markup), helping search engines better
+        understand the company’s services and display richer search results.
+        These improvements played a crucial role in increasing traffic and
+        conversions.
+      </p>
+    </>
+  ),
+  Image: TechnicalImg.src,
+};
+//Technical
+
+export const TechnicalData1 = {
+  title: "Conversion Rate Optimization & Local SEO",
+  txt: (
+    <>
+      <p>
         Since calls and form submissions were essential for generating leads, we
         focused on optimizing the website for higher conversions. We enhanced
-        the company’s Google Business Profile to improve local search
+        the company's Google Business Profile to improve local search
         visibility, making it easier for potential clients to find and contact
         them. To encourage more inquiries, we strategically placed
         call-to-action buttons on key pages, guiding visitors toward immediate
@@ -181,7 +210,6 @@ export const TechnicalData = {
   ),
   Image: TechnicalImg.src,
 };
-
 //Strategy
 import ImageBg01 from "media/casestudies/insurance/bgImg01.webp";
 
@@ -211,16 +239,12 @@ export const FeaturesData = {
       <ul>
         <li>
           <ListPrupleIcon />
-          <strong>
-            Active users surged by 83.5%, bringing in more potential clients.
-          </strong>
+          Active users surged by 83.5%, bringing in more potential clients.
         </li>
         <li>
           <ListPrupleIcon />
-          <strong>
-            Calls and form submissions increased by 70.3%, converting more
-            visitors into leads.
-          </strong>
+          Calls and form submissions increased by 70.3%, converting more
+          visitors into leads.
         </li>
       </ul>
       <p>
@@ -238,12 +262,12 @@ export const ConclusionData = {
   txt: (
     <>
       <p>
-        Let Infiniti Digital make your success infinite, email us at{" "}
+        If you’re in the insurance industry and want to increase traffic and
+        conversions, we can help. Email us today at{" "}
         <a href="mailto:inquiries@infinitidigital.us">
           inquiries@infinitidigital.us
         </a>{" "}
-        to roll out your project in production. to roll out your project in
-        production.
+        and get a free SEO consultation!
       </p>
     </>
   ),

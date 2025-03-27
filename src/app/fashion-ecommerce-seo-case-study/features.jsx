@@ -18,6 +18,18 @@ const Features = ({ data }) => {
               ""
             )}
             <div className={styles.contentPara}>{data.txt}</div>
+            {data.Image01 ? (
+              <div className={styles.featuresImg}>
+                <Image src={data.Image01} fill alt={data.title} />
+              </div>
+            ) : (
+              ""
+            )}
+            {data.txt1 ? (
+              <div className={styles.contentPara}>{data.txt1}</div>
+            ) : (
+              ""
+            )}
           </Col>
         </Row>
       </Container>

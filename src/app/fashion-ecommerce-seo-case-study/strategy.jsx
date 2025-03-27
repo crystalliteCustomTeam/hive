@@ -1,12 +1,14 @@
 import styles from "@/styles/casestudies/strategy.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Strategy = ({ data, Overlay }) => {
+const Strategy = ({ data, Overlay, bgBlack, Normal }) => {
   return (
     <section
-      className={`${styles.strategySection} ${
-        Overlay ? styles.OverlayBox : styles.OverlaySec
-      }`}
+      className={`${styles.strategySection} 
+      ${Overlay ? "" : styles.OverlaySec} 
+      ${bgBlack ? styles.bgBlack : ""}
+      ${Normal ? styles.Normalstyle : ""}
+      `}
       style={{
         backgroundImage: data.bgImage ? `url(${data.bgImage})` : "none",
       }}

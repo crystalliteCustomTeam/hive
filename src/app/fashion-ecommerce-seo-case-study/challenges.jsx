@@ -2,10 +2,12 @@ import styles from "@/styles/casestudies/challenges.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Challenges = ({ data }) => {
+const Challenges = ({ data, bottomBorder }) => {
   return (
     <section
-      className={styles.challengesSection}
+      className={`${styles.challengesSection} ${
+        bottomBorder ? "" : styles.bottomBorder
+      }`}
       style={{
         backgroundImage: data.ChallengesBg
           ? `url(${data.ChallengesBg})`

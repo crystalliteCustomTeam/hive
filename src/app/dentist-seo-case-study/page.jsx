@@ -19,6 +19,7 @@ import {
   OverViewData02,
   DominateData,
   ConclusionData
+  
 } from "@/src/app/dentist-seo-case-study/data/data";
 
 const Page = () => {
@@ -29,7 +30,7 @@ const Page = () => {
       <Strategy data={StrategyData} Overlay={false} />
       <Challenges data={ChallengesData} />
       <Technical data={TechnicalData} />
-      <Strategy data={StrategyData01} Overlay={true} />
+      <Strategy data={StrategyData01} Normal={true} />
       <Features data={FeaturesData} />
       <Overview data={OverViewData01} NoBordre={true} />
       <Features data={FeaturesData01} />

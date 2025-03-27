@@ -13,7 +13,7 @@ const Banner = ({ data }) => {
     >
       <Container className="h-100">
         <Row className="h-100">
-          <Col md={10} className="m-auto">
+          <Col md={8} className="m-auto">
             <h1>{data.title}</h1>
           </Col>
         </Row>

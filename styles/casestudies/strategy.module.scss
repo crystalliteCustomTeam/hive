@@ -26,10 +26,20 @@
       display: none;
     }
   }
-  &.OverlayBox {
+  &.Normalstyle {
     margin-top: 0px;
     margin-bottom: 50px;
     padding: 100px 0px 100px;
+    &::after {
+      background: rgba(0, 0, 0, 0.3);
+      display: block;
+    }
+  }
+  &.bgBlack{
+    &::after {
+      background: rgba(0, 0, 0, 0.7);
+      display: block;
+    }
   }
   .customContainer {
     max-width: 1250px;

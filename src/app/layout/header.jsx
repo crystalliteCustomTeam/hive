@@ -16,7 +16,8 @@ const Header = () => {
       pathname === "/" ||
         pathname === "/fashion-ecommerce-seo-case-study" ||
         pathname === "/dentist-seo-case-study" ||
-        pathname === "/insurance-seo-case-study"
+        pathname === "/insurance-seo-case-study" ||
+        pathname === "/hvac-seo-case-study" 
     );
   }, [pathname]);
 
