@@ -83,7 +83,7 @@ const Page = async ({ params }) => {
               <Col md={12}>
                 <h1>{blog.title}</h1>
                 <div className={styles.bannerImg}>
-                  <Image src={blog.img} alt={blog.title} fill />
+                  <Image src={blog.img} alt={blog.title} width={1420} height={664} />
                 </div>
                 <div className={styles.picPara}>{blog.picpara}</div>
                 <div className={styles.mainSection}>{blog.maintxt}</div>

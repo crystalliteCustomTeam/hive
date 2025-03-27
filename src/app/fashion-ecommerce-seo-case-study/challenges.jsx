@@ -1,0 +1,35 @@
+import styles from "@/styles/casestudies/challenges.module.scss";
+import Image from "next/image";
+import { Col, Container, Row } from "react-bootstrap";
+
+const Challenges = ({ data }) => {
+  return (
+    <section
+      className={styles.challengesSection}
+      style={{
+        backgroundImage: data.ChallengesBg
+          ? `url(${data.ChallengesBg})`
+          : "none",
+      }}
+    >
+      <Container className={styles.customContainer}>
+        <Row>
+          <Col md={6}>
+            <div className={styles.challengesPara}>
+              <h2>{data.title}</h2>
+              <div className={styles.subheading}>{data.subheading}</div>
+              <div className={styles.contentPara}>{data.txt}</div>
+            </div>
+          </Col>
+          <Col md={6}>
+            <div className={styles.challengesImg}>
+              <Image src={data.ChallengesImg} fill alt={data.title} />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  );
+};
+
+export default Challenges;

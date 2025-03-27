@@ -1,0 +1,90 @@
+.strategySection {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  margin-top: -100px;
+  border-radius: 100px 100px 0px 0px;
+  padding: 100px 0px 180px;
+  z-index: 2;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 100px 100px 0px 0px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  &.OverlaySec {
+    margin-top: 0px;
+    margin-bottom: -100px;
+    &::after {
+      display: none;
+    }
+  }
+  &.OverlayBox {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 100px 0px 100px;
+  }
+  .customContainer {
+    max-width: 1250px;
+  }
+  h2 {
+    position: relative;
+    z-index: 1;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .strategyContent {
+    position: relative;
+    z-index: 1;
+    .contentPara {
+      p {
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 28px;
+      }
+      ul {
+        display: flex;
+        li {
+          display: flex;
+          align-items: flex-start;
+          align-content: top;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: -0.1px;
+          color: #9aff35;
+          margin-bottom: 10px;
+          flex: 0 0 calc(100% / 3 - 15px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 15px;
+            margin-top: 5px;
+            circle {
+              &:first-child {
+                fill: #9aff35;
+              }
+              &:last-child {
+                fill: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

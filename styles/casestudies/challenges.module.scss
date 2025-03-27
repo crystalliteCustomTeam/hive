@@ -1,0 +1,112 @@
+.challengesSection {
+  border-radius: 100px 100px 0px 0px;
+  background: #fff;
+  padding: 100px 0px 200px;
+  z-index: 2;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+    border-radius: 100px 100px 0px 0px;
+  }
+
+  .customContainer {
+    max-width: 1250px;
+  }
+  .challengesPara {
+    position: relative;
+    z-index: 2;
+    h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 45px;
+      letter-spacing: -0.1px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .subheading {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: -0.1px;
+      color: #7635ff;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #fff;
+      margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 28px;
+      strong {
+        color: #9aff35;
+        font-size: 20px;
+      }
+    }
+    ul {
+      li {
+        display: flex;
+        align-items: flex-start;
+        align-content: top;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.1px;
+        color: #fff;
+        margin-bottom: 10px;
+        flex: 0 0 calc(100% - 15px);
+        svg {
+          margin-right: 10px;
+          flex: 0 0 15px;
+          margin-top: 5px;
+          circle {
+            &:first-child {
+              fill: #9aff35;
+            }
+            &:last-child {
+              fill: #393a3b;
+            }
+          }
+        }
+      }
+    }
+    ol {
+      padding: 0px;
+      list-style: none;
+      li {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.1px;
+        color: #fff;
+        margin-bottom: 10px;
+        strong{
+          color: #9aff35;
+        }
+      }
+    }
+  }
+  .challengesImg {
+    height: 100%;
+    position: relative;
+    max-width: 560px;
+    margin-left: auto;
+    z-index: 2;
+    img {
+      object-fit: cover;
+      border-radius: 30px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.bannerConclusion {
+  .customContainer {
+    max-width: 1250px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 50px;
+    position: relative;
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      border-radius: 50px;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 0;
+    }
+    .contentConclusion {
+      background: #7635FF;
+      height: 350px;
+      position: relative;
+      border-radius: 50px;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 100px;
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: -0.165px;
+        color: #ffffff;
+        a {
+          color: #9aff35;
+          transition: 0.3s linear;
+          &:hover {
+            text-decoration: underline;
+            transition: 0.3s linear;
+          }
+        }
+      }
+    }
+  }
+}

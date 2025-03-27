@@ -1,4 +1,5 @@
 import Post1 from "media/seo-glossary/BannerImg.webp";
+import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import Link from "next/link";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 import CustomPrice from "@/src/app/[slug]/components/postprice";
@@ -43,7 +44,7 @@ export const BlogData = [
       "Learn what does above the fold means and make your concepts right through our blog. Get a quote today!",
     slug: "what-does-above-the-fold-mean",
     title: "What Does Above The Fold Mean",
-    img: Post1.src,
+    img: LetterA.src,
     type: "noblogs",
     picpara: (
       <>
@@ -161,7 +162,7 @@ export const BlogData = [
       "Drive traffic to your website by getting to know about what acquisition in SEO is and how it benefits your business. Contact us now!",
     slug: "what-is-acquisition-in-seo",
     title: "What is Acquisition in SEO",
-    img: Post1.src,
+    img: LetterA.src,
     type: "noblogs",
     picpara: (
       <>
@@ -353,7 +354,7 @@ export const BlogData = [
       "Find out what AI content detection is and how these models use technology to identify AI content. Get a quote today!",
     slug: "how-does-ai-content-detection-work",
     title: "How Does AI Content Detection Work",
-    img: Post1.src,
+    img: LetterA.src,
     type: "noblogs",
     picpara: (
       <>
@@ -447,7 +448,7 @@ export const BlogData = [
     slug: "what-is-ajax",
     title: "What is AJAX?",
     type: "noblogs",
-    img: Post1.src,
+    img: LetterA.src,
     picpara: (
       <>
         <p>
@@ -512,7 +513,7 @@ export const BlogData = [
       "If you want to know about google analytics + how does it work then read this blog. Contact us today and get your quote!",
     slug: "what-is-analytics-and-how-does-it-work",
     title: "What is Analytics and How Does it Work",
-    img: Post1.src,
+    img: LetterA.src,
     type: "noblogs",
     picpara: (
       <>

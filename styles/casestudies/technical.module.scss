@@ -1,0 +1,60 @@
+.technicalSection {
+  margin-top: -100px;
+  border-radius: 100px 100px 0px 0px;
+  background: #fff;
+  padding: 100px 0px;
+  z-index: 2;
+  position: relative;
+  .customContainer {
+    max-width: 1250px;
+    .technicalImg {
+      height: 450px;
+      width: auto;
+      position: relative;
+      img {
+        object-fit: cover;
+        border-radius: 25px;
+      }
+    }
+    .technicalContent {
+      padding-left: 50px;
+      h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: -0.1px;
+        color: #000;
+        margin-bottom: 30px;
+      }
+      .contentPara {
+        p{
+          font-size: 18px;
+          line-height: 28px;
+        }
+        ul {
+          li {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: -0.1px;
+            color: #73858f;
+            margin-bottom: 15px;
+            display: flex;
+            flex: 0 0 calc(100% - 14px);
+            svg {
+              margin-right: 10px;
+              flex: 0 0 14px;
+              margin-top: 5px;
+            }
+            strong {
+              color: #7635ff;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}

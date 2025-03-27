@@ -1,0 +1,55 @@
+.featuresSection {
+  margin-bottom: 50px;
+  .customContainer {
+    max-width: 1250px;
+    background: #f2f9ff;
+    border-radius: 40px;
+    padding: 50px;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: -0.1px;
+    color: #000;
+    margin-bottom: 30px;
+    max-width: 60%;
+  }
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    strong {
+      color: #7635ff;
+    }
+  }
+  ul {
+    li {
+      display: flex;
+      align-items: flex-start;
+      align-content: top;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: -0.1px;
+      color: #000;
+      margin-bottom: 10px;
+      flex: 0 0 calc(100% - 15px);
+      svg {
+        margin-right: 10px;
+        flex: 0 0 15px;
+        margin-top: 5px;
+      }
+    }
+  }
+  .featuresImg {
+    height: 500px;
+    position: relative;
+    margin-bottom: 30px;
+    img {
+      object-fit: cover;
+      border-radius: 30px;
+    }
+  }
+}
