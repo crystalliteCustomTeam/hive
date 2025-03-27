@@ -22,7 +22,7 @@ export const OverViewData = [
       <>
         <i>
           Due to a non-disclosure agreement, we are unable to display the
-          client's website or disclose their name publicly.
+          client’s website or disclose their name publicly.
         </i>
       </>
     ),
@@ -174,7 +174,7 @@ export const TechnicalData = {
       <p>
         A thorough website audit revealed several performance issues that were
         negatively impacting both rankings and user engagement. To address these
-        challenges, we optimized the site's page speed, ensuring faster load
+        challenges, we optimized the site’s page speed, ensuring faster load
         times to reduce bounce rates and improve the overall user experience.
         Additionally, we enhanced mobile responsiveness, making navigation
         seamless for users searching for insurance services on their
@@ -197,7 +197,7 @@ export const TechnicalData1 = {
       <p>
         Since calls and form submissions were essential for generating leads, we
         focused on optimizing the website for higher conversions. We enhanced
-        the company's Google Business Profile to improve local search
+        the company’s Google Business Profile to improve local search
         visibility, making it easier for potential clients to find and contact
         them. To encourage more inquiries, we strategically placed
         call-to-action buttons on key pages, guiding visitors toward immediate
