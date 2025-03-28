@@ -9,9 +9,13 @@ const Features = ({ data }) => {
         <Row>
           <Col md={12}>
             <h2>{data.title}</h2>
-            <div className={styles.featuresImg}>
-              <Image src={data.Image} fill alt={data.title} />
-            </div>
+            {data.Image ? (
+              <div className={styles.featuresImg}>
+                <Image src={data.Image} fill alt={data.title} />
+              </div>
+            ) : (
+              ""
+            )}
             {data.subheading ? (
               <div className={styles.subheading}>{data.subheading}</div>
             ) : (
