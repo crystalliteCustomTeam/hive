@@ -17,8 +17,14 @@ import Image02 from "media/casestudies/hvac/Image02.webp";
 export const OverViewData = [
   {
     title: "Client Overview",
-    subheading:
-      "Due to a non-disclosure agreement, we are unable to display the client's website or disclose their name publicly.",
+    subheading: (
+      <>
+        <i>
+          Due to a non-disclosure agreement, we are unable to display the
+          client's website or disclose their name publicly.
+        </i>
+      </>
+    ),
     txt: (
       <>
         <p>
@@ -82,16 +88,13 @@ export const ChallengesData = {
   txt: (
     <>
       <p>
-        Since calls and form submissions were essential for generating leads, we
-        focused on optimizing the website for higher conversions. We enhanced
-        the company’s Google Business Profile to improve local search
-        visibility, making it easier for potential clients to find and contact
-        them. To encourage more inquiries, we strategically placed
-        call-to-action buttons on key pages, guiding visitors toward immediate
-        action. Additionally, we strengthened location-based keyword targeting,
-        ensuring the company ranked for relevant statewide insurance searches.
-        These efforts helped drive more engagement, resulting in a significant
-        increase in leads and conversions.
+        To address these challenges, we began by optimizing the website’s
+        performance. Page speed was improved by reducing server response times,
+        and implementing caching strategies. Mobile usability was enhanced to
+        ensure seamless navigation, as a majority of HVAC service searches
+        happen on smartphones. Structured data was also added to help search
+        engines better understand and display the company’s services in relevant
+        search results.
       </p>
       <p>
         With the website’s technical foundation improved, we focused on local
@@ -147,26 +150,40 @@ export const FeaturesData = {
 };
 
 //Technical
-import TechnicalImg from "media/casestudies/insurance/TechnicalImage.webp";
+import TechnicalImg from "media/casestudies/hvac/TechnicalImage.webp";
 
 export const TechnicalData = {
   title: "Results and Impact",
   txt: (
     <>
-    <ul>
-      <li><ListPrupleIcon /> New users increased to 12K, a 26.8% rise in traffic.</li>
-    </ul>
+      <ul>
+        <li>
+          <ListPrupleIcon /> New users increased to 12K, a 26.8% rise in
+          traffic.
+        </li>
+        <li>
+          <ListPrupleIcon /> Key events, including calls and form submissions,
+          reached 9.2K, reflecting a 17% improvement in lead generation.
+        </li>
+        <li>
+          <ListPrupleIcon /> Website sessions grew by 20%, bringing in more
+          potential customers actively searching for HVAC services.
+        </li>
+        <li>
+          <ListPrupleIcon /> Google Business Profile optimizations led to 472
+          calls in the last three months, a 21.6% increase.
+        </li>
+        <li>
+          <ListPrupleIcon /> Bookings surged to 523, a 44.8% jump, demonstrating
+          the direct impact of the SEO and CRO strategies.
+        </li>
+      </ul>
       <p>
-        Since calls and form submissions were essential for generating leads, we
-        focused on optimizing the website for higher conversions. We enhanced
-        the company’s Google Business Profile to improve local search
-        visibility, making it easier for potential clients to find and contact
-        them. To encourage more inquiries, we strategically placed
-        call-to-action buttons on key pages, guiding visitors toward immediate
-        action. Additionally, we strengthened location-based keyword targeting,
-        ensuring the company ranked for relevant statewide insurance searches.
-        These efforts helped drive more engagement, resulting in a significant
-        increase in leads and conversions.
+        By addressing technical issues, optimizing for local searches, and
+        improving lead capture strategies, the company successfully increased
+        its digital presence and conversion rates. The growth in bookings
+        showcases how a strategic, data-driven approach to SEO and digital
+        marketing can drive substantial business results in the HVAC industry.
       </p>
     </>
   ),
@@ -180,12 +197,13 @@ export const ConclusionData = {
   txt: (
     <>
       <p>
-        Let Infiniti Digital make your success infinite, email us at{" "}
+        If your HVAC business is struggling with online visibility or lead
+        generation, we can help you implement a tailored strategy to achieve
+        similar results. Email us at{" "}
         <a href="mailto:inquiries@infinitidigital.us">
           inquiries@infinitidigital.us
         </a>{" "}
-        to roll out your project in production. to roll out your project in
-        production.
+        to get started.
       </p>
     </>
   ),

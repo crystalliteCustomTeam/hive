@@ -5,13 +5,9 @@ import { Col, Container, Row } from "react-bootstrap";
 const Challenges = ({ data, bottomBorder }) => {
   return (
     <section
-      className={`${styles.challengesSection} ${
-        bottomBorder ? "" : styles.bottomBorder
-      }`}
+      className={`${styles.challengesSection} ${bottomBorder ? styles.bottomBorder : ""}`}
       style={{
-        backgroundImage: data.ChallengesBg
-          ? `url(${data.ChallengesBg})`
-          : "none",
+        backgroundImage: data.ChallengesBg ? `url(${data.ChallengesBg})` : "none",
       }}
     >
       <Container className={styles.customContainer}>

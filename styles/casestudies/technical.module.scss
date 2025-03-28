@@ -8,8 +8,8 @@
   .customContainer {
     max-width: 1250px;
     .technicalImg {
-      height: 450px;
-      width: auto;
+      height: 100%;
+      width: 100%;
       position: relative;
       img {
         object-fit: cover;
@@ -28,7 +28,7 @@
         margin-bottom: 30px;
       }
       .contentPara {
-        p{
+        p {
           font-size: 18px;
           line-height: 28px;
         }
