@@ -102,6 +102,9 @@ export const ChallengesData = {
         pages were all crafted to not only rank well but also provide value to
         potential travelers.
       </p>
+      <p>
+        <strong>Some of their target keywords are;</strong>
+      </p>
     </>
   ),
   ChallengesImg: challengesImage.src,
@@ -163,57 +166,19 @@ export const ProcessData = {
         drinks. This not only boosted short-term revenue but also helped build
         long-term brand awareness.
       </p>
+     
     </>
   ),
 };
 
 //Features
-import FeaturesImage from "media/casestudies/food/FeaturesGraphImg.webp";
+import FeaturesImage from "media/casestudies/travel/FeaturesGraphImg.webp";
 export const FeaturesData = {
-  title: "Some of their target keywords are; ",
-  txt: (
-    <>
-      <p>
-        The impact of our SEO strategy was evident within one month, with
-        significant improvements across multiple performance metrics. New users
-        increased by 41.7%, indicating higher brand discoverability, while
-        active users grew by 40.1%, demonstrating stronger engagement. The event
-        count, representing user interactions such as product clicks and
-        add-to-cart actions, saw a 13.3% rise. Most notably, total revenue
-        increased by 28.3%, confirming the success of our optimization efforts
-        in driving conversions.
-      </p>
-    </>
-  ),
+  title: "",
+  txt: "",
   Image: FeaturesImage.src,
 };
 
-//Technical
-import TechnicalImg from "media/casestudies/food/TechnicalImage.webp";
-
-export const TechnicalData = {
-  title: "Key Takeaways ",
-  txt: (
-    <>
-      <p>
-        This case study highlights the power of a well-rounded SEO approach that
-        integrates product optimization, keyword targeting, community
-        engagement, and promotional strategies. One of the biggest takeaways is
-        the importance of optimizing for Google’s evolving search features, such
-        as Shopping filters, Popular Products, and Discussions, which play a
-        crucial role in influencing consumer decisions.
-      </p>
-      <p>
-        Additionally, leveraging user-generated content and engaging in relevant
-        online communities can significantly boost organic traffic and brand
-        trust. Google Deals, when strategically utilized, can drive substantial
-        increases in conversions, proving that price-sensitive customers
-        actively seek out discounts through search.
-      </p>
-    </>
-  ),
-  Image: TechnicalImg.src,
-};
 
 //Features
 import FeaturesImage01 from "media/casestudies/food/FeaturesGraphImg01.webp";
