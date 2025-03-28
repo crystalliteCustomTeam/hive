@@ -21,7 +21,7 @@ export const OverViewData = [
       <>
         <i>
           Due to a non-disclosure agreement, we are unable to display the
-          client's website or disclose their name publicly.
+          client’s website or disclose their name publicly.
         </i>
       </>
     ),

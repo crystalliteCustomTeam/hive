@@ -20,7 +20,7 @@ export const OverViewData = [
       <>
         <i>
           Due to a non-disclosure agreement, we are unable to display the
-          client's website or disclose their name publicly.
+          client’s website or disclose their name publicly.
         </i>
       </>
     ),
@@ -92,7 +92,7 @@ export const ChallengesData = {
       <p>
         Despite these challenges, there were clear opportunities to improve
         visibility. The increasing demand for sugar-free and keto-friendly
-        energy drinks, with Google's constantly changing search results pages,
+        energy drinks, with Google’s constantly changing search results pages,
         new opportunities emerged to improve visibility. By targeting
         high-intent keywords we focused on attracting more traffic and boosting
         sales.
@@ -293,7 +293,7 @@ export const DominateData = {
 
 //Conclusion
 import ConclusionImg from "media/casestudies/apparel/challengesBg.webp";
-import { ListPrupleIcon } from "../../app-constants";
+import { ListPrupleIcon } from "@/src/app/app-constants";
 export const ConclusionData = {
   txt: (
     <>
