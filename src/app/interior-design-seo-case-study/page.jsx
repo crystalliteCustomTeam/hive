@@ -1,21 +1,22 @@
 import Banner from "@/src/app/fashion-ecommerce-seo-case-study/banner";
 import Overview from "@/src/app/dentist-seo-case-study/overview";
-import Strategy from "@/src/app/fashion-ecommerce-seo-case-study/strategy";
-import Challenges from "@/src/app/fashion-ecommerce-seo-case-study/challenges";
-import Technical from "@/src/app/dentist-seo-case-study/technical";
+import OverView from "@/src/app/fashion-ecommerce-seo-case-study/overview";
 import Features from "@/src/app/fashion-ecommerce-seo-case-study/features";
 import Conclusion from "@/src/app/fashion-ecommerce-seo-case-study/conclusion";
+import Technical from "@/src/app/dentist-seo-case-study/technical";
+import Strategy from "@/src/app/fashion-ecommerce-seo-case-study/strategy";
+import Challenges from "@/src/app/fashion-ecommerce-seo-case-study/challenges";
 import {
   BannerData,
   OverViewData,
   StrategyData,
-  ChallengesData,
+  ProcessData,
   TechnicalData,
-  StrategyData01,
   FeaturesData,
+  ChallengesData,
+  OverViewData01,
   ConclusionData,
-  TechnicalData1
-} from "@/src/app/insurance-seo-case-study/data/data";
+} from "@/src/app/interior-design-seo-case-study/data/data";
 
 const Page = () => {
   return (
@@ -23,14 +24,15 @@ const Page = () => {
       <Banner data={BannerData} />
       <Overview data={OverViewData} />
       <Strategy data={StrategyData} bgBlack={true}/>
-      <Challenges data={ChallengesData} />
-      <Technical data={TechnicalData} />
-      <Technical data={TechnicalData1} alternet={true} />
+      <OverView data={ProcessData} NoImg={true}/>
       <Features data={FeaturesData} />
-      <Strategy data={StrategyData01} Normal={true} />
+      <Challenges data={ChallengesData} />
+      <Technical data={TechnicalData} alternet={true}/>
+      <Overview data={OverViewData01} />
       <Conclusion data={ConclusionData} />
     </>
   );
 };
 
 export default Page;
+

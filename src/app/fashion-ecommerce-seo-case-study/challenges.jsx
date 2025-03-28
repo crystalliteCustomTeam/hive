@@ -5,25 +5,33 @@ import { Col, Container, Row } from "react-bootstrap";
 const Challenges = ({ data, bottomBorder }) => {
   return (
     <section
-      className={`${styles.challengesSection} ${bottomBorder ? styles.bottomBorder : ""}`}
+      className={`${styles.challengesSection} ${
+        bottomBorder ? styles.bottomBorder : ""
+      }`}
       style={{
-        backgroundImage: data.ChallengesBg ? `url(${data.ChallengesBg})` : "none",
+        backgroundImage: data.ChallengesBg
+          ? `url(${data.ChallengesBg})`
+          : "none",
       }}
     >
       <Container className={styles.customContainer}>
         <Row>
-          <Col md={6}>
+          <Col md={data.ChallengesImg ? 6 : 12} className={data.ChallengesImg ? "" : "text-center"}>
             <div className={styles.challengesPara}>
               <h2>{data.title}</h2>
               <div className={styles.subheading}>{data.subheading}</div>
               <div className={styles.contentPara}>{data.txt}</div>
             </div>
           </Col>
-          <Col md={6}>
-            <div className={styles.challengesImg}>
-              <Image src={data.ChallengesImg} fill alt={data.title} />
-            </div>
-          </Col>
+          {data.ChallengesImg ? (
+            <Col md={6}>
+              <div className={styles.challengesImg}>
+                <Image src={data.ChallengesImg} fill alt={data.title} />
+              </div>
+            </Col>
+          ) : (
+            ""
+          )}
         </Row>
       </Container>
     </section>

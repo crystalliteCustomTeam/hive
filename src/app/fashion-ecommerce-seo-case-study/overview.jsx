@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const OverView = ({ data, NoImg }) => {
   return (
-    <section className={styles.overViewSection}>
+    <section className={`${styles.overViewSection} ${data.title === "" ? styles.nodata : ""}`}>
       <Container className={styles.customContainer}>
         <Row>
           <Col md={NoImg ? 12 : 6}>

@@ -5,6 +5,9 @@
   padding: 100px 0px;
   z-index: 2;
   position: relative;
+  &.nodata{
+padding: 100px 0px 0px;
+  }
   .customContainer {
     max-width: 1250px;
   }
