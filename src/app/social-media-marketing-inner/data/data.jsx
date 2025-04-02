@@ -487,6 +487,8 @@ import Automotive from "media/home/industires/automotive.webp"
 import Sports from "media/home/industires/sports.webp"
 import Ecommerce from "media/home/industires/ecommerce.webp"
 import Healthcare from "media/home/industires/healthcare.webp"
+import Img10 from "media/home/industires/industy10.webp";
+
 export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Partnering with Businesses Across Industries",
@@ -548,7 +550,13 @@ export const IndustryItem = [
         txt: "Enhance patient access with apps for scheduling and consultations.Streamline healthcare processes with secure data management.Build trust through reliable, informative content.",
         Img: Healthcare.src,
         url: "#",
-    }
+    },
+     {
+        title: "Law",
+        txt: "Build credibility, attract clients, and establish authority with strategic marketing tailored for legal professionals.We deliver campaigns that enhance your law firm's reputation and distinguish your practice in a competitive landscape.",
+        Img: Img10.src,
+        url: "#",
+      },
 ]
 // Content Section
 import ContentImage from "media/services/social-media-marketing/ContentImage.webp"

@@ -506,6 +506,7 @@ import Img06 from "media/home/industires/industy06.webp";
 import Img07 from "media/home/industires/industy07.webp";
 import Img08 from "media/home/industires/industy08.webp";
 import Img09 from "media/home/industires/industy09.webp";
+import Img10 from "media/home/industires/industy10.webp";
 
 export const IndustriesData = {
   subtitle: "Industries We Serve",
@@ -566,6 +567,12 @@ export const IndustryItem = [
     title: "Healthcare",
     txt: "Reach patients, build trust, and enhance accessibility with tailored healthcare marketing. From SEO to reliable content strategies, we help you become the go-to authority in your field.",
     Img: Img09.src,
+    url: "#",
+  },
+  {
+    title: "Law",
+    txt: "Build credibility, attract clients, and establish authority with strategic marketing tailored for legal professionals.We deliver campaigns that enhance your law firm's reputation and distinguish your practice in a competitive landscape.",
+    Img: Img10.src,
     url: "#",
   },
 ];
