@@ -100,7 +100,7 @@ const page = () => {
             {
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: "Secure Your Spot In The Top 3 Results With Houston SEO",
+              name: "Houston SEO Company, Best SEO Service in Houston",
               image: "https://www.infinitidigital.us/infinitidigital.png",
               url: "https://www.infinitidigital.us/seo-houston-tx",
               description:

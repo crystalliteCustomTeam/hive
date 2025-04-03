@@ -13,7 +13,7 @@ const Technical = ({ data, alternet }) => {
             </div>
           </Col>
           <Col md={6} className={`${alternet ? "order-md-1" : ""}`}>
-            <div className={`${alternet ? "ps-0 pe-5" : ""} ${styles.technicalContent}`}>
+            <div className={`${alternet ? "ps-0 pe-lp-5" : ""} ${styles.technicalContent}`}>
               <h2>{data.title}</h2>
               <div className={styles.contentPara}>{data.txt}</div>
             </div>

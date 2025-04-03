@@ -108,8 +108,414 @@
     width: 100%;
     z-index: 2;
     img {
-      object-fit: cover;
-      border-radius: 30px;
+        border-radius: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .challengesSection {
+    border-radius: 80px 80px 0px 0px;
+    padding: 80px 0px 160px;
+
+    &::after {
+      border-radius: 80px 80px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 80px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 1250px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 32px;
+        line-height: 42px;
+      }
+      .subheading {
+        font-size: 18px;
+        line-height: 26px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 26px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 16px;
+          line-height: 26px;
+          flex: 0 0 calc(100% - 14px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 14px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+    .challengesImg {
+      img {
+        border-radius: 28px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .challengesSection {
+    border-radius: 70px 70px 0px 0px;
+    padding: 70px 0px 140px;
+
+    &::after {
+      border-radius: 70px 70px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 70px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 1200px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .subheading {
+        font-size: 17px;
+        line-height: 25px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 16px;
+          line-height: 24px;
+          flex: 0 0 calc(100% - 14px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 14px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+    .challengesImg {
+      img {
+        border-radius: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .challengesSection {
+    border-radius: 60px 60px 0px 0px;
+    padding: 60px 0px 140px;
+
+    &::after {
+      border-radius: 60px 60px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 60px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 1080px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .subheading {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 16px;
+          line-height: 24px;
+          flex: 0 0 calc(100% - 13px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 13px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+    .challengesImg {
+      img {
+        border-radius: 22px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .challengesSection {
+    border-radius: 50px 50px 0px 0px;
+    padding: 50px 0px 140px;
+
+    &::after {
+      border-radius: 50px 50px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 50px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 960px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+      }
+      .subheading {
+        font-size: 15px;
+        line-height: 23px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 23px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 15px;
+          line-height: 23px;
+          flex: 0 0 calc(100% - 13px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 13px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 15px;
+          line-height: 23px;
+        }
+      }
+    }
+    .challengesImg {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .challengesSection {
+    border-radius: 40px 40px 0px 0px;
+    padding: 40px 0px 100px;
+
+    &::after {
+      border-radius: 40px 40px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 50px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 750px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      .subheading {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 22px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 14px;
+          line-height: 22px;
+          flex: 0 0 calc(100% - 13px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 13px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+    .challengesImg {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .challengesSection {
+    border-radius: 40px 40px 0px 0px;
+    padding: 40px 0px 100px;
+
+    &::after {
+      border-radius: 40px 40px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 50px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 750px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      .subheading {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 22px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 14px;
+          line-height: 22px;
+          flex: 0 0 calc(100% - 13px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 13px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+    .challengesImg {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .challengesSection {
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 0px 100px;
+
+    &::after {
+      border-radius: 30px 30px 0px 0px;
+    }
+    &.bottomBorder {
+      padding: 50px 0px 60px;
+      margin-bottom: 50px;
+    }
+    .customContainer {
+      max-width: 750px;
+    }
+    .challengesPara {
+      h2 {
+        font-size: 26px;
+        line-height: 36px;
+      }
+      .subheading {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 22px;
+        strong {
+          font-size: 18px;
+        }
+      }
+      ul {
+        li {
+          font-size: 14px;
+          line-height: 22px;
+          flex: 0 0 calc(100% - 13px);
+          svg {
+            margin-right: 10px;
+            flex: 0 0 13px;
+            margin-top: 5px;
+          }
+        }
+      }
+      ol {
+        li {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+    .challengesImg {
+        img {
+        border-radius: 20px;
+      }
     }
   }
 }

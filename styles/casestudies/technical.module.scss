@@ -58,3 +58,281 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .technicalSection {
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+    padding: 80px 0px;
+    .customContainer {
+      max-width: 1250px;
+      .technicalImg {
+        img {
+          border-radius: 25px;
+        }
+      }
+      .technicalContent {
+        padding-left: 40px;
+        h2 {
+          font-size: 32px;
+          line-height: 42px;
+          margin-bottom: 30px;
+        }
+        .contentPara {
+          p {
+            font-size: 16px;
+            line-height: 26px;
+          }
+          ul {
+            li {
+              font-size: 16px;
+              line-height: 26px;
+              flex: 0 0 calc(100% - 14px);
+              svg {
+                flex: 0 0 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .technicalSection {
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+    padding: 80px 0px;
+    .customContainer {
+      max-width: 1200px;
+      .technicalImg {
+        img {
+          border-radius: 25px;
+        }
+      }
+      .technicalContent {
+        padding-left: 40px;
+        h2 {
+          font-size: 30px;
+          line-height: 40px;
+          margin-bottom: 30px;
+        }
+        .contentPara {
+          p {
+            font-size: 16px;
+            line-height: 26px;
+          }
+          ul {
+            li {
+              font-size: 16px;
+              line-height: 26px;
+              flex: 0 0 calc(100% - 14px);
+              svg {
+                flex: 0 0 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .technicalSection {
+    margin-top: -60px;
+    border-radius: 60px 60px 0px 0px;
+    padding: 60px 0px;
+    .customContainer {
+      max-width: 1080px;
+      .technicalImg {
+        img {
+          border-radius: 20px;
+        }
+      }
+      .technicalContent {
+        padding-left: 25px;
+        h2 {
+          font-size: 30px;
+          line-height: 40px;
+          margin-bottom: 30px;
+        }
+        .contentPara {
+          p {
+            font-size: 16px;
+            line-height: 24px;
+          }
+          ul {
+            li {
+              font-size: 16px;
+              line-height: 24px;
+              flex: 0 0 calc(100% - 13px);
+              svg {
+                flex: 0 0 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .technicalSection {
+    margin-top: -50px;
+    border-radius: 50px 50px 0px 0px;
+    padding: 50px 0px;
+    .customContainer {
+      max-width: 960px;
+      .technicalImg {
+        img {
+          border-radius: 20px;
+        }
+      }
+      .technicalContent {
+        padding-left: 0px;
+        h2 {
+          font-size: 30px;
+          line-height: 40px;
+          margin-bottom: 30px;
+        }
+        .contentPara {
+          p {
+            font-size: 15px;
+            line-height: 23px;
+          }
+          ul {
+            li {
+              font-size: 15px;
+              line-height: 23px;
+              flex: 0 0 calc(100% - 13px);
+              svg {
+                flex: 0 0 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .technicalSection {
+    margin-top: -40px;
+    border-radius: 40px 40px 0px 0px;
+    padding: 40px 0px;
+    .customContainer {
+      max-width: 750px;
+      .technicalImg {
+        img {
+          border-radius: 20px;
+        }
+      }
+      .technicalContent {
+        padding-left: 0px;
+        h2 {
+          font-size: 26px;
+          line-height: 36px;
+          margin-bottom: 30px;
+        }
+        .contentPara {
+          p {
+            font-size: 14px;
+            line-height: 22px;
+          }
+          ul {
+            li {
+              font-size: 14px;
+              line-height: 22px;
+              flex: 0 0 calc(100% - 13px);
+              svg {
+                flex: 0 0 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .technicalSection {
+    margin-top: -30px;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 0px;
+    .customContainer {
+      max-width: 750px;
+      .technicalImg {
+        height: 300px;
+        margin-bottom: 20pxF;
+        img {
+          border-radius: 20px;
+        }
+      }
+      .technicalContent {
+        padding-left: 0px;
+        h2 {
+          font-size: 26px;
+          line-height: 36px;
+          margin-bottom: 20px;
+        }
+        .contentPara {
+          p {
+            font-size: 14px;
+            line-height: 22px;
+          }
+          ul {
+            li {
+              font-size: 14px;
+              line-height: 22px;
+              flex: 0 0 calc(100% - 13px);
+              svg {
+                flex: 0 0 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .technicalSection {
+    margin-top: -30px;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 0px;
+    .customContainer {
+      max-width: 750px;
+      .technicalImg {
+        height: 230px;
+        margin-bottom: 20px;
+        img {
+          border-radius: 20px;
+        }
+      }
+      .technicalContent {
+        padding-left: 0px;
+        h2 {
+          font-size: 26px;
+          line-height: 36px;
+          margin-bottom: 10px;
+        }
+        .contentPara {
+          p {
+            font-size: 14px;
+            line-height: 22px;
+          }
+          ul {
+            li {
+              font-size: 14px;
+              line-height: 22px;
+              flex: 0 0 calc(100% - 13px);
+              svg {
+                flex: 0 0 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

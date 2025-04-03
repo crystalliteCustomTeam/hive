@@ -5,8 +5,8 @@
   padding: 100px 0px;
   z-index: 2;
   position: relative;
-  &.nodata{
-padding: 100px 0px 0px;
+  &.nodata {
+    padding: 100px 0px 0px;
   }
   .customContainer {
     max-width: 1250px;
@@ -53,11 +53,299 @@ padding: 100px 0px 0px;
   .overViewImg {
     height: 100%;
     position: relative;
-    max-width: 560px;
-    margin-left: auto;
     img {
       object-fit: cover;
       border-radius: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .overViewSection {
+    margin-top: -80px;
+    border-radius: 80px 80px 0px 0px;
+    padding: 80px 0px;
+    &.nodata {
+      padding: 80px 0px 0px;
+    }
+    .customContainer {
+      max-width: 1250px;
+    }
+    h2 {
+      font-size: 32px;
+      line-height: 42px;
+    }
+    .subheading {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    ul {
+      li {
+        font-size: 16px;
+        line-height: 26px;
+        svg {
+          margin-right: 10px;
+          width: 13px;
+        }
+      }
+    }
+    .overViewImg {
+      img {
+        border-radius: 28px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .overViewSection {
+    margin-top: -70px;
+    border-radius: 70px 70px 0px 0px;
+    padding: 70px 0px;
+    &.nodata {
+      padding: 70px 0px 0px;
+    }
+    .customContainer {
+      max-width: 1200px;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .subheading {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+    ul {
+      li {
+        font-size: 16px;
+        line-height: 26px;
+        svg {
+          margin-right: 10px;
+          width: 13px;
+        }
+      }
+    }
+    .overViewImg {
+      img {
+        border-radius: 25px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .overViewSection {
+    margin-top: -60px;
+    border-radius: 60px 60px 0px 0px;
+    padding: 60px 0px;
+    &.nodata {
+      padding: 60px 0px 0px;
+    }
+    .customContainer {
+      max-width: 1080px;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .subheading {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    ul {
+      li {
+        font-size: 16px;
+        line-height: 24px;
+        svg {
+          margin-right: 10px;
+          width: 12px;
+        }
+      }
+    }
+    .overViewImg {
+      img {
+        border-radius: 22px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .overViewSection {
+    margin-top: -50px;
+    border-radius: 50px 50px 0px 0px;
+    padding: 50px 0px;
+    &.nodata {
+      padding: 50px 0px 0px;
+    }
+    .customContainer {
+      max-width: 960px;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    .subheading {
+      font-size: 15px;
+      line-height: 23px;
+    }
+    p {
+      margin-bottom: 15px;
+      font-size: 15px;
+      line-height: 23px;
+    }
+    ul {
+      li {
+        font-size: 15px;
+        line-height: 23px;
+        svg {
+          margin-right: 10px;
+          width: 12px;
+        }
+      }
+    }
+    .overViewImg {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .overViewSection {
+    margin-top: -40px;
+    border-radius: 40px 40px 0px 0px;
+    padding: 40px 0px;
+    &.nodata {
+      padding: 40px 0px 0px;
+    }
+    .customContainer {
+      max-width: 750px;
+    }
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .subheading {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    ul {
+      li {
+        font-size: 14px;
+        line-height: 22px;
+        svg {
+          margin-right: 10px;
+          width: 12px;
+        }
+      }
+    }
+    .overViewImg {
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .overViewSection {
+    margin-top: -30px;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 0px;
+    &.nodata {
+      padding: 30px 0px 0px;
+    }
+    .customContainer {
+      max-width: 750px;
+    }
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .subheading {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    ul {
+      li {
+        font-size: 14px;
+        line-height: 22px;
+        svg {
+          margin-right: 10px;
+          width: 12px;
+        }
+      }
+    }
+    .overViewImg {
+      height: 300px;
+      img {
+        border-radius: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .overViewSection {
+    margin-top: -30px;
+    border-radius: 30px 30px 0px 0px;
+    padding: 30px 0px;
+    &.nodata {
+      padding: 30px 0px 0px;
+    }
+    .customContainer {
+      max-width: 100%;
+    }
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .subheading {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    ul {
+      li {
+        font-size: 14px;
+        line-height: 22px;
+        svg {
+          margin-right: 10px;
+          width: 12px;
+        }
+      }
+    }
+    .overViewImg {
+      height: 260px;
+      img {
+        border-radius: 20px;
+      }
     }
   }
 }

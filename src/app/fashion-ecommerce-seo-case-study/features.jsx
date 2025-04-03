@@ -11,7 +11,7 @@ const Features = ({ data }) => {
             <h2>{data.title}</h2>
             {data.Image ? (
               <div className={styles.featuresImg}>
-                <Image src={data.Image} fill alt={data.title} />
+                <Image src={data.Image} width={1250} height={500} alt={data.title} />
               </div>
             ) : (
               ""
@@ -24,7 +24,7 @@ const Features = ({ data }) => {
             <div className={styles.contentPara}>{data.txt}</div>
             {data.Image01 ? (
               <div className={styles.featuresImg}>
-                <Image src={data.Image01} fill alt={data.title} />
+                <Image src={data.Image01} width={1250} height={500} alt={data.title} />
               </div>
             ) : (
               ""

@@ -26,7 +26,7 @@ const Challenges = ({ data, bottomBorder }) => {
           {data.ChallengesImg ? (
             <Col md={6}>
               <div className={styles.challengesImg}>
-                <Image src={data.ChallengesImg} fill alt={data.title} />
+                <Image src={data.ChallengesImg}  width={1250} height={500} alt={data.title} />
               </div>
             </Col>
           ) : (

@@ -94,7 +94,7 @@ export const ProcessData = {
   txt: "",
 };
 //Features
-import FeaturesImage from "media/casestudies/insurance/FeaturesGraphImg.webp";
+import FeaturesImage from "media/casestudies/home/FeaturesGraphImg.webp";
 export const FeaturesData = {
   title: "GMB Optimization",
   txt: (
@@ -119,7 +119,7 @@ export const FeaturesData = {
 //Challenges
 
 import challengesBg from "media/casestudies/apparel/challengesBg.webp";
-import challengesImage from "media/casestudies/home/challenges.webp";
+import challengesImage from "media/casestudies/home/FeaturesGraphImg01.webp";
 export const ChallengesData = {
   title: "Website SEO Enhancements",
   subheading: "",

@@ -2,11 +2,11 @@
 //===== Meta Data =====
 export const metadata = {
     //===== Meta Tags =====
-    title: "Secure Your Spot In The Top 3 Results With Houston SEO",
+    title: "Houston SEO Company, Best SEO Service in Houston",
     description: "Houston SEO company that ranks your brand in the top positions on google search in 3 simple steps; Click here, talk to us and get rich.  ",
     //===== OG Tags =====
     openGraph: {
-        title: "Secure Your Spot In The Top 3 Results With Houston SEO",
+        title: "Houston SEO Company, Best SEO Service in Houston",
         description: "Houston SEO company that ranks your brand in the top positions on google search in 3 simple steps; Click here, talk to us and get rich.  ",
         url: '/seo-houston-tx',
         siteName: "Inifniti Digital",

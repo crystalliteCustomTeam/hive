@@ -181,7 +181,7 @@ export const FeaturesData = {
 
 
 //Features
-import FeaturesImage01 from "media/casestudies/food/FeaturesGraphImg01.webp";
+import FeaturesImage01 from "media/casestudies/travel/FeaturesGraphImg01.webp";
 export const FeaturesData01 = {
   title: "The Results",
   txt: (
