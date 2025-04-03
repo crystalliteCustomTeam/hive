@@ -5,6 +5,14 @@
   padding: 100px 0px;
   z-index: 2;
   position: relative;
+  &.PopupOverview{
+    margin: 0px;
+    border-radius: 10px;
+    padding: 50px 0px;
+    &.nodata{
+      padding: 0px;
+    }
+  }
   &.nodata {
     padding: 100px 0px 0px;
   }

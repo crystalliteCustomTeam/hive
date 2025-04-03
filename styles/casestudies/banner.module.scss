@@ -4,6 +4,13 @@
   background-position: top center;
   background-size: cover;
   position: relative;
+  &.popupBanner {
+    height: 500px;
+    border-radius: 10px;
+    &::after {
+      border-radius: 10px;
+    }
+  }
   &::after {
     content: "";
     width: 100%;

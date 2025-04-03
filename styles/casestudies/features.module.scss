@@ -1,5 +1,10 @@
 .featuresSection {
   margin-bottom: 50px;
+  &.PopupFeatures{
+    .customContainer{
+      border-radius: 10px;
+    }
+  }
   .customContainer {
     max-width: 1250px;
     background: #f2f9ff;

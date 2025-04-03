@@ -447,6 +447,10 @@ p {
     object-position: left;
   }
 }
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-bg-type: rgb(242 249 255);
+}
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   body {
     .container {

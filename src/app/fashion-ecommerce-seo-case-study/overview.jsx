@@ -2,9 +2,9 @@ import styles from "@/styles/casestudies/overview.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
-const OverView = ({ data, NoImg }) => {
+const OverView = ({ data, NoImg ,PopupStyle}) => {
   return (
-    <section className={`${styles.overViewSection} ${data.title === "" ? styles.nodata : ""}`}>
+    <section className={`${styles.overViewSection} ${data.title === "" ? styles.nodata : ""} ${PopupStyle ? styles.PopupOverview :""}`}>
       <Container className={styles.customContainer}>
         <Row>
           <Col md={NoImg ? 12 : 6}>

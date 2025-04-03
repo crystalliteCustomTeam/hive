@@ -1,10 +1,10 @@
 import styles from "@/styles/casestudies/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Banner = ({ data }) => {
+const Banner = ({ data ,PopupStyle}) => {
   return (
     <section
-      className={styles.bannerCaseStudy}
+      className={`${styles.bannerCaseStudy} ${PopupStyle ? styles.popupBanner : ""}`}
       style={{
         backgroundImage: data.BannerPoster
           ? `url(${data.BannerPoster})`

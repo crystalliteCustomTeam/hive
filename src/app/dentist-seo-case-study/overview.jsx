@@ -2,10 +2,10 @@ import styles from "@/styles/casestudies/overviewalternaet.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Overview = ({ data, NoBordre }) => {
+const Overview = ({ data, NoBordre,PopupStyle }) => {
   return (
     <section
-      className={`${styles.overViewSection} ${NoBordre ? styles.NoBordre : ""}`}
+      className={`${styles.overViewSection} ${NoBordre ? styles.NoBordre : ""} ${PopupStyle ? styles.PopupoverView : ""}`}
     >
       <Container className={`${styles.customContainer}`}>
         {data.map((item, index) => (

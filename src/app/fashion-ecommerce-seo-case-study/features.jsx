@@ -2,9 +2,9 @@ import styles from "@/styles/casestudies/features.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Features = ({ data }) => {
+const Features = ({ data,PopupStyle }) => {
   return (
-    <section className={styles.featuresSection}>
+    <section className={`${styles.featuresSection} ${PopupStyle ? styles.PopupFeatures : ""}`}>
       <Container className={styles.customContainer}>
         <Row>
           <Col md={12}>

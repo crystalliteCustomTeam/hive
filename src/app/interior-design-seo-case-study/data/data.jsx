@@ -52,16 +52,16 @@ export const OverViewData = [
         <p>Before working with us, the store faced several problems:</p>
         <ul>
           <li>
-            <strong>01 -</strong> Low Website Traffic
+            <strong>01 -</strong>&nbsp;Low Website Traffic
           </li>
           <li>
-            <strong>02 -</strong> Few In-Store Bookings
+            <strong>02 -</strong>&nbsp;Few In-Store Bookings
           </li>
           <li>
-            <strong>03 -</strong> Low Google Search Visibility
+            <strong>03 -</strong>&nbsp;Low Google Search Visibility
           </li>
           <li>
-            <strong>04 -</strong> Little Engagement on Google Business Profile
+            <strong>04 -</strong>&nbsp;Little Engagement on Google Business Profile
           </li>
         </ul>
       </>

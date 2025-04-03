@@ -8,6 +8,11 @@
   &.NoBordre {
     margin-top: 0px;
     border-radius: 0px;
+    }
+  &.PopupoverView{
+    margin-top: 0px;
+    border-radius: 0px;
+    padding: 50px 0px;
   }
   .customContainer {
     max-width: 1250px;

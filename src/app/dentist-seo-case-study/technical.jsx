@@ -2,9 +2,9 @@ import styles from "@/styles/casestudies/technical.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Technical = ({ data, alternet }) => {
+const Technical = ({ data, alternet,PopupStyle }) => {
   return (
-    <section className={styles.technicalSection}>
+    <section className={`${PopupStyle ? styles.PopupTechnical: ""} ${styles.technicalSection}`}>
       <Container className={`${styles.customContainer}`}>
         <Row>
           <Col md={6} className={`${alternet ? "order-md-2" : ""}`}>

@@ -1,4 +1,15 @@
 .bannerConclusion {
+  &.PopupConclusion {
+    .customContainer {
+      border-radius: 10px;
+      &::after {
+        border-radius: 10px;
+      }
+      .contentConclusion {
+        border-radius: 10px;
+      }
+    }
+  }
   .customContainer {
     max-width: 1250px;
     background-repeat: no-repeat;
@@ -169,7 +180,8 @@
         padding: 0px 70px;
         p {
           font-size: 22px;
-          line-height: 30px; margin-bottom: 0px;
+          line-height: 30px;
+          margin-bottom: 0px;
         }
       }
     }

@@ -1,9 +1,9 @@
 import styles from "@/styles/casestudies/dominate.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Dominate = ({ data }) => {
+const Dominate = ({ data,PopupStyle }) => {
   return (
-    <section className={styles.bannerDominate}>
+    <section className={`${styles.bannerDominate} ${PopupStyle ? styles.PopupDominate : ""}`}>
       <Container className={`h-100 ${styles.customContainer}`}>
         <Row className="h-100">
           <Col md={10} className="m-auto text-center">

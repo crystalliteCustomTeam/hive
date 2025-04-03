@@ -3,6 +3,9 @@
   background: #f2f9ff;
   padding: 50px 0px;
   margin-bottom: 50px;
+  &.PopupDominate{
+    border-radius: 10px;
+  }
   .customContainer {
     max-width: 1250px;
   }
@@ -21,7 +24,7 @@
     font-size: 18px;
     line-height: 28px;
     strong {
-      color: #9aff35;
+      color: #000;
       font-size: 20px;
     }
   }

@@ -1,9 +1,9 @@
 import styles from "@/styles/casestudies/conclusion.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Conclusion = ({ data }) => {
+const Conclusion = ({ data,PopupStyle }) => {
   return (
-    <section className={styles.bannerConclusion}>
+    <section className={`${styles.bannerConclusion} ${PopupStyle ? styles.PopupConclusion : ""}`}>
       <Container
         className={styles.customContainer}
         style={{

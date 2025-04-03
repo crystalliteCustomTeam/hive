@@ -140,11 +140,11 @@ export const FeaturesData = {
       <ul>
         <li>
           <ListPrupleIcon />
-          Total Active Users: 1.9K (+4.6%)
+          Calls from GMB: 80 calls in 6 months
         </li>
         <li>
           <ListPrupleIcon />
-          Increase in key events (calls & inquiries): 7.5K (+18.7%)
+          Improved Map Pack Rankings for key searches like “bankruptcy lawyer near me”
         </li>
       </ul>
     </>
@@ -312,7 +312,7 @@ export const FeaturesData03 = {
   title: "Results & Performance Insights:",
   txt: (
     <>
-      <div className="table-responsive">
+      <div className="table-responsive text-center">
         <table className="table table-bordered table-striped">
           <thead>
             <tr align="center">
