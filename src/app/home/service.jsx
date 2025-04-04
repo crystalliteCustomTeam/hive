@@ -28,7 +28,7 @@ const Service = ({ data }) => {
                                     <div className={styles.servicesContent}>
                                         <h3><ArrowIcon />{item.title}</h3>
                                         <p>{item.txt}</p>
-                                        <Link href={item.url} className="commonBtn">Read More</Link>
+                                        <Link href={item.url} className="commonBtn" aria-label={item.title}>Read More</Link>
                                     </div>
                                 </div>
                             ))}
