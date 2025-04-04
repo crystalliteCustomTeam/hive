@@ -189,6 +189,7 @@ export const TechnicalData = {
   Image: TechnicalImg.src,
 };
 //Technical
+import TechnicalImg01 from "media/casestudies/insurance/TechnicalImage01.webp";
 
 export const TechnicalData1 = {
   title: "Conversion Rate Optimization & Local SEO",
@@ -208,7 +209,7 @@ export const TechnicalData1 = {
       </p>
     </>
   ),
-  Image: TechnicalImg.src,
+  Image: TechnicalImg01.src,
 };
 //Strategy
 import ImageBg01 from "media/casestudies/insurance/bgImg01.webp";
