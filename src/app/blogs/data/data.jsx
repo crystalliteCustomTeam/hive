@@ -5,7 +5,7 @@ export const BannerData = {
   subtitle: "Our Blogs",
   title: "Amplify Your Digital Impact, Effortlessly",
   desc: "your budget is tight? We think it’s just right! At Infiniti Digital, we turn every dollar into results with paid marketing strategies that pack a punch. No fluff, no waste—just campaigns that drive clicks, conversions, and smiles.",
-  video: "",
+  video: "#",
   BannerPoster: BannerPoster.src,
 };
 // Blgos
