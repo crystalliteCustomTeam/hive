@@ -29,14 +29,14 @@ export const OverViewData = [
     txt: (
       <>
         <p>
-          A dental practice in Los Angeles approached us with a clear
-          challenge: to stand out in a highly competitive local market and
-          generate more leads in patient appointments. Despite offering a wide
-          range of dental services, their online presence was underperforming,
-          resulting in missed opportunities to attract regular patients. Their
-          goals were straightforward: increase online visibility in North
-          Raleigh, drive more appointment bookings through lead forms and calls,
-          and establish authority in the local dental market.
+          A dental practice in Los Angeles approached us with a clear challenge:
+          to stand out in a highly competitive local market and generate more
+          leads in patient appointments. Despite offering a wide range of dental
+          services, their online presence was underperforming, resulting in
+          missed opportunities to attract regular patients. Their goals were
+          straightforward: increase online visibility in Los Angeles, drive more
+          appointment bookings through lead forms and calls, and establish
+          authority in the local dental market.
         </p>
       </>
     ),
@@ -48,11 +48,12 @@ export const OverViewData = [
       <>
         <p>
           The project focused on the dental industry in Los Angeles, with lead
-          generation as the primary KPI. Over a 12-month timeline <i>(ongoing)</i>, we
-          provided a suite of SEO services, including website SEO, Google My
-          Business management, local SEO, content strategy, and technical
-          optimization. Initially targeting 35 keywords, the campaign expanded
-          to include 627 highly relevant keywords to capture a broader audience.
+          generation as the primary KPI. Over a 12-month timeline{" "}
+          <i>(ongoing)</i>, we provided a suite of SEO services, including
+          website SEO, Google My Business management, local SEO, content
+          strategy, and technical optimization. Initially targeting 35 keywords,
+          the campaign expanded to include 627 highly relevant keywords to
+          capture a broader audience.
         </p>
       </>
     ),
@@ -95,8 +96,10 @@ export const ChallengesData = {
           <i>“emergency dentist Los Angeles”</i>
         </li>
         <li>
-          <i><ListPrupleIcon />
-          <i></i>“dental implants near me,”</i>
+          <i>
+            <ListPrupleIcon />
+            <i></i>“dental implants near me,”
+          </i>
         </li>
       </ul>
       <p>
@@ -105,7 +108,7 @@ export const ChallengesData = {
       <ul>
         <li>
           <ListPrupleIcon />
-          <i>“best cosmetic dentist Raleigh”</i>
+          <i>“best cosmetic dentist LA”</i>
         </li>
         <li>
           <ListPrupleIcon />
@@ -113,8 +116,8 @@ export const ChallengesData = {
         </li>
       </ul>
       <p>
-        informational keywords like <i>“how to fix a chipped tooth”</i> to capture
-        top-of-funnel traffic.
+        informational keywords like <i>“how to fix a chipped tooth”</i> to
+        capture top-of-funnel traffic.
       </p>
       <p>
         We designed and launched service pages to align with transactional
