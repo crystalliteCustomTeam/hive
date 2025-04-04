@@ -1,19 +1,26 @@
-import Banner from "@/src/app/home/banner";
-import About from "@/src/app/home/about";
-import Service from "@/src/app/home/service";
-import CTA from "@/src/app/home/cta";
-import Work from "@/src/app/home/work";
-import Partners from "@/src/app/home/partners";
-import Industries from "@/src/app/home/Industries";
-import WhyChoose from "@/src/app/home/whychoose";
-import PlateFroms from "@/src/app/home/plateform";
-import Awards from "@/src/app/home/awards";
-import CTA1 from "@/src/app/home/cta1";
-import Testimonials from "@/src/app/home/testimonials";
-import CtaForm from "@/src/app/home/ctaform";
-import FollowUs from "@/src/app/home/followus";
-import Blogs from "@/src/app/home/blogs";
-import Faqs from "@/src/app/home/faq";
+"use client";
+import dynamic from "next/dynamic";
+const Banner = dynamic(() => import("@/src/app/home/banner"));
+const About = dynamic(() => import("@/src/app/home/about"));
+const Service = dynamic(() => import("@/src/app/home/service"));
+const CTA = dynamic(() => import("@/src/app/home/cta"));
+const Work = dynamic(() => import("@/src/app/home/work"));
+const Partners = dynamic(() => import("@/src/app/home/partners"));
+const Industries = dynamic(() => import("@/src/app/home/Industries"));
+const WhyChoose = dynamic(() => import("@/src/app/home/whychoose"));
+const PlateFroms = dynamic(() => import("@/src/app/home/plateform"));
+const Awards = dynamic(() => import("@/src/app/home/awards"));
+const CTA1 = dynamic(() => import("@/src/app/home/cta1"));
+const Testimonials = dynamic(() => import("@/src/app/home/testimonials"), {
+  ssr: false,
+});
+const CtaForm = dynamic(() => import("@/src/app/home/ctaform"), { ssr: false });
+const FollowUs = dynamic(() => import("@/src/app/home/followus"), {
+  ssr: false,
+});
+const Blogs = dynamic(() => import("@/src/app/home/blogs"));
+const Faqs = dynamic(() => import("@/src/app/home/faq"));
+
 import {
   AboutData,
   AwardsData,
