@@ -48,7 +48,7 @@ const StateCountLP = ({ data, video, alternet, height, coloum, round, nostate, p
                                     <source src={data.video} type="video/mp4" />
                                 </video>
                                 :
-                                <Image src={data.img} alt="Contact Image" fill />
+                                <Image src={data.img} alt="Contact Image" fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
                             }
                         </div>
                     </Col>

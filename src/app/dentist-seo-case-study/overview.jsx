@@ -24,7 +24,7 @@ const Overview = ({ data, NoBordre,PopupStyle }) => {
                 </Col>
                 <Col md={6}>
                   <div className={styles.overViewImg}>
-                    <Image src={item.Img} fill alt={item.title} />
+                    <Image src={item.Img} fill alt={item.title} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                   </div>
                 </Col>
               </>
@@ -37,7 +37,7 @@ const Overview = ({ data, NoBordre,PopupStyle }) => {
                 </Col>
                 <Col md={6} className="order-md-1">
                   <div className={styles.overViewImg}>
-                    <Image src={item.Img} fill alt={item.title} />
+                    <Image src={item.Img} fill alt={item.title} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
                   </div>
                 </Col>
               </>

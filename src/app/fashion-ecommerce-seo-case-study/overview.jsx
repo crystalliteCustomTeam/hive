@@ -17,7 +17,7 @@ const OverView = ({ data, NoImg ,PopupStyle}) => {
           ) : (
             <Col md={6}>
               <div className={styles.overViewImg}>
-                <Image src={data.Img} fill alt={data.title} />
+                <Image src={data.Img} fill alt={data.title} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
               </div>
             </Col>
           )}
