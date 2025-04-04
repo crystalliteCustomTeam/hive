@@ -17,11 +17,7 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/food-and-drinks-seo-case-study" },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
+
 };
 
 export default function RootLayout({ children }) {

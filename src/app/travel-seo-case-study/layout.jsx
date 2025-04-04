@@ -17,11 +17,7 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/travel-seo-case-study" },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
+
 };
 
 export default function RootLayout({ children }) {
