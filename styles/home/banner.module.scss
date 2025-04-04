@@ -36,6 +36,9 @@
         object-fit: cover;
         z-index: -1;
     }
+    img{
+        object-fit: cover;
+    }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
