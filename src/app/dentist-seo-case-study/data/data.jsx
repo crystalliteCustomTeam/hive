@@ -5,7 +5,7 @@ export const BannerData = {
   title: (
     <>
       <span>60.7%</span> More Patients, <span>221%</span> More Calls in 3 months
-      How We Dominated Dental Market with SEO in North Raleigh
+      How We Dominated Dental Market with SEO in Los Angeles
     </>
   ),
   BannerPoster: BannerPoster.src,
@@ -29,7 +29,7 @@ export const OverViewData = [
     txt: (
       <>
         <p>
-          A dental practice in North Raleigh approached us with a clear
+          A dental practice in Los Angeles approached us with a clear
           challenge: to stand out in a highly competitive local market and
           generate more leads in patient appointments. Despite offering a wide
           range of dental services, their online presence was underperforming,
@@ -47,7 +47,7 @@ export const OverViewData = [
     txt: (
       <>
         <p>
-          The project focused on the dental industry in North Raleigh, with lead
+          The project focused on the dental industry in Los Angeles, with lead
           generation as the primary KPI. Over a 12-month timeline <i>(ongoing)</i>, we
           provided a suite of SEO services, including website SEO, Google My
           Business management, local SEO, content strategy, and technical
@@ -92,7 +92,7 @@ export const ChallengesData = {
       <ul>
         <li>
           <ListPrupleIcon />
-          <i>“emergency dentist North Raleigh”</i>
+          <i>“emergency dentist Los Angeles”</i>
         </li>
         <li>
           <i><ListPrupleIcon />
@@ -180,7 +180,7 @@ export const StrategyData01 = {
     <>
       <p>
         Local SEO was a foundation of our strategy, given the client’s focus on
-        North Raleigh. We optimized the GMB listing with high-quality images,
+        Los Angeles. We optimized the GMB listing with high-quality images,
         detailed service descriptions, and consistent NAP information.
       </p>
       <p>
