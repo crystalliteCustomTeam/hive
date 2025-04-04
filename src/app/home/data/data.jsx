@@ -92,13 +92,13 @@ export const ServicesData = {
       title: "Social Media Marketing",
       txt: "Turn followers into loyal fans with campaigns that connect and captivate. Engage your community with authentic interactions that foster trust and brand loyalty.",
       Img: Image01.src,
-      url: "/social-media-marketing",
+      url: "/social-media-marketing-services",
     },
     {
       title: "Mobile App Development",
       txt: "Build intuitive, engaging apps that keep users coming back. Incorporate user feedback to enhance features and deliver a personalized experience that meets their needs.",
       Img: Image03.src,
-      url: "/mobile-app-development",
+      url: "/mobile-app-development-company",
     },
     {
       title: "Paid Marketing",
@@ -118,13 +118,13 @@ export const ServicesData = {
       title: "Web Design & Development",
       txt: "Create sleek, functional websites that transform visitors into customers. Ensure seamless navigation and an immersive user experience that keeps visitors engaged.",
       Img: Image04.src,
-      url: "/web-development",
+      url: "/web-development-company",
     },
     {
       title: "Content Marketing",
       txt: "Deliver value with high-quality, impactful content that informs and inspires. Foster a community around your brand by encouraging conversations and sharing insights that resonate.",
       Img: Image06.src,
-      url: "/content-marketing",
+      url: "/content-marketing-services",
     },
   ],
 };
