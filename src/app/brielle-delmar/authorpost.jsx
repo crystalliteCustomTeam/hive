@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/home/blogs.module.scss";
 import { usePathname } from "next/navigation";
 
-const AuthorPost = ({ data, blogPage }) => {
+const AuthorPost = ({ data, blogPage,title,desc }) => {
   const [timeDiffs, setTimeDiffs] = useState([]);
   const pathname = usePathname();
   const authorSlug = pathname.split("/").pop();
@@ -47,8 +47,8 @@ const AuthorPost = ({ data, blogPage }) => {
         <Row>
           <Col md={7}>
             <div className="subtitle">{data.subtitle}</div>
-            <h2>{data.title}</h2>
-            <p>{data.desc}</p>
+            <h2>{title ? title : data.title}</h2>
+            <p>{desc? desc : data.desc}</p>
           </Col>
         </Row>
         <Row className="h-100">

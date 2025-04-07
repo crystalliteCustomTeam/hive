@@ -18,8 +18,8 @@ import IMG05 from "media/blogs/posts/blog5.webp";
 import IMG06 from "media/blogs/posts/blog6.webp";
 export const BlgosData = {
   subtitle: "Our Blogs",
-  title: "SEO Resources Archive ",
-  desc: "Explore a wealth of SEO knowledge, expert strategies, actionable tips, and in-depth guides from an SEO Specialist at Infiniti Digital, Brielle Delmar.",
+  title: "Insights and Inspiration ",
+  desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
       title: "Why Small Businesses Need Local SEO",

@@ -25,17 +25,18 @@ const Banner = () => {
                 <Image src={AuthorImage.src} alt="Author" fill />
               </div>
               <div className={styles.authorContent}>
-                <h4>Matt G. Southern</h4>
+                <h4>Brielle Delmar</h4>
                 <ul className={styles.authorList}>
                   <li>SEO Specialist</li>
                   <li>Infiniti Digital</li>
                 </ul>
                 <div className={styles.btnAuthor}>
-                  <SubscribeCape />
-                  Subscribe Now
+                  <Link href="/blogs" >
+                   Back to SEO Knowledge
+                   </Link>
                 </div>
                 <div className={styles.authorInfo}>
-                  <h5>About Me</h5>
+                  <h5>About</h5>
                   <p>
                     Brielle Delmar is an SEO Specialist at Infiniti Digital. She
                     helps websites rank better using simple and smart
@@ -47,7 +48,7 @@ const Banner = () => {
                 </div>
                 <div className={styles.socailShare}>
                   <ul>
-                    <li>Follow Me :</li>
+                    <li>Follow :</li>
                     <li>
                       <a
                         href="https://www.instagram.com/infinitidigitalus/"

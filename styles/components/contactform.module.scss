@@ -593,6 +593,26 @@
         }
       }
     }
+    &.customPrice {
+      background: transparent;
+      margin: 20px 0px 0px;
+      &.voiceRemove{
+        .contactItem {
+          flex: 0 0 calc(100% - 10px);
+    
+          &:nth-last-child(5) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(4) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(3) {
+            flex: 0 0 100%;
+          }
+        }
+  
+      }
+    }
     .contactItem {
       margin-bottom: 15px;
 
@@ -713,6 +733,26 @@
           height: 50px;
           font-size: 13px;
         }
+      }
+    }
+    &.customPrice {
+      background: transparent;
+      margin: 20px 0px 0px;
+      &.voiceRemove{
+        .contactItem {
+          flex: 0 0 calc(100% - 10px);
+    
+          &:nth-last-child(5) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(4) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(3) {
+            flex: 0 0 100%;
+          }
+        }
+  
       }
     }
     .contactItem {
@@ -863,7 +903,26 @@
         font-size: 12px;
       }
     }
-
+    &.customPrice {
+      background: transparent;
+      margin: 20px 0px 0px;
+      &.voiceRemove{
+        .contactItem {
+          flex: 0 0 calc(100% - 5px);
+    
+          &:nth-last-child(5) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(4) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(3) {
+            flex: 0 0 100%;
+          }
+        }
+  
+      }
+    }
     .contactBtn {
       button {
         border: 0px;
@@ -958,7 +1017,26 @@
         }
       }
     }
-
+    &.customPrice {
+      background: transparent;
+      margin: 20px 0px 0px;
+      &.voiceRemove{
+        .contactItem {
+          flex: 0 0 calc(100% - 5px);
+    
+          &:nth-last-child(5) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(4) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(3) {
+            flex: 0 0 100%;
+          }
+        }
+  
+      }
+    }
     .contactItem {
       margin-bottom: 15px;
 
