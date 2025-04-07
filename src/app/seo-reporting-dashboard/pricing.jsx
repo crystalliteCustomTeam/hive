@@ -100,7 +100,7 @@ const DashboardPrice = () => {
                   <p>
                     Your Business Deserves a Page One Ranking – Not Page None
                   </p>
-                  <ContactFrom customprice={true} />
+                  <ContactFrom customprice={true} voice={true} />
                 </div>
               </div>
             </div>

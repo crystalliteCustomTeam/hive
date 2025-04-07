@@ -402,6 +402,22 @@
         flex: 0 0 100%;
       }
     }
+    &.voiceRemove{
+      .contactItem {
+        flex: 0 0 calc(50% - 10px);
+  
+        &:nth-last-child(5) {
+          flex: 0 0 100%;
+        }
+        &:nth-last-child(4) {
+          flex: 0 0 100%;
+        }
+        &:nth-last-child(3) {
+          flex: 0 0 100%;
+        }
+      }
+
+    }
   }
   &.locationSec {
     max-width: 100%;
@@ -1393,6 +1409,21 @@
 
         &:nth-last-child(3) {
           flex: 0 0 100%;
+        }
+      }
+      &.voiceRemove {
+        .contactItem {
+          flex: 0 0 calc(100% - 0px);
+
+          &:nth-last-child(5) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(4) {
+            flex: 0 0 100%;
+          }
+          &:nth-last-child(3) {
+            flex: 0 0 100%;
+          }
         }
       }
     }
