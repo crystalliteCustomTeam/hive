@@ -276,7 +276,7 @@ const Navigation = ({ scrolled, isLight }) => {
               ))}
             </ul>
           </li>
-          <li className={styles.subMobileMenu}>
+          {/* <li className={styles.subMobileMenu}>
             <Link href="/content-marketing-services">Content Marketing</Link>
             <div className={styles.subMenuIcon}>
               <SubMenuIcon />
@@ -291,7 +291,7 @@ const Navigation = ({ scrolled, isLight }) => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           <li className={styles.subMobileMenu}>
             <Link href="/mobile-app-development-company">
               Mobile App Development
@@ -354,7 +354,7 @@ const Navigation = ({ scrolled, isLight }) => {
               [
                 ...(Array.isArray(MainServicesLinks) ? MainServicesLinks : []),
                 ...(Array.isArray(SmmMenu) ? SmmMenu : []),
-                ...(Array.isArray(ContentMarketing) ? ContentMarketing : []),
+                // ...(Array.isArray(ContentMarketing) ? ContentMarketing : []),
                 ...(Array.isArray(WebsiteDesign) ? WebsiteDesign : []),
                 ...(Array.isArray(WebsiteDesign) ? PaidMarketing : []),
                 ...(Array.isArray(WebsiteDesign) ? SEO : []),
@@ -457,7 +457,7 @@ const Navigation = ({ scrolled, isLight }) => {
                         ))}
                       </ul>
                     </div>
-                    <div
+                    {/* <div
                       className={`${styles.serivesMenuItem} ${
                         isActiveSubMenu(ContentMarketing) ? styles.active : ""
                       }`}
@@ -482,7 +482,7 @@ const Navigation = ({ scrolled, isLight }) => {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
                     <div
                       className={`${styles.serivesMenuItem} ${
                         isActiveSubMenu(MobileApp) ? styles.active : ""
@@ -509,10 +509,10 @@ const Navigation = ({ scrolled, isLight }) => {
                           </li>
                         ))}
                       </ul>
-                    </div>{" "}
+                    </div>
                     <div
                       className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(ContentMarketing) ? styles.active : ""
+                        isActiveSubMenu(WebsiteDesign) ? styles.active : ""
                       }`}
                     >
                       <div className={styles.title}>
