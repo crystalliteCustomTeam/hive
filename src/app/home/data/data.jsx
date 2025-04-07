@@ -824,11 +824,11 @@ export const FollowsData = {
   title: "Stay Connected Across Platforms",
   desc: "We connect with you where it matters most. Whether you’re on Instagram, Reddit, YouTube, or Facebook, our tailored strategies ensure consistent engagement, meaningful interactions, and measurable growth for your brand.",
   FollowsItem: [
-    { name: "Instagram", url: "https://www.instagram.com/Infiniti Digitalus/" },
+    { name: "Instagram", url: "https://www.instagram.com/InfinitiDigitalus/" },
     { name: "Twitter ", url: "https://x.com/Infinitidigitl" },
-    { name: "YouTube", url: "https://www.youtube.com/@Infiniti Digitalus" },
-    { name: "Facebook", url: "https://www.facebook.com/Infiniti Digitalus/" },
-    { name: "Pinterest", url: "https://www.pinterest.com/Infiniti Digitalus/" },
+    { name: "YouTube", url: "https://www.youtube.com/@InfinitiDigitalus" },
+    { name: "Facebook", url: "https://www.facebook.com/infinitidigitalus/" },
+    { name: "Pinterest", url: "https://www.pinterest.com/infinitidigitalus/" },
     {
       name: "Linkedin",
       url: "https://www.linkedin.com/company/infiniti-digitalus",

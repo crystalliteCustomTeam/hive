@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/landing/components/talk.module.scss"
 import BgImage from "media/landing/smm/talk.webp"
 import ContactFrom from "@/src/app/components/contactfrom";
+import Link from "next/link";
 
 const TalkLp = ({ data }) => {
     return (
@@ -24,8 +25,14 @@ const TalkLp = ({ data }) => {
                                     Contact us without obligation by email or phone and secure your free consultation.
                                 </>
                             )}</p>
-                            <CommonBtn txt={data?.btn ? data.btn : "Let’s Connect"} />
-                        </div>
+                            {data.normal ?
+                                <Link href="/free-seo-score-checker" className="commonBtn">
+                                   Get My Results
+                                </Link>
+                                :
+                                <CommonBtn txt={data?.btn ? data.btn : "Let’s Connect"} />
+                            }
+                            </div>
                     </Col>
                     <Col md={7}>
                         <div className={styles.contactFromLp}>

@@ -1,4 +1,5 @@
 //Banner
+import { auth } from "google-auth-library";
 import BannerPoster from "media/blogs/posterImg.webp";
 
 export const BannerData = {
@@ -27,6 +28,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/why-small-businesses-need-local-seo",
+      author: "John Doe",
     },
     {
       title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
@@ -35,6 +37,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/seo-vs-local-seo",
+      author: "John Doe",
     },
     {
       title: "What is Local SEO and Why is it Important in 2025?",
@@ -43,6 +46,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/what-is-local-seo",
+      author: "John Doe",
     },
     {
       title: "Stop Wasting Money on Ads That Don’t Work",
@@ -51,6 +55,7 @@ export const BlgosData = {
       category: "Paid Marketing",
       img: IMG03.src,
       link: "#",
+      author: "John Doe",
     },
     {
       title: "Why Does Your App Look Like It’s Stuck in 2010?",
@@ -59,6 +64,7 @@ export const BlgosData = {
       category: "Mobile App Design",
       img: IMG04.src,
       link: "#",
+      author: "John Doe",
     },
     {
       title: "Your Website Isn’t Invisible—It’s Just Lost",
@@ -67,6 +73,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG05.src,
       link: "#",
+      author: "Sarah Smith",
     },
   ],
 };

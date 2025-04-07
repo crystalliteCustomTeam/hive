@@ -78,14 +78,14 @@
         text-transform: uppercase;
         color: #ffffff;
         pointer-events: none;
-        transform: translateY(2px); // Initial state: slightly pushed down
+        transform: translateY(2px); 
         transition: all 0.3s ease;
       }
 
       .casestudyTxt {
-        opacity: 0;
+      //  opacity: 0;
         pointer-events: none;
-        transform: translateY(20px);
+        transform: translateY(0px);
         transition: all 0.3s ease;
         z-index: 1;
         position: relative;
@@ -120,13 +120,13 @@
         align-items: flex-start;
         h4 {
             pointer-events: auto;
-            transform: translateY(0);  
+            transform: translateY(-10px);  
             opacity: 1; 
         }
         .casestudyTxt {
           opacity: 1;
           pointer-events: auto;
-          transform: translateY(0);
+          transform: translateY(-10px);
         }
       }
     }

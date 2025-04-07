@@ -63,7 +63,7 @@ const data = [
   },
 ];
 
-const CaseStudyLp = ({ nosub }) => {
+const CaseStudyLp = ({ nosub,btntxt }) => {
   const [modalShow, setModalShow] = useState(false);
   const [selectedCase, setSelectedCase] = useState(null);
 
@@ -105,7 +105,7 @@ const CaseStudyLp = ({ nosub }) => {
                         className={styles.btnCase}
                         onClick={() => handleClick(item.url)}
                       >
-                        View Detail
+                       {btntxt ? btntxt : "View Detail"} 
                       </div>
                     </div>
                   </div>
