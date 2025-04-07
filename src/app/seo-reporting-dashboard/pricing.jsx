@@ -30,8 +30,7 @@ const DashboardPrice = () => {
                 <div className={styles.customHeader}>
                   <div className={styles.customTitle}>
                     <h5>
-                      Business Intelligence
-                      <br /> for SEO
+                      Business Intelligence for SEO
                     </h5>
                     <p>
                       Data visualization to optimize SEO strategies, track

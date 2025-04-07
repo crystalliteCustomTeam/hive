@@ -182,7 +182,7 @@ const Question = () => {
   };
 
   return (
-    <section className={styles.questionSection}>
+    <section className={styles.questionSection} id="Question">
       <Container className={`h-100 ${styles.questionContainer}`}>
         <Row className="h-100">
           {!showSubmit ? (

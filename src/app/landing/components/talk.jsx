@@ -26,7 +26,7 @@ const TalkLp = ({ data }) => {
                                 </>
                             )}</p>
                             {data.normal ?
-                                <Link href="/free-seo-score-checker" className="commonBtn">
+                                <Link href="/free-seo-score-checker#Question" className="commonBtn">
                                    Get My Results
                                 </Link>
                                 :
