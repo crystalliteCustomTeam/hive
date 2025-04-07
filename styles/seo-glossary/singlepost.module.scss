@@ -172,6 +172,67 @@
     top: 100px;
     margin-bottom: 20px;
   }
+  .authorBox {
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    .authorIMG {
+      margin-right: 20px;
+      position: relative;
+      flex: 0 0 80px;
+      height: 80px;
+      img {
+        border-radius: 100%;
+        object-fit: cover;
+      }
+    }
+    .authorContent {
+      h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: -0.238982px;
+        color: #000;
+        margin-bottom: 10px;
+      }
+      ul.authorList {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 0px;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: -0.165px;
+          color: #000;
+          border-right: 2px solid rgba(0, 0, 0, 0.8);
+          padding-right: 10px;
+          text-transform: capitalize;
+          &:last-child {
+            border: none;
+            a {
+              color: #000;
+              &:hover {
+                text-decoration: underline;
+                color: #7635ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .singlePost {
@@ -254,7 +315,29 @@
       }
     }
     .blogsideBar {
-      top: 30PX;
+      top: 30px;
+    }
+    .authorBox {
+      .authorIMG {
+        margin-right: 20px;
+        flex: 0 0 80px;
+        height: 80px;
+      }
+      .authorContent {
+        h4 {
+          font-size: 22px;
+          line-height: 22px;
+        }
+        ul.authorList {
+          gap: 10px;
+          li {
+            gap: 10px;
+            font-size: 16px;
+            line-height: 20px;
+            padding-right: 10px;
+          }
+        }
+      }
     }
   }
 }
@@ -262,7 +345,6 @@
   .singlePost {
     padding-top: 150px;
     .bannerImg {
-  
       margin-bottom: 30px;
     }
     .picPara {
@@ -347,6 +429,28 @@
     }
     .blogsideBar {
       top: 30px;
+    }
+    .authorBox {
+      .authorIMG {
+        margin-right: 15px;
+        flex: 0 0 70px;
+        height: 70px;
+      }
+      .authorContent {
+        h4 {
+          font-size: 20px;
+          line-height: 20px;
+        }
+        ul.authorList {
+          gap: 10px;
+          li {
+            gap: 10px;
+            font-size: 15px;
+            line-height: 20px;
+            padding-right: 10px;
+          }
+        }
+      }
     }
   }
 }
@@ -447,6 +551,28 @@
     .blogsideBar {
       top: 10px;
     }
+    .authorBox {
+      .authorIMG {
+        margin-right: 15px;
+        flex: 0 0 70px;
+        height: 70px;
+      }
+      .authorContent {
+        h4 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        ul.authorList {
+          gap: 10px;
+          li {
+            gap: 10px;
+            font-size: 14px;
+            line-height: 20px;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
@@ -545,6 +671,29 @@
     }
     .blogsideBar {
       top: 10px;
+    }
+    .authorBox {
+      .authorIMG {
+        margin-right: 10px;
+        flex: 0 0 70px;
+        height: 70px;
+      }
+      .authorContent {
+        h4 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        ul.authorList {
+          gap: 8px;
+          li {
+            gap: 10px;
+            font-size: 13px;
+            line-height: 20px;
+            padding-right: 8px;
+            border-right: 1.5px solid rgba(0, 0, 0, 1);
+          }
+        }
+      }
     }
   }
 }
@@ -646,6 +795,29 @@
     .blogsideBar {
       top: 15px;
     }
+    .authorBox {
+      .authorIMG {
+        margin-right: 10px;
+        flex: 0 0 70px;
+        height: 70px;
+      }
+      .authorContent {
+        h4 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        ul.authorList {
+          gap: 8px;
+          li {
+            gap: 10px;
+            font-size: 13px;
+            line-height: 20px;
+            padding-right: 8px;
+            border-right: 1.5px solid rgba(0, 0, 0, 1);
+          }
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -746,6 +918,29 @@
     .blogsideBar {
       top: 75px;
     }
+    .authorBox {
+      .authorIMG {
+        margin-right: 10px;
+        flex: 0 0 70px;
+        height: 70px;
+      }
+      .authorContent {
+        h4 {
+          font-size: 18px;
+          line-height: 18px;
+        }
+        ul.authorList {
+          gap: 8px;
+          li {
+            gap: 10px;
+            font-size: 13px;
+            line-height: 20px;
+            padding-right: 8px;
+            border-right: 1.5px solid rgba(0, 0, 0, 1);
+          }
+        }
+      }
+    }
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
@@ -845,6 +1040,34 @@
     }
     .blogsideBar {
       top: 75px;
+    }
+    .authorBox {
+      flex-wrap: wrap;
+      .authorIMG {
+        margin-right: 10px;
+        flex: 0 0 90px;
+        height: 90px;
+        margin-bottom: 10px;
+      }
+      .authorContent {
+        flex: 0 0 100%;
+        h4 {
+          font-size: 16px;
+          line-height: 18px;
+          margin-bottom: 5px;
+        }
+        ul.authorList {
+          gap: 10px;
+          li {
+            flex: 0 0 auto;
+            gap: 0px;
+            font-size: 13px;
+            line-height: 20px;
+            padding-right: 10px;
+            border-right: 1px solid rgba(0, 0, 0, 1);
+          }
+        }
+      }
     }
   }
 }

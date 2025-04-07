@@ -4,9 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/home/blogs.module.scss";
+import { usePathname } from "next/navigation";
 
 const AuthorPost = ({ data, blogPage }) => {
   const [timeDiffs, setTimeDiffs] = useState([]);
+  const pathname = usePathname();
+  const authorSlug = pathname.split("/").pop();
+  const filteredBlogs = data.BlogsData.filter(
+    (blog) => blog.author === authorSlug
+  );
 
   useEffect(() => {
     const calculateTimeDiffs = () => {
@@ -46,7 +52,7 @@ const AuthorPost = ({ data, blogPage }) => {
           </Col>
         </Row>
         <Row className="h-100">
-        {data.BlogsData.filter(blog => blog.author === "John Doe").map((item, index) => (
+          {filteredBlogs.map((item, index) => (
             <Col md={4} sm={6} key={index}>
               <div className={styles.blogItem}>
                 <div className={styles.blogImg}>

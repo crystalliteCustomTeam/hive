@@ -3,6 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 import TableOfContents from "./components/tablecontent";
+import AuthorImage from "@/public/blogs/author/AuthorImage.webp";
+import Link from "next/link";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
@@ -51,7 +53,10 @@ const Page = async ({ params }) => {
       </Container>
     </section>;
   }
-
+  const authorName = blog.author
+  .split("-")
+  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+  .join(" ");
   return (
     <>
       {blog.type === "blogs" ? (
@@ -66,6 +71,22 @@ const Page = async ({ params }) => {
                 <h1>{blog.title}</h1>
               </Col>
               <Col md={7} lg={7} xl={8} className="order-2 order-md-1">
+                <div className={styles.authorBox}>
+                  <div className={styles.authorIMG}>
+                    <Image src={AuthorImage.src} alt="Author" fill />
+                  </div>
+                  <div className={styles.authorContent}>
+                    <h4>{authorName}</h4>
+                    <ul className={styles.authorList}>
+                      <li>SEO Specialist</li>
+                      <li>Infiniti Digital</li>
+                      <li>
+                        <Link href={blog.author}>Read Author Bio</Link>
+                      </li>
+                    </ul>
+                  
+                  </div>
+                </div>
                 <div className={styles.mainSection}>{blog.maintxt}</div>
               </Col>
               <Col md={5} lg={5} xl={4} className="order-1 order-md-2">
@@ -83,7 +104,12 @@ const Page = async ({ params }) => {
               <Col md={12}>
                 <h1>{blog.title}</h1>
                 <div className={styles.bannerImg}>
-                  <Image src={blog.img} alt={blog.title} width={1420} height={664} />
+                  <Image
+                    src={blog.img}
+                    alt={blog.title}
+                    width={1420}
+                    height={664}
+                  />
                 </div>
                 <div className={styles.picPara}>{blog.picpara}</div>
                 <div className={styles.mainSection}>{blog.maintxt}</div>

@@ -77,6 +77,11 @@
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .blogsSection {
+    &.authorPost {
+     padding: 80px 0px 80px;
+      margin-top: -80px;
+      border-radius: 80px 80px 0px 0px;
+    }
     .blogItem {
       margin-top: 30px;
 
@@ -114,6 +119,11 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .blogsSection {
+    &.authorPost {
+      padding: 70px 0px 70px;
+       margin-top: -70px;
+       border-radius: 70px 70px 0px 0px;
+     }
     .blogItem {
       margin-top: 20px;
 
@@ -151,6 +161,11 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .blogsSection {
+    &.authorPost {
+      padding: 60px 0px 60px;
+       margin-top: -60px;
+       border-radius: 60px 60px 0px 0px;
+     }
     .blogItem {
       margin-top: 20px;
 
@@ -188,6 +203,11 @@
 
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .blogsSection {
+    &.authorPost {
+      padding: 50px 0px 50px;
+       margin-top: -50px;
+       border-radius: 50px 50px 0px 0px;
+     }
     .blogItem {
       margin-top: 20px;
 
@@ -225,6 +245,11 @@
 
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .blogsSection {
+    &.authorPost {
+      padding: 40px 0px 40px;
+       margin-top: -40px;
+       border-radius: 40px 40px 0px 0px;
+     }
     .blogItem {
       margin-top: 20px;
 
@@ -263,6 +288,11 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .blogsSection {
+    &.authorPost {
+      padding: 30px 0px 30px;
+       margin-top: -30px;
+       border-radius: 30px 30px 0px 0px;
+     }
     .blogItem {
       margin-top: 20px;
 
@@ -301,6 +331,11 @@
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .blogsSection {
+    &.authorPost {
+      padding: 50px 0px 0px;
+       margin-top: -20px;
+       border-radius: 20px 20px 0px 0px;
+     }
     .blogItem {
       margin-top: 20px;
 

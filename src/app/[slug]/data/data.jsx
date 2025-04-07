@@ -640,6 +640,7 @@ export const PostData = [
     ],
     category: "SEO",
     date: "20 Mar, 2025",
+    author: "brielle-delmar",
     tit: "What is Local SEO & Its Importance in 2025",
     description:
       "Ever heard the term “Local SEO” but don’t know about what it is or its importance? Then we will help clear all your concepts in this blog about local SEO.",
@@ -1168,6 +1169,7 @@ export const PostData = [
     ],
     category: "SEO",
     date: "24 Mar, 2025",
+    author: "brielle-delmar",
     tit: "Why Small Businesses Need Local SEO",
     description:
       "Stuck between local or traditional SEO and unable to find which one can drive more revenue to your business? Read this blog and make an informed decision.",
@@ -1677,6 +1679,7 @@ export const PostData = [
     ],
     category: "SEO",
     date: "25 Mar, 2025",
+    author: "brielle-delmar",
     tit: "Why Small Businesses Need Local SEO - Infiniti Digital",
     description:
       "Read this blog and find out about how local SEO can be the missing piece for small businesses to higher online visibility and growth.",

@@ -18,8 +18,8 @@ import IMG05 from "media/blogs/posts/blog5.webp";
 import IMG06 from "media/blogs/posts/blog6.webp";
 export const BlgosData = {
   subtitle: "Our Blogs",
-  title: "Insights and Inspiration ",
-  desc: "Stay ahead of the curve with expert tips and trends. Our blog delivers the latest on SEO, social media, web design, and more to fuel your growth.",
+  title: "SEO Resources Archive ",
+  desc: "Explore a wealth of SEO knowledge, expert strategies, actionable tips, and in-depth guides from an SEO Specialist at Infiniti Digital, Brielle Delmar.",
   BlogsData: [
     {
       title: "Why Small Businesses Need Local SEO",
@@ -28,7 +28,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/why-small-businesses-need-local-seo",
-      author: "John Doe",
+      author: "brielle-delmar",
     },
     {
       title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
@@ -37,7 +37,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/seo-vs-local-seo",
-      author: "John Doe",
+      author: "brielle-delmar",
     },
     {
       title: "What is Local SEO and Why is it Important in 2025?",
@@ -46,7 +46,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/what-is-local-seo",
-      author: "John Doe",
+      author: "brielle-delmar",
     },
     {
       title: "Stop Wasting Money on Ads That Don’t Work",
@@ -55,7 +55,7 @@ export const BlgosData = {
       category: "Paid Marketing",
       img: IMG03.src,
       link: "#",
-      author: "John Doe",
+      author: "brielle-delmar",
     },
     {
       title: "Why Does Your App Look Like It’s Stuck in 2010?",
@@ -64,7 +64,7 @@ export const BlgosData = {
       category: "Mobile App Design",
       img: IMG04.src,
       link: "#",
-      author: "John Doe",
+      author: "brielle-delmar",
     },
     {
       title: "Your Website Isn’t Invisible—It’s Just Lost",
@@ -73,7 +73,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG05.src,
       link: "#",
-      author: "Sarah Smith",
+      author: "brielle-delmar",
     },
   ],
 };

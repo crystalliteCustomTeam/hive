@@ -9,6 +9,7 @@ import {
   SubscribeCape,
   TwitterIcon,
 } from "@/src/app/app-constants";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -26,8 +27,8 @@ const Banner = () => {
               <div className={styles.authorContent}>
                 <h4>Matt G. Southern</h4>
                 <ul className={styles.authorList}>
-                  <li>Senior News Writer</li>
-                  <li>Search Engine Journal</li>
+                  <li>SEO Specialist</li>
+                  <li>Infiniti Digital</li>
                 </ul>
                 <div className={styles.btnAuthor}>
                   <SubscribeCape />
