@@ -19,7 +19,6 @@ import {
 } from "@/src/app/seo-dallas-tx/data/data";
 import Industries from "@/src/app/home/Industries";
 import ReportSec from "@/src/app/seo-dallas-tx/report";
-import Faqs from "@/src/app/home/faq";
 import Contactfromlp from "@/src/app/seo-dallas-tx/contactfromlp";
 import Work from "@/src/app/components/services/work";
 import Testimonials from "@/src/app/home/testimonials";

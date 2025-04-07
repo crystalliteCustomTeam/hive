@@ -1,3 +1,4 @@
+import IMG from "media/seo-glossary/mainBanenrImg.webp";
 export const BannerData = {
   subtitle: "Smart SEO Analytics",
   title: <>SEO Reporting Dashboard That Ties Organic Traffic to Revenue</>,
@@ -14,6 +15,7 @@ export const BannerData = {
     </>
   ),
   btntxt: "Connect with us",
+  img: IMG.src,
 };
 
 //Services

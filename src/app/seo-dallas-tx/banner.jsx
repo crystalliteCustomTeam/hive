@@ -2,7 +2,7 @@ import styles from "@/styles/location/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 import Image from "next/image";
-import IMG from "media/location/bannerImg.webp";
+
 
 const Banner = ({ data }) => {
   return (
@@ -16,7 +16,7 @@ const Banner = ({ data }) => {
             <CommonBtn txt={data.btntxt} LiveChat={true} BgBlack={true} />
           </Col>
           <Col md={6} lg={5} className="my-auto text-center">
-            <Image src={IMG.src} width={1878} height={1782} alt={data.title} />
+            <Image src={data.img} width={1878} height={1782} alt={data.title} />
           </Col>
         </Row>
       </Container>
