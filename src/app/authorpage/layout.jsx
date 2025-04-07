@@ -16,6 +16,12 @@ export const metadata = {
     },
     //===== Canonical =====
     alternates: { canonical: '/blogs' },
+
+      //===== No-Index =====
+  robots: {
+    index: false,
+    follow: false,
+  },
   }
   
   

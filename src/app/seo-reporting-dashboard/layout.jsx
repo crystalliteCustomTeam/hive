@@ -17,6 +17,11 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/seo-reporting-dashboard" },
+        //===== No-Index =====
+        robots: {
+          index: false,
+          follow: false,
+        },
 };
 
 export default function RootLayout({ children }) {
