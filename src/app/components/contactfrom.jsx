@@ -180,7 +180,7 @@ const ContactFrom = ({
           (!vertical ? (
             <>
               <div className={styles.contactItem}>
-                <textarea placeholder="Description" name="comment"></textarea>
+                <textarea placeholder="Message" name="comment"></textarea>
               </div>
               <div className={styles.para}>
                 We take your privacy seriously. Read our{" "}
