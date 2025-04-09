@@ -291,8 +291,8 @@ export const PriceData = {
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "Hear It from Authors Like You",
+    subtitle: "",
+    title: "Hear It from Our Clients",
     desc: "What are you waiting for? Be a part of a success story with Infiniti Digital",
     Testslider: [
         {

@@ -43,7 +43,7 @@ const Page = () => {
       <ContentSection data={ContentData} />
       <ContentAlternet data={ContentData1} alternat="yes" />
       <Process data={ProcessData} />
-      <Work data={WorkData} category="Seo" />
+      <Work data={WorkData} category="SEO" />
       <Pricing bg="yes" data={PriceData} />
       <Partners data={PartnerData} />
       <Industries data={IndustriesData} IndustryData={IndustryItem} />

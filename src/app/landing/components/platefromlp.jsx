@@ -10,7 +10,7 @@ const OPTIONS = { loop: true, axis: "y" };
 
 
 export const data = {
-    subtitle: "Platforms We",
+    subtitle: "",
     title: "Social Media Platforms we Work With",
     desc: (<>You could keep posting trash and throwing money at bad ads,<br /> or you could let us handle it.</>),
     SocailItems: [

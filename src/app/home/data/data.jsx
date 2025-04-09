@@ -619,7 +619,7 @@ import {
   YoutubeIcon,
 } from "@/src/app/app-constants";
 export const PlatformsData = {
-  subtitle: "Platforms We",
+  subtitle: "",
   title: "Platforms That Power Your Success",
   desc: "We collaborate with the platforms your audience knows and loves. Whether it’s growing your brand, building communities, or driving engagement, we make sure your message resonates where it matters most.",
   img: ImgBg.src,

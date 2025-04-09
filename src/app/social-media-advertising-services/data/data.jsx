@@ -169,36 +169,36 @@ export const ContentData1 = {
 
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
 export const TestimonialData = {
-    subtitle: "Happy Clients",
-    title: "What Our Clients Say About Our Mobile App Solutions",
+    subtitle: "",
+    title: "Hear It from Our Clients",
     desc: "At Infiniti Digital, client success is at the heart of everything we do. From transforming visibility to driving measurable growth, we’ve helped businesses across industries achieve exceptional results.",
     Testslider: [
         {
-            txt: "Social Media Wizards completely revamped our online presence with their exceptional strategies. Their targeted advertising practices not only doubled our sales in just three months but also strengthened our brand identity. The team is innovative, attentive, and really knows how to engage the right audience. I couldn't be happier with the fantastic results we achieved!",
+            txt: "Infiniti Digital completely revamped our online presence with their exceptional strategies. Their targeted advertising practices not only doubled our sales in just three months but also strengthened our brand identity. The team is innovative, attentive, and really knows how to engage the right audience. I couldn't be happier with the fantastic results we achieved!",
             icon: < ClutchLogo />,
             namee: "Sarah P.",
             job: "Marketing Director at GlowFashion",
         },
         {
-            txt: "We faced significant challenges in lead generation that were impacting our growth until Social Media Wizards stepped in. Their analytical approach and customized tactics resulted in a remarkable 40% increase in engagement, which led to noticeable improvements in our conversion rates. I highly recommend their services to anyone seeking effective strategies for real business results!",
+            txt: "We faced significant challenges in lead generation that were impacting our growth until Infiniti Digital stepped in. Their analytical approach and customized tactics resulted in a remarkable 40% increase in engagement, which led to noticeable improvements in our conversion rates. I highly recommend their services to anyone seeking effective strategies for real business results!",
             icon: <TrustpilotLogo />,
             namee: "James R.",
             job: "CEO of ApexTech Solutions",
         },
         {
-            txt: "Collaborating with Social Media Wizards was truly a game changer for our neighborhood shop. Their creative advertising efforts attracted more customers to our bookstore than we ever anticipated, exceeding our expectations. The creativity, professionalism, and attention to detail displayed by their team were exceptional and made all the difference in our local presence!",
+            txt: "Collaborating with Infiniti Digital was truly a game changer for our neighborhood shop. Their creative advertising efforts attracted more customers to our bookstore than we ever anticipated, exceeding our expectations. The creativity, professionalism, and attention to detail displayed by their team were exceptional and made all the difference in our local presence!",
             icon: <GoogleLogo />,
             namee: "Emily T.",
             job: "Owner of Bean Haven Café",
         },
         {
-            txt: "The expertise of Social Media Wizards in online advertising is nothing short of exceptional. They crafted a tailored campaign that significantly increased our follower base while generating high-quality leads. Their ability to analyze performance metrics and adjust strategies based on real-time data is simply transformative, setting our business on an impressive growth trajectory.",
+            txt: "The expertise of Infiniti Digital in online advertising is nothing short of exceptional. They crafted a tailored campaign that significantly increased our follower base while generating high-quality leads. Their ability to analyze performance metrics and adjust strategies based on real-time data is simply transformative, setting our business on an impressive growth trajectory.",
             icon: <Forbes />,
             namee: "Mark L.",
             job: "Sales Manager at Visionary Tech",
         },
         {
-            txt: "As a digital creator, finding the right team to collaborate with was crucial for my growth. Social Media Wizards not only enhanced my visibility but also opened doors for sponsorships I never imagined possible. They helped elevate my brand in a truly impressive way, allowing me to connect with a wider audience seamlessly!",
+            txt: "As a digital creator, finding the right team to collaborate with was crucial for my growth. Infiniti Digital not only enhanced my visibility but also opened doors for sponsorships I never imagined possible. They helped elevate my brand in a truly impressive way, allowing me to connect with a wider audience seamlessly!",
             icon: <Upcity />,
             namee: "Rachel M.",
             job: "Founder of InspireWithRachel",
