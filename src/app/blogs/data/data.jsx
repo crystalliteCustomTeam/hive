@@ -28,7 +28,7 @@ export const BlgosData = {
       category: "SEO",
       img: IMG01.src,
       link: "/why-small-businesses-need-local-seo",
-      author: "brielle-delmar",
+      author: "lily-chen",
     },
     {
       title: "Local SEO vs. Traditional SEO Which One Drives More Sales?",

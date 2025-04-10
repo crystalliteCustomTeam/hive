@@ -57,6 +57,9 @@ const Page = async ({ params }) => {
   .split("-")
   .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
   .join(" ");
+
+  console.log("authorName",authorName)
+  console.log("blog",blog)
   return (
     <>
       {blog.type === "blogs" ? (
@@ -73,7 +76,7 @@ const Page = async ({ params }) => {
               <Col md={7} lg={7} xl={8} className="order-2 order-md-1">
                 <div className={styles.authorBox}>
                   <div className={styles.authorIMG}>
-                    <Image src={BrielleDelmar.src} alt="Author" fill />
+                    <Image src={blog.authorPic} alt="Author" fill />
                   </div>
                   <div className={styles.authorContent}>
                     <h4>{authorName}</h4>

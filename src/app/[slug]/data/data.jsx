@@ -627,6 +627,10 @@ import localseo3 from "media/blogs/what-is-local-seo/3.webp";
 //seo-vs-local-seo
 import seovslocal1 from "media/blogs/seo-vs-local-seo/1.webp";
 import seovslocal2 from "media/blogs/seo-vs-local-seo/2.webp";
+
+// Author Image
+import BrielleDelmar from "media/blogs/author/brielle-delmar.webp";
+import LilyChen from "media/blogs/author/lily-chen.webp";
 export const PostData = [
   {
     tableContent: [
@@ -641,10 +645,11 @@ export const PostData = [
     category: "SEO",
     date: "20 Mar, 2025",
     author: "brielle-delmar",
-    tit: "What is Local SEO & Its Importance in 2025",
+    tit: "What is Local SEO and Why is it Important in 2025?",
     description:
       "Ever heard the term “Local SEO” but don’t know about what it is or its importance? Then we will help clear all your concepts in this blog about local SEO.",
     slug: "what-is-local-seo",
+    authorPic: BrielleDelmar.src,
     title: "What is Local SEO and Why is it Important in 2025?",
     img: Post1.src,
     type: "blogs",
@@ -1170,7 +1175,8 @@ export const PostData = [
     category: "SEO",
     date: "24 Mar, 2025",
     author: "brielle-delmar",
-    tit: "Why Small Businesses Need Local SEO",
+    authorPic: BrielleDelmar.src,
+    tit: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
     description:
       "Stuck between local or traditional SEO and unable to find which one can drive more revenue to your business? Read this blog and make an informed decision.",
     slug: "seo-vs-local-seo",
@@ -1680,6 +1686,7 @@ export const PostData = [
     category: "SEO",
     date: "25 Mar, 2025",
     author: "brielle-delmar",
+    authorPic: BrielleDelmar.src,
     tit: "Why Small Businesses Need Local SEO - Infiniti Digital",
     description:
       "Read this blog and find out about how local SEO can be the missing piece for small businesses to higher online visibility and growth.",

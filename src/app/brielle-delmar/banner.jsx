@@ -1,7 +1,7 @@
 import styles from "@/styles/blogauthor/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import IMGBG from "@/public/blogs/author/bannerImg.webp";
-import BrielleDelmar from "@/public/blogs/author/brielle-delmar.webp";
+import IMGBG from "media/blogs/author/bannerImg.webp";
+import BrielleDelmar from "media/blogs/author/brielle-delmar.webp";
 import Image from "next/image";
 import {
   FacebookIcon,
