@@ -1,7 +1,7 @@
 import styles from "@/styles/blogauthor/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import IMGBG from "@/public/blogs/author/bannerImg.webp";
-import BrielleDelmar from "@/public/blogs/author/brielle-delmar.webp";
+import LilyChen from "@/public/blogs/author/lily-chen.webp";
 import Image from "next/image";
 import {
   FacebookIcon,
@@ -22,10 +22,10 @@ const Banner = () => {
           <Col md={12} className="my-auto">
             <div className={styles.authorBox}>
               <div className={styles.authorIMG}>
-                <Image src={BrielleDelmar.src} alt="Author" fill />
+                <Image src={LilyChen.src} alt="Author" fill />
               </div>
               <div className={styles.authorContent}>
-                <h4>Brielle Delmar</h4>
+                <h4>Lily Chen</h4>
                 <ul className={styles.authorList}>
                   <li>SEO Specialist</li>
                   <li>Infiniti Digital</li>
@@ -36,41 +36,31 @@ const Banner = () => {
                 <div className={styles.authorInfo}>
                   <h5>About</h5>
                   <p>
-                    Brielle Delmar is an SEO Specialist at Infiniti Digital,
-                    where she helps websites climb search rankings through smart
+                    Lily Chen is an SEO Specialist at Infiniti Digital, where
+                    she helps websites climb search rankings through smart
                     strategies. Passionate about transforming ideas into
                     tangible results, she enjoys sharing actionable tips to
-                    support online growth. Brielle also writes about her
+                    support online growth. Lily also writes about her
                     experiences in the field, offering insights and lessons
-                    learned to help others.
+                    learned to help others. F
                   </p>
                 </div>
                 <div className={styles.socailShare}>
                   <ul>
                     <li>Follow :</li>
+
                     <li>
-                      <a
-                        href=""
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="#" target="_blank" rel="noopener noreferrer">
                         <InstagramIcon />
                       </a>
                     </li>
                     <li>
-                      <a href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="#" target="_blank" rel="noopener noreferrer">
                         <FacebookIcon />
                       </a>
                     </li>
                     <li>
-                      <a
-                       href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="#" target="_blank" rel="noopener noreferrer">
                         <TwitterIcon />
                       </a>
                     </li>

@@ -22,7 +22,8 @@ const Header = () => {
         pathname === "/law-firm-seo-case-study" ||
         pathname === "/travel-seo-case-study" ||
         pathname === "/interior-design-seo-case-study" ||
-        pathname === "/brielle-delmar" 
+        pathname === "/brielle-delmar" ||
+        pathname === "/lily-chen" 
 
     );
   }, [pathname]);

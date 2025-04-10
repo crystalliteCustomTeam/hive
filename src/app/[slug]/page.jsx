@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 import TableOfContents from "./components/tablecontent";
-import AuthorImage from "@/public/blogs/author/AuthorImage.webp";
+import BrielleDelmar from "@/public/blogs/author/brielle-delmar.webp";
 import Link from "next/link";
 
 export async function generateMetadata({ params }) {
@@ -73,7 +73,7 @@ const Page = async ({ params }) => {
               <Col md={7} lg={7} xl={8} className="order-2 order-md-1">
                 <div className={styles.authorBox}>
                   <div className={styles.authorIMG}>
-                    <Image src={AuthorImage.src} alt="Author" fill />
+                    <Image src={BrielleDelmar.src} alt="Author" fill />
                   </div>
                   <div className={styles.authorContent}>
                     <h4>{authorName}</h4>
