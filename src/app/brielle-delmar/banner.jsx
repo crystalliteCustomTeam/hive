@@ -31,19 +31,18 @@ const Banner = () => {
                   <li>Infiniti Digital</li>
                 </ul>
                 <div className={styles.btnAuthor}>
-                  <Link href="/blogs" >
-                   Back to SEO Knowledge
-                   </Link>
+                  <Link href="/blogs">Back to SEO Knowledge</Link>
                 </div>
                 <div className={styles.authorInfo}>
                   <h5>About</h5>
                   <p>
-                    Brielle Delmar is an SEO Specialist at Infiniti Digital. She
-                    helps websites rank better using simple and smart
-                    strategies. She enjoys turning ideas into results and
-                    sharing tips to grow online. She also loves writing about
-                    her experiences and sharing what she has learned with
-                    everyone.
+                    Brielle Delmar is an SEO Specialist at Infiniti Digital,
+                    where she helps websites climb search rankings through smart
+                    strategies. Passionate about transforming ideas into
+                    tangible results, she enjoys sharing actionable tips to
+                    support online growth. Brielle also writes about her
+                    experiences in the field, offering insights and lessons
+                    learned to help others.
                   </p>
                 </div>
                 <div className={styles.socailShare}>
