@@ -1,12 +1,11 @@
 import styles from "@/styles/blogauthor/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import IMGBG from "media/blogs/author/bannerImg.webp";
-import LilyChen from "media/blogs/author/lily-chen.webp";
+import GraceMoore from "media/blogs/author/grace-moore.webp";
 import Image from "next/image";
 import {
   FacebookIcon,
   InstagramIcon,
-  SubscribeCape,
   TwitterIcon,
 } from "@/src/app/app-constants";
 import Link from "next/link";
@@ -22,12 +21,12 @@ const Banner = () => {
           <Col md={12} className="my-auto">
             <div className={styles.authorBox}>
               <div className={styles.authorIMG}>
-                <Image src={LilyChen.src} alt="Author" fill />
+                <Image src={GraceMoore.src} alt="Author" fill />
               </div>
               <div className={styles.authorContent}>
-                <h4>Lily Chen</h4>
+                <h4>Grace Moore</h4>
                 <ul className={styles.authorList}>
-                  <li>Senior SEO Strategist</li>
+                  <li>Social Media Manager</li>
                   <li>Infiniti Digital</li>
                 </ul>
                 <div className={styles.btnAuthor}>
@@ -36,15 +35,14 @@ const Banner = () => {
                 <div className={styles.authorInfo}>
                   <h5>About</h5>
                   <p>
-                    Lily Chen is a Senior SEO Strategist at Infiniti Digital,
-                    where she specializes in developing data-driven strategies
-                    that boost online visibility and drive sustainable traffic
-                    growth. With a deep understanding of search engine
-                    algorithms and user behavior, Lily helps brands improve
-                    their rankings through technical SEO, content optimization,
-                    and performance analysis. Passionate about turning complex
-                    SEO challenges into measurable success, she frequently
-                    shares actionable insights and lessons from her experience.
+                    Grace Moore is a Social Media Manager who leads strategy,
+                    content planning, and engagement across platforms like
+                    Instagram, Facebook, LinkedIn, and TikTok. With a strong
+                    focus on brand voice and audience growth, she helps
+                    businesses connect with their communities and build lasting
+                    online presence. Grace also writes about trends, tools, and
+                    best practices in social media to help others stay ahead in
+                    the digital space.
                   </p>
                 </div>
                 <div className={styles.socailShare}>
