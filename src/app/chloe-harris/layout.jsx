@@ -1,28 +1,23 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Brielle Delmar, SEO Specialist at Infiniti Digital",
+  title: "Chloe Harris, Paid Social Media Specialist at Infiniti Digital",
   description:
-    "Brielle Delmar helps websites climb search rankings through smart strategies and shares actionable tips to support online growth for websites.",
+    "Chloe Harris is a Paid Social Media Specialist who creates and manages advertising campaigns across social platforms. She also writes & shares insights on her work.",
   //===== OG Tags =====
   openGraph: {
-    title: "Brielle Delmar, SEO Specialist at Infiniti Digital",
+    title: "Chloe Harris, Paid Social Media Specialist at Infiniti Digital",
     description:
-      "Brielle Delmar helps websites climb search rankings through smart strategies and shares actionable tips to support online growth for websites.",
-    url: "/brielle-delmar",
+      "Chloe Harris is a Paid Social Media Specialist who creates and manages advertising campaigns across social platforms. She also writes & shares insights on her work.",
+    url: "/chloe-harris",
     siteName: "Inifniti Digital",
     locale: "en_US",
     type: "website",
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: "/brielle-delmar" },
+  alternates: { canonical: "/chloe-harris" },
 
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
 };
 
 export default function RootLayout({ children }) {

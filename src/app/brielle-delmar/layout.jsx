@@ -18,11 +18,6 @@ export const metadata = {
   //===== Canonical =====
   alternates: { canonical: "/brielle-delmar" },
 
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
 };
 
 export default function RootLayout({ children }) {

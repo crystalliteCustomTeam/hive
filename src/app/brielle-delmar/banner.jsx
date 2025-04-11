@@ -49,28 +49,17 @@ const Banner = () => {
                   <ul>
                     <li>Follow :</li>
                     <li>
-                      <a
-                        href=""
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="" target="_blank" rel="noopener noreferrer">
                         <InstagramIcon />
                       </a>
                     </li>
                     <li>
-                      <a href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="#" target="_blank" rel="noopener noreferrer">
                         <FacebookIcon />
                       </a>
                     </li>
                     <li>
-                      <a
-                       href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="#" target="_blank" rel="noopener noreferrer">
                         <TwitterIcon />
                       </a>
                     </li>

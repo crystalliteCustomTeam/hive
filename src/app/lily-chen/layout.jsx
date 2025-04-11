@@ -1,28 +1,23 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Brielle Delmar, SEO Specialist at Infiniti Digital",
+  title: "Lily Chen, Senior SEO Strategist at Infiniti Digital",
   description:
-    "Brielle Delmar helps websites climb search rankings through smart strategies and shares actionable tips to support online growth for websites.",
+    "Lily Chen specializes in developing SEO strategies that boost online visibility & drive sustainable traffic growth. She also shares insights from her experience.",
   //===== OG Tags =====
   openGraph: {
-    title: "Brielle Delmar, SEO Specialist at Infiniti Digital",
+    title: "Lily Chen, Senior SEO Strategist at Infiniti Digital",
     description:
-      "Brielle Delmar helps websites climb search rankings through smart strategies and shares actionable tips to support online growth for websites.",
-    url: "/brielle-delmar",
+      "Lily Chen specializes in developing SEO strategies that boost online visibility & drive sustainable traffic growth. She also shares insights from her experience.",
+    url: "/lily-chen",
     siteName: "Inifniti Digital",
     locale: "en_US",
     type: "website",
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: "/brielle-delmar" },
+  alternates: { canonical: "/lily-chen" },
 
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
 };
 
 export default function RootLayout({ children }) {

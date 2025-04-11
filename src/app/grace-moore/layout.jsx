@@ -1,28 +1,22 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Brielle Delmar, SEO Specialist at Infiniti Digital",
+  title: "Grace Moore, Social Media Manager at Infiniti Digital",
   description:
-    "Brielle Delmar helps websites climb search rankings through smart strategies and shares actionable tips to support online growth for websites.",
+    "Grace Moore is a Social Media Manager who leads strategy, & engagement across all social platforms. She also writes about best practices in social media to help others.",
   //===== OG Tags =====
   openGraph: {
-    title: "Brielle Delmar, SEO Specialist at Infiniti Digital",
+    title: "Grace Moore, Social Media Manager at Infiniti Digital",
     description:
-      "Brielle Delmar helps websites climb search rankings through smart strategies and shares actionable tips to support online growth for websites.",
-    url: "/brielle-delmar",
+      "Grace Moore is a Social Media Manager who leads strategy, & engagement across all social platforms. She also writes about best practices in social media to help others.",
+    url: "/grace-moore",
     siteName: "Inifniti Digital",
     locale: "en_US",
     type: "website",
     images: "https://www.infinitidigital.us/infinitidigital.png",
   },
   //===== Canonical =====
-  alternates: { canonical: "/brielle-delmar" },
-
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
+  alternates: { canonical: "/grace-moore" },
 };
 
 export default function RootLayout({ children }) {
