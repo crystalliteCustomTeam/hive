@@ -11,7 +11,7 @@ const Features = ({ data,PopupStyle }) => {
             <h2>{data.title}</h2>
             {data.Image ? (
               <div className={styles.featuresImg}>
-                <Image src={data.Image} width={1250} height={500} alt={data.title} />
+                <Image src={data.Image} width={1250} height={500} alt={data?.title ? data?.title : "Feature Image" } />
               </div>
             ) : (
               ""
@@ -24,7 +24,7 @@ const Features = ({ data,PopupStyle }) => {
             <div className={styles.contentPara}>{data.txt}</div>
             {data.Image01 ? (
               <div className={styles.featuresImg}>
-                <Image src={data.Image01} width={1250} height={500} alt={data.title} />
+                <Image src={data.Image01} width={1250} height={500} alt={data?.title ? data?.title : "Feature Image" } />
               </div>
             ) : (
               ""

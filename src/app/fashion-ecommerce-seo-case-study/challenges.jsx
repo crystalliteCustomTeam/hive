@@ -30,7 +30,7 @@ const Challenges = ({ data, bottomBorder, PopupStyle }) => {
           {data.ChallengesImg ? (
             <Col md={6}>
               <div className={styles.challengesImg}>
-                <Image src={data.ChallengesImg} fill alt={data.title} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
+                <Image src={data.ChallengesImg} fill  alt={data?.title ? data?.title : "Challenges Image" }  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
               </div>
             </Col>
           ) : (
