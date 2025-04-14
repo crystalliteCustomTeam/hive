@@ -41,25 +41,29 @@ const Page = async ({ params }) => {
     BlogData.find((post) => post.slug === slug) ||
     PostData.find((post) => post.slug === slug);
 
-  if (!blog) {
-    return;
-    <section className={styles.singlePost}>
-      <Container>
-        <Row>
-          <Col md={12}>
-            <h1>Blog Not Found</h1>
-          </Col>
-        </Row>
-      </Container>
-    </section>;
-  }
-  const authorName = blog.author
-  .split("-")
-  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-  .join(" ");
+    if (!blog || !blog.title || !blog.maintxt) {
+      return (
+        <section className={styles.singlePost}>
+          <Container>
+            <Row>
+              <Col md={12}>
+                <h1>Blog Not Found</h1>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      );
+    }
 
-  console.log("authorName",authorName)
-  console.log("blog",blog)
+    
+  const authorName = blog.author
+  ? blog.author
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ")
+  : "Unknown Author";
+
+
   return (
     <>
       {blog.type === "blogs" ? (
