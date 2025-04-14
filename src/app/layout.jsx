@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@/src/app/globals.scss";
 import Scripts from "@/src/app/Scripts";
 import ConditionalLayout from "@/src/app/conditionallayout";
+import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -55,7 +56,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
+      <Head>
+        <meta
+          name="ahrefs-site-verification"
+          content="3e88a33bc527db0b7fbce39f142ceb3db84a5303ee13096a1bb8899b360c6638"
+        />
+        <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
+      </Head>
       <body className={poppins.className}>
         <Scripts />
         <ConditionalLayout>{children}</ConditionalLayout>
