@@ -20,7 +20,7 @@ const PopUp = (props) => {
                     <Row className="h-100">
                         <Col lg={6} md={6} className="my-auto">
                             <div className={styles.gifImage}>
-                                <Image src={BGIMG.src} alt="Popup IMG" fill />
+                                <Image src={BGIMG.src} alt="Popup IMG" fill  unoptimized/>
                             </div>
                         </Col>
                         <Col lg={6} md={6}>
