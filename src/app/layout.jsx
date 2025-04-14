@@ -36,6 +36,9 @@ export const metadata = {
       "google-site-verification": [
         "IxKMq1ApRJHoKxrGMlzB8edlDEONyQpej3So1ejiHG4",
       ],
+      "ahrefs-site-verification": [
+        "3e88a33bc527db0b7fbce39f142ceb3db84a5303ee13096a1bb8899b360c6638",
+      ],
     },
   },
 
@@ -57,11 +60,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <meta
-          name="ahrefs-site-verification"
-          content="3e88a33bc527db0b7fbce39f142ceb3db84a5303ee13096a1bb8899b360c6638"
-        />
-        <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
+         <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
       </Head>
       <body className={poppins.className}>
         <Scripts />
