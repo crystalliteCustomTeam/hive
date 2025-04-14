@@ -153,8 +153,8 @@ const data = [
       {
         title: "Backlink",
         txt: "A link from one website to another, affecting domain authority and rankings.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "What Are Backlinks",
+        btnlink: "what-are-backlinks",
       },
       {
         title: "Baidu",

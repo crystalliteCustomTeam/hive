@@ -1,5 +1,6 @@
 import Post1 from "media/seo-glossary/BannerImg.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
+import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
 import Link from "next/link";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 import CustomPrice from "@/src/app/[slug]/components/postprice";
@@ -970,18 +971,229 @@ export const BlogData = [
           understand the context of the linked page.
         </p>
         <p>
-          {`<a href={<Link href="/seo-agency"}https://www.infinitidigital.us/seo-agency{/Link}">
+          {`<a href="https://www.infinitidigital.us/seo-agency">
             Best SEO Agency
           </a>
           `}
         </p>
-        <p>In this case, <strong><Link href="/seo-agency">"Best SEO Agency"</Link></strong> is the anchor text.</p>
+        <p>
+          In this case,{" "}
+          <strong>
+            <Link href="/seo-agency">"Best SEO Agency"</Link>
+          </strong>{" "}
+          is the anchor text.
+        </p>
       </>
     ),
     maintxt: (
       <>
-        <h2>Keyword Research</h2>
-
+        <h2>Types of Anchor Text</h2>
+        <p>
+          <strong>Exact Match</strong> – Uses the exact keyword of the linked
+          page.
+          <br />
+          Example: <Link href="/seo-agency">SEO agency</Link> linking to a page
+          that offers top SEO services.
+        </p>
+        <p>
+          <strong>Partial Match</strong> – Includes a variation of the keyword.
+          <br />
+          Example: "Find the best digital marketing and SEO agency" linking to
+          the same page.
+        </p>
+        <p>
+          <strong>Branded</strong> – Uses a brand name.
+          <br />
+          Example: "Visit Infiniti Digital for top SEO services."
+        </p>
+        <p>
+          <strong>Generic</strong> – Uses non-specific text.
+          <br />
+          Example: "Click here" or "Learn more."
+        </p>
+        <p>
+          <strong>Naked URL</strong> – The URL itself is the anchor.
+          <br />
+          Example:{" "}
+          <Link href="/seo-agency">
+            https://www.infinitidigital.us/seo-agency
+          </Link>
+        </p>
+        <p>
+          <strong>Image Anchor</strong> – When an image is linked, the image’s
+          alt text becomes the anchor text.
+          <br />
+          Example: An image of a chart linked to the same SEO page with alt
+          text: best SEO agency.
+        </p>
+        <h2>Why Anchor Text Are Important for SEO </h2>
+        <h4>1. Context</h4>
+        <p>
+          Anchor text gives search engines important context about the content
+          of the linked page. When you use descriptive, keyword-rich anchor text
+          like{" "}
+          <Link href="/free-seo-score-checker">
+            check your website seo score
+          </Link>
+          , it signals to search engines what the destination page is about.
+          This helps them better index and rank that page in relevant search
+          results.
+        </p>
+        <h4>2. Relevance</h4>
+        <p>
+          Using the right anchor text increases the relevance of your internal
+          and external links. If multiple reputable sites link to your page
+          using similar keywords like best SEO agency search engines start
+          associating your page with that keyword. This can boost your ranking
+          for those terms and drive more organic traffic.
+        </p>
+        <h4>3. User Experience</h4>
+        <p>
+          For visitors, clear and specific anchor text enhances navigation and
+          trust. Instead of clicking on vague phrases like "click here," users
+          are more likely to click when they know exactly what they’re getting.
+          Such as,{" "}
+          <Link href="/free-seo-score-checker">
+            click here to check your website’s seo score for free.
+          </Link>{" "}
+          This clarity leads to better engagement, lower bounce rates, and
+          higher conversion potential.
+        </p>
+        <h2>Ready to Optimize Your Anchor Text Strategy?</h2>
+        <p>
+          If you’re not sure whether your current links are helping or hurting
+          your SEO efforts, we’ve got you covered. Let us run an Anchor Text
+          Audit on your website! We'll analyze your current linking strategy and
+          share actionable insights to help boost your performance.
+        </p>
+        <CTAFrom tit="Claim Your Free Consultation" />
+      </>
+    ),
+  },
+  {
+    tit: "What are Backlinks? - Backlinks in SEO Explained",
+    description:
+      "Learn what are backlinks + answers to 6 of the most common link building questions.",
+    slug: "what-are-backlinks",
+    title: "What Are Backlinks",
+    img: LetterB.src,
+    type: "noblogs",
+    picpara: (
+      <>
+        <p>
+          Backlinks are links from other websites that point to your site. They
+          act as votes of confidence, telling search engines like Google that
+          your content is credible, valuable, and worth ranking higher.
+        </p>
+        <p>
+          In fact, backlinks are one of the top-ranking factors in Google’s
+          algorithm. If you're not building quality backlinks, you're missing
+          out on massive SEO potential.
+        </p>
+      </>
+    ),
+    maintxt: (
+      <>
+        <h2>What Are Backlinks in SEO?</h2>
+        <p>
+          In SEO backlinks are considered a ranking signal. Search engines like
+          Google use them to evaluate the authority and trustworthiness of your
+          content. Websites with strong backlink profiles tend to rank higher,
+          attract more traffic, and convert better.
+        </p>
+        <h2>How to Find Backlinks?</h2>
+        <p>
+          Finding backlinks to your website or others can be done using SEO
+          tools like:
+        </p>
+        <ul>
+          <li>Ahrefs</li>
+          <li>SEMrush</li>
+          <li>Moz</li>
+          <li>Google Search Console (for your own website)</li>
+        </ul>
+        <p>
+          These tools show a complete backlinks profile, meaning, who’s linking
+          to your website, which pages are getting the most links, and how
+          strong those backlinks are.
+        </p>
+        <h2>How to Check Competitor Backlinks</h2>
+        <p>
+          Understanding your competitors’ backlink strategy can give you a
+          serious edge. With tools like Ahrefs or SEMrush, you can:
+        </p>
+        <ul>
+          <li>Enter their domain</li>
+          <li>Analyze their backlink profile</li>
+          <li>Identify where they’re getting links from</li>
+          <li>Target similar opportunities</li>
+        </ul>
+        <h2>How to Find Competitors’ Backlinks</h2>
+        <p>To find competitors’ backlinks, simply:</p>
+        <ol>
+          <li>List your top competitors</li>
+          <li>
+            Use tools like Ahrefs Site Explorer or SEMrush Backlink Analytics
+          </li>
+          <li>Export their backlink list</li>
+          <li>Sort by Domain Authority or traffic</li>
+          <li>Shortlist sites for outreach or guest posting</li>
+        </ol>
+        <p>
+          Infiniti Digital can also do a full competitor backlink audit for you,
+          just ask us!{" "}
+        </p>
+        <h2>How Many Backlinks Do I Need?</h2>
+        <p>
+          There’s no universal number, it depends on your niche and competition.
+          However, what matters more is:
+        </p>
+        <ul>
+          <li>Quality over quantity</li>
+          <li>Relevance of the linking site</li>
+          <li>Context of the link (natural placement)</li>
+        </ul>
+        <p>
+          As a rule of thumb: if your competitors have 100 backlinks from
+          relevant domains, you should aim for more and better.
+        </p>
+        <h2>How to Get Backlinks?</h2>
+        <p>Here are proven methods to earn high-quality backlinks:</p>
+        <ul>
+          <li>Guest Posting on Niche Blogs</li>
+          <li>Broken Link Building</li>
+          <li>Publishing High-Value Content</li>
+          <li>Digital PR</li>
+          <li>Linkable Assets (infographics, studies, guides)</li>
+          <li>Competitor Link Reclamation</li>
+        </ul>
+        <p>Or you can let us, at Infiniti Digital build backlinks for you.</p>
+        <h2>How to Buy Backlinks?</h2>
+        <p>
+          If you’re wondering how to buy backlinks the right way, don’t risk
+          your website with shady link farms or black-hat schemes
+        </p>
+        <p>
+          Instead, hire us at Infiniti Digital and let our off-page SEO experts
+          build quality, white-hat backlinks through ethical and proven methods.
+          We handle everything, from strategy and outreach to placement and
+          reporting.
+        </p>
+        <h2>Our Backlink Building Services Include</h2>
+        <ul>
+          <li>Manual White-Hat Outreach</li>
+          <li>Guest Posting on Authoritative Blogs</li>
+          <li>Broken Link Replacement</li>
+          <li>Niche Edits/Link Insertions</li>
+          <li>Competitor Backlink Reverse Engineering</li>
+          <li>Monthly Performance Reports</li>
+        </ul>
+        <h2>Are You Ready to Build Authority?</h2>
+        <p>
+          Backlinks can make or break your SEO success. Let us help you rank,
+          grow, and win online! Contact us now for a free backlink strategy
+          consultation.
+        </p>
         <CTAFrom tit="Claim Your Free Consultation" />
       </>
     ),
