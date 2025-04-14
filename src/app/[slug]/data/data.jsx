@@ -964,9 +964,9 @@ export const BlogData = [
     picpara: (
       <>
         <p>
-          Anchor text is the clickable text in a hyperlink. It's usually
+          Anchor text is the clickable text in a hyperlink. It’s usually
           highlighted and underlined (often in blue), and it leads users to
-          another page, either on the same website or to an external site. It's
+          another page, either on the same website or to an external site. It’s
           also important for SEO because search engines use anchor text to
           understand the context of the linked page.
         </p>
@@ -1063,7 +1063,7 @@ export const BlogData = [
         <p>
           If you’re not sure whether your current links are helping or hurting
           your SEO efforts, we’ve got you covered. Let us run an Anchor Text
-          Audit on your website! We'll analyze your current linking strategy and
+          Audit on your website! We’ll analyze your current linking strategy and
           share actionable insights to help boost your performance.
         </p>
         <CTAFrom tit="Claim Your Free Consultation" />
@@ -1087,7 +1087,7 @@ export const BlogData = [
         </p>
         <p>
           In fact, backlinks are one of the top-ranking factors in Google’s
-          algorithm. If you're not building quality backlinks, you're missing
+          algorithm. If you’re not building quality backlinks, you’re missing
           out on massive SEO potential.
         </p>
       </>
