@@ -1171,7 +1171,7 @@ export const BlogData = [
         <h2>How to Buy Backlinks?</h2>
         <p>
           If you’re wondering how to buy backlinks the right way, don’t risk
-          your website with shady link farms or black-hat schemes
+          your website with shady link farms or black-hat schemes.
         </p>
         <p>
           Instead, hire us at Infiniti Digital and let our off-page SEO experts
@@ -1179,7 +1179,7 @@ export const BlogData = [
           We handle everything, from strategy and outreach to placement and
           reporting.
         </p>
-        <h2>Our Backlink Building Services Include</h2>
+        <h2>Our Backlink Building Services Include:</h2>
         <ul>
           <li>Manual White-Hat Outreach</li>
           <li>Guest Posting on Authoritative Blogs</li>
