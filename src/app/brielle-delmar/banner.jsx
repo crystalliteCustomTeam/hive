@@ -25,7 +25,7 @@ const Banner = () => {
                 <Image src={BrielleDelmar.src} alt="Author" fill />
               </div>
               <div className={styles.authorContent}>
-                <h4>Brielle Delmar</h4>
+                <h1>Brielle Delmar</h1>
                 <ul className={styles.authorList}>
                   <li>SEO Specialist</li>
                   <li>Infiniti Digital</li>
