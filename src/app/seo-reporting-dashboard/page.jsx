@@ -21,7 +21,7 @@ const page = () => {
       <DashboardPrice />
       <Testimonials data={TestimonialData} />
       <CaseStudyLp nosub={true} btntxt="Read More" />
-      <StateCountLP data={StateCounter} />
+      <StateCountLP data={StateCounter} seoprice={true} />
       <TalkLp data={talkData} />
     </>
   );
