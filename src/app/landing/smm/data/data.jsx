@@ -338,6 +338,7 @@ export const PriceData = {
                         "10 High-Impact Static Posts",
                         "Immersive Stories",
                         "05 GIF/Carousel Posts",
+                        "10 Reels or TikTok-style Short Video",
                         "Branding & Design Consultation",
                         "Advanced Hashtag & SEO Strategy*",
                         "UGC (User-Generated Content) Strategy**",
