@@ -979,7 +979,7 @@ export const BlogData = [
         <p>
           In this case,{" "}
           <strong>
-            <Link href="/seo-agency">"Best SEO Agency"</Link>
+            <Link href="/seo-agency">&quot;Best SEO Agency&quot;</Link>
           </strong>{" "}
           is the anchor text.
         </p>
@@ -998,18 +998,18 @@ export const BlogData = [
         <p>
           <strong>Partial Match</strong> – Includes a variation of the keyword.
           <br />
-          Example: "Find the best digital marketing and SEO agency" linking to
+          Example: &quot;Find the best digital marketing and SEO agency&quot; linking to
           the same page.
         </p>
         <p>
           <strong>Branded</strong> – Uses a brand name.
           <br />
-          Example: "Visit Infiniti Digital for top SEO services."
+          Example: &quot;Visit Infiniti Digital for top SEO services.&quot;
         </p>
         <p>
           <strong>Generic</strong> – Uses non-specific text.
           <br />
-          Example: "Click here" or "Learn more."
+          Example: &quot;Click here&quot; or &quot;Learn more.&quot;
         </p>
         <p>
           <strong>Naked URL</strong> – The URL itself is the anchor.
@@ -1050,7 +1050,7 @@ export const BlogData = [
         <h4>3. User Experience</h4>
         <p>
           For visitors, clear and specific anchor text enhances navigation and
-          trust. Instead of clicking on vague phrases like "click here," users
+          trust. Instead of clicking on vague phrases like &quot;click here,&quot; users
           are more likely to click when they know exactly what they’re getting.
           Such as,{" "}
           <Link href="/free-seo-score-checker">
