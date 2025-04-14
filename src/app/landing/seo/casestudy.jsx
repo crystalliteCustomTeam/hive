@@ -89,13 +89,12 @@ const CaseStudyLp = ({ nosub, btntxt, glossary }) => {
             {glossary ? (
               ""
             ) : (
-              <Col md={8} lg={8} className={tit ? "m-0" : "m-auto text-center"}>
+              <Col md={8} lg={8} className="m-auto text-center">
                 {nosub ? "" : <div className="subtitle">Case Studies</div>}
-                <h2>{tit ? tit : "We Don’t Do ‘Maybe,’ We Do ‘Hell Yeah.’"}</h2>
+                <h2>We Don’t Do ‘Maybe,’ We Do ‘Hell Yeah.</h2>
                 <p>
-                  {txt
-                    ? txt
-                    : "If you think we’re all talk, these case studies will leave you speechless."}
+                  If you think we’re all talk, these case studies will leave you
+                  speechless.
                 </p>
               </Col>
             )}
