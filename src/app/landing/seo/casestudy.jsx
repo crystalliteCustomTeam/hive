@@ -63,7 +63,7 @@ const data = [
   },
 ];
 
-const CaseStudyLp = ({ nosub,btntxt }) => {
+const CaseStudyLp = ({ nosub, btntxt, glossary }) => {
   const [modalShow, setModalShow] = useState(false);
   const [selectedCase, setSelectedCase] = useState(null);
 
@@ -75,21 +75,30 @@ const CaseStudyLp = ({ nosub,btntxt }) => {
 
   return (
     <>
-      <PopUp show={modalShow} onHide={() => setModalShow(false)} caseData={selectedCase} />
+      <PopUp
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        caseData={selectedCase}
+      />
       <section
-        className={`${styles.casestudyLpSection} pt-100`}
+        className={`${styles.casestudyLpSection} ${glossary ? "" : "pt-100"}`}
         id="PortfolioId"
       >
         <Container className="h-100">
           <Row className="h-100">
-            <Col md={8} lg={8} className="m-auto text-center">
-              {nosub ? "" : <div className="subtitle">Case Studies</div>}
-              <h2>We Don’t Do ‘Maybe,’ We Do ‘Hell Yeah.’</h2>
-              <p>
-                If you think we’re all talk, these case studies will leave you
-                speechless.
-              </p>
-            </Col>
+            {glossary ? (
+              ""
+            ) : (
+              <Col md={8} lg={8} className={tit ? "m-0" : "m-auto text-center"}>
+                {nosub ? "" : <div className="subtitle">Case Studies</div>}
+                <h2>{tit ? tit : "We Don’t Do ‘Maybe,’ We Do ‘Hell Yeah.’"}</h2>
+                <p>
+                  {txt
+                    ? txt
+                    : "If you think we’re all talk, these case studies will leave you speechless."}
+                </p>
+              </Col>
+            )}
             <Col md={12}>
               <div className={styles.casestudyLpBox}>
                 {data.map((item, index) => (
@@ -105,7 +114,7 @@ const CaseStudyLp = ({ nosub,btntxt }) => {
                         className={styles.btnCase}
                         onClick={() => handleClick(item.url)}
                       >
-                       {btntxt ? btntxt : "View Detail"} 
+                        {btntxt ? btntxt : "View Detail"}
                       </div>
                     </div>
                   </div>

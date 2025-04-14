@@ -57,8 +57,8 @@ const data = [
       {
         title: "AI SEO Tools",
         txt: "Software that uses AI to automate keyword research, content optimization, and SERP analysis.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "AI SEO Tools",
+        btnlink: "ai-seo-tools",
       },
       {
         title: "Ajax",
@@ -111,8 +111,8 @@ const data = [
       {
         title: "Anchor Text",
         txt: "Clickable text in a hyperlink that helps search engines understand linked content.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "What is Anchor Text",
+        btnlink: "what-is-anchor-text",
       },
       {
         title: "Artificial Intelligence in SEO",
@@ -267,8 +267,8 @@ const data = [
       {
         title: "ChatGPT for SEO",
         txt: "AI-based chatbot that assists with content creation, keyword research, and on-page SEO.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "How to use chat gpt for seo",
+        btnlink: "how-to-use-chat-gpt-for-seo",
       },
       {
         title: "Child Domain",

@@ -61,7 +61,7 @@ const Page = () => {
               "@type": "Product",
               name: "Affordable SEO for Small Businesses That Drive Growth",
               image: "https://www.infinitidigital.us/infinitidigital.png",
-              url: "https://www.infinitidigital.us/small-bussiness-seo-services",
+              url: "https://www.infinitidigital.us/small-business-seo-services",
               description:
                 "Our small business SEO services will rank your website on the top. View plans & pricing and let's discuss your needs.",
               brand: {

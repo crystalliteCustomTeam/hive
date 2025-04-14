@@ -91,7 +91,8 @@
         color: #7635ff;
         text-decoration: underline;
         margin-left: 10px;
-        font-weight: 400
+        font-weight: 400;
+        text-transform: capitalize;
       }
     }
   }
@@ -125,7 +126,7 @@
   }
   .glossaryConTxt {
     .bannerImg {
-       margin-bottom: 40px;
+      margin-bottom: 40px;
     }
     .glossaryList {
       margin-bottom: 70px;
