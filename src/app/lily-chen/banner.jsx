@@ -26,6 +26,8 @@ const Banner = () => {
               </div>
               <div className={styles.authorContent}>
                 <h4>Lily Chen</h4>
+                <h1 className="d-none">Lily Chen, SEO Specialist at Infiniti Digital</h1>
+
                 <ul className={styles.authorList}>
                   <li>Senior SEO Strategist</li>
                   <li>Infiniti Digital</li>

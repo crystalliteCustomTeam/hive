@@ -2,11 +2,7 @@ export const BannerData = {
   subtitle: "Proven Strategies, Measurable Results.",
   title: (
     <>
-      Chicago SEO Service
-      <br />
-      Backed by Experts,
-      <br />
-      Driven by Results.
+      Chicago SEO Service Backed by Experts, Driven by Results.
     </>
   ),
   desc: "As a top organic SEO company, we specialize in driving long-term, sustainable growth for your business based in Chicago.",

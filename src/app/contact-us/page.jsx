@@ -13,7 +13,7 @@ const Page = () => {
                 <Container className={styles.ContactBG}>
                     <Row className="h-100">
                         <Col md={6} className={styles.ContactImage}>
-                        <h1 className="d-none"> Contact US</h1>
+                        <h1 className="d-none"> Contact Us - Get Your Quote Today!</h1>
                             <Image src={ContactBG.src} alt="Contact BG" fill />
                         </Col>
                         <Col md={6} className="m-auto">
