@@ -66,6 +66,7 @@ export default function RootLayout({ children }) {
           sizes="48x48"
           type="image/x-icon"
         />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <body className={poppins.className}>
         <Scripts />
