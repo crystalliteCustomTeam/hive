@@ -11,6 +11,10 @@ Disallow: /*.jpg$
 Disallow: /*.woff2$
 
 
+User-agent: ChatGPT-User
+Disallow: /
+Allow: /free-seo-score-checker
+Allow: /what-is-local-seo
+
 
 Sitemap: https://www.infinitidigital.us/sitemap.xml
-
