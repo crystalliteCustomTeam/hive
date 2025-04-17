@@ -65,6 +65,7 @@ const BlogCase = () => {
     <>
       <section
         className={`${styles.casestudyLpSection} pt-100`}
+        id="CaseStudies"
       >
         <Container>
           <Row>
