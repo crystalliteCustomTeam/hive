@@ -1,4 +1,8 @@
-import Post1 from "media/seo-glossary/BannerImg.webp";
+import IMG01 from "media/blogs/posts/blog1.webp";
+import IMG02 from "media/blogs/posts/blog02.webp";
+import IMG03 from "media/blogs/posts/blog03.webp";
+import Glossary from "media/blogs/posts/Glossary.webp";
+import Checker from "media/blogs/posts/Checker.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
 import Link from "next/link";
@@ -1233,13 +1237,13 @@ export const PostData = [
     slug: "what-is-local-seo",
     authorPic: BrielleDelmar.src,
     title: "What is Local SEO and Why is it Important in 2025?",
-    img: Post1.src,
+    img: IMG01.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
           <Image
-            src={Post1.src}
+            src={IMG01.src}
             alt="What is Local SEO and Why is it Important in 2025?"
             fill
           />
@@ -1769,12 +1773,12 @@ export const PostData = [
         Which One Drives More Sales?
       </>
     ),
-    img: Post1.src,
+    img: IMG02.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Post1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG02.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           Most businesses are losing customers because they get SEO wrong. Every
@@ -2274,12 +2278,12 @@ export const PostData = [
       "Read this blog and find out about how local SEO can be the missing piece for small businesses to higher online visibility and growth.",
     slug: "why-small-businesses-need-local-seo",
     title: <>Why Small Businesses Need Local SEO</>,
-    img: Post1.src,
+    img: IMG03.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Post1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG03.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           If you’ve ever searched online for a local service or business, you’ve

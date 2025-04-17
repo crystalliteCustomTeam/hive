@@ -11,11 +11,11 @@ export const BannerData = {
 };
 // Blgos
 import IMG01 from "media/blogs/posts/blog1.webp";
-import IMG02 from "media/blogs/posts/blog2.webp";
-import IMG03 from "media/blogs/posts/blog3.webp";
-import IMG04 from "media/blogs/posts/blog4.webp";
-import IMG05 from "media/blogs/posts/blog5.webp";
-import IMG06 from "media/blogs/posts/blog6.webp";
+import IMG02 from "media/blogs/posts/blog02.webp";
+import IMG03 from "media/blogs/posts/blog03.webp";
+import Glossary from "media/blogs/posts/Glossary.webp";
+import Checker from "media/blogs/posts/Checker.webp";
+
 export const BlgosData = {
   subtitle: "Our Blogs",
   title: "Insights and Inspiration ",
@@ -26,7 +26,7 @@ export const BlgosData = {
       date: "25 Mar, 2025",
       txt: "Read this blog and find out about how local SEO can be the missing piece for small businesses to higher online visibility and growth.",
       category: "SEO",
-      img: IMG01.src,
+      img: IMG03.src,
       link: "/why-small-businesses-need-local-seo",
       author: "brielle-delmar",
     },
@@ -35,7 +35,7 @@ export const BlgosData = {
       date: "24 Mar, 2025",
       txt: "Stuck between local or traditional SEO and unable to find which one can drive more revenue to your business? Read this blog and make an informed decision.",
       category: "SEO",
-      img: IMG01.src,
+      img: IMG02.src,
       link: "/seo-vs-local-seo",
       author: "brielle-delmar",
     },
@@ -53,7 +53,7 @@ export const BlgosData = {
       date: "03 Jan, 2025",
       txt: "Struggling to see results from your ad spend? Let’s talk about the strategies that actually get clicks and conversions.",
       category: "Paid Marketing",
-      img: IMG03.src,
+      img: IMG01.src,
       link: "#",
       author: "brielle-delmar",
     },
@@ -62,7 +62,7 @@ export const BlgosData = {
       date: "04 Jan, 2025",
       txt: "Users are ditching outdated apps faster than you can say “uninstall.” We’re here to help you design apps that look sharp, work like magic, and keep people hooked.",
       category: "Mobile App Design",
-      img: IMG04.src,
+      img: IMG01.src,
       link: "#",
       author: "brielle-delmar",
     },
@@ -71,7 +71,7 @@ export const BlgosData = {
       date: "05 Jan, 2025",
       txt: "You spent time building a beautiful website, but where’s the traffic? Learn how to fix what’s holding you back (hello, bad keywords, and slow speeds) and get found by those who matter.",
       category: "SEO",
-      img: IMG05.src,
+      img: IMG01.src,
       link: "#",
       author: "brielle-delmar",
     },
@@ -90,7 +90,7 @@ export const LeadData = {
       date: "19 Mar, 2025",
       txt: "Check out this HUGE list of the most important SEO terms, jargon, abbreviations to help you better understand SEO.",
       category: "SEO",
-      img: IMG05.src,
+      img: Glossary.src,
       link: "/seo-glossary",
     },
     {
@@ -98,7 +98,7 @@ export const LeadData = {
       date: "18 Mar, 2025",
       txt: "Get your website’s SEO score and see how much effort you need to rank higher on SERP. Click on our free SEO score checker and fill the SEO scorecard.",
       category: "SEO",
-      img: IMG04.src,
+      img: Checker.src,
       link: "/free-seo-score-checker",
     },
   ],
