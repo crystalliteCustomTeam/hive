@@ -1,4 +1,4 @@
-import IMG01 from "media/blogs/posts/blog1.webp";
+import IMG01 from "media/blogs/posts/blog01.webp";
 import IMG02 from "media/blogs/posts/blog02.webp";
 import IMG03 from "media/blogs/posts/blog03.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";

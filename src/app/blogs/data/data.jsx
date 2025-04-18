@@ -10,7 +10,8 @@ export const BannerData = {
   BannerPoster: BannerPoster.src,
 };
 // Blgos
-import IMG01 from "media/blogs/posts/blog1.webp";
+import IMG01 from "media/blogs/posts/blog01.webp";
+import Blog1 from "media/blogs/posts/blog1.webp";
 import IMG02 from "media/blogs/posts/blog02.webp";
 import IMG03 from "media/blogs/posts/blog03.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
@@ -53,7 +54,7 @@ export const BlgosData = {
       date: "03 Jan, 2025",
       txt: "Struggling to see results from your ad spend? Let’s talk about the strategies that actually get clicks and conversions.",
       category: "Paid Marketing",
-      img: IMG01.src,
+      img: Blog1.src,
       link: "#",
       author: "brielle-delmar",
     },
@@ -62,7 +63,7 @@ export const BlgosData = {
       date: "04 Jan, 2025",
       txt: "Users are ditching outdated apps faster than you can say “uninstall.” We’re here to help you design apps that look sharp, work like magic, and keep people hooked.",
       category: "Mobile App Design",
-      img: IMG01.src,
+      img: Blog1.src,
       link: "#",
       author: "brielle-delmar",
     },
@@ -71,7 +72,7 @@ export const BlgosData = {
       date: "05 Jan, 2025",
       txt: "You spent time building a beautiful website, but where’s the traffic? Learn how to fix what’s holding you back (hello, bad keywords, and slow speeds) and get found by those who matter.",
       category: "SEO",
-      img: IMG01.src,
+      img: Blog1.src,
       link: "#",
       author: "brielle-delmar",
     },
