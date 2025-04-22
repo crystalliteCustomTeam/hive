@@ -1212,9 +1212,10 @@ export const BlogData = [
     picpara: (
       <>
         <p>
-          Backlinks are links from other websites that point to your site. They
-          act as votes of confidence, telling search engines like Google that
-          your content is credible, valuable, and worth ranking higher.
+          A blog is a part of a website where people or businesses regularly
+          share written content. This content is called a blog post. Each post
+          usually talks about one topic, which can include ideas, tips,
+          opinions, news, or helpful information.
         </p>
         <p>
           Blogs are updated often, some people post once a week, others once a
@@ -1394,23 +1395,23 @@ export const BlogData = [
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr align="center">
                 <td>Blogging Website</td>
                 <td>70% – 90%</td>
               </tr>
-              <tr>
+              <tr align="center">
                 <td>Landing Pages</td>
                 <td>70% – 90%</td>
               </tr>
-              <tr>
+              <tr align="center">
                 <td>Retail / eCommerce</td>
                 <td>20% – 40%</td>
               </tr>
-              <tr>
+              <tr align="center">
                 <td>B2B Sites</td>
                 <td>25% – 55%</td>
               </tr>
-              <tr>
+              <tr align="center">
                 <td>Service Sites</td>
                 <td>10% – 30%</td>
               </tr>
@@ -1587,7 +1588,7 @@ export const BlogData = [
           When people search for your brand name, it typically means they
           already know you or have heard of you, and they’re closer to making a
           decision. Branded searches have significantly higher conversion rates
-          because users are not just browsing; <i>they’re interested in you.</i>
+          because users are not just browsing; they’re <i>interested in you.</i>
         </p>
         <h4>Brand Credibility and Trust</h4>
         <p>
@@ -3120,7 +3121,9 @@ export const PostData = [
           </ul>
         </div>
         <div className="centerBtn">
-          <CommonBtn txt="Get Started with Local SEO" purple={true} />
+          <Link href="/local-seo-service" className="purpleBtn">
+            Get Started with Local SEO
+          </Link>
         </div>
         <div id="Section-3">
           <h2>How to Optimize for Google Maps</h2>
@@ -3236,7 +3239,9 @@ export const PostData = [
           </ul>
         </div>
         <div className="centerBtn">
-          <CommonBtn txt="Get Started with Local SEO" purple={true} />
+          <Link href="/local-seo-service" className="purpleBtn">
+            Get Started with Local SEO
+          </Link>
         </div>
         <div id="Section-7">
           <h2>Why Reviews Matter for Local SEO</h2>
@@ -3293,7 +3298,7 @@ export const PostData = [
           <p>
             We set up and fully optimize your Google Business Profile with
             accurate business details, relevant categories, service areas, and
-            keyword-rich description
+            keyword-rich description.
           </p>
           <h4>Local Citation Building</h4>
           <p>
@@ -3335,7 +3340,7 @@ export const PostData = [
           </p>
           <br />
 
-          <h2>Our Case Studies</h2>
+          <h2>Local SEO Case Studies</h2>
           <CaseStudyLp blogs={true} />
           <br />
           <br />
@@ -3355,8 +3360,9 @@ export const PostData = [
           Ready to stand out in your industry? It’s time to get started with
           local SEO! But first,{" "}
           <Link href="/free-seo-score-checker">
-            check your website’s seo score for free.
+            check your website’s seo score for free
           </Link>
+          .
         </p>
         <CTAFrom tit="Claim Your Free Consultation" />
       </>
@@ -3494,7 +3500,7 @@ export const PostData = [
             show that you value customer feedback and are dedicated to providing
             excellent service.
           </p>
-          <h2>6. Consistency in NAP Information</h2>
+          <h3>6. Consistency in NAP Information</h3>
           <p>
             Inconsistent NAP information can confuse search engines and
             customers alike, which can hurt your local search rankings. Use
@@ -3602,7 +3608,7 @@ export const PostData = [
             their target audience and geographic focus.
           </p>
           <p>
-            <strong>Read more:</strong>
+            <strong>Read more : </strong>
             <Link href="/seo-vs-local-seo">local vs. traditional seo</Link>
           </p>
         </div>
