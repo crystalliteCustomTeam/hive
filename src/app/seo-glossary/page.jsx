@@ -195,8 +195,8 @@ const data = [
       {
         title: "Blog",
         txt: "A regularly updated website or web page focused on written content, often used for sharing insights, news, or opinions.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "What is a Blog",
+        btnlink: "what-is-a-blog",
       },
       {
         title: "Bot (Crawler/Spider)",
@@ -207,14 +207,14 @@ const data = [
       {
         title: "Bounce Rate",
         txt: "The percentage of visitors who leave a website without interacting further.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "What is Bounce Rate",
+        btnlink: "what-is-bounce-rate",
       },
       {
         title: "Branded Keyword",
         txt: "Keywords that include a specific brand name or trademark, helping to target users already familiar with the brand.",
-        btntxt: "",
-        btnlink: "",
+        btntxt: "What is a Branded Keyword",
+        btnlink: "what-is-a-branded-keyword",
       },
       {
         title: "Breadcrumb",

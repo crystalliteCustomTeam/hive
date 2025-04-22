@@ -23,6 +23,24 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
+      title: "Local Business SEO Strategy",
+      date: "22 Apr, 2025",
+      txt: "Local SEO is essential for businesses aiming to connect with customers in their immediate geographic area.",
+      category: "SEO",
+      img: Blog1.src,
+      link: "/local-business-seo-strategy",
+      author: "lily-chen",
+    },
+    {
+      title: "How To Rank In Local Search",
+      date: "21 Apr, 2025",
+      txt: "If you run a local business, showing up on Google when people search for your services is very important. Whether you have a shop, a restaurant, or offer services in your area, local search helps customers find you faster.",
+      category: "SEO",
+      img: Blog1.src,
+      link: "/how-to-rank-in-local-search",
+      author: "brielle-delmar",
+    },
+    {
       title: "Why Small Businesses Need Local SEO",
       date: "25 Mar, 2025",
       txt: "Read this blog and find out about how local SEO can be the missing piece for small businesses to higher online visibility and growth.",
@@ -49,15 +67,7 @@ export const BlgosData = {
       link: "/what-is-local-seo",
       author: "brielle-delmar",
     },
-    {
-      title: "Stop Wasting Money on Ads That Don’t Work",
-      date: "03 Jan, 2025",
-      txt: "Struggling to see results from your ad spend? Let’s talk about the strategies that actually get clicks and conversions.",
-      category: "Paid Marketing",
-      img: Blog1.src,
-      link: "#",
-      author: "brielle-delmar",
-    },
+    
     {
       title: "Why Does Your App Look Like It’s Stuck in 2010?",
       date: "04 Jan, 2025",

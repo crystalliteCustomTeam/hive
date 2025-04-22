@@ -26,13 +26,14 @@
     }
     h3 {
       margin-bottom: 30px;
+      font-size: 28px;
+      font-weight: 600;
     }
     h4 {
       margin-bottom: 10px;
       color: #000;
-      line-height: 36px;
-      font-weight: 600;
       font-size: 28px;
+      font-weight: 600;
     }
     p {
       color: #333;
@@ -92,7 +93,20 @@
     margin: 0px auto 50px;
     max-width: 75%;
   }
-
+  h2 {
+    margin-bottom: 30px;
+  }
+  h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  h4 {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+  }
   .flexCategory {
     display: flex;
     justify-content: center;
@@ -261,7 +275,9 @@
         margin-bottom: 25px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 32px;
+        font-size: 24px;
       }
       h4 {
         line-height: 32px;
@@ -297,6 +313,15 @@
     padding-top: 160px;
     h1 {
       margin: 0px auto 40px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 32px;
+      font-size: 24px;
+    }
+    h4 {
+      line-height: 32px;
+      font-size: 24px;
     }
     .flexCategory {
       gap: 15px;
@@ -372,7 +397,9 @@
         margin-bottom: 25px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 28px;
+        font-size: 22px;
       }
       h4 {
         line-height: 28px;
@@ -414,6 +441,15 @@
     padding-top: 150px;
     h1 {
       margin: 0px auto 30px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 28px;
+      font-size: 22px;
+    }
+    h4 {
+      line-height: 28px;
+      font-size: 22px;
     }
     .flexCategory {
       gap: 15px;
@@ -493,7 +529,9 @@
         font-size: 20px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 24px;
+        font-size: 20px;
       }
       p {
         margin-bottom: 20px;
@@ -531,6 +569,15 @@
     padding-top: 120px;
     h1 {
       margin-bottom: 30px;
+    }
+    h4 {
+      line-height: 24px;
+      font-size: 20px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 24px;
+      font-size: 20px;
     }
     .flexCategory {
       gap: 15px;
@@ -614,7 +661,9 @@
         margin-bottom: 25px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 24px;
+        font-size: 20px;
       }
       h4 {
         line-height: 24px;
@@ -656,6 +705,15 @@
     padding-top: 120px;
     h1 {
       margin-bottom: 30px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 24px;
+      font-size: 20px;
+    }
+    h4 {
+      line-height: 24px;
+      font-size: 20px;
     }
     .flexCategory {
       gap: 15px;
@@ -740,7 +798,9 @@
         margin-bottom: 25px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 24px;
+        font-size: 18px;
       }
       h4 {
         line-height: 24px;
@@ -783,6 +843,15 @@
     h1 {
       margin-bottom: 30px;
       max-width: 80%;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 24px;
+      font-size: 18px;
+    }
+    h4 {
+      line-height: 24px;
+      font-size: 18px;
     }
     .flexCategory {
       gap: 15px;
@@ -867,11 +936,13 @@
         margin-bottom: 25px;
       }
       h4 {
-        line-height:26px;
+        line-height: 26px;
         font-size: 20px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 26px;
+        font-size: 20px;
       }
       p {
         margin-bottom: 20px;
@@ -910,6 +981,15 @@
     h1 {
       margin-bottom: 30px;
       max-width: 100%;
+    }
+    h4 {
+      line-height: 26px;
+      font-size: 20px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 26px;
+      font-size: 20px;
     }
     .flexCategory {
       gap: 15px;
@@ -998,7 +1078,9 @@
         font-size: 18px;
       }
       h3 {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+        line-height: 22px;
+        font-size: 18px;
       }
       p {
         margin-bottom: 20px;
@@ -1037,6 +1119,15 @@
     h1 {
       margin-bottom: 30px;
       max-width: 100%;
+    }
+    h4 {
+      line-height: 22px;
+      font-size: 18px;
+    }
+    h3 {
+      margin-bottom: 20px;
+      line-height: 22px;
+      font-size: 18px;
     }
     .flexCategory {
       gap: 15px;

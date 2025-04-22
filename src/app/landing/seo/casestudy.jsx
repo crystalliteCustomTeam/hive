@@ -63,7 +63,7 @@ const data = [
   },
 ];
 
-const CaseStudyLp = ({ nosub, btntxt, glossary }) => {
+const CaseStudyLp = ({ nosub, btntxt, glossary, blogs }) => {
   const [modalShow, setModalShow] = useState(false);
   const [selectedCase, setSelectedCase] = useState(null);
 
@@ -81,12 +81,12 @@ const CaseStudyLp = ({ nosub, btntxt, glossary }) => {
         caseData={selectedCase}
       />
       <section
-        className={`${styles.casestudyLpSection} ${glossary ? "" : "pt-100"}`}
+        className={`${styles.casestudyLpSection} ${blogs ? styles.casestudyBlogss : ""} ${glossary || blogs ? "" : "pt-100"}`}
         id="PortfolioId"
       >
         <Container className="h-100">
           <Row className="h-100">
-            {glossary ? (
+            {glossary || blogs ? (
               ""
             ) : (
               <Col md={8} lg={8} className="m-auto text-center">
