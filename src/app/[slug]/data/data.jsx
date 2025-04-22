@@ -3298,7 +3298,7 @@ export const PostData = [
           <p>
             We set up and fully optimize your Google Business Profile with
             accurate business details, relevant categories, service areas, and
-            keyword-rich description.
+            keyword-rich descriptions.
           </p>
           <h4>Local Citation Building</h4>
           <p>
