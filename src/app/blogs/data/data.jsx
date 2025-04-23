@@ -14,6 +14,8 @@ import IMG01 from "media/blogs/posts/blog01.webp";
 import Blog1 from "media/blogs/posts/blog1.webp";
 import IMG02 from "media/blogs/posts/blog02.webp";
 import IMG03 from "media/blogs/posts/blog03.webp";
+import IMG04 from "media/blogs/posts/blog04.webp";
+import IMG05 from "media/blogs/posts/blog05.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -27,7 +29,7 @@ export const BlgosData = {
       date: "22 Apr, 2025",
       txt: "Local SEO is essential for businesses aiming to connect with customers in their immediate geographic area.",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG05.src,
       link: "/local-business-seo-strategy",
       author: "lily-chen",
     },
@@ -36,7 +38,7 @@ export const BlgosData = {
       date: "21 Apr, 2025",
       txt: "If you run a local business, showing up on Google when people search for your services is very important. Whether you have a shop, a restaurant, or offer services in your area, local search helps customers find you faster.",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG04.src,
       link: "/how-to-rank-in-local-search",
       author: "brielle-delmar",
     },

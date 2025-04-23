@@ -2,6 +2,8 @@ import IMG01 from "media/blogs/posts/blog01.webp";
 import IMG02 from "media/blogs/posts/blog02.webp";
 import IMG03 from "media/blogs/posts/blog03.webp";
 import Blog1 from "media/blogs/posts/blog1.webp";
+import IMG04 from "media/blogs/posts/blog04.webp";
+import IMG05 from "media/blogs/posts/blog05.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
 import Link from "next/link";
@@ -3049,12 +3051,12 @@ export const PostData = [
       "This definitive blog is the only way you can save your business from being buried down in SERP. Get your website ranked in local search so it can bathe in dollars!",
     slug: "how-to-rank-in-local-search",
     title: <>How To Rank In Local Search</>,
-    img: Blog1.src,
+    img: IMG04.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG04.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           If you run a local business, showing up on Google when people search
@@ -3389,12 +3391,12 @@ export const PostData = [
       "This piece of content is your saviour if you want to boost your local search visibility and attract more customers. To get updated local SEO tactics, read now!",
     slug: "local-business-seo-strategy",
     title: <>Local Business SEO Strategy</>,
-    img: Blog1.src,
+    img: IMG05.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG05.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           Local SEO is essential for businesses aiming to connect with customers
