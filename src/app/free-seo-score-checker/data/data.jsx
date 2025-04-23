@@ -15,7 +15,7 @@ export const BannerData = {
   desc: (
     <>
       <p>
-        Google either loves your site or ignores it. Answer these 10 questions
+        Google either loves your website or ignores it. Answer these 10 questions
         to see which one!
       </p>
     </>
