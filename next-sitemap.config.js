@@ -5,12 +5,12 @@ module.exports = {
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,
-  exclude: ["/landing", "/landing/*"],
+  exclude: ["/landing", "/landing/*","/thank-you"],
   robotsTxtOptions: {
     policies: [
       {
         userAgent: "*",
-        disallow: ["/landing", "/landing/*"],
+        disallow: ["/landing", "/landing/*" ,"/thank-you"],
       },
     ],
   },
