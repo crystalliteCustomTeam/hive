@@ -7,10 +7,35 @@ module.exports = {
   sitemapSize: 5000,
   exclude: ["/landing", "/landing/*","/thank-you"],
   robotsTxtOptions: {
+    additionalSitemaps: [
+      "https://www.infinitidigital.us/sitemap.xml",
+    ],
     policies: [
       {
         userAgent: "*",
-        disallow: ["/landing", "/landing/*" ,"/thank-you"],
+        allow: "/",
+        disallow: [
+          "/_next/",
+          "/*.webp$",
+          "/*.js$",
+          "/*.css$",
+          "/*.ico$",
+          "/*.png$",
+          "/*.jpeg$",
+          "/*.jpg$",
+          "/*.woff2$",
+          "/landing",
+          "/landing/*",
+          "/thank-you",
+        ],
+      },
+      {
+        userAgent: "ChatGPT-User",
+        disallow: "/",
+        allow: [
+          "/free-seo-score-checker",
+          "/what-is-local-seo",
+        ],
       },
     ],
   },
