@@ -1,3 +1,4 @@
+# *
 User-agent: *
 Allow: /
 Disallow: /_next/
@@ -9,12 +10,18 @@ Disallow: /*.png$
 Disallow: /*.jpeg$
 Disallow: /*.jpg$
 Disallow: /*.woff2$
+Disallow: /landing
+Disallow: /landing/*
+Disallow: /thank-you
 
-
+# ChatGPT-User
 User-agent: ChatGPT-User
-Disallow: /
 Allow: /free-seo-score-checker
 Allow: /what-is-local-seo
+Disallow: /
 
+# Host
+Host: https://www.infinitidigital.us
 
+# Sitemaps
 Sitemap: https://www.infinitidigital.us/sitemap.xml

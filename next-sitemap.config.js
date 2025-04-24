@@ -5,11 +5,8 @@ module.exports = {
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,
-  exclude: ["/landing", "/landing/*","/thank-you"],
+  exclude: ["/landing", "/landing/*", "/thank-you"],
   robotsTxtOptions: {
-    additionalSitemaps: [
-      "https://www.infinitidigital.us/sitemap.xml",
-    ],
     policies: [
       {
         userAgent: "*",
