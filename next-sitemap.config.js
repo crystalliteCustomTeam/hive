@@ -6,4 +6,12 @@ module.exports = {
   priority: 0.7,
   sitemapSize: 5000,
   exclude: ["/landing", "/landing/*"],
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: "*",
+        disallow: ["/landing", "/landing/*"],
+      },
+    ],
+  },
 };

@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /landing
-Disallow: /landing/
-Disallow: /landing/*
 Disallow: /_next/
 Disallow: /*.webp$
 Disallow: /*.js$
