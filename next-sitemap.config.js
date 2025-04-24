@@ -5,13 +5,5 @@ module.exports = {
   changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 5000,
-  async additionalPaths(config) {
-    return [
-      {
-        loc: '/landing', 
-        lastmod: new Date().toISOString(),
-        priority: 0.8,
-      },
-    ];
-  },
+  exclude: ['/landing'],
 };
