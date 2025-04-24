@@ -3,8 +3,18 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
 import Image from "next/image";
 import TableOfContents from "./components/tablecontent";
-import BrielleDelmar from "@/public/blogs/author/brielle-delmar.webp";
 import Link from "next/link";
+
+
+export async function generateStaticParams() {
+  const allPosts = [...BlogData, ...PostData];
+
+  return allPosts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
+
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
