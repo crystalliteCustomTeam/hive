@@ -14,7 +14,7 @@ const Banner = ({ data }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowVideo(true); // load video after 1.5s
-    }, 1500);
+    }, 1000);
     return () => clearTimeout(timeout);
   }, []);
 
@@ -33,7 +33,7 @@ const Banner = ({ data }) => {
       </Container>
 
       {/* ✅ Poster image improves LCP */}
-      {!showVideo ? (
+      {/* {!showVideo ? (
         <Image
           src={data.BannerPoster}
           alt="Banner background"
@@ -53,9 +53,25 @@ const Banner = ({ data }) => {
           playsInline
           poster={data.BannerPoster}
         >
+          <source src={data.videoFallback} type="video/webm" />
           <source src={data.video} type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
-      )}
+      )} */}
+      <video
+        autoPlay
+        muted
+        loop
+        preload="none"
+        aria-label="Background video"
+        className={styles.bannerVideo}
+        playsInline
+        poster={data.BannerPoster}
+      >
+        <source src={data.videoFallback} type="video/webm" />
+        <source src={data.video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
       <Clients data={ClientImages} />
     </section>

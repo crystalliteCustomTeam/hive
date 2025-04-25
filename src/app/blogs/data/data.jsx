@@ -25,6 +25,24 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
+      title: "Cross-Platform Content Strategy With SMM Services",
+      date: "25 Apr, 2025",
+      txt: "Do you know that expert social media marketing services can be a game-changer in creating social media content that lands with your audience?",
+      category: "SMM",
+      img: IMG05.src,
+      link: "/how-to-maximize-roi-with-paid-smm-services",
+      author: "chloe-harris",
+    },
+    {
+      title: "How to Maximize ROI with Paid Social Media Marketing Services",
+      date: "24 Apr, 2025",
+      txt: "As a diligent online business owner, have you ever felt frustrated watching your paid social ad costs climb yet see a stagnant ROI? You’re not alone.",
+      category: "PPC",
+      img: IMG05.src,
+      link: "/cohesive-cross-platform-social-media-marketing-services",
+      author: "grace-moore",
+    },
+    {
       title: "Local Business SEO Strategy",
       date: "22 Apr, 2025",
       txt: "Local SEO is essential for businesses aiming to connect with customers in their immediate geographic area.",
@@ -69,7 +87,7 @@ export const BlgosData = {
       link: "/what-is-local-seo",
       author: "brielle-delmar",
     },
-    
+
     {
       title: "Why Does Your App Look Like It’s Stuck in 2010?",
       date: "04 Jan, 2025",

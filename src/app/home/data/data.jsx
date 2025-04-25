@@ -4,8 +4,9 @@ import BannerPoster from "media/home/bannerPoster.webp";
 export const BannerData = {
   title: "Build. Grow. Thrive. ",
   desc: "Struggling to get noticed online? You’re not alone. At Infiniti Digital, we revamp your digital presence into an energetic hub of engagement, traffic, and measurable results. We’re not just providing services but crafting stories that resonate and inspire.",
-  video:
-    "https://player.vimeo.com/progressive_redirect/playback/1039775789/rendition/720p/file.mp4?loc=external&log_user=0&signature=8567ae8ef483e82e5fcc1ef124821c26200f8e18bcd1545a174dda0aced9e429",
+  //video:"https://player.vimeo.com/progressive_redirect/playback/1039775789/rendition/720p/file.mp4?loc=external&log_user=0&signature=8567ae8ef483e82e5fcc1ef124821c26200f8e18bcd1545a174dda0aced9e429",
+  video: "/home/BannerVideo.mp4",
+  videoFallback: "/home/BannerVideo.webm",
   BannerPoster: BannerPoster.src,
 };
 
