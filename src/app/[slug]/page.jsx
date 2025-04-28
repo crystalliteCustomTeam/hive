@@ -95,7 +95,7 @@ const Page = async ({ params }) => {
                   <div className={styles.authorContent}>
                     <h4>{authorName}</h4>
                     <ul className={styles.authorList}>
-                      <li>SEO Specialist</li>
+                      <li>{blog.job}</li>
                       <li>Infiniti Digital</li>
                       <li>
                         <Link href={blog.author}>Read Author Bio</Link>

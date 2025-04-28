@@ -1,9 +1,11 @@
 import IMG01 from "media/blogs/posts/blog01.webp";
 import IMG02 from "media/blogs/posts/blog02.webp";
 import IMG03 from "media/blogs/posts/blog03.webp";
-import Blog1 from "media/blogs/posts/blog1.webp";
 import IMG04 from "media/blogs/posts/blog04.webp";
 import IMG05 from "media/blogs/posts/blog05.webp";
+import IMG06 from "media/blogs/posts/blog06.webp";
+import IMG07 from "media/blogs/posts/blog07.webp";
+import Blog1 from "media/blogs/posts/blog1.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
 import Link from "next/link";
@@ -976,7 +978,7 @@ export const BlogData = [
           understand the context of the linked page.
         </p>
         <p>
-          {`<a href="https://www.infinitidigital.us/seo-agency">
+          {`<a href="/seo-agency">
             Best SEO Agency
           </a>
           `}
@@ -1673,6 +1675,7 @@ export const PostData = [
     category: "SEO",
     date: "20 Mar, 2025",
     author: "brielle-delmar",
+    job: "SEO Specialist",
     tit: "What is Local SEO and Why is it Important in 2025?",
     description:
       "Ever heard the term “Local SEO” but don’t know about what it is or its importance? Then we will help clear all your concepts in this blog about local SEO.",
@@ -2203,6 +2206,7 @@ export const PostData = [
     category: "SEO",
     date: "24 Mar, 2025",
     author: "brielle-delmar",
+    job: "SEO Specialist",
     authorPic: BrielleDelmar.src,
     tit: "Local SEO vs. Traditional SEO Which One Drives More Sales?",
     description:
@@ -2714,6 +2718,7 @@ export const PostData = [
     category: "SEO",
     date: "25 Mar, 2025",
     author: "brielle-delmar",
+    job: "SEO Specialist",
     authorPic: BrielleDelmar.src,
     tit: "Why Small Businesses Need Local SEO - Infiniti Digital",
     description:
@@ -3047,6 +3052,7 @@ export const PostData = [
     category: "SEO",
     date: "21 Apr, 2025",
     author: "brielle-delmar",
+    job: "SEO Specialist",
     authorPic: BrielleDelmar.src,
     tit: "How To Rank In Local Search? - Infiniti Digital",
     description:
@@ -3387,6 +3393,7 @@ export const PostData = [
     category: "SEO",
     date: "22 Apr, 2025",
     author: "lily-chen",
+    job: "SEO Specialist",
     authorPic: LilyChen.src,
     tit: "Updated Local Business SEO Strategy [$$$ Guaranteed]",
     description:
@@ -3664,18 +3671,20 @@ export const PostData = [
     category: "SMM",
     date: "25 Apr, 2025",
     author: "grace-moore",
+    job: "Social Media Manager",
     authorPic: GraceMoore.src,
     tit: "Social Media Marketing Services for Cross-Platform Content",
     description:
       "Learn how expert social media marketing services can build effective cross‑platform content strategies for your brand to drive consistent engagement.",
     slug: "cohesive-cross-platform-social-media-marketing-services",
     title: <>Cohesive Cross-Platform Content Strategy With SMM Services</>,
-    img: Blog1.src,
+    img: IMG07.src,
     type: "blogs",
+
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG07.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           Do you know that expert social media marketing services can be a
@@ -3691,12 +3700,17 @@ export const PostData = [
           eye-opener for you:
         </p>
         <p>
-          Brands that employ cross-channel marketing can experience{" "}
-          <Link href="https://blog.flarelane.com/nine-statistics-about-cross-channel-marketing-you-should-know/">
-            customer retention rates as high as 89%
-          </Link>
-          , a stark contrast to the lower retention achieved with less effective
-          approaches.
+          <i>
+            Brands that employ cross-channel marketing can experience{" "}
+            <Link
+              href="https://blog.flarelane.com/nine-statistics-about-cross-channel-marketing-you-should-know/"
+              rel="nofollow"
+            >
+              customer retention rates as high as 89%
+            </Link>
+            , a stark contrast to the lower retention achieved with less
+            effective approaches.
+          </i>
         </p>
         <p>
           This post will explore why scattered content hurts your brand, how
@@ -3744,7 +3758,10 @@ export const PostData = [
           </p>
           <p>
             Disjointed content also results in{" "}
-            <Link href="https://www.linkedin.com/pulse/why-audience-fatigue-silent-killer-your-brands-digital-laaouidi-ikram-nzfke">
+            <Link
+              href="https://www.linkedin.com/pulse/why-audience-fatigue-silent-killer-your-brands-digital-laaouidi-ikram-nzfke"
+              rel="nofollow"
+            >
               audience fatigue
             </Link>
             . When users scroll through feeds and hit mismatch after mismatch,
@@ -3787,7 +3804,7 @@ export const PostData = [
             days&quot; post, boosted to viewers who engaged with your earlier
             content, can seal the deal.
           </p>
-          <strong>Fun Fact</strong>
+          <strong className="strongHeading">Fun Fact</strong>
           <p>
             Companies with strong customer journey management achieve a 54%
             higher return on marketing investment compared to those without.
@@ -3808,12 +3825,12 @@ export const PostData = [
             Does your social media feed feel like a random content list rather
             than a clear and consistent messaging space? Proficient social media
             advertising services will help you define
-            <strong>content pillars</strong>—themes that guide your posts, bring
-            clarity, and keep your audience engaged.
+            <strong> content pillars</strong>—themes that guide your posts,
+            bring clarity, and keep your audience engaged.
           </p>
           <p>
             Social media marketing professionals recommend three pillars:
-            <strong>educational, inspirational, and promotional</strong>.
+            <strong> educational, inspirational, and promotional</strong>.
             Educational posts teach something useful, like &quot;How to
             Split-Test Your Facebook Ads.&quot; These build trust by solving
             real problems.
@@ -3862,10 +3879,13 @@ export const PostData = [
             humanize your brand. If you sell digital products, enable Shoppable
             Posts so users can sign up or purchase without leaving the app.
           </p>
-          <strong>Fun Fact</strong>
+          <strong className="strongHeading">Fun Fact</strong>
           <p>
             A key global trend shows that{" "}
-            <Link href="https://www.researchgate.net/publication/381776325_Influence_of_Instagram_Reels_on_Marketing_Tactics_of_Small_Businesses_Insights_from_Pakistan">
+            <Link
+              rel="nofollow"
+              href="https://www.researchgate.net/publication/381776325_Influence_of_Instagram_Reels_on_Marketing_Tactics_of_Small_Businesses_Insights_from_Pakistan"
+            >
               nearly half (47%) of consumers
             </Link>{" "}
             now use Reels (Facebook & Instagram) to discover and explore new
@@ -3935,24 +3955,33 @@ export const PostData = [
             rethink engaging with another one for your brand’s social content
             automation and scheduling!
           </p>
-          <h5>Scheduling Tools</h5>
-          <p>
-            Platforms like Buffer, Hootsuite, and Later let you plan weeks or
-            months of content in advance. You can draft captions, upload images,
-            and schedule posts at optimal times without daily manual work.
-          </p>
-          <h5>Real-Time Engagement</h5>
-          <p>
-            Automation shouldn’t replace genuine interaction. Block 20–30
-            minutes each day for your team to respond to comments, answer DMs,
-            and join trending conversations. Real-time responses boost
-            algorithmic favor and show your audience that there are real people
-            behind the brand. Brands that reply to comments{" "}
-            <Link href="https://medium.com/@trulydigitalmedia/the-importance-of-engaging-with-comments-and-messages-on-social-media-f19213dbfb8f">
-              create a ‘dialogue,’
-            </Link>
-            encouraging thoughtful collaborations.
-          </p>
+          <ul>
+            <li>
+              <h5>Scheduling Tools</h5>
+              <p>
+                Platforms like Buffer, Hootsuite, and Later let you plan weeks
+                or months of content in advance. You can draft captions, upload
+                images, and schedule posts at optimal times without daily manual
+                work.
+              </p>
+            </li>
+            <li>
+              <h5>Real-Time Engagement</h5>
+              <p>
+                Automation shouldn’t replace genuine interaction. Block 20–30
+                minutes each day for your team to respond to comments, answer
+                DMs, and join trending conversations. Real-time responses boost
+                algorithmic favor and show your audience that there are real
+                people behind the brand. Brands that reply to comments{" "}
+                <Link
+                  rel="nofollow"
+                  href="https://medium.com/@trulydigitalmedia/the-importance-of-engaging-with-comments-and-messages-on-social-media-f19213dbfb8f"
+                >
+                  create a ‘dialogue,’
+                </Link>{" "}encouraging thoughtful collaborations.
+              </p>
+            </li>
+          </ul>
         </div>
         <div id="Section-7">
           <h2>Measuring Success: KPIs, Dashboards & Continuous Improvement</h2>
@@ -4044,11 +4073,14 @@ export const PostData = [
             boosts SEO—Google rewards pages with clear, structured information
             that benefits all users.
           </p>
-          <strong>Fun Fact</strong>
+          <strong className="strongHeading">Fun Fact</strong>
           <p>
             The inclusion of subtitles in videos has been shown to improve
             viewer engagement, resulting in up to a{" "}
-            <Link href="https://www.linkedin.com/pulse/how-increase-your-video-engagement-watch-time-raxff">
+            <Link
+              href="https://www.linkedin.com/pulse/how-increase-your-video-engagement-watch-time-raxff"
+              rel="nofollow"
+            >
               12% longer watch time
             </Link>
             .
@@ -4130,26 +4162,20 @@ export const PostData = [
               href="/social-media-marketing-services#PricingId"
               className="purpleBtn"
             >
-              Get Started with Local SEO
+             View Our SMM Packages
             </Link>
           </div>
           <p>
             You can also explore{" "}
-            <Link href="https://www.infinitidigital.us/how-to-maximize-roi-with-paid-smm-services/">
+            <Link href="/how-to-maximize-roi-with-paid-smm-services/">
               how to maximize your ROI
-            </Link>{" "}
-            (add URL link to Blog 1) with our paid social media marketing
-            services, and learn more about measuring your cross-platform content
-            strategy’s impact via our data-driven approach (add URL link to Blog
-            4).
+            </Link>{" "}with our paid social media marketing
+            services.
           </p>
           <p>
             Ready to turn your cross-platform content into an engagement hub?{" "}
-            <Link href="https://www.infinitidigital.us/contact-us">
-              Contact us today
-            </Link>{" "}
-            and let <strong>Infiniti Digital</strong> light the way for your
-            brand!
+            <Link href="/contact-us">Contact us today</Link> and let{" "}
+            <strong>Infiniti Digital</strong> light the way for your brand!
           </p>
         </div>
         <CTAFrom tit="Claim Your Free Consultation" />
@@ -4158,41 +4184,34 @@ export const PostData = [
   },
   {
     tableContent: [
-      { title: "The Cost of Disjointed Content Across Channels" },
-      { title: "Mapping Your Customer Journey on Social Platforms" },
       {
         title:
-          "Engaging Social Media Marketing Services to Craft Content Pillars That Resonate",
+          "Why Paid Social Media Advertising Services Are Non‑Negotiable in 2025",
       },
-      { title: "Channel-Specific Best Practices" },
-      { title: "Using User-Generated Content & Influencer Collaborations" },
-      { title: "Automation & Scheduling Without Losing the Human Touch" },
-      { title: "Measuring Success: KPIs, Dashboards & Continuous Improvement" },
-      { title: "Content Ideation & Topic Research Techniques" },
-      { title: "Repurposing Your Core Content Across Channels" },
-      { title: "Accessibility & Inclusive Content Practices" },
-      { title: "Governance, Workflows & Team Roles" },
-      { title: "Crisis-Ready Content & Community Guidelines" },
-      {
-        title:
-          "Building A Cohesive Cross-Platform Social Media Content Strategy For Your Brand",
-      },
+      { title: "Platform Selection & Budget Allocation by SMM Experts" },
+      { title: "Creative Best Practices That Drive Clicks" },
+      { title: "Advanced Campaign Structures" },
+      { title: "Iterative A/B Testing & Optimization" },
+      { title: "Tracking & Reporting for Transparent ROI" },
+      { title: "Resolving ROI Related Issues (SMBs)" },
+      { title: "Conclusion" },
     ],
-    category: "PPC",
+    category: "SMM",
     date: "24 Apr, 2025",
     author: "chloe-harris",
+    job: "Paid Social Media Specialist",
     authorPic: ChloeHarris.src,
     tit: "How To Maximize ROI With Paid SMM Services",
     description:
       "Gain insights on how paid social media marketing services use ROI-driven tactics to cut down ad costs and boost engagement for your business.",
     slug: "how-to-maximize-roi-with-paid-smm-services",
     title: <>How to Maximize ROI with Paid Social Media Marketing Services</>,
-    img: Blog1.src,
+    img: IMG06.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG06.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           As a diligent online business owner, have you ever felt frustrated
@@ -4205,7 +4224,10 @@ export const PostData = [
           Interestingly, this problem has continued to persist for the last
           several years, and even larger businesses have faced the brunt of it.
           In 2023, the popular media outlet, Bloomberg, lost around{" "}
-          <Link href="https://edition.cnn.com/2023/08/17/media/facebook-referral-traffic-reliable-sources/index.html">
+          <Link
+            href="https://edition.cnn.com/2023/08/17/media/facebook-referral-traffic-reliable-sources/index.html"
+            rel="nofollow"
+          >
             10 to 15 million monthly visitors from Facebook
           </Link>
           , impacting its ad revenue significantly.
@@ -4231,7 +4253,10 @@ export const PostData = [
             update—could reach a good, sizable chunk of your followers without
             spending a dime? Those days are gone. In 2024, Facebook’s organic
             reach hovered around{" "}
-            <Link href="https://www.socialinsider.io/blog/social-media-reach/">
+            <Link
+              href="https://www.socialinsider.io/blog/social-media-reach/"
+              rel="nofollow"
+            >
               2–3%
             </Link>
             , meaning 97–98% of your audience never sees your unpaid content.
@@ -4285,7 +4310,7 @@ export const PostData = [
             building is your priority, &quot;Engagement&quot; objectives that
             track views, shares, or comments become critical.
           </p>
-          <h2>2. Setting SMART Targets for Facebook and Instagram Ads</h2>
+          <h3>2. Setting SMART Targets for Facebook and Instagram Ads</h3>
           <p>
             &quot;Get more leads&quot; is a goal, but it’s too vague to guide
             action or measurement. Instead, craft a SMART goal: Specific,
@@ -4316,8 +4341,8 @@ export const PostData = [
           </p>
           <ul>
             <li>
-              The average cost per thousand impressions (CPM) ranges from
-              $1.01–$3.00 on Facebook, and $4 on Instagram, depending on the
+              The average cost per thousand impressions (CPM) ranges from{" "}
+              <Link href="https://neilpatel.com/blog/facebook-ads-prices/#:~:text=Facebook%3A%20CPC%20averages%20%240.26%E2%80%93%240.50,%240.50%2C%20with%20CPM%20averaging%20%246.50." rel="nofollow">$1.01–$3.00</Link> on Facebook, and $4 on Instagram, depending on the
               niches.
             </li>
             <li>
@@ -4362,9 +4387,9 @@ export const PostData = [
             avoiding runaway costs. Lifetime budgets, on the other hand, allow
             Facebook’s algorithm the flexibility to hunt for your
             best-performing audience segments at the right times of day. Start
-            with a 70/30 split: allocate 70% of your ad spend to daily budgets
-            for stable campaigns that need consistent delivery, and 30% to
-            lifetime budgets for experimental or high‑potential pushes.
+            with a 70/30 split: allocate <i>70% of your ad spend</i> to daily budgets
+            for stable campaigns that need consistent delivery, and <i>30% to
+            lifetime budgets</i> for experimental or high‑potential pushes.
           </p>
           <p>
             After two full ad cycles of 14 days—review performance and reassign
@@ -4416,7 +4441,7 @@ export const PostData = [
             more likely to click and convert.
           </p>
         </div>
-        <div id="Section-5">
+        <div id="Section-4">
           <h2>Advanced Campaign Structures</h2>
           <p>
             Targeting a broader audience may feel safe, but it often means
@@ -4463,7 +4488,7 @@ export const PostData = [
             converted. This small exclusion can improve your ROAS significantly.
           </p>
         </div>
-        <div id="Section-7">
+        <div id="Section-5">
           <h2>Iterative A/B Testing & Optimization</h2>
           <p>
             Testing is the backbone of continuous improvement. If you are not
@@ -4498,7 +4523,7 @@ export const PostData = [
             best performed by a professional social media advertising service.
           </p>
         </div>
-        <div id="Section-8">
+        <div id="Section-6">
           <h2>Tracking & Reporting for Transparent ROI</h2>
           <p>
             Accurate tracking is the foundation of transparent ROI measurement.
@@ -4529,7 +4554,7 @@ export const PostData = [
             exact role social media plays in driving revenue.
           </p>
         </div>
-        <div id="Section-9">
+        <div id="Section-7">
           <h2>Resolving ROI Related Issues (SMBs)</h2>
           <p>
             Let’s imagine how a hardworking business owner like you can face low
@@ -4650,7 +4675,7 @@ export const PostData = [
             </table>
           </div>
         </div>
-        <div id="Section-10">
+        <div id="Section-8">
           <h2>Conclusion</h2>
           <p>
             Managing paid social campaigns in‑house can be overwhelming.
@@ -4671,7 +4696,7 @@ export const PostData = [
             No matter where you operate in the U.S., our proficient digital
             marketing team has got you covered. We deliver expert social media
             advertising services and are capable of initiating
-            revenue-generating Facebook ad campaigns that resonate nationwide
+            revenue-generating Facebook ad campaigns that resonate nationwide.
           </p>
           <p>
             For those looking to integrate paid ad strategies with organic

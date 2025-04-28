@@ -16,12 +16,14 @@ import IMG02 from "media/blogs/posts/blog02.webp";
 import IMG03 from "media/blogs/posts/blog03.webp";
 import IMG04 from "media/blogs/posts/blog04.webp";
 import IMG05 from "media/blogs/posts/blog05.webp";
+import IMG06 from "media/blogs/posts/blog06.webp";
+import IMG07 from "media/blogs/posts/blog07.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
 export const BlgosData = {
   subtitle: "Our Blogs",
-  title: "Insights and Inspiration ",
+  title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
@@ -29,17 +31,17 @@ export const BlgosData = {
       date: "25 Apr, 2025",
       txt: "Do you know that expert social media marketing services can be a game-changer in creating social media content that lands with your audience?",
       category: "SMM",
-      img: IMG05.src,
-      link: "/how-to-maximize-roi-with-paid-smm-services",
+      img: IMG07.src,
+      link: "/cohesive-cross-platform-social-media-marketing-services",
       author: "chloe-harris",
     },
     {
       title: "How to Maximize ROI with Paid Social Media Marketing Services",
       date: "24 Apr, 2025",
       txt: "As a diligent online business owner, have you ever felt frustrated watching your paid social ad costs climb yet see a stagnant ROI? You’re not alone.",
-      category: "PPC",
-      img: IMG05.src,
-      link: "/cohesive-cross-platform-social-media-marketing-services",
+      category: "SMM",
+      img: IMG06.src,
+      link: "/how-to-maximize-roi-with-paid-smm-services",
       author: "grace-moore",
     },
     {
