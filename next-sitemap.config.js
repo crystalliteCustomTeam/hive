@@ -16,7 +16,6 @@ module.exports = {
           "/*.webp$",
           "/*.js$",
           "/*.css$",
-          "/*.ico$",
           "/*.png$",
           "/*.jpeg$",
           "/*.jpg$",

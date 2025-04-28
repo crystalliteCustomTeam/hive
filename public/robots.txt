@@ -4,7 +4,6 @@ Allow: /
 Allow: /favicon.ico
 Disallow: /_next/
 Disallow: /*.webp$
-Disallow: /*.ico$
 Disallow: /*.png$
 Disallow: /*.jpeg$
 Disallow: /*.jpg$
