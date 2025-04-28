@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@/src/app/globals.scss";
 import Scripts from "@/src/app/Scripts";
 import ConditionalLayout from "@/src/app/conditionallayout";
-import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -54,20 +53,14 @@ export const metadata = {
     "geo.position": "39.78373;-100.445882",
     ICBM: "39.78373, -100.445882",
   },
+  icons: {
+    icon: "/favicon.ico", 
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link
-          rel="icon"
-          href="/favicon.ico"
-          sizes="48x48"
-          type="image/x-icon"
-        />
-        <link rel="manifest" href="/manifest.json" />
-      </Head>
       <body className={poppins.className}>
         <Scripts />
         <ConditionalLayout>{children}</ConditionalLayout>
