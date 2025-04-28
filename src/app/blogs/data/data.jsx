@@ -27,6 +27,15 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
+      title: "Advanced Targeting Techniques Via Instagram and Facebook Marketing Services",
+      date: "28 Apr, 2025",
+      txt: "Have you ever felt like you’re spending more on Facebook and Instagram marketing, but getting less in return? You’re not alone.",
+      category: "SMM",
+      img: Blog1.src,
+      link: "/effective-audience-targeting-via-facebook-and-instagram",
+      author: "chloe-harris",
+    },
+    {
       title: "Cross-Platform Content Strategy With SMM Services",
       date: "25 Apr, 2025",
       txt: "Do you know that expert social media marketing services can be a game-changer in creating social media content that lands with your audience?",

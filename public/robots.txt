@@ -1,10 +1,9 @@
 # *
 User-agent: *
 Allow: /
+Allow: /favicon.ico
 Disallow: /_next/
 Disallow: /*.webp$
-Disallow: /*.js$
-Disallow: /*.css$
 Disallow: /*.ico$
 Disallow: /*.png$
 Disallow: /*.jpeg$
