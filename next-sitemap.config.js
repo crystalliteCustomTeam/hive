@@ -10,7 +10,7 @@ module.exports = {
     policies: [
       {
         userAgent: "*",
-        allow: "/",
+        allow: ["/", "/favicon.ico"],
         disallow: [
           "/_next/",
           "/*.webp$",
