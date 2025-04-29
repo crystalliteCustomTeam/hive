@@ -5181,9 +5181,10 @@ export const PostData = [
             Whether you’re a local brand or a growing business, our SMM
             specialists combine{" "}
             <Link href="/assess-social-media-ad-campaign-analytics-reporting">
-              data-driven strategy
+              analytics and reporting
             </Link>{" "}
-            with creative execution to deliver campaigns that are as smart as they are effective. 
+            with creative execution to deliver campaigns that are as smart as
+            they are effective.
           </p>
           <p>
             Ready to refine your targeting approach on social media?{" "}
@@ -5220,9 +5221,7 @@ export const PostData = [
       "See how social media marketing services assess analytics and reporting to optimize campaigns, improve ROI, and maximize ad performance.",
     slug: "assess-social-media-ad-campaign-analytics-reporting",
     title: (
-      <>
-        Assessing Social Media Advertising Campaigns’ Analytics & Reporting
-      </>
+      <>Assessing Social Media Advertising Campaigns’ Analytics & Reporting</>
     ),
     img: IMG09.src,
     type: "blogs",
