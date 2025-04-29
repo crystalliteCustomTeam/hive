@@ -16,15 +16,29 @@ module.exports = withBundleAnalyzer({
         {
           loader: 'file-loader',
           options: {
-            name: 'static/media/[name].[hash].[ext]', // You can customize this
-            publicPath: '/_next/static/media', // This is the path that Next.js will use
-            outputPath: 'static/media', // This is where the files will be output in your build
+            name: 'static/media/[name].[hash].[ext]',
+            publicPath: '/_next/static/media', 
+            outputPath: 'static/media', 
           },
         },
       ],
     });
 
-    // Return the updated config
     return config;
+  },
+
+  async redirects() {
+    return [
+       {
+        source: '/data-driven-social-campaigns-analytics-and-reporting',
+        destination: '/assess-social-media-ad-campaign-analytics-reporting',
+        permanent: true,
+      },
+      {
+        source: '/effective-audience-targeting-via-facebook-and-instagram',
+        destination: '/effective-audience-targeting-via-paid-social-media-marketing',
+        permanent: true,
+      },
+    ];
   },
 });

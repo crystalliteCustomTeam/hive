@@ -29,12 +29,12 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
         {
-      title: "Data Driven Social Campaigns Analytics & Reporting With Social Media Advertising",
+      title: "Assessing Social Media Advertising Campaigns' Analytics & Reporting",
       date: "29 Apr, 2025",
       txt: "Are you pouring budget into social media ads only to feel like you’re wandering in the dark when measuring social ads performance? You’re not alone.",
       category: "SMM",
       img: IMG09.src,
-      link: "/data-driven-social-campaigns-analytics-and-reporting",
+      link: "/assess-social-media-ad-campaign-analytics-reporting",
       author: "chloe-harris",
     },
     {
