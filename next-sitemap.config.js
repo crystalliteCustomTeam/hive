@@ -10,28 +10,13 @@ module.exports = {
     policies: [
       {
         userAgent: "*",
-        allow: ["/", "/favicon.ico"],
-        disallow: [
-          "/_next/",
-          "/*.webp$",
-          "/*.js$",
-          "/*.css$",
-          "/*.png$",
-          "/*.jpeg$",
-          "/*.jpg$",
-          "/*.woff2$",
-          "/landing",
-          "/landing/*",
-          "/thank-you",
-        ],
+        allow: "/",
+        disallow: ["/landing", "/landing/*", "/thank-you"],
       },
       {
         userAgent: "ChatGPT-User",
         disallow: "/",
-        allow: [
-          "/free-seo-score-checker",
-          "/what-is-local-seo",
-        ],
+        allow: ["/free-seo-score-checker", "/what-is-local-seo"],
       },
     ],
   },
