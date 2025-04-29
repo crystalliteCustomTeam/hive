@@ -6,7 +6,8 @@ export const BannerData = {
     title: "Paid Marketing that Delivers",
     desc: "Struggling to make your ads work harder? Maximize reach, generate leads, and grow revenue with Infiniti Digital’s creative, data-driven marketing campaigns that captivate, convert, and deliver measurable results.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775923/rendition/720p/file.mp4?loc=external&log_user=0&signature=c251642141ee9afe63a88518519e387179687128d687483a6c115a79518c1c54",
-    BannerPoster: BannerPoster.src,
+   videoFallback: "/services/paid-marketing/PaidVideo.webm",    
+   BannerPoster: BannerPoster.src,
 }
 // Process
 export const ProcessData = {

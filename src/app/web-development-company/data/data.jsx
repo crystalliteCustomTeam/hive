@@ -6,6 +6,7 @@ export const BannerData = {
     title: "Ready To Wow Your Audience?",
     desc: "Your website is more than a digital presence—it’s your brand’s first impression. At Infiniti Digital, we merge creativity with cutting-edge technology to design websites that don’t just look good but perform exceptionally.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1040875532/rendition/1080p/file.mp4?loc=external&log_user=0&signature=1d4dbbd95f2a7543fdc99fe8e9d0d0fca84bcccf1a9f6217b54c85d0b9911068",
+    videoFallback: "/services/web-development/WebVideo.webm",  
     BannerPoster: BannerPoster.src,
 }
 

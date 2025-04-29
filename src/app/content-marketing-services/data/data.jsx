@@ -6,6 +6,7 @@ export const BannerData = {
     title: "Better Storytelling, Better Conversions",
     desc: "From blogs to videos and beyond, Infiniti Digital’s strategies ensure your brand gets noticed, remembered, and trusted.",
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775816/rendition/720p/file.mp4?loc=external&log_user=0&signature=25e3d3440616801aba2c530e7f4be7f636f4af2ba84d9262fa0d81beaff28bb6",
+    videoFallback: "/services/content-marketing/ContentVideo.webm",  
     BannerPoster: BannerPoster.src,
     bannerTitle: "Where Creativity Meets Strategy for Real Results.",
     bannerContent: "Unlock the power of strategic storytelling to captivate your audience and drive measurable results. Let us craft your success story.",
