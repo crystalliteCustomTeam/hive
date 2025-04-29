@@ -5352,7 +5352,9 @@ export const PostData = [
             channels. Set up UTM parameters on every social ad URL. Ask your
             hired SMM agency to use consistent tags like
             <br />
-            utm_source=facebook&utm_medium<br className="d-md-none"/>=paid_social&utm_campaign=summer_launch.
+            utm_source=facebook&utm_medium
+            <br className="d-md-none" />
+            =paid_social&utm_campaign=summer_launch.
           </p>
           <p>
             In GA4, define events mirroring your pixel. Link GA4 with Google Ads
@@ -5506,7 +5508,7 @@ export const PostData = [
                 Numbers alone don’t persuade. Frame your metrics in context. For
                 example:
               </p>
-              <p>
+              <p className="text-center">
                 <i>
                   &quot;This campaign reached 500,000 users—50% above
                   target—driving 1,200 demo requests at a $25 CPL, 20% below
@@ -5541,6 +5543,13 @@ export const PostData = [
           <ul>
             <li>
               <h5>Ghost Traffic from Bots</h5>
+              <p>
+                Spam or bots can inflate pageviews and skew metrics. Filter out
+                known bot traffic in GA4 and review server logs for odd spikes.
+              </p>
+            </li>
+            <li>
+              <h5>Duplicate Event Firing</h5>
               <p>
                 If your pixel code appears twice on a page, each action is
                 recorded twice, doubling your metrics. Audit your site’s header
