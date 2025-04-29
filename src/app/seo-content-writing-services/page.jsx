@@ -1,17 +1,17 @@
-import BannerLp from "@/src/app/landing/content/bannerlp"
+import BannerLp from "@/src/app/seo-content-writing-services/bannerlp"
 import WhyChooseLp from "@/src/app/landing/seo/whychooselp"
 import CtaLp from "@/src/app/landing/components/ctalp"
-import ServicesLp from "@/src/app/landing/content/serviceslp"
-import MarketPoints from "@/src/app/landing/content/marketpoints"
-import PorcessLp from "@/src/app/landing/content/porcesslp"
+import ServicesLp from "@/src/app/seo-content-writing-services/serviceslp"
+import MarketPoints from "@/src/app/seo-content-writing-services/marketpoints"
+import PorcessLp from "@/src/app/seo-content-writing-services/porcesslp"
 import Pricing from '@/src/app/components/services/pricing'
 import AwardsLp from "@/src/app/landing/components/awardslp"
 import ContactLp from "@/src/app/landing/components/contactlp"
 import Work from '@/src/app/components/services/work';
-import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, AwardsPoints } from "@/src/app/landing/content/data/data"
+import { WhyChooseData, CtaData, ServiceslpData, MarketPointsData, PorcessLpData, ContactData, AwardsPoints } from "@/src/app/seo-content-writing-services/data/data"
 import { WorkData } from '@/src/app/home/data/data';
-import CtaSimple from "@/src/app/landing/content/ctasimple"
-import CustomPrice from "@/src/app/landing/content/customprice"
+import CtaSimple from "@/src/app/seo-content-writing-services/ctasimple"
+import CustomPrice from "@/src/app/seo-content-writing-services/customprice"
 
 const Page = () => {
     return (

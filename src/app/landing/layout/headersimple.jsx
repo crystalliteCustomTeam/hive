@@ -11,7 +11,7 @@ const HeaderSimpleLp = () => {
     const pathname = usePathname();
 
     useEffect(() => {
-        setIsLight(pathname === '/landing/seo1' || pathname === '/landing/seo2' || pathname === '/landing/smm1' || pathname === '/landing/gmb' || pathname === '/landing/content' || pathname === '/landing/smm3');
+        setIsLight(pathname === '/landing/seo1' || pathname === '/landing/seo2' || pathname === '/landing/smm1' || pathname === '/landing/gmb' || pathname === '/seo-content-writing-services' || pathname === '/landing/smm3');
     }, [pathname]);
     // Chat Code
     const openChat = () => {

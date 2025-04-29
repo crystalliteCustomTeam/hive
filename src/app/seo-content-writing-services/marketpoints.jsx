@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/content/marketpoints.module.scss"
 import Image from "next/image"
-import CommonBtn from '../../components/common/commonbtn'
+import CommonBtn from '@/src/app/components/common/commonbtn'
 
 const MarketPoints = ({ data }) => {
     const [activeIndex, setActiveIndex] = useState(0)  // Default active tab set to the first item (index 0)
