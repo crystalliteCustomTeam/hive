@@ -5221,7 +5221,7 @@ export const PostData = [
     slug: "assess-social-media-ad-campaign-analytics-reporting",
     title: (
       <>
-        Assessing Social Media Advertising Campaigns' Analytics & Reporting
+        Assessing Social Media Advertising Campaigns’ Analytics & Reporting
       </>
     ),
     img: IMG09.src,
