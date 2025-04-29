@@ -38,12 +38,12 @@ export const BlgosData = {
       author: "chloe-harris",
     },
     {
-      title: "Advanced Targeting Techniques Via Instagram and Facebook Marketing Services",
+      title: "Advanced Targeting Techniques Via Paid Social Media Marketing",
       date: "28 Apr, 2025",
       txt: "Have you ever felt like you’re spending more on Facebook and Instagram marketing, but getting less in return? You’re not alone.",
       category: "SMM",
       img: IMG08.src,
-      link: "/effective-audience-targeting-via-facebook-and-instagram",
+      link: "/effective-audience-targeting-via-paid-social-media-marketing",
       author: "chloe-harris",
     },
     {
