@@ -18,6 +18,8 @@ import IMG04 from "media/blogs/posts/blog04.webp";
 import IMG05 from "media/blogs/posts/blog05.webp";
 import IMG06 from "media/blogs/posts/blog06.webp";
 import IMG07 from "media/blogs/posts/blog07.webp";
+import IMG08 from "media/blogs/posts/blog08.webp";
+import IMG09 from "media/blogs/posts/blog09.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -26,12 +28,21 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
+        {
+      title: "Data Driven Social Campaigns Analytics & Reporting With Social Media Advertising",
+      date: "29 Apr, 2025",
+      txt: "Are you pouring budget into social media ads only to feel like you’re wandering in the dark when measuring social ads performance? You’re not alone.",
+      category: "SMM",
+      img: IMG09.src,
+      link: "/data-driven-social-campaigns-analytics-and-reporting",
+      author: "chloe-harris",
+    },
     {
       title: "Advanced Targeting Techniques Via Instagram and Facebook Marketing Services",
       date: "28 Apr, 2025",
       txt: "Have you ever felt like you’re spending more on Facebook and Instagram marketing, but getting less in return? You’re not alone.",
       category: "SMM",
-      img: Blog1.src,
+      img: IMG08.src,
       link: "/effective-audience-targeting-via-facebook-and-instagram",
       author: "chloe-harris",
     },

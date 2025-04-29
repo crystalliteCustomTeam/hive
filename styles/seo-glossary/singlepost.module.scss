@@ -107,6 +107,10 @@
     font-size: 28px;
     font-weight: 600;
   }
+  h5 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
   .flexCategory {
     display: flex;
     justify-content: center;
@@ -323,6 +327,10 @@
       line-height: 32px;
       font-size: 24px;
     }
+    h5 {
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
     .flexCategory {
       gap: 15px;
       margin-bottom: 35px;
@@ -451,6 +459,10 @@
       line-height: 28px;
       font-size: 22px;
     }
+    h5 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
     .flexCategory {
       gap: 15px;
       margin-bottom: 30px;
@@ -578,6 +590,10 @@
       margin-bottom: 20px;
       line-height: 24px;
       font-size: 20px;
+    }
+    h5 {
+      margin-bottom: 5px;
+      font-size: 18px;
     }
     .flexCategory {
       gap: 15px;
@@ -715,6 +731,10 @@
       line-height: 24px;
       font-size: 20px;
     }
+    h5 {
+      margin-bottom: 0px;
+      font-size: 16px;
+    }
     .flexCategory {
       gap: 15px;
       margin-bottom: 30px;
@@ -806,6 +826,7 @@
         line-height: 24px;
         font-size: 18px;
       }
+
       p {
         margin-bottom: 20px;
       }
@@ -852,6 +873,10 @@
     h4 {
       line-height: 24px;
       font-size: 18px;
+    }
+    h5 {
+      margin-bottom: 0px;
+      font-size: 16px;
     }
     .flexCategory {
       gap: 15px;
@@ -991,6 +1016,10 @@
       line-height: 26px;
       font-size: 20px;
     }
+    h5 {
+      margin-bottom: 0px;
+      font-size: 16px;
+    }
     .flexCategory {
       gap: 15px;
       margin-bottom: 30px;
@@ -1129,6 +1158,10 @@
       line-height: 22px;
       font-size: 18px;
     }
+    h5 {
+      margin-bottom: 0px;
+      font-size: 16px;
+    }
     .flexCategory {
       gap: 15px;
       margin-bottom: 30px;
@@ -1172,29 +1205,36 @@
       top: 75px;
     }
     .authorBox {
-      flex-wrap: wrap;
+      // flex-wrap: wrap;    
+      align-items: flex-start;
+      width: 100%;
       .authorIMG {
         margin-right: 10px;
-        flex: 0 0 90px;
-        height: 90px;
+        flex: 0 0 70px;
+        height: 70px;
         margin-bottom: 10px;
       }
       .authorContent {
-        flex: 0 0 100%;
+        flex: 0 0 calc(100% - 90px);
         h4 {
           font-size: 16px;
           line-height: 18px;
-          margin-bottom: 5px;
+          margin-bottom: 10px;
+          
         }
         ul.authorList {
           gap: 10px;
+          flex-wrap: wrap;
           li {
-            flex: 0 0 auto;
+            flex: 0 0 100%;
             gap: 0px;
             font-size: 13px;
-            line-height: 20px;
-            padding-right: 10px;
-            border-right: 1px solid rgba(0, 0, 0, 1);
+            line-height: 13px;
+            padding-right: 0px;
+            border-right: 0px solid rgba(0, 0, 0, 1);
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            margin-bottom: 0px;
+            padding-bottom:5px;
           }
         }
       }
