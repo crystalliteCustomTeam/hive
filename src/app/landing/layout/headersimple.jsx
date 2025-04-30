@@ -15,7 +15,7 @@ const HeaderSimpleLp = () => {
       pathname === "/organic-seo-services" ||
         pathname === "/search-engine-optimization-services" ||
         pathname === "/social-media-marketing-agency" ||
-        pathname === "/landing/gmb" ||
+        pathname === "/gmb-management-service" ||
         pathname === "/seo-content-writing-services" ||
         pathname === "/social-media-advertising-agency"
     );

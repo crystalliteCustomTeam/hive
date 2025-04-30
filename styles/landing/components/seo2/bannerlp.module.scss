@@ -1,659 +1,656 @@
 .bannerLpSection {
-    position: relative;
-    border-radius: 0px 0px 100px 100px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    z-index: 0;
-    height: 100vh;
+  position: relative;
+  border-radius: 0px 0px 100px 100px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  z-index: 0;
+  height: 100vh;
 
-    &::before {
-        content: '';
-        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 16.35%, #E0F0FF 100%);
-        position: absolute;
-        left: 0px;
-        height: 100%;
-        width: 100%;
-        top: 0px;
-        z-index: -1;
+  &::before {
+    content: "";
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 16.35%,
+      #e0f0ff 100%
+    );
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+  }
+
+  .bannerContentSec {
+    max-width: 95%;
+
+    h1 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 55px;
+      line-height: 65px;
+      letter-spacing: -0.165px;
+      color: #000;
+      margin-bottom: 20px;
+
+      span {
+        padding: 0px 10px;
+        background: linear-gradient(9.84deg, #ffffff -12.54%, #9aff35 103.72%);
+        border-radius: 10px;
+      }
     }
 
-    .bannerContentSec {
-        max-width: 95%;
+    P {
+      margin: 0px 0px 20px;
+      color: #3f3f3f;
+    }
 
-        h1 {
+    .numberStyle {
+      margin-top: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+
+      .numberItem {
+        .numberIcons {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          height: 70px;
+
+          .svgIcon {
+            margin-right: 10px;
+
+            svg {
+              height: 45px;
+              width: auto;
+            }
+          }
+
+          .points {
             font-style: normal;
             font-weight: 600;
-            font-size: 55px;
-            line-height: 65px;
-            letter-spacing: -0.165px;
-            color: #000;
-            margin-bottom: 20px;
-
-            span {
-                padding: 0px 10px;
-                background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
-                border-radius: 10px;
-            }
+            font-size: 40px;
+            line-height: 50px;
+            letter-spacing: -0.294944px;
+            color: #000000;
+            margin-bottom: 0px;
+          }
         }
 
-        P {
-
-            margin: 0px 0px 20px;
-            color: #3F3F3F;
+        .numberTitle {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          letter-spacing: -0.110838px;
+          color: #000000;
         }
-
-        .numberStyle {
-            margin-top: 30px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 40px;
-
-
-            .numberItem {
-                .numberIcons {
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
-                    height: 70px;
-
-                    .svgIcon {
-                        margin-right: 10px;
-
-                        svg {
-                            height: 45px;
-                            width: auto;
-                        }
-                    }
-
-                    .points {
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 40px;
-                        line-height: 50px;
-                        letter-spacing: -0.294944px;
-                        color: #000000;
-                        margin-bottom: 0px;
-
-                    }
-                }
-
-                .numberTitle {
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 15px;
-                    line-height: 18px;
-                    letter-spacing: -0.110838px;
-                    color: #000000;
-                }
-            }
-        }
-
-        .btnFlex {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 10px;
-
-
-            div,
-            a {
-                height: 65px;
-                border-radius: 100px;
-                padding: 0px 30px;
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 16px;
-                letter-spacing: -0.165px;
-                cursor: pointer;
-                transition: background 0.3s ease, transform 0.3s ease;
-
-
-                &.btnStyle {
-                    background: linear-gradient(9.84deg, #FFFFFF -12.54%, #9AFF35 103.72%);
-                    color: #000000;
-
-                    &:hover {
-                        background: linear-gradient(9.84deg, #9AFF35 -12.54%, #FFFFFF 103.72%);
-                        transform: scale(1.01);
-                        transition: background 0.3s ease, transform 0.3s ease;
-                    }
-                }
-
-                &.chatStyle {
-                    background: #000;
-                    color: #fff;
-
-                    &:hover {
-                        background: linear-gradient(9.84deg, rgb(0, 0, 0, .8) -12.54%, rgb(0, 0, 0, .9) 103.72%);
-                        transform: scale(1.01);
-                        transition: background 0.3s ease, transform 0.3s ease;
-                        color: #fff;
-                    }
-                }
-            }
-        }
+      }
     }
 
-    .bannerContactFrom {
-        padding: 30px 15px;
-        background: linear-gradient(180deg, #E0F0FF 0%, #FFFFFF 70%);
-        border: 1px solid #FFFFFF;
-        box-shadow: 0px 23px 50px rgba(39, 98, 123, 0.12);
-        border-radius: 30px;
-        max-width: 600px;
+    .btnFlex {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
 
-        h2 {
-            margin-bottom: 20px;
-            color: #000;
-            text-align: center;
+      div,
+      a {
+        height: 65px;
+        border-radius: 100px;
+        padding: 0px 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: -0.165px;
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease;
+
+        &.btnStyle {
+          background: linear-gradient(
+            9.84deg,
+            #ffffff -12.54%,
+            #9aff35 103.72%
+          );
+          color: #000000;
+
+          &:hover {
+            background: linear-gradient(
+              9.84deg,
+              #9aff35 -12.54%,
+              #ffffff 103.72%
+            );
+            transform: scale(1.01);
+            transition: background 0.3s ease, transform 0.3s ease;
+          }
         }
-    }
 
+        &.chatStyle {
+          background: #000;
+          color: #fff;
+
+          &:hover {
+            background: linear-gradient(
+              9.84deg,
+              rgb(0, 0, 0, 0.8) -12.54%,
+              rgb(0, 0, 0, 0.9) 103.72%
+            );
+            transform: scale(1.01);
+            transition: background 0.3s ease, transform 0.3s ease;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .bannerContactFrom {
+    padding: 30px 15px;
+    background: linear-gradient(180deg, #e0f0ff 0%, #ffffff 70%);
+    border: 1px solid #ffffff;
+    box-shadow: 0px 23px 50px rgba(39, 98, 123, 0.12);
+    border-radius: 30px;
+    max-width: 600px;
+
+    h2 {
+      margin-bottom: 20px;
+      color: #000;
+      text-align: center;
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .bannerLpSection {
-        padding: 120px 0px 100px 0px;
-        height: 100%;
+  .bannerLpSection {
+    padding: 120px 0px 100px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 40px;
-                line-height: 50px;
-                margin-bottom: 20px;
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 30px;
+
+        .numberItem {
+          .numberIcons {
+            height: 60px;
+
+            .svgIcon {
+              svg {
+                height: 40px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 35px;
+              line-height: 45px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 30px;
-
-
-                .numberItem {
-                    .numberIcons {
-                        height: 60px;
-
-                        .svgIcon {
-                            svg {
-                                height: 40px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 35px;
-                            line-height: 45px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 14px;
-                        line-height: 18px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 10px;
-
-                div,
-                a {
-                    height: 65px;
-                    padding: 0px 30px;
-                }
-            }
+          .numberTitle {
+            font-size: 14px;
+            line-height: 18px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 25px 10px;
-            max-width: 500px;
+      .btnFlex {
+        gap: 10px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 30px;
-            }
+        div,
+        a {
+          height: 65px;
+          padding: 0px 30px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 25px 20px;
+      max-width: 500px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    .bannerLpSection {
-        padding: 120px 0px 80px 0px;
-        height: 100%;
+  .bannerLpSection {
+    padding: 120px 0px 80px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 35px;
-                line-height: 45px;
-                margin-bottom: 10px;
+      h1 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 10px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 20px;
+
+        .numberItem {
+          .numberIcons {
+            height: 55px;
+
+            .svgIcon {
+              svg {
+                height: 35px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 35px;
+              line-height: 35px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 20px;
-
-
-                .numberItem {
-                    .numberIcons {
-                        height: 55px;
-
-                        .svgIcon {
-                            svg {
-                                height: 35px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 35px;
-                            line-height: 35px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 13px;
-                        line-height: 15px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 10px;
-
-                div,
-                a {
-                    height: 62px;
-                    padding: 0px 30px;
-                }
-            }
+          .numberTitle {
+            font-size: 13px;
+            line-height: 15px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 25px 10px;
-            max-width: 500px;
+      .btnFlex {
+        gap: 10px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 30px;
-            }
+        div,
+        a {
+          height: 62px;
+          padding: 0px 30px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 25px 20px;
+      max-width: 500px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .bannerLpSection {
-        padding: 120px 0px 80px 0px;
-        height: 100%;
+  .bannerLpSection {
+    padding: 120px 0px 80px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 35px;
-                line-height: 45px;
-                margin-bottom: 10px;
+      h1 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 10px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 20px;
+
+        .numberItem {
+          .numberIcons {
+            height: 55px;
+
+            .svgIcon {
+              svg {
+                height: 35px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 35px;
+              line-height: 35px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 20px;
-
-
-                .numberItem {
-                    .numberIcons {
-                        height: 55px;
-
-                        .svgIcon {
-                            svg {
-                                height: 35px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 35px;
-                            line-height: 35px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 13px;
-                        line-height: 15px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 10px;
-
-                div,
-                a {
-                    height: 57px;
-                    padding: 0px 25px;
-                    font-size: 15px;
-                }
-            }
+          .numberTitle {
+            font-size: 13px;
+            line-height: 15px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 30px 0px 20px;
-            max-width: 500px;
+      .btnFlex {
+        gap: 10px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 30px;
-            }
+        div,
+        a {
+          height: 57px;
+          padding: 0px 25px;
+          font-size: 15px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 30px 20px 20px;
+      max-width: 500px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 30px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 900px) and (max-width:1099px) {
-    .bannerLpSection {
-        padding: 100px 0px 80px 0px;
-        height: 100%;
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bannerLpSection {
+    padding: 100px 0px 80px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 30px;
-                line-height: 40px;
-                margin-bottom: 10px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 20px;
+
+        .numberItem {
+          .numberIcons {
+            height: 50px;
+
+            .svgIcon {
+              svg {
+                height: 35px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 30px;
+              line-height: 30px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 20px;
-
-
-                .numberItem {
-                    .numberIcons {
-                        height: 50px;
-
-                        .svgIcon {
-                            svg {
-                                height: 35px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 30px;
-                            line-height: 30px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 12px;
-                        line-height: 18px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 10px;
-
-                div,
-                a {
-                    height: 50px;
-                    padding: 0px 25px;
-                    font-size: 14px;
-                }
-            }
+          .numberTitle {
+            font-size: 12px;
+            line-height: 18px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 20px 0px 0px;
-            max-width: 500px;
+      .btnFlex {
+        gap: 10px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 25px;
-            }
+        div,
+        a {
+          height: 50px;
+          padding: 0px 25px;
+          font-size: 14px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 20px 20px 0px;
+      max-width: 500px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 25px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width:899px) {
-    .bannerLpSection {
-        padding: 100px 0px 80px 0px;
-        height: 100%;
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bannerLpSection {
+    padding: 100px 0px 80px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 30px;
-                line-height: 40px;
-                margin-bottom: 10px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 20px;
+
+        .numberItem {
+          .numberIcons {
+            height: 50px;
+
+            .svgIcon {
+              svg {
+                height: 35px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 30px;
+              line-height: 30px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 20px;
-
-
-                .numberItem {
-                    .numberIcons {
-                        height: 50px;
-
-                        .svgIcon {
-                            svg {
-                                height: 35px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 30px;
-                            line-height: 30px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 12px;
-                        line-height: 18px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 10px;
-
-                div,
-                a {
-                    height: 50px;
-                    padding: 0px 25px;
-                    font-size: 14px;
-                }
-            }
+          .numberTitle {
+            font-size: 12px;
+            line-height: 18px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 20px 0px 0px;
-            max-width: 500px;
-            margin: 20px auto 0px;
+      .btnFlex {
+        gap: 10px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 25px;
-            }
+        div,
+        a {
+          height: 50px;
+          padding: 0px 25px;
+          font-size: 14px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 20px 20px 20px;
+      max-width: 500px;
+      margin: 20px auto 0px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 25px;
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 576px) and (max-width:767px) {
-    .bannerLpSection {
-        padding: 100px 0px 80px 0px;
-        height: 100%;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .bannerLpSection {
+    padding: 100px 0px 80px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 30px;
-                line-height: 40px;
-                margin-bottom: 10px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 20px;
+
+        .numberItem {
+          .numberIcons {
+            height: 50px;
+
+            .svgIcon {
+              svg {
+                height: 35px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 30px;
+              line-height: 30px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 20px;
-
-
-                .numberItem {
-                    .numberIcons {
-                        height: 50px;
-
-                        .svgIcon {
-                            svg {
-                                height: 35px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 30px;
-                            line-height: 30px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 12px;
-                        line-height: 18px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 5px;
-
-                div,
-                a {
-                    height: 45px;
-                    padding: 0px 25px;
-                    font-size: 13px;
-                }
-            }
+          .numberTitle {
+            font-size: 12px;
+            line-height: 18px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 20px 0px 0px;
-            max-width: 500px;
-            margin: 20px auto 0px;
+      .btnFlex {
+        gap: 5px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 25px;
-            }
+        div,
+        a {
+          height: 45px;
+          padding: 0px 25px;
+          font-size: 13px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 20px 20px 20px;
+      max-width: 500px;
+      margin: 20px auto 0px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 25px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
-    .bannerLpSection {
-        padding: 80px 0px 80px 0px;
-        height: 100%;
+  .bannerLpSection {
+    padding: 80px 0px 80px 0px;
+    height: 100%;
 
-        .bannerContentSec {
-            max-width: 95%;
+    .bannerContentSec {
+      max-width: 95%;
 
-            h1 {
-                font-size: 30px;
-                line-height: 40px;
-                margin-bottom: 10px;
+      h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      P {
+        margin: 0px 0px 20px;
+      }
+
+      .numberStyle {
+        margin-top: 30px;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .numberItem {
+          flex: 0 0 100%;
+
+          .numberIcons {
+            height: 50px;
+
+            .svgIcon {
+              svg {
+                height: 35px;
+              }
             }
 
-            P {
-                margin: 0px 0px 20px;
+            .points {
+              font-size: 30px;
+              line-height: 30px;
             }
+          }
 
-            .numberStyle {
-                margin-top: 30px;
-                gap: 20px;
-                flex-wrap: wrap;
-
-                .numberItem {
-                    flex: 0 0 100%;
-
-                    .numberIcons {
-                        height: 50px;
-
-                        .svgIcon {
-                            svg {
-                                height: 35px;
-                            }
-                        }
-
-                        .points {
-                            font-size: 30px;
-                            line-height: 30px;
-                        }
-                    }
-
-                    .numberTitle {
-                        font-size: 12px;
-                        line-height: 18px;
-                    }
-                }
-            }
-
-            .btnFlex {
-                gap: 5px;
-
-                div,
-                a {
-                    height: 40px;
-                    padding: 0px 15px;
-                    font-size: 13px;
-                }
-            }
+          .numberTitle {
+            font-size: 12px;
+            line-height: 18px;
+          }
         }
+      }
 
-        .bannerContactFrom {
-            padding: 20px 0px 0px;
-            max-width: 500px;
-            margin: 20px auto 0px;
+      .btnFlex {
+        gap: 5px;
 
-            h2 {
-                margin-bottom: 0px;
-                font-size: 25px;
-            }
+        div,
+        a {
+          height: 40px;
+          padding: 0px 15px;
+          font-size: 13px;
         }
-
+      }
     }
+
+    .bannerContactFrom {
+      padding: 20px 15px 20px;
+      max-width: 500px;
+      margin: 20px auto 0px;
+
+      h2 {
+        margin-bottom: 0px;
+        font-size: 25px;
+      }
+    }
+  }
 }

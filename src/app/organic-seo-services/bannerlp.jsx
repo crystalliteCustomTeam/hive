@@ -20,7 +20,7 @@ const Bannerlp = () => {
             <div className={styles.bannerContentSec}>
               <h1>
                 Attract the Right Audience <br className="d-none d-md-block" />
-                With Our Organic <span className="highlight">SEO Services</span>
+                With Our <span className="highlight">Organic SEO Services</span>
               </h1>
               <p>
                 We don’t do best practices, we do what works. Our SEO services
