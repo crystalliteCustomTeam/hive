@@ -1662,7 +1662,7 @@ import BrielleDelmar from "media/blogs/author/brielle-delmar.webp";
 import LilyChen from "media/blogs/author/lily-chen.webp";
 import GraceMoore from "media/blogs/author/grace-moore.webp";
 import ChloeHarris from "media/blogs/author/chloe-harris.webp";
-import CaseStudyLp from "../../landing/seo/casestudy";
+import CaseStudyLp from "@/src/app/best-seo-agency/casestudy";
 export const PostData = [
   {
     tableContent: [

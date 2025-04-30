@@ -3,7 +3,7 @@ import ServicesMain from "@/src/app/components/services/servicesmain";
 import DashboardPrice from "@/src/app/seo-reporting-dashboard/pricing";
 import Testimonials from "@/src/app/home/testimonials";
 import TalkLp from "@/src/app/landing/components/talk";
-import CaseStudyLp from "@/src/app/landing/seo/casestudy";
+import CaseStudyLp from "@/src/app/best-seo-agency/casestudy";
 import StateCountLP from "@/src/app/landing/components/statecountlp";
 import {
   BannerData,
