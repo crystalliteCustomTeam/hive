@@ -63,8 +63,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="theme-color" content="#ffffff" />
+        <link
+          rel="icon"
+          href="/favicon.ico"
+          type="image/x-icon"
+          sizes="48x48"
+        />
       </Head>
       <body className={poppins.className}>
         <Scripts />
