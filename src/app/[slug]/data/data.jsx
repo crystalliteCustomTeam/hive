@@ -5688,12 +5688,15 @@ export const PostData = [
           </p>
           <h3>Revenue, Leads, Brand Awareness, Community Growth</h3>
           <p>
-            Ask yourself: Are you looking to drive direct sales, generate
-            qualified leads, increase brand visibility, or build a community
-            around your business? Each goal demands different tactics. For
-            example, a campaign focused on revenue would center on
-            conversion-optimized ads and retargeting, while brand awareness
-            requires broad reach and high-impact creative.
+            Ask yourself:{" "}
+            <i>
+              Are you looking to drive direct sales, generate qualified leads,
+              increase brand visibility, or build a community around your
+              business?
+            </i>{" "}
+            Each goal demands different tactics. For example, a campaign focused
+            on revenue would center on conversion-optimized ads and retargeting,
+            while brand awareness requires broad reach and high-impact creative.
           </p>
           <h3>Matching Agency Expertise to Your Goals</h3>
           <p>
