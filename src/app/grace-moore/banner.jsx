@@ -30,7 +30,7 @@ const Banner = () => {
                 </h1>
 
                 <ul className={styles.authorList}>
-                  <li>Paid Social Media Specialist</li>
+                  <li>Social Media Manager</li>
                   <li>Infiniti Digital</li>
                 </ul>
                 <div className={styles.btnAuthor}>
