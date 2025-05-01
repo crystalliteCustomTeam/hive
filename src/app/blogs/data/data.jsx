@@ -28,8 +28,19 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
-        {
-      title: "Assessing Social Media Advertising Campaigns' Analytics & Reporting",
+    {
+      title:
+        "Assessing Social Media Advertising Campaigns' Analytics & Reporting",
+      date: "01 May, 2025",
+      txt: "Do you know that social media and search advertising comprised 59% of global ad budgets in 2024, with forecasts projecting it to reach 61% by 2026?",
+      category: "SMM",
+      img: Blog1.src,
+      link: "/7-steps-to-choose-the-right-social-media-marketing-company",
+      author: "grace-moore",
+    },
+    {
+      title:
+        "Assessing Social Media Advertising Campaigns' Analytics & Reporting",
       date: "29 Apr, 2025",
       txt: "Are you pouring budget into social media ads only to feel like you’re wandering in the dark when measuring social ads performance? You’re not alone.",
       category: "SMM",
