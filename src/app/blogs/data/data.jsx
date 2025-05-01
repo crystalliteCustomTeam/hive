@@ -120,25 +120,6 @@ export const BlgosData = {
       link: "/what-is-local-seo",
       author: "brielle-delmar",
     },
-
-    {
-      title: "Why Does Your App Look Like It’s Stuck in 2010?",
-      date: "04 Jan, 2025",
-      txt: "Users are ditching outdated apps faster than you can say “uninstall.” We’re here to help you design apps that look sharp, work like magic, and keep people hooked.",
-      category: "Mobile App Design",
-      img: Blog1.src,
-      link: "#",
-      author: "brielle-delmar",
-    },
-    {
-      title: "Your Website Isn’t Invisible—It’s Just Lost",
-      date: "05 Jan, 2025",
-      txt: "You spent time building a beautiful website, but where’s the traffic? Learn how to fix what’s holding you back (hello, bad keywords, and slow speeds) and get found by those who matter.",
-      category: "SEO",
-      img: Blog1.src,
-      link: "#",
-      author: "brielle-delmar",
-    },
   ],
 };
 
