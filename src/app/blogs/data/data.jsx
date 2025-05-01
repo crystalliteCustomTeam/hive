@@ -30,7 +30,7 @@ export const BlgosData = {
   BlogsData: [
     {
       title:
-        "Assessing Social Media Advertising Campaigns' Analytics & Reporting",
+        "How to Choose a Social Media Marketing Company That Delivers Results",
       date: "01 May, 2025",
       txt: "Do you know that social media and search advertising comprised 59% of global ad budgets in 2024, with forecasts projecting it to reach 61% by 2026?",
       category: "SMM",
