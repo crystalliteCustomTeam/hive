@@ -5642,12 +5642,12 @@ export const PostData = [
     title: (
       <>How to Choose a Social Media Marketing Company That Delivers Results</>
     ),
-    img: Blog1.src,
+    img: IMG10.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG10.src} alt="Which One Drives More Sales?" fill />
         </div>
         <p>
           Do you know that social media and search advertising comprised 59% of

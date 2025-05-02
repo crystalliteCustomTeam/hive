@@ -20,6 +20,7 @@ import IMG06 from "media/blogs/posts/blog06.webp";
 import IMG07 from "media/blogs/posts/blog07.webp";
 import IMG08 from "media/blogs/posts/blog08.webp";
 import IMG09 from "media/blogs/posts/blog09.webp";
+import IMG10 from "media/blogs/posts/blog10.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -34,7 +35,7 @@ export const BlgosData = {
       date: "01 May, 2025",
       txt: "Do you know that social media and search advertising comprised 59% of global ad budgets in 2024, with forecasts projecting it to reach 61% by 2026?",
       category: "SMM",
-      img: Blog1.src,
+      img: IMG10.src,
       link: "/7-steps-to-choose-the-right-social-media-marketing-company",
       author: "grace-moore",
     },
