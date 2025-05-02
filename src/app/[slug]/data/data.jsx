@@ -7,6 +7,7 @@ import IMG06 from "media/blogs/posts/blog06.webp";
 import IMG07 from "media/blogs/posts/blog07.webp";
 import IMG08 from "media/blogs/posts/blog08.webp";
 import IMG09 from "media/blogs/posts/blog09.webp";
+import IMG10 from "media/blogs/posts/blog10.webp";
 import Blog1 from "media/blogs/posts/blog1.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
