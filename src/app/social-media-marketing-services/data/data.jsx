@@ -4,9 +4,8 @@ export const BannerData = {
   subtitle: "No. 1 Social Media Marketing Company in the U.S.",
   title: "An Agency You Can Trust",
   desc: "Struggling to cut through the noise on social media? You’re not alone. At Infiniti Digital, we create strategies that don’t just get you noticed—they get you results.",
-  video:
-    "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/1080p/file.mp4?loc=external&log_user=0&signature=041f9a7cd7430db270d268320d8d51ac61148abd0c42d9e0a05b7f7821aac185",
   videoFallback: "/services/social-media-marketing/SmmVideo.webm",
+  video: "https://player.vimeo.com/progressive_redirect/playback/1039775965/rendition/1080p/file.mp4?loc=external&log_user=0&signature=041f9a7cd7430db270d268320d8d51ac61148abd0c42d9e0a05b7f7821aac185",
   BannerPoster: BannerPoster.src,
 };
 //Services

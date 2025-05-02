@@ -5,9 +5,8 @@ import CommonBtn from "@/src/app/components/common/commonbtn";
 const Banner = ({ data, bgtxt, web }) => {
   return (
     <section
-      className={`${styles.bannerServices} ${
-        bgtxt === "yes" ? styles.bannerWithContent : ""
-      } `}
+      className={`${styles.bannerServices} ${bgtxt === "yes" ? styles.bannerWithContent : ""
+        } `}
     >
       <Container>
         <Row>
@@ -22,9 +21,8 @@ const Banner = ({ data, bgtxt, web }) => {
         <Row>
           <Col md={12} className="m-auto text-center">
             <div
-              className={`${styles.bannerServiceVideo} ${
-                web ? styles.webVideo : ""
-              }`}
+              className={`${styles.bannerServiceVideo} ${web ? styles.webVideo : ""
+                }`}
             >
               {bgtxt === "yes" ? (
                 <div className={styles.contentBaner}>
