@@ -31,6 +31,16 @@ export const BlgosData = {
   BlogsData: [
     {
       title:
+        "How to Hire the Best SEO Services In Chicago for Your Business",
+      date: "05 May, 2025",
+      txt: "Are you overwhelmed by the number of SEO services in Chicago vying for your attention? You’re far from alone. Every minute, Google processes almost 6 million searches worldwide, and 22.4% of clicks go to the first page.",
+      category: "SEO",
+      img: Blog1.src,
+      link: "/how-to-hire-the-best-seo-services-in-chicago",
+      author: "brielle-delmar",
+    },
+    {
+      title:
         "How to Choose a Social Media Marketing Company That Delivers Results",
       date: "01 May, 2025",
       txt: "Do you know that social media and search advertising comprised 59% of global ad budgets in 2024, with forecasts projecting it to reach 61% by 2026?",

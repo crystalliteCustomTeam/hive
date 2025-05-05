@@ -51,27 +51,27 @@ const Page = async ({ params }) => {
     BlogData.find((post) => post.slug === slug) ||
     PostData.find((post) => post.slug === slug);
 
-    if (!blog || !blog.title || !blog.maintxt) {
-      return (
-        <section className={styles.singlePost}>
-          <Container>
-            <Row>
-              <Col md={12}>
-                <h1>Blog Not Found</h1>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-      );
-    }
+  if (!blog || !blog.title || !blog.maintxt) {
+    return (
+      <section className={styles.singlePost}>
+        <Container>
+          <Row>
+            <Col md={12}>
+              <h1>Blog Not Found</h1>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    );
+  }
 
-    
+
   const authorName = blog.author
-  ? blog.author
+    ? blog.author
       .split("-")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ")
-  : "Unknown Author";
+    : "Unknown Author";
 
 
   return (
@@ -101,7 +101,7 @@ const Page = async ({ params }) => {
                         <Link href={blog.author}>Read Author Bio</Link>
                       </li>
                     </ul>
-                  
+
                   </div>
                 </div>
                 <div className={styles.mainSection}>{blog.maintxt}</div>
