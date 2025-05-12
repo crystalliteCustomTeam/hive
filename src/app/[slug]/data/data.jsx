@@ -6163,7 +6163,7 @@ export const PostData = [
           <ul>
             <li>What keywords are they ranking for?</li>
             <li>How many backlinks do they have, and where are they coming from?</li>
-            <li>Are their  &quot;About Us &quot; pages more detailed or their service descriptions more compelling?</li>
+            <li>Are their  &quot;About Us&quot; pages more detailed or their service descriptions more compelling?</li>
           </ul>
           <p>In local markets such as Chicago, local players often outrank national brands by focusing on neighborhood-specific terms. For instance, a law firm in River North might dominate ‘personal injury attorney River North’ because it has optimized its content for that exact phrase.</p>
           <p>In contrast, a generic ‘personal injury lawyer Chicago’ might yield less targeted traffic. When you benchmark yourself against these niche leaders, you’ll find opportunities in terms of missing keywords, untapped backlink sources, or content viewpoints that resonate in specific communities.</p>
@@ -6175,7 +6175,7 @@ export const PostData = [
           <h5>Finding High-Intent Local Keywords</h5>
           <p>Not all keywords have the same search intent. A person searching ‘Chicago SEO Company’ likely has a defined budget and shortlist of agencies, whereas someone searching “what is SEO” probably just wants basic information. High-intent keywords signal that the searcher is closer to conversion.</p>
           <p>For local businesses, pairing high-intent terms with neighborhood modifiers, such as ‘Mexican restaurant Wicker Park’ or ‘commercial HVAC repair Bronzeville’, can lead to unexplored traffic sources.</p>
-          <p>Use tools like Google’s Keyword Planner or credible third-party platforms to generate a master keyword list, then check for local qualifiers and transactional phrases. Ask yourself: When is someone most likely to act on this search?</p>
+          <p>Use tools like <Link href="https://ads.google.com/intl/en_pk/home/tools/keyword-planner/" rel="nofollow" className="externalLink">Google’s Keyword Planner</Link> or credible third-party platforms to generate a master keyword list, then check for local qualifiers and transactional phrases. Ask yourself: When is someone most likely to act on this search?</p>
           <p>Once you’ve identified your core terms, you can draft content calendars that answer specific queries, position your brand as the solution, and guide readers toward the next step.</p>
           <h5>Prioritizing Keywords by Search Volume, Difficulty & Commercial Intent</h5>
           <p>With your hot keywords list in hand, how do you decide where to focus first? Search volume tells you how many people are looking, but high volume often means fierce competition. Keyword difficulty scores estimate how hard it is to rank. Sometimes it’s smarter to target lower-volume, lower-competition phrases that drive more qualified traffic.</p>
@@ -6190,8 +6190,8 @@ export const PostData = [
           <h3>Amp Up Your On-Page Game</h3>
           <p>You’ve audited your site and chosen your keywords. Now it’s time to make your pages compelling to both Google and your online audience. On-page SEO is about striking that balance between search-friendly formatting and engaging, informative content. It includes:</p>
           <h5>Optimizing Title Tags & Meta Descriptions</h5>
-          <p>Your web page’s title tag is the first thing people read on the search results page, and your meta description is the snippet that follows. These elements can make or break your click-through rate. Each tag should include your target keyword, such as  &quot;Local SEO Services Chicago, &quot; and should ideally be positioned near the front.</p>
-          <p>here’s one thing you should avoid: over-optimization. Stuffing keywords reads poorly and can trigger penalties. Instead, craft natural-sounding titles and descriptions that clearly communicate your unique value. A well-written meta description can boost <i>CTR by 5–10%,</i> driving more qualified traffic without additional ad spend.</p>
+          <p>Your web page’s title tag is the first thing people read on the search results page, and your meta description is the snippet that follows. These elements can make or break your click-through rate. Each tag should include your target keyword, such as  &quot;Local SEO Services Chicago,&quot; and should ideally be positioned near the front.</p>
+          <p>There’s one thing you should avoid: over-optimization. Stuffing keywords reads poorly and can trigger penalties. Instead, craft natural-sounding titles and descriptions that clearly communicate your unique value. A well-written meta description can boost <i>CTR by 5–10%,</i> driving more qualified traffic without additional ad spend.</p>
           <h5>Structuring Content & Internal Links for Maximum Local Relevance</h5>
           <p>Once users land on your page, you want them to stay and explore. Break up long walls of text with descriptive headings (H2, H3), short paragraphs, and visuals. Each section should address a distinct user question and include your target keywords naturally.</p>
           <p>Internal linking distributes the value and authority of your website’s links to other pages, guiding both users and search engines to related content. If you have a blog post on ‘Chicago SEO Services Pricing,’ link it to your main services page with anchor text like ‘SEO Services Chicago pricing guide.’</p>
@@ -6200,7 +6200,7 @@ export const PostData = [
           <p>On-page work sets the stage, but off-page SEO creates the buzz that gets people talking. Build a solid backlink profile and engage in local partnerships to get user attention.</p>
           <h5>Earning High-Quality Backlinks</h5>
           <p>Not all backlinks work equally well. A mention on a respected Chicago business journal or a local news site carries far more weight than dozens of low-quality directory links. Start by creating linkable assets, such as research reports, infographics, or in-depth guides on local topics, and pitch them to relevant sites.</p>
-          <p><strong>Remember:</strong> relevance and authority matter most. A backlink from a trustworthy authority website will do more for your rankings than a link from a random industry directory. Focus on local media, community blogs, and professional associations where your brand can shine and earn genuine endorsements</p>
+          <p><strong>Remember:</strong> relevance and authority matter most. A backlink from a trustworthy authority website will do more for your rankings than a link from a random industry directory. Focus on local media, community blogs, and professional associations where your brand can shine and earn genuine endorsements.</p>
           <h3>Keep the Momentum with Continuous Tweaks</h3>
           <p>SEO isn’t a set-it-and-forget-it strategy. Ongoing optimizations are key to maintaining and improving your rankings.</p>
           <h5>Monthly Traffic, Rankings & Conversion Reviews</h5>
@@ -6295,7 +6295,7 @@ export const PostData = [
               href="/gmb-management-service#PricingId"
               className="purpleBtn"
             >
-              View Our Chicago SEO Packages
+              View Our GMB Pricing Plan
             </Link>
           </div>
           <h3>Optimize for Voice Search and Mobile Users</h3>
