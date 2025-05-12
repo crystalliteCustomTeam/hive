@@ -21,6 +21,9 @@ import IMG07 from "media/blogs/posts/blog07.webp";
 import IMG08 from "media/blogs/posts/blog08.webp";
 import IMG09 from "media/blogs/posts/blog09.webp";
 import IMG10 from "media/blogs/posts/blog10.webp";
+import IMG11 from "media/blogs/posts/blog11.webp";
+import IMG12 from "media/blogs/posts/blog12.webp";
+import IMG13 from "media/blogs/posts/blog13.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -31,11 +34,31 @@ export const BlgosData = {
   BlogsData: [
     {
       title:
+        "How To Rank #1 With Chicago’s Local SEO Services",
+      date: "12 May, 2025",
+      txt: "Have you ever searched for ‘local SEO services Chicago’ on your phone, only to find SEO agencies located miles away or closed down years ago? If your business doesn’t appear when local customers search, you’re leaving money on the table.",
+      category: "SEO",
+      img: IMG13.src,
+      link: "/how-to-rank-high-with-chicago-local-seo-services",
+      author: "lily-chen",
+    },
+    {
+      title:
+        "The Definitive Guide To SEO Services in Chicago",
+      date: "10 May, 2025",
+      txt: "Have you ever come across excessive SEO jargon and promises of comprehensive solutions from different SEO services in Chicago? Perhaps you’ve signed up for an SEO audit only to receive a 50‑page PDF you can’t understand,",
+      category: "SEO",
+      img: IMG12.src,
+      link: "/definitive-guide-to-seo-services-in-chicago",
+      author: "lily-chen",
+    },
+    {
+      title:
         "How to Hire the Best SEO Services In Chicago for Your Business",
       date: "05 May, 2025",
       txt: "Are you overwhelmed by the number of SEO services in Chicago vying for your attention? You’re far from alone. Every minute, Google processes almost 6 million searches worldwide, and 22.4% of clicks go to the first page.",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG11.src,
       link: "/how-to-hire-the-best-seo-services-in-chicago",
       author: "brielle-delmar",
     },

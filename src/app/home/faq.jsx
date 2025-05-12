@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/home/faqs.module.scss";
 import { PlusFaqIcon } from "@/src/app/app-constants";
 
-const Faqs = ({ data,bg }) => {
+const Faqs = ({ data, bg }) => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const toggleFaq = (index) => {
