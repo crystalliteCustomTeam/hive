@@ -24,6 +24,7 @@ import IMG10 from "media/blogs/posts/blog10.webp";
 import IMG11 from "media/blogs/posts/blog11.webp";
 import IMG12 from "media/blogs/posts/blog12.webp";
 import IMG13 from "media/blogs/posts/blog13.webp";
+import IMG14 from "media/blogs/posts/blog14.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -32,6 +33,16 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
+    {
+      title:
+        "How Technical SEO Experts in Chicago Optimize Websites That Google Loves",
+      date: "15 May, 2025",
+      txt: "Does it frustrate you when you type your own website address into Google and it doesn’t pop up in results? Or when your pages load so slowly that visitors leave your website before they even see your homepage? You’re not alone.",
+      category: "SEO",
+      img: IMG14.src,
+      link: "/how-technical-seo-experts-in-chicago-optimize-websites",
+      author: "lily-chen",
+    },
     {
       title:
         "How To Rank #1 With Chicago’s Local SEO Services",
