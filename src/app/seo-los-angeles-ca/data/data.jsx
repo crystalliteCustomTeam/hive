@@ -124,7 +124,7 @@ export const PriceData = {
     {
       bgColor: "#7635FF",
       packagename: "Local Visibility Booster",
-      price: "1599",
+      price: "599",
       txt: "Designed for small businesses or startups looking to establish a foundation in SEO.",
       bodyPoints: [
         {
@@ -151,7 +151,7 @@ export const PriceData = {
     {
       bgColor: "#FF6987",
       packagename: "Local Growth Accelerator",
-      price: "2299",
+      price: "1299",
       txt: "Everything in the Local Visibility Booster Package, PLUS:",
       bodyPoints: [
         {
@@ -194,7 +194,7 @@ export const PriceData = {
     {
       bgColor: "#9AFF35",
       packagename: "Hyperlocal Domination Package",
-      price: "3200",
+      price: "2200",
       txt: "Everything in the Local Growth Accelerator Package, PLUS:",
       bodyPoints: [
         {

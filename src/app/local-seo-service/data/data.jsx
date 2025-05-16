@@ -368,13 +368,13 @@ export const PriceData = {
       txt: "Everything in the Local Growth Accelerator Package, PLUS:",
       bodyPoints: [
         {
-            title:"Google Business Profile Authority Boost",
-            points:[
-                "Multi-location Management - Upto 2 GBP (If Applicable)",
-                "Up to 12 Geo-Tagged Posts Per Month",
-                "Advanced Keyword-Rich GBP Content",
-                "Custom GBP Cover & Post Graphics",
-            ]
+          title: "Google Business Profile Authority Boost",
+          points: [
+            "Multi-location Management - Upto 2 GBP (If Applicable)",
+            "Up to 12 Geo-Tagged Posts Per Month",
+            "Advanced Keyword-Rich GBP Content",
+            "Custom GBP Cover & Post Graphics",
+          ]
         },
         {
           title: "Advanced On-Page & Technical SEO (Full Website Optimization)",
