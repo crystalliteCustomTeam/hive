@@ -82,7 +82,7 @@ const Page = () => {
               "@id": "",
               url: "https://www.infinitidigital.us/nationwide-seo-service",
               telephone: "855-666-6682",
-              priceRange: "$399 to $1850",
+              priceRange: "$1399 to $2850",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "9518 Mykawa Road",

@@ -54,7 +54,7 @@ export const TableContetData = {
             "Up to two hours of consultation per month",
         ],
         good: [
-            "$3500 to $9999",
+            "$3500 to $19999",
             "$500 (Call us to waive)",
             "tick",
             "$500 (Call us to waive)",
@@ -73,7 +73,7 @@ export const TableContetData = {
             "tick",
         ],
         better: [
-            "$3500 to $9999",
+            "$3500 to $19999",
             "$500 (Call us to waive)",
             "tick",
             "$500 (Call us to waive)",
@@ -92,7 +92,7 @@ export const TableContetData = {
             "tick",
         ],
         best: [
-            "$3500 to $9999",
+            "$3500 to $19999",
             "$500 (Call us to waive)",
             "tick",
             "$500 (Call us to waive)",

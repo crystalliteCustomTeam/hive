@@ -97,7 +97,7 @@ export const PriceData = {
         {
             bgColor: "#7635FF",
             packagename: "Basic Package",
-            price: "399",
+            price: "1399",
             txt: "Designed for small businesses or startups looking to establish a foundation in SEO.",
             bodyPoints: [
                 {
@@ -145,7 +145,7 @@ export const PriceData = {
         {
             bgColor: "#FF6987",
             packagename: "Growth Package",
-            price: "999",
+            price: "1999",
             txt: "Ideal for businesses aiming to grow their organic reach and improve conversions.",
             bodyPoints: [
                 {
@@ -217,7 +217,7 @@ export const PriceData = {
         {
             bgColor: "#9AFF35",
             packagename: "Premium Package",
-            price: "1850",
+            price: "2850",
             txt: "Best suited for businesses seeking comprehensive SEO strategies and advanced tracking.",
             bodyPoints: [
                 {

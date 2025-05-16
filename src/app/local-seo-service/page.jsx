@@ -106,7 +106,7 @@ const Page = () => {
               "@id": "",
               url: "https://www.infinitidigital.us/local-seo-service",
               telephone: "855-666-6682",
-              priceRange: "$399 to $1850",
+              priceRange: "$599 to $2200",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "9518 Mykawa Road",
