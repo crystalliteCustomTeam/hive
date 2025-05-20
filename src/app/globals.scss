@@ -232,7 +232,11 @@ p {
   color: #657985;
   margin-bottom: 20px;
 }
-
+.subheading {
+  font-size: 30px;
+  line-height: 40px;
+  color: #657985;
+}
 .boldFont {
   font-weight: 600;
   font-size: 22px;
@@ -457,27 +461,27 @@ p {
 .table-striped > tbody > tr:nth-of-type(odd) > * {
   --bs-table-bg-type: rgb(242 249 255);
 }
-.ctaBoxSec{
+.ctaBoxSec {
   background: #e0f0ff;
   border-radius: 10px;
   padding: 25px;
   text-align: center;
- margin-bottom: 20px;
-  h5{
+  margin-bottom: 20px;
+  h5 {
     margin-bottom: 10px;
   }
- }
- .strongHeading{
+}
+.strongHeading {
   font-size: 20px;
   border-bottom: 4px solid #000;
   margin-bottom: 20px;
   display: inline-block;
- }
- a{
-  &.externalLink{
-    color:#000!important
-   }
- }
+}
+a {
+  &.externalLink {
+    color: #000 !important;
+  }
+}
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   body {
     .container {

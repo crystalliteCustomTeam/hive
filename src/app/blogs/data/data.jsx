@@ -35,6 +35,16 @@ export const BlgosData = {
   BlogsData: [
     {
       title:
+        "The Smarter SEO Investment Infiniti Digital vs.In - House Teams",
+      date: "20 May, 2025",
+      txt: "When businesses consider their organic growth, they often face a fork in the road: should they hire an seo agency, or build an in-house team?",
+      category: "SEO",
+      img: Blog1.src,
+      link: "/infiniti-digital-vs-inhouse-seo-teams",
+      author: "brielle-delmar",
+    },
+    {
+      title:
         "How Technical SEO Experts in Chicago Optimize Websites That Google Loves",
       date: "15 May, 2025",
       txt: "Does it frustrate you when you type your own website address into Google and it doesn’t pop up in results? Or when your pages load so slowly that visitors leave your website before they even see your homepage? You’re not alone.",
