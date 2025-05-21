@@ -12,6 +12,7 @@ import IMG11 from "media/blogs/posts/blog11.webp";
 import IMG12 from "media/blogs/posts/blog12.webp";
 import IMG13 from "media/blogs/posts/blog13.webp";
 import IMG14 from "media/blogs/posts/blog14.webp";
+import IMG15 from "media/blogs/posts/blog15.webp";
 import Blog1 from "media/blogs/posts/blog1.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
@@ -6452,12 +6453,12 @@ export const PostData = [
       <>The Smarter SEO Investment <div className="subheading">Infiniti Digital vs. In-House Teams</div>
       </>
     ),
-    img: Blog1.src,
+    img: IMG15.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="Which One Drives More Sales?" fill />
+          <Image src={IMG15.src} alt="The Smarter SEO Investment Infiniti Digital vs. In-House Teams" fill />
         </div>
         <p>When businesses consider their organic growth, they often face a fork in the road: should they hire an seo agency, or build an in-house team?</p>
         <p>But one of the biggest misconceptions businesses have about search engine optimization is that it’s just a matter of hiring a couple of people, giving them access to tools, and watching the website rank for their keywords.</p>

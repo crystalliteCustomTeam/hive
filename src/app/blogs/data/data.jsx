@@ -25,6 +25,7 @@ import IMG11 from "media/blogs/posts/blog11.webp";
 import IMG12 from "media/blogs/posts/blog12.webp";
 import IMG13 from "media/blogs/posts/blog13.webp";
 import IMG14 from "media/blogs/posts/blog14.webp";
+import IMG15 from "media/blogs/posts/blog15.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -39,7 +40,7 @@ export const BlgosData = {
       date: "20 May, 2025",
       txt: "When businesses consider their organic growth, they often face a fork in the road: should they hire an seo agency, or build an in-house team?",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG15.src,
       link: "/infiniti-digital-vs-inhouse-seo-teams",
       author: "brielle-delmar",
     },
