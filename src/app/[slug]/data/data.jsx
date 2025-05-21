@@ -6478,7 +6478,7 @@ export const PostData = [
         </div>
         <div id="Section-2">
           <h2>Our SEO Team Becomes Yours</h2>
-          <p>We’ve spent years building teams that can slot into your business without creating more work for you. Here's a breakdown of how we actually save you time, money, and internal frustration, not just in theory, but in execution.</p>
+          <p>We’ve spent years building teams that can slot into your business without creating more work for you. Here’s a breakdown of how we actually save you time, money, and internal frustration, not just in theory, but in execution.</p>
           <h3>1. Quick Start. Real Results. No Extra Work</h3>
           <p>Let’s say you want to go in-house. Best case scenario, you:</p>
           <ul>
@@ -6616,14 +6616,14 @@ export const PostData = [
           <p>Even if the numbers didn’t make the case, the flexibility and expertise depth that Infiniti Digital brings would still make it the more strategic choice. But when you combine the qualitative advantages with the $131,300 in annual savings? It’s a no-brainer.</p>
           <h3>Flexibility</h3>
           <p>One of the biggest operational constraints with an in-house SEO team is its rigidity. Salaries, contracts, and workload are fixed, even if your business needs change.</p>
-          <p>Let’s say you launch a new product and suddenly need 50 extra backlinks and 10 blog posts this month. With an internal team, that means overtime, stress, or outsourcing anyway. And if business slows down the next quarter? You're still paying the same salaries, maintaining the same overhead, and finding ways to keep people busy.</p>
+          <p>Let’s say you launch a new product and suddenly need 50 extra backlinks and 10 blog posts this month. With an internal team, that means overtime, stress, or outsourcing anyway. And if business slows down the next quarter? You’re still paying the same salaries, maintaining the same overhead, and finding ways to keep people busy.</p>
           <p>Our team at Infiniti Digital adapts while traditional teams can’t keep pace. Our clients can scale link building, content, or technical services up or down as needed, without friction. There’s no onboarding delay or no long-winded processes.</p>
           <p>You get exactly what you need, when you need it.</p>
         </div>
         <div id="Section-4">
           <h2>Expertise Depth</h2>
           <h3>A Full SEO Department, Already Built</h3>
-          <p>Most companies start in-house with one or two hires, maybe an SEO manager and a content writer. And while that’s a solid foundation, it's limited. SEO is now a complex, multi-disciplinary strategy. You need:</p>
+          <p>Most companies start in-house with one or two hires, maybe an SEO manager and a content writer. And while that’s a solid foundation, it’s limited. SEO is now a complex, multi-disciplinary strategy. You need:</p>
           <ul>
             <li>Technical SEO for crawl and indexing issues</li>
             <li>Strategic keyword and competitive analysis</li>
@@ -6632,7 +6632,7 @@ export const PostData = [
             <li>Data analysis and reporting</li>
           </ul>
           <p>It’s extremely rare to find one person who’s great at all of that, and even rarer to retain them long-term.</p>
-          <p>But, at Infiniti Digital, we’ve assembled multiple complete teams of specialists. Each person is dedicated to their role and responsibility, whether it's content, link building, technical SEO, or analytics. That means clients don’t get generalists, they get experts working in sync.</p>
+          <p>But, at Infiniti Digital, we’ve assembled multiple complete teams of specialists. Each person is dedicated to their role and responsibility, whether it’s content, link building, technical SEO, or analytics. That means clients don’t get generalists, they get experts working in sync.</p>
           <p>Your internal team may know your brand better. But we know SEO inside and out. You get depth across every core area, without the payroll burden or talent gaps.</p>
           <div className="centerBtn">
             <Link href="https://calendly.com/infinitidigital/free-seo-consultation/" className="purpleBtn">
