@@ -15,7 +15,11 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Nationwide SEO that Powers Your Growth",
-    desc: "Looking to grow nationwide? Infiniti Digital's Nationwide SEO services are designed to expand your reach, giving you targeted visibility across the country. We help you grow your business nationwide with strategies that connect you with a larger audience.",
+    desc: (
+        <>
+            Looking to grow nationwide? <Link href="/nationwide-seo-service" className="colorGray">Infiniti Digital’s Nationwide SEO services</Link> are designed to expand your reach, giving you targeted visibility across the country. We help you grow your business nationwide with strategies that connect you with a larger audience.
+        </>
+    ),
     ServicesItem: [
         {
             title: (<>Wider Audience<br />Reach</>),
@@ -432,6 +436,7 @@ export const IndustriesData = {
 
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+import Link from "next/link"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Our Clients Are Saying",

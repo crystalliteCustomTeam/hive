@@ -117,7 +117,7 @@ export const ContentData = {
   contentTxt: (
     <>
       <p>
-        Local SEO is the secret to boosting your business’s visibility within
+        <Link href="/gmb-management-service" className="colorBlack">Local SEO</Link> is the secret to boosting your business’s visibility within
         your community. By optimizing your online presence for local searches,
         we ensure that potential customers can find you easily.
       </p>
@@ -420,6 +420,7 @@ import {
   Forbes,
   Upcity,
 } from "@/src/app/app-constants";
+import Link from "next/link";
 export const TestimonialData = {
   subtitle: "Happy Clients",
   title: "What Our Clients Are Saying",
@@ -466,7 +467,9 @@ export const FAQsData = {
   Fqaslist: [
     {
       title: "What is Local SEO?",
-      txt: "Local SEO helps businesses improve their visibility in local search results, targeting customers within a specific geographical area. It includes tactics like optimizing your Google My Business profile and local keywords. By enhancing local presence, you drive more relevant traffic to your website and attract potential customers near you.",
+      txt: (<>
+        Local SEO helps businesses improve their visibility in local search results, targeting customers within a specific geographical area. It includes tactics like optimizing your <Link href="/gmb-management-service" className="colorBlack">Google My Business</Link> profile and local keywords. By enhancing local presence, you drive more relevant traffic to your website and attract potential customers near you.
+      </>),
     },
     {
       title: "How long does it take to see results?",

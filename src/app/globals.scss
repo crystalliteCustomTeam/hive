@@ -92,7 +92,38 @@ body {
     justify-content: flex-start;
   }
 }
-
+.colorWhite {
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+  &:hover {
+    color: #9aff35;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+}
+.colorBlack {
+  color: #000;
+  transition: color 0.3s ease, transform 0.3s ease;
+  &:hover {
+    color: #7635ff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+}
+.colorGray {
+  color: #657985;
+  transition: color 0.3s ease, transform 0.3s ease;
+  &:hover {
+    color: #7635ff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+}
+.colorNew {
+  color: #6f6f6f;
+  transition: color 0.3s ease, transform 0.3s ease;
+  &:hover {
+    color: #9aff35;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+}
 .commonBtn {
   min-width: 150px;
   height: 70px;

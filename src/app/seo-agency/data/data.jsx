@@ -44,7 +44,8 @@ export const ServicesData = {
         },
         {
             title: (<>Local SEO<br />Optimization</>),
-            txt: "Stand out locally with optimized Google My Business profiles, localized keywords, and review management.",
+            txt: (<>
+                Stand out locally with optimized <Link href="/gmb-management-service" className="colorGray">Google My Business</Link> profiles, localized keywords, and review management.</>),
             url: "#",
         },
         {
@@ -182,6 +183,7 @@ export const ProcessData = {
 
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+import Link from "next/link"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Client Success Stories",

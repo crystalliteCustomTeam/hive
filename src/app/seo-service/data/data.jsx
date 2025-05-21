@@ -243,7 +243,9 @@ export const ServicesData = {
 import ImgBg from "media/home/ctaBg.webp";
 export const CtaData = {
   title: "Transform Your Vision Into Results",
-  desc: "Your business deserves more than just aesthetics—it needs results-driven designs that captivate your audience and drive measurable growth. At Infiniti Digital, we craft innovative, functional, and engaging SEO solutions tailored to your goals.",
+  desc: (<>
+    Your business deserves more than just aesthetics—it needs results-driven designs that captivate your audience and drive measurable growth. At Infiniti Digital, we craft innovative, functional, and engaging <Link href="/organic-seo-services" className="colorWhite">SEO solutions</Link> tailored to your goals.
+  </>),
   img: ImgBg.src,
 };
 
@@ -441,6 +443,7 @@ import {
   Forbes,
   Upcity,
 } from "@/src/app/app-constants";
+import Link from "next/link";
 export const TestimonialData = {
   subtitle: "Happy Clients",
   title: "Hear It from Our Clients",

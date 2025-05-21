@@ -97,7 +97,10 @@ export const ContentData1 = {
 export const ProcessData = {
     subtitle: "Our Strategies",
     title: "Boost Your Online Presence with Strategic SEO and Marketing",
-    desc: "A robust online presence is crucial for business success. Our comprehensive suite of services spans from local SEO optimization to advanced e-commerce strategies, ensuring your business not only meets but exceeds online visibility and engagement goals.",
+    desc: (<>
+        A robust online presence is crucial for business success. Our comprehensive suite of services spans from <Link href=" /local-seo-service
+" className="colorGray">local SEO optimization</Link> to advanced e-commerce strategies, ensuring your business not only meets but exceeds online visibility and engagement goals.
+    </>),
 
     ProcessItem1: [
         {
@@ -192,6 +195,7 @@ export const IndustriesData = {
 
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+import Link from "next/link"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "What Small Business Owners Are Saying",

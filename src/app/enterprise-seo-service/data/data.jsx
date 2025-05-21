@@ -97,7 +97,9 @@ export const ContentData1 = {
 export const ProcessData = {
     subtitle: "Our Strategies",
     title: "Enterprise SEO with Infiniti Digital",
-    desc: "Looking to dominate the competitive global market? Infiniti Digital’s Enterprise SEO strategies ensure your business reaches the right audience, regardless of location or scale.",
+    desc: (<>
+        Looking to dominate the competitive global market? <Link href="/enterprise-seo-service" className="colorGray">Infiniti Digital’s Enterprise SEO</Link> strategies ensure your business reaches the right audience, regardless of location or scale.</>),
+
 
     ProcessItem1: [
         {
@@ -116,7 +118,7 @@ export const ProcessData = {
             title: "On-Page Optimization",
             txt: (<>
                 <strong>Content Structuring:</strong>
-                <p>Optimize your site’s content for improved readability and search ranking.</p>
+                <p><Link href="content-marketing-services" className="colorNew">Optimize your site’s content</Link> for improved readability and search ranking.</p>
                 <strong>Schema Markup Implementation:</strong>
                 <p>Enhance how search engines interpret and display your content.</p>
                 <strong>Meta Tag Refinements:</strong>
@@ -183,6 +185,7 @@ export const ProcessData = {
 
 //Testimonials
 import { ClutchLogo, TrustpilotLogo, GoogleLogo, Forbes, Upcity } from "@/src/app/app-constants";
+import Link from "next/link"
 export const TestimonialData = {
     subtitle: "Happy Clients",
     title: "Become A Success with Infiniti Digital ",
