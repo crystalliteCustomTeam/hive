@@ -10,6 +10,7 @@ export const BannerData = {
   ),
   desc: "If you are lost in search results, our NYC SEO company will put your website front and center and get you more traffic, leads, and sales.",
   btntxt: "Connect with us",
+  link: "https://calendly.com/infinitidigital/free-seo-consultation"
 };
 
 export const CallbackData = {

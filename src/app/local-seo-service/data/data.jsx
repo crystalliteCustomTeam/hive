@@ -6,6 +6,8 @@ export const BannerData = {
   desc: "Want more local customers? Our Local SEO services ensure your business shines brightly in your community, attracting attention and driving traffic effortlessly.",
   video: "",
   BannerPoster: BannerPoster.src,
+  btntxt: "Get A Free Consultation",
+  link: "https://calendly.com/infinitidigital/free-seo-consultation"
 };
 
 //Services

@@ -9,6 +9,7 @@ export const BannerData = {
     "https://player.vimeo.com/progressive_redirect/playback/1045389561/rendition/540p/file.mp4?loc=external&log_user=0&signature=4a0800e163c3cc792045ae73237c961e4acbdb031034bd64cbf1220a692acfe4",
   videoFallback: "/services/seo/SeoVideo.webm",
   BannerPoster: BannerPoster.src,
+
 };
 
 // Process

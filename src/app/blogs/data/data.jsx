@@ -36,7 +36,7 @@ export const BlgosData = {
   BlogsData: [
     {
       title:
-        "The Smarter SEO Investment Infiniti Digital vs.In - House Teams",
+        "Infiniti Digital Vs. In-House Teams",
       date: "20 May, 2025",
       txt: "When businesses consider their organic growth, they often face a fork in the road: should they hire an seo agency, or build an in-house team?",
       category: "SEO",

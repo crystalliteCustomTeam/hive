@@ -5,7 +5,9 @@ export const BannerData = {
     title: "Rule Local Search Results with Small Business SEO",
     desc: "Are you struggling to stand out in your local market? Small businesses often face fierce competition online, but with the right SEO strategy, you can rise above the rest. Ready to make your mark? Let’s optimize your online presence today.",
     video: "",
-    BannerPoster: BannerPoster.src
+    BannerPoster: BannerPoster.src,
+    btntxt: "Get A Free Consultation",
+    link: "https://calendly.com/infinitidigital/free-seo-consultation"
 }
 
 //Services

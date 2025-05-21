@@ -5,7 +5,9 @@ export const BannerData = {
     title: "Boost Your Business with White Label SEO Services",
     desc: "Want to offer SEO services without the hassle? Infiniti Digital offers white label SEO that helps you offer results under your brand name.",
     video: "",
-    BannerPoster: BannerPoster.src
+    BannerPoster: BannerPoster.src,
+    btntxt: "Get A Free Consultation",
+    link: "https://calendly.com/infinitidigital/free-seo-consultation"
 }
 
 //Services

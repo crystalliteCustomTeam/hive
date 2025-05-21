@@ -5,7 +5,9 @@ export const BannerData = {
     title: "Enterprise SEO with Infiniti Digital",
     desc: "Is your enterprise struggling to maintain dominance in a competitive digital space? Enterprise businesses require sophisticated SEO strategies that align with complex organizational goals. At Infiniti Digital, we drive large-scale SEO solutions that amplify visibility, grow organic traffic, and strengthen your market presence. Ready to take your enterprise to the next level?",
     video: "",
-    BannerPoster: BannerPoster.src
+    BannerPoster: BannerPoster.src,
+    btntxt: "Get A Free Consultation",
+    link: "https://calendly.com/infinitidigital/free-seo-consultation"
 }
 
 //Services

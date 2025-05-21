@@ -14,6 +14,7 @@ export const BannerData = {
   desc: "We help businesses rank on Page 1, on Google search results. Our SEO service in Dallas improves rankings, drives traffic, and increases conversions. Let’s grow your business together.",
   btntxt: "Connect with us",
   img: BanenrImg.src,
+  link: "https://calendly.com/infinitidigital/free-seo-consultation"
 };
 export const CallbackData = {
   subtitle1: "Request A Free Quote",

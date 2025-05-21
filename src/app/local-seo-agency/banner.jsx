@@ -26,7 +26,7 @@ const Banner = () => {
                 Digital.{" "}
               </p>
               <div className={styles.btnFlex}>
-                <CommonBtn txt="Let’s Connect" LiveChat={true} />
+                <CommonBtn txt="Get a Free Consultation" LinkBtn="https://calendly.com/infinitidigital/free-seo-consultation" />
               </div>
               <div className={styles.banenrLogo}>
                 <Image

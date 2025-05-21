@@ -9,6 +9,7 @@ export const BannerData = {
   ),
   desc: " Drive more leads and maximize your ROI with the best SEO service in Houston.",
   btntxt: "Connect with us",
+  link: "https://calendly.com/infinitidigital/free-seo-consultation"
 };
 
 export const CallbackData = {
@@ -20,7 +21,7 @@ export const CallbackData = {
     </>
   ),
   txt1: "Our Houston SEO company drives higher rankings, more leads, and real growth for your business.",
-  subtitle2: " We are the Top rated",
+  subtitle2: "We are the Top rated",
   title2: "SEO Agency in Houston",
 };
 //Services

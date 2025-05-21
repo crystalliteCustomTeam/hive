@@ -12,10 +12,10 @@ const Banner = ({ data }) => {
             <div className="subtitle">{data.subtitle}</div>
             <h1>{data.title}</h1>
             <p>{data.desc}</p>
-            <CommonBtn txt={data.btntxt} LiveChat={true} BgBlack={true} />
+            <CommonBtn txt={data.btntxt} BgBlack={true} LinkBtn={data.link} />
           </Col>
           <Col md={6} lg={5} className="my-auto text-center">
-            <Image src={data.img ? data.img : BanenrImg.src } width={1878} height={1782} alt={data.title} />
+            <Image src={data.img ? data.img : BanenrImg.src} width={1878} height={1782} alt={data.title} />
           </Col>
         </Row>
       </Container>

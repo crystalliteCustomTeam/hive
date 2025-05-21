@@ -1,10 +1,11 @@
+
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/layout/footer.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 import PaymentImg from "media/home/paymentImg.webp"
 import { FooterLogo } from "@/src/app/app-constants"
-
+import { usePathname } from "next/navigation";
 export const subMenuItems = [
     { label: "Social Media Marketing", path: "/social-media-marketing-services" },
     { label: "Social Media Advertising", path: "/social-media-advertising-services" },
@@ -40,9 +41,8 @@ const QuickLinks = [
     },
 ]
 
-
-
 const Footer = () => {
+    const pathname = usePathname();
     return (
         <>
             <section className={styles.FooterSection}>
@@ -86,9 +86,22 @@ const Footer = () => {
                                     <div className={`${styles.footerContent} ${styles.mainlinks}`}>
                                         <h6>Contact Info</h6>
                                         <div className={styles.contactInfo} target="_blank">
-                                            <a href="tel:855-666-6682" aria-label={`Our Phone Number`}>
-                                                <span>Phone:</span> 855-666-6682
-                                            </a>
+                                            {pathname === "/seo-dallas-tx" ? (
+                                                <a
+                                                    href="tel:2142962442"
+                                                    aria-label={`Our Phone Number`}
+                                                >
+                                                    <span>Phone:</span> 214-296-2442
+                                                </a>
+                                            ) : (
+                                                <a
+                                                    href="tel:855-666-6682"
+                                                    aria-label={`Our Phone Number`}
+                                                >
+                                                    <span>Phone:</span> 855-666-6682
+                                                </a>
+                                            )
+                                            }
                                         </div>
                                         <div className={styles.contactInfo}>
                                             <a href="mailto:support@infinitidigital.us" target="_blank" aria-label={`Our Email Address`}>
@@ -100,10 +113,16 @@ const Footer = () => {
                                             </a>
                                         </div>
                                         <div className={styles.contactAddress}>
-                                            <div>
+                                            <div> {pathname === "/seo-dallas-tx" ? (
+                                                <a href="#" target="_blank" aria-label={`Our Google Map`}>
+                                                    <span>Address:</span> 1314 W Mockingbird Ln, Dallas, TX 75247
+                                                </a>
+                                            ) : (
                                                 <a href="https://maps.app.goo.gl/5AjacC98s96BCjzd8" target="_blank" aria-label={`Our Google Map`}>
                                                     <span>Address:</span> 9518 Mykawa Road Houston, TX 77048
                                                 </a>
+                                            )}
+
                                             </div>
                                         </div>
                                     </div>

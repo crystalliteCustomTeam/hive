@@ -9,6 +9,7 @@ export const BannerData = {
   ),
   desc: "Our SEO service in Los Angeles helps businesses improve search rankings and increase revenue. Whether you're a startup or an established brand, our customized strategies will help you dominate the competitive LA market.",
   btntxt: "Connect with us",
+  link: "https://calendly.com/infinitidigital/free-seo-consultation"
 };
 
 export const CallbackData = {

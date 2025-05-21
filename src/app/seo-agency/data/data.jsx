@@ -5,7 +5,9 @@ export const BannerData = {
     title: "SEO Agency Trusted by Top Global Brands",
     desc: "Backed by over 800 success stories, we specialize in delivering measurable results through tried-and-tested SEO strategies. We’ve helped hundreds of companies see real results. Whether you want more traffic, leads, or sales, we’ve got the experience to make it happen. Let’s turn your goals into success!",
     video: "",
-    BannerPoster: BannerPoster.src
+    BannerPoster: BannerPoster.src,
+    btntxt: "Get A Free Consultation",
+    link: "https://calendly.com/infinitidigital/free-seo-consultation"
 }
 
 //Services

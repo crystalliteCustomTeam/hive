@@ -4,8 +4,9 @@ import PopUp from "@/src/app/components/popup";
 import { useState } from 'react'
 import { ArrowIcon } from "@/src/app/app-constants";
 import styles from "@/styles/components/commonbtn.module.scss"
+import Link from "next/link";
 
-const CommonBtn = ({ purple,txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack, FlexStart, chatTitle }) => {
+const CommonBtn = ({ purple, txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack, FlexStart, chatTitle, LinkBtn }) => {
     // Chat Code
     const openChat = () => {
         if (window.LC_API) {
@@ -32,8 +33,15 @@ const CommonBtn = ({ purple,txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center,
                     <div onClick={() => handleClick()} className={styles.btnStyle}>{txt}</div>
                     <div className={styles.chatStyle} onClick={openChat}>{chatTitle ? chatTitle : "Live Chat"}</div>
                 </div>
+            ) : LinkBtn ? (
+                <div className={`${styles.btnFlex} ${center ? styles.center : ""} ${BgBlack ? styles.bgBlack : ""}`}>
+                    <div className={`commonBtn extraBtn`}>
+                        <Link href={LinkBtn} >{txt}</Link>
+                    </div>
+                    <div className={styles.chatStyle} onClick={openChat}>{chatTitle ? chatTitle : "Live Chat"}</div>
+                </div>
             ) : (
-                <div className={`commonBtn ${blackBg ? 'blackBg' : ''} ${purple ? "purpleBg" : "" }`} onClick={() => handleClick()}>
+                <div className={`commonBtn ${blackBg ? 'blackBg' : ''} ${purple ? "purpleBg" : ""}`} onClick={() => handleClick()}>
                     <span>{txt}</span>
                 </div>
             )}

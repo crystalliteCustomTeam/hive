@@ -5,7 +5,9 @@ export const BannerData = {
     title: "Expand Your Reach with Nationwide SEO",
     desc: "Ready to expand your reach nationwide? Get seen across the country! Infiniti Digital’s Nationwide SEO will give your business the visibility it deserves, driving more traffic and conversions.",
     video: "",
-    BannerPoster: BannerPoster.src
+    BannerPoster: BannerPoster.src,
+    btntxt: "Get A Free Consultation",
+    link: "https://calendly.com/infinitidigital/free-seo-consultation"
 }
 
 //Services

@@ -6450,7 +6450,7 @@ export const PostData = [
       "There is always a competitive advantage over hiring large in-house teams vs hiring infiniti digital. Make a smarter choice by reading our detailed blog.",
     slug: "infiniti-digital-vs-inhouse-seo-teams",
     title: (
-      <>The Smarter SEO Investment <div className="subheading">Infiniti Digital vs. In-House Teams</div>
+      <>The Smarter SEO Investment <div className="subheading">Infiniti Digital Vs. In-House Teams</div>
       </>
     ),
     img: IMG15.src,
@@ -6531,7 +6531,7 @@ export const PostData = [
             <li>Content optimization tools</li>
             <li>Outreach platforms</li>
           </ul>
-          <p>That’s another $800–$1,500/month just in software.</p>
+          <p>That’s another $800–$1,500/month <i>just in software</i>.</p>
           <p>We already have every tool your strategy needs, and we know how to use them efficiently.</p>
           <div className="centerBtn">
             <Link href="/best-seo-agency" className="purpleBtn">

@@ -7,6 +7,7 @@ export const BannerData = {
   ),
   desc: "As a top organic SEO company, we specialize in driving long-term, sustainable growth for your business based in Chicago.",
   btntxt: "Connect with us",
+  link: "https://calendly.com/infinitidigital/free-seo-consultation"
 };
 
 export const CallbackData = {

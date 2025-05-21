@@ -14,18 +14,18 @@ const Header = () => {
   useEffect(() => {
     setIsLight(
       pathname === "/" ||
-        pathname === "/fashion-ecommerce-seo-case-study" ||
-        pathname === "/dentist-seo-case-study" ||
-        pathname === "/insurance-seo-case-study" ||
-        pathname === "/hvac-seo-case-study" ||
-        pathname === "/food-and-drinks-seo-case-study" ||
-        pathname === "/law-firm-seo-case-study" ||
-        pathname === "/travel-seo-case-study" ||
-        pathname === "/interior-design-seo-case-study" ||
-        pathname === "/brielle-delmar" ||
-        pathname === "/lily-chen" ||
-        pathname === "/grace-moore" ||
-        pathname === "/chloe-harris" 
+      pathname === "/fashion-ecommerce-seo-case-study" ||
+      pathname === "/dentist-seo-case-study" ||
+      pathname === "/insurance-seo-case-study" ||
+      pathname === "/hvac-seo-case-study" ||
+      pathname === "/food-and-drinks-seo-case-study" ||
+      pathname === "/law-firm-seo-case-study" ||
+      pathname === "/travel-seo-case-study" ||
+      pathname === "/interior-design-seo-case-study" ||
+      pathname === "/brielle-delmar" ||
+      pathname === "/lily-chen" ||
+      pathname === "/grace-moore" ||
+      pathname === "/chloe-harris"
 
     );
   }, [pathname]);
@@ -44,9 +44,8 @@ const Header = () => {
 
   return (
     <section
-      className={`${styles.headerSection} ${scrolled ? styles.active : ""} ${
-        isLight ? "" : styles.isLight
-      }`}
+      className={`${styles.headerSection} ${scrolled ? styles.active : ""} ${isLight ? "" : styles.isLight
+        }`}
     >
       <Container className="h-100">
         <Row className="h-100">
@@ -63,13 +62,24 @@ const Header = () => {
             <Navigation scrolled={scrolled} isLight={isLight} />
           </Col>
           <Col xs={6} md={2} lg={3} className="my-auto d-md-block d-none">
-            <Link
-              href="tel:855-666-6682"
-              className={`commonBtn ${styles.lastBtn}`}
-              aria-label="Visit our Contact"
-            >
-              855-666-6682
-            </Link>
+            {pathname === "/seo-dallas-tx" ? (
+              <a
+                href="tel:2142962442"
+                className={`commonBtn ${styles.lastBtn}`}
+                aria-label="Visit our Contact"
+              >
+                214-296-2442
+              </a>
+            ) : (
+              <a
+                href="tel:855-666-6682"
+                className={`commonBtn ${styles.lastBtn}`}
+                aria-label="Visit our Contact"
+              >
+                855-666-6682
+              </a>
+            )
+            }
           </Col>
         </Row>
       </Container>

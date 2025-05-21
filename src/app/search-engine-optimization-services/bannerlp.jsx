@@ -27,7 +27,7 @@ const Bannerlp = () => {
                             <h1>That Turn Google Searches into More Traffic, More Leads & More Sales</h1>
                             <p>When was the last time you searched for a product or service? Probably today. Your customers are doing the same; but if you’re not ranking, you’re losing sales. That’s where Infiniti Digital comes in. Our Professional Search Engine Optimization Services help you rank higher, attract buyers, and boost revenue. No fluff, just SEO that delivers real, measurable results.</p>
                             <div className={styles.btnFlex}>
-                                <Link href="#PricingId" className={styles.btnStyle}>Our Affordable SEO Packages</Link>
+                                <Link href="https://calendly.com/infinitidigital/free-seo-consultation" className={styles.btnStyle}>Get A Free Consultation</Link>
                                 <div className={styles.chatStyle} onClick={openChat}>Live Chat</div>
                             </div>
                             <div className={styles.numberStyle}>

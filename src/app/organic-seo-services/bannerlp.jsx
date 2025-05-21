@@ -29,12 +29,7 @@ const Bannerlp = () => {
                 backlinks, that’s how we win.
               </p>
               <div className={styles.btnFlex}>
-                <CommonBtn
-                  txt="Get Your Free SEO Audit Now"
-                  LiveChat={true}
-                  center={true}
-                  BgBlack={true}
-                />
+                <CommonBtn txt="Get a Free Consultation" center={true} BgBlack={true} LinkBtn="https://calendly.com/infinitidigital/free-seo-consultation" />
               </div>
             </div>
           </Col>
