@@ -200,7 +200,7 @@ const Navigation = ({ scrolled, isLight }) => {
   return (
     <>
       <div className={styles.mobileNavIcon}>
-      <a
+        <a
           href="tel:855-666-6682"
           className={styles.commonBtnMobile}
           aria-label="Visit our Contact"
@@ -209,18 +209,16 @@ const Navigation = ({ scrolled, isLight }) => {
         </a>
         <div
           onClick={handleClick}
-          className={`${isActive ? "navIcon active" : "navIcon"} ${
-            isLight ? "" : "isLight"
-          }  ${scrolled ? "activeScroll" : ""}`}
+          className={`${isActive ? "navIcon active" : "navIcon"} ${isLight ? "" : "isLight"
+            }  ${scrolled ? "activeScroll" : ""}`}
         >
           {isActive ? <ClosedIcon /> : <NavIcon />}
         </div>
-       
+
       </div>
       <div
-        className={`${styles.mainMobileNavigation}  ${
-          isActive ? `${styles.active}` : ""
-        }`}
+        className={`${styles.mainMobileNavigation}  ${isActive ? `${styles.active}` : ""
+          }`}
       >
         <ul className={styles.mobileNavigation}>
           <li onClick={handleClick}>
@@ -276,7 +274,7 @@ const Navigation = ({ scrolled, isLight }) => {
               ))}
             </ul>
           </li>
-          {/* <li className={styles.subMobileMenu}>
+          <li className={styles.subMobileMenu}>
             <Link href="/content-marketing-services">Content Marketing</Link>
             <div className={styles.subMenuIcon}>
               <SubMenuIcon />
@@ -291,7 +289,7 @@ const Navigation = ({ scrolled, isLight }) => {
                 </li>
               ))}
             </ul>
-          </li> */}
+          </li>
           <li className={styles.subMobileMenu}>
             <Link href="/mobile-app-development-company">
               Mobile App Development
@@ -341,30 +339,28 @@ const Navigation = ({ scrolled, isLight }) => {
         </ul>
       </div>
       <ul
-        className={`${styles.menuSection} ${scrolled ? styles.active : ""} ${
-          isLight ? "" : styles.isLight
-        }`}
+        className={`${styles.menuSection} ${scrolled ? styles.active : ""} ${isLight ? "" : styles.isLight
+          }`}
       >
         <li className={isActiveLink("/") ? styles.active : ""}>
           <Link href="/">Home</Link>
         </li>
         <li
-          className={`${styles.subMenu} ${
-            isActiveSubMenu(
-              [
-                ...(Array.isArray(MainServicesLinks) ? MainServicesLinks : []),
-                ...(Array.isArray(SmmMenu) ? SmmMenu : []),
-                // ...(Array.isArray(ContentMarketing) ? ContentMarketing : []),
-                ...(Array.isArray(WebsiteDesign) ? WebsiteDesign : []),
-                ...(Array.isArray(WebsiteDesign) ? PaidMarketing : []),
-                ...(Array.isArray(WebsiteDesign) ? SEO : []),
-                ...(Array.isArray(WebsiteDesign) ? MobileApp : []),
-              ],
-              pathname
-            )
-              ? styles.active
-              : ""
-          }`}
+          className={`${styles.subMenu} ${isActiveSubMenu(
+            [
+              ...(Array.isArray(MainServicesLinks) ? MainServicesLinks : []),
+              ...(Array.isArray(SmmMenu) ? SmmMenu : []),
+              // ...(Array.isArray(ContentMarketing) ? ContentMarketing : []),
+              ...(Array.isArray(WebsiteDesign) ? WebsiteDesign : []),
+              ...(Array.isArray(WebsiteDesign) ? PaidMarketing : []),
+              ...(Array.isArray(WebsiteDesign) ? SEO : []),
+              ...(Array.isArray(WebsiteDesign) ? MobileApp : []),
+            ],
+            pathname
+          )
+            ? styles.active
+            : ""
+            }`}
         >
           <Link href="#">Services</Link>
           <div className={styles.submenuContainer}>
@@ -378,9 +374,8 @@ const Navigation = ({ scrolled, isLight }) => {
                 <div className={styles.menuBox}>
                   <div className={styles.serivesMenuBox}>
                     <div
-                      className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(SEO) ? styles.active : ""
-                      }`}
+                      className={`${styles.serivesMenuItem} ${isActiveSubMenu(SEO) ? styles.active : ""
+                        }`}
                     >
                       <div className={styles.title}>
                         <Link href="/seo-service">
@@ -405,9 +400,8 @@ const Navigation = ({ scrolled, isLight }) => {
                       </ul>
                     </div>
                     <div
-                      className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(SmmMenu) ? styles.active : ""
-                      }`}
+                      className={`${styles.serivesMenuItem} ${isActiveSubMenu(SmmMenu) ? styles.active : ""
+                        }`}
                     >
                       <div className={styles.title}>
                         <Link href="/social-media-marketing-services">
@@ -431,9 +425,8 @@ const Navigation = ({ scrolled, isLight }) => {
                       </ul>
                     </div>
                     <div
-                      className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(PaidMarketing) ? styles.active : ""
-                      }`}
+                      className={`${styles.serivesMenuItem} ${isActiveSubMenu(PaidMarketing) ? styles.active : ""
+                        }`}
                     >
                       <div className={styles.title}>
                         <Link href="/paid-marketing-services">
@@ -457,10 +450,9 @@ const Navigation = ({ scrolled, isLight }) => {
                         ))}
                       </ul>
                     </div>
-                    {/* <div
-                      className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(ContentMarketing) ? styles.active : ""
-                      }`}
+                    <div
+                      className={`${styles.serivesMenuItem} ${isActiveSubMenu(ContentMarketing) ? styles.active : ""
+                        }`}
                     >
                       <div className={styles.title}>
                         <Link href="/content-marketing-services">
@@ -482,11 +474,10 @@ const Navigation = ({ scrolled, isLight }) => {
                           </li>
                         ))}
                       </ul>
-                    </div> */}
+                    </div>
                     <div
-                      className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(MobileApp) ? styles.active : ""
-                      }`}
+                      className={`${styles.serivesMenuItem} ${isActiveSubMenu(MobileApp) ? styles.active : ""
+                        }`}
                     >
                       <div className={styles.title}>
                         <Link href="/mobile-app-development-company">
@@ -511,9 +502,8 @@ const Navigation = ({ scrolled, isLight }) => {
                       </ul>
                     </div>
                     <div
-                      className={`${styles.serivesMenuItem} ${
-                        isActiveSubMenu(WebsiteDesign) ? styles.active : ""
-                      }`}
+                      className={`${styles.serivesMenuItem} ${isActiveSubMenu(WebsiteDesign) ? styles.active : ""
+                        }`}
                     >
                       <div className={styles.title}>
                         <Link href="/web-development-company">
