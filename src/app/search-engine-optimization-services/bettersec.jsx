@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/seo2/better.module.scss"
 import MenImage from "media/landing/seo2/menImage.webp"
 import Image from "next/image"
+import Link from "next/link";
 
 const data = [
     "Your content sucks",
@@ -40,7 +41,7 @@ const BetterSec = () => {
                     </Col>
                     <Col md={12} lg={12} className="m-auto text-center">
                         <div className={styles.spanClass}>IF YES</div>
-                        <p>Infiniti Digital, an award-winning, top-rated search engine optimization agency, is ready to deliver </p>
+                        <p>Infiniti Digital, an award-winning, top-rated <Link href="/best-seo-agency" className="colorBlack">search engine optimization agency</Link>, is ready to deliver </p>
                         <div className={styles.origanTxt}>Quality leads, Incomparable ROI, & Outstanding brand visibility. </div>
                         <p>Ready to experience infinite growth? Book a consultation and let’s get started!</p>
                         <div className={styles.uppercaseTxt}>Because your SEO deserves better than a “meh” strategy!</div>

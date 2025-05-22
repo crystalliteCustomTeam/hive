@@ -1,5 +1,6 @@
 // CTA  01
 import ImgBg1 from "media/landing/seo2/ctaBg1.webp"
+import Link from "next/link";
 export const CtaData01 = {
     title: (<>Get a <span>30 minutes</span> free strategy session with our digital marketing expert worth <span>$300</span></>),
     img: ImgBg1.src
@@ -26,7 +27,9 @@ export const LPServices = {
         },
         {
             title: "Local SEO",
-            txt: "Be seen by customers in your area through local search results and Google Maps. Our local SEO helps you stand out so nearby customers can easily find and contact you.",
+            txt: (<>
+                Be seen by customers in your area through local search results and Google Maps. Our <Link href="/local-seo-service" className="colorBlack">local SEO</Link> helps you stand out so nearby customers can easily find and contact you.
+            </>),
             btntxt: "Let’s Connect",
         },
         {
@@ -298,7 +301,7 @@ export const WhyData = {
     nexttitle: (<>Clicks, Calls, and Customers; <span>Delivered Daily.</span></>),
     nexttxt: (<>
         <p>Did you know a poorly optimized website can silently drain your leads, credibility, and revenue? That’s the harsh reality of weak SEO. But at Infiniti Digital, we don’t let that happen.</p>
-        <p>Unlike other local SEO agencies that slap together cookie-cutter strategies, we develop custom-tailored solutions designed to put your brand ahead, every single time.</p>
+        <p>Unlike other <Link href="/local-seo-agency" className="colorGray">local SEO agencies</Link> that slap together cookie-cutter strategies, we develop custom-tailored solutions designed to put your brand ahead, every single time.</p>
         <p>If your traffic isn’t converting, your bounce rates are climbing, or your rankings are slipping, it’s not bad luck, it’s bad SEO. And that’s where we come in. Our data-driven, white-hat strategies are built for real, long-term results.</p>
         <p>With high-intent keyword research, extensive site audits, quick technical fixes, and a powerful content strategy, we don’t just help you rank, we help you dominate.</p>
         <p>If you’re tired of watching competitors outrank you, it’s time to make a move. Hire Infiniti Digital for infinite growth.</p>

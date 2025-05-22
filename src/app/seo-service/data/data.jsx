@@ -218,11 +218,7 @@ export const ServicesData = {
     },
     {
       title: (
-        <>
-          Local
-          <br />
-          SEO
-        </>
+        <><Link href="/local-seo-service" className="colorBlack">Local <br />SEO</Link></>
       ),
       txt: "Boost your visibility in local search results with targeted SEO strategies and local citations to attract nearby customers.",
       url: "#",

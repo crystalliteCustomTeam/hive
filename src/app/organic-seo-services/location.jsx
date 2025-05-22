@@ -1,16 +1,41 @@
 import { Container, Row, Col } from "react-bootstrap"
 import styles from "@/styles/landing/components/seo1/location.module.scss"
 import BgImg from "@/public/landing/seo1/catImg.webp"
+import Link from "next/link"
 
 const data = [
-    { value: "Arlington" },
-    { value: "Atlanta" },
-    { value: "Austin" },
-    { value: "Baltimore" },
-    { value: "Chicago" },
-    { value: "Cleveland" },
-    { value: "Dallas" },
-    { value: "Denver" }
+    {
+        value: "Arlington",
+        link: "#"
+    },
+    {
+        value: "Atlanta",
+        link: "#"
+    },
+    {
+        value: "Austin",
+        link: "#"
+    },
+    {
+        value: "Baltimore",
+        link: "#"
+    },
+    {
+        value: "Chicago",
+        link: "/seo-chicago-il"
+    },
+    {
+        value: "Cleveland",
+        link: "#"
+    },
+    {
+        value: "Dallas",
+        link: "/seo-dallas-tx"
+    },
+    {
+        value: "Denver",
+        link: "/seo-denver-co"
+    }
 ]
 const LocationLP = () => {
     return (
@@ -23,7 +48,7 @@ const LocationLP = () => {
                         <div className={styles.LocaionBox}>
                             {data.map((item, index) => (
                                 <div className={styles.LocaionItem} key={index}>
-                                    {item.value}
+                                    <Link href={item.link}>{item.value}</Link>
                                 </div>
                             ))}
                         </div>

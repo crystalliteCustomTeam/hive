@@ -43,9 +43,9 @@ export const ServicesData = {
             url: "#",
         },
         {
-            title: (<>Local SEO<br />Optimization</>),
+            title: (<><Link href="/local-seo-service" className="colorBlack">Local SEO<br />Optimization</Link></>),
             txt: (<>
-                Stand out locally with optimized <Link href="/gmb-management-service" className="colorGray">Google My Business</Link> profiles, localized keywords, and review management.</>),
+                Stand out locally with optimized Google My Business profiles, localized keywords, and review management.</>),
             url: "#",
         },
         {

@@ -11,7 +11,7 @@ export const StateCounter = {
             <li><CheckedIcon />Your brand</li>
             <li><CheckedIcon />Your business goals</li>
         </ul>
-        <p>Whether you’re targeting local SEO to dominate your area, nationwide SEO to expand across the country, or global SEO to reach customers worldwide, we have the right approach for you.</p>
+        <p>Whether you’re targeting <Link href="/local-seo-service" className="colorGray">local SEO</Link> to dominate your area, <Link href="/nationwide-seo-service" className="colorGray">nationwide SEO</Link> to expand across the country, or global SEO to reach customers worldwide, we have the right approach for you.</p>
         <p>No wasted money, no useless techniques! just smart SEO that helps your business grow. Better value, better results, and a team that actually cares.</p>
 
     </>),
@@ -41,7 +41,7 @@ export const CtaData = {
 export const WhyChooseData = {
     subtitle: "",
     title: "Why Choose Us ",
-    txt: (<><i>Search Engine Optimization that leaves your competitors in the dust, locally or globally.</i></>),
+    txt: (<><i><Link href="/search-engine-optimization-services" className="colorGray">Search Engine Optimization</Link> that leaves your competitors in the dust, locally or globally.</i></>),
     WhyChooseItem: [
         {
             title: "A Proven Track Record of Success",
@@ -54,7 +54,9 @@ export const WhyChooseData = {
         },
         {
             title: "SEO Experts Who Know What Works",
-            txt: "Our SEO experts don’t wait for the algorithm to change, we see it coming and adjust faster than you can say “rankings.” It’s not about being reactive; it’s about being proactive. Want a cherry on top? You’ll never be left wondering what’s happening. We’re transparent, and keep you updated with real-time results."
+            txt: (<>
+                Our <Link href="/seo-service" className="colorBlack">SEO experts</Link> don’t wait for the algorithm to change, we see it coming and adjust faster than you can say “rankings.” It’s not about being reactive; it’s about being proactive. Want a cherry on top? You’ll never be left wondering what’s happening. We’re transparent, and keep you updated with real-time results.
+            </>)
         },
         {
             title: "A Team Fully Dedicated to Your Success",
@@ -416,6 +418,7 @@ export const talkData = {
 
 // Contact 
 import IMGBG from "media/landing/seo/contactBg.webp"
+import Link from "next/link"
 export const ContactData = {
     subtitle: "Get In Touch",
     title: (<>Still trusting that SEO Company from last year?</>),

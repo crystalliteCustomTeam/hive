@@ -83,7 +83,7 @@ export const ServicesData = {
         },
         {
             icon: <Serv09 />,
-            title: "GMB Management",
+            title: (<><Link href="/gmb-management-service" className="colorBlack">GMB Management</Link></>),
             txt: "We optimize and manage your GMB profile to ensure your business stands out in local searches. From updating key information to managing reviews, we help you attract more customers and improve your local visibility.",
         },
 
@@ -420,6 +420,7 @@ export const TestimonialData = {
 
 // Contact 
 import IMGBG from "media/landing/seo3/contactBg.webp"
+import Link from "next/link";
 export const ContactData = {
     subtitle: "Get In Touch",
     title: (<>Don’t Wait to Be Found, <br />Make It Happen With Our Local SEO Services.</>),

@@ -31,10 +31,7 @@ export const ServicesData = {
     {
       title: (
         <>
-          Google My
-          <br />
-          Business
-        </>
+          <Link href="/gmb-management-service" className="colorBlack">Google My <br />Business</Link></>
       ),
       txt: "Maximize visibility with an optimized GMB profile that drives local traffic and credibility.",
       url: "#",

@@ -66,7 +66,9 @@ export const LPServices = {
         },
         {
             title: "Local SEO",
-            txt: "Be seen by customers in your area through local search results and Google Maps. Our local SEO helps you stand out so nearby customers can easily find and contact you.",
+            txt: (<>
+                Be seen by customers in your area through local search results and Google Maps. Our <Link href="/local-seo-service" className="colorWhite">local SEO</Link> helps you stand out so nearby customers can easily find and contact you.
+            </>),
 
         }, {
             title: "On-Page SEO",
@@ -455,6 +457,7 @@ export const AwardsPoints = {
 
 // Contact 
 import IMGBG from "media/landing/seo1/contactBg.webp"
+import Link from "next/link"
 export const ContactData = {
     subtitle: "Get In Touch",
     title: "",
