@@ -114,7 +114,7 @@ export const ContentData = {
   contentTxt: (
     <>
       <p>
-        <Link href="/gmb-management-service" className="colorBlack">Local SEO</Link> is the secret to boosting your business’s visibility within
+        <Link href="/local-seo-agency" className="colorBlack">Local SEO</Link> is the secret to boosting your business’s visibility within
         your community. By optimizing your online presence for local searches,
         we ensure that potential customers can find you easily.
       </p>
