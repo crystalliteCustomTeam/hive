@@ -25,6 +25,7 @@ const Header = () => {
       pathname === "/brielle-delmar" ||
       pathname === "/lily-chen" ||
       pathname === "/grace-moore" ||
+      pathname === "/john-sullivan" ||
       pathname === "/chloe-harris"
 
     );

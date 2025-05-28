@@ -1,7 +1,7 @@
 import styles from "@/styles/casestudies/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 
-const Banner = ({ data ,PopupStyle}) => {
+const Banner = ({ data, PopupStyle }) => {
   return (
     <section
       className={`${styles.bannerCaseStudy} ${PopupStyle ? styles.popupBanner : ""}`}

@@ -36,6 +36,16 @@ export const BlgosData = {
   BlogsData: [
     {
       title:
+        "How To Choose The Right Mobile App Development Company For Your Project",
+      date: "28 May, 2025",
+      txt: "Finding reliable mobile app development services for your mobile application project can be pretty tricky if every app development firm out there is promising positive results.",
+      category: "Mobile App",
+      img: Blog1.src,
+      link: "/how-to-choose-the-right-mobile-app-development-company",
+      author: "john-sullivan",
+    },
+    {
+      title:
         "Infiniti Digital Vs. In-House Teams",
       date: "20 May, 2025",
       txt: "When businesses consider their organic growth, they often face a fork in the road: should they hire an seo agency, or build an in-house team?",
