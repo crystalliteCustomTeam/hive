@@ -26,6 +26,7 @@ import IMG12 from "media/blogs/posts/blog12.webp";
 import IMG13 from "media/blogs/posts/blog13.webp";
 import IMG14 from "media/blogs/posts/blog14.webp";
 import IMG15 from "media/blogs/posts/blog15.webp";
+import IMG16 from "media/blogs/posts/blog16.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -40,7 +41,7 @@ export const BlgosData = {
       date: "28 May, 2025",
       txt: "Finding reliable mobile app development services for your mobile application project can be pretty tricky if every app development firm out there is promising positive results.",
       category: "Mobile App",
-      img: Blog1.src,
+      img: IMG16.src,
       link: "/how-to-choose-the-right-mobile-app-development-company",
       author: "john-sullivan",
     },
