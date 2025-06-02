@@ -16,7 +16,7 @@ import { AbtData, BannerData, AboutData, NewsLetterData, AbtAwardsData, FAQsData
 const Page = () => {
     return (
         <>
-            <Banner data={BannerData} />
+            <Banner data={BannerData} extrafrom={true} />
             <AbtSection data={AbtData} />
             <About data={AboutData} />
             <NewsLetter data={NewsLetterData} />

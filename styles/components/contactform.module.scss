@@ -25,6 +25,7 @@
           opacity: 1;
         }
       }
+
       textarea {
         background: transparent;
         border-bottom: 1px solid #fff;
@@ -248,7 +249,7 @@
   }
 
   .contactItem {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 
     input {
       height: 60px;
@@ -265,9 +266,27 @@
       outline: none;
       padding: 0px 20px;
     }
+    select {
+      height: 60px;
+      background: rgba(173, 207, 227, 0.2);
+      backdrop-filter: blur(7.5px);
+      border-radius: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #73858f;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 0px 20px;
+      &::-ms-expand {
+        display: none;
+      }
+    }
 
     textarea {
-      height: 150px;
+      height: 120px;
       background: rgba(173, 207, 227, 0.2);
       border-radius: 20px;
       font-style: normal;
@@ -402,10 +421,10 @@
         flex: 0 0 100%;
       }
     }
-    &.voiceRemove{
+    &.voiceRemove {
       .contactItem {
         flex: 0 0 calc(50% - 10px);
-  
+
         &:nth-last-child(5) {
           flex: 0 0 100%;
         }
@@ -416,7 +435,6 @@
           flex: 0 0 100%;
         }
       }
-
     }
   }
   &.locationSec {
@@ -596,10 +614,10 @@
     &.customPrice {
       background: transparent;
       margin: 20px 0px 0px;
-      &.voiceRemove{
+      &.voiceRemove {
         .contactItem {
           flex: 0 0 calc(100% - 10px);
-    
+
           &:nth-last-child(5) {
             flex: 0 0 100%;
           }
@@ -610,7 +628,6 @@
             flex: 0 0 100%;
           }
         }
-  
       }
     }
     .contactItem {
@@ -738,10 +755,10 @@
     &.customPrice {
       background: transparent;
       margin: 20px 0px 0px;
-      &.voiceRemove{
+      &.voiceRemove {
         .contactItem {
           flex: 0 0 calc(100% - 10px);
-    
+
           &:nth-last-child(5) {
             flex: 0 0 100%;
           }
@@ -752,7 +769,6 @@
             flex: 0 0 100%;
           }
         }
-  
       }
     }
     .contactItem {
@@ -906,10 +922,10 @@
     &.customPrice {
       background: transparent;
       margin: 20px 0px 0px;
-      &.voiceRemove{
+      &.voiceRemove {
         .contactItem {
           flex: 0 0 calc(100% - 5px);
-    
+
           &:nth-last-child(5) {
             flex: 0 0 100%;
           }
@@ -920,7 +936,6 @@
             flex: 0 0 100%;
           }
         }
-  
       }
     }
     .contactBtn {
@@ -1020,10 +1035,10 @@
     &.customPrice {
       background: transparent;
       margin: 20px 0px 0px;
-      &.voiceRemove{
+      &.voiceRemove {
         .contactItem {
           flex: 0 0 calc(100% - 5px);
-    
+
           &:nth-last-child(5) {
             flex: 0 0 100%;
           }
@@ -1034,7 +1049,6 @@
             flex: 0 0 100%;
           }
         }
-  
       }
     }
     .contactItem {

@@ -2,7 +2,7 @@ import styles from "@/styles/services/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 
-const Banner = ({ data, bgtxt, web }) => {
+const Banner = ({ data, bgtxt, web, extrafrom }) => {
   return (
     <section
       className={`${styles.bannerServices} ${bgtxt === "yes" ? styles.bannerWithContent : ""
@@ -15,6 +15,7 @@ const Banner = ({ data, bgtxt, web }) => {
               <div className={styles.subTitle}>{data.subtitle}</div>
               <h1>{data.title}</h1>
               <p>{data.desc}</p>
+              <CommonBtn txt="Get A Free Consultation" extrafrom={extrafrom} />
             </div>
           </Col>
         </Row>
@@ -28,7 +29,7 @@ const Banner = ({ data, bgtxt, web }) => {
                 <div className={styles.contentBaner}>
                   <h2>{data.bannerTitle}</h2>
                   <p>{data.bannerContent}</p>
-                  <CommonBtn txt="Get A Free Consultation" />
+                  <CommonBtn txt="Get A Free Consultation" extrafrom={extrafrom} />
                 </div>
               ) : null}
               <video

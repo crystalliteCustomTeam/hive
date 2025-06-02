@@ -24,6 +24,7 @@ const ContactFrom = ({
   customprice,
   location,
   locationPage,
+  extrafrom
 }) => {
   const [ip, setIP] = useState("");
   const [pagenewurl, setPagenewurl] = useState("");
@@ -64,6 +65,7 @@ const ContactFrom = ({
     const phone = e.target.phone.value.trim();
     const website = e.target.website ? e.target.website.value.trim() : "";
     const voice = e.target.voice ? e.target.voice.value.trim() : "";
+    const services = e.target.services ? e.target.services.value.trim() : "";
     const message = e.target.comment ? e.target.comment.value.trim() : "";
 
     if (!name || !email || !phone) {
@@ -84,7 +86,9 @@ const ContactFrom = ({
     if (website) {
       leadData.website = website;
     }
-
+    if (services) {
+      leadData.services = services;
+    }
     if (voice) {
       leadData.voice = voice;
     }
@@ -114,21 +118,14 @@ const ContactFrom = ({
   return (
     <Form onSubmit={handleSubmit}>
       <div
-        className={`${styles.Contactbox} ${sidebar ? styles.sidebarBlog : ""} ${
-          glossary ? styles.glossaryPage : ""
-        } ${contactPage ? styles.contactPage : ""} ${
-          locationPage ? styles.locationPage : ""
-        } ${customprice ? styles.customPrice : ""} ${
-          location ? styles.locationSec : ""
-        }${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${
-          bg === "no" ? styles.removeBG : ""
-        } ${bgBlack ? styles.bgBlack : ""} ${
-          LandingPage ? styles.landingPage : ""
-        } ${vertical ? styles.verticalFrom : ""}  ${
-          BlackVertical ? styles.BlackVertical : ""
-        } ${popop === "yes" ? styles.popopFrom : ""} ${
-          blkColor ? styles.blkColor : ""
-        }
+        className={`${styles.Contactbox} ${sidebar ? styles.sidebarBlog : ""} ${glossary ? styles.glossaryPage : ""
+          } ${contactPage ? styles.contactPage : ""} ${locationPage ? styles.locationPage : ""
+          } ${customprice ? styles.customPrice : ""} ${location ? styles.locationSec : ""
+          }${smmPage ? styles.smmPage : ""} ${removebg ? styles.transfBg : ""} ${bg === "no" ? styles.removeBG : ""
+          } ${bgBlack ? styles.bgBlack : ""} ${LandingPage ? styles.landingPage : ""
+          } ${vertical ? styles.verticalFrom : ""}  ${BlackVertical ? styles.BlackVertical : ""
+          } ${popop === "yes" ? styles.popopFrom : ""} ${blkColor ? styles.blkColor : ""
+          }
         ${voice ? styles.voiceRemove : ""}
         `}
       >
@@ -157,6 +154,27 @@ const ContactFrom = ({
         <div className={styles.contactItem}>
           <input type="Phone" placeholder="Phone" name="phone" required />
         </div>
+        {extrafrom ? (
+          <>
+            <div className={styles.contactItem}>
+              <input type="text" placeholder="Website" name="website" />
+            </div>
+            <div className={styles.contactItem}>
+              <select name="services" required>
+                <option value="">Select Service</option>
+                <option value="SEO">SEO</option>
+                <option value="SMM">SMM</option>
+                <option value="Paid Marketing">Paid Marketing</option>
+                <option value="Web Design & Development">Web Design & Development</option>
+                <option value="Mobile App Development">Mobile App Development</option>
+                <option value="Content Marketing">Content Marketing</option>
+              </select>
+            </div>
+          </>
+        ) : (
+          <></>
+        )
+        }
         {location || glossary ? (
           <div className={styles.contactItem}>
             <input type="text" placeholder="Website" name="website" />
