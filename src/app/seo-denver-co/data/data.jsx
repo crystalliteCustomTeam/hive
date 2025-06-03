@@ -18,6 +18,7 @@ export const CallbackData = {
   txt1: "Still guessing your way through SEO? Discuss your goals with us!",
   subtitle2: "Search Smarter, Grow Faster.",
   title2: "We Do SEO, You Get Results.",
+  SeoPages: true,
 };
 //Services
 import {
@@ -36,6 +37,7 @@ export const ServicesData = {
   subtitle: "",
   title: <>Denver SEO Services</>,
   desc: "We help businesses rank higher, attract more traffic, and grow faster in Denver.",
+  SeoPages: true,
   ServicesItem: [
     {
       icon: <Serv01 />,
@@ -122,6 +124,7 @@ export const PriceData = {
   subtitle: "",
   title: "SEO Packages to Boost Your Rankings",
   desc: "",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -281,6 +284,7 @@ export const ContactData = {
   subtitle: "Request A Free Quote",
   title1: "Rank Higher, Grow Faster in Denver",
   txt1: "More visibility, more leads, more growth.",
+  SeoPages: true,
 };
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {

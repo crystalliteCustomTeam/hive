@@ -12,7 +12,7 @@ const FooterContact = ({ data }) => {
                     <Col md={6} lg={6} className="my-auto">
                         <h2>{data.title}</h2>
                         <p>{data.txt}</p>
-                        <ContactFrom bgBlack={true} />
+                        <ContactFrom bgBlack={true} SeoPages={data.SeoPages} />
                     </Col>
                     <Col md={6} lg={6} className={`my-auto`}>
                         <div className={styles.profileImg}>

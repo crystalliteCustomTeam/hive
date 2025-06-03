@@ -30,7 +30,7 @@ const ServicesLp = ({ data }) => {
                                     <div className={styles.paraContent}>
                                         <p>{item.para}</p>
                                         <div className={styles.btnStyle}>
-                                            <CommonBtn txt="Let’s connect" ArrowBtn={true} SimpleBtn={true} />
+                                            <CommonBtn txt="Let’s connect" ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
                                         </div>
                                     </div>
                                 </div>

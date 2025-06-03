@@ -5,7 +5,7 @@ import Image from "next/image";
 import IMG from "media/location/menImg.webp";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 
-const ContactCta = ({data}) => {
+const ContactCta = ({ data }) => {
   return (
     <section className={`${styles.contactCtaSection} p-100`}>
       <Container className="h-100">
@@ -14,9 +14,9 @@ const ContactCta = ({data}) => {
             <div className={styles.contactBox}>
               <h2>{data.title}</h2>
               <p>
-              {data.txt}
+                {data.txt}
               </p>
-              <ContactFrom bg="no" />
+              <ContactFrom bg="no" SeoPages={data.SeoPages} />
             </div>
           </Col>
           <Col md={6} className="my-auto">
@@ -24,7 +24,7 @@ const ContactCta = ({data}) => {
               <div className="subtitle">{data.subtitle}</div>
               <h3> {data.title1}</h3>
               <p>{data.txt1}</p>
-              <CommonBtn txt="Get Your Quote" LiveChat={true} BgBlack={true} />
+              <CommonBtn txt="Get Your Quote" LiveChat={true} BgBlack={true} SeoPages={data.SeoPages} />
               <div className={styles.contactImg}>
                 <Image
                   src={IMG.src}

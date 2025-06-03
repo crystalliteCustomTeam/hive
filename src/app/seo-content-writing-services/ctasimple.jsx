@@ -14,7 +14,7 @@ const CtaSimple = () => {
                             <h2>Great brands deserve great content.<br />
                                 Let us write yours!
                             </h2>
-                            <ContactFrom bgBlack="no" />
+                            <ContactFrom bgBlack="no" SeoPages={true} />
                         </div>
                     </Col>
                 </Row>

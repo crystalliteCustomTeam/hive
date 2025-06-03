@@ -662,7 +662,7 @@
           }
         }
         &:hover {
-            background: #7635ff;
+          background: #7635ff;
           .packagebutton {
             color: #000;
             border: 1px solid #fff;
@@ -2026,7 +2026,9 @@
     &.blackBG {
       border-radius: 20px 20px 0px 0px;
     }
-
+    &.grayBG {
+      border-radius: 20px 20px 0px 0px;
+    }
     .tabBody {
       max-width: 100%;
       height: 50px;

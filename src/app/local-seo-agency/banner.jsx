@@ -42,7 +42,7 @@ const Banner = () => {
             <div className={styles.banneerFrom}>
               <h3>Want to Grow? Let Us Know!</h3>
               <p>Your Business Deserves a Page One Ranking – Not Page None</p>
-              <ContactFrom LandingPage={true} bg="no" popop="yes" />
+              <ContactFrom LandingPage={true} bg="no" popop="yes" SeoPages={true} />
             </div>
           </Col>
         </Row>

@@ -22,6 +22,7 @@ export const CallbackData = {
   txt1: "As a leading LA organic search agency, we adapt to constant Google updates, keeping your business ranked high and ahead of the competition.",
   subtitle2: "Adapt, Rank, and Win with",
   title2: "LA Organic Search Agency",
+  SeoPages: true,
 };
 //Services
 import {
@@ -40,6 +41,7 @@ export const ServicesData = {
   subtitle: "",
   title: <>Los Angeles SEO Services</>,
   desc: "Our SEO services in LA are designed to help businesses increase visibility, attract more customers, and drive long-term revenue.",
+  SeoPages: true,
   ServicesItem: [
     {
       icon: <Serv01 />,
@@ -121,6 +123,7 @@ export const PriceData = {
   subtitle: "",
   title: "LA SEO Packages",
   desc: "Our SEO plans for businesses in LA are built to boost rankings, drive local traffic, and turn searches into sales.",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -280,6 +283,7 @@ export const ContactData = {
   subtitle: "Request A Free Quote",
   title1: "Dominate Google Search in LA",
   txt1: "Smart SEO that helps Los Angeles businesses scale faster.",
+  SeoPages: true,
 };
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {

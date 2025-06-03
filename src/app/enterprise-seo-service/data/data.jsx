@@ -16,6 +16,7 @@ export const ServicesData = {
     subtitle: "Our Services",
     title: "Boost Enterprise SEO Online Presence",
     desc: "Looking to stand out in the digital sphere? Our Enterprise SEO services boost your visibility, ensuring customers in your area find and trust your business effortlessly.",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>Search<br />Domination</>),
@@ -80,7 +81,8 @@ export const ContentData = {
     contentTxt: (<>
         <p>Does your business fail to dominate in search results despite its size? Enterprise SEO ensures your company achieves and sustains visibility across all levels. With Infiniti Digital, you can solidify your position as an industry leader with advanced SEO strategies and achieve measurable success with scalable SEO solutions designed for enterprises. Interested in seeing your enterprise thrive? </p>
     </>),
-    img: ContentImg.src
+    img: ContentImg.src,
+    SeoPages: true,
 }
 
 //Content Data
@@ -91,7 +93,8 @@ export const ContentData1 = {
     contentTxt: (<>
         <p>Ready to expand your business’s visibility across markets?With Infiniti Digital’s cutting-edge SEO strategies, your enterprise will thrive on a global scale. From tailored keyword optimization to advanced analytics, we ensure your brand stands out in every market it enters. Let’s collaborate to create a strategy that scales with your business goals.</p>
     </>),
-    img: ContentImg1.src
+    img: ContentImg1.src,
+    SeoPages: true,
 }
 // Process
 export const ProcessData = {
@@ -228,7 +231,8 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Take The Lead in Search Rankings ",
-    desc: "Your enterprise deserves a powerful digital presence. Let Infiniti Digital drive your SEO strategy with precision and innovation. "
+    desc: "Your enterprise deserves a powerful digital presence. Let Infiniti Digital drive your SEO strategy with precision and innovation. ",
+    SeoPages: true,
 }
 
 // FAQs

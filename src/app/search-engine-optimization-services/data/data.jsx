@@ -3,12 +3,13 @@ import ImgBg1 from "media/landing/seo2/ctaBg1.webp"
 import Link from "next/link";
 export const CtaData01 = {
     title: (<>Get a <span>30 minutes</span> free strategy session with our digital marketing expert worth <span>$300</span></>),
-    img: ImgBg1.src
+    img: ImgBg1.src,
+    SeoPages: true,
 }
 export const LPServices = {
     title: "Our SEO Services",
     txt: "Everything You Need to Rank & Convert",
-
+    SeoPages: true,
     LPServicesItem: [
         {
             title: "Keyword Research & Strategy",
@@ -96,6 +97,7 @@ export const PriceData = {
     subtitle: "",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
+    SeoPages: true,
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -307,4 +309,5 @@ export const WhyData = {
         <p>If you’re tired of watching competitors outrank you, it’s time to make a move. Hire Infiniti Digital for infinite growth.</p>
     </>),
     btntxt: "Get a Free SEO Audit",
+    SeoPages: true,
 }

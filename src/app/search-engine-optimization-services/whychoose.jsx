@@ -20,7 +20,7 @@ const WhyChooseLp = ({ data, noround }) => {
                         <h2>{data.nexttitle}</h2>
                         {data.nexttxt}
                         <div className={styles.btnFlex}>
-                            <CommonBtn txt={data.btntxt ? data.btntxt : "Get a Free SEO Audit"} chatTitle={data?.chattitle ? data?.chattitle : "Talk to an Expert"} LiveChat={true} BgBlack={true} />
+                            <CommonBtn txt={data.btntxt ? data.btntxt : "Get a Free SEO Audit"} chatTitle={data?.chattitle ? data?.chattitle : "Talk to an Expert"} LiveChat={true} BgBlack={true} SeoPages={data.SeoPages} />
                         </div>
                     </Col>
                     <Col md={12} lg={6} className="my-auto">

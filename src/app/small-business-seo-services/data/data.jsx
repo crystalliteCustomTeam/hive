@@ -16,6 +16,7 @@ export const ServicesData = {
     subtitle: "Our Services",
     title: "Boost Your Online Presence",
     desc: "Looking to stand out locally? Our Small Business SEO services boost your visibility, ensuring customers in your area find and trust your business effortlessly.",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>Targeted Keyword<br />Optimization</>),
@@ -80,7 +81,8 @@ export const ContentData = {
     contentTxt: (<>
         <p>Does your website fail to attract local customers?Without targeted SEO, potential clients may never find your business.Improved Local Visibility ensures your business appears when customers search for related services in their area, leading to Increased Foot Traffic as optimized local search strategies drive consumers to your physical store.Interested in seeing these advantages in action?Let’s collaborate to craft a strategy that delivers measurable success for your business.</p>
     </>),
-    img: ContentImg.src
+    img: ContentImg.src,
+    SeoPages: true,
 }
 
 //Content Data
@@ -91,15 +93,15 @@ export const ContentData1 = {
     contentTxt: (<>
         <p>We understand that small businesses need cost-effective solutions that deliver results. That’s why our SEO services include tailored strategies for every stage of growth, from improving local visibility to driving consistent customer engagement. Whether optimizing your website for search engines or crafting targeted content, we ensure that your small business thrives in an increasingly competitive digital landscape.</p>
     </>),
-    img: ContentImg1.src
+    img: ContentImg1.src,
+    SeoPages: true,
 }
 // Process
 export const ProcessData = {
     subtitle: "Our Strategies",
     title: "Boost Your Online Presence with Strategic SEO and Marketing",
     desc: (<>
-        A robust online presence is crucial for business success. Our comprehensive suite of services spans from <Link href=" /local-seo-service
-" className="colorGray">local SEO optimization</Link> to advanced e-commerce strategies, ensuring your business not only meets but exceeds online visibility and engagement goals.
+        A robust online presence is crucial for business success. Our comprehensive suite of services spans from <Link href="/local-seo-service" className="colorGray">local SEO optimization</Link> to advanced e-commerce strategies, ensuring your business not only meets but exceeds online visibility and engagement goals.
     </>),
 
     ProcessItem1: [
@@ -189,7 +191,7 @@ export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
     desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
-
+    SeoPages: true,
 }
 
 
@@ -239,7 +241,9 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Affordable SEO Solutions for Small Businesses",
-    desc: "Small budget? Big results. Discover how our tailored SEO packages can transform your online presence. Reach out now!"
+    desc: "Small budget? Big results. Discover how our tailored SEO packages can transform your online presence. Reach out now!",
+    SeoPages: true,
+
 }
 
 // FAQs

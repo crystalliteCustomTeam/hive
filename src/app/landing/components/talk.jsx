@@ -27,17 +27,17 @@ const TalkLp = ({ data }) => {
                             )}</p>
                             {data.normal ?
                                 <Link href="/free-seo-score-checker#Question" className="commonBtn">
-                                   Get My Results
+                                    Get My Results
                                 </Link>
                                 :
-                                <CommonBtn txt={data?.btn ? data.btn : "Let’s Connect"} />
+                                <CommonBtn txt={data?.btn ? data.btn : "Let’s Connect"} SeoPages={data.SeoPages} />
                             }
-                            </div>
+                        </div>
                     </Col>
                     <Col md={7}>
                         <div className={styles.contactFromLp}>
                             <h3>{data?.formtitle ? data?.formtitle : "Book Your Free Consultation"}</h3>
-                            <ContactFrom bgBlack={true} title="Let’s Talk" />
+                            <ContactFrom bgBlack={true} title="Let’s Talk" SeoPages={data.SeoPages} />
                         </div>
                     </Col>
                 </Row>

@@ -16,6 +16,7 @@ export const ServicesData = {
     subtitle: "Our Services",
     title: "Maximize SEO Results with Our Expertise",
     desc: "Looking to rank higher effortlessly? We provide customized, white-label SEO solutions that help businesses boost rankings and grow their presence without the hassle.",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>SEO<br />Expertise</>),
@@ -73,7 +74,8 @@ export const ContentData = {
         <p>Let Infiniti Digital’s White Label SEO services upgrade your brand’s digital presence.We provide results-driven strategies designed to improve your search rankings, increase traffic, and boost sales—without the hassle.</p>
         <p>Whether you’re an agency or an individual, we deliver powerful SEO results under your brand. Get started today to watch your business grow!</p>
     </>),
-    img: ContentImg.src
+    img: ContentImg.src,
+    SeoPages: true,
 }
 
 //Content Data
@@ -85,7 +87,8 @@ export const ContentData1 = {
         <p>At Infiniti Digital, we offer White Label SEO that delivers results and grows your brand’s online presence. Our team focuses on boosting search rankings, increasing site traffic, and driving conversions, all under your brand’s name.</p>
         <p> Partner with us for hassle-free, top-tier SEO services tailored to your business needs. Let’s get started today!</p>
     </>),
-    img: ContentImg1.src
+    img: ContentImg1.src,
+    SeoPages: true,
 }
 // Process
 export const ProcessData = {
@@ -188,7 +191,7 @@ export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
     desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
-
+    SeoPages: true,
 }
 
 

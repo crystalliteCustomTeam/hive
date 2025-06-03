@@ -26,7 +26,7 @@ const ServicesLP = ({ data, bg, marginlp }) => {
                                     <h5>{item.title}</h5>
                                     <p>{item.txt}</p>
                                     <div className={styles.readMore}>
-                                        <CommonBtn txt={item?.btntxt ? item?.btntxt : "Contact Us"} ArrowBtn={true} SimpleBtn={true} />
+                                        <CommonBtn txt={item?.btntxt ? item?.btntxt : "Contact Us"} ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
                                     </div>
                                 </div>
                             ))}

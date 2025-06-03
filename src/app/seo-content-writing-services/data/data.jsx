@@ -47,7 +47,8 @@ import CtaImg from "media/landing/content/cta.webp"
 export const CtaData = {
     title: "Talk To A Content Specialist",
     txt: "You Don’t Need More Content, You Need Better Content.",
-    img: CtaImg.src
+    img: CtaImg.src,
+    SeoPages: true,
 }
 
 //Services
@@ -58,6 +59,7 @@ export const ServiceslpData = {
         Yeah, We Nail All Three.
     </>),
     desc: "The content is paramount! and we are the Throne’s might.",
+    SeoPages: true,
     ServicesItem: [
         {
             title: "SEO Blogs Writing",
@@ -132,6 +134,7 @@ export const MarketPointsData = {
     title: (<>Why Top Brands Trust Us for<br />
         Creative Content Marketing</>),
     desc: "",
+    SeoPages: true,
     MarketPointsItem: [
         {
             title: "Creativity",
@@ -168,6 +171,7 @@ export const PorcessLpData = {
     subtitle: "Our Process",
     title: "Easy Start, Engaging Content, Lasting Results.",
     desc: "",
+    SeoPages: true,
     PorcessLpItem: [
         {
             title: "Onboarding",
@@ -272,7 +276,8 @@ export const ContactData = {
         Good content makes you money.<br />
         We write the good kind. Let’s chat!
     </>),
-    bgImg: IMGBG.src
+    bgImg: IMGBG.src,
+    SeoPages: true,
 }
 
 

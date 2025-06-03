@@ -23,7 +23,7 @@ const PorcessLp = ({ data }) => {
                                         <h3>{item.title}</h3>
                                         <p>{item.para}</p>
                                         <div className={styles.btnStyle}>
-                                            <CommonBtn txt="Let’s connect" ArrowBtn={true} SimpleBtn={true} />
+                                            <CommonBtn txt="Let’s connect" ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
                                         </div>
                                     </div>
                                 </div>

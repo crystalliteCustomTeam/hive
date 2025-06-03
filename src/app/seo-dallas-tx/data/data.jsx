@@ -14,7 +14,8 @@ export const BannerData = {
   desc: "We help businesses rank on Page 1, on Google search results. Our SEO service in Dallas improves rankings, drives traffic, and increases conversions. Let’s grow your business together.",
   btntxt: "Connect with us",
   img: BanenrImg.src,
-  link: "https://calendly.com/infinitidigital/free-seo-consultation"
+  link: "https://calendly.com/infinitidigital/free-seo-consultation",
+
 };
 export const CallbackData = {
   subtitle1: "Request A Free Quote",
@@ -28,6 +29,7 @@ export const CallbackData = {
   txt1: "Your competitors love that you haven’t hired an SEO company in Dallas…Yet.",
   subtitle2: "What’s Your Business Goal?",
   title2: "Let’s Rank for It.",
+  SeoPages: true,
 };
 //Services
 import {
@@ -51,6 +53,7 @@ export const ServicesData = {
     </>
   ),
   desc: "",
+  SeoPages: true,
   ServicesItem: [
     {
       icon: <Serv01 />,
@@ -132,6 +135,7 @@ export const PriceData = {
   subtitle: "",
   title: "SEO Packages to Dominate Search Results in Dallas, TX",
   desc: "We ensure you get the most out of every dollar; premium strategies, expert execution, and real business growth.",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -290,6 +294,7 @@ export const ContactData = {
   subtitle: "Request A Free Quote",
   title1: "Let’s Rank Your Website #1",
   txt1: "Dominate search results with seo in Dallas.",
+  SeoPages: true,
 };
 
 

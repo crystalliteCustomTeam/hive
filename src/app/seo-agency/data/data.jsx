@@ -7,7 +7,8 @@ export const BannerData = {
     video: "",
     BannerPoster: BannerPoster.src,
     btntxt: "Get A Free Consultation",
-    link: "https://calendly.com/infinitidigital/free-seo-consultation"
+    link: "https://calendly.com/infinitidigital/free-seo-consultation",
+    SeoPages: true,
 }
 
 //Services
@@ -16,6 +17,7 @@ export const ServicesData = {
     subtitle: "Our Services",
     title: "Results-Driven SEO Company",
     desc: "We don’t just manage your SEO, we take the lead. Businesses driven by growth choose us for one reason: results. With our strategies, SEO experts, and a proven track record, we’re the force behind the most successful and fast-growing brands. When you hire Infiniti Digital, your organic traffic becomes measurable ROI.",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>Keyword Research<br />& Strategy</>),
@@ -81,7 +83,8 @@ export const ContentData = {
     contentTxt: (<>
         <p>Turn visitors into customers with campaigns made just for your business. Contact us to see real results. At Infiniti Digital, we believe SEO is more than just getting people to visit your site; it’s about getting them to become loyal customers. Our strategies will help your website rank higher and connect with the right audience. Let us help you, let’s talk!</p>
     </>),
-    img: ContentImg.src
+    img: ContentImg.src,
+    SeoPages: true,
 }
 
 //Content Data
@@ -92,7 +95,8 @@ export const ContentData1 = {
     contentTxt: (<>
         <p>Hiring Infiniti Digital as your SEO agency means more than just improving search rankings. The team will analyze your website, improve its performance, and use SEO strategies to increase organic traffic. Growth isn’t left to chance, it’s guaranteed.</p>
     </>),
-    img: ContentImg1.src
+    img: ContentImg1.src,
+    SeoPages: true,
 }
 // Process
 export const ProcessData = {
@@ -226,7 +230,8 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Take the First Step Toward SEO Success",
-    desc: "Don’t let competitors take the lead. Contact Infiniti Digital today to discover how our expert SEO strategies can transform your online presence."
+    desc: "Don’t let competitors take the lead. Contact Infiniti Digital today to discover how our expert SEO strategies can transform your online presence.",
+    SeoPages: true,
 }
 
 // FAQs

@@ -11,7 +11,7 @@ const CTA1 = ({ data }) => {
                     <Col md={6} className='my-auto'>
                         <h2>{data.title}</h2>
                         <p>{data.desc}</p>
-                        <CommonBtn txt="Get A Free Consultation" />
+                        <CommonBtn txt="Get A Free Consultation" SeoPages={data.SeoPages} />
                     </Col>
                     <Col md={6} className='my-auto ms-auto text-right'>
                         <Image src={data.img} alt="Digital CTA" width={560} height={530} className={styles.imgCTAFirst} />

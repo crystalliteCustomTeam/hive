@@ -36,7 +36,7 @@ const ContentSection = ({ data, bggray, simple, bgBlack, software, height }) => 
                         <div className={styles.contentBox}>
                             <h2>{data.contentTitle}</h2>
                             <div className={styles.paraBox}>{data.contentTxt}</div>
-                            <CommonBtn txt="Get A Free Consultation" />
+                            <CommonBtn txt="Get A Free Consultation" SeoPages={data.SeoPages} />
                         </div>
                     </Col>
 

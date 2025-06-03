@@ -23,6 +23,7 @@ export const CallbackData = {
   txt1: "Our Houston SEO company drives higher rankings, more leads, and real growth for your business.",
   subtitle2: "We are the Top rated",
   title2: "SEO Agency in Houston",
+  SeoPages: true,
 };
 //Services
 import {
@@ -41,6 +42,7 @@ export const ServicesData = {
   subtitle: "",
   title: <>Houston SEO Services</>,
   desc: "Dominate search results with our seo experts in Houston.",
+  SeoPages: true,
   ServicesItem: [
     {
       icon: <Serv01 />,
@@ -122,6 +124,7 @@ export const PriceData = {
   subtitle: "",
   title: "Houston SEO Packages",
   desc: "Boost Rankings, Beat Competitors, Bank More Sales!",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -281,6 +284,7 @@ export const ContactData = {
   subtitle: "Request A Free Quote",
   title1: "Let’s Rank Your Website #1",
   txt1: "Dominate search results with seo in Houston.",
+  SeoPages: true,
 };
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {

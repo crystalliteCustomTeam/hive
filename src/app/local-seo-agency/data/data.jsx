@@ -40,6 +40,7 @@ export const ServicesData = {
     subtitle: "",
     title: "Our SEO Services",
     desc: "Everything You Need to Rank & Convert",
+    SeoPages: true,
     ServicesItem: [
         {
             icon: <Serv01 />,
@@ -127,6 +128,7 @@ export const PriceData = {
     subtitle: "Local SEO Packages",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
+    SeoPages: true,
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -331,7 +333,8 @@ import ImgBg1 from "media/landing/seo3/ctaBg1.webp"
 export const CtaData = {
     title: (<>Claim your <span>FREE SEO</span> strategy session worth <span>$300</span> SEO now and start ranking!</>),
     img: ImgBg1.src,
-    btntxt: "Schedule a Meeting"
+    btntxt: "Schedule a Meeting",
+    SeoPages: true,
 }
 
 // Main Services
@@ -347,6 +350,7 @@ export const dataService = [
             <p>We start by claiming and verifying your Google My Business profile. This ensures your business shows up in local search results and on Google Maps. We complete your profile with your business name, address, phone number, and services, optimizing it for search engines. Regular posts, responding to questions, and managing reviews help keep your listing active and engaging.</p>
         </>),
         img: Service01.src,
+        SeoPages: true,
     },
     {
         title: "Local Citations",
@@ -354,6 +358,7 @@ export const dataService = [
             <p>NAP consistency is key to local SEO. We ensure your business information is accurate and consistent across all online directories and local platforms. We check for discrepancies and fix them, submitting your details to trusted directories. This helps Google trust your business and rank it higher.</p>
         </>),
         img: Service02.src,
+        SeoPages: true,
     },
     {
         title: "On-Page SEO",
@@ -361,6 +366,7 @@ export const dataService = [
             <p>We optimize your website by using location-based keywords in key areas like title tags, meta descriptions, and URLs. Through local content creation, such as city-specific pages, we target the right customers in your area. We also add schema markup and optimize Google Maps integration to ensure search engines understand your location and services.</p>
         </>),
         img: Service03.src,
+        SeoPages: true,
     },
     {
         title: "Online Reviews & Reputation Management",
@@ -368,6 +374,7 @@ export const dataService = [
             <p>We focus on building a strong online reputation by encouraging customers to leave reviews, especially on Google. We monitor and respond to reviews, handling both positive and negative feedback professionally. By showcasing customer testimonials and addressing concerns, we help increase your business’s credibility and visibility in local search results.</p>
         </>),
         img: Service04.src,
+        SeoPages: true,
     },
 
 ]
@@ -425,5 +432,7 @@ export const ContactData = {
     subtitle: "Get In Touch",
     title: (<>Don’t Wait to Be Found, <br />Make It Happen With Our Local SEO Services.</>),
     desc: "Fill out the form and let’s make sure your website is the first thing customers see when they search locally.",
-    bgImg: IMGBG.src
+    bgImg: IMGBG.src,
+    SeoPages: true,
+
 }

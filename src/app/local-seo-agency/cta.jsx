@@ -10,7 +10,7 @@ const CTA = ({ data, altetnet, bg }) => {
                     <Col md={8} lg={6} className="my-auto">
                         <div className={`${styles.ctaTitle}`}>
                             <h2>{data.title}</h2>
-                            <CommonBtn txt={data.btntxt ? data.btntxt : "Get a Free Consultation"} />
+                            <CommonBtn txt={data.btntxt ? data.btntxt : "Get a Free Consultation"} SeoPages={data.SeoPages} />
                         </div>
                     </Col>
                 </Row>

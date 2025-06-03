@@ -179,6 +179,7 @@ export const WorkData = {
   subtitle: "Our Portfolio",
   title: "Showcasing Success ",
   desc: "From websites that captivate to apps that deliver results, our portfolio is packed with innovative projects that help brands achieve their dreams and surpass their goals.",
+  SeoPages: true,
   WorkItem: [
     //SEO
     {
@@ -513,6 +514,7 @@ export const IndustriesData = {
   subtitle: "Industries We Serve",
   title: "Solutions Tailored to Your Industry ",
   desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+  SeoPages: true,
 };
 export const IndustryItem = [
   {
@@ -627,12 +629,12 @@ export const PlatformsData = {
   SocailItems: [
     {
       name: "Instagram",
-      link: "https://www.instagram.com/Infiniti Digitalus/",
+      link: "https://www.instagram.com/InfinitiDigitalus/",
       icon: <InstagramIcon />,
     },
     {
       name: "YouTube",
-      link: "https://www.youtube.com/@Infiniti Digitalus",
+      link: "https://www.youtube.com/@InfinitiDigitalus",
       icon: <YoutubeIcon />,
     },
     {
@@ -642,12 +644,12 @@ export const PlatformsData = {
     },
     {
       name: "Facebook",
-      link: "https://www.facebook.com/Infiniti Digitalus/",
+      link: "https://www.facebook.com/InfinitiDigitalus/",
       icon: <FacebookIcon />,
     },
     {
       name: "Pinterest",
-      link: "https://www.pinterest.com/Infiniti Digitalus/#",
+      link: "https://www.pinterest.com/InfinitiDigitalus/#",
       icon: <PinterestIcon />,
     },
     {
@@ -751,6 +753,7 @@ export const CallActionData = {
   subtitle: "Contact Us",
   title: "Let’s Turn Your Vision into Reality ",
   desc: "Ready to take the next step toward digital growth? Whether you have questions or a project idea, we’re here to help you succeed. Let’s collaborate to create something extraordinary for your business.",
+  SeoPages: true,
 };
 
 // Blgos

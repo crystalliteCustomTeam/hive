@@ -26,9 +26,8 @@ const StateCountLP = ({
   };
   return (
     <section
-      className={`pt-100 ${styles.stateCountSection} ${
-        nostate ? styles.noState : ""
-      } ${video ? styles.videoSection : ""} ${round ? styles.borderRound : ""}`}
+      className={`pt-100 ${styles.stateCountSection} ${nostate ? styles.noState : ""
+        } ${video ? styles.videoSection : ""} ${round ? styles.borderRound : ""}`}
       id="AboutId"
     >
       <Container>
@@ -64,14 +63,14 @@ const StateCountLP = ({
                 txt={data?.btntxt || "Book a Free Consultation"}
                 LiveChat={true}
                 BgBlack={true}
+                SeoPages={data.SeoPages}
               />
             )}
           </Col>
           <Col md={6} className={nostate ? "p-0" : ""}>
             <div
-              className={`${styles.contuerImg} ${
-                height ? styles.heightImg : ""
-              }`}
+              className={`${styles.contuerImg} ${height ? styles.heightImg : ""
+                }`}
             >
               {video ? (
                 <video
@@ -98,8 +97,8 @@ const StateCountLP = ({
           </Col>
         </Row>
         {(!video || !nostate) &&
-        Array.isArray(data.stateItem) &&
-        data.stateItem.length > 0 ? (
+          Array.isArray(data.stateItem) &&
+          data.stateItem.length > 0 ? (
           <Row>
             {data.stateItem.map((item, index) => (
               <Col sm={6} md={coloum === "yes" ? 4 : 3} key={index}>

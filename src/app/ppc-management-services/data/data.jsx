@@ -8,7 +8,8 @@ export const StateCounter = {
     </>),
     img: IMG.src,
     video: "https://player.vimeo.com/progressive_redirect/playback/1039775849/rendition/720p/file.mp4?loc=external&log_user=0&signature=a3b56bd23809e03050e6e0231513dfcf16a223d4eb6d444c9d540ce7889002f4",
-    btntxt: "Talk to an Expert"
+    btntxt: "Talk to an Expert",
+    SeoPages: true,
 }
 export const CtaData = {
     title: "Talk To Our Experts",
@@ -20,6 +21,7 @@ export const ServicesData = {
     subtitle: "",
     title: "Our Paid Marketing Services ",
     desc: "Oh Look, Another Useless Click! Said No Client of Ours Ever.",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>Google Ads <br />Management</>),
@@ -164,7 +166,8 @@ export const SimpleContent = {
         <p><i>Your next big win starts with a proposal from Infiniti Digital.</i></p>
     </>),
     img: Img01.src,
-    btntxt: "Schedule a Free Consultation"
+    btntxt: "Schedule a Free Consultation",
+    SeoPages: true,
 }
 
 
@@ -203,7 +206,8 @@ export const processlp = {
 }
 export const talkData = {
     title: (<>Talk to Our <br />PPC Experts</>),
-    txt: "If you’re running Google Ads without a plan, that’s just charity work for Google."
+    txt: "If you’re running Google Ads without a plan, that’s just charity work for Google.",
+    SeoPages: true,
 }
 
 
@@ -214,5 +218,6 @@ export const ContactData = {
     subtitle: "Get In Touch",
     title: (<>If Your PPC Strategy Involves “Hoping for the Best,” <br />We Need to Talk.</>),
     desc: "Ready to launch your Google Ads campaign? Contact Infiniti Digital now, and let's drive real results for your business.",
-    bgImg: IMGBG.src
+    bgImg: IMGBG.src,
+    SeoPages: true,
 }

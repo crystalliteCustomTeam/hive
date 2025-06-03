@@ -15,6 +15,7 @@ export const BannerData = {
 export const ServicesData = {
     subtitle: "Our Services",
     title: "Nationwide SEO that Powers Your Growth",
+    SeoPages: true,
     desc: (
         <>
             Looking to grow nationwide? <Link href="/nationwide-seo-service" className="colorGray">Infiniti Digital’s Nationwide SEO services</Link> are designed to expand your reach, giving you targeted visibility across the country. We help you grow your business nationwide with strategies that connect you with a larger audience.
@@ -85,7 +86,8 @@ export const ContentData = {
         <p>Infiniti Digital’s Nationwide SEO services are designed to help you expand your reach across the country. By optimizing your website, targeting high-value keywords, and ensuring top-notch performance, we make sure your business gets noticed.</p>
         <p> Get noticed, get found, and dominate the national search rankings to unlock endless opportunities for growth.</p>
     </>),
-    img: ContentImg.src
+    img: ContentImg.src,
+    SeoPages: true,
 }
 
 //Content Data
@@ -98,7 +100,8 @@ export const ContentData1 = {
         <p>By boosting your online presence, we help you reach a wider audience and achieve sustainable growth.</p>
 
     </>),
-    img: ContentImg1.src
+    img: ContentImg1.src,
+    SeoPages: true,
 }
 // Process
 export const ProcessData = {
@@ -431,7 +434,7 @@ export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: "Solutions Tailored to Your Industry ",
     desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
-
+    SeoPages: true,
 }
 
 //Testimonials

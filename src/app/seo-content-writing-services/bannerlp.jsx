@@ -38,7 +38,7 @@ const BannerLp = () => {
                     content strategy.
                   </p>
                   <div className={styles.btnFlex}>
-                    <CommonBtn txt="Talk to an Expert" LiveChat={true} />
+                    <CommonBtn txt="Talk to an Expert" LiveChat={true} SeoPages={true} />
                   </div>
                 </div>
                 {/* <div className={styles.banenrImg}>
@@ -51,7 +51,7 @@ const BannerLp = () => {
                   Maximize your ROI with targeted campaigns across top platforms
                   like Google.
                 </p>
-                <ContactFrom bgBlack="no" LandingPage={true} />
+                <ContactFrom bgBlack="no" LandingPage={true} SeoPages={true} />
                 <video
                   autoPlay
                   muted

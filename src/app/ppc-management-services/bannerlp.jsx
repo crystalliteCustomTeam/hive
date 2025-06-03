@@ -17,7 +17,7 @@ const BannerLp = () => {
                             </h1>
                             <p>Your competitors love your bad Google Ads strategy, let’s ruin their fun! With our PPC management service you’ll see real profits, not just pretty graphs.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Talk to an Expert" LiveChat={true} />
+                                <CommonBtn txt="Talk to an Expert" LiveChat={true} SeoPages={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />
@@ -27,7 +27,7 @@ const BannerLp = () => {
                     <Col md={6} lg={5} className="my-auto offset-lg-1">
                         <div className={styles.bannerForms}>
                             <h3>Take your business to infinity and beyond with Infiniti Digital.</h3>
-                            <ContactFrom bgBlack="no" title="Request PPC Audit" />
+                            <ContactFrom bgBlack="no" title="Request PPC Audit" SeoPages={true} />
                         </div>
                     </Col>
 

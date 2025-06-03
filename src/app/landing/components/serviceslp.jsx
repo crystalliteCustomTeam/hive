@@ -22,10 +22,10 @@ const ServicesLp = ({ data, heigthSmall, round, mainbtn }) => {
                                         <div className={styles.title}>{item.title}</div>
                                         <div className={styles.barLine}></div>
                                         <div className={styles.readMore}>
-                                            <CommonBtn txt="Let’s talk" ArrowBtn={true} SimpleBtn={true} />
+                                            <CommonBtn txt="Let’s talk" ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
                                         </div>
                                         <div className={styles.btnReaMore}>
-                                            <CommonBtn txt="" ArrowBtn={true} />
+                                            <CommonBtn txt="" ArrowBtn={true} SeoPages={data.SeoPages} />
                                         </div>
                                         <div>{item.txt}</div>
                                     </div>

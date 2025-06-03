@@ -6,7 +6,7 @@ import { ArrowIcon } from "@/src/app/app-constants";
 import styles from "@/styles/components/commonbtn.module.scss"
 import Link from "next/link";
 
-const CommonBtn = ({ purple, txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack, FlexStart, chatTitle, LinkBtn, extrafrom }) => {
+const CommonBtn = ({ purple, txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center, BgBlack, FlexStart, chatTitle, LinkBtn, SeoPages }) => {
     // Chat Code
     const openChat = () => {
         if (window.LC_API) {
@@ -46,7 +46,7 @@ const CommonBtn = ({ purple, txt, ArrowBtn, SimpleBtn, blackBg, LiveChat, center
                 </div>
             )}
 
-            <PopUp show={modalShow} onHide={() => setModalShow(false)} extrafrom={extrafrom} />
+            <PopUp show={modalShow} onHide={() => setModalShow(false)} SeoPages={SeoPages} />
         </>
     )
 }

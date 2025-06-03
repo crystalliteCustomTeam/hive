@@ -76,7 +76,7 @@ const Bannerlp = () => {
                     <Col md={12} lg={5} className="my-auto">
                         <div className={styles.bannerContactFrom}>
                             <h2>Don’t Be Shy, Say Hi!</h2>
-                            <ContactFrom bg="no" />
+                            <ContactFrom bg="no" SeoPages={true} />
                         </div>
                     </Col>
 

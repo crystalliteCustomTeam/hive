@@ -20,10 +20,10 @@ const ServicesMain = ({ data, greenbg, center }) => {
                                         <div className={styles.title}>{item.title}</div>
                                         <div className={styles.barLine}></div>
                                         <div className={styles.readMore}>
-                                            <CommonBtn txt="Contact Us" ArrowBtn={true} SimpleBtn={true} />
+                                            <CommonBtn txt="Contact Us" ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
                                         </div>
                                         <div className={styles.btnReaMore}>
-                                            <CommonBtn txt="" ArrowBtn={true} />
+                                            <CommonBtn txt="" ArrowBtn={true} SeoPages={data.SeoPages} />
                                         </div>
                                         <p>{item.txt}</p>
                                     </div>

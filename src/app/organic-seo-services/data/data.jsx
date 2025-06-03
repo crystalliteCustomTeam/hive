@@ -49,6 +49,7 @@ export const LPServices = {
     subtitle: "",
     title: "Our SEO Services",
     txt: "Everything You Need to Rank & Convert",
+    SeoPages: true,
     LPServicesItem: [
         {
             title: "Keyword Research & Strategy",
@@ -99,7 +100,7 @@ export const IndustriesData = {
     subtitle: "Industries We Serve",
     title: (<>Your Industry Isn’t the Problem.<br /> Your SEO Is. Let’s Fix That.</>),
     desc: (<>Selling sneakers, stocks, or sandwiches?<br /> Doesn’t matter, If it has a website, we can rank it.<br /> We’ve ranked funeral homes. So yeah, we can bring your dead website back too.</>),
-
+    SeoPages: true,
 }
 
 //Services
@@ -107,6 +108,7 @@ export const ServicesData = {
     subtitle: "",
     title: "You Can’t Rank with Weak SEO. Period.",
     desc: "",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>No SEO <br />Strategy</>),
@@ -191,13 +193,15 @@ export const ContentData = {
         </ul>
     </>),
     img: ContentImg.src,
-    btntxt: "Get a Free SEO Audit"
+    btntxt: "Get a Free SEO Audit",
+    SeoPages: true,
 }
 // Pricing
 export const PriceData = {
     subtitle: "",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
+    SeoPages: true,
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -467,5 +471,6 @@ export const ContactData = {
         <strong>Step three:</strong > Laugh as your competitors wonder what just happened. < br />
     </>),
     bgImg: IMGBG.src,
-    btntxt: "Claim a Free Strategy Session"
+    btntxt: "Claim a Free Strategy Session",
+    SeoPages: true,
 }

@@ -7,7 +7,8 @@ export const BannerData = {
   video: "",
   BannerPoster: BannerPoster.src,
   btntxt: "Get A Free Consultation",
-  link: "https://calendly.com/infinitidigital/free-seo-consultation"
+  link: "https://calendly.com/infinitidigital/free-seo-consultation",
+
 };
 
 //Services
@@ -16,6 +17,7 @@ export const ServicesData = {
   subtitle: "Our Services",
   title: "Boost Local Online Presence",
   desc: "Looking to stand out locally? Our Local SEO services boost your visibility, ensuring customers in your area find and trust your business effortlessly.",
+  SeoPages: true,
   ServicesItem: [
     {
       title: (
@@ -111,6 +113,7 @@ import ContentImg from "media/innerservices/local-seo/Img01.webp";
 export const ContentData = {
   maintitle: true,
   contentTitle: "Why Local SEO Is Key For You",
+
   contentTxt: (
     <>
       <p>
@@ -126,6 +129,8 @@ export const ContentData = {
     </>
   ),
   img: ContentImg.src,
+  SeoPages: true,
+
 };
 
 //Content Data
@@ -148,6 +153,7 @@ export const ContentData1 = {
     </>
   ),
   img: ContentImg1.src,
+  SeoPages: true,
 };
 
 // Process
@@ -283,12 +289,14 @@ export const IndustriesData = {
   subtitle: "Industries We Serve",
   title: "Solutions Tailored to Your Industry ",
   desc: "Whatever your niche, we’ve got the expertise. At Infiniti Digital, we’re dedicated to delivering customized solutions that resonate with your vision.",
+  SeoPages: true,
 };
 // Pricing
 export const PriceData = {
   subtitle: "Our Pricing",
   title: "Discover Our Transparent SEO Pricing Plans",
   desc: "At Infiniti Digital, we offer affordable, customizable pricing for our SEO services, tailored to meet your business’s unique needs. Explore our competitive and customized pricing to help your business thrive in search results!",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",

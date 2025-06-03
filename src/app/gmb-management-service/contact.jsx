@@ -13,7 +13,7 @@ const ContactSection = () => {
                                 Our GMB Ranking Service!
                             </h4>
                             <p>From invisible to unmissable, Infiniti Digital makes it possible.</p>
-                            <ContactFrom removebg={true} extra="Stay on top of Google Maps with our expert GMB management service." />
+                            <ContactFrom removebg={true} extra="Stay on top of Google Maps with our expert GMB management service." SeoPages={true} />
                         </div>
                     </Col>
                 </Row>

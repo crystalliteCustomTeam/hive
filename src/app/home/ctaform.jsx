@@ -13,7 +13,7 @@ const CtaForm = ({ data }) => {
                         <p>{data.desc}</p>
                     </Col>
                     <Col md={7} sm={7} lg={6} xl={6} className="offset-xl-1">
-                        <ContactFrom />
+                        <ContactFrom SeoPages={data.SeoPages} />
                     </Col>
                 </Row>
             </Container>

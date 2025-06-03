@@ -5,6 +5,7 @@ export const ServicesData = {
     subtitle: "",
     title: (<>GMB Services</>),
     desc: "Top Spots On Google Local Search Aren’t For Everyone But For The Ones Who Hire Us For Google Business Profile Management",
+    SeoPages: true,
     ServicesItem: [
         {
             icon: <Serv01 />,
@@ -74,6 +75,7 @@ export const PriceData = {
     subtitle: "",
     title: "Pick a Plan That Puts Your Business on the Map",
     desc: "Ready for more traffic, more leads, and more revenue? Our SEO plans are built for businesses like yours, whether local or global. Let’s make it happen!",
+    SeoPages: true,
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -221,7 +223,8 @@ export const PriceData = {
 import ImgBg1 from "media/landing/gmb/ctaBg1.webp"
 export const CtaData = {
     title: (<>Map Pack on Google Has <span>Room for 3</span><br /> Let’s Make Sure You’re <span>One of Them</span></>),
-    img: ImgBg1.src
+    img: ImgBg1.src,
+    SeoPages: true,
 }
 
 // Main Services
@@ -237,7 +240,8 @@ export const dataService = [
             <p>We know a GMB suspension is a business disaster. That’s why our GMB experts identify exactly why Google shut you down; guideline violations, verification issues, or spam triggers. Then, we fix every problem, clean up your profile, and make sure it’s 100% compliant. We don’t just submit a Google business profile reinstatement request, we make a bulletproof case with the right documentation to get Google to say <i>YES</i>. If they drag their feet, we push harder with follow-ups and escalations. Once reinstated, we fortify your profile to keep it safe from future suspensions. Losing your GMB profile is not an option, let’s get you back in business!</p>
         </>,
         img: Service01.src,
-        btntxt: "Book a Free Consultation "
+        btntxt: "Book a Free Consultation",
+        SeoPages: true,
     },
     {
         title: (<>Stop Watching Competitors Win<br /> Take Over the Map.</>),
@@ -252,7 +256,8 @@ export const dataService = [
             <p>Stop losing business to the guy down the street. Let’s get your GMB profile working for you, book a call now!</p>
         </>,
         img: Service02.src,
-        btntxt: "Schedule a Free Consultation"
+        btntxt: "Schedule a Free Consultation",
+        SeoPages: true,
     },
 
 ]
@@ -309,5 +314,6 @@ export const ContactData = {
     subtitle: "",
     title: "Get In Touch",
     txt: "You handle the business, we’ll handle Google. Deal?",
-    bgImg: ProFile.src
+    bgImg: ProFile.src,
+    SeoPages: true,
 }

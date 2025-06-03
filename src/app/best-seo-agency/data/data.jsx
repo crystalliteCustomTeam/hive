@@ -35,7 +35,8 @@ import CtaImg from "media/landing/smm/cta.webp"
 export const CtaData = {
     title: "Your competitors are still praying for better rankings.",
     txt: "We’re over here making it happen. Come join the winners.",
-    img: CtaImg.src
+    img: CtaImg.src,
+    SeoPages: true,
 }
 
 export const WhyChooseData = {
@@ -70,6 +71,7 @@ export const ServicesData = {
     subtitle: "",
     title: (<>Services at Our SEO Agency <br />That Are Actually Worth Your Time (And Money)</>),
     desc: "Still think SEO is just optional? That’s adorable, but it’s also why you’re getting left behind. We don’t just slap some keywords on your site and hope for the best. We come at you with the real deal. ",
+    SeoPages: true,
     ServicesItem: [
         {
             title: (<>Keyword Research <br />& Strategy</>),
@@ -120,6 +122,7 @@ export const PriceData = {
     subtitle: "",
     title: (<>Other agencies charge you for ‘results.’<br /> We deliver <i>profit.</i></>),
     desc: "",
+    SeoPages: true,
     PriceItem: [
         {
             bgColor: "#7635FF",
@@ -412,6 +415,7 @@ export const talkData = {
     title: (<>Everyone’s got an SEO “strategy,” <br />but ours actually works</>),
     txt: (<></>),
     formtitle: "Your rankings are fine….. for now.",
+    SeoPages: true,
 }
 
 
@@ -424,5 +428,6 @@ export const ContactData = {
     title: (<>Still trusting that SEO Company from last year?</>),
     desc: "Hope you’re not in too deep. Let’s fix this.",
     bgImg: IMGBG.src,
-    btntxt: "Submit"
+    btntxt: "Submit",
+    SeoPages: true,
 }

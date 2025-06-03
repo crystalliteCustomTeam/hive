@@ -13,13 +13,13 @@ const CallBack = ({ data }) => {
               <div className="subtitle">{data.subtitle1}</div>
               <h2>{data.title1}</h2>
               <p>{data.txt1}</p>
-              <CommonBtn txt="Connect with us" LiveChat={true} BgBlack={true} />
+              <CommonBtn txt="Connect with us" LiveChat={true} BgBlack={true} SeoPages={data.SeoPages} />
             </div>
           </Col>
           <Col md={12} lg={6} className="my-auto">
             <div className={styles.callBackBox2}>
               <div className="subtitle blackColor">
-              {data.subtitle2}
+                {data.subtitle2}
               </div>
               <h2>{data.title2}</h2>
               <ContactFrom location={true} title="Get a Free Consultation" />

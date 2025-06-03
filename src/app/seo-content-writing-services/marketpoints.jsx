@@ -45,7 +45,7 @@ const MarketPoints = ({ data }) => {
                                         <div className={styles.contentBox}>
                                             <h4>{item.title}</h4>
                                             <p>{item.para}</p>
-                                            <CommonBtn txt="Let’s Connect" />
+                                            <CommonBtn txt="Let’s Connect" SeoPages={data.SeoPages} />
                                         </div>
                                         <div className={styles.imgContainer}>
                                             <div className={styles.imageBox}>

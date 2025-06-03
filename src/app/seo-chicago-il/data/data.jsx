@@ -20,6 +20,7 @@ export const CallbackData = {
   txt1: "We help businesses like yours get more visitors by improving search engine ranking and bringing in quality leads.",
   subtitle2: "Ready to Rank Higher?",
   title2: "Book Your Free SEO Consultation!",
+  SeoPages: true,
 };
 //Services
 import {
@@ -38,6 +39,7 @@ export const ServicesData = {
   subtitle: "",
   title: <>Chicago SEO Services</>,
   desc: "Expert SEO services for Businesses Based in Chicago, Ready to Lead the Market.",
+  SeoPages: true,
   ServicesItem: [
     {
       icon: <Serv01 />,
@@ -119,6 +121,7 @@ export const PriceData = {
   subtitle: "",
   title: "SEO Packages for Every Business in Chicago",
   desc: "Our Chicago SEO packages are built to help businesses of all sizes increase visibility, attract quality traffic, and drive more conversions.",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -278,6 +281,7 @@ export const ContactData = {
   subtitle: "Request A Free Quote",
   title1: "SEO That Gets You Noticed in Chicago",
   txt1: "Dominate search results with seo in Chicago.",
+  SeoPages: true,
 };
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {

@@ -8,7 +8,7 @@ import SliderArrow from "@/src/app/components/sliderarrow";
 import Autoplay from 'embla-carousel-autoplay'
 const OPTIONS = { loop: true, align: 'start' }
 
-const Industries = ({ data, IndustryData,location }) => {
+const Industries = ({ data, IndustryData, location }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(OPTIONS, [Autoplay({ delay: 3000 })])
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
@@ -41,13 +41,13 @@ const Industries = ({ data, IndustryData,location }) => {
                                     {IndustryData.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.industriesImage}>
-                                                <Image src={item.Img} alt={`Image ${index}`} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"/>
+                                                <Image src={item.Img} alt={`Image ${index}`} fill sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
                                             </div>
                                             <div className={styles.industriesContent}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.txt}</p>
                                                 <div className={styles.btnReaMore}>
-                                                    <CommonBtn txt="Get A Free Consultation" ArrowBtn={true} FlexStart={true} />
+                                                    <CommonBtn txt="Get A Free Consultation" ArrowBtn={true} FlexStart={true} SeoPages={data.SeoPages} />
                                                 </div>
 
                                             </div>

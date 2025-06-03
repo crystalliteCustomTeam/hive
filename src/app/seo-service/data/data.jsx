@@ -156,6 +156,7 @@ export const ServicesData = {
   subtitle: "Our Services",
   title: "Comprehensive SEO Services",
   desc: "Isn’t it time to maximize your online potential? Greet solutions that deliver real results. Here how: ",
+  SeoPages: true,
   ServicesItem: [
     {
       title: (
@@ -243,6 +244,7 @@ export const CtaData = {
     Your business deserves more than just aesthetics—it needs results-driven designs that captivate your audience and drive measurable growth. At Infiniti Digital, we craft innovative, functional, and engaging <Link href="/organic-seo-services" className="colorWhite">SEO solutions</Link> tailored to your goals.
   </>),
   img: ImgBg.src,
+  SeoPages: true
 };
 
 // Pricing
@@ -250,6 +252,7 @@ export const PriceData = {
   subtitle: "Our Pricing",
   title: "Discover Our Transparent SEO Pricing Plans",
   desc: "At Infiniti Digital, we offer affordable, customizable pricing for our SEO services, tailored to meet your business’s unique needs. Explore our competitive and customized pricing to help your business thrive in search results!",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -483,6 +486,7 @@ export const CallActionData = {
   subtitle: "Contact Us",
   title: "Your Journey to Success Starts Now",
   desc: "Your vision deserves more than just a digital presence—it deserves a strategy that delivers measurable results and drives lasting growth. Let’s collaborate to create impactful strategies tailored to your goals and share stories that matter.",
+  SeoPages: true,
 };
 
 // FAQs

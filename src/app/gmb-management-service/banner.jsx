@@ -17,7 +17,7 @@ const Banner = () => {
                             <p>People trust Google to tell them where to go and a well-optimized profile gets you more visibility,<br /> calls, and foot traffic. If you’re not ranking for your keywords, you’re losing customers.<br />
                                 Let’s fix it with our GMB ranking service.</p>
                             <div className={styles.btnFlex}>
-                                <CommonBtn txt="Let’s Connect" LiveChat={true} BgBlack={true} center={true} />
+                                <CommonBtn txt="Let’s Connect" LiveChat={true} BgBlack={true} center={true} SeoPages={true} />
                             </div>
                             <div className={styles.banenrLogo}>
                                 <Image src={LogoImg.src} alt="Banner Logos" width={539} height={27} />

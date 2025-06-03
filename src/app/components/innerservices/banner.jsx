@@ -13,7 +13,7 @@ const Banner = ({ data }) => {
 
                             <h1>{data.title}</h1>
                             <p>{data.desc}</p>
-                            <CommonBtn txt={data.btntxt ? data.btntxt : "Get A Free Consultation"} BgBlack={true} LinkBtn={data.link} />
+                            <CommonBtn txt={data.btntxt ? data.btntxt : "Get A Free Consultation"} BgBlack={true} LinkBtn={data.link} SeoPages={data.SeoPages} />
 
                         </div>
                     </Col>

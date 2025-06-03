@@ -6,14 +6,14 @@ import { CheckedIcon } from "@/src/app/app-constants"
 import CommonBtn from "@/src/app/components/common/commonbtn";
 
 
-const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg ,location}) => {
+const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg, location }) => {
     const [selectedPrice, setSelectedPrice] = useState(1);
     const handlePriceClick = (priceIndex) => {
         setSelectedPrice(priceIndex);
     };
 
     return (
-        <section id="PricingId" className={`pt-100 ${styles.pricingSection} ${SMMLP ? styles.smmLp : ""} ${bg === "yes" ? styles.blackBG : ""} ${location ? styles.locationBg :""} ${bluebg ? styles.blueBG : ""} ${graybg ? styles.grayBG : ""}`}>
+        <section id="PricingId" className={`pt-100 ${styles.pricingSection} ${SMMLP ? styles.smmLp : ""} ${bg === "yes" ? styles.blackBG : ""} ${location ? styles.locationBg : ""} ${bluebg ? styles.blueBG : ""} ${graybg ? styles.grayBG : ""}`}>
             <Container>
                 <Row>
                     <Col md={8}>
@@ -54,7 +54,7 @@ const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg ,location}) => {
                                         {item.titletxt ? <div className={styles.packageSubTxt}>{item?.titletxt}</div> : ""}
                                         <div className={styles.packagepara}>{item.txt}</div>
                                         <div className={styles.packagebutton}>
-                                            <CommonBtn ArrowBtn={true} SimpleBtn={true} txt="Get Started" />
+                                            <CommonBtn ArrowBtn={true} SimpleBtn={true} txt="Get Started" SeoPages={data.SeoPages} />
                                         </div>
                                     </div>
                                     <div className={styles.packageBody}>

@@ -19,6 +19,7 @@ export const CallbackData = {
   txt1: "Get better rankings & more traffic with expert SEO in NYC!",
   subtitle2: "Your growth starts with",
   title2: "SEO in NYC, NY.",
+  SeoPages: true,
 };
 //Services
 import {
@@ -37,6 +38,7 @@ export const ServicesData = {
   subtitle: "",
   title: <>NYC Organic SEO Services</>,
   desc: "Drive more organic traffic to your website with our seo services in NYC.",
+  SeoPages: true,
   ServicesItem: [
     {
       icon: <Serv01 />,
@@ -118,6 +120,7 @@ export const PriceData = {
   subtitle: "",
   title: "NYC SEO Packages",
   desc: "Power up your ranking and dominate local search in New York City, New York. ",
+  SeoPages: true,
   PriceItem: [
     {
       bgColor: "#7635FF",
@@ -277,6 +280,7 @@ export const ContactData = {
   subtitle: "Request A Free Quote",
   title1: "NYC SEO Experts",
   txt1: "Brings you more customers, not just rankings.",
+  SeoPages: true,
 };
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {
