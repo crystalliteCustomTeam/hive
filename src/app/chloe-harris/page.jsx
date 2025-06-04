@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <>
       <Banner />
-      <AuthorPost data={BlgosData}   title="SEO Resources Archive" desc="Explore a wealth of SEO knowledge, expert strategies, actionable tips, and in-depth guides from an SEO Specialist at Infiniti Digital, Brielle Delmar." blogPage={false} />
+      <AuthorPost data={BlgosData} title="SEO Resources Archive" desc="Explore a wealth of SEO knowledge, expert strategies, actionable tips, and in-depth guides from an SEO Specialist at Infiniti Digital, Chloe Harris." blogPage={false} />
       <CtaForm data={CallActionData} />
     </>
   );
