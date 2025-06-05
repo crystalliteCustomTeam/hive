@@ -5,9 +5,9 @@ import useEmblaCarousel from 'embla-carousel-react'
 import ClassNames from 'embla-carousel-class-names'
 import Autoplay from 'embla-carousel-autoplay'
 
-
 const options = { loop: true }
 import SliderArrow from "@/src/app/components/sliderarrow";
+
 const Testimonials = ({ data }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 3000 }), ClassNames()])
     const prevButtonHandler = () => {
