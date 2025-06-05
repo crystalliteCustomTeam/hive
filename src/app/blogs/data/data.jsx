@@ -36,16 +36,16 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
-    {
-      title:
-        "How A Chicago SEO Agency Tracks & Reports Your SEO Performance",
-      date: "04 Jun, 2025",
-      txt: "Have you invested time, money, and energy into improving your website’s SEO performance, yet skeptical executives and stakeholders demand concrete proof? ",
-      category: "SEO",
-      img: IMG17.src,
-      link: "/how-chicago-seo-agency-track-and-report-seo-performance",
-      author: "lily-chen",
-    },
+    // {
+    //   title:
+    //     "How A Chicago SEO Agency Tracks & Reports Your SEO Performance",
+    //   date: "04 Jun, 2025",
+    //   txt: "Have you invested time, money, and energy into improving your website’s SEO performance, yet skeptical executives and stakeholders demand concrete proof? ",
+    //   category: "SEO",
+    //   img: IMG17.src,
+    //   link: "/how-chicago-seo-agency-track-and-report-seo-performance",
+    //   author: "lily-chen",
+    // },
     {
       title:
         "How To Choose The Right Mobile App Development Company For Your Project",

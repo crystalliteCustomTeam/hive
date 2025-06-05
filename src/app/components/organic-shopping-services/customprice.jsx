@@ -27,7 +27,7 @@ const CustomPrice = () => {
                                     </div>
                                     <div className={styles.customPrice}>
                                         <div className={styles.startAt}>Starting at</div>
-                                        <div className={styles.Price}>$1150</div>
+                                        <div className={styles.Price}>$1150<span>/mo</span></div>
                                     </div>
                                 </div>
                                 <div className={styles.customMainBtn}>
@@ -52,8 +52,8 @@ const CustomPrice = () => {
                                             </div>
                                         </div>
                                         <div className={styles.listTxt}>
-                                            <h6>Platform Complexity & Market Coverage</h6>
-                                            <p>The number of markets, currencies, and platform integrations required for full optimization.</p>
+                                            <h6>Feed Quality</h6>
+                                            <p>The condition of your product data; missing GTINs, attributes, disapprovals, and compliance issues.</p>
                                         </div>
                                     </div>
                                     <div className={styles.listItem}>
@@ -63,8 +63,8 @@ const CustomPrice = () => {
                                             </div>
                                         </div>
                                         <div className={styles.listTxt}>
-                                            <h6>SEO & Content</h6>
-                                            <p>Content is part of SEO, but extra content boosts growth faster.</p>
+                                            <h6>Platform Complexity & Market Coverage</h6>
+                                            <p>The number of markets, currencies, and platform integrations required for full optimization.</p>
                                         </div>
                                     </div>
                                 </div>

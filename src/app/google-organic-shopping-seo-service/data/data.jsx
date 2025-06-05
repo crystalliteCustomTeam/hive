@@ -221,5 +221,5 @@ export const TestimonialData = {
 export const CallActionData = {
     subtitle: "Contact Us",
     title: "Done Right. Done By Experts",
-    desc: "We don’t offer band- aid fixes or generic solutions.We engineer fully optimized, compliant, and scalable Organic Shopping systems designed for serious ecommerce growth.",
+    desc: "We don’t offer band-aid fixes or generic solutions. We engineer fully optimized, compliant, and scalable Organic Shopping systems designed for serious ecommerce growth.",
 };
