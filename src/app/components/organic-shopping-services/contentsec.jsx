@@ -4,14 +4,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import CommonBtn from "@/src/app/components/common/commonbtn";
 
 
-const ContentSec = ({ data }) => {
+const ContentSec = ({ data, marginTop }) => {
     return (
-        <section className={`${styles.contentSec} p-100`}>
+        <section className={`${styles.contentSec} ${marginTop ? styles.marginTop100 : ""} p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={6}>
                         <h2>{data.title}</h2>
-                        <p>{data.desc}</p>
+                        <div className={styles.contentBox}>{data.desc}</div>
                         <CommonBtn txt={data.txt ? data.txt : "Get A Free Consultation"} LiveChat={true} BgBlack={true} />
                     </Col>
                     <Col md={6}>

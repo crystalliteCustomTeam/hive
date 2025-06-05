@@ -24,7 +24,7 @@ const MaxReach = () => {
                         <div className={styles.maxReachImage} style={{ backgroundImage: `url(${bannerImage.src})` }}>
                             <div className={styles.maxReachContent}>
                                 <h4>Faster, Easier Checkouts</h4>
-                                <p>Google makes it simple for your customers to buy. With features like Google’s "Buy on Google" checkout and integrated merchant programs, shoppers can complete purchases directly from Google Search or Shopping, reducing friction, increasing conversions, and boosting your revenue.</p>
+                                <p>Google makes it simple for your customers to buy. With features like Google’s &quot;Buy on Google&quot; checkout and integrated merchant programs, shoppers can complete purchases directly from Google Search or Shopping, reducing friction, increasing conversions, and boosting your revenue.</p>
                             </div>
                         </div>
                     </Col>

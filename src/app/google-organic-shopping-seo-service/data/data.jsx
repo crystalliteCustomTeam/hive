@@ -3,6 +3,13 @@ import VideoPoster02 from "media/organic-shopping-services/organic-shopping/vide
 import Image1 from "media/organic-shopping-services/organic-shopping/Image1.webp";
 import Image2 from "media/organic-shopping-services/organic-shopping/Image2.webp";
 import Link from "next/link";
+import bannerImage from "media/organic-shopping-services/organic-shopping/bannerImage.webp";
+
+export const BannerData = {
+    title: "Optimize Ecommerce Growth With Google Organic Shopping",
+    desc: "Turn Google into your #1 sales channel without paying for Google shopping Ads. Get your products in front of millions with fully optimized organic shopping feeds in combination with search engine optimization.",
+    img: bannerImage.src,
+};
 
 
 export const GeoJourneyData = {
@@ -14,7 +21,7 @@ export const GeoJourneyData = {
 
 export const Content1Data = {
     title: "Build A Long-Term, Profitable Acquisition Channel On Google",
-    desc: "This is the best time to claim your shelf space on Google shopping tab, with our organic shopping optimization service. Buyers can easily filter products by price, brand, color, size, availability, shipping speed, and more, directly inside Google’s search results. This means your products don’t just show up, they show up for exactly the right customer. The better your product data is optimized, the more filters your products qualify for. As Google continues to evolve with smarter AI, visual search, AR previews, and deeper personalization, your optimized feed positions you to capture even more, high-intent traffic.",
+    desc: (<p>This is the best time to claim your shelf space on Google shopping tab, with our organic shopping optimization service. Buyers can easily filter products by price, brand, color, size, availability, shipping speed, and more, directly inside Google’s search results. This means your products don’t just show up, they show up for exactly the right customer. The better your product data is optimized, the more filters your products qualify for. As Google continues to evolve with smarter AI, visual search, AR previews, and deeper personalization, your optimized feed positions you to capture even more, high-intent traffic.</p>),
     image: Image1.src,
     txt: "Tell us about your products"
 };

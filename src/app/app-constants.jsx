@@ -1046,69 +1046,87 @@ export function CustomPrice03() {
 export function SubscribeCape() {
   return (
     <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="34"
-    height="34"
-    fill="none"
-    viewBox="0 0 34 34"
-  >
-    <circle cx="16.84" cy="16.941" r="16.541" fill="#000"></circle>
-    <g clipPath="url(#clip0_5957_27563)">
-      <path
-        fill="url(#paint0_linear_5957_27563)"
-        d="M24.424 12.524a.59.59 0 0 0-.653-.066l-.174.083-3.995 1.993a.27.27 0 0 1-.198.066c0-.058-.058-.124-.083-.19a863 863 0 0 0-2.1-5.252.7.7 0 0 0-.364-.43.637.637 0 0 0-.827.43l-1.654 4.135-.521 1.29-.19-.09L9.57 12.45a.64.64 0 0 0-.728 0 .65.65 0 0 0-.215.678c.455 2.224.893 4.457 1.34 6.69.115.588.24 1.183.355 1.778h12.662c.24-1.24.488-2.48.728-3.672.33-1.654.653-3.233.976-4.854a.6.6 0 0 0-.265-.546m-7.675 6.616h-.248a1.604 1.604 0 1 1 .248 0"
-      ></path>
-      <path
-        fill="url(#paint1_linear_5957_27563)"
-        d="M22.803 22.928v1.886a.587.587 0 0 1-.57.57H11.175c-.529 0-.752-.223-.752-.744v-1.712z"
-      ></path>
-    </g>
-    <defs>
-      <linearGradient
-        id="paint0_linear_5957_27563"
-        x1="17.48"
-        x2="19.883"
-        y1="24.731"
-        y2="7.458"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#fff"></stop>
-        <stop offset="1" stopColor="#9AFF35"></stop>
-      </linearGradient>
-      <linearGradient
-        id="paint1_linear_5957_27563"
-        x1="17.253"
-        x2="17.369"
-        y1="25.981"
-        y2="22.634"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#fff"></stop>
-        <stop offset="1" stopColor="#9AFF35"></stop>
-      </linearGradient>
-      <clipPath id="clip0_5957_27563">
-        <path fill="#fff" d="M8.57 8.67h16.094v16.722H8.57z"></path>
-      </clipPath>
-    </defs>
-  </svg>
+      xmlns="http://www.w3.org/2000/svg"
+      width="34"
+      height="34"
+      fill="none"
+      viewBox="0 0 34 34"
+    >
+      <circle cx="16.84" cy="16.941" r="16.541" fill="#000"></circle>
+      <g clipPath="url(#clip0_5957_27563)">
+        <path
+          fill="url(#paint0_linear_5957_27563)"
+          d="M24.424 12.524a.59.59 0 0 0-.653-.066l-.174.083-3.995 1.993a.27.27 0 0 1-.198.066c0-.058-.058-.124-.083-.19a863 863 0 0 0-2.1-5.252.7.7 0 0 0-.364-.43.637.637 0 0 0-.827.43l-1.654 4.135-.521 1.29-.19-.09L9.57 12.45a.64.64 0 0 0-.728 0 .65.65 0 0 0-.215.678c.455 2.224.893 4.457 1.34 6.69.115.588.24 1.183.355 1.778h12.662c.24-1.24.488-2.48.728-3.672.33-1.654.653-3.233.976-4.854a.6.6 0 0 0-.265-.546m-7.675 6.616h-.248a1.604 1.604 0 1 1 .248 0"
+        ></path>
+        <path
+          fill="url(#paint1_linear_5957_27563)"
+          d="M22.803 22.928v1.886a.587.587 0 0 1-.57.57H11.175c-.529 0-.752-.223-.752-.744v-1.712z"
+        ></path>
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_5957_27563"
+          x1="17.48"
+          x2="19.883"
+          y1="24.731"
+          y2="7.458"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#fff"></stop>
+          <stop offset="1" stopColor="#9AFF35"></stop>
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_5957_27563"
+          x1="17.253"
+          x2="17.369"
+          y1="25.981"
+          y2="22.634"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#fff"></stop>
+          <stop offset="1" stopColor="#9AFF35"></stop>
+        </linearGradient>
+        <clipPath id="clip0_5957_27563">
+          <path fill="#fff" d="M8.57 8.67h16.094v16.722H8.57z"></path>
+        </clipPath>
+      </defs>
+    </svg>
   )
 }
 export function InstagramLogo() {
   <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="18"
-  height="18"
-  fill="none"
-  viewBox="0 0 18 18"
->
-  <g fill="#000" clipPath="url(#clip0_5957_27591)">
-    <path d="M9.153 17.41H4.979a4.21 4.21 0 0 1-4.174-3.375 4.5 4.5 0 0 1-.067-.788V4.843A4.185 4.185 0 0 1 4.113.69q.417-.076.844-.067h8.302a4.185 4.185 0 0 1 4.276 4.219v8.292a4.186 4.186 0 0 1-3.207 4.151 4.5 4.5 0 0 1-1.125.112zM4.945 8.87a4.219 4.219 0 1 0 8.433.267 4.219 4.219 0 0 0-8.433-.266m9.552-4.398a.845.845 0 0 0-1.468-.659.84.84 0 0 0 .069 1.191.844.844 0 0 0 1.399-.532"></path>
-    <path d="M11.684 8.994a2.531 2.531 0 1 1-5.063 0 2.531 2.531 0 0 1 5.063 0"></path>
-  </g>
-  <defs>
-    <clipPath id="clip0_5957_27591">
-      <path fill="#fff" d="M.737.579H17.58V17.42H.737z"></path>
-    </clipPath>
-  </defs>
-</svg>
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="18"
+    fill="none"
+    viewBox="0 0 18 18"
+  >
+    <g fill="#000" clipPath="url(#clip0_5957_27591)">
+      <path d="M9.153 17.41H4.979a4.21 4.21 0 0 1-4.174-3.375 4.5 4.5 0 0 1-.067-.788V4.843A4.185 4.185 0 0 1 4.113.69q.417-.076.844-.067h8.302a4.185 4.185 0 0 1 4.276 4.219v8.292a4.186 4.186 0 0 1-3.207 4.151 4.5 4.5 0 0 1-1.125.112zM4.945 8.87a4.219 4.219 0 1 0 8.433.267 4.219 4.219 0 0 0-8.433-.266m9.552-4.398a.845.845 0 0 0-1.468-.659.84.84 0 0 0 .069 1.191.844.844 0 0 0 1.399-.532"></path>
+      <path d="M11.684 8.994a2.531 2.531 0 1 1-5.063 0 2.531 2.531 0 0 1 5.063 0"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_5957_27591">
+        <path fill="#fff" d="M.737.579H17.58V17.42H.737z"></path>
+      </clipPath>
+    </defs>
+  </svg>
+}
+
+export function CheckGreenIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="21"
+      fill="none"
+      viewBox="0 0 20 21"
+    >
+      <rect width="20" height="20" y="0.592" fill="#9AFF35" rx="10"></rect>
+      <path
+        fill="#fff"
+        d="M14.742 8.168a.954.954 0 0 0 0-1.306.855.855 0 0 0-1.248 0l-5.259 5.501-1.729-1.808a.855.855 0 0 0-1.248 0 .953.953 0 0 0 0 1.305l2.353 2.461c.345.36.904.36 1.248 0z"
+      ></path>
+    </svg>
+  )
 }

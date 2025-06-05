@@ -1,7 +1,29 @@
 .contentSec {
   background: linear-gradient(0deg, #ffffff 0%, #e0f0ff 73.08%);
   border-radius: 100px;
-
+  &.marginTop100 {
+    margin-top: 100px;
+  }
+  .contentBox {
+    margin-top: 20px;
+    p {
+    }
+    ul {
+      margin-bottom: 30px;
+      li {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: -0.165px;
+        color: #000;
+        margin-bottom: 10px;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
   .contentImage {
     width: 90%;
     margin-left: auto;

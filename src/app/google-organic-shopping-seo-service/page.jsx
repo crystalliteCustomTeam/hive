@@ -1,6 +1,6 @@
 import Banner from "@/src/app/components/organic-shopping-services/banner";
 import GeoJourney from "@/src/app/components/organic-shopping-services/geojourney";
-import { GeoJourneyData, Content1Data, Content2Data, ServicesData, processlp, GeoJourneyData1, TestimonialData, CallActionData } from "@/src/app/google-organic-shopping-seo-service/data/data";
+import { BannerData, GeoJourneyData, Content1Data, Content2Data, ServicesData, processlp, GeoJourneyData1, TestimonialData, CallActionData } from "@/src/app/google-organic-shopping-seo-service/data/data";
 import MaxReach from "@/src/app/components/organic-shopping-services/maxreach";
 import ContentSec from "@/src/app/components/organic-shopping-services/contentsec";
 import ContentBox from "@/src/app/components/organic-shopping-services/contentbox";
@@ -22,7 +22,7 @@ import {
 const Page = () => {
   return (
     <>
-      <Banner />
+      <Banner data={BannerData} />
       <GeoJourney data={GeoJourneyData} />
       <MaxReach />
       <ContentSec data={Content1Data} />
