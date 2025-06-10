@@ -1130,3 +1130,72 @@ export function CheckGreenIcon() {
     </svg>
   )
 }
+
+
+export function EmailIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="19.003"
+      height="14"
+      data-name="email (3)"
+      viewBox="0 0 19.003 14"
+    >
+      <g data-name="Group 53362" transform="translate(0 3.949)">
+        <g data-name="Group 53361">
+          <path
+            fill="#fff"
+            d="M10.051 152.652a1.08 1.08 0 01-1.122 0L0 147.2v7.247a2.806 2.806 0 002.8 2.8h13.4a2.806 2.806 0 002.8-2.8V147.2z"
+            data-name="Path 84042"
+            transform="translate(0 -147.2)"
+          ></path>
+        </g>
+      </g>
+      <g data-name="Group 53364" transform="translate(.09)">
+        <g data-name="Group 53363">
+          <path
+            fill="#fff"
+            d="M18.157 57.088H4.763a2.788 2.788 0 00-2.715 2.2l9.423 5.744 9.4-5.744a2.788 2.788 0 00-2.714-2.2z"
+            data-name="Path 84043"
+            transform="translate(-2.048 -57.088)"
+          ></path>
+        </g>
+      </g>
+    </svg>
+  )
+}
+
+
+export function PhonesIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="14.123"
+      height="14.123"
+      viewBox="0 0 14.123 14.123"
+    >
+      <path
+        fill="#fff"
+        d="M12.99 9.27a8.019 8.019 0 01-2.518-.4 1.151 1.151 0 00-1.119.236L7.764 10.3a8.776 8.776 0 01-3.946-3.941l1.164-1.547a1.142 1.142 0 00.281-1.157 8.031 8.031 0 01-.4-2.522A1.135 1.135 0 003.727 0H1.133A1.135 1.135 0 000 1.133a13 13 0 0012.99 12.99 1.135 1.135 0 001.133-1.133V10.4a1.135 1.135 0 00-1.133-1.13z"
+        data-name="Path 86084"
+      ></path>
+    </svg>
+  )
+}
+
+export function ArrowsIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="42.814"
+      height="20.738"
+      viewBox="0 0 42.814 20.738"
+    >
+      <path
+        d="M.491 9.185L9.231.487a1.672 1.672 0 012.36 2.371L5.723 8.7h35.418a1.672 1.672 0 010 3.345H5.723l5.867 5.835a1.672 1.672 0 01-2.36 2.371l-8.739-8.7a1.674 1.674 0 010-2.366z"
+        data-name="Path 85970"
+        transform="rotate(180 21.407 10.369)"
+      ></path>
+    </svg>
+  )
+}

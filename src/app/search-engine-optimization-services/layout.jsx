@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
     <>
       <HeaderSimpleLp />
       {children}
-      <FooterLp />
+      <FooterLp marginTop={true} />
     </>
   );
 }

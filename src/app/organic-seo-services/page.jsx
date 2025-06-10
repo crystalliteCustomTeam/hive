@@ -21,6 +21,8 @@ import {
   IndustriesData,
 } from "@/src/app/organic-seo-services/data/data";
 import { IndustryItem } from "@/src/app/home/data/data";
+import Location from "@/src/app/layout/location"
+
 
 const Page = () => {
   return (
@@ -36,6 +38,7 @@ const Page = () => {
       <ProcessLp black={true} data={processlp} round={true} />
       <WhyChooseLp data={WhyChooseData} />
       <ContactLp data={ContactData} />
+      <Location />
     </>
   );
 };

@@ -1,4 +1,5 @@
-
+"use client";
+import { useEffect, useState } from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/layout/footer.module.scss"
 import Image from "next/image"
@@ -6,6 +7,9 @@ import Link from "next/link"
 import PaymentImg from "media/home/paymentImg.webp"
 import { FooterLogo } from "@/src/app/app-constants"
 import { usePathname } from "next/navigation";
+import Location from "@/src/app/layout/location"
+
+
 export const subMenuItems = [
     { label: "Social Media Marketing", path: "/social-media-marketing-services" },
     { label: "Social Media Advertising", path: "/social-media-advertising-services" },
@@ -42,9 +46,40 @@ const QuickLinks = [
 ]
 
 const Footer = () => {
+
+    const [isLocation, setIsLocation] = useState(true);
     const pathname = usePathname();
+
+    useEffect(() => {
+        setIsLocation(
+            pathname === "/" ||
+            pathname === "/seo-service" ||
+            pathname === "/local-seo-service" ||
+            pathname === "/white-label-seo-service" ||
+            pathname === "/nationwide-seo-service" ||
+            pathname === "/small-business-seo-services" ||
+            pathname === "/enterprise-seo-service" ||
+            pathname === "/seo-agency" ||
+            pathname === "/seo-dallas-tx" ||
+            pathname === "/seo-houston-tx" ||
+            pathname === "/seo-nyc-ny" ||
+            pathname === "/seo-chicago-il" ||
+            pathname === "/seo-los-angeles-ca" ||
+            pathname === "/seo-denver-co" ||
+            pathname === "/search-engine-optimization-services" ||
+            pathname === "/best-seo-agency" ||
+            pathname === "/organic-seo-services" ||
+            pathname === "/local-seo-agency"
+        );
+    }, [pathname]);
+
     return (
         <>
+            {isLocation ? (
+                <Location />
+            ) : ""
+            }
+
             <section className={styles.FooterSection}>
                 <Container>
                     <Row>

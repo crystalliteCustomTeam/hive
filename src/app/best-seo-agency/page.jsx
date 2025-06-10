@@ -20,6 +20,7 @@ import {
   talkData,
 } from "@/src/app/best-seo-agency/data/data";
 import TalkLp from "@/src/app/landing/components/talk";
+import Location from "@/src/app/layout/location"
 
 const Page = () => {
   return (
@@ -40,6 +41,7 @@ const Page = () => {
       <TalkLp data={talkData} />
       <AwardsLp data={AwardsPoints} />
       <ContactLp data={ContactData} />
+      <Location />
     </>
   );
 };

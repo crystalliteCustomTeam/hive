@@ -4,9 +4,9 @@ import { Col, Container, Row } from "react-bootstrap"
 import PaymentImg from "media/home/paymentImg.webp"
 import Link from "next/link"
 import Image from "next/image"
-const FooterLp = () => {
+const FooterLp = ({ marginTop }) => {
     return (
-        <section className={`${styles.copyRightLp} ${styles.copyRightSection}`}>
+        <section className={`${styles.copyRightLp} ${styles.copyRightSection} ${marginTop ? styles.marginTop : ''}`}>
             <Container className="h-100">
                 <Row className={`${styles.borderStyle} h-100`} >
                     <Col sm={6} md={6} className="my-auto">

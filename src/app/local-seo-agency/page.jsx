@@ -18,6 +18,7 @@ import {
   AbtAwardsData,
 } from "@/src/app/local-seo-agency/data/data";
 import LogoSection from "@/src/app/local-seo-agency/logo";
+import Location from "@/src/app/layout/location"
 
 const Page = () => {
   return (
@@ -32,6 +33,7 @@ const Page = () => {
       <Testimonials data={TestimonialData} />
       <LogoSection />
       <ContactLp data={ContactData} />
+      <Location />
     </>
   );
 };

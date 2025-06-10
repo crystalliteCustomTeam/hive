@@ -5,6 +5,7 @@ import ServicesLP from "@/src/app/organic-seo-services/serviceslp";
 import CTA from "@/src/app/search-engine-optimization-services/cta";
 import WhyChooseLp from "@/src/app/search-engine-optimization-services/whychoose";
 import ProcessLp from "@/src/app/landing/components/processlp";
+import Location from "@/src/app/layout/location"
 import {
   CtaData01,
   LPServices,
@@ -23,6 +24,7 @@ const Page = () => {
       <ServicesLP data={LPServices} bg={true} />
       <ProcessLp black={true} data={processlp} roundwhite={true} />
       <WhyChooseLp data={WhyData} />
+      <Location />
     </>
   );
 };
