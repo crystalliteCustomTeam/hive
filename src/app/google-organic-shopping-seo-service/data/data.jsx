@@ -9,6 +9,8 @@ export const BannerData = {
     title: "Optimize Ecommerce Growth With Google Organic Shopping",
     desc: "Turn Google into your #1 sales channel without paying for Google shopping Ads. Get your products in front of millions with fully optimized organic shopping feeds in combination with search engine optimization.",
     img: bannerImage.src,
+    link: "https://calendly.com/infinitidigital/free-seo-consultation",
+
 };
 
 
@@ -17,6 +19,7 @@ export const GeoJourneyData = {
     desc: "Start growing your organic sales today. Let us show you exactly how much free revenue you’re missing with a 100% free audit of your current Google organic shopping potential.",
     video: "/organic-shopping-services/organic-shopping/mainVideo-01.mp4",
     BannerPoster: VideoPoster01.src,
+    link: "https://calendly.com/infinitidigital/free-seo-consultation",
 };
 
 export const Content1Data = {

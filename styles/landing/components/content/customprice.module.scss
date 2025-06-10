@@ -93,13 +93,13 @@
           .Price {
             font-style: normal;
             font-weight: 600;
-            font-size: 68px;
-            line-height: 80px;
+            font-size: 50px;
+            line-height: 50px;
             letter-spacing: -0.550676px;
             color: #7635ff;
             text-align: right;
             span {
-              font-size: 30px;
+              font-size: 25px;
               font-weight: 600;
               color: #7635ff;
             }
@@ -262,8 +262,11 @@
             .Price {
               font-style: normal;
               font-weight: 600;
-              font-size: 60px;
-              line-height: 60px;
+              font-size: 50px;
+              line-height: 50px;
+              span {
+                font-size: 25px;
+              }
             }
           }
         }
@@ -394,8 +397,11 @@
             .Price {
               font-style: normal;
               font-weight: 600;
-              font-size: 55px;
-              line-height: 55px;
+              font-size: 45px;
+              line-height: 45px;
+              span {
+                font-size: 22px;
+              }
             }
           }
         }
@@ -524,8 +530,11 @@
             }
 
             .Price {
-              font-size: 45px;
-              line-height: 45px;
+              font-size: 40px;
+              line-height: 40px;
+              span {
+                font-size: 22px;
+              }
             }
           }
         }
@@ -656,6 +665,9 @@
             .Price {
               font-size: 40px;
               line-height: 40px;
+              span {
+                font-size: 22px;
+              }
             }
           }
         }
@@ -787,6 +799,9 @@
             .Price {
               font-size: 40px;
               line-height: 40px;
+              span {
+                font-size: 22px;
+              }
             }
           }
         }
@@ -919,8 +934,11 @@
             }
 
             .Price {
-              font-size: 40px;
-              line-height: 40px;
+              font-size: 35px;
+              line-height: 35px;
+              span {
+                font-size: 20px;
+              }
             }
           }
         }
@@ -1051,7 +1069,6 @@
             justify-content: flex-start;
             align-items: center;
             gap: 10px;
-
             .startAt {
               width: 120px;
               height: 40px;
@@ -1061,7 +1078,11 @@
 
             .Price {
               font-size: 35px;
-              line-height: 30px;
+              line-height: 35px;
+              display: block;
+              span {
+                font-size: 20px;
+              }
             }
           }
         }

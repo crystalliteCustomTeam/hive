@@ -28,7 +28,8 @@ const Header = () => {
       pathname === "/john-sullivan" ||
       pathname === "/chloe-harris" ||
       pathname === "/google-organic-shopping-seo-service" ||
-      pathname === "/answer-engine-optimization-service"
+      pathname === "/answer-engine-optimization-service" ||
+      pathname === "/generative-engine-optimization-service"
 
     );
   }, [pathname]);

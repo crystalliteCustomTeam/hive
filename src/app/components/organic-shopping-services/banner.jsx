@@ -14,7 +14,7 @@ const Banner = ({ data }) => {
                         <div className={styles.bannerContent}>
                             <h1>{data.title}</h1>
                             <p>{data.desc}</p>
-                            <CommonBtn txt="Book Consultation Call" LiveChat={true} />
+                            <CommonBtn txt="Book Consultation Call" LinkBtn={data.link} />
                         </div>
                     </Col>
                 </Row>

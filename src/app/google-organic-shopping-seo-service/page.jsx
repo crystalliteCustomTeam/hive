@@ -7,7 +7,7 @@ import ContentBox from "@/src/app/components/organic-shopping-services/contentbo
 import Services from "@/src/app/components/organic-shopping-services/services";
 import CustomPrice from "@/src/app/components/organic-shopping-services/customprice";
 import ProcessLp from "@/src/app/landing/components/processlp";
-import Work from "@/src/app/components/services/work";
+import CaseStudyLp from "@/src/app/best-seo-agency/casestudy";
 import Testimonials from "@/src/app/home/testimonials";
 import FollowUs from "@/src/app/home/followus";
 import CtaForm from "@/src/app/home/ctaform";
@@ -30,7 +30,7 @@ const Page = () => {
       <Services data={ServicesData} />
       <CustomPrice />
       <ProcessLp black={true} data={processlp} round={true} />
-      <Work data={WorkData} category="SEO" />
+      <CaseStudyLp nosub={true} btntxt="Read More" />
       <GeoJourney data={GeoJourneyData1} />
       <Testimonials data={TestimonialData} />
       <CtaForm data={CallActionData} />
