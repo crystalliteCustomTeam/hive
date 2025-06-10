@@ -8,22 +8,13 @@ import Autoplay from 'embla-carousel-autoplay'
 import Image from 'next/image'
 
 // Location Images
-import Dubai from "media/locations/Dubai.webp"
+
 import Chicago from "media/locations/Chicago.webp"
 import Houston from "media/locations/Houston.webp"
 import LosAngeles from "media/locations/LosAngeles.webp"
-import Miami from "media/locations/Miami.webp"
 import NewYork from "media/locations/NewYork.webp"
-import SanFrancisco from "media/locations/SanFrancisco.webp"
-import Toronto from "media/locations/Toronto.webp"
 import Dallas from "media/locations/Dallas.webp"
-import Qatar from "media/locations/Qatar.webp"
-import Bahrain from "media/locations/Bahrain.webp"
-import Pierre from "media/locations/Pierre.webp"
-import Sharjah from "media/locations/Sharjah.webp"
-import Karachi from "media/locations/karachi.webp"
 import Denver from "media/locations/Denver.webp"
-import Austin from "media/locations/Austin.webp"
 
 
 const OPTIONS = { align: 'start', loop: "true" }
