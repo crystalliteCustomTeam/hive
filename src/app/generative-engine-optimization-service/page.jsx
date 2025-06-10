@@ -1,5 +1,5 @@
 import Banner from "@/src/app/components/organic-shopping-services/banner";
-import { BannerData, StateCounter, GeoJourneyData, Content1Data, PriceData, processlp, GeoJourneyData1, TestimonialData, CallActionData } from "@/src/app/generative-engine-optimization-service/data/data";
+import { BannerData, StateCounter, GeoJourneyData, Content1Data, PriceData, processlp, GeoJourneyData1, TestimonialData, CallActionData, InnerServicesData } from "@/src/app/generative-engine-optimization-service/data/data";
 import StateCount from "@/src/app/components/innerservices/statecount"
 import GeoJourney from "@/src/app/components/organic-shopping-services/geojourney";
 import ThreeBox from "@/src/app/components/organic-shopping-services/threebox";
@@ -13,10 +13,10 @@ import Testimonials from "@/src/app/home/testimonials";
 import FollowUs from "@/src/app/home/followus";
 import CtaForm from "@/src/app/home/ctaform";
 import Blogs from "@/src/app/home/blogs";
+import ServicesBoxes from "@/src/app/components/organic-shopping-services/servicesboxes";
 import {
   BlgosData,
   FollowsData,
-  WorkData,
 } from "@/src/app/home/data/data";
 
 const Page = () => {
@@ -30,6 +30,7 @@ const Page = () => {
       <ContentSec data={Content1Data} marginTop={true} />
       <Difference />
       <Pricing bg="yes" data={PriceData} />
+      <ServicesBoxes data={InnerServicesData} />
       <ProcessLp black={true} data={processlp} round={true} />
       <CaseStudyLp nosub={true} btntxt="Read More" />
       <GeoJourney data={GeoJourneyData1} />

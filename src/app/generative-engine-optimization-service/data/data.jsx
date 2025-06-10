@@ -338,3 +338,32 @@ export const CallActionData = {
     title: "Done Right. Done By Experts",
     desc: "We don’t offer band-aid fixes or generic solutions. We engineer fully optimized, compliant, and scalable Organic Shopping systems designed for serious ecommerce growth.",
 };
+
+
+
+//Services
+export const InnerServicesData = {
+    title: "Our AEO Services",
+    innerServItem: [
+        {
+            title: "Technical & Performance Optimization",
+            txt: "We ensure your website is fully optimized for AI-driven search by improving core elements like site speed, mobile compatibility, and structured data implementation. This technical foundation enhances your site’s ability to be selected by answer engines.",
+            url: "#",
+        },
+        {
+            title: "Technical & Performance Optimization",
+            txt: "We ensure your website is fully optimized for AI-driven search by improving core elements like site speed, mobile compatibility, and structured data implementation. This technical foundation enhances your site’s ability to be selected by answer engines.",
+            url: "#",
+        },
+        {
+            title: "Technical & Performance Optimization",
+            txt: "We ensure your website is fully optimized for AI-driven search by improving core elements like site speed, mobile compatibility, and structured data implementation. This technical foundation enhances your site’s ability to be selected by answer engines.",
+            url: "#",
+        },
+        {
+            title: "Technical & Performance Optimization",
+            txt: "We ensure your website is fully optimized for AI-driven search by improving core elements like site speed, mobile compatibility, and structured data implementation. This technical foundation enhances your site’s ability to be selected by answer engines.",
+            url: "#",
+        },
+    ]
+}

@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Difference = () => {
     return (
-        <section className={`${styles.differenceSec} p-100`}>
+        <section className={`${styles.differenceSec}`}>
             <Container className={styles.differenceContainer}>
                 <Row>
                     <Col md={12} className="text-center mb-5 mb-lg-4 mb-md-2">

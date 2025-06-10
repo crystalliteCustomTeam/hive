@@ -91,7 +91,7 @@ const Location = () => {
             <Container>
                 <Row>
                     <Col lg={12} md={12}>
-                        <h2>Our Global Presence</h2>
+                        <h2>Our Local Presence</h2>
                         <section className={styles.embla}>
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
