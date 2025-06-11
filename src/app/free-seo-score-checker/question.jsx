@@ -147,15 +147,14 @@ const Question = () => {
     const userData = {
       recipient,
       name,
+      brand_id: "1",
       score: totalPoints,
       website,
       phone,
     };
 
     try {
-      // Send data to email API
-      // await fetch("https://dev18.pulse-force.com/api/send-email/", {
-     await fetch("https://api.infinitidigital.us/api/send-email/", {
+      await fetch("https://api.infinitidigital.us/api/send-email/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userData),
@@ -202,7 +201,7 @@ const Question = () => {
                       <label htmlFor={`answer-${index}`}>{answer}</label>
                     </div>
                   ))}
-                   <Button
+                  <Button
                     className={styles.nextButton}
                     disabled={selectedAnswers[currentQuestionIndex] === undefined}
                     onClick={handleNext}
