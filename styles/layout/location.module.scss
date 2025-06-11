@@ -1,9 +1,12 @@
 .locationSection {
-  background: #000;
-  margin-top: 50px;
+  // background: #000;
+  background: linear-gradient(-180deg, #e0f0ff 0%, #f9fcff 100%);
+  margin-top: 100px;
+  border-radius: 100px;
   h2 {
-    color: #fff;
+    color: #000;
   }
+
   .embla {
     margin-top: 40px;
     max-width: 100%;
@@ -54,7 +57,7 @@
 
             .locationContent {
               opacity: 0;
-              background-color: hsla(0, 0%, 100%, 0.3);
+              background-color: hsla(0, 0, 0, 0.3);
               backdrop-filter: blur(30px) brightness(1.5);
               -webkit-backdrop-filter: blur(30px) brightness(1.5);
               box-shadow: 8px 15px 50px rgb(122 130 138 / 16%);
@@ -181,7 +184,7 @@
           height: 20px;
 
           path {
-            fill: #d5d5d5;
+            fill: #000;
           }
         }
 
@@ -207,6 +210,7 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .locationSection {
+    border-radius: 80px;
     .embla {
       margin-top: 40px;
 
@@ -300,6 +304,7 @@
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .locationSection {
+    border-radius: 70px;
     .embla {
       margin-top: 40px;
 
@@ -393,6 +398,7 @@
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .locationSection {
+    border-radius: 60px;
     .embla {
       margin-top: 40px;
 
@@ -486,6 +492,7 @@
 
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .locationSection {
+    border-radius: 50px;
     .embla {
       margin-top: 40px;
 
@@ -579,6 +586,7 @@
 
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   .locationSection {
+    border-radius: 40px;
     .embla {
       margin-top: 40px;
 
@@ -672,6 +680,7 @@
 
 @media only screen and (min-width: 0px) and (max-width: 599px) {
   .locationSection {
+    border-radius: 30px;
     .embla {
       margin-top: 20px;
 
