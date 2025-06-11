@@ -15,14 +15,12 @@ import LosAngeles from "media/locations/LosAngeles.webp"
 import NewYork from "media/locations/NewYork.webp"
 import Dallas from "media/locations/Dallas.webp"
 import Denver from "media/locations/Denver.webp"
-
-
 const OPTIONS = { align: 'start', loop: "true" }
 
 const LocationList = [
     {
         state: "Houston",
-        add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
+        // add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Houston.src,
