@@ -50,7 +50,7 @@ const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg, location }) => {
                                     key={index}>
                                     <div className={styles.packageHeader}>
                                         <div className={styles.packageName}>{item.packagename}</div>
-                                        <div className={styles.packagePrice}>${item[`price${selectedPrice}`] || item.price}/<span>Month</span></div>
+                                        <div className={styles.packagePrice}>${item[`price${selectedPrice}`] || item.price}/<span>{item.month ? item.month : "Month"}</span></div>
                                         {item.titletxt ? <div className={styles.packageSubTxt}>{item?.titletxt}</div> : ""}
                                         <div className={styles.packagepara}>{item.txt}</div>
                                         <div className={styles.packagebutton}>
