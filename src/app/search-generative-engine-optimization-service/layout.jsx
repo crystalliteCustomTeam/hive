@@ -2,12 +2,12 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Generative Engine Optimization (AEO) Services",
-  description: "Increase your brand’s presence in generative engines with Infiniti Digital expert GEO services. Optimize for AI-driven answers and conversational search.",
+  title: "Generative Engine Optimization (GEO) Services",
+  description: "Optimize for AI search and lead the future of digital discovery. Grow visibility across Google SGE, ChatGPT, and other LLM with Infinity Digital GEO Experts",
   //===== OG Tags =====
   openGraph: {
-    title: "Generative Engine Optimization (AEO) Services",
-    description: "Increase your brand’s presence in generative engines with Infiniti Digital expert GEO services. Optimize for AI-driven answers and conversational search.",
+    title: "Generative Engine Optimization (GEO) Services",
+    description: "Optimize for AI search and lead the future of digital discovery. Grow visibility across Google SGE, ChatGPT, and other LLM with Infinity Digital GEO Experts",
     url: '/search-generative-engine-optimization-service',
     siteName: "Inifniti Digital",
     locale: 'en_US',
@@ -16,11 +16,7 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: '/search-generative-engine-optimization-service' },
-  //===== No-Index =====
-  robots: {
-    index: false,
-    follow: false,
-  },
+
 }
 
 

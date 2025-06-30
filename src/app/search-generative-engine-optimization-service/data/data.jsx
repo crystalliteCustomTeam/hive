@@ -7,6 +7,7 @@ export const BannerData = {
     title: "Dominate AI Overviews with Generative Engine Optimization",
     desc: "We optimize your content, credibility, and digital footprint to get your brand featured in AI-generated answers on Google Search when users ask industry-specific questions.",
     img: bannerImage.src,
+    link: "https://calendly.com/infinitidigital/free-seo-consultation",
 };
 
 
