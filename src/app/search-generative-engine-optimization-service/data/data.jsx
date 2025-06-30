@@ -46,9 +46,9 @@ export const GeoJourneyData = {
 export const Content1Data = {
     title: "Be the First Name AI Recommends",
     desc: (<>
-        <p>When users search online today, they’re often met with AI-generated summaries that recommend businesses, services, or products instantly, without ever clicking a link. We help you claim a spot in those summaries by optimizing what matters: relevance, structure, and authority. If you're not showing up there, your competitors are.</p>
+        <p>When users search online today, they’re often met with AI-generated summaries that recommend businesses, services, or products instantly, without ever clicking a link. We help you claim a spot in those summaries by optimizing what matters: relevance, structure, and authority. If you’re not showing up there, your competitors are.</p>
         <p>These AI Overviews, powered by tools like Google SGE and Gemini, are quickly becoming the new front page of search. If your brand isn’t featured in these summaries, you’re not just buried, you’re invisible.</p>
-        <p>We help you take control of that visibility. Through Generative Engine Optimization Service, we optimize the exact content, structure, and authority signals that AI engines look for when choosing which brands to feature. Whether you're a local service provider or an eCommerce brand, our strategy makes sure your name is the one users see, trust, and engage with, right at the top of their search journey.</p>
+        <p>We help you take control of that visibility. Through Generative Engine Optimization Service, we optimize the exact content, structure, and authority signals that AI engines look for when choosing which brands to feature. Whether you’re a local service provider or an eCommerce brand, our strategy makes sure your name is the one users see, trust, and engage with, right at the top of their search journey.</p>
         <p>Because if you’re not part of the answer, you’re not part of the decision. Let’s fix that.</p>
     </>),
     image: Image1.src,
@@ -202,7 +202,7 @@ export const TestimonialData = {
             job: "International Ecommerce Director",
         },
         {
-            txt: "The biggest difference is how this channel compounds. Every month, our organic exposure grows as Google’s Shopping Graph learns our products better. It’s the most sustainable growth engine we've built.",
+            txt: "The biggest difference is how this channel compounds. Every month, our organic exposure grows as Google’s Shopping Graph learns our products better. It’s the most sustainable growth engine we’ve built.",
             icon: <Upcity />,
             namee: "Amanda S.",
             job: "CEO",
