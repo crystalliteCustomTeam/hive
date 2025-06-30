@@ -57,7 +57,7 @@ const Page = async ({ params }) => {
         <Container>
           <Row>
             <Col md={12}>
-              <h1>Blog Not Found</h1>
+              <h1>404 Not Found</h1>
             </Col>
           </Row>
         </Container>

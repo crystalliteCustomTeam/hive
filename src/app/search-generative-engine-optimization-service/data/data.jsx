@@ -14,7 +14,7 @@ export const BannerData = {
 // States Counter
 export const StateCounter = {
     subtitle: "Companies Trust Our GEO Expertise",
-    title: "Brands Trust Us for Search Generative Optimization",
+    title: <>Brands Trust Us for <br />Search Generative Optimization</>,
     desc: "From startups to enterprise-level brands, businesses trust us to enhance their presence in AI-driven search. We combine technical SEO, content depth, and authority building for real results.",
     stateItem: [
         {
