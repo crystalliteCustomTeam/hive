@@ -7,24 +7,21 @@ const Difference = () => {
             <Container className={styles.differenceContainer}>
                 <Row>
                     <Col md={12} className="text-center mb-5 mb-lg-4 mb-md-2">
-                        <h2>AEO vs SEO Difference</h2>
+                        <h2>GEO vs SEO Difference</h2>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={6}>
                         <div className={styles.differenceBox}>
-                            <h3>AEO</h3>
+                            <h3>GEO</h3>
                             <div className={styles.differenceItem}>
-                                <h4>Lorem ipsum dolor sit consectetur.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Appears in AI-generated answers like Google’s AI Overviews and ChatGPT responses</p>
                             </div>
                             <div className={styles.differenceItem}>
-                                <h4>Lorem ipsum dolor sit consectetur.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Focuses on semantic relevance, structured data, and AI trust signals</p>
                             </div>
                             <div className={styles.differenceItem}>
-                                <h4>Lorem ipsum dolor sit consectetur.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Puts your brand directly in front of users, inside instant AI summaries</p>
                             </div>
 
                         </div>
@@ -33,16 +30,13 @@ const Difference = () => {
                         <div className={styles.differenceBox}>
                             <h3>SEO</h3>
                             <div className={styles.differenceItem}>
-                                <h4>Lorem ipsum dolor sit consectetur.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Appears in traditional Google search results (organic rankings)</p>
                             </div>
                             <div className={styles.differenceItem}>
-                                <h4>Lorem ipsum dolor sit consectetur.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Focuses on keywords, backlinks, and technical SEO</p>
                             </div>
                             <div className={styles.differenceItem}>
-                                <h4>Lorem ipsum dolor sit consectetur.</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Depends on users clicking through results</p>
                             </div>
 
                         </div>

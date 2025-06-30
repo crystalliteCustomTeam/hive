@@ -19,16 +19,16 @@ const MaxReach = ({ noTitle }) => {
                 <Row className="mt-md-2 mt-lg-3 mt-lg-4">
                     <Col md={5} lg={4}>
                         <div className={styles.maxReachGreen}>
-                            <h4>Maximum Visibility</h4>
-                            <p>Reach millions of shoppers on Google without spending on ads. With optimized product feeds and proper Merchant Center setup, your products show up when buyers are ready to purchase, driving qualified traffic that converts.</p>
+                            <h4>Local Service Overviews</h4>
+                            <p>Showcase your business in location-based AI results where users are looking for the “best near me” providers.</p>
 
                         </div>
                     </Col>
                     <Col md={7} lg={8}>
                         <div className={styles.maxReachImage} style={{ backgroundImage: `url(${bannerImage.src})` }}>
                             <div className={styles.maxReachContent}>
-                                <h4>Faster, Easier Checkouts</h4>
-                                <p>Google makes it simple for your customers to buy. With features like Google’s &quot;Buy on Google&quot; checkout and integrated merchant programs, shoppers can complete purchases directly from Google Search or Shopping, reducing friction, increasing conversions, and boosting your revenue.</p>
+                                <h4>Product Recommendation Overviews</h4>
+                                <p>AI tools like Google SGE highlight “top picks” for what users want to buy. We help your products get featured in these summaries by optimizing your listings and content for user intent, product quality, detailed descriptions, reviews, and relevance to common search queries.</p>
                             </div>
                         </div>
                     </Col>

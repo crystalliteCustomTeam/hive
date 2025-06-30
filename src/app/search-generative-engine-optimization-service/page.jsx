@@ -1,5 +1,5 @@
 import Banner from "@/src/app/components/organic-shopping-services/banner";
-import { BannerData, StateCounter, GeoJourneyData, Content1Data, PriceData, processlp, GeoJourneyData1, TestimonialData, CallActionData, InnerServicesData } from "@/src/app/generative-engine-optimization-service/data/data";
+import { BannerData, StateCounter, GeoJourneyData, Content1Data, PriceData, processlp, GeoJourneyData1, TestimonialData, CallActionData, InnerServicesData } from "@/src/app/search-generative-engine-optimization-service/data/data";
 import StateCount from "@/src/app/components/innerservices/statecount"
 import GeoJourney from "@/src/app/components/organic-shopping-services/geojourney";
 import ThreeBox from "@/src/app/components/organic-shopping-services/threebox";
@@ -31,7 +31,6 @@ const Page = () => {
       <Difference />
       <Pricing bg="yes" data={PriceData} />
       <ServicesBoxes data={InnerServicesData} />
-      <ProcessLp black={true} data={processlp} round={true} />
       <CaseStudyLp nosub={true} btntxt="Read More" />
       <GeoJourney data={GeoJourneyData1} />
       <Testimonials data={TestimonialData} />

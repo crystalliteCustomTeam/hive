@@ -48,8 +48,7 @@ const Header = () => {
 
   return (
     <section
-      className={`${styles.headerSection} ${scrolled ? styles.active : ""} ${isLight ? "" : styles.isLight
-        }`}
+      className={`${styles.headerSection} ${scrolled ? styles.active : ""} ${isLight ? "" : styles.isLight}`}
     >
       <Container className="h-100">
         <Row className="h-100">

@@ -12,7 +12,7 @@ const GeoJourney = ({ data }) => {
                         <p>
                             {data.desc}
                         </p>
-                        <CommonBtn txt="Book Consultation Call" LinkBtn={data.link} />
+                        <CommonBtn txt={data.txt ? data.txt : "Book Consultation Call"} LinkBtn={data.link} />
                     </Col>
                     <Col md={6} className="my-auto">
                         <div className={styles.journeyVideo}>
