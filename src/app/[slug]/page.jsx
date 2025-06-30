@@ -56,8 +56,9 @@ const Page = async ({ params }) => {
       <section className={styles.singlePost}>
         <Container>
           <Row>
-            <Col md={12}>
-              <h1>404 Not Found</h1>
+            <Col md={12} className="text-center">
+              <h1>404 Page Not Found</h1>
+              <p>Sorry, the page you are looking for does not exist.</p>
             </Col>
           </Row>
         </Container>
