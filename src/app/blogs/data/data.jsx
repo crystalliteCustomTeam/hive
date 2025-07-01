@@ -48,6 +48,16 @@ export const BlgosData = {
     // },
     {
       title:
+        "Dallas SEO Strategies in 2025",
+      date: "01 July, 2025",
+      txt: "As we enter the second half of 2025, SEO strategies in Dallas are evolving faster than ever. Fueled by AI, voice search, and increasingly sophisticated search engine algorithms,",
+      category: "SEO",
+      img: Blog1.src,
+      link: "/dallas-seo-strategies",
+      author: "brielle-delmar",
+    },
+    {
+      title:
         "How To Choose The Right Mobile App Development Company For Your Project",
       date: "28 May, 2025",
       txt: "Finding reliable mobile app development services for your mobile application project can be pretty tricky if every app development firm out there is promising positive results.",
