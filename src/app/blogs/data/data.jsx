@@ -28,6 +28,7 @@ import IMG14 from "media/blogs/posts/blog14.webp";
 import IMG15 from "media/blogs/posts/blog15.webp";
 import IMG16 from "media/blogs/posts/blog16.webp";
 import IMG17 from "media/blogs/posts/blog17.webp";
+import IMG18 from "media/blogs/posts/blog18.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -36,25 +37,25 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
-    // {
-    //   title:
-    //     "How A Chicago SEO Agency Tracks & Reports Your SEO Performance",
-    //   date: "04 Jun, 2025",
-    //   txt: "Have you invested time, money, and energy into improving your website’s SEO performance, yet skeptical executives and stakeholders demand concrete proof? ",
-    //   category: "SEO",
-    //   img: IMG17.src,
-    //   link: "/how-chicago-seo-agency-track-and-report-seo-performance",
-    //   author: "lily-chen",
-    // },
     {
       title:
         "Dallas SEO Strategies in 2025",
       date: "01 July, 2025",
       txt: "As we enter the second half of 2025, SEO strategies in Dallas are evolving faster than ever. Fueled by AI, voice search, and increasingly sophisticated search engine algorithms,",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG18.src,
       link: "/dallas-seo-strategies",
       author: "brielle-delmar",
+    },
+    {
+      title:
+        "How A Chicago SEO Agency Tracks & Reports Your SEO Performance",
+      date: "04 Jun, 2025",
+      txt: "Have you invested time, money, and energy into improving your website’s SEO performance, yet skeptical executives and stakeholders demand concrete proof? ",
+      category: "SEO",
+      img: IMG17.src,
+      link: "/how-chicago-seo-agency-track-and-report-seo-performance",
+      author: "lily-chen",
     },
     {
       title:
