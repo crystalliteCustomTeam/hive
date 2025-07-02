@@ -1,18 +1,21 @@
-# *
+
 User-agent: *
 Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Allow: /*.css
+Allow: /*.js
 Disallow: /landing
 Disallow: /landing/*
 Disallow: /thank-you
 
-# ChatGPT-User
-User-agent: ChatGPT-User
-Allow: /free-seo-score-checker
-Allow: /what-is-local-seo
-Disallow: /
-
-# Host
-Host: https://www.infinitidigital.us
-
-# Sitemaps
+User-agent:
 Sitemap: https://www.infinitidigital.us/sitemap.xml
