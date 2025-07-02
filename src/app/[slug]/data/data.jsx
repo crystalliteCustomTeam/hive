@@ -24,6 +24,7 @@ import CommonBtn from "@/src/app/components/common/commonbtn";
 import CustomPrice from "@/src/app/[slug]/components/postprice";
 import StateCount from "@/src/app/[slug]/components/statecounter";
 import CTAFrom from "@/src/app/seo-glossary/ctaform";
+import CtatTitle from "@/src/app/[slug]/components/ctatitle";
 import Image from "next/image";
 
 const stateCounterPost1 = [
@@ -1673,6 +1674,7 @@ import GraceMoore from "media/blogs/author/grace-moore.webp";
 import ChloeHarris from "media/blogs/author/chloe-harris.webp";
 import JohnSullivan from "media/blogs/author/john-sullivan.webp";
 import CaseStudyLp from "@/src/app/best-seo-agency/casestudy";
+
 export const PostData = [
   {
     tableContent: [
@@ -6874,10 +6876,7 @@ export const PostData = [
             <li>Build NAP (Name, Address, Phone) consistency across directories.</li>
           </ul>
           <p><strong>Pro Tip:</strong> Hire a professional <Link href="/seo-dallas-tx">Infiniti SEO agency in Dallas</Link> to execute and manage these tasks effectively, ensuring your business ranks higher in local search results.</p>
-          <p><strong>Read more about:</strong> <Link href="/what-is-local-seo">What is local SEO and why is it important in 2025</Link></p>
-          <div className="centerBtn">
-            <CommonBtn txt="Get Started with Local SEO" />
-          </div>
+          <CtatTitle subtit="Read more about:" tit="What is <span>local SEO</span> and why is it <span>important in 2025</span>" link="/what-is-local-seo" btntxt="Get Started" />
         </div>
         <div id="Section-2">
           <h2>AI-Driven Content Strategy</h2>
