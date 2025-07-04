@@ -27,6 +27,7 @@ import Location from "@/src/app/layout/location"
 const Page = () => {
   return (
     <>
+
       <BannerLp />
       <ServicesLp data={ServicesData} heigthSmall={true} round={true} />
       <ContentSection data={ContentData} round={true} bg={true} />

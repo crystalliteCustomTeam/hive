@@ -2,8 +2,10 @@
 import BannerPoster from "media/home/bannerPoster.webp";
 
 export const BannerData = {
-  title: "Build. Grow. Thrive. ",
-  desc: "Struggling to get noticed online? You’re not alone. At Infiniti Digital, we revamp your digital presence into an energetic hub of engagement, traffic, and measurable results. We’re not just providing services but crafting stories that resonate and inspire.",
+  title: "Infiniti Digital Marketing Agency",
+  desc: (<>
+    At Infiniti Digital Marketing Agency, we help businesses grow through <Link href="/organic-seo-services">organic SEO services,</Link> targeted advertising, and content marketing. Whether you're aiming to dominate local search, build a stronger online presence, or generate more leads, our team delivers data-driven digital solutions that turn clicks into customers.
+  </>),
   //video:"https://player.vimeo.com/progressive_redirect/playback/1039775789/rendition/720p/file.mp4?loc=external&log_user=0&signature=8567ae8ef483e82e5fcc1ef124821c26200f8e18bcd1545a174dda0aced9e429",
   video: "/home/BannerVideo.mp4",
   videoFallback: "/home/BannerVideo.webm",
@@ -56,23 +58,24 @@ export const ClientImages = [
 export const AboutData = {
   subtitle: "About Us",
   title: "Results That Speak Louder Than Words",
-  desc: "Your goals drive everything we do.At Infiniti Digital, we make brands shine in today’s crowded online world.Whether it’s a mobile app that impresses, a website that works 24/7, or social media strategies that engage and convert, Infiniti Digital is here to make it happen. We don’t just serve clients; we build partnerships.",
+  desc: (<>
+    Founded with a passion for helping businesses thrive online, Infiniti Digital is a full-service digital marketing agency dedicated to driving real, measurable growth. We specialize in SEO, paid advertising, <Link href="/social-media-management-service">social media management,</Link> content marketing, and web development, delivering tailored strategies that align with your goals and speak to your audience.</>),
   points: [
     {
-      numbers: "10",
+      numbers: "10+",
       namee: "Years of Experience",
     },
     {
-      numbers: "60",
-      namee: "Expert Teams",
+      numbers: "2M+",
+      namee: "Qualified Leads Generated",
     },
     {
-      numbers: "1,200",
+      numbers: "1200+",
       namee: "Successful Projects",
     },
     {
-      numbers: "100",
-      namee: "Global Clients",
+      numbers: "94%",
+      namee: "Retention Rate",
     },
   ],
 };
@@ -133,8 +136,8 @@ export const ServicesData = {
 // CTA
 import ImgBg from "media/home/ctaBg.webp";
 export const CtaData = {
-  title: "Creating Impactful Solutions That Matter",
-  desc: "Our expert team delivers custom solutions tailored to your unique goals. With a proven track record across industries, we prioritize collaboration and communication to ensure your vision is always at the forefront.",
+  title: "Robust, Secure, and Scalable Development Services",
+  desc: "Driven by innovation and backed by expertise, our team delivers custom built solutions that reflect your goals and scale with your growth. We work closely with you to ensure every step of the development process stays aligned with your vision.",
   img: ImgBg.src,
 };
 // Work
@@ -471,9 +474,9 @@ import Logo18 from "media/home/partnerLogo/logo18.webp";
 import Logo19 from "media/home/partnerLogo/logo19.webp";
 import Logo20 from "media/home/partnerLogo/logo20.webp";
 export const PartnerData = {
-  subtitle: "Our Partners",
-  title: "Partnerships That Drive Success ",
-  desc: "At Infiniti Digital, we’re proud to partner with some of the world’s most forward-thinking brands. From global corporations to innovative startups, our collaborations are built on trust, creativity, and results-driven strategies.",
+  subtitle: "Our Clientele",
+  title: "Brands That Trust Infiniti Digital",
+  desc: "We believe the best work happens when great teams come together, which is why leading brands choose Infiniti Digital as their trusted digital partner. From ambitious startups to global enterprises, our clients value our commitment to collaboration, integrity, and smart, scalable digital marketing solutions that drive real growth.",
   PartnerLogos: [
     { logo: Logo1.src },
     { logo: Logo2.src },
@@ -760,6 +763,7 @@ export const CallActionData = {
 import IMG01 from "media/blogs/posts/blog1.webp";
 import IMG02 from "media/blogs/posts/blog5.webp";
 import IMG03 from "media/blogs/posts/blog4.webp";
+import Link from "next/link";
 export const BlgosData = {
   subtitle: "Our Blogs",
   title: "Insights and Inspiration ",

@@ -6,7 +6,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import Clients from "@/src/app/home/clients";
 import { ClientImages } from "@/src/app/home/data/data";
 import CommonBtn from "@/src/app/components/common/commonbtn";
-import Image from "next/image";
 
 const Banner = ({ data }) => {
   const [showVideo, setShowVideo] = useState(false);

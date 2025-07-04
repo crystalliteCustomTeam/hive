@@ -47,7 +47,7 @@ export const processlp = {
 }
 export const LPServices = {
     subtitle: "",
-    title: "Our SEO Services",
+    title: "Our Organic SEO Services",
     txt: "Everything You Need to Rank & Convert",
     SeoPages: true,
     LPServicesItem: [

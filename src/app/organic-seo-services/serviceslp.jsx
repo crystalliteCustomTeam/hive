@@ -1,9 +1,18 @@
+"use client";
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/landing/components/seo1/serviceslp.module.scss"
 import CommonBtn from "@/src/app/components/common/commonbtn"
 import ServicesImg from "media/landing/seo1/servicesbg.webp"
 
 const ServicesLP = ({ data, bg, marginlp }) => {
+    // Chat Code
+    const openChat = () => {
+        if (window.LC_API) {
+            window.LC_API.open_chat_window();
+        } else {
+            console.error("LiveChat API is not loaded");
+        }
+    };
     return (
         <section
             className={`pt-100 ${styles.servicesLPSec} ${bg ? styles.noBg : ""}`}
@@ -26,7 +35,13 @@ const ServicesLP = ({ data, bg, marginlp }) => {
                                     <h5>{item.title}</h5>
                                     <p>{item.txt}</p>
                                     <div className={styles.readMore}>
-                                        <CommonBtn txt={item?.btntxt ? item?.btntxt : "Contact Us"} ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
+                                        <div
+                                            className="commonBtnSimple"
+                                            onClick={openChat}
+                                        >
+                                            Live Chat
+                                        </div>
+                                        {/* <CommonBtn txt={item?.btntxt ? item?.btntxt : "Live Chat"} ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} /> */}
                                     </div>
                                 </div>
                             ))}

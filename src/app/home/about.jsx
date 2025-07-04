@@ -13,7 +13,7 @@ const About = ({ data }) => {
                         <div className={styles.abtCounter}>
                             {data.points.map((item, index) => (
                                 <div className={styles.counterPoints} key={index}>
-                                    <div className={styles.abtnumbers}>{item.numbers}<span>+</span></div>
+                                    <div className={styles.abtnumbers}>{item.numbers}</div>
                                     <div className={styles.abttxt}>{item.namee}</div>
                                 </div>
                             ))}

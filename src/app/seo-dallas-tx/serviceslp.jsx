@@ -27,7 +27,7 @@ const ServicesLp = ({ data, SMMLP }) => {
                                         <CommonBtn txt="Let’s talk" ArrowBtn={true} SimpleBtn={true} SeoPages={data.SeoPages} />
                                     </div>
                                     <div className={styles.btnReaMore}>
-                                        <CommonBtn txt="" ArrowBtn={true} SeoPages={data.SeoPages} />
+                                        <CommonBtn txt="" LinkBtn={item.links} ArrowBtn={true} SeoPages={data.SeoPages} />
                                     </div>
                                     <div className={styles.txtPara}>{item.txt}</div>
                                 </div>

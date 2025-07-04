@@ -50,6 +50,7 @@ export const ServicesData = {
       icon: <Serv01 />,
       title: "Keyword Research & Strategy",
       txt: "Our SEO experts in Texas identify the best keywords to attract real customers, people actively searching for your product or service. We create a strategy to help your business rank for the most relevant terms, driving qualified organic search traffic to your website.",
+
     },
     {
       icon: <Serv02 />,
@@ -65,6 +66,7 @@ export const ServicesData = {
       icon: <Serv04 />,
       title: "Local SEO",
       txt: "We optimize your content, meta tags, and website structure so search engines and users understand your business instantly. Our SEO services in Texas ensure better rankings and a seamless user experience.",
+      links: "/local-seo-service"
     },
     {
       icon: <Serv05 />,
@@ -80,6 +82,7 @@ export const ServicesData = {
       icon: <Serv07 />,
       title: "Search Generative Experience",
       txt: "AI-driven search is evolving fast. Our Texas SEO company stays ahead of Google’s latest updates, ensuring your site adapts and remains competitive in organic search.",
+      links: "/search-generative-engine-optimization-service"
     },
     {
       icon: <Serv08 />,
@@ -90,6 +93,7 @@ export const ServicesData = {
       icon: <Serv09 />,
       title: "Organic Shopping",
       txt: "Skip the expensive ads! Our organic search strategies improve your visibility in Google Shopping, helping your Texas-based business get more clicks and sales without paid promotions.",
+      links: "/google-organic-shopping-seo-service"
     },
     // {
     //   icon: <Serv09 />,

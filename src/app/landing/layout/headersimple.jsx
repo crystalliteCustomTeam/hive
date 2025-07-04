@@ -6,6 +6,7 @@ import styles from "@/styles/landing/components/layout/headerlp.module.scss";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
+
 const HeaderSimpleLp = () => {
   const [isLight, setIsLight] = useState(true);
   const pathname = usePathname();
@@ -13,11 +14,11 @@ const HeaderSimpleLp = () => {
   useEffect(() => {
     setIsLight(
       pathname === "/organic-seo-services" ||
-        pathname === "/search-engine-optimization-services" ||
-        pathname === "/social-media-marketing-agency" ||
-        pathname === "/gmb-management-service" ||
-        pathname === "/seo-content-writing-services" ||
-        pathname === "/social-media-advertising-agency"
+      pathname === "/search-engine-optimization-services" ||
+      pathname === "/social-media-marketing-agency" ||
+      pathname === "/gmb-management-service" ||
+      pathname === "/seo-content-writing-services" ||
+      pathname === "/social-media-advertising-agency"
     );
   }, [pathname]);
   // Chat Code
@@ -59,6 +60,7 @@ const HeaderSimpleLp = () => {
           </Col>
         </Row>
       </Container>
+
     </section>
   );
 };
