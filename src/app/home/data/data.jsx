@@ -4,7 +4,7 @@ import BannerPoster from "media/home/bannerPoster.webp";
 export const BannerData = {
   title: "Infiniti Digital Marketing Agency",
   desc: (<>
-    At Infiniti Digital Marketing Agency, we help businesses grow through <Link href="/organic-seo-services">organic SEO services,</Link> targeted advertising, and content marketing. Whether you're aiming to dominate local search, build a stronger online presence, or generate more leads, our team delivers data-driven digital solutions that turn clicks into customers.
+    At Infiniti Digital Marketing Agency, we help businesses grow through <Link href="/organic-seo-services">organic SEO services,</Link> targeted advertising, and content marketing. Whether you’re aiming to dominate local search, build a stronger online presence, or generate more leads, our team delivers data-driven digital solutions that turn clicks into customers.
   </>),
   //video:"https://player.vimeo.com/progressive_redirect/playback/1039775789/rendition/720p/file.mp4?loc=external&log_user=0&signature=8567ae8ef483e82e5fcc1ef124821c26200f8e18bcd1545a174dda0aced9e429",
   video: "/home/BannerVideo.mp4",
@@ -577,7 +577,7 @@ export const IndustryItem = [
   },
   {
     title: "Law",
-    txt: "Build credibility, attract clients, and establish authority with strategic marketing tailored for legal professionals.We deliver campaigns that enhance your law firm's reputation and distinguish your practice in a competitive landscape.",
+    txt: "Build credibility, attract clients, and establish authority with strategic marketing tailored for legal professionals.We deliver campaigns that enhance your law firm’s reputation and distinguish your practice in a competitive landscape.",
     Img: Img10.src,
     url: "#",
   },
@@ -668,7 +668,7 @@ export const PlatformsData = {
 export const AwardsData = {
   subtitle: "Awards & Recognitions",
   title: "Celebrating Excellence, Innovation, and Results",
-  desc: "Our awards and recognitions reflect our clients' trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
+  desc: "Our awards and recognitions reflect our clients’ trust in us and our unwavering commitment to delivering results. At Infiniti Digital, we don’t just aim for success—we earn it.",
   slides: [
     {
       txt: "Recognized for excellence in delivering innovative digital solutions that drive measurable results for businesses worldwide.",
@@ -743,7 +743,7 @@ export const TestimonialData = {
       job: "CEO of BuildPro Solutions",
     },
     {
-      txt: "Our online sales skyrocketed after working with Infiniti Digital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They're the team to trust if you’re serious about growing your business.",
+      txt: "Our online sales skyrocketed after working with Infiniti Digital’s exceptional team. Their SEO strategies, stunning web design, and tailored content solutions increased traffic and converted visitors into loyal customers. Their approach to understanding our audience and building campaigns that resonate was exactly what we needed. They’re the team to trust if you’re serious about growing your business.",
       icon: <ClutchLogo />,
       namee: "Emily R.",
       job: "Founder of StyleHive Boutique",
