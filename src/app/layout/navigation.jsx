@@ -180,6 +180,20 @@ const MobileApp = [
     url: "/custom-software-development-services",
   },
 ];
+const AiMenu = [
+  {
+    title: "Generative Engine Optimization",
+    url: "/search-generative-engine-optimization-service",
+  },
+  {
+    title: "Answer Engine Optimization",
+    url: "#",
+  },
+  {
+    title: "Google Organic Shopping ",
+    url: "/google-organic-shopping-seo-service",
+  },
+];
 const Navigation = ({ scrolled, isLight }) => {
   const pathname = usePathname();
   const [isActive, setIsActive] = useState(false);
@@ -291,6 +305,24 @@ const Navigation = ({ scrolled, isLight }) => {
             </ul>
           </li>
           <li className={styles.subMobileMenu}>
+            <Link href="#">
+              AI Optimization
+            </Link>
+            <div className={styles.subMenuIcon}>
+              <SubMenuIcon />
+            </div>
+            <ul className={styles.mobilesubMenu}>
+              {AiMenu.map((item, index) => (
+                <li onClick={handleClick} key={index}>
+                  <Link href={item.url}>
+                    <MenuIcon />
+                    {item.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+          <li className={styles.subMobileMenu}>
             <Link href="/mobile-app-development-company">
               Mobile App Development
             </Link>
@@ -350,7 +382,7 @@ const Navigation = ({ scrolled, isLight }) => {
             [
               ...(Array.isArray(MainServicesLinks) ? MainServicesLinks : []),
               ...(Array.isArray(SmmMenu) ? SmmMenu : []),
-              // ...(Array.isArray(ContentMarketing) ? ContentMarketing : []),
+              ...(Array.isArray(ContentMarketing) ? ContentMarketing : []),
               ...(Array.isArray(WebsiteDesign) ? WebsiteDesign : []),
               ...(Array.isArray(WebsiteDesign) ? PaidMarketing : []),
               ...(Array.isArray(WebsiteDesign) ? SEO : []),
@@ -479,6 +511,28 @@ const Navigation = ({ scrolled, isLight }) => {
                       className={`${styles.serivesMenuItem} ${isActiveSubMenu(MobileApp) ? styles.active : ""
                         }`}
                     >
+
+                      <div className={styles.title}>
+                        <Link href="#">
+                          AI Optimization
+                          <ArrowIcon />
+                        </Link>
+                      </div>
+                      <ul className="mb-md-2 mb-lg-4">
+                        {AiMenu.map((item, index) => (
+                          <li
+                            key={index}
+                            className={
+                              isActiveLink(item.url) ? styles.active : ""
+                            }
+                          >
+                            <Link href={item.url}>
+                              <MenuIcon />
+                              {item.title}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
                       <div className={styles.title}>
                         <Link href="/mobile-app-development-company">
                           Mobile App Development
