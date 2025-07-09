@@ -230,6 +230,7 @@ export const PriceData = {
       packagename: "Starter Website Package",
       price: "899",
       txt: "",
+      month: "Upfront",
       bodyPoints: [
         {
           title: "",
@@ -252,6 +253,7 @@ export const PriceData = {
       packagename: "Professional Website Package",
       price: "1899",
       txt: "",
+      month: "Upfront",
       bodyPoints: [
         {
           title: "Social Media Posts",
@@ -281,6 +283,7 @@ export const PriceData = {
       packagename: "Elite Website Package",
       price: "2699",
       txt: "",
+      month: "Upfront",
       bodyPoints: [
         {
           title: "Social Media Posts",
@@ -303,10 +306,10 @@ export const PriceData = {
             "Industry Specified Team of Expert Designers and Developers",
             "Complete Deployment",
             "Dedicated Project Manager",
-            
+
           ],
         },
-          ],
+      ],
     },
   ],
 };
