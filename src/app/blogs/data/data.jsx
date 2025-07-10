@@ -29,6 +29,7 @@ import IMG15 from "media/blogs/posts/blog15.webp";
 import IMG16 from "media/blogs/posts/blog16.webp";
 import IMG17 from "media/blogs/posts/blog17.webp";
 import IMG18 from "media/blogs/posts/blog18.webp";
+import IMG19 from "media/blogs/posts/blog19.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -37,6 +38,16 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
+    {
+      title:
+        "Get more calls in Dallas as a plumber with Local SEO",
+      date: "10 July, 2025",
+      txt: "If you’re a plumber and your phone isn’t ringing steadily, you’re not dealing with a slow season, you’re dealing with a visibility problem.",
+      category: "SEO",
+      img: IMG19.src,
+      link: "/local-seo-for-plumbers-located-in-dallas",
+      author: "brielle-delmar",
+    },
     {
       title:
         "Dallas SEO Strategies in 2025",

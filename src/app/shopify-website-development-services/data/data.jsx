@@ -288,7 +288,7 @@ export const PriceData = {
         {
           title: "Social Media Posts",
           points: [
-            "Upto 15 Unique Pages Website",
+            "Upto 25 Unique Pages Website",
             "Interactive, Dynamic & Responsive Design",
             "4 jQuery Slider Banner",
             "Up to 13 Custom Made Banner Designs",
