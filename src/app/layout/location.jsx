@@ -20,16 +20,18 @@ const OPTIONS = { align: 'start', loop: "true" }
 const LocationList = [
     {
         state: "Houston",
-        // add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
+        add: "9518 Mykawa Rd, Houston, TX 77048",
+        //add: "2800 Post Oak Blvd STE 4100, Houston, TX 77056, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Houston.src,
-        pin: "/seo-houston-tx",
+        pin: "https://g.page/r/CeEmJNeNmOMYEBM",
         alt: "Infiniti Digital mobile app development company Houston"
     },
     {
         state: "Chicago",
-        add: "141 W Jackson Blvd STE 300 A, Chicago, IL 60604, United States",
+        add: "",
+        //add: "141 W Jackson Blvd STE 300 A, Chicago, IL 60604, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Chicago.src,
@@ -38,7 +40,8 @@ const LocationList = [
     },
     {
         state: "Los Angeles",
-        add: "1425 Flower St, Los Angeles, CA 90015, United States",
+        add: "",
+        //add: "1425 Flower St, Los Angeles, CA 90015, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: LosAngeles.src,
@@ -47,7 +50,8 @@ const LocationList = [
     },
     {
         state: "New York",
-        add: "26 Broadway Suite 934, New York, NY 10004, United States",
+        add: "",
+        //add: "26 Broadway Suite 934, New York, NY 10004, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: NewYork.src,
@@ -56,17 +60,19 @@ const LocationList = [
     },
     {
         state: "Dallas",
-        add: "1341 W Mockingbird Ln, Dallas, TX 75247, United States",
+        add: "1314 W Mockingbird Ln, Dallas, TX 75247",
+        //add: "1341 W Mockingbird Ln, Dallas, TX 75247, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Dallas.src,
-        pin: "/seo-dallas-tx",
+        pin: "https://g.page/r/CYBG2cdsy4OoEBM",
         alt: "Infiniti Digital mobile app development company Dallas"
     },
 
     {
         state: "Denver",
-        add: "1035 Cherokee St, Denver, CO 80204, United States",
+        add: "",
+        //add: "1035 Cherokee St, Denver, CO 80204, United States",
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Denver.src,
@@ -106,9 +112,9 @@ const Location = () => {
                                                 <div className={styles.locationContent}>
                                                     <div className={styles.locState}>
                                                         <Link href={item.pin}>{item.state}</Link></div>
-                                                    {/* <div className={styles.locAdd}>
+                                                    <div className={styles.locAdd}>
                                                         <a href={item.pin} target='_blank'>{item.add}</a>
-                                                    </div> */}
+                                                    </div>
                                                     <ul>
                                                         <li>
                                                             <Link href={`tel:${item.phone}`}>
