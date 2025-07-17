@@ -25,7 +25,8 @@ const LocationList = [
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Houston.src,
-        pin: "https://g.page/r/CeEmJNeNmOMYEBM",
+        pin: "seo-houston-tx",
+        gmb: "https://g.page/r/CeEmJNeNmOMYEBM",
         alt: "Infiniti Digital mobile app development company Houston"
     },
     {
@@ -65,7 +66,8 @@ const LocationList = [
         phone: "855-666-6682",
         email: "inquiries@infinitidigital.us",
         img: Dallas.src,
-        pin: "https://g.page/r/CYBG2cdsy4OoEBM",
+        pin: "seo-dallas-tx",
+        gmb: "https://g.page/r/CYBG2cdsy4OoEBM",
         alt: "Infiniti Digital mobile app development company Dallas"
     },
 
@@ -113,7 +115,7 @@ const Location = () => {
                                                     <div className={styles.locState}>
                                                         <Link href={item.pin}>{item.state}</Link></div>
                                                     <div className={styles.locAdd}>
-                                                        <a href={item.pin} target='_blank'>{item.add}</a>
+                                                        <a href={item.gmb} target='_blank'>{item.add}</a>
                                                     </div>
                                                     <ul>
                                                         <li>

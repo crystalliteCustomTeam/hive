@@ -44,6 +44,12 @@ const page = () => {
                         <p><strong>Submission:</strong> All refund requests must be submitted to support@infinitidigital.us with the subject line Refund Request - [Project Name]</p>
                         <p><strong>Review:</strong>Our team will review your request within 7-10 business days and provide feedback.</p>
                         <p><strong>Approval or Rejection:</strong>Approved refunds will be processed within 14 business days. If denied, an explanation will be provided.</p>
+                        Refund Process
+                        Submission: All refund requests must be submitted to support@infinitidigital.us with the subject line Refund Request - [Project Name]
+
+                        Review:Our team will review your request within 7-10 business days and provide feedback.
+
+                        Approval or Rejection:Approved refunds will be processed within 14 business days. If denied, an explanation will be provided.
                     </Col>
                 </Row>
             </Container>
