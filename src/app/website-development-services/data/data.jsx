@@ -3,7 +3,7 @@ import BannerPoster from "media/innerservices/website-development-services/banne
 
 export const BannerData = {
     title: "Website Development Services",
-    desc: "Looking to boost your online presence? Can’t seem to get the desired results? At Infiniti Digital, we specialize in creating high-performance websites tailored to your business needs. We ensure seamless user experiences and measurable results that drive success.",
+    desc: "Looking to boost your online presence? Can’t seem to get the desired results? At Infiniti Digital marketing and website development company, we specialize in creating high-performance websites tailored to your business needs. We ensure seamless user experiences and measurable results that drive success.",
     video: "",
     BannerPoster: BannerPoster.src
 }
