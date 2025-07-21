@@ -18,6 +18,7 @@ const CommonBtn = ({
     chatTitle,
     LinkBtn,
     SeoPages,
+    chatOnly
 }) => {
     // Chat Code
     const openChat = () => {
@@ -72,6 +73,15 @@ const CommonBtn = ({
                     <div className={`commonBtn extraBtn`}>
                         <Link href={LinkBtn}>{txt}</Link>
                     </div>
+                    <div className={styles.chatStyle} onClick={openChat}>
+                        {chatTitle ? chatTitle : "Live Chat"}
+                    </div>
+                </div>
+            ) : chatOnly ? (
+                <div
+                    className="commonBtn"
+                >
+
                     <div className={styles.chatStyle} onClick={openChat}>
                         {chatTitle ? chatTitle : "Live Chat"}
                     </div>

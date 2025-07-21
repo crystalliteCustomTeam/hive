@@ -27,6 +27,13 @@ import StateCount from "@/src/app/[slug]/components/statecounter";
 import CTAFrom from "@/src/app/seo-glossary/ctaform";
 import CtatTitle from "@/src/app/[slug]/components/ctatitle";
 import Image from "next/image";
+import Testimonials from "@/src/app/home/testimonials";
+import Faqs from "@/src/app/[slug]/components/faq";
+import {
+  TestimonialData,
+  FAQsData
+} from "@/src/app/home/data/data";
+
 
 const stateCounterPost1 = [
   {
@@ -6835,7 +6842,6 @@ export const PostData = [
       </>
     ),
   },
-
   {
     tableContent: [
       { title: "Local SEO Optimization" },
@@ -6938,7 +6944,6 @@ export const PostData = [
       </>
     ),
   },
-
   {
     tableContent: [
       { title: "Performance Tracking & Reporting By SEO Professionals" },
@@ -7214,4 +7219,321 @@ export const PostData = [
       </>
     ),
   },
+  {
+    tableContent: [
+      { title: "Strategic Audit" },
+      { title: "Speed Optimization" },
+      { title: "SEO Essentials" },
+      { title: "Design Tweaks" },
+      { title: "The ROI? Tangible. Trackable. Immediate." },
+
+    ],
+    category: "SEO",
+    date: "21 July, 2025",
+    author: "brielle-delmar",
+    authorPic: BrielleDelmar.src,
+    job: "SEO Specialist",
+    tit: "$1,000 Website Budget? See Our Expert Spending Plan",
+    description:
+      "What would experts do with $1,000 to improve a website? We reveal our top strategies for impactful upgrades in design, performance, and SEO.",
+    slug: "website-optimization-under-1000",
+    title: (
+      <>If We Had $1,000 to Improve Your Website Here’s How We’d Spend It
+      </>
+    ),
+    img: Blog1.src,
+    type: "blogs",
+    maintxt: (
+      <>
+        <div className="PostImg">
+          <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
+        </div>
+        <p>You can absolutely spend $1,000 on your website and end up with… nothing.</p>
+        <p>A prettier button. A new font. A layout change no one notices.</p>
+        <p>Or, you could put that same $1,000 in the hands of people who know how to make it work.</p>
+        <p>At Infiniti Digital, we don’t throw money at problems, we solve them. Strategically. Surgically. With the same precision we bring to enterprise-level projects. Because whether your budget is $1,000 or $100,000, one rule doesn’t change:</p>
+        <p><strong>A website should make you money.</strong></p>
+        <p>So if you gave us $1,000 and told us to make your website work better, to load faster, rank higher, convert more consistently, and feel like a premium extension of your brand, this is exactly how we’d do it.</p>
+        <p>Strategically. Deliberately. Without wasting a cent.</p>
+        <p>Let’s break it down.</p>
+        <div id="Section-1">
+          <h2>Strategic Audit</h2>
+          <p>Every worthwhile transformation starts with a strategy and clarity. If your website isn’t performing, we don’t just jump in and start changing things. We <strong>diagnose.</strong></p>
+          <h5>Here's what we dissect:</h5>
+          <p>Our <Link href="/website-development-services">website development services</Link> include</p>
+          <ul>
+            <li>Analyzing technical performance (speed, mobile rendering, crawlability)</li>
+            <li>Behavioral analytics (heatmaps, scroll depth, abandonment points)</li>
+            <li>Identifying SEO signals and ranking blockers</li>
+            <li>Improving UX flow: where your users hesitate, stall, or simply leave</li>
+          </ul>
+          <p><strong>Why this matters:</strong> You wouldn’t renovate a house without inspecting the foundation. The same principle applies here. This audit gives us the blueprint. Everything we do next is built on what we learn here.</p>
+
+
+          <div className="centerBtn">
+            <CommonBtn chatTitle="Start growing smarter with Infiniti Digital" chatOnly={true} />
+          </div>
+        </div>
+        <div id="Section-2">
+          <h2>Speed Optimization</h2>
+          <p>The modern user is impatient. And luxury doesn’t load in 5 seconds. It’s immediate, effortless, and frictionless. We refine your backend so that your frontend delivers an elegant, seamless experience, every time, on every device.</p>
+          <h5>We implement:</h5>
+          <ul>
+            <li>Image optimization (WebP + compression that doesn’t kill quality)</li>
+            <li>Minification of bloated scripts and code</li>
+            <li>Caching and lazy loading for clean, instant rendering</li>
+            <li>CDN configuration (Cloudflare or premium tier recommendations)</li>
+            <li>Hosting environment audit (because slow servers are unacceptable)</li>
+          </ul>
+          <p><strong>Why this matters:</strong> Performance equals perception. A fast website doesn’t just rank higher, it feels more premium, more polished, more trustworthy.</p>
+        </div>
+        <div id="Section-3">
+          <h2>SEO Essentials</h2>
+          <p>We don’t chase algorithms. We align with them, intelligently.</p>
+          <p>Your website should rank for the right searches, speak to the right audience, and signal relevance without compromising your brand tone. We lay down the SEO foundation without turning your website into keyword soup.</p>
+          <h5>Here's what we execute:</h5>
+          <ul>
+            <li>Keyword strategy tailored to your niche and user intent</li>
+            <li>Rewriting meta titles & descriptions that get actual clicks</li>
+            <li>Proper heading hierarchy (H1, H2, H3)</li>
+            <li>Alt-text and structured data where it matters</li>
+            <li>Fresh sitemap + reindexing submission</li>
+          </ul>
+          <p><strong>Why this matters:</strong> When someone searches for what you offer, you should appear, and not just anywhere, but exactly where trust begins: the top of the page.</p>
+        </div>
+        <div id="Section-4">
+          <h2>Design Tweaks</h2>
+          <p>Luxury is in the details, and so is conversion.</p>
+          <p>We would not just redesign your website. We’re here to refine it. Sharpen the visuals. Remove the clutter. Enhance user experience, guide the eye. Let the brand speak.</p>
+          <h5>Our approach:</h5>
+          <ul>
+            <li>Rework CTA hierarchy and placement (make taking action feel effortless)</li>
+            <li>Optimize your homepage hero section (what they see first should matter most)</li>
+            <li>Streamline navigation for elegance and usability</li>
+            <li>Add social proof and trust markers (client logos, testimonials, certifications)</li>
+            <li>Address mobile UX with surgical precision (it’s where most users live)</li>
+          </ul>
+          <p><strong>Why this matters:</strong> People decide if they trust you in seconds. We make those seconds count.</p>
+          <div className="centerBtn">
+            <CommonBtn txt="Get your custom website and SEO audit" />
+          </div>
+        </div>
+        <div id="Section-5">
+          <h2>The ROI? Tangible. Trackable. Immediate.</h2>
+          <p>Anyone can redesign a website.<br />
+            Very few know how to elevate one.</p>
+          <p>At Infiniti Digital marketing and <Link href="/website-development-services">website development company,</Link> we don’t just fix websites, we transform them into high-performing brand experiences. We don’t guess. We don’t apply templates. We apply strategy, insight, and precision.</p>
+          <p>So if you’ve got $1,000 to spend, spend it wisely.<br />
+            Better yet, let us show you how to turn it into measurable growth.</p>
+          <div className="centerBtn">
+            <Link
+              href="https://calendly.com/infinitidigital/free-seo-consultation"
+              className="purpleBtn"
+            >
+              Schedule a free discovery call
+            </Link>
+          </div>
+          <h5>Ready to See What Strategic Web Refinement Feels Like?</h5>
+          <p>Book a strategy consultation<br />
+            Reach us directly at <a href="mailto:inquiries@infinitidigital.us">inquiries@infinitidigital.us</a></p>
+        </div>
+        <CTAFrom tit="Claim Your Free Consultation" />
+      </>
+    ),
+  },
+  // {
+  //   tableContent: [
+  //     { title: "Why Local SEO in Dallas a must have for Plumbers" },
+
+  //   ],
+  //   category: "SEO",
+  //   date: "21 July, 2025",
+  //   author: "lily-chen",
+  //   job: "Senior SEO Strategist",
+  //   authorPic: LilyChen.src,
+  //   tit: "Best Local SEO Tips to Help Plumbers Get Leads in Dallas",
+  //   description:
+  //     "Proven local SEO tips for plumbers in Dallas to rank higher, attract more calls, and beat competitors with optimized online visibility.",
+  //   slug: "who-offers-the-best-local-seo-services-in-houston",
+  //   title: (
+  //     <>Who offers the best local SEO services in Houston?
+  //     </>
+  //   ),
+  //   img: Blog1.src,
+  //   type: "blogs",
+  //   maintxt: (
+  //     <>
+  //       <div className="PostImg">
+  //         <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
+  //       </div>
+  //       <h5>Short answer: Infiniti Digital. Long answer? Keep reading to see why no one else even comes close.</h5>
+  //       <p>If you're a business based in Houston and you're not showing up on local searches, Google Maps, or the first page for your keywords, you're already losing customers, and money. In a market as saturated and competitive as H-Town, guessing your way through SEO is like bringing a butter knife to a gunfight.</p>
+  //       <p>That’s where we come in.</p>
+  //       <p>Infiniti Digital is the powerhouse agency redefining what effective, results-driven SEO looks like for local businesses in Houston.</p>
+  //       <div id="Section-1">
+  //         <h2>Why You Can’t Afford to Ignore Local SEO Anymore</h2>
+  //         <p>Before we name names, understand this, if you’re not doing local SEO, you’re already behind</p>
+  //         <p>Whether you're a restaurant in Midtown, an eCommerce store in the Heights, or a law firm downtown, you need local <Link href="/seo-houston-tx">SEO services in Houston TX</Link> that connect you with real people in real neighborhoods who are searching for your services.</p>
+
+  //         <h5>What Local SEO Really Does:</h5>
+  //         <ul>
+  //           <li>Gets your business in the Google Map Pack</li>
+  //           <li>Targets high-converting local search terms (think: “near me” + service)</li>
+  //           <li>Improves visibility across mobile devices</li>
+  //           <li>Drives foot traffic, phone calls, and sales</li>
+  //           <li>Builds long-term trust and authority in your service area</li>
+  //         </ul>
+  //         <p>If you're not leveraging organic search marketing in Houston, your competitors are eating your market share for breakfast.</p>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h3>Infiniti Digital: The Best Local SEO Company in Houston</h3>
+  //         <p>Let’s not beat around the bush.</p>
+  //         <p>Infiniti Digital is the best <Link href="/seo-houston-tx">SEO agency in Houston, TX.</Link> We’re the ones top Houston brands call when they’re tired of excuses and ready for results.</p>
+  //         <h5>What Sets Us Apart:</h5>
+  //         <ul>
+  //           <li>Hyperlocal targeting strategies tailored to Houston’s unique geography and demographics</li>
+  //           <li>Full-stack support: from SEO audits for websites in Houston to Google Business Profile optimization</li>
+  //           <li>Real-time performance tracking with best SEO analytics Houston has to offer</li>
+  //           <li>Hands-on support from a dedicated SEO specialist in Houston, no outsourcing.</li>
+  //           <li>Expertise in generative ai seo services for all kinds of businesses.</li>
+  //         </ul>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>What Makes Us a Top SEO Firm in Houston</h2>
+  //         <h5>1. SEO Services in Houston With Guaranteed Results</h5>
+  //         <p>We stand behind our work with proven seo strategies and battle-tested playbooks that have helped businesses:</p>
+  //         <ul>
+  //           <li>Increase local visibility by over 300%</li>
+  //           <li>Rank #1 in Google Maps for high-value keywords</li>
+  //           <li> Double phone call volume in under 90 days</li>
+  //         </ul>
+  //         <p>That’s why we’re considered the <Link href="/seo-houston-tx">best SEO services in Houston,</Link> not just in name, but in performance.</p>
+  //         <h5>2. Affordable SEO Company in Houston Businesses Trust</h5>
+  //         <p>You don’t need a six-figure budget to compete. Our affordable local SEO in Houston is designed for:</p>
+  //         <ul>
+  //           <li><strong>Startups</strong> wanting to build traction</li>
+  //           <li><strong>SMBs</strong> looking for fast local wins</li>
+  //           <li><strong>Establishe</strong> brands seeking SEO scalability</li>
+  //         </ul>
+  //         <div className="centerBtn">
+  //           <CommonBtn txt="Ready to grow without breaking the bank? Let’s talk ROI." />
+  //         </div>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>Houston SEO for Every Business Type</h2>
+  //         <h5>Ecommerce SEO in Houston</h5>
+  //         <p>Running a Shopify or WooCommerce store? Our <Link href="/seo-houston-tx">SEO services in Houston</Link> for e-commerce websites are laser-focused on:</p>
+  //         <ul>
+  //           <li>Product schema markup</li>
+  //           <li>Category silos</li>
+  //           <li>Conversion optimization</li>
+  //           <li>Local + transactional keywords</li>
+  //         </ul>
+  //         <p>That’s why clients call us the best SEO firm Houston has for eCommerce growth.</p>
+  //         <h5>B2B SEO Agency in Houston Businesses Recommend</h5>
+  //         <p>Selling services to other businesses? We build authority, trust, and lead funnels using:</p>
+  //         <ul>
+  //           <li>Competitor gap analysis</li>
+  //           <li>Content clusters</li>
+  //           <li>Thought leadership strategies</li>
+  //           <li>Industry backlinking</li>
+  //         </ul>
+  //         <p>We deliver results you can track and revenue you can count.</p>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>AI SEO Services in Houston for Startups</h2>
+  //         <p>If you are a tech-forward business owner, we integrate generative SEO, AI-powered audits, predictive rankings, and scalable systems that fuel rapid growth. We are the <Link href="/search-generative-engine-optimization-service">best generative SEO agency</Link> in Houston.</p>
+  //         <div className="centerBtn">
+  //           <CommonBtn txt="Geo Quote" />
+  //         </div>
+  //         <h2>So, How Much Does Houston SEO Cost?</h2>
+  //         <div className="table-responsive">
+  //           <table className="table table-bordered table-striped">
+  //             <thead>
+  //               <tr align="center">
+  //                 <th>Package</th>
+  //                 <th>Best For</th>
+  //                 <th>Starting Price</th>
+  //               </tr>
+  //             </thead>
+  //             <tbody>
+  //               <tr>
+  //                 <td>Local Boost</td>
+  //                 <td>eCom Accelerator</td>
+  //                 <td>B2B Authority</td>
+  //               </tr>
+  //               <tr>
+  //                 <td>Brick-and-mortar shops</td>
+  //                 <td>Product-based businesses</td>
+  //                 <td>Service providers & SaaS</td>
+  //               </tr>
+  //               <tr>
+  //                 <td>$600/month</td>
+  //                 <td>$1,300/month</td>
+  //                 <td>$2,200/month</td>
+  //               </tr>
+  //             </tbody>
+  //           </table>
+  //         </div>
+  //         <p>Our Houston SEO management packages come with:</p>
+  //         <ul>
+  //           <li>On-page & off-page SEO</li>
+  //           <li>Technical audits</li>
+  //           <li>Google Maps SEO Houston optimization</li>
+  //           <li> Monthly strategy reviews</li>
+  //         </ul>
+  //         <div className="centerBtn">
+  //           <CommonBtn txt="Get a transparent quote based on your business goals" />
+  //         </div>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>SEO That Dominates Google Maps Houston</h2>
+  //         <p>Let’s be real, Google Maps SEO in Houston is where the real conversions happen.</p>
+  //         <p>We optimize your:</p>
+  //         <ul>
+  //           <li>Business listing</li>
+  //           <li>Citations & NAP consistency</li>
+  //           <li>Local content + landing pages</li>
+  //           <li>Reviews strategy</li>
+  //         </ul>
+  //         <p>...to make sure you show up exactly when and where customers are looking for the services you provide or the products you’re selling.
+  //         </p>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>Who Is the Best SEO Company in Houston?</h2>
+  //         <p>Infiniti Digital.</p>
+  //         <p>You're looking at them.</p>
+  //         <p>From <Link href="/seo-houston-tx">top SEO in Houston</Link> to local SEO solutions, we lead the charge in performance-driven, ROI-first search strategies. We’re trusted by businesses across Texas because we deliver what others promise.</p>
+  //         <h5>What Our Clients Say:</h5>
+  //         <Testimonials data={TestimonialData} blog={true} />
+  //         <br />
+  //         <br />
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>Why Our SEO Company Is the Best in Houston</h2>
+  //         <ul>
+  //           <li>We combine creative content, technical execution, and data analysis</li>
+  //           <li>We offer SEO audits, local SEO marketing in Houston, and ongoing management</li>
+  //           <li> We’re not just service providers, we’re growth partners</li>
+  //           <li>And most of all… we actually care about your business goals</li>
+  //         </ul>
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>Ready to Rank? Let’s Build Your Business Empire.</h2>
+  //         <p>You found us because we know how to rank.<br />
+  //           Now let us help you get found.
+  //         </p>
+  //         <CaseStudyLp blogs={true} />
+  //         <br />
+  //         <br />
+  //       </div>
+  //       <div id="Section-1">
+  //         <h2>Before They Were Our Clients, They Asked Us This…</h2>
+  //         <p>Honest Questions from Businesses Tired of Excuses (And Bad SEO)</p>
+  //         <Faqs data={FAQsData} />
+  //       </div>
+  //       <CTAFrom tit="Claim Your Free Consultation" />
+  //     </>
+  //   ),
+  // },
 ];

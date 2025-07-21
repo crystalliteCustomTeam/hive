@@ -8,7 +8,7 @@ import Autoplay from 'embla-carousel-autoplay'
 const options = { loop: true }
 import SliderArrow from "@/src/app/components/sliderarrow";
 
-const Testimonials = ({ data }) => {
+const Testimonials = ({ data, blog }) => {
     const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay({ delay: 3000 }), ClassNames()])
     const prevButtonHandler = () => {
         if (emblaApi) emblaApi.scrollPrev();
@@ -18,14 +18,17 @@ const Testimonials = ({ data }) => {
         if (emblaApi) emblaApi.scrollNext();
     };
     return (
-        <section className={`pt-100 ${styles.testimonialsSection} sliderTestimonial`}>
+        <section className={`${blog ? "" : "pt-100"} ${styles.testimonialsSection} sliderTestimonial`}>
             <Container>
                 <Row>
-                    <Col md={9} className="m-auto text-center">
-                        <div className="subtitle">{data.subtitle}</div>
-                        <h2>{data.title}</h2>
-                        <p>{data.desc}</p>
-                    </Col>
+                    {!blog ?
+                        <Col md={9} className="m-auto text-center">
+                            <div className="subtitle">{data.subtitle}</div>
+                            <h2>{data.title}</h2>
+                            <p>{data.desc}</p>
+                        </Col>
+                        : ""
+                    }
                 </Row>
                 <Row>
                     <Col md={12} className="m-auto text-center">
@@ -33,7 +36,7 @@ const Testimonials = ({ data }) => {
                             <div className={styles.embla__viewport} ref={emblaRef}>
                                 <div className={styles.embla__container}>
                                     {data.Testslider.map((item, index) => (
-                                        <div className={styles.embla__slide} key={index}>
+                                        <div className={`${styles.embla__slide} ${blog ? styles.blogItem : ""}`} key={index}>
                                             <div className={`${styles.testBox} testBoxBG`}>
                                                 <div className={styles.testContent}>“{item.txt}”</div>
                                                 <div className={styles.infoTest}>

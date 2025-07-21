@@ -39,18 +39,26 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
-      title:
-        "Get more calls in Dallas as a plumber with Local SEO",
-      date: "10 July, 2025",
-      txt: "If you’re a plumber and your phone isn’t ringing steadily, you’re not dealing with a slow season, you’re dealing with a visibility problem.",
+      title: "If We Had $1,000 to Improve Your Website Here’s How We’d Spend It",
+      date: "21 July, 2025",
+      txt: "You can absolutely spend $1,000 on your website and end up with… nothing. A prettier button. A new font. A layout change no one notices.",
       category: "SEO",
-      img: IMG19.src,
-      link: "/local-seo-for-plumbers-located-in-dallas",
+      img: Blog1.src,
+      link: "/website-optimization-under-1000",
       author: "brielle-delmar",
     },
+    // ?    {
+    //     title:
+    //       "Get more calls in Dallas as a plumber with Local SEO",
+    //     date: "10 July, 2025",
+    //     txt: "If you’re a plumber and your phone isn’t ringing steadily, you’re not dealing with a slow season, you’re dealing with a visibility problem.",
+    //     category: "SEO",
+    //     img: IMG19.src,
+    //     link: "/local-seo-for-plumbers-located-in-dallas",
+    //     author: "brielle-delmar",
+    //   },
     {
-      title:
-        "Dallas SEO Strategies in 2025",
+      title: "Dallas SEO Strategies in 2025",
       date: "01 July, 2025",
       txt: "As we enter the second half of 2025, SEO strategies in Dallas are evolving faster than ever. Fueled by AI, voice search, and increasingly sophisticated search engine algorithms,",
       category: "SEO",
