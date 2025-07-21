@@ -7259,7 +7259,7 @@ export const PostData = [
         <div id="Section-1">
           <h2>Strategic Audit</h2>
           <p>Every worthwhile transformation starts with a strategy and clarity. If your website isn’t performing, we don’t just jump in and start changing things. We <strong>diagnose.</strong></p>
-          <h5>Here's what we dissect:</h5>
+          <h5>Here’s what we dissect:</h5>
           <p>Our <Link href="/website-development-services">website development services</Link> include</p>
           <ul>
             <li>Analyzing technical performance (speed, mobile rendering, crawlability)</li>
@@ -7291,7 +7291,7 @@ export const PostData = [
           <h2>SEO Essentials</h2>
           <p>We don’t chase algorithms. We align with them, intelligently.</p>
           <p>Your website should rank for the right searches, speak to the right audience, and signal relevance without compromising your brand tone. We lay down the SEO foundation without turning your website into keyword soup.</p>
-          <h5>Here's what we execute:</h5>
+          <h5>Here’s what we execute:</h5>
           <ul>
             <li>Keyword strategy tailored to your niche and user intent</li>
             <li>Rewriting meta titles & descriptions that get actual clicks</li>
@@ -7367,13 +7367,13 @@ export const PostData = [
   //         <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
   //       </div>
   //       <h5>Short answer: Infiniti Digital. Long answer? Keep reading to see why no one else even comes close.</h5>
-  //       <p>If you're a business based in Houston and you're not showing up on local searches, Google Maps, or the first page for your keywords, you're already losing customers, and money. In a market as saturated and competitive as H-Town, guessing your way through SEO is like bringing a butter knife to a gunfight.</p>
+  //       <p>If you’re a business based in Houston and you’re not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money. In a market as saturated and competitive as H-Town, guessing your way through SEO is like bringing a butter knife to a gunfight.</p>
   //       <p>That’s where we come in.</p>
   //       <p>Infiniti Digital is the powerhouse agency redefining what effective, results-driven SEO looks like for local businesses in Houston.</p>
   //       <div id="Section-1">
   //         <h2>Why You Can’t Afford to Ignore Local SEO Anymore</h2>
   //         <p>Before we name names, understand this, if you’re not doing local SEO, you’re already behind</p>
-  //         <p>Whether you're a restaurant in Midtown, an eCommerce store in the Heights, or a law firm downtown, you need local <Link href="/seo-houston-tx">SEO services in Houston TX</Link> that connect you with real people in real neighborhoods who are searching for your services.</p>
+  //         <p>Whether you’re a restaurant in Midtown, an eCommerce store in the Heights, or a law firm downtown, you need local <Link href="/seo-houston-tx">SEO services in Houston TX</Link> that connect you with real people in real neighborhoods who are searching for your services.</p>
 
   //         <h5>What Local SEO Really Does:</h5>
   //         <ul>
@@ -7383,7 +7383,7 @@ export const PostData = [
   //           <li>Drives foot traffic, phone calls, and sales</li>
   //           <li>Builds long-term trust and authority in your service area</li>
   //         </ul>
-  //         <p>If you're not leveraging organic search marketing in Houston, your competitors are eating your market share for breakfast.</p>
+  //         <p>If you’re not leveraging organic search marketing in Houston, your competitors are eating your market share for breakfast.</p>
   //       </div>
   //       <div id="Section-1">
   //         <h3>Infiniti Digital: The Best Local SEO Company in Houston</h3>
@@ -7502,7 +7502,7 @@ export const PostData = [
   //       <div id="Section-1">
   //         <h2>Who Is the Best SEO Company in Houston?</h2>
   //         <p>Infiniti Digital.</p>
-  //         <p>You're looking at them.</p>
+  //         <p>You’re looking at them.</p>
   //         <p>From <Link href="/seo-houston-tx">top SEO in Houston</Link> to local SEO solutions, we lead the charge in performance-driven, ROI-first search strategies. We’re trusted by businesses across Texas because we deliver what others promise.</p>
   //         <h5>What Our Clients Say:</h5>
   //         <Testimonials data={TestimonialData} blog={true} />
