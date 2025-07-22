@@ -30,6 +30,8 @@ import IMG16 from "media/blogs/posts/blog16.webp";
 import IMG17 from "media/blogs/posts/blog17.webp";
 import IMG18 from "media/blogs/posts/blog18.webp";
 import IMG19 from "media/blogs/posts/blog19.webp";
+import IMG20 from "media/blogs/posts/blog20.webp";
+import IMG21 from "media/blogs/posts/blog21.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -43,7 +45,7 @@ export const BlgosData = {
       date: "22 July, 2025",
       txt: "If you’re a business based in Houston and you’re not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money.",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG21.src,
       link: "/who-offers-the-best-local-seo-services-in-houston",
       author: "lily-chen",
     },
@@ -52,7 +54,7 @@ export const BlgosData = {
       date: "21 July, 2025",
       txt: "You can absolutely spend $1,000 on your website and end up with… nothing. A prettier button. A new font. A layout change no one notices.",
       category: "SEO",
-      img: Blog1.src,
+      img: IMG20.src,
       link: "/website-optimization-under-1000",
       author: "brielle-delmar",
     },

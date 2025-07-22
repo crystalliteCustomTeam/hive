@@ -17,6 +17,8 @@ import IMG16 from "media/blogs/posts/blog16.webp"
 import IMG17 from "media/blogs/posts/blog17.webp"
 import IMG18 from "media/blogs/posts/blog18.webp"
 import IMG19 from "media/blogs/posts/blog19.webp"
+import IMG20 from "media/blogs/posts/blog20.webp";
+import IMG21 from "media/blogs/posts/blog21.webp";
 import Blog1 from "media/blogs/posts/blog1.webp";
 import LetterA from "media/seo-glossary/letterImg/glossary-1.webp";
 import LetterB from "media/seo-glossary/letterImg/glossary-2.webp";
@@ -7241,12 +7243,12 @@ export const PostData = [
       <>If We Had $1,000 to Improve Your Website Here’s How We’d Spend It
       </>
     ),
-    img: Blog1.src,
+    img: IMG20.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
+          <Image src={IMG20.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
         </div>
         <p>You can absolutely spend $1,000 on your website and end up with… nothing.</p>
         <p>A prettier button. A new font. A layout change no one notices.</p>
@@ -7367,12 +7369,12 @@ export const PostData = [
       <>Who offers the best local SEO services in Houston?
       </>
     ),
-    img: Blog1.src,
+    img: IMG21.src,
     type: "blogs",
     maintxt: (
       <>
         <div className="PostImg">
-          <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
+          <Image src={IMG21.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
         </div>
         <h5>Short answer: Infiniti Digital. Long answer? Keep reading to see why no one else even comes close.</h5>
         <p>If you’re a business based in Houston and you’re not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money. In a market as saturated and competitive as H-Town, guessing your way through SEO is like bringing a butter knife to a gunfight.</p>
