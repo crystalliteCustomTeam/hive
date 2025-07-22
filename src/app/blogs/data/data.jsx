@@ -41,7 +41,7 @@ export const BlgosData = {
     {
       title: "Who offers the best local SEO services in Houston?",
       date: "22 July, 2025",
-      txt: "If you’re a business based in Houston and you're not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money.",
+      txt: "If you’re a business based in Houston and you’re not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money.",
       category: "SEO",
       img: Blog1.src,
       link: "/who-offers-the-best-local-seo-services-in-houston",
