@@ -31,7 +31,6 @@ import Testimonials from "@/src/app/home/testimonials";
 import Faqs from "@/src/app/[slug]/components/faq";
 import {
   TestimonialData,
-  FAQsData
 } from "@/src/app/home/data/data";
 
 
@@ -1682,6 +1681,7 @@ import GraceMoore from "media/blogs/author/grace-moore.webp";
 import ChloeHarris from "media/blogs/author/chloe-harris.webp";
 import JohnSullivan from "media/blogs/author/john-sullivan.webp";
 import CaseStudyLp from "@/src/app/best-seo-agency/casestudy";
+import { FaqHouston } from "@/src/app/[slug]/data/faqs";
 
 export const PostData = [
   {
@@ -7341,199 +7341,316 @@ export const PostData = [
       </>
     ),
   },
-  // {
-  //   tableContent: [
-  //     { title: "Why Local SEO in Dallas a must have for Plumbers" },
+  {
+    tableContent: [
+      { title: "Why You Can’t Afford to Ignore Local SEO Anymore" },
+      { title: "Infiniti Digital: The Best Local SEO Company in Houston" },
+      { title: "What Makes Us a Top SEO Firm in Houston" },
+      { title: "Houston SEO for Every Business Type" },
+      { title: "AI SEO Services in Houston for Startups" },
+      { title: "SEO That Dominates Google Maps Houston" },
+      { title: "Who Is the Best SEO Company in Houston?" },
+      { title: "Why Our SEO Company Is the Best in Houston" },
+      { title: "Ready to Rank? Let’s Build Your Business Empire." },
+      { title: "Before They Were Our Clients, They Asked Us This…" },
+    ],
+    category: "SEO",
+    date: "22 July, 2025",
+    author: "lily-chen",
+    job: "Senior SEO Strategist",
+    authorPic: LilyChen.src,
+    tit: "Best Local SEO Tips to Help Plumbers Get Leads in Dallas",
+    description:
+      "Proven local SEO tips for plumbers in Dallas to rank higher, attract more calls, and beat competitors with optimized online visibility.",
+    slug: "who-offers-the-best-local-seo-services-in-houston",
+    title: (
+      <>Who offers the best local SEO services in Houston?
+      </>
+    ),
+    img: Blog1.src,
+    type: "blogs",
+    maintxt: (
+      <>
+        <div className="PostImg">
+          <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
+        </div>
+        <h5>Short answer: Infiniti Digital. Long answer? Keep reading to see why no one else even comes close.</h5>
+        <p>If you’re a business based in Houston and you’re not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money. In a market as saturated and competitive as H-Town, guessing your way through SEO is like bringing a butter knife to a gunfight.</p>
+        <p>That’s where we come in.</p>
+        <p>Infiniti Digital is the powerhouse agency redefining what effective, results-driven SEO looks like for local businesses in Houston.</p>
+        <div id="Section-1">
+          <h2>Why You Can’t Afford to Ignore Local SEO Anymore</h2>
+          <p>Before we name names, understand this, if you’re not doing local SEO, you’re already behind</p>
+          <p>Whether you’re a restaurant in Midtown, an eCommerce store in the Heights, or a law firm downtown, you need local <Link href="/seo-houston-tx">SEO services in Houston TX</Link> that connect you with real people in real neighborhoods who are searching for your services.</p>
 
-  //   ],
-  //   category: "SEO",
-  //   date: "21 July, 2025",
-  //   author: "lily-chen",
-  //   job: "Senior SEO Strategist",
-  //   authorPic: LilyChen.src,
-  //   tit: "Best Local SEO Tips to Help Plumbers Get Leads in Dallas",
-  //   description:
-  //     "Proven local SEO tips for plumbers in Dallas to rank higher, attract more calls, and beat competitors with optimized online visibility.",
-  //   slug: "who-offers-the-best-local-seo-services-in-houston",
-  //   title: (
-  //     <>Who offers the best local SEO services in Houston?
-  //     </>
-  //   ),
-  //   img: Blog1.src,
-  //   type: "blogs",
-  //   maintxt: (
-  //     <>
-  //       <div className="PostImg">
-  //         <Image src={Blog1.src} alt="How A Chicago SEO Agency Tracks & Reports Your SEO Performance" fill />
-  //       </div>
-  //       <h5>Short answer: Infiniti Digital. Long answer? Keep reading to see why no one else even comes close.</h5>
-  //       <p>If you’re a business based in Houston and you’re not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money. In a market as saturated and competitive as H-Town, guessing your way through SEO is like bringing a butter knife to a gunfight.</p>
-  //       <p>That’s where we come in.</p>
-  //       <p>Infiniti Digital is the powerhouse agency redefining what effective, results-driven SEO looks like for local businesses in Houston.</p>
-  //       <div id="Section-1">
-  //         <h2>Why You Can’t Afford to Ignore Local SEO Anymore</h2>
-  //         <p>Before we name names, understand this, if you’re not doing local SEO, you’re already behind</p>
-  //         <p>Whether you’re a restaurant in Midtown, an eCommerce store in the Heights, or a law firm downtown, you need local <Link href="/seo-houston-tx">SEO services in Houston TX</Link> that connect you with real people in real neighborhoods who are searching for your services.</p>
+          <h5>What Local SEO Really Does:</h5>
+          <ul>
+            <li>Gets your business in the Google Map Pack</li>
+            <li>Targets high-converting local search terms (think: “near me” + service)</li>
+            <li>Improves visibility across mobile devices</li>
+            <li>Drives foot traffic, phone calls, and sales</li>
+            <li>Builds long-term trust and authority in your service area</li>
+          </ul>
+          <p>If you’re not leveraging organic search marketing in Houston, your competitors are eating your market share for breakfast.</p>
+        </div>
+        <div id="Section-2">
+          <h2>Infiniti Digital: The Best Local SEO Company in Houston</h2>
+          <p>Let’s not beat around the bush.</p>
+          <p>Infiniti Digital is the best <Link href="/seo-houston-tx">SEO agency in Houston, TX.</Link> We’re the ones top Houston brands call when they’re tired of excuses and ready for results.</p>
+          <h5>What Sets Us Apart:</h5>
+          <ul>
+            <li>Hyperlocal targeting strategies tailored to Houston’s unique geography and demographics</li>
+            <li>Full-stack support: from SEO audits for websites in Houston to Google Business Profile optimization</li>
+            <li>Real-time performance tracking with best SEO analytics Houston has to offer</li>
+            <li>Hands-on support from a dedicated SEO specialist in Houston, no outsourcing.</li>
+            <li>Expertise in <Link href="/search-generative-engine-optimization-service">generative ai seo services</Link> for all kinds of businesses.</li>
+          </ul>
+          <div className="centerBtn">
+            <Link
+              href="https://calendly.com/infinitidigital/free-seo-consultation"
+              className="purpleBtn"
+            >
+              Book your free local SEO consultation today!
+            </Link>
+          </div>
+        </div>
+        <div id="Section-3">
+          <h2>What Makes Us a Top SEO Firm in Houston</h2>
+          <h5>1. SEO Services in Houston With Guaranteed Results</h5>
+          <p>We stand behind our work with proven seo strategies and battle-tested playbooks that have helped businesses:</p>
+          <ul>
+            <li>Increase local visibility by over 300%</li>
+            <li>Rank #1 in Google Maps for high-value keywords</li>
+            <li> Double phone call volume in under 90 days</li>
+          </ul>
+          <p>That’s why we’re considered the <Link href="/seo-houston-tx">best SEO services in Houston,</Link> not just in name, but in performance.</p>
+          <h5>2. Affordable SEO Company in Houston Businesses Trust</h5>
+          <p>You don’t need a six-figure budget to compete. Our affordable local SEO in Houston is designed for:</p>
+          <ul>
+            <li><strong>Startups</strong> wanting to build traction</li>
+            <li><strong>SMBs</strong> looking for fast local wins</li>
+            <li><strong>Establishe</strong> brands seeking SEO scalability</li>
+          </ul>
+          <div className="centerBtn">
+            <CommonBtn chatTitle="Grow Without Overspending" chatOnly={true} />
+          </div>
+        </div>
+        <div id="Section-4">
+          <h2>Houston SEO for Every Business Type</h2>
+          <h5>Ecommerce SEO in Houston</h5>
+          <p>Running a Shopify or WooCommerce store? Our <Link href="/seo-houston-tx">SEO services in Houston</Link> for e-commerce websites are laser-focused on:</p>
+          <ul>
+            <li>Product schema markup</li>
+            <li>Category silos</li>
+            <li>Conversion optimization</li>
+            <li>Local + transactional keywords</li>
+          </ul>
+          <p>That’s why clients call us the best SEO firm Houston has for eCommerce growth.</p>
+          <h5>B2B SEO Agency in Houston Businesses Recommend</h5>
+          <p>Selling services to other businesses? We build authority, trust, and lead funnels using:</p>
+          <ul>
+            <li>Competitor gap analysis</li>
+            <li>Content clusters</li>
+            <li>Thought leadership strategies</li>
+            <li>Industry backlinking</li>
+          </ul>
+          <p>We deliver results you can track and revenue you can count.</p>
+        </div>
+        <div id="Section-5">
+          <h2>AI SEO Services in Houston for Startups</h2>
+          <p>If you are a tech-forward business owner, we integrate generative SEO, AI-powered audits, predictive rankings, and scalable systems that fuel rapid growth. We are the <Link href="/search-generative-engine-optimization-service">best generative SEO agency</Link> in Houston.</p>
+          <div className="centerBtn">
+            <Link
+              href="/search-generative-engine-optimization-service"
+              className="purpleBtn"
+            >
+              Explore Generative SEO Solutions
+            </Link>
+          </div>
 
-  //         <h5>What Local SEO Really Does:</h5>
-  //         <ul>
-  //           <li>Gets your business in the Google Map Pack</li>
-  //           <li>Targets high-converting local search terms (think: “near me” + service)</li>
-  //           <li>Improves visibility across mobile devices</li>
-  //           <li>Drives foot traffic, phone calls, and sales</li>
-  //           <li>Builds long-term trust and authority in your service area</li>
-  //         </ul>
-  //         <p>If you’re not leveraging organic search marketing in Houston, your competitors are eating your market share for breakfast.</p>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h3>Infiniti Digital: The Best Local SEO Company in Houston</h3>
-  //         <p>Let’s not beat around the bush.</p>
-  //         <p>Infiniti Digital is the best <Link href="/seo-houston-tx">SEO agency in Houston, TX.</Link> We’re the ones top Houston brands call when they’re tired of excuses and ready for results.</p>
-  //         <h5>What Sets Us Apart:</h5>
-  //         <ul>
-  //           <li>Hyperlocal targeting strategies tailored to Houston’s unique geography and demographics</li>
-  //           <li>Full-stack support: from SEO audits for websites in Houston to Google Business Profile optimization</li>
-  //           <li>Real-time performance tracking with best SEO analytics Houston has to offer</li>
-  //           <li>Hands-on support from a dedicated SEO specialist in Houston, no outsourcing.</li>
-  //           <li>Expertise in generative ai seo services for all kinds of businesses.</li>
-  //         </ul>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>What Makes Us a Top SEO Firm in Houston</h2>
-  //         <h5>1. SEO Services in Houston With Guaranteed Results</h5>
-  //         <p>We stand behind our work with proven seo strategies and battle-tested playbooks that have helped businesses:</p>
-  //         <ul>
-  //           <li>Increase local visibility by over 300%</li>
-  //           <li>Rank #1 in Google Maps for high-value keywords</li>
-  //           <li> Double phone call volume in under 90 days</li>
-  //         </ul>
-  //         <p>That’s why we’re considered the <Link href="/seo-houston-tx">best SEO services in Houston,</Link> not just in name, but in performance.</p>
-  //         <h5>2. Affordable SEO Company in Houston Businesses Trust</h5>
-  //         <p>You don’t need a six-figure budget to compete. Our affordable local SEO in Houston is designed for:</p>
-  //         <ul>
-  //           <li><strong>Startups</strong> wanting to build traction</li>
-  //           <li><strong>SMBs</strong> looking for fast local wins</li>
-  //           <li><strong>Establishe</strong> brands seeking SEO scalability</li>
-  //         </ul>
-  //         <div className="centerBtn">
-  //           <CommonBtn txt="Ready to grow without breaking the bank? Let’s talk ROI." />
-  //         </div>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>Houston SEO for Every Business Type</h2>
-  //         <h5>Ecommerce SEO in Houston</h5>
-  //         <p>Running a Shopify or WooCommerce store? Our <Link href="/seo-houston-tx">SEO services in Houston</Link> for e-commerce websites are laser-focused on:</p>
-  //         <ul>
-  //           <li>Product schema markup</li>
-  //           <li>Category silos</li>
-  //           <li>Conversion optimization</li>
-  //           <li>Local + transactional keywords</li>
-  //         </ul>
-  //         <p>That’s why clients call us the best SEO firm Houston has for eCommerce growth.</p>
-  //         <h5>B2B SEO Agency in Houston Businesses Recommend</h5>
-  //         <p>Selling services to other businesses? We build authority, trust, and lead funnels using:</p>
-  //         <ul>
-  //           <li>Competitor gap analysis</li>
-  //           <li>Content clusters</li>
-  //           <li>Thought leadership strategies</li>
-  //           <li>Industry backlinking</li>
-  //         </ul>
-  //         <p>We deliver results you can track and revenue you can count.</p>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>AI SEO Services in Houston for Startups</h2>
-  //         <p>If you are a tech-forward business owner, we integrate generative SEO, AI-powered audits, predictive rankings, and scalable systems that fuel rapid growth. We are the <Link href="/search-generative-engine-optimization-service">best generative SEO agency</Link> in Houston.</p>
-  //         <div className="centerBtn">
-  //           <CommonBtn txt="Geo Quote" />
-  //         </div>
-  //         <h2>So, How Much Does Houston SEO Cost?</h2>
-  //         <div className="table-responsive">
-  //           <table className="table table-bordered table-striped">
-  //             <thead>
-  //               <tr align="center">
-  //                 <th>Package</th>
-  //                 <th>Best For</th>
-  //                 <th>Starting Price</th>
-  //               </tr>
-  //             </thead>
-  //             <tbody>
-  //               <tr>
-  //                 <td>Local Boost</td>
-  //                 <td>eCom Accelerator</td>
-  //                 <td>B2B Authority</td>
-  //               </tr>
-  //               <tr>
-  //                 <td>Brick-and-mortar shops</td>
-  //                 <td>Product-based businesses</td>
-  //                 <td>Service providers & SaaS</td>
-  //               </tr>
-  //               <tr>
-  //                 <td>$600/month</td>
-  //                 <td>$1,300/month</td>
-  //                 <td>$2,200/month</td>
-  //               </tr>
-  //             </tbody>
-  //           </table>
-  //         </div>
-  //         <p>Our Houston SEO management packages come with:</p>
-  //         <ul>
-  //           <li>On-page & off-page SEO</li>
-  //           <li>Technical audits</li>
-  //           <li>Google Maps SEO Houston optimization</li>
-  //           <li> Monthly strategy reviews</li>
-  //         </ul>
-  //         <div className="centerBtn">
-  //           <CommonBtn txt="Get a transparent quote based on your business goals" />
-  //         </div>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>SEO That Dominates Google Maps Houston</h2>
-  //         <p>Let’s be real, Google Maps SEO in Houston is where the real conversions happen.</p>
-  //         <p>We optimize your:</p>
-  //         <ul>
-  //           <li>Business listing</li>
-  //           <li>Citations & NAP consistency</li>
-  //           <li>Local content + landing pages</li>
-  //           <li>Reviews strategy</li>
-  //         </ul>
-  //         <p>...to make sure you show up exactly when and where customers are looking for the services you provide or the products you’re selling.
-  //         </p>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>Who Is the Best SEO Company in Houston?</h2>
-  //         <p>Infiniti Digital.</p>
-  //         <p>You’re looking at them.</p>
-  //         <p>From <Link href="/seo-houston-tx">top SEO in Houston</Link> to local SEO solutions, we lead the charge in performance-driven, ROI-first search strategies. We’re trusted by businesses across Texas because we deliver what others promise.</p>
-  //         <h5>What Our Clients Say:</h5>
-  //         <Testimonials data={TestimonialData} blog={true} />
-  //         <br />
-  //         <br />
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>Why Our SEO Company Is the Best in Houston</h2>
-  //         <ul>
-  //           <li>We combine creative content, technical execution, and data analysis</li>
-  //           <li>We offer SEO audits, local SEO marketing in Houston, and ongoing management</li>
-  //           <li> We’re not just service providers, we’re growth partners</li>
-  //           <li>And most of all… we actually care about your business goals</li>
-  //         </ul>
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>Ready to Rank? Let’s Build Your Business Empire.</h2>
-  //         <p>You found us because we know how to rank.<br />
-  //           Now let us help you get found.
-  //         </p>
-  //         <CaseStudyLp blogs={true} />
-  //         <br />
-  //         <br />
-  //       </div>
-  //       <div id="Section-1">
-  //         <h2>Before They Were Our Clients, They Asked Us This…</h2>
-  //         <p>Honest Questions from Businesses Tired of Excuses (And Bad SEO)</p>
-  //         <Faqs data={FAQsData} />
-  //       </div>
-  //       <CTAFrom tit="Claim Your Free Consultation" />
-  //     </>
-  //   ),
-  // },
+          <h3>So, How Much Does Houston SEO Cost?</h3>
+          <div className="table-responsive">
+            <table className="table table-bordered table-striped">
+              <thead>
+                <tr align="center">
+                  <th>Package</th>
+                  <th>Best For</th>
+                  <th>Starting Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Local Boost</td>
+                  <td>eCom Accelerator</td>
+                  <td>B2B Authority</td>
+                </tr>
+                <tr>
+                  <td>Brick-and-mortar shops</td>
+                  <td>Product-based businesses</td>
+                  <td>Service providers & SaaS</td>
+                </tr>
+                <tr>
+                  <td>$600/month</td>
+                  <td>$1,300/month</td>
+                  <td>$2,200/month</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Our Houston SEO management packages come with:</p>
+          <ul>
+            <li>On-page & off-page SEO</li>
+            <li>Technical audits</li>
+            <li>Google Maps SEO Houston optimization</li>
+            <li> Monthly strategy reviews</li>
+          </ul>
+          <div className="centerBtn">
+            <CommonBtn txt="Get Your Custom Quote" />
+          </div>
+        </div>
+        <div id="Section-6">
+          <h2>SEO That Dominates Google Maps Houston</h2>
+          <p>Let’s be real, Google Maps SEO in Houston is where the real conversions happen.</p>
+          <p>We optimize your:</p>
+          <ul>
+            <li>Business listing</li>
+            <li>Citations & NAP consistency</li>
+            <li>Local content + landing pages</li>
+            <li>Reviews strategy</li>
+          </ul>
+          <p>...to make sure you show up exactly when and where customers are looking for the services you provide or the products you’re selling.
+          </p>
+        </div>
+        <div id="Section-7">
+          <h2>Who Is the Best SEO Company in Houston?</h2>
+          <p>Infiniti Digital.</p>
+          <p>You’re looking at them.</p>
+          <p>From <Link href="/seo-houston-tx">top SEO in Houston</Link> to local SEO solutions, we lead the charge in performance-driven, ROI-first search strategies. We’re trusted by businesses across Texas because we deliver what others promise.</p>
+          <h5>What Our Clients Say:</h5>
+          <Testimonials data={TestimonialData} blog={true} />
+          <br />
+          <br />
+        </div>
+        <div id="Section-8">
+          <h2>Why Our SEO Company Is the Best in Houston</h2>
+          <ul>
+            <li>We combine creative content, technical execution, and data analysis</li>
+            <li>We offer SEO audits, local SEO marketing in Houston, and ongoing management</li>
+            <li> We’re not just service providers, we’re growth partners</li>
+            <li>And most of all… we actually care about your business goals</li>
+          </ul>
+        </div>
+        <div id="Section-9">
+          <h2>Ready to Rank? Let’s Build Your Business Empire.</h2>
+          <p>You found us because we know how to rank.<br />
+            Now let us help you get found.
+          </p>
+          <div className="centerBtn">
+            <Link
+              href="https://calendly.com/infinitidigital/free-seo-consultation"
+              className="purpleBtn"
+            >
+              Schedule a free discovery call
+            </Link>
+          </div>
+          <CaseStudyLp blogs={true} />
+          <br />
+          <br />
+        </div>
+        <div id="Section-10">
+          <h2>Before They Were Our Clients, They Asked Us This…</h2>
+          <p>Honest Questions from Businesses Tired of Excuses (And Bad SEO)</p>
+          <Faqs data={FaqHouston} />
+        </div>
+        <CTAFrom tit="Claim Your Free Consultation" />
+      </>
+    ),
+    schema: (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Hey, so I have this small HVAC business in Houston, and I'm not showing up on Google no matter what I do. Can you like, explain how to fix this in simple terms?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Most HVAC businesses come to us after trying everything and still not showing up. The problem is that Google doesn’t trust your website yet. Your Google Business Profile is also probably not fully optimized, your website isn’t targeting the right local keywords, and you’re missing authority signals like local backlinks. That’s exactly what we fix at Infiniti Digital. We’ll get you ranking, increase the call volume, and make sure customers in Houston actually find your website and business profile."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Yo, what’s the fastest way to get my Houston food truck to pop up when people search ‘best tacos near me’?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The quickest way is to optimize your Google Business Profile like it’s your menu: clean, loaded, and irresistible. That means killer food photos, real customer reviews, correct hours, and your exact location. Next, your website (even if it’s just a page) needs location-specific keywords. We’ve helped food spots in Houston go from invisible to lunchtime lines. If you’re serious about growth we’ll make it happen."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Okay, so I hired some SEO guy in Houston, paid him $2k, and my rankings got worse. What should I do now?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Oof, we hear that more often than you’d think. You’re not alone. A lot of business owners in Houston have paid for SEO and ended up with vague reports, zero strategy, and worse rankings. That’s not how it should be. Here’s what we recommend: Let us run a free audit of your current setup, we’ll check what the last guy did (or didn’t do), what’s hurting your rankings, and exactly how to fix it. We’ve helped clients recover from bad SEO and actually start growing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Uh, how can a Houston personal injury lawyer get more cases from Google without spending a ton on ads?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The real move is local SEO. At Infiniti Digital, we help Houston attorneys dominate search by optimizing your Google profile, building pages that rank for high-intent local keywords, and stacking real reviews and authority signals to acquire new clients."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "So like, I need to know what exact words to put on my Houston electrician website so Google sends me calls.",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You need to use the exact phrases your customers are searching. Add those to your homepage, service pages, and especially your headlines. But it’s not just about keywords, Google also looks at location info, trust signals, and site structure. We handle all that for you, from keyword research to content that actually gets the phone ringing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What’s the cheapest but legit way to do SEO for my Houston car detailing side hustle? I’m broke rn.",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with your Google Business Profile, it’s free and powerful. That’s the foundation and it works. When you’re ready to grow, we’ll take it from there."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "My Houston competitor ranks for everything overnight. Are they cheating or do they know a secret?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Could be both. If they blew up overnight, they’re either running a black-hat SEO play (which will crash) or they’ve nailed the stuff that actually works, hyperlocal keywords, reviews, fast site, solid backlinks, and a dialed-in Google profile. The real secret is ranking strategy. And we know exactly how to reverse-engineer what they’re doing... then beat them at their own game."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do I really need backlinks for my boutique in Houston ? My web guy says yes, my cousin says no, and I’m stressed.",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, you need backlinks. Your web guy’s right. Your cousin’s great, but unless he’s an SEO strategist... maybe not your best source here. Backlinks are like digital referrals, when trusted websites mention your boutique, Google takes you more seriously and pushes your brand higher in search."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why is my coffee shop not showing in the top 3 when people search for cute hangout spots in Houston?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Because Google doesn’t yet know your coffee shop is a cute hangout spot. To rank in the top 3 (aka the Map Pack), you need a fully optimized Google Business Profile, local keywords on your website, consistent reviews, photos, and location signals. We do this all day, let us handle it."
+                }
+              }
+            ]
+          })
+        }}
+      />
+
+    ),
+
+  },
 ];

@@ -114,6 +114,7 @@ const Page = async ({ params }) => {
               </Col>
             </Row>
           </Container>
+          {blog.schema ? blog.schema : null}
         </section>
       ) : (
         <section className={styles.singlePost}>
@@ -134,6 +135,8 @@ const Page = async ({ params }) => {
               </Col>
             </Row>
           </Container>
+
+
         </section>
       )}
     </>

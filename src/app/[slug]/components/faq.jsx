@@ -12,7 +12,7 @@ const Faqs = ({ data, bg }) => {
     };
 
     return (
-        <section className={`${styles.faqsSection} ${bg ? styles.faqBG : ""} pt-100`}>
+        <section className={`${styles.faqsSection} ${bg ? styles.faqBG : ""} pt-4`}>
             <Container>
                 <Row>
                     <Col md={7}>

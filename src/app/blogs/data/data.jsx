@@ -39,6 +39,15 @@ export const BlgosData = {
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
     {
+      title: "Who offers the best local SEO services in Houston?",
+      date: "22 July, 2025",
+      txt: "If you’re a business based in Houston and you're not showing up on local searches, Google Maps, or the first page for your keywords, you’re already losing customers, and money.",
+      category: "SEO",
+      img: Blog1.src,
+      link: "/who-offers-the-best-local-seo-services-in-houston",
+      author: "lily-chen",
+    },
+    {
       title: "If We Had $1,000 to Improve Your Website Here’s How We’d Spend It",
       date: "21 July, 2025",
       txt: "You can absolutely spend $1,000 on your website and end up with… nothing. A prettier button. A new font. A layout change no one notices.",
@@ -47,16 +56,16 @@ export const BlgosData = {
       link: "/website-optimization-under-1000",
       author: "brielle-delmar",
     },
-    // ?    {
-    //     title:
-    //       "Get more calls in Dallas as a plumber with Local SEO",
-    //     date: "10 July, 2025",
-    //     txt: "If you’re a plumber and your phone isn’t ringing steadily, you’re not dealing with a slow season, you’re dealing with a visibility problem.",
-    //     category: "SEO",
-    //     img: IMG19.src,
-    //     link: "/local-seo-for-plumbers-located-in-dallas",
-    //     author: "brielle-delmar",
-    //   },
+    {
+      title:
+        "Get more calls in Dallas as a plumber with Local SEO",
+      date: "10 July, 2025",
+      txt: "If you’re a plumber and your phone isn’t ringing steadily, you’re not dealing with a slow season, you’re dealing with a visibility problem.",
+      category: "SEO",
+      img: IMG19.src,
+      link: "/local-seo-for-plumbers-located-in-dallas",
+      author: "brielle-delmar",
+    },
     {
       title: "Dallas SEO Strategies in 2025",
       date: "01 July, 2025",

@@ -23,8 +23,7 @@ const data = [
     ],
   },
   {
-    question:
-      "Do your website titles and descriptions make people want to click?",
+    question: "Do your website titles and descriptions make people want to click?",
     answers: [
       "Yes, all pages have compelling titles and descriptions",
       "Some pages are optimized, but not all",
@@ -40,8 +39,7 @@ const data = [
     ],
   },
   {
-    question:
-      "Does Google trust your website? (Backlinks from reputable sites)",
+    question: "Does Google trust your website? (Backlinks from reputable sites)",
     answers: [
       "Yes, I have links from well-known websites",
       "I have a few, but not enough",
@@ -49,8 +47,7 @@ const data = [
     ],
   },
   {
-    question:
-      "Are you using the right words to show up on Google? (Keyword strategy)",
+    question: "Are you using the right words to show up on Google? (Keyword strategy)",
     answers: [
       "Yes, I have a plan and use the best keywords",
       "Some of my content includes good keywords",
@@ -116,13 +113,20 @@ const Question = () => {
 
   const handleNext = () => {
     const selectedAnswerIndex = selectedAnswers[currentQuestionIndex];
-    if (selectedAnswerIndex !== undefined) {
+    if (selectedAnswerIndex !== undefined && currentQuestionIndex === selectedAnswers.length - 1) {
       setTotalPoints((prevPoints) => prevPoints + [10, 5, 0][selectedAnswerIndex]);
     }
+
     if (currentQuestionIndex < data.length - 1) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
       setShowSubmit(true);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex((prevIndex) => prevIndex - 1);
     }
   };
 
@@ -160,14 +164,13 @@ const Question = () => {
         body: JSON.stringify(userData),
       });
 
-      // Send data to Google Sheets API
       await fetch("https://sheetdb.io/api/v1/7eple7korb6ik", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ data: userData }),
       });
 
-      setMessage("Got it! Your SEO score is on its way to your Inbox (Or Spam).");
+      setMessage("Got it! Your SEO score is on its way to your Inbox (or Spam).");
       setName("");
       setRecipient("");
       setPhone("");
@@ -187,6 +190,11 @@ const Question = () => {
           {!showSubmit ? (
             <Col md={6} lg={6} className="my-auto">
               <div className={styles.questionPoints}>
+                <div className={styles.questionMeta}>
+                  <p className={styles.questionCount}>
+                    Question <span>{currentQuestionIndex + 1}</span> of <span>{data.length + 1}</span>
+                  </p>
+                </div>
                 <div className={styles.question}>
                   <h3>{data[currentQuestionIndex].question}</h3>
                   {data[currentQuestionIndex].answers.map((answer, index) => (
@@ -201,13 +209,23 @@ const Question = () => {
                       <label htmlFor={`answer-${index}`}>{answer}</label>
                     </div>
                   ))}
-                  <Button
-                    className={styles.nextButton}
-                    disabled={selectedAnswers[currentQuestionIndex] === undefined}
-                    onClick={handleNext}
-                  >
-                    Next Question
-                  </Button>
+                  <div className={styles.buttonGroup}>
+                    <Button
+                      variant="secondary"
+                      onClick={handlePrevious}
+                      disabled={currentQuestionIndex === 0}
+                      className={styles.prevButton}
+                    >
+                      Previous
+                    </Button>
+                    <Button
+                      className={styles.nextButton}
+                      disabled={selectedAnswers[currentQuestionIndex] === undefined}
+                      onClick={handleNext}
+                    >
+                      {currentQuestionIndex === data.length - 1 ? "Next" : "Next"}
+                    </Button>
+                  </div>
                 </div>
               </div>
             </Col>
