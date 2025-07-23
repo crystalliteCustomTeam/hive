@@ -1,6 +1,6 @@
 "use client";
-import PopUp from "@/src/app/components/popup";
 import { useState } from "react";
+import PopUp from "@/src/app/components/popup";
 import { ArrowIcon } from "@/src/app/app-constants";
 import styles from "@/styles/components/commonbtn.module.scss";
 import Link from "next/link";

@@ -1,23 +1,18 @@
 import { BlogData, PostData } from "@/src/app/[slug]/data/data";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/seo-glossary/singlepost.module.scss";
-import Image from "next/image";
-import TableOfContents from "./components/tablecontent";
-import Link from "next/link";
 
+
+import dynamic from "next/dynamic";
+const ClientBlog = dynamic(() => import("@/src/app/[slug]/components/clientblog"));
 
 export async function generateStaticParams() {
   const allPosts = [...BlogData, ...PostData];
-
-  return allPosts.map((post) => ({
-    slug: post.slug,
-  }));
+  return allPosts.map((post) => ({ slug: post.slug }));
 }
 
-
-
 export async function generateMetadata({ params }) {
-  const { slug } = await params;
+  const { slug } = params;
   const blog =
     BlogData.find((post) => post.slug === slug) ||
     PostData.find((post) => post.slug === slug);
@@ -36,7 +31,7 @@ export async function generateMetadata({ params }) {
       title: blog.tit,
       description: blog.description,
       url: blog.slug,
-      siteName: "Inifniti Digital",
+      siteName: "Infiniti Digital",
       locale: "en_US",
       type: "website",
       images: "https://www.infinitidigital.us/infinitidigital.png",
@@ -45,8 +40,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const Page = async ({ params }) => {
-  const { slug } = await params;
+export default async function Page({ params }) {
+  const { slug } = params;
   const blog =
     BlogData.find((post) => post.slug === slug) ||
     PostData.find((post) => post.slug === slug);
@@ -66,81 +61,5 @@ const Page = async ({ params }) => {
     );
   }
 
-
-  const authorName = blog.author
-    ? blog.author
-      .split("-")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ")
-    : "Unknown Author";
-
-
-  return (
-    <>
-      {blog.type === "blogs" ? (
-        <section className={styles.singleBlog}>
-          <Container>
-            <Row>
-              <Col md={12}>
-                <div className={styles.flexCategory}>
-                  <div>{blog.category}</div>
-                  <div>{blog.date}</div>
-                </div>
-                <h1>{blog.title}</h1>
-              </Col>
-              <Col md={7} lg={7} xl={8} className="order-2 order-md-1">
-                <div className={styles.authorBox}>
-                  <div className={styles.authorIMG}>
-                    <Image src={blog.authorPic} alt="Author" fill />
-                  </div>
-                  <div className={styles.authorContent}>
-                    <h4>{authorName}</h4>
-                    <ul className={styles.authorList}>
-                      <li>{blog.job}</li>
-                      <li>Infiniti Digital</li>
-                      <li>
-                        <Link href={blog.author}>Read Author Bio</Link>
-                      </li>
-                    </ul>
-
-                  </div>
-                </div>
-                <div className={styles.mainSection}>{blog.maintxt}</div>
-              </Col>
-              <Col md={5} lg={5} xl={4} className="order-1 order-md-2">
-                <div className={styles.blogsideBar}>
-                  <TableOfContents tableContent={blog.tableContent} />
-                </div>
-              </Col>
-            </Row>
-          </Container>
-          {blog.schema ? blog.schema : null}
-        </section>
-      ) : (
-        <section className={styles.singlePost}>
-          <Container>
-            <Row>
-              <Col md={12}>
-                <h1>{blog.title}</h1>
-                <div className={styles.bannerImg}>
-                  <Image
-                    src={blog.img}
-                    alt={blog.title}
-                    width={1420}
-                    height={664}
-                  />
-                </div>
-                <div className={styles.picPara}>{blog.picpara}</div>
-                <div className={styles.mainSection}>{blog.maintxt}</div>
-              </Col>
-            </Row>
-          </Container>
-
-
-        </section>
-      )}
-    </>
-  );
-};
-
-export default Page;
+  return <ClientBlog blog={blog} />;
+}
