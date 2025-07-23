@@ -7342,6 +7342,43 @@ export const PostData = [
         <CTAFrom tit="Claim Your Free Consultation" />
       </>
     ),
+    schema: (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.infinitidigital.us/website-optimization-under-1000"
+              },
+              "headline": "If We Had $1,000 to Improve Your Website Here’s How We’d Spend It",
+              "image": [
+                "https://www.infinitidigital.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog20.9c951e9e.webp&w=1920&q=75"
+              ],
+              "datePublished": "2025-07-22T00:00:00+00:00",
+              "dateModified": "2025-07-22T00:00:00+00:00",
+              "author": {
+                "@type": "Person",
+                "name": "Lily Chen",
+                "url": "https://www.infinitidigital.us/team/lily-chen/"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Infiniti Digital",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.infinitidigital.us/infinitidigital.png"
+                }
+              },
+              "description": "What would experts do with $1,000 to improve a website? We reveal our top strategies for impactful upgrades in design, performance, and SEO."
+            },
+          ])
+        }}
+      />
+    ),
   },
   {
     tableContent: [
@@ -7599,34 +7636,6 @@ export const PostData = [
                 }
               },
               "description": "Find the top local SEO services in Houston that help businesses rank higher in Google Maps, dominate local search results, and attract more nearby customers."
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "Article",
-              "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": "https://www.infinitidigital.us/website-optimization-under-1000"
-              },
-              "headline": "If We Had $1,000 to Improve Your Website Here’s How We’d Spend It",
-              "image": [
-                "https://www.infinitidigital.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblog20.9c951e9e.webp&w=1920&q=75"
-              ],
-              "datePublished": "2025-07-22T00:00:00+00:00",
-              "dateModified": "2025-07-22T00:00:00+00:00",
-              "author": {
-                "@type": "Person",
-                "name": "Lily Chen",
-                "url": "https://www.infinitidigital.us/team/lily-chen/"
-              },
-              "publisher": {
-                "@type": "Organization",
-                "name": "Infiniti Digital",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://www.infinitidigital.us/infinitidigital.png"
-                }
-              },
-              "description": "What would experts do with $1,000 to improve a website? We reveal our top strategies for impactful upgrades in design, performance, and SEO."
             },
             {
               "@context": "https://schema.org",
