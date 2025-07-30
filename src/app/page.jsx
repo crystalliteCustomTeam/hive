@@ -115,7 +115,7 @@ export default function Home() {
               "name": "Infiniti Digital",
               "image": "https://www.infinitidigital.us/infinitidigital.png",
               "url": "https://www.infinitidigital.us/",
-              "description": "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more!",
+              "description": "Grow your business online with Infiniti Digital Marketing Services. Get results with our expert SEO, PPC, Social Media, GEO, and AEO services.",
               "brand": {
                 "@type": "Brand",
                 "name": "Infiniti Digital"

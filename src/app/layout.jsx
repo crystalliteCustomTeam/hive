@@ -13,14 +13,14 @@ const poppins = Poppins({
 
 export const metadata = {
   metadataBase: new URL("https://www.infinitidigital.us/"),
-  title: "#1 Full-Service Digital Marketing Agency - Infiniti Digital",
+  title: "Infiniti Digital Marketing Agency US",
   description:
-    "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more! ",
+    "Grow your business online with Infiniti Digital Marketing Services. Get results with our expert SEO, PPC, Social Media, GEO, and AEO services.",
   //===== OG Tags =====
   openGraph: {
-    title: "#1 Full-Service Digital Marketing Agency - Infiniti Digital",
+    title: "Infiniti Digital Marketing Agency US",
     description:
-      "Attract, Impress, and make more revenue with full-service digital marketing agency. We provide SEO, PPC, Social Media, Web Development and more! ",
+      "Grow your business online with Infiniti Digital Marketing Services. Get results with our expert SEO, PPC, Social Media, GEO, and AEO services.",
     url: "/",
     siteName: "Inifniti Digital",
     locale: "en_US",
