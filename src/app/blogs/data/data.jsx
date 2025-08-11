@@ -32,6 +32,7 @@ import IMG18 from "media/blogs/posts/blog18.webp";
 import IMG19 from "media/blogs/posts/blog19.webp";
 import IMG20 from "media/blogs/posts/blog20.webp";
 import IMG21 from "media/blogs/posts/blog21.webp";
+import IMG22 from "media/blogs/posts/blog22.webp";
 import Glossary from "media/blogs/posts/Glossary.webp";
 import Checker from "media/blogs/posts/Checker.webp";
 
@@ -40,6 +41,15 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
+    {
+      title: "The Fastest Way for Dallas Property Managers to Get New Tenants Online",
+      date: "11 Aug, 2025",
+      txt: "Dallas is booming, but so is rental competition. While the market is ripe with opportunity, every day a property stays vacant is income down the drain.",
+      category: "SEO",
+      img: IMG22.src,
+      link: "/fill-dallas-rental-properties-faster-with-local-seo-and-digital-marketing",
+      author: "lily-chen",
+    },
     {
       title: "Who offers the best local SEO services in Houston?",
       date: "22 July, 2025",
