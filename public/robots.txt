@@ -17,5 +17,4 @@ Disallow: /landing
 Disallow: /landing/*
 Disallow: /thank-you
 
-User-agent:
 Sitemap: https://www.infinitidigital.us/sitemap.xml
