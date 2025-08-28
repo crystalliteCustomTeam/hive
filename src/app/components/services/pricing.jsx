@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap"
 import styles from "@/styles/services/pricing.module.scss"
-import { CheckedIcon } from "@/src/app/app-constants"
+import { CheckedIcon, DiscountBadge } from "@/src/app/app-constants"
 import CommonBtn from "@/src/app/components/common/commonbtn";
 
 
@@ -28,10 +28,12 @@ const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg, location }) => {
                                     Monthly
                                 </li>
                                 <li onClick={() => handlePriceClick(2)} className={selectedPrice === 2 ? styles.active : ""}>
-                                    Quarterly <span>Saves 16%</span>
+                                    Quarterly
+                                    {/* <span>Saves 16%</span> */}
                                 </li>
                                 <li onClick={() => handlePriceClick(3)} className={selectedPrice === 3 ? styles.active : ""}>
-                                    Annually <span>Saves 28%</span>
+                                    Annually
+                                    {/* <span>Saves 28%</span> */}
                                 </li>
                             </ul>
                         ) : (
@@ -48,9 +50,15 @@ const Pricing = ({ data, bg, tab, SMMLP, graybg, bluebg, location }) => {
                                         '--bgcolor': `${item.bgColor}` || '#262626',
                                     }}
                                     key={index}>
+                                    {tab ? <div className={styles.DiscountBadge}> <DiscountBadge /> </div> : ""}
                                     <div className={styles.packageHeader}>
                                         <div className={styles.packageName}>{item.packagename}</div>
-                                        <div className={styles.packagePrice}>${item[`price${selectedPrice}`] || item.price}/<span>{item.month ? item.month : "Month"}</span></div>
+                                        <div className={styles.packagePrice}>
+                                            $<span className={styles.cutPrice}>{item[`cutprice${selectedPrice}`] || item.cutprice}</span>
+                                            {item[`price${selectedPrice}`] || item.price}
+                                            /
+                                            <span>{item.month ? item.month : "Month"}</span>
+                                        </div>
                                         {item.titletxt ? <div className={styles.packageSubTxt}>{item?.titletxt}</div> : ""}
                                         <div className={styles.packagepara}>{item.txt}</div>
                                         <div className={styles.packagebutton}>

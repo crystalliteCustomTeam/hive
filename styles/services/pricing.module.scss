@@ -101,6 +101,7 @@
       transition: background 0.3s ease, transform 0.3s ease,
         box-shadow 0.3s ease;
       --bgcolor: transparent;
+      position: relative;
 
       .packageHeader {
         .packageName {
@@ -137,6 +138,13 @@
           text-transform: capitalize;
           color: #fff;
           margin-bottom: 20px;
+          .cutPrice {
+            color: rgba(255, 255, 255, 0.4);
+            text-decoration: line-through;
+            font-size: 22px;
+            display: block;
+            margin: 0px 10px;
+          }
 
           span {
             font-style: normal;
@@ -672,6 +680,15 @@
       }
     }
   }
+  .DiscountBadge {
+    position: absolute;
+    top: -4px;
+    right: 20px;
+    svg {
+      width: auto;
+      height: 120px;
+    }
+  }
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -718,7 +735,10 @@
             font-size: 55px;
             line-height: 55px;
             margin-bottom: 20px;
-
+            .cutPrice {
+              font-size: 18px;
+              margin: 0px 5px;
+            }
             span {
               font-size: 15px;
               line-height: 16px;
@@ -898,6 +918,13 @@
         }
       }
     }
+    .DiscountBadge {
+      top: -4px;
+      right: 20px;
+      svg {
+        height: 100px;
+      }
+    }
   }
 }
 
@@ -939,7 +966,10 @@
             font-size: 40px;
             line-height: 40px;
             margin-bottom: 15px;
-
+            .cutPrice {
+              font-size: 16px;
+              margin: 0px 5px;
+            }
             span {
               font-size: 15px;
               line-height: 16px;
@@ -1117,6 +1147,13 @@
         }
       }
     }
+    .DiscountBadge {
+      top: -4px;
+      right: 20px;
+      svg {
+        height: 90px;
+      }
+    }
   }
 }
 
@@ -1158,7 +1195,10 @@
             font-size: 40px;
             line-height: 40px;
             margin-bottom: 15px;
-
+            .cutPrice {
+              font-size: 15px;
+              margin: 0px 5px;
+            }
             span {
               font-size: 14px;
               line-height: 16px;
@@ -1336,6 +1376,13 @@
         }
       }
     }
+    .DiscountBadge {
+      top: -4px;
+      right: 20px;
+      svg {
+        height: 90px;
+      }
+    }
   }
 }
 
@@ -1377,7 +1424,10 @@
             font-size: 38px;
             line-height: 38px;
             margin-bottom: 15px;
-
+            .cutPrice {
+              font-size: 15px;
+              margin: 0px 5px;
+            }
             span {
               font-size: 14px;
               line-height: 16px;
@@ -1553,6 +1603,13 @@
         }
       }
     }
+    .DiscountBadge {
+      top: -4px;
+      right: 20px;
+      svg {
+        height: 80px;
+      }
+    }
   }
 }
 
@@ -1600,6 +1657,10 @@
             font-size: 38px;
             line-height: 38px;
             margin-bottom: 15px;
+            .cutPrice {
+              font-size: 14px;
+              margin: 0px 5px;
+            }
 
             span {
               font-size: 14px;
@@ -1679,6 +1740,13 @@
                 }
               }
             }
+          }
+        }
+        .DiscountBadge {
+          top: -4px;
+          right: 40px;
+          svg {
+            height: 100px;
           }
         }
       }
@@ -1832,6 +1900,10 @@
             font-size: 30px;
             line-height: 30px;
             margin-bottom: 15px;
+            .cutPrice {
+              font-size: 14px;
+              margin: 0px 5px;
+            }
 
             span {
               font-size: 12px;
@@ -1863,6 +1935,7 @@
           height: 220px;
           flex: 0 0 50%;
           margin-bottom: 0px;
+          margin-top: 50px;
 
           &::-webkit-scrollbar {
             width: 4px;
@@ -2018,6 +2091,13 @@
         }
       }
     }
+    .DiscountBadge {
+      top: -4px;
+      right: 20px;
+      svg {
+        height: 90px;
+      }
+    }
   }
 }
 
@@ -2063,6 +2143,10 @@
             font-size: 38px;
             line-height: 38px;
             margin-bottom: 15px;
+            .cutPrice {
+              font-size: 15px;
+              margin: 0px 5px;
+            }
 
             span {
               font-size: 14px;
@@ -2245,6 +2329,13 @@
             }
           }
         }
+      }
+    }
+    .DiscountBadge {
+      top: -3;
+      right: 20px;
+      svg {
+        height: 100px;
       }
     }
   }

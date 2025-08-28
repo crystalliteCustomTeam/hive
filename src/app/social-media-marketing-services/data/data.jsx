@@ -139,9 +139,12 @@ export const PriceData = {
       bgColor: "#7635FF",
       packagename: "Launch Package",
       titletxt: "Kickstart Your Brand’s Digital Presence",
-      price1: "1250",
-      price2: "1050",
-      price3: "900",
+      price1: "625",
+      cutprice1: "1250",
+      price2: "525",
+      cutprice2: "1050",
+      price3: "450",
+      cutprice3: "900",
       txt: "Ideal for businesses looking to establish a strong presence and build a foundational strategy based on data-backed insights.",
       bodyPoints: [
         {
@@ -175,9 +178,12 @@ export const PriceData = {
       bgColor: "#FF6987",
       packagename: "Elevate Package ",
       titletxt: "Take Your Brand to the Next Level",
-      price1: "1750",
-      price2: "1470",
-      price3: "1260",
+      price1: "875",
+      cutprice1: "1750",
+      price2: "735",
+      cutprice2: "1470",
+      price3: "630",
+      cutprice3: "1260",
       txt: "For businesses ready to grow their online presence and achieve measurable results using a more analytical and data-driven approach.",
       bodyPoints: [
         {
@@ -224,9 +230,12 @@ export const PriceData = {
       bgColor: "#9AFF35",
       packagename: "Dominate Package ",
       titletxt: "Achieve Social Media Leadership",
-      price1: "2250",
-      price2: "1890",
-      price3: "1620",
+      price1: "1125",
+      cutprice1: "2250",
+      price2: "945",
+      cutprice2: "1890",
+      price3: "810",
+      cutprice3: "1620",
       txt: "For brands aiming to completely dominate their niche and make data-informed decisions to grow their audience and convert leads into loyal customers.",
       bodyPoints: [
         {
