@@ -4,9 +4,9 @@ import { Col, Container, Row } from 'react-bootstrap'
 import CommonBtn from "@/src/app/components/common/commonbtn"
 
 
-const ServicesLp = ({ data, SMMLP }) => {
+const ServicesLp = ({ data, SMMLP, mt }) => {
     return (
-        <section className={`pt-100 ${styles.landingServices} ${SMMLP ? styles.smmLp : ""} `}>
+        <section className={`pt-100 ${styles.landingServices} ${SMMLP ? styles.smmLp : ""} ${mt ? styles.marginTop : ""}`}>
             <Container>
                 <Row>
                     <Col md={10} lg={8} className="m-auto text-center">

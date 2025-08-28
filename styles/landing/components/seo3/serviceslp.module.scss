@@ -1,1240 +1,1235 @@
 .landingServices {
-    border-radius: 120px 120px 0px 0px;
-    background: #F5FAFF;
-    margin-top: 100px;
+  border-radius: 120px 120px 0px 0px;
+  background: #f5faff;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  &.marginTop {
+    margin-top: 0px;
+  }
+
+  .landingServicesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    .landingServicesItem {
+      flex: 0 0 calc(33.33% - 10px);
+      margin-bottom: 20px;
+      background: #ffffff;
+      border: 1px solid #acb5be;
+      border-radius: 26px;
+      transition: all 0.5s ease;
+      height: 450px;
+      width: 100%;
+      overflow: hidden;
+      padding: 25px;
+      position: relative;
+
+      &:hover {
+        background: linear-gradient(9.84deg, #fff -12.54%, #9aff35 103.72%);
+        border: 0px;
+        transform: scale(1.01);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+        .icon {
+          background: #000;
+
+          svg {
+            width: auto;
+            height: 35px;
+            transition: all 0.3s ease;
+          }
+        }
+
+        .txtPara {
+          z-index: 2;
+          position: relative;
+          opacity: 1;
+          color: #000;
+          transition: color 0.3s ease;
+        }
+
+        .readMore {
+          z-index: 2;
+          background: #000;
+          border-color: #000;
+          color: #fff;
+          transition: background 0.3s ease, color 0.3s ease;
+
+          a {
+            color: #fff;
+            transition: color 0.3s ease;
+          }
+        }
+
+        .btnReaMore {
+          z-index: 2;
+          transform: rotate(-45deg);
+          background: #9aff35;
+          transition: transform 0.3s ease, background 0.3s ease;
+
+          svg {
+            path {
+              stroke: #000;
+              transition: stroke 0.3s ease;
+              /* Smooth stroke color change */
+            }
+          }
+        }
+      }
+
+      .icon {
+        margin-bottom: 20px;
+        width: 73px;
+        height: 73px;
+        border-radius: 100%;
+        background: rgba(154, 255, 53, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: auto;
+          height: 35px;
+        }
+      }
+
+      .title {
+        position: relative;
+        z-index: 2;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: -0.165px;
+        color: #000000;
+        margin-bottom: 15px;
+      }
+
+      p {
+        opacity: 1;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 10px;
+      }
+
+      .readMore {
+        width: 140px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: -0.165px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+
+        a {
+          color: #000000;
+        }
+      }
+
+      .btnReaMore {
+        height: 38px;
+        width: 38px;
+        background: #000000;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+
+        svg {
+          width: 18px;
+          height: auto;
+
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &.smmLp {
+    .landingServicesContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+
+      .landingServicesItem {
+        flex: 0 0 calc(25% - 10px);
+        margin-bottom: 20px;
+        background: #ffffff;
+        border: 1px solid #acb5be;
+        border-radius: 26px;
+        transition: all 0.5s ease;
+        height: 450px;
+        width: 100%;
+        overflow: hidden;
+        padding: 20px;
+        position: relative;
+
+        &:hover {
+          background: linear-gradient(9.84deg, #fff -12.54%, #7635ff 103.72%);
+          border: 0px;
+          transform: scale(1.01);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+          .icon {
+            background: #000;
+
+            svg {
+              transition: all 0.3s ease;
+
+              path {
+                fill: #fff;
+              }
+            }
+          }
+
+          p {
+            z-index: 2;
+            position: relative;
+            opacity: 1;
+            color: #000;
+            transition: color 0.3s ease;
+          }
+
+          .readMore {
+            z-index: 2;
+            background: #000;
+            border-color: #000;
+            color: #fff;
+            transition: background 0.3s ease, color 0.3s ease;
+
+            a {
+              color: #fff;
+              transition: color 0.3s ease;
+            }
+          }
+
+          .btnReaMore {
+            z-index: 2;
+            transform: rotate(-45deg);
+            background: #000;
+            transition: transform 0.3s ease, background 0.3s ease;
+
+            svg {
+              path {
+                stroke: #fff;
+                transition: stroke 0.3s ease;
+              }
+            }
+          }
+        }
+
+        .icon {
+          margin-bottom: 10px;
+          width: 65px;
+          height: 65px;
+          border-radius: 100%;
+          background: #ebe2ff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          svg {
+            width: auto;
+            height: 30px;
+
+            path {
+              fill: #7635ff;
+            }
+          }
+        }
+
+        .title {
+          position: relative;
+          z-index: 2;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 30px;
+          letter-spacing: -0.165px;
+          color: #000000;
+          margin-bottom: 5px;
+        }
+
+        p {
+          opacity: 1;
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 140px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #000000;
+          border-radius: 100px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 30px;
+          letter-spacing: -0.165px;
+          cursor: pointer;
+          position: absolute;
+          left: 20px;
+          bottom: 20px;
+
+          a {
+            color: #000000;
+          }
+        }
+
+        .btnReaMore {
+          height: 38px;
+          width: 38px;
+          background: #000000;
+          border-radius: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+
+          svg {
+            width: 18px;
+            height: auto;
+
+            path {
+              stroke: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .landingServices {
+    border-radius: 100px 100px 0px 0px;
+    margin-top: 80px;
     padding-bottom: 50px;
 
     .landingServicesContainer {
+      margin-top: 20px;
+
+      .landingServicesItem {
+        flex: 0 0 calc(33.33% - 10px);
+        margin-bottom: 15px;
+        border-radius: 26px;
+        height: 420px;
+        padding: 20px;
+
+        &:hover {
+          .icon {
+            svg {
+              height: 30px;
+            }
+          }
+        }
+
+        .icon {
+          margin-bottom: 20px;
+          width: 60px;
+          height: 60px;
+
+          svg {
+            width: auto;
+            height: 30px;
+          }
+        }
+
+        .title {
+          font-size: 22px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
+
+        .txtPara {
+          opacity: 1;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 140px;
+          height: 40px;
+          font-size: 16px;
+          line-height: 28px;
+          left: 20px;
+          bottom: 20px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 20px;
+          right: 20px;
+
+          svg {
+            width: 16px;
+          }
+        }
+      }
+    }
+
+    &.smmLp {
+      .landingServicesContainer {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-top: 20px;
 
         .landingServicesItem {
-            flex: 0 0 calc(33.33% - 10px);
-            margin-bottom: 20px;
-            background: #FFFFFF;
-            border: 1px solid #ACB5BE;
-            border-radius: 26px;
-            transition: all 0.5s ease;
-            height: 450px;
-            width: 100%;
-            overflow: hidden;
-            padding: 25px;
-            position: relative;
+          flex: 0 0 calc(25% - 10px);
+          margin-bottom: 20px;
+          height: 400px;
+          width: 100%;
+          padding: 20px;
 
-            &:hover {
-                background: linear-gradient(9.84deg, #fff -12.54%, #9aff35 103.72%);
-                border: 0px;
-                transform: scale(1.01);
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          .icon {
+            width: 55px;
+            height: 55px;
 
-                .icon {
-                    background: #000;
-
-                    svg {
-                        width: auto;
-                        height: 35px;
-                        transition: all 0.3s ease;
-                    }
-                }
-
-                .txtPara {
-                    z-index: 2;
-                    position: relative;
-                    opacity: 1;
-                    color: #000;
-                    transition: color 0.3s ease;
-                }
-
-                .readMore {
-                    z-index: 2;
-                    background: #000;
-                    border-color: #000;
-                    color: #fff;
-                    transition: background 0.3s ease, color 0.3s ease;
-
-                    a {
-                        color: #fff;
-                        transition: color 0.3s ease;
-                    }
-                }
-
-                .btnReaMore {
-                    z-index: 2;
-                    transform: rotate(-45deg);
-                    background: #9AFF35;
-                    transition: transform 0.3s ease, background 0.3s ease;
-
-                    svg {
-                        path {
-                            stroke: #000;
-                            transition: stroke 0.3s ease;
-                            /* Smooth stroke color change */
-                        }
-                    }
-                }
+            svg {
+              height: 30px;
             }
+          }
 
-            .icon {
-                margin-bottom: 20px;
-                width: 73px;
-                height: 73px;
-                border-radius: 100%;
-                background: rgba(154, 255, 53, 0.2);
-                display: flex;
-                align-items: center;
-                justify-content: center;
+          .title {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 5px;
+          }
 
-                svg {
-                    width: auto;
-                    height: 35px;
-                }
+          .txtPara {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 140px;
+            height: 40px;
+            font-size: 17px;
+            line-height: 30px;
+            left: 20px;
+            bottom: 20px;
+          }
+
+          .btnReaMore {
+            height: 38px;
+            width: 38px;
+            bottom: 20px;
+            right: 20px;
+
+            svg {
+              width: 18px;
             }
-
-            .title {
-                position: relative;
-                z-index: 2;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 22px;
-                line-height: 30px;
-                letter-spacing: -0.165px;
-                color: #000000;
-                margin-bottom: 15px;
-            }
-
-            p {
-                opacity: 1;
-                font-size: 18px;
-                line-height: 26px;
-                margin-bottom: 10px;
-            }
-
-            .readMore {
-                width: 140px;
-                height: 40px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border: 1px solid #000000;
-                border-radius: 100px;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 17px;
-                line-height: 30px;
-                letter-spacing: -0.165px;
-                cursor: pointer;
-                position: absolute;
-                left: 20px;
-                bottom: 20px;
-
-                a {
-                    color: #000000;
-                }
-            }
-
-            .btnReaMore {
-                height: 38px;
-                width: 38px;
-                background: #000000;
-                border-radius: 100px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                cursor: pointer;
-                position: absolute;
-                bottom: 20px;
-                right: 20px;
-
-                svg {
-                    width: 18px;
-                    height: auto;
-
-                    path {
-                        stroke: #fff;
-                    }
-                }
-            }
+          }
         }
+      }
     }
-
-    &.smmLp {
-        .landingServicesContainer {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-top: 20px;
-
-            .landingServicesItem {
-                flex: 0 0 calc(25% - 10px);
-                margin-bottom: 20px;
-                background: #FFFFFF;
-                border: 1px solid #ACB5BE;
-                border-radius: 26px;
-                transition: all 0.5s ease;
-                height: 450px;
-                width: 100%;
-                overflow: hidden;
-                padding: 20px;
-                position: relative;
-
-                &:hover {
-                    background: linear-gradient(9.84deg, #fff -12.54%, #7635FF 103.72%);
-                    border: 0px;
-                    transform: scale(1.01);
-                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
-                    .icon {
-                        background: #000;
-
-                        svg {
-                            transition: all 0.3s ease;
-
-                            path {
-                                fill: #fff;
-                            }
-                        }
-                    }
-
-                    p {
-                        z-index: 2;
-                        position: relative;
-                        opacity: 1;
-                        color: #000;
-                        transition: color 0.3s ease;
-                    }
-
-                    .readMore {
-                        z-index: 2;
-                        background: #000;
-                        border-color: #000;
-                        color: #fff;
-                        transition: background 0.3s ease, color 0.3s ease;
-
-                        a {
-                            color: #fff;
-                            transition: color 0.3s ease;
-                        }
-                    }
-
-                    .btnReaMore {
-                        z-index: 2;
-                        transform: rotate(-45deg);
-                        background: #000;
-                        transition: transform 0.3s ease, background 0.3s ease;
-
-                        svg {
-                            path {
-                                stroke: #fff;
-                                transition: stroke 0.3s ease;
-                            }
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 10px;
-                    width: 65px;
-                    height: 65px;
-                    border-radius: 100%;
-                    background: #EBE2FF;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-
-                    svg {
-                        width: auto;
-                        height: 30px;
-
-                        path {
-                            fill: #7635FF;
-                        }
-                    }
-                }
-
-                .title {
-                    position: relative;
-                    z-index: 2;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 22px;
-                    line-height: 30px;
-                    letter-spacing: -0.165px;
-                    color: #000000;
-                    margin-bottom: 5px;
-                }
-
-                p {
-                    opacity: 1;
-                    font-size: 18px;
-                    line-height: 26px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 140px;
-                    height: 40px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border: 1px solid #000000;
-                    border-radius: 100px;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 17px;
-                    line-height: 30px;
-                    letter-spacing: -0.165px;
-                    cursor: pointer;
-                    position: absolute;
-                    left: 20px;
-                    bottom: 20px;
-
-                    a {
-                        color: #000000;
-                    }
-                }
-
-                .btnReaMore {
-                    height: 38px;
-                    width: 38px;
-                    background: #000000;
-                    border-radius: 100px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    cursor: pointer;
-                    position: absolute;
-                    bottom: 20px;
-                    right: 20px;
-
-                    svg {
-                        width: 18px;
-                        height: auto;
-
-                        path {
-                            stroke: #fff;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .landingServices {
-        border-radius: 100px 100px 0px 0px;
-        margin-top: 80px;
-        padding-bottom: 50px;
-
-        .landingServicesContainer {
-            margin-top: 20px;
-
-            .landingServicesItem {
-                flex: 0 0 calc(33.33% - 10px);
-                margin-bottom: 15px;
-                border-radius: 26px;
-                height: 420px;
-                padding: 20px;
-
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 30px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 20px;
-                    width: 60px;
-                    height: 60px;
-
-                    svg {
-                        width: auto;
-                        height: 30px;
-                    }
-                }
-
-                .title {
-                    font-size: 22px;
-                    line-height: 28px;
-                    margin-bottom: 10px;
-                }
-
-                .txtPara {
-                    opacity: 1;
-                    font-size: 16px;
-                    line-height: 24px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 140px;
-                    height: 40px;
-                    font-size: 16px;
-                    line-height: 28px;
-                    left: 20px;
-                    bottom: 20px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 20px;
-                    right: 20px;
-
-                    svg {
-                        width: 16px;
-                    }
-                }
-            }
-        }
-
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 20px;
-
-                .landingServicesItem {
-                    flex: 0 0 calc(25% - 10px);
-                    margin-bottom: 20px;
-                    height: 400px;
-                    width: 100%;
-                    padding: 20px;
-
-
-                    .icon {
-                        width: 55px;
-                        height: 55px;
-
-                        svg {
-                            height: 30px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 20px;
-                        line-height: 30px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 16px;
-                        line-height: 24px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 140px;
-                        height: 40px;
-                        font-size: 17px;
-                        line-height: 30px;
-                        left: 20px;
-                        bottom: 20px;
-                    }
-
-                    .btnReaMore {
-                        height: 38px;
-                        width: 38px;
-                        bottom: 20px;
-                        right: 20px;
-
-                        svg {
-                            width: 18px;
-                        }
-                    }
-                }
-            }
-        }
-
-    }
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
-    .landingServices {
-        border-radius: 80px 80px 0px 0px;
-        margin-top: 50px;
-        padding-bottom: 50px;
+  .landingServices {
+    border-radius: 80px 80px 0px 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 
-        .landingServicesContainer {
-            margin-top: 20px;
+    .landingServicesContainer {
+      margin-top: 20px;
 
-            .landingServicesItem {
-                flex: 0 0 calc(33.33% - 10px);
-                margin-bottom: 15px;
-                border-radius: 20px;
-                height: 400px;
-                padding: 20px;
+      .landingServicesItem {
+        flex: 0 0 calc(33.33% - 10px);
+        margin-bottom: 15px;
+        border-radius: 20px;
+        height: 400px;
+        padding: 20px;
 
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 28px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 15px;
-                    width: 55px;
-                    height: 55px;
-
-                    svg {
-                        width: auto;
-                        height: 28px;
-                    }
-                }
-
-                .title {
-                    font-size: 20px;
-                    line-height: 28px;
-                    margin-bottom: 10px;
-                }
-
-                .txtPara {
-                    font-size: 15px;
-                    line-height: 24px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 140px;
-                    height: 38px;
-                    font-size: 15px;
-                    line-height: 28px;
-                    left: 20px;
-                    bottom: 20px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 20px;
-                    right: 20px;
-
-                    svg {
-                        width: 16px;
-                    }
-                }
+        &:hover {
+          .icon {
+            svg {
+              height: 28px;
             }
+          }
         }
 
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 20px;
+        .icon {
+          margin-bottom: 15px;
+          width: 55px;
+          height: 55px;
 
-                .landingServicesItem {
-                    flex: 0 0 calc(25% - 10px);
-                    margin-bottom: 20px;
-                    height: 370px;
-                    width: 100%;
-                    padding: 20px;
-
-
-                    .icon {
-                        width: 50px;
-                        height: 50px;
-
-                        svg {
-                            height: 25px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 18px;
-                        line-height: 30px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 15px;
-                        line-height: 22px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 120px;
-                        height: 35px;
-                        font-size: 15px;
-                        line-height: 30px;
-                        left: 20px;
-                        bottom: 20px;
-                    }
-
-                    .btnReaMore {
-                        height: 35px;
-                        width: 35px;
-                        bottom: 20px;
-                        right: 20px;
-
-                        svg {
-                            width: 16px;
-                        }
-                    }
-                }
-            }
+          svg {
+            width: auto;
+            height: 28px;
+          }
         }
+
+        .title {
+          font-size: 20px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
+
+        .txtPara {
+          font-size: 15px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 140px;
+          height: 38px;
+          font-size: 15px;
+          line-height: 28px;
+          left: 20px;
+          bottom: 20px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 20px;
+          right: 20px;
+
+          svg {
+            width: 16px;
+          }
+        }
+      }
     }
+
+    &.smmLp {
+      .landingServicesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .landingServicesItem {
+          flex: 0 0 calc(25% - 10px);
+          margin-bottom: 20px;
+          height: 370px;
+          width: 100%;
+          padding: 20px;
+
+          .icon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 25px;
+            }
+          }
+
+          .title {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 5px;
+          }
+
+          .txtPara {
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 120px;
+            height: 35px;
+            font-size: 15px;
+            line-height: 30px;
+            left: 20px;
+            bottom: 20px;
+          }
+
+          .btnReaMore {
+            height: 35px;
+            width: 35px;
+            bottom: 20px;
+            right: 20px;
+
+            svg {
+              width: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-    .landingServices {
-        border-radius: 70px 70px 0px 0px;
-        margin-top: 50px;
-        padding-bottom: 50px;
+  .landingServices {
+    border-radius: 70px 70px 0px 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 
-        .landingServicesContainer {
-            margin-top: 20px;
+    .landingServicesContainer {
+      margin-top: 20px;
 
-            .landingServicesItem {
-                flex: 0 0 calc(33.33% - 10px);
-                margin-bottom: 15px;
-                border-radius: 15px;
-                height: 380px;
-                padding: 20px;
+      .landingServicesItem {
+        flex: 0 0 calc(33.33% - 10px);
+        margin-bottom: 15px;
+        border-radius: 15px;
+        height: 380px;
+        padding: 20px;
 
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 25px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 15px;
-                    width: 55px;
-                    height: 55px;
-
-                    svg {
-                        width: auto;
-                        height: 25px;
-                    }
-                }
-
-                .title {
-                    font-size: 18px;
-                    line-height: 26px;
-                    margin-bottom: 10px;
-                }
-
-                p {
-                    font-size: 14px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 120px;
-                    height: 35px;
-                    font-size: 15px;
-                    line-height: 28px;
-                    left: 20px;
-                    bottom: 20px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 20px;
-                    right: 20px;
-
-                    svg {
-                        width: 16px;
-                    }
-                }
+        &:hover {
+          .icon {
+            svg {
+              height: 25px;
             }
+          }
         }
 
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 20px;
+        .icon {
+          margin-bottom: 15px;
+          width: 55px;
+          height: 55px;
 
-                .landingServicesItem {
-                    flex: 0 0 calc(25% - 5px);
-                    margin-bottom: 20px;
-                    height: 370px;
-                    width: 100%;
-                    padding: 15px;
-                    border-radius: 10px;
-
-
-                    .icon {
-                        width: 50px;
-                        height: 50px;
-
-                        svg {
-                            height: 22px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 18px;
-                        line-height: 30px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 14px;
-                        line-height: 22px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 100px;
-                        height: 30px;
-                        font-size: 14px;
-                        line-height: 30px;
-                        left: 15px;
-                        bottom: 15px;
-                    }
-
-                    .btnReaMore {
-                        height: 30px;
-                        width: 30px;
-                        bottom: 15px;
-                        right: 15px;
-
-                        svg {
-                            width: 15px;
-                        }
-                    }
-                }
-            }
+          svg {
+            width: auto;
+            height: 25px;
+          }
         }
+
+        .title {
+          font-size: 18px;
+          line-height: 26px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 120px;
+          height: 35px;
+          font-size: 15px;
+          line-height: 28px;
+          left: 20px;
+          bottom: 20px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 20px;
+          right: 20px;
+
+          svg {
+            width: 16px;
+          }
+        }
+      }
     }
+
+    &.smmLp {
+      .landingServicesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .landingServicesItem {
+          flex: 0 0 calc(25% - 5px);
+          margin-bottom: 20px;
+          height: 370px;
+          width: 100%;
+          padding: 15px;
+          border-radius: 10px;
+
+          .icon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          .title {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 5px;
+          }
+
+          .txtPara {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 100px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            left: 15px;
+            bottom: 15px;
+          }
+
+          .btnReaMore {
+            height: 30px;
+            width: 30px;
+            bottom: 15px;
+            right: 15px;
+
+            svg {
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 900px) and (max-width:1099px) {
-    .landingServices {
-        border-radius: 70px 70px 0px 0px;
-        margin-top: 50px;
-        padding-bottom: 50px;
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .landingServices {
+    border-radius: 70px 70px 0px 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 
-        .landingServicesContainer {
-            margin-top: 20px;
+    .landingServicesContainer {
+      margin-top: 20px;
 
-            .landingServicesItem {
-                flex: 0 0 calc(33.33% - 10px);
-                margin-bottom: 15px;
-                border-radius: 15px;
-                height: 350px;
-                padding: 20px;
+      .landingServicesItem {
+        flex: 0 0 calc(33.33% - 10px);
+        margin-bottom: 15px;
+        border-radius: 15px;
+        height: 350px;
+        padding: 20px;
 
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 25px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 15px;
-                    width: 50px;
-                    height: 50px;
-
-                    svg {
-                        width: auto;
-                        height: 25px;
-                    }
-                }
-
-                .title {
-                    font-size: 17px;
-                    line-height: 24px;
-                    margin-bottom: 10px;
-                }
-
-                .txtPara {
-                    font-size: 14px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 120px;
-                    height: 35px;
-                    font-size: 15px;
-                    line-height: 28px;
-                    left: 15px;
-                    bottom: 15px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 15px;
-                    right: 15px;
-
-                    svg {
-                        width: 15px;
-                    }
-                }
+        &:hover {
+          .icon {
+            svg {
+              height: 25px;
             }
+          }
         }
 
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 20px;
+        .icon {
+          margin-bottom: 15px;
+          width: 50px;
+          height: 50px;
 
-                .landingServicesItem {
-                    flex: 0 0 calc(25% - 5px);
-                    margin-bottom: 20px;
-                    height: 370px;
-                    width: 100%;
-                    padding: 15px;
-                    border-radius: 10px;
-
-
-                    .icon {
-                        width: 50px;
-                        height: 50px;
-
-                        svg {
-                            height: 22px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 14px;
-                        line-height: 22px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 100px;
-                        height: 30px;
-                        font-size: 14px;
-                        line-height: 30px;
-                        left: 15px;
-                        bottom: 15px;
-                    }
-
-                    .btnReaMore {
-                        height: 30px;
-                        width: 30px;
-                        bottom: 15px;
-                        right: 15px;
-
-                        svg {
-                            width: 15px;
-                        }
-                    }
-                }
-            }
+          svg {
+            width: auto;
+            height: 25px;
+          }
         }
+
+        .title {
+          font-size: 17px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+
+        .txtPara {
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 120px;
+          height: 35px;
+          font-size: 15px;
+          line-height: 28px;
+          left: 15px;
+          bottom: 15px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 15px;
+          right: 15px;
+
+          svg {
+            width: 15px;
+          }
+        }
+      }
     }
+
+    &.smmLp {
+      .landingServicesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .landingServicesItem {
+          flex: 0 0 calc(25% - 5px);
+          margin-bottom: 20px;
+          height: 370px;
+          width: 100%;
+          padding: 15px;
+          border-radius: 10px;
+
+          .icon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          .title {
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 5px;
+          }
+
+          .txtPara {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 100px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            left: 15px;
+            bottom: 15px;
+          }
+
+          .btnReaMore {
+            height: 30px;
+            width: 30px;
+            bottom: 15px;
+            right: 15px;
+
+            svg {
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width:899px) {
-    .landingServices {
-        border-radius: 50px 50px 0px 0px;
-        margin-top: 50px;
-        padding-bottom: 50px;
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .landingServices {
+    border-radius: 50px 50px 0px 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 
-        .landingServicesContainer {
-            margin-top: 20px;
+    .landingServicesContainer {
+      margin-top: 20px;
 
-            .landingServicesItem {
-                flex: 0 0 calc(50% - 10px);
-                margin-bottom: 15px;
-                border-radius: 15px;
-                height: 320px;
-                padding: 20px;
+      .landingServicesItem {
+        flex: 0 0 calc(50% - 10px);
+        margin-bottom: 15px;
+        border-radius: 15px;
+        height: 320px;
+        padding: 20px;
 
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 25px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 15px;
-                    width: 50px;
-                    height: 50px;
-
-                    svg {
-                        width: auto;
-                        height: 25px;
-                    }
-                }
-
-                .title {
-                    font-size: 17px;
-                    line-height: 24px;
-                    margin-bottom: 10px;
-                }
-
-                .txtPara {
-                    font-size: 14px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 120px;
-                    height: 35px;
-                    font-size: 15px;
-                    line-height: 28px;
-                    left: 15px;
-                    bottom: 15px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 15px;
-                    right: 15px;
-
-                    svg {
-                        width: 15px;
-                    }
-                }
+        &:hover {
+          .icon {
+            svg {
+              height: 25px;
             }
+          }
         }
 
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 20px;
+        .icon {
+          margin-bottom: 15px;
+          width: 50px;
+          height: 50px;
 
-                .landingServicesItem {
-                    flex: 0 0 calc(50% - 5px);
-                    margin-bottom: 20px;
-                    height: 300px;
-                    width: 100%;
-                    padding: 15px;
-                    border-radius: 10px;
-
-
-                    .icon {
-                        width: 50px;
-                        height: 50px;
-
-                        svg {
-                            height: 22px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 14px;
-                        line-height: 22px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 100px;
-                        height: 30px;
-                        font-size: 14px;
-                        line-height: 30px;
-                        left: 15px;
-                        bottom: 15px;
-                    }
-
-                    .btnReaMore {
-                        height: 30px;
-                        width: 30px;
-                        bottom: 15px;
-                        right: 15px;
-
-                        svg {
-                            width: 15px;
-                        }
-                    }
-                }
-            }
+          svg {
+            width: auto;
+            height: 25px;
+          }
         }
+
+        .title {
+          font-size: 17px;
+          line-height: 24px;
+          margin-bottom: 10px;
+        }
+
+        .txtPara {
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 120px;
+          height: 35px;
+          font-size: 15px;
+          line-height: 28px;
+          left: 15px;
+          bottom: 15px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 15px;
+          right: 15px;
+
+          svg {
+            width: 15px;
+          }
+        }
+      }
     }
+
+    &.smmLp {
+      .landingServicesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .landingServicesItem {
+          flex: 0 0 calc(50% - 5px);
+          margin-bottom: 20px;
+          height: 300px;
+          width: 100%;
+          padding: 15px;
+          border-radius: 10px;
+
+          .icon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          .title {
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 5px;
+          }
+
+          .txtPara {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 100px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            left: 15px;
+            bottom: 15px;
+          }
+
+          .btnReaMore {
+            height: 30px;
+            width: 30px;
+            bottom: 15px;
+            right: 15px;
+
+            svg {
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-@media only screen and (min-width: 576px) and (max-width:767px) {
-    .landingServices {
-        border-radius: 50px 50px 0px 0px;
-        margin-top: 50px;
-        padding-bottom: 50px;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .landingServices {
+    border-radius: 50px 50px 0px 0px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 
-        .landingServicesContainer {
-            margin-top: 20px;
+    .landingServicesContainer {
+      margin-top: 20px;
 
-            .landingServicesItem {
-                flex: 0 0 calc(50% - 10px);
-                margin-bottom: 15px;
-                border-radius: 15px;
-                height: 380px;
-                padding: 20px;
+      .landingServicesItem {
+        flex: 0 0 calc(50% - 10px);
+        margin-bottom: 15px;
+        border-radius: 15px;
+        height: 380px;
+        padding: 20px;
 
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 25px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 15px;
-                    width: 45px;
-                    height: 45px;
-
-                    svg {
-                        width: auto;
-                        height: 22px;
-                    }
-                }
-
-                .title {
-                    font-size: 16px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                }
-
-                .txtPara {
-                    font-size: 14px;
-                    line-height: 21px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 120px;
-                    height: 35px;
-                    font-size: 15px;
-                    line-height: 28px;
-                    left: 15px;
-                    bottom: 15px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 15px;
-                    right: 15px;
-
-                    svg {
-                        width: 15px;
-                    }
-                }
+        &:hover {
+          .icon {
+            svg {
+              height: 25px;
             }
+          }
         }
 
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 20px;
+        .icon {
+          margin-bottom: 15px;
+          width: 45px;
+          height: 45px;
 
-                .landingServicesItem {
-                    flex: 0 0 calc(50% - 5px);
-                    margin-bottom: 20px;
-                    height: 350px;
-                    width: 100%;
-                    padding: 15px;
-                    border-radius: 10px;
-
-
-                    .icon {
-                        width: 50px;
-                        height: 50px;
-
-                        svg {
-                            height: 22px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 16px;
-                        line-height: 26px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 14px;
-                        line-height: 22px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 100px;
-                        height: 30px;
-                        font-size: 14px;
-                        line-height: 30px;
-                        left: 15px;
-                        bottom: 15px;
-                    }
-
-                    .btnReaMore {
-                        height: 30px;
-                        width: 30px;
-                        bottom: 15px;
-                        right: 15px;
-
-                        svg {
-                            width: 15px;
-                        }
-                    }
-                }
-            }
+          svg {
+            width: auto;
+            height: 22px;
+          }
         }
+
+        .title {
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+
+        .txtPara {
+          font-size: 14px;
+          line-height: 21px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 120px;
+          height: 35px;
+          font-size: 15px;
+          line-height: 28px;
+          left: 15px;
+          bottom: 15px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 15px;
+          right: 15px;
+
+          svg {
+            width: 15px;
+          }
+        }
+      }
     }
+
+    &.smmLp {
+      .landingServicesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .landingServicesItem {
+          flex: 0 0 calc(50% - 5px);
+          margin-bottom: 20px;
+          height: 350px;
+          width: 100%;
+          padding: 15px;
+          border-radius: 10px;
+
+          .icon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          .title {
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 5px;
+          }
+
+          .txtPara {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 100px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            left: 15px;
+            bottom: 15px;
+          }
+
+          .btnReaMore {
+            height: 30px;
+            width: 30px;
+            bottom: 15px;
+            right: 15px;
+
+            svg {
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
-    .landingServices {
-        border-radius: 20px 20px 0px 0px;
-        margin-top: 30px;
-        padding-bottom: 30px;
+  .landingServices {
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 30px;
+    padding-bottom: 30px;
 
-        .landingServicesContainer {
-            margin-top: 20px;
+    .landingServicesContainer {
+      margin-top: 20px;
 
-            .landingServicesItem {
-                flex: 0 0 calc(100% - 0px);
-                margin-bottom: 15px;
-                border-radius: 15px;
-                height: 300px;
-                padding: 20px;
+      .landingServicesItem {
+        flex: 0 0 calc(100% - 0px);
+        margin-bottom: 15px;
+        border-radius: 15px;
+        height: 300px;
+        padding: 20px;
 
-                &:hover {
-                    .icon {
-                        svg {
-                            height: 25px;
-                        }
-                    }
-                }
-
-                .icon {
-                    margin-bottom: 15px;
-                    width: 45px;
-                    height: 45px;
-
-                    svg {
-                        width: auto;
-                        height: 22px;
-                    }
-                }
-
-                .title {
-                    font-size: 16px;
-                    line-height: 22px;
-                    margin-bottom: 10px;
-                }
-
-                .txtPara {
-                    font-size: 14px;
-                    line-height: 21px;
-                    margin-bottom: 10px;
-                }
-
-                .readMore {
-                    width: 120px;
-                    height: 35px;
-                    font-size: 15px;
-                    line-height: 28px;
-                    left: 15px;
-                    bottom: 15px;
-                }
-
-                .btnReaMore {
-                    height: 35px;
-                    width: 35px;
-                    bottom: 15px;
-                    right: 15px;
-
-                    svg {
-                        width: 15px;
-                    }
-                }
+        &:hover {
+          .icon {
+            svg {
+              height: 25px;
             }
+          }
         }
 
-        &.smmLp {
-            .landingServicesContainer {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                margin-top: 10px;
+        .icon {
+          margin-bottom: 15px;
+          width: 45px;
+          height: 45px;
 
-                .landingServicesItem {
-                    flex: 0 0 calc(100% - 0px);
-                    margin-bottom: 10px;
-                    height: 320px;
-                    width: 100%;
-                    padding: 15px;
-                    border-radius: 10px;
-
-
-                    .icon {
-                        width: 50px;
-                        height: 50px;
-
-                        svg {
-                            height: 22px;
-                        }
-                    }
-
-                    .title {
-                        font-size: 18px;
-                        line-height: 26px;
-                        margin-bottom: 5px;
-                    }
-
-                    .txtPara {
-                        font-size: 14px;
-                        line-height: 22px;
-                        margin-bottom: 10px;
-                    }
-
-                    .readMore {
-                        width: 100px;
-                        height: 30px;
-                        font-size: 13px;
-                        line-height: 30px;
-                        left: 15px;
-                        bottom: 15px;
-                    }
-
-                    .btnReaMore {
-                        height: 30px;
-                        width: 30px;
-                        bottom: 15px;
-                        right: 15px;
-
-                        svg {
-                            width: 15px;
-                        }
-                    }
-                }
-            }
+          svg {
+            width: auto;
+            height: 22px;
+          }
         }
+
+        .title {
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 10px;
+        }
+
+        .txtPara {
+          font-size: 14px;
+          line-height: 21px;
+          margin-bottom: 10px;
+        }
+
+        .readMore {
+          width: 120px;
+          height: 35px;
+          font-size: 15px;
+          line-height: 28px;
+          left: 15px;
+          bottom: 15px;
+        }
+
+        .btnReaMore {
+          height: 35px;
+          width: 35px;
+          bottom: 15px;
+          right: 15px;
+
+          svg {
+            width: 15px;
+          }
+        }
+      }
     }
+
+    &.smmLp {
+      .landingServicesContainer {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+        .landingServicesItem {
+          flex: 0 0 calc(100% - 0px);
+          margin-bottom: 10px;
+          height: 320px;
+          width: 100%;
+          padding: 15px;
+          border-radius: 10px;
+
+          .icon {
+            width: 50px;
+            height: 50px;
+
+            svg {
+              height: 22px;
+            }
+          }
+
+          .title {
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 5px;
+          }
+
+          .txtPara {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+          }
+
+          .readMore {
+            width: 100px;
+            height: 30px;
+            font-size: 13px;
+            line-height: 30px;
+            left: 15px;
+            bottom: 15px;
+          }
+
+          .btnReaMore {
+            height: 30px;
+            width: 30px;
+            bottom: 15px;
+            right: 15px;
+
+            svg {
+              width: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

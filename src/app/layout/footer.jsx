@@ -69,7 +69,8 @@ const Footer = () => {
             pathname === "/search-engine-optimization-services" ||
             pathname === "/best-seo-agency" ||
             pathname === "/organic-seo-services" ||
-            pathname === "/local-seo-agency"
+            pathname === "/local-seo-agency" ||
+            pathname === "/seo-agency-new-york"
         );
     }, [pathname]);
 

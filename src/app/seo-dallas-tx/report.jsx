@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 
 
-const ReportSec = ({data}) => {
+const ReportSec = ({ data }) => {
   return (
     <section className={`${styles.reportSection} p-100`}>
       <Container>
@@ -11,7 +11,7 @@ const ReportSec = ({data}) => {
           <Col md={6} lg={6}>
             <h2>{data.title}</h2>
             <p>
-            {data.txt}
+              {data.txt}
             </p>
             <div className={styles.contactImg}>
               <Image src={data.img} width={1409} height={867} alt="Seo Dallar" />

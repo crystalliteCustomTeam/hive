@@ -1,0 +1,79 @@
+.tabSection {
+  background: #eff7ff;
+  backdrop-filter: blur(500px);
+  margin-top: 100px;
+  border-radius: 100px 100px 0px 0px;
+  .tabWapper {
+    display: flex;
+    justify-content: space-between;
+    .tabTitle {
+      flex: 0 0 40%;
+
+      ul {
+        position: sticky;
+        top: 120px;
+
+        li {
+          padding: 10px 15px;
+          cursor: pointer;
+          border-left: 3px solid transparent;
+          transition: all 0.3s ease;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 400;
+          color: #657985;
+
+          &.active {
+            border-left: 5px solid #7635ff;
+            background: rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(7.5px);
+            color: #fff;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .tabContent {
+      flex: 0 0 calc(60% - 30px);
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      h3 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 35px;
+        margin-bottom: 10px;
+      }
+      h5 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+      ul {
+        padding-left: 25px;
+        margin-bottom: 20px;
+        li {
+          font-size: 15px;
+          line-height: 22px;
+          position: relative;
+          margin-bottom: 10px;
+          color: #657985;
+          &:after {
+            content: "";
+            background: #7635ff;
+            width: 12px;
+            height: 3px;
+            position: absolute;
+            left: -25px;
+            top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

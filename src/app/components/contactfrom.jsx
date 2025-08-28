@@ -24,7 +24,8 @@ const ContactFrom = ({
   customprice,
   location,
   locationPage,
-  SeoPages
+  SeoPages,
+  locTitle
 }) => {
   const [ip, setIP] = useState("");
   const [pagenewurl, setPagenewurl] = useState("");
@@ -133,8 +134,14 @@ const ContactFrom = ({
           <>
             <div className="subtitle">Get In Touch</div>
             <h6>
-              Please fill out the form below, and we’ll respond as soon as
-              possible.
+              Please fill out the form below, and we’ll respond as soon as possible.
+            </h6>
+          </>
+        ) : locTitle ? (
+          <>
+            <div className="subtitle">Get In Touch</div>
+            <h6>
+              Please fill out the form below, and we’ll respond as soon as possible.
             </h6>
           </>
         ) : (
@@ -224,7 +231,7 @@ const ContactFrom = ({
         </div>
         {extra ? <div className={`${styles.para} mt-3`}>{extra}</div> : ""}
       </div>
-    </Form>
+    </Form >
   );
 };
 

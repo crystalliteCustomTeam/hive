@@ -1,0 +1,85 @@
+.bannerSection {
+  height: 900px;
+  background: linear-gradient(180deg, #e0f0ff, #ffffff 70%);
+  .bannerContent {
+    padding-top: 150px;
+    h1 {
+      color: #000;
+    }
+
+    .reviewSection {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .clientWrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        flex: 0 0 40%;
+
+        .clientItem {
+          position: relative;
+          width: 70px;
+          height: 70px;
+          margin-left: -10px;
+          transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+          &:first-child {
+            margin-left: 0px;
+          }
+
+          img {
+            object-fit: fill;
+            border-radius: 100%;
+            border: 2px solid #fff;
+          }
+          &.enter {
+            transform: translateY(100%);
+            opacity: 0;
+            animation: slideUp 0.6s ease forwards;
+          }
+        }
+      }
+      .starWrapper {
+        flex: 0 0 33.33%;
+        svg {
+          width: auto;
+          height: 28px;
+          margin-right: 10px;
+        }
+        .txt {
+          margin-top: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: -0.165px;
+          color: #657985;
+          margin-bottom: 20px;
+        }
+      }
+      .clutchWrapper {
+        flex: 0 0 20%;
+      }
+    }
+  }
+  .BoxFrom {
+    padding-top: 150px;
+    h6 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
