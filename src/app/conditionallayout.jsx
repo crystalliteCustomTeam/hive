@@ -23,22 +23,28 @@ const ConditionalLayout = ({ children }) => {
   // ✅ check if current page is a popup page
   const isPopupPage = popupPages.includes(pathname);
 
-  // ✅ auto open popup on scroll >= 500px only if page matches
+  // ✅ auto open popup on scroll >= 500px
   useEffect(() => {
-    if (!isPopupPage) return;
+    if (!isPopupPage) {
+      setShowPopup(false);
+      return;
+    }
 
     const handleScroll = () => {
       if (window.scrollY >= 500) {
         setShowPopup(true);
-        window.removeEventListener("scroll", handleScroll); // open once
+        window.removeEventListener("scroll", handleScroll); // open once per page
       }
     };
 
+    // reset popup and add listener on page change
+    setShowPopup(false);
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [isPopupPage]);
 
-  // ✅ show header/footer only if NOT popup page
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [pathname, isPopupPage]);
+
+  // ✅ show header/footer only if NOT excluded pages
   const conditionalVariable =
     pathname !== "/social-media-marketing" &&
     pathname !== "/best-seo-agency" &&
