@@ -25,7 +25,8 @@ const ContactFrom = ({
   location,
   locationPage,
   SeoPages,
-  locTitle
+  locTitle,
+  noservices
 }) => {
   const [ip, setIP] = useState("");
   const [pagenewurl, setPagenewurl] = useState("");
@@ -191,17 +192,19 @@ const ContactFrom = ({
         {!location &&
           (!vertical ? (
             <>
-              <div className={styles.contactItem}>
-                <select name="services" required>
-                  <option value="">Select Service</option>
-                  <option value="SEO">SEO</option>
-                  <option value="SMM">SMM</option>
-                  <option value="Paid Marketing">Paid Marketing</option>
-                  <option value="Web Design & Development">Web Design & Development</option>
-                  <option value="Mobile App Development">Mobile App Development</option>
-                  <option value="Content Marketing">Content Marketing</option>
-                </select>
-              </div>
+              {noservices ? "" :
+                <div className={styles.contactItem}>
+                  <select name="services" required>
+                    <option value="">Select Service</option>
+                    <option value="SEO">SEO</option>
+                    <option value="SMM">SMM</option>
+                    <option value="Paid Marketing">Paid Marketing</option>
+                    <option value="Web Design & Development">Web Design & Development</option>
+                    <option value="Mobile App Development">Mobile App Development</option>
+                    <option value="Content Marketing">Content Marketing</option>
+                  </select>
+                </div>
+              }
               <div className={styles.contactItem}>
                 <textarea placeholder="Message" name="comment"></textarea>
               </div>
