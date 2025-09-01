@@ -49,17 +49,6 @@ const Scripts = () => {
         gtag("config", "G-KCPM5K053W");
       };
 
-      // Google Ads Tag (AW-11475040852)
-      const adsScript1 = document.createElement("script");
-      adsScript1.async = true;
-      adsScript1.src =
-        "https://www.googletagmanager.com/gtag/js?id=AW-11475040852";
-      document.head.appendChild(adsScript1);
-
-      adsScript1.onload = () => {
-        gtag("config", "AW-11475040852");
-      };
-
       // ✅ New Google Ads Tag (AW-17515825294)
       const adsScript2 = document.createElement("script");
       adsScript2.async = true;
