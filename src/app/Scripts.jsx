@@ -27,7 +27,7 @@ const Scripts = () => {
           height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
       document.body.insertBefore(noscriptDiv, document.body.firstChild);
 
-      // Optionally add Google Analytics Tag if needed
+      // Google Analytics Tag
       const analyticsScript = document.createElement("script");
       analyticsScript.src =
         "https://www.googletagmanager.com/gtag/js?id=G-KCPM5K053W";
@@ -36,10 +36,11 @@ const Scripts = () => {
       document.head.appendChild(analyticsScript);
 
       // Define gtag globally
+      window.dataLayer = window.dataLayer || [];
       window.gtag =
         window.gtag ||
         function () {
-          (window.dataLayer = window.dataLayer || []).push(arguments);
+          window.dataLayer.push(arguments);
         };
 
       // Initialize gtag for Google Analytics
@@ -49,15 +50,25 @@ const Scripts = () => {
       };
 
       // Google Ads Tag (AW-11475040852)
-      const adsScript = document.createElement("script");
-      adsScript.async = true;
-      adsScript.src =
+      const adsScript1 = document.createElement("script");
+      adsScript1.async = true;
+      adsScript1.src =
         "https://www.googletagmanager.com/gtag/js?id=AW-11475040852";
-      document.head.appendChild(adsScript);
+      document.head.appendChild(adsScript1);
 
-      // Initialize gtag for Google Ads
-      adsScript.onload = () => {
+      adsScript1.onload = () => {
         gtag("config", "AW-11475040852");
+      };
+
+      // ✅ New Google Ads Tag (AW-17515825294)
+      const adsScript2 = document.createElement("script");
+      adsScript2.async = true;
+      adsScript2.src =
+        "https://www.googletagmanager.com/gtag/js?id=AW-17515825294";
+      document.head.appendChild(adsScript2);
+
+      adsScript2.onload = () => {
+        gtag("config", "AW-17515825294");
       };
     }, 5000);
 
