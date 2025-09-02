@@ -1,17 +1,14 @@
 import Banner from "@/src/app/components/services/banner";
 import { BannerData, BlgosData, LeadData } from "@/src/app/blogs/data/data";
 import CtaForm from "@/src/app/home/ctaform";
-import Blogs from "@/src/app/home/blogs";
-import BlogCase from "@/src/app/blogs/blogcase";
 import { CallActionData } from "@/src/app/home/data/data";
+import SimpleTabs from "@/src/app/blogs/blogtabs";
 
 const Page = () => {
   return (
     <>
       <Banner data={BannerData} />
-      <Blogs data={BlgosData} blogPage={true} />
-      <Blogs data={LeadData} blogPage={true} />
-      <BlogCase />
+      <SimpleTabs BlgosData={BlgosData} LeadData={LeadData} />
       <CtaForm data={CallActionData} />
     </>
   );

@@ -64,7 +64,7 @@ const BlogCase = () => {
   return (
     <>
       <section
-        className={`${styles.casestudyLpSection} pt-100`}
+        className={`${styles.casestudyLpSection}`}
         id="CaseStudies"
       >
         <Container>

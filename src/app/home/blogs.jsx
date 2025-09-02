@@ -36,7 +36,7 @@ const Blogs = ({ data, blogPage }) => {
     return () => clearInterval(interval);
   }, [data.BlogsData]);
   return (
-    <section className={`pt-100 ${styles.blogsSection}`}>
+    <section className={` ${styles.blogsSection}`}>
       <Container>
         <Row>
           <Col md={7}>
