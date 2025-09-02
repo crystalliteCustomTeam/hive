@@ -59,9 +59,9 @@ const Blogs = ({ data, blogPage, tab }) => {
                   <h5>
                     <Link href={item.link}>{item.title}</Link>
                   </h5>
-                  <div className={styles.datatime}>
+                  {/* <div className={styles.datatime}>
                     {item.date} .  {timeDiffs[index] || "Just now"}
-                  </div>
+                  </div> */}
                   <p>{item.txt}</p>
                 </div>
               </div>

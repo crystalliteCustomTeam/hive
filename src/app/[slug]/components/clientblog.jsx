@@ -41,7 +41,7 @@ const ClientBlog = ({ blog }) => {
                             <Col md={12}>
                                 <div className={styles.flexCategory}>
                                     <div>{blog.category}</div>
-                                    <div>{blog.date}</div>
+                                    {/* <div>{blog.date}</div> */}
                                 </div>
                                 <h1>{blog.title}</h1>
                             </Col>
