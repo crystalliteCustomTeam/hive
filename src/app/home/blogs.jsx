@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 
-const Blogs = ({ data, blogPage }) => {
+const Blogs = ({ data, blogPage, tab }) => {
   const [timeDiffs, setTimeDiffs] = useState([]);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const Blogs = ({ data, blogPage }) => {
     return () => clearInterval(interval);
   }, [data.BlogsData]);
   return (
-    <section className={` ${styles.blogsSection}`}>
+    <section className={`${tab ? "" : "pt-100"}  ${styles.blogsSection}`}>
       <Container>
         <Row>
           <Col md={7}>

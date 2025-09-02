@@ -8,9 +8,9 @@ const Blogtabs = ({ BlgosData, LeadData }) => {
     const [activeTab, setActiveTab] = useState('1');
 
     const tabs = [
-        { id: '1', label: 'Growth & Strategy Hub', content: <Blogs data={LeadData} blogPage={true} /> },
+        { id: '1', label: 'Growth & Strategy Hub', content: <Blogs data={LeadData} blogPage={true} tab={true} /> },
         { id: '2', label: 'Case Studies', content: <BlogCase /> },
-        { id: '3', label: 'Blogs & Resources', content: <Blogs data={BlgosData} blogPage={true} /> },
+        { id: '3', label: 'Blogs & Resources', content: <Blogs data={BlgosData} blogPage={true} tab={true} /> },
     ];
 
     return (
@@ -19,7 +19,7 @@ const Blogtabs = ({ BlgosData, LeadData }) => {
                 <Col md={12}>
                     <div className={styles.tabHeader}>
                         {tabs.map(tab => (
-                            <div className={styles.tabBtn}
+                            <div className={`${styles.tabBtn} ${activeTab === tab.id ? styles.active : ''}`}
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
                             >

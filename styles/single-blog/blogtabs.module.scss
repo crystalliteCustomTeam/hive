@@ -27,6 +27,13 @@
       position: relative;
       z-index: 1;
     }
+    &.active {
+      color: #fff;
+      border-color: #7635ff;
+      &::before {
+        width: 100%;
+      }
+    }
     &::before {
       content: "";
       position: absolute;
