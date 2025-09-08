@@ -171,9 +171,9 @@ const Footer = () => {
             <section className={styles.copyRightSection}>
                 <Container className="h-100">
                     <Row className={`${styles.borderStyle} h-100`} >
-                        <Col sm={6} md={6} className="my-auto">
+                        <Col sm={12} md={8} lg={6} className="my-auto">
                             <div className={styles.CopyRightBox}>
-                                <div className={styles.txtCopyRight}>© Copyright 2025 - Infiniti Digital </div>
+                                <div className={styles.txtCopyRight}>© Copyright 2025 - Infiniti Digital <div className={styles.brandCopy}>Brand Of Infiniti Media Incorporation Company</div></div>
                                 <div className={styles.CopyRightLinks}>
                                     <ul>
                                         <li><Link href="/terms-and-conditions">Terms of Use</Link></li>
@@ -183,12 +183,12 @@ const Footer = () => {
                             </div>
 
                         </Col>
-                        <Col sm={6} md={6} className="my-auto text-center text-md-end">
+                        <Col sm={12} md={4} lg={6} className="my-auto text-center text-md-end">
                             <Image src={PaymentImg.src} alt="Payment Image" width={550} height={40} />
                         </Col>
                     </Row>
                 </Container>
-            </section>
+            </section >
         </>
     )
 }
