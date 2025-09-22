@@ -260,9 +260,9 @@ export const LeadData = {
   desc: "This is free, but it’s worth a lot! consider it our little gift to help you succeed.",
   BlogsData: [
     {
-      title: "Social Media Marketing Glossary",
+      title: "Social Media Marketing Glossary: 200+ SEO Terms Explained",
       date: "22 Sept, 2025",
-      txt: "",
+      txt: "This Social Media Marketing Glossary explains essential terms, acronyms, and strategies to understand social media marketing and improve your digital success.",
       category: "SMM",
       img: Glossary.src,
       link: "/smm-glossary",

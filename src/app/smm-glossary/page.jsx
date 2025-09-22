@@ -1206,7 +1206,7 @@ const Page = () => {
               className={`${styles.glossaryBox} text-center`}
             >
               <div className={styles.glossaryTxt}>
-                <h1>Social Media Marketing Glossary</h1>
+                <h1>Social Media Marketing Glossary: 200+ SEO Terms Explained</h1>
               </div>
             </Col>
 
