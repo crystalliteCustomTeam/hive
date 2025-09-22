@@ -260,6 +260,14 @@ export const LeadData = {
   desc: "This is free, but it’s worth a lot! consider it our little gift to help you succeed.",
   BlogsData: [
     {
+      title: "Social Media Marketing Glossary",
+      date: "22 Sept, 2025",
+      txt: "",
+      category: "SMM",
+      img: Glossary.src,
+      link: "/smm-glossary",
+    },
+    {
       title: "SEO Glossary: 400+ SEO Terms Explained",
       date: "19 Mar, 2025",
       txt: "Check out this HUGE list of the most important SEO terms, jargon, abbreviations to help you better understand SEO.",
