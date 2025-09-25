@@ -1,9 +1,9 @@
 import Banner from "@/src/app/seo-agency-new-york/components/banner";
 import CompanyInfo from "@/src/app/seo-agency-new-york/components/companyinfo";
-import { ServicesData, ReportData, TestimonialData, CtaData, ContactData, BlgosData, FAQsData } from "@/src/app/seo-agency-new-york/data/data";
+import { ServicesData, ReportData, TestimonialData, CtaData, ContactData, BlgosData, FAQsData, PartnerData } from "@/src/app/seo-agency-new-york/data/data";
 import ServicesLp from "@/src/app/seo-dallas-tx/serviceslp";
 import Work from "@/src/app/home/work";
-import { WorkData, IndustriesData, IndustryItem, PartnerData } from "@/src/app/home/data/data";
+import { WorkData, IndustriesData, IndustryItem } from "@/src/app/home/data/data";
 import AbtCta from "@/src/app/seo-agency-new-york/components/abtcta";
 import ReportSec from "@/src/app/seo-dallas-tx/report";
 import Testimonials from "@/src/app/home/testimonials";

@@ -21,76 +21,76 @@ export const ServicesData = {
     {
       icon: <Serv01 />,
       title: "Keyword Research & Strategy",
-      txt: "Our NYC SEO experts analyze search trends and target high-value keywords to drive qualified organic traffic and attract a maximum number of potential clients.",
+      txt: "Our New York SEO experts perform detailed keyword research and craft data-driven strategies, making Infiniti Digital one of the most trusted SEO companies New York has to offer.",
     },
     {
       icon: <Serv02 />,
       title: "Link Building",
-      txt: "As a top SEO company in NYC, we build authoritative, high-quality backlinks that strengthen your website’s credibility and push your website higher in search rankings.",
+      txt: "As a leading SEO company in New York, we specialize in building high-quality backlinks that boost authority, setting us apart from other top SEO agencies New York.",
     },
     {
       icon: <Serv03 />,
       title: "Technical SEO ",
-      txt: "We ensure your website is fast, mobile-friendly, and properly optimized for search engines, so you rank higher and perform at peak efficiency.",
+      txt: "Our technical SEO New York services ensure your website is fast, mobile-friendly, and optimized for a flawless user experience, making it easier for Google to index and rank your pages.",
     },
     {
       icon: <Serv04 />,
       title: "Local SEO",
-      txt: "Our  local SEO strategies get your business ranking in Google Maps and local search, putting you in front of nearby customers.",
+      txt: "Stand out in local searches with our local SEO services in NYC. Unlike other New York SEO companies or typical SEO companies near me, we optimize Google Maps, build citations, and ensure local customers find and choose your business first.",
     },
     {
       icon: <Serv05 />,
       title: "On-Page SEO",
-      txt: "We optimize your content, headings, and meta tags to improve rankings, enhance user experience, and increase visibility for businesses looking for SEO in NYC.",
+      txt: "From meta tags to headers and content optimization, our NYC SEO agency ensures every page is structured for both users and search engines, making us the go-to SEO company in NYC for reliable SEO service NY.",
     },
     {
       icon: <Serv06 />,
       title: "Entity SEO",
-      txt: "We implement entity-based optimization to position your business as a trusted industry authority in Google’s eyes.",
+      txt: "We implement entity-based SEO strategies that position your brand as an authority, improving relevance and boosting visibility in competitive New York markets, setting us apart from other SEO companies in New York and any typical search engine optimization firm New York City.",
     },
     {
       icon: <Serv07 />,
       title: "Search Generative Experience",
-      txt: "With Google’s AI-driven search evolution, we keep your website ahead of the curve, optimizing for the latest search generative experience updates.",
+      txt: "Stay ahead of Google’s AI-driven updates with strategies from leading New York SEO firms, offering SEO New York services that keep your business competitive with any SEO firm New York.",
     },
     {
       icon: <Serv07 />,
       title: "E-commerce SEO",
-      txt: "Our NYC ecommerce SEO service helps online stores increase organic traffic, optimize product pages, and convert more website visitors into buyers.",
+      txt: "Drive sales with e-commerce SEO services in New York, optimizing product pages, categories, and structured data, powered by New York City SEO services from a trusted search engine optimization agency NYC.",
     },
     {
       icon: <Serv09 />,
       title: "Organic Shopping Optimization",
-      txt: "Get found in Google Shopping without paid ads, we optimize your product listings for better rankings and more clicks.",
+      txt: "Increase your visibility on Google Shopping without overspending on ads. Our experts refine listings with local SEO services in NYC, delivering search engine optimization in New York and trusted SEO services in New York for growth.",
     },
   ],
 };
 
 import IMG from "media/location/seoImg.webp";
 export const ReportData = {
-  title: "Transparent SEO Reporting for Clients",
-  txt: "Stay on top of your SEO performance with clear, actionable insights. Our NYC SEO company provides monthly reports with key metrics like rankings, traffic, and engagement. Advanced plans include expert recommendations for continuous improvement, while premium packages give you real-time access to a Business Intelligence Dashboard. ",
+  title: "Transparent SEO Reporting for Clients in New York",
+  txt: "At Infiniti Digital, we believe in complete transparency. That’s why our New York City SEO agency provides detailed, easy-to-understand reports that keep you informed every step of the way. From keyword rankings to traffic analysis, our reporting ensures you always know the ROI of your SEO services in NYC. Whether you’re a local business or a global brand, our reports empower you to make smarter decisions, guided by the expertise of a trusted New York City SEO expert, and track measurable growth.",
   img: IMG.src,
   ReportItem: [
     {
       title: "Keyword Ranking Report",
-      txt: "We monitor your target keywords across search engine results, tracking improvements and spotting new ranking opportunities. Our reports help you see where you stand and what’s working.",
+      txt: "We track your target keywords across Google and other search engines, showing improvements, opportunities, and visibility gains. Our SEO services New York City ensure you always know where your brand stands with expert search engine optimization New York City.",
     },
     {
       title: "Traffic and Engagement Report",
-      txt: "Using advanced analytics, we measure organic traffic, bounce rates, and user behavior to understand how visitors interact with your site. This helps refine content and improve conversions.",
+      txt: "Get in-depth insights into organic traffic, bounce rates, and user behavior. These reports help refine strategies for better engagement and improved conversions, trusted by top New York SEO agencies and delivered by a leading SEO company in New York City.",
     },
     {
       title: "Technical SEO Report",
-      txt: "We run regular audits to identify and fix issues like slow loading speed, mobile-friendliness, indexing errors, and broken links. Keeping your site optimized ensures better rankings and user experience.",
+      txt: "From resolving loading speed issues to enhancing mobile-friendliness and indexing, our technical reports ensure your website remains optimized for performance, making us the NY SEO company businesses trust and a reliable search engine optimization agency New York.",
     },
     {
       title: "Backlink Report",
-      txt: "We track new, lost, and high-quality backlinks, helping strengthen your site’s authority. Our reports also highlight link-building opportunities to improve your ranking power.",
+      txt: "We monitor your link profile by tracking new, lost, and high-quality backlinks. Strengthen your site’s authority and uncover opportunities that boost rankings with the expertise of a leading search engine optimization agency in New York, including trusted specialists in New York City search engine optimization.",
     },
     {
       title: "Conversion and ROI Report ",
-      txt: "We connect SEO efforts to real results by tracking sales, leads, and sign-ups. Our reports focus on ROI, ensuring your SEO strategy drives measurable business growth.",
+      txt: "Our reports connect SEO performance with business outcomes, tracking leads, calls, and sales. With ROI-focused reporting, you’ll see exactly how our SEO company in NY and top NYC SEO company provide measurable growth through every SEO service NYC.",
     },
   ],
 };
@@ -169,9 +169,9 @@ import Logo18 from "media/home/partnerLogo/logo18.webp";
 import Logo19 from "media/home/partnerLogo/logo19.webp";
 import Logo20 from "media/home/partnerLogo/logo20.webp";
 export const PartnerData = {
-  subtitle: "Our Clientele",
-  title: "Brands That Trust Infiniti Digital",
-  desc: "We believe the best work happens when great teams come together, which is why leading brands choose Infiniti Digital as their trusted digital partner. From ambitious startups to global enterprises, our clients value our commitment to collaboration, integrity, and smart, scalable digital marketing solutions that drive real growth.",
+  subtitle: "Trusted Clients",
+  title: "Why Leading Brands Trust Infiniti Digital",
+  desc: "At Infiniti Digital, trust defines success. That’s why startups, enterprises, and industry leaders choose us. Among leading SEO agencies in NYC, we stand out as a New York search engine optimization company, offering tailored SEO services in NY. As a premier New York SEO company and trusted SEO company in New York, we deliver measurable growth.",
   PartnerLogos: [
     { logo: Logo1.src },
     { logo: Logo2.src },
@@ -200,11 +200,11 @@ export const PartnerData = {
 
 
 export const ContactData = {
-  title: "Don’t be Shy, Say Hi!",
-  txt: "Get SEO service in New York City and start dominating search results. Reach out now!",
+  title: "Rank Higher, Grow With Infiniti",
+  txt: "Start With a Free SEO Audit",
   subtitle: "Request A Free Quote",
-  title1: "NYC SEO Experts",
-  txt1: "Brings you more customers, not just rankings.",
+  title1: "Skyrocket Your Rankings in New York",
+  txt1: "Partner with Infiniti Digital, the trusted SEO agency in NYC, delivering proven strategies that drive traffic, leads, and sales",
   SeoPages: true,
 };
 
@@ -255,25 +255,47 @@ export const FAQsData = {
 
   Fqaslist: [
     {
-      title: "What services does Infiniti Digital offer ",
-      txt: "Infiniti Digital specializes in a comprehensive suite of digital marketing and development solutions. Our offerings include search engine optimization (SEO), social media marketing, mobile app development, web design, and content marketing. Every service is customized to help your business succeed and stand out.",
+      title: "What SEO services does Infiniti Digital provide?",
+      txt: (<>
+
+        <p>Infiniti Digital offers a full suite of SEO services designed to help your business rank higher and grow faster.</p>
+        <p>As one of the trusted SEO firms in NYC, we provide SEO services in New York businesses rely on, including local SEO, technical SEO, on-page optimization, content strategy, link building, and SEO audits.</p>
+        <p>For bigger goals, we deliver enterprise SEO, e-commerce SEO, and consulting customized to your needs. Recognized as a top New York local SEO company and leading search engine optimization company in New York, we bring proven expertise in search engine optimization in New York to drive measurable growth.</p>
+      </>),
     },
     {
-      title: "How does Infiniti Digital ensure results for its clients?",
-      txt: "We take a strategic, data-driven approach to deliver measurable outcomes. Infiniti Digital begins by analyzing your business objectives and audience. With tailored strategies, ongoing refinements, and transparent progress reports, we ensure each campaign drives the desired results.",
+      title: "How does Infiniti Digital ensure real results for its clients?",
+      txt: (<>
+        <p>At Infiniti Digital, we rely on data-driven SEO strategies and transparent reporting. Our experts use in-depth keyword research, competitor analysis, and advanced analytics to build strategies that work.</p>
+        <p>Ranked among the best SEO companies in NYC, we also provide expert guidance as your trusted SEO consultant in New York. With monthly reports and live tracking, you’ll see how rankings, leads, and conversions improve.</p>
+        <p>From New York local SEO services to enterprise-level campaigns, our New York City SEO team ensures measurable growth making us a top SEO company in New York for results-driven digital success.</p>
+      </>),
     },
     {
       title:
-        "Can Infiniti Digital handle projects for small and large businesses? ",
-      txt: "Yes, Infiniti Digital works with companies of all sizes, from startups to global enterprises. Our flexible services are designed to scale with your needs, whether you’re seeking a foundational digital marketing plan or an advanced strategy for sustained growth.",
+        "Can Infiniti Digital handle both small businesses and large enterprises?",
+      txt: (<>
+        <p>Absolutely. Infiniti Digital works with businesses of all sizes. Whether you’re a local business in New York wanting to dominate neighborhood searches or a global enterprise targeting multiple markets, our scalable strategies adapt to your goals.</p>
+        <p>Small businesses benefit from affordable, targeted local SEO in New York, while enterprises gain advanced technical SEO, large-scale content strategies, and enterprise-level reporting.</p>
+        <p>Recognized as the best SEO Company in NYC and ranked among the best SEO companies in New York, we also provide expert NYC SEO consulting. With the guidance of a trusted NY SEO expert, Infiniti Digital delivers measurable growth tailored to your business.</p>
+      </>),
     },
     {
-      title: "What industries does Infiniti Digital specialize in? ",
-      txt: "Infiniti Digital serves various industries, including retail, technology, healthcare, and education. Our team draws on deep experience to create targeted strategies tailored to the needs of each sector, ensuring impactful results for businesses of any niche.",
+      title: "Which industries does Infiniti Digital specialize in?",
+      txt: (<>
+        <p>Over the years, Infiniti Digital has successfully partnered with businesses across multiple industries, including e-commerce, healthcare, law, finance, real estate, SaaS, hospitality, and events.</p>
+        <p>As a trusted local SEO agency in New York, we understand how search behavior differs by industry, enabling us to craft custom campaigns that attract the right customers and maximize ROI.</p>
+        <p>From tailored NY SEO services to expert guidance from an experienced NYC SEO consultant, our strategies deliver measurable impact.</p>
+        <p>Recognized for results-driven solutions, New York City SEO Consulting Inc. leverages its level expertise to ensure every niche achieves the visibility and growth it deserves</p>
+      </>),
     },
     {
       title: "How can I get started with Infiniti Digital?",
-      txt: "Getting started is simple. Contact us via our website or call to arrange a consultation. We’ll take the time to understand your objectives and challenges, then design a detailed plan to elevate your brand’s digital presence and drive success.",
+      txt: (<>
+        <p>Getting started is easy. Simply book a consultation with our SEO experts. We’ll perform a website audit, review your competition, and provide a personalized roadmap tailored to your business. </p>
+        <p>From the first step, our goal is to help you rank higher, drive traffic, and grow revenue with clear strategies that work. </p>
+        <p>Recognized among all SEO company in New York, Infiniti Digital stands out as a trusted local SEO company in New York. Whether you need SEO New York NY solutions, an experienced SEO expert NYC, or a skilled SEO specialist New York, we deliver results that last.</p>
+      </>),
     },
   ],
 };

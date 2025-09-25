@@ -42,12 +42,10 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={7} className="my-auto">
                         <div className={styles.bannerContent}>
-                            <div className="subtitle">Top Mobile App Development</div>
-                            <h1>Top Mobile App Development Company in New York</h1>
+                            <div className="subtitle">Drive Traffic & Boost Rankings</div>
+                            <h1>Top-Rated SEO Agency in New York </h1>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry standard dummy text
-                                ever since the 1500s.
+                                At Infiniti Digital SEO Agency, we deliver growth. As one of the leading SEO firms in New York businesses trust, we help brands improve visibility, leads, and ROI. Whether you need tailored strategies or full SEO services in NYC, we stand apart from other SEO companies in New York and rank among the top SEO agencies in New York.
                             </p>
                             <CommonBtn txt="Let’s Build Your Dream App!" />
 

@@ -50,8 +50,8 @@ const CompanyInfo = () => {
         <Row className="h-100">
           <Col lg={8} md={12} className="my-auto">
             <div className="subtitle">What Drives Us?</div>
-            <h2>A Relentless Obsession With Getting It Right.</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h2>Awards & Recognitions</h2>
+            <p>At Infiniti Digital, we don’t just call ourselves the best SEO agency in New York, our awards and client feedback prove it. From local startups to global enterprises, businesses trust our expertise to drive visibility, traffic, and measurable growth. As a recognized New York City SEO company, our journey has been marked by prestigious recognitions that showcase our creativity, innovation, and results-driven strategies. Today, Infiniti Digital proudly stands as a trusted SEO agency NYC brands rely on for lasting digital success.</p>
             <div className={styles.companyStats}>
               <div className={styles.statsItem}>
                 <div className={styles.txtColor}>5K+</div>
