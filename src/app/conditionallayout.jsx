@@ -3,12 +3,14 @@ import { useEffect, useState } from "react";
 import Header from "@/src/app/layout/header";
 import Footer from "@/src/app/layout/footer";
 import { usePathname } from "next/navigation";
-import PopUpSMM from "./components/popupsmm";
+import PopUpSMM from "@/src/app/components/popupsmm";
+import PDFPopUp from "@/src/app/components/common/pdfpopup";
 
 const ConditionalLayout = ({ children }) => {
   const pathname = usePathname();
   const [showPopup, setShowPopup] = useState(false);
 
+  // Pages for SMM popup
   const popupPages = [
     "/social-media-marketing-services",
     "/social-media-advertising-services",
@@ -22,7 +24,20 @@ const ConditionalLayout = ({ children }) => {
     "/social-media-marketing",
   ];
 
+  // Pages for PDF popup
+  const pdfPages = [
+    "/blogs",
+    "/seo-service",
+    "/local-seo-service",
+    "/white-label-seo-service",
+    "/nationwide-seo-service",
+    "/small-business-seo-services",
+    "/enterprise-seo-service",
+    "/bloseo-agencygs",
+  ];
+
   const isPopupPage = popupPages.includes(pathname);
+  const isPopupPdf = pdfPages.includes(pathname); // <-- condition for PDFPopUp
 
   useEffect(() => {
     if (!isPopupPage) {
@@ -36,20 +51,17 @@ const ConditionalLayout = ({ children }) => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
 
-      // First popup at fixed scroll
       if (!firstTriggered && scrollY >= 1300) {
         setShowPopup(true);
         firstTriggered = true;
       }
 
-      // Second popup near end of Pricing section
       if (!secondTriggered) {
         const pricingSection = document.getElementById("PricingId");
         if (pricingSection) {
           const rect = pricingSection.getBoundingClientRect();
-          const sectionBottom = rect.bottom + window.scrollY; // distance from top of page
+          const sectionBottom = rect.bottom + window.scrollY;
 
-          // Trigger popup when user is 100px before section end
           if (scrollY + window.innerHeight >= sectionBottom + 1100) {
             setShowPopup(true);
             secondTriggered = true;
@@ -88,6 +100,9 @@ const ConditionalLayout = ({ children }) => {
           noservices={true}
         />
       )}
+
+      {isPopupPdf && <PDFPopUp />}
+
       {conditionalVariable && <Header />}
       {children}
       {conditionalVariable && <Footer />}

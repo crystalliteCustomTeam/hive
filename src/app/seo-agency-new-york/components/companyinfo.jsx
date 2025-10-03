@@ -12,7 +12,7 @@ import IMG06 from "media/location/awards/award06.webp";
 import IMG07 from "media/location/awards/award07.webp";
 import IMG08 from "media/location/awards/award08.webp";
 import Image from "next/image";
-import BannerPoster from "media/location/companyVideoPoster.webp";
+import BannerPoster from "media/locations/AgencyImage.gif";
 
 const options = { align: "start", loop: "true" };
 

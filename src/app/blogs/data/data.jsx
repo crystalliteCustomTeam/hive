@@ -41,6 +41,15 @@ export const BlgosData = {
   title: "Insights and Inspiration",
   desc: "Stay ahead of the curve with expert tips and trends. Our blogs deliver the latest on SEO, social media, web design, and more to fuel your growth.",
   BlogsData: [
+    // {
+    //   title: "How Local Businesses Can Dominate Google Rankings with the Right SEO Strategy",
+    //   date: "3 Oct, 2025",
+    //   txt: "In an era where consumers turn to Google for nearly every purchase decision, local visibility has become a lifeline for small businesses.",
+    //   category: "SEO",
+    //   img: IMG22.src,
+    //   link: "/local-businesses-can-dominate-google-rankings",
+    //   author: "lily-chen",
+    // },
     {
       title: "The Fastest Way for Dallas Property Managers to Get New Tenants Online",
       date: "11 Aug, 2025",

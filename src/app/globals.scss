@@ -197,6 +197,12 @@ body {
       border-radius: 30px;
     }
   }
+  .modal-sm {
+    --bs-modal-width: 500px;
+    .modal-content {
+      border-radius: 25px;
+    }
+  }
   .modal-lg {
     --bs-modal-width: 1300px;
 

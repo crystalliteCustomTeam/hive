@@ -6,7 +6,7 @@ import Image from "next/image";
 import TableOfContents from "@/src/app/[slug]/components/tablecontent";
 import Link from "next/link";
 import BlogPopUp from "@/src/app/[slug]/components/blogpopup";
-
+import PDFPopUp from "@/src/app/components/common/pdfpopup";
 const ClientBlog = ({ blog }) => {
     const [modalShow, setModalShow] = useState(false);
     const [hasTriggered, setHasTriggered] = useState(false);
@@ -72,6 +72,7 @@ const ClientBlog = ({ blog }) => {
                         </Row>
                     </Container>
                     {blog.schema ?? null}
+
                 </section>
             ) : (
                 <section className={styles.singlePost}>
@@ -94,6 +95,7 @@ const ClientBlog = ({ blog }) => {
                     </Container>
                 </section>
             )}
+            <PDFPopUp />
         </>
     );
 };
